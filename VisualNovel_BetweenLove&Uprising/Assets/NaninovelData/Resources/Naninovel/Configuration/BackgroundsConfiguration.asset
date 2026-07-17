@@ -68,7 +68,7 @@ MonoBehaviour:
         rid: 1010908961928642751
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
-      FilterMode: 2
+      FilterMode: 1
       EnableDepthPass: 1
       DepthAlphaCutoff: 0.5
       CustomTextureMaterial: {fileID: 0}

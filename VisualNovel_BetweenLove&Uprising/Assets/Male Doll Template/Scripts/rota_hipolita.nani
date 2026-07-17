@@ -150,7 +150,7 @@ FR: Don't push it.
 NA: But there is humor there.
 NA: You turn toward the door, open it and leave the inn.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 wait!
 @bgm wander
 NA: The sun is higher in the sky, you realize that yesterday you hadn't really noticed the path and houses around.
@@ -187,7 +187,7 @@ NA: You approach slowly.
 NA: Your heart beats faster than it should.
 NA: Your eyes fall upon the flowers in the garden.
 NA: Before you can think about it, you glance at the flowers and pick one.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGH02_{gender}_01 pos:50,50 id:CG scale:1 time:0
 @unlock CG/CGH02_{gender}_1
 NA: Holding it between your finger and plucking it from the earth, you offer it to her.
@@ -208,7 +208,7 @@ NA: You approach.
 NA: Observing the care in which she chooses each leaf.
 NA: Hipólita watches you for a moment, her eyes tracing your face.
 NA: As if she deciphered something, a subtle smile emerges.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGH02_{gender}_01 pos:50,50 id:CG scale:1 time:0
 @unlock CG/CGH02_{gender}_1
 NA: She then chooses a flower, picks it, and offers it to you.
@@ -280,7 +280,7 @@ NA: Your eyes meet once more.
 NA: And stay, one second longer.
 @hideChars
 NA: So you walk away. Before you change your mind.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 !wait
 NA: You walk the way back, the road feels much longer now.
 NA: The sun heavier.
@@ -425,7 +425,7 @@ NA: A small smile graces her features.
 HI: Still, there is something in these words that unsettles me.
 HI: Maybe that's exactly why I wish to keep them.
 
-@goto .scene3H-3
+@goto #scene3H-3
 
 # scene3H-2
 PLAYER: Much more than it seems.
@@ -473,7 +473,7 @@ NA: Then you turn away and leave the house.
 @sfx leaves
 NA: Your feet touch the grass and the sound of rustling leaves reach your ears again.
 @stopSfx fade:3 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 !wait
 @bgm wander
 NA: The road feels quieter on the way back.
@@ -559,7 +559,7 @@ FR: ...Yet you still go.
 @char {PLAYER}2.smile
 NA: A half smile escapes you.
 NA: She's right, you know it can be dangerous and improper for the time, but you fear you can't help it.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_innAfternoon
 NA: The rest of the day goes by much slower.
 NA: You try to help Francisca with the chores, sweeping, carrying jars, and seeming useful.
@@ -745,7 +745,7 @@ NA: And leave when you finish your coffee.
 NA: It's the same road, the same dirt and trees.
 
 NA: Your pace slows the closer you get to the house.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_gardenDay
 
 PLAYER: (I shouldn't... be here)
@@ -1056,7 +1056,7 @@ HI: You are not judge of this house, and I am not your property.
 
 NA: The groom takes a deep breath, holding something back.
 
-@goto .scene4H-1end
+@goto #scene4H-1end
 
 
 
@@ -1235,7 +1235,7 @@ BA: Not every garden keeps their secrets for long.
 
 NA: Hipólita closes her eyes for a moment.
 
-@goto .scene5H-1end
+@goto #scene5H-1end
 
 
 
@@ -1368,7 +1368,7 @@ NA: Reaching the ground you shake off some twigs and leaves from your clothes.
 @stopBgm fade:2 !wait
 NA: You take a deep breath and make your way back to the farm.
 @hide MainBackground
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_gardenNight pos:50,50 scale:1 time:0
 
 NA: As you approach the house looks different with the lights off, and the garden is silent at night.
@@ -1494,7 +1494,7 @@ NA: You feel a weight as you stand up and you turn to her, still seated.
 @hide HI
 @char {PLAYER}2 pos:{mid}
 NA: Your gaze lingers, until you turn away and leave the way you came in.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 !wait
 @stopBgm fade:2 !wait
 NA: Returning down the road, the village is quiet and all lights are off.
@@ -1537,7 +1537,7 @@ PLAYER: (...This is getting dangerous.)
 
 PLAYER: (Still... I would do it again.)
 @bgm respite
-@goSub .BlackScreen
+@gosub #BlackScreen
 ; Cap 4 - Noite dos Inconfidentes
 @back bg_innDay
 NA: You rise earlier than normal that morning.
@@ -1984,7 +1984,7 @@ NA: Francisca stops by your room, standing near the door.
 FR: Go.
 
 FR: And see that today you ruin only half the marriages in the village.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @stopBgm fade:2 !wait
 Noite dos Inconfidentes
 
@@ -2429,7 +2429,7 @@ NA: You hesitate only a moment and decide you won't be missed.
 
 NA: Then you follow her, an action that doesn't go unnoticed by Bárbara and Célio's attentive eyes.
 @hideChars
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_gardenNight
 NA: The garden is darker than last night.
 
@@ -2514,7 +2514,7 @@ NA: Night covers the dirt paths and the herbs.
 NA: From afar you can still see the lights and shadows inside.
 
 NA: But out here there seems to be only the two of you, the scent of flowers, and the sound of insects.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGH03_{gender}_01 id:CG time:0
 @unlock CG/CGH03_{gender}_1
 NA: You lean against the bench, sitting on the grass.
@@ -2562,9 +2562,9 @@ HI: If the world were kinder... maybe this would be enough.
 HI: Maybe this would be enough.
 ;@back cg_black.Crossfade id:CG !wait
 @hide CG
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_gardenNight
-@goto .scene6H-3
+@goto #scene6H-3
 
 # scene6H-2
 
@@ -2614,7 +2614,7 @@ PLAYER: (Am I missing what really matters?)
 
 # scene6H-3
 ; Depois de qualquer uma das escolhas.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @bgm volume:0.7
 NA: The argument at Hipólita's house still echoes in your head on your way out.
 @blur MainBackground
@@ -2634,7 +2634,7 @@ PLAYER: (At sunrise.)
 NA: You carefully fold the note.
 
 NA: And before you lose courage, you find a discreet place to leave the note, where only she would find it.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @blur MainBackground power:0
 ; Manhã do outro dia na estalagem
 @stopBgm fade:1 !wait
@@ -2686,7 +2686,7 @@ PLAYER: Thank you so much, you're the best.
 NA: She smiles at your words, you two have become true confidantes these past few days.
 
 FR: And don't step on other people's flowers this time.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ; No jardim
 @stopBgm fade:1
 @back bg_gardenDay
@@ -3008,7 +3008,7 @@ NA: When she crosses the door, her hands tremble.
 NA: Only when she's alone in the hallway does she lean against the wall and closes her eyes.
 
 NA: For the first time, she seems to not know what to do.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ; Um tempo depois
 @stopBgm fade:3 !wait
 @back bg_marketDay
@@ -3104,7 +3104,7 @@ NA: Francisca smirks.
 FR: Come.
 
 NA: You continue walking through the stalls and shopping for fruit.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ; CAP 5
 @back bg_innDay
 @stopBgm fade:1 !wait
@@ -3259,7 +3259,7 @@ CELINA: Today there are few she wishes to see.
 
 CELINA: I believe you are one of them.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_gardenDay
 NA: You circle the house carefully, away from the commotion.
 
@@ -3394,7 +3394,7 @@ NA: An old gleam returns to her eyes.
 
 NA: Not peace, but some kind of strength.
 
-@goto .scene7H-3
+@goto #scene7H-3
 
 # scene7H-2
 
@@ -3471,7 +3471,7 @@ NA: For the first time since you got here, she smiles.
 NA: It's a small, fragile thing, but it's real.
 
 HI: So I still have something left.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @stopBgm fade:3 !wait
 @back bg_squareAfternoon.Crossfade pos:-65,90 scale:3.0 time:0 !wait
 NA: The sun already sets when you return to the inn.
@@ -3590,7 +3590,7 @@ NA: Between arrests, names whispered on street corners, and houses under surveil
 NA: You think of her more than you admit.
 
 NA: Of the garden, of the touch of her hands every time you feel the weight of the locket against your chest.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ; O reencontro
 @stopBgm fade:1
 NA: On a clear morning, you make a decision.
@@ -3637,11 +3637,11 @@ NA: But you choose what you think is right, even if it's not what will make you 
 
 @if afetoHipolita>5
 
-@goto .scene8H-1
+@goto #scene8H-1
 
 @else
 
-@goto .scene8H-2
+@goto #scene8H-2
 
 @endif
 
@@ -3700,7 +3700,7 @@ NA: Your heart races and your eyes sparkle at the idea.
 PLAYER: Then I'm not responsible for what I do next.
 @char HI.happy
 NA: Hipólita laughs, free and beautiful.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGH04_{gender}_01 id:CG time:0
 @unlock CG/CGH04_{gender}_1
 NA: You pull her close.
@@ -3775,11 +3775,11 @@ NA: It was the beginning of something and, around the farm, you finally felt lik
 ; FIM!
 ;@back cg_black.Crossfade id:CG !wait
 @hide CG
-@goto .GameEnd
+@goto #GameEnd
 
 ; (Final Ruin)
 # scene8H-2
-@goSub .BlackScreen
+@gosub #BlackScreen
 @stopBgm fade:1
 @back bg_gardenAfternoon
 NA: A few days later, you return to Hipólita's house.
@@ -3882,7 +3882,7 @@ NA: Her tone is polite, but distant.
 NA: You stay seated, cursing your actions and words that led you here.
 @hideChars
 NA: As you watch her slowly walk inside the house.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;NA estalagem
 @back bg_innDay
 NA: Days later you're at the inn, dejected and weary, helping Francisca with cleaning.
@@ -3925,7 +3925,7 @@ NA: Francisca looks at you in disbelief as if the answer was obvious, but she st
 FR: And yet, you'll go.
 
 NA: She knows you too well.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;O casamento
 @stopBgm fade:1
 
@@ -3973,7 +3973,7 @@ NA: You leave slowly, your eyes follow the procession toward the carriage, and w
 NA: That look never felt so much like a silent farewell.
 ;@back cg_black.Crossfade id:CG !wait
 @hide CG
-@goto .GameEnd
+@goto #GameEnd
 ; FIM!
 
 # BlackScreen

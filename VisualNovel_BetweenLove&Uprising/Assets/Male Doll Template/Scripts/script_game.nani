@@ -16,7 +16,7 @@
 @set liberaHipolita=false
 @set liberaJoaquim=false
 @set liberaTiradentes=false
-@set demoVersion=false
+@set demoVersion=true
 
 ; Rota Comum
 ; Cena Start - Escolha
@@ -24,8 +24,8 @@
 NA: Choose your appearance.
 @char PLAYERF.neutral look:left pos:{leftmid}
 @char PLAYERM.neutral look:left pos:{rightmid}
-@choice Left goto:.female
-@choice Right goto:.male
+@choice Left goto:#female
+@choice Right goto:#male
 @stop
 
 # female
@@ -34,14 +34,15 @@ NA: Choose your appearance.
 @set name="Maria"
 @set selector=0
 @hideChars
-@goto .scene0-0
+@goto #scene0-0
+
 # male
 @set gender="male"
 @set PLAYER="PLAYERM"
 @set name="João"
 @set selector=1
 @hideChars
-@goto .scene0-0
+@goto #scene0-0
 
 
 
@@ -69,7 +70,7 @@ NA: "But some promises refuse to stay buried."
 NA: "They pull. They call."
 NA: "They refuse silence.”
 ; @fadeout 1
-@gosub .BlackScreen
+@gosub #BlackScreen
 
 ; Scene 1
 @wait 1.0
@@ -259,7 +260,7 @@ NA: He says it, a bit embarrassed.
 AL: She’s curious. She’ll likely have questions.
 @endif
 @stopBgm fade:3 !wait
-@gosub .BlackScreen
+@gosub #BlackScreen
 ; CENA 3
 @bgm respite volume:0.7
 @back bg_squareDay.Crossfade pos:50,50 scale:1 time:1.5 wait!
@@ -302,7 +303,7 @@ NA: Alvarenga returns carrying folded clothes in his arms.
 AL: I believe these will fit you.
 NA: He indicates a small room nearby and steps away, clearly giving you privacy.
 @back bg_black.Crossfade pos:50,50 scale:1 time:0
-@gosub .BlackScreen
+@gosub #BlackScreen
 NA: You enter and close the door behind you.
 NA: You change clothes carefully. The fabric is rough, unlike what you’re used to. When you look at yourself, you barely recognize the reflection — now you seem to belong to this place, even without knowing how or why.
 
@@ -332,7 +333,7 @@ AL: Besides, it’s best you see how things work around here.
 NA: He gives you a meaningful look — and steps out, certain you’ll follow.
 NA: You walk through the packed-earth streets. The bustle grows with every corner: voices blend together, hurried footsteps cross your path, the metallic jingle of coins echoes here and there.
 @stopBgm fade:3 !wait
-@gosub .BlackScreen
+@gosub #BlackScreen
 @bgm wander volume:0.7
 @back bg_marketDay.Crossfade time:1.5 wait!
 
@@ -451,7 +452,7 @@ NA: Even before stepping up, he commands attention.
 NA: Alvarenga recognizes him instantly.
 AL: What does he think he’s doing now…?
 
-@gosub .BlackScreen
+@gosub #BlackScreen
 ; aqui
 @hideChars
 @back CG01_01.Crossfade id:CG time:1.5 wait!
@@ -507,7 +508,7 @@ NA: The soldiers exchange glances but do not advance.
 NA: They retreat, frustrated, restrained by the weight of the crowded square.
 ;@back cg_black.Crossfade id:CG !wait
 @hide CG
-@gosub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay.Crossfade time:1.5 wait!
 NA: He steps down from the crate without any gesture of triumph.
 NA: The crowd begins to disperse, still carrying the echo of his words.
@@ -605,8 +606,8 @@ PLAYER: The words you spoke were beautiful… but dangerous.
 NA: Tiradentes lets out a tired, knowing half-smile.
 TI: Speeches always sound better from a distance, don’t they?
 
-@choice "People really listened" goto:.scene1T-1
-@choice "Words don’t fill empty stomachs" goto:.scene1T-2
+@choice "People really listened" goto:#scene1T-1
+@choice "Words don’t fill empty stomachs" goto:#scene1T-2
 @stop
 
 # scene1T-1
@@ -625,7 +626,7 @@ NA: He takes two steps away, then pauses.
 TI: Still…
 TI: Not every silence is a virtue.
 
-@goto .scene1T-3end
+@goto #scene1T-3end
 
 # scene1T-2
 NA: He breathes deeply, as if deciding not to argue with the world.
@@ -637,8 +638,8 @@ NA: A brief, weary smile.
 TI: If words don’t fill stomachs… at least they remind us they exist.
 NA: He nods to you with respect.
 NA: You look back thoughtfully, wondering whether your words can truly help him.
-@choice "Maybe I want to hear more" goto:.scene1T-1
-@choice "It’s none of my concern" goto:.scene1T-3
+@choice "Maybe I want to hear more" goto:#scene1T-1
+@choice "It’s none of my concern" goto:#scene1T-3
 @stop
 
 
@@ -655,8 +656,8 @@ TI: And silence brings them as well.
 NA: He gives a short nod.
 TI: Farewell.
 NA: Without waiting for a reply, he disappears into the crowd.
-@goto .TESTE
-@goto .scene1T-3end
+;@goto #TESTE
+@goto #scene1T-3end
 
 
 # scene1T-3end
@@ -708,16 +709,16 @@ NA: You take a deep breath.
 
 
 @if rotaEstrada=true&rotaArmazem=true&rotaFeira=true&rotaTeatro=true
-@goto .scene6
+@goto #scene6
 @endif
 @back bg_squareDay.Crossfade time:1.5 wait!
 NA: Maybe it's time to choose where to go.
 
 
-@choice "Follow the road" goto:.Rota_Estrada if:rotaEstrada=false
-@choice "Check the warehouse" goto:.Rota_Armazem if:rotaArmazem=false
-@choice "Check the market" goto:.Rota_Feira if:rotaFeira=false
-@choice "Check the theater" goto:.Rota_Teatro if:rotaTeatro=false
+@choice "Follow the road" goto:#Rota_Estrada if:rotaEstrada=false
+@choice "Check the warehouse" goto:#Rota_Armazem if:rotaArmazem=false
+@choice "Check the market" goto:#Rota_Feira if:rotaFeira=false
+@choice "Check the theater" goto:#Rota_Teatro if:rotaTeatro=false
 @stop
 
 # scene6
@@ -956,14 +957,14 @@ VI: Under whose protection are you?
 
 NA: Silence falls like a weight.
 @if liberaBarbara=false&liberaCelio=false&liberaHipolita=false&liberaJoaquim=false&liberaTiradentes=false
-@goto .Bad_End
+@goto #Bad_End
 @endif
 
-@choice "Under the care of Hipólita Teixeira de Melo" goto:.Rota_Hipolita if:liberaHipolita=true
-@choice "In Tiradentes’ company" goto:.Rota_Tiradentes if:liberaTiradentes=true
-@choice "In Joaquim’s company" goto:.Rota_Joaquim if:liberaJoaquim=true
-@choice "Hand over the letter Bárbara gave you" goto:.Rota_Barbara if:liberaBarbara=true
-@choice "With Célio’s theater troupe" goto:.Rota_Celio if:liberaCelio=true
+@choice "Under the care of Hipólita Teixeira de Melo" goto:#Rota_Hipolita if:liberaHipolita=true
+@choice "In Tiradentes’ company" goto:#Rota_Tiradentes if:liberaTiradentes=true
+@choice "In Joaquim’s company" goto:#Rota_Joaquim if:liberaJoaquim=true
+@choice "Hand over the letter Bárbara gave you" goto:#Rota_Barbara if:liberaBarbara=true
+@choice "With Célio’s theater troupe" goto:#Rota_Celio if:liberaCelio=true
 @stop
 
 ; “Under the care of Hipólita Teixeira de Melo.”
@@ -978,7 +979,7 @@ VI: I wonder what a lady of such fine lineage is doing involving herself with…
 NA: He glances sideways at Alvarenga.
 VI: Certain company stains worse than road mud.
 NA: Alvarenga tightens his jaw, but restrains himself.
-@goto .scene6follow
+@goto #scene6follow
 
 ; “In Tiradentes’ company.”
 # Rota_Tiradentes
@@ -994,7 +995,7 @@ NA: Tiradentes holds his gaze.
 @char TI.determined look:left pos:{rightmid}
 TI: I do nothing but remind the people of the burden they carry.
 VI: And I make it my duty to remind you who holds the chain.
-@goto .scene6follow
+@goto #scene6follow
 
 ; “In Joaquim’s company.”
 # Rota_Joaquim
@@ -1011,7 +1012,7 @@ NA: Joaquim answers with a controlled smile.
 JO: Vila Rica has grown small, Your Excellency — it offers few new distractions.
 JO: And I don't ignore the rare exceptions.
 VI: Too small for your maneuvers.
-@goto .scene6follow
+@goto #scene6follow
 
 ; “Hand over the letter Bárbara gave me.”
 # Rota_Barbara
@@ -1027,7 +1028,7 @@ NA: He lifts his gaze, sharp.
 VI: Now I see. Another one circulating among warehouses and hidden favors.
 NA: A soldier murmurs something in the background.
 VI: Do not think this will go unnoticed.
-@goto .scene6follow
+@goto #scene6follow
 
 ; “I’m with the theater troupe. With Célio.”
 # Rota_Celio
@@ -1040,7 +1041,7 @@ NA: He exhales in disdain.
 VI: Another vagrant decorating the city with antics while the gold disappears.
 NA: His gaze darkens.
 VI: Be careful. People without trade tend to end up… hanging poorly.
-@goto .scene6follow
+@goto #scene6follow
 
 ; Bad End
 
@@ -1111,7 +1112,7 @@ NA: He makes a conciliatory gesture.
 @char AL.neutral look:left pos:{mid}
 AL: Still, I know a safe inn.
 @stopBgm fade:5 !wait
-@gosub .BlackScreen
+@gosub #BlackScreen
 
 ; CENA 7
 @back bg_innNight.Crossfade time:1.5 wait!
@@ -1183,9 +1184,9 @@ PLAYER: (He’s also a gentleman.)
 NA: You shake your head, trying — unsuccessfully — to push the thought away.
 NA: Then you climb the inn’s stairs, knowing that tomorrow Vila Rica won’t let you pass unnoticed.
 
-@gosub .BlackScreen
+@gosub #BlackScreen
 ;@goto "MD Template (Resources)/Scripts/rota_tiradentes"
-@goto .End_RotaComum
+@goto #End_RotaComum
 
 ; Cena 5H- 1-Rota da Hipolita
 # Rota_Estrada
@@ -1362,8 +1363,8 @@ NA: She notices your surprise and tilts her head curiously.
 @char {PLAYER}2.surprise look:left pos:{leftmid}
 HI: I suppose that isn’t very common where you come from.
 
-@choice "Of course not — not at all" goto:.scene1H-1
-@choice "It’s not something I think about much, but I understand" goto:.scene1H-2
+@choice "Of course not — not at all" goto:#scene1H-1
+@choice "It’s not something I think about much, but I understand" goto:#scene1H-2
 @stop
 ; Escolha do Jogador
 
@@ -1393,7 +1394,7 @@ HI: Perhaps.
 NA: She turns quickly and disappears into the house — her steps far too firm for someone who said *perhaps*.
 @hide HI
 NA: You’re left with the clear feeling that you crossed an invisible boundary.
-@goto .scene1H-1end
+@goto #scene1H-1end
 
 # scene1H-2
 @set liberaHipolita=true
@@ -1447,7 +1448,7 @@ NA: Her voice is low but urgent.
 NA: Hipólita grabs your hand abruptly and pulls you down to a lower part of the garden.
 
 @hideChars
-@gosub .BlackScreen
+@gosub #BlackScreen
 @back CG03_{gender}_01.Crossfade id:CG time:0 wait!
 @unlock CG/CG03_{gender}_1
 NA: You both hide among the plants and tall trees, your back pressing against the wall, warmed by the sun and covered in creeping grass.
@@ -1475,13 +1476,13 @@ NA: Still… you noticed.
 
 ;@back cg_black.Crossfade id:CG !wait
 @hide CG
-@gosub .BlackScreen
+@gosub #BlackScreen
 @back bg_gardenDay.Crossfade time:1.5 wait!
 @char HI.sad look:left pos:{rightmid}
 @char {PLAYER}2.thinking look:left pos:{leftmid}
 NA: When the danger feels distant, you may:
-@choice "Ask about the man" goto:.scene2H-1
-@choice "Pretend you didn’t notice" goto:.scene2H-2
+@choice "Ask about the man" goto:#scene2H-1
+@choice "Pretend you didn’t notice" goto:#scene2H-2
 @stop
 
 # scene2H-1
@@ -1499,7 +1500,7 @@ PLAYER: You’re engaged?
 HI: It was decided long ago.
 PLAYER: But you’re so young!
 HI: I am… but in these lands, that raises little concern.
-@goto .scene2H-1end
+@goto #scene2H-1end
 
 # scene2H-2
 @set liberaHipolita=false
@@ -1592,8 +1593,8 @@ NA: The conversation ends there.
 
 NA: The road continues… but the sense of warning lingers.
 @stopBgm fade:3 !wait
-@gosub .BlackScreen
-@goto .choiceRota
+@gosub #BlackScreen
+@goto #choiceRota
 
 
 ; Cena 1J-1 — Rota Joaquim
@@ -1602,7 +1603,7 @@ NA: The road continues… but the sense of warning lingers.
 @set rotaFeira=true
 
 @if rotaArmazem=false&rotaEstrada=false
-@goto .skipFeira
+@goto #skipFeira
 @endif
 
 NA: Alvarenga steps away with a friend, and he seems eager for privacy to discuss something.
@@ -1618,7 +1619,7 @@ NA: Voices rise, footsteps close in, and before you realize it, a small circle f
 NA: At the center, a well-dressed man argues with another whose rigid posture and royal insignia mark him as an agent of the Crown.
 NA: The first man draws attention immediately.
 
-@gosub .BlackScreen
+@gosub #BlackScreen
 @back CG02_01.Crossfade id:CG time:0 wait!
 @unlock CG/CG02_1
 
@@ -1657,7 +1658,7 @@ NA: He releases the collar abruptly and draws a measured breath.
 
 ;@back cg_black.Crossfade id:CG !wait
 @hide CG
-@gosub .BlackScreen
+@gosub #BlackScreen
 @back bg_marketDay.Crossfade time:1.5 wait!
 
 @char JO.thinking look:left pos:{mid}
@@ -1723,8 +1724,8 @@ NA: He sighs, running a hand through his hair.
 @char JO.neutral look:left pos:{rightmid}
 JO: The debts never end. They only change their names.
 
-@choice "Stay silent" goto:.scene1J-1
-@choice "Ask what’s going on" goto:.scene1J-2
+@choice "Stay silent" goto:#scene1J-1
+@choice "Ask what’s going on" goto:#scene1J-2
 @stop
 
 # scene1J-1
@@ -1745,7 +1746,7 @@ NA: He looks at you with that charming smile.
 @char JO.thinking look:left pos:{rightmid}
 JO: By the way… I still don’t know your name.
 
-@goto .scene1J-1end
+@goto #scene1J-1end
 
 # scene1J-2
 
@@ -1774,7 +1775,7 @@ NA: He gives you that charming smile.
 @char JO.thinking look:left pos:{rightmid}
 JO: By the way… I still don’t know your name.
 
-@goto .scene1J-1end
+@goto #scene1J-1end
 
 # scene1J-1end
 
@@ -1798,8 +1799,8 @@ JO: Allow me to mend that dreadful first impression?
 NA: He gestures broadly to the stall.
 JO: Choose something. Consider it a gesture of peace… or interest.
 
-@choice "Refuse the offer" goto:.scene2J-1
-@choice "Accept the offer" goto:.scene2J-2
+@choice "Refuse the offer" goto:#scene2J-1
+@choice "Accept the offer" goto:#scene2J-2
 @stop
 
 # scene2J-1
@@ -1815,7 +1816,7 @@ JO: Another time, then.
 JO: Memorable encounters rarely settle themselves in a single gesture.
 NA: The smile remains, but now there’s genuine curiosity behind it.
 
-@goto .scene2J-1end
+@goto #scene2J-1end
 
 # scene2J-2
 
@@ -1830,7 +1831,7 @@ JO: Consider it an agreement.
 JO: I gain pleasant company… and you gain something to remember this meeting by.
 NA: His gaze lingers a moment longer than necessary.
 
-@goto .scene2J-1end
+@goto #scene2J-1end
 
 # scene2J-1end
 @char JO.neutral look:left pos:{rightmid}
@@ -1887,8 +1888,8 @@ AL: Come. There’s more you need to see… and hear.
 NA: You walk together toward the square.
 NA: As you go, Joaquim’s smile keeps returning to your thoughts — along with the uneasy sense that this meeting was only the beginning of something far greater.
 @stopBgm fade:3 !wait
-@gosub .BlackScreen
-@goto .choiceRota
+@gosub #BlackScreen
+@goto #choiceRota
 
 ; Cena ‘B- 1-Rota da Bárbara
 # Rota_Armazem
@@ -1927,7 +1928,7 @@ NA: A corner of her mouth lifts.
 
 ;@back cg_black.Crossfade id:CG !wait
 @hide CG
-@gosub .BlackScreen
+@gosub #BlackScreen
 @back bg_warehouseDay.Crossfade time:1.5 wait!
 
 @char BA.smile look:left pos:{rightmid}
@@ -1980,8 +1981,8 @@ NA: She steps back, already beginning to walk.
 ??: If you dislike what you see, you may leave owing me nothing.
 NA: Without looking back or waiting for your reply, she starts ahead.
 
-@choice "Refuse the invitation" goto:.scene1B-1
-@choice "Accept the invitation" goto:.scene1B-2
+@choice "Refuse the invitation" goto:#scene1B-1
+@choice "Accept the invitation" goto:#scene1B-2
 @stop
 
 # scene1B-1
@@ -1997,7 +1998,7 @@ NA: She steps back, restoring the distance she’d broken.
 NA: Before leaving, she casts one final glance, then melts back into the road’s movement.
 NA: You can’t shake the feeling you lost more than a conversation.
 @hide BA
-@goto .scene1B-1end
+@goto #scene1B-1end
 
 # scene1B-2
 
@@ -2036,8 +2037,8 @@ NA: A heavy silence settles as she holds your gaze.
 @stopSfx fade:3 !wait
 ??: What were you looking for in that speech?
 
-@choice "Deny (Lie)" goto:.scene2B-1
-@choice "Tell the truth" goto:.scene2B-2
+@choice "Deny (Lie)" goto:#scene2B-1
+@choice "Tell the truth" goto:#scene2B-2
 @stop
 
 # scene2B-1
@@ -2055,7 +2056,7 @@ NA: She steps back.
 ??: You’re not who I thought you were.
 NA: Without another word, she turns and walks deeper into the warehouse, already issuing orders to others.
 @hide BA
-@goto .scene2B-1end
+@goto #scene2B-1end
 
 # scene2B-2
 
@@ -2204,8 +2205,8 @@ NA: Yet the letter in your pocket suddenly feels heavier.
 
 @endIf
 @stopBgm fade:3 !wait
-@gosub .BlackScreen
-@goto .choiceRota
+@gosub #BlackScreen
+@goto #choiceRota
 
 ;Cena 1C-1 — Rota Célio
 
@@ -2235,7 +2236,7 @@ NA: You remember a different kind of movement in the crowd.
 NA: It wasn’t a speech — it was a performance.
 NA: The young man had appeared among puppets and colorful cloth as if the square itself were his stage.
 
-@gosub .BlackScreen
+@gosub #BlackScreen
 @back CG05_01.Crossfade id:CG time:0 wait!
 @unlock CG/CG05_1
 
@@ -2283,7 +2284,7 @@ NA: The memory fades.
 
 ;@back cg_black.Crossfade id:CG !wait
 @hide CG
-@gosub .BlackScreen
+@gosub #BlackScreen
 @back bg_theater.Crossfade time:1.5 wait!
 
 NA: The young man moves among actors and puppets with the same ease, broad gestures and easy grin intact. When he catches your gaze, he raises an amused eyebrow.
@@ -2314,8 +2315,8 @@ NA: He inclines his head slightly, voice low.
 CE: A pleasure… but tell me…
 CE: What did you think of all that?
 
-@choice "I disagree" goto:.scene1C-1
-@choice "I agree" goto:.scene1C-2
+@choice "I disagree" goto:#scene1C-1
+@choice "I agree" goto:#scene1C-2
 @stop
 
 # scene1C-1
@@ -2328,7 +2329,7 @@ CE: If we don’t starve, we’re silenced.
 NA: His gaze turns serious for a moment.
 @char CE.thinking look:left pos:{rightmid}
 CE: You speak like someone who’s already learned fear… born here?
-@goto .scene1C-1end
+@goto #scene1C-1end
 
 # scene1C-2
 @set liberaCelio=true
@@ -2445,8 +2446,8 @@ CE: Not a performance for crowds… only for those who know how to look.
 NA: A brief pause, thick with expectation.
 CE: What do you say?
 
-@choice Refuse goto:.scene2C-1
-@choice Accept goto:.scene2C-2
+@choice Refuse goto:#scene2C-1
+@choice Accept goto:#scene2C-2
 @stop
 
 # scene2C-1
@@ -2458,8 +2459,8 @@ CE: I understand. A city does not reveal itself to those in a hurry.
 NA: A faint smile.
 CE: But the curtains remain open… should you change your mind.
 @stopBgm fade:3 !wait
-@gosub .BlackScreen
-@goto .scene1C-2end
+@gosub #BlackScreen
+@goto #scene1C-2end
 ; Vai direto para a Cena C-3 com Alvarenga do lado de fora
 
 # scene2C-2
@@ -2528,7 +2529,7 @@ NA: Célio nods, satisfied.
 @char CE.neutral look:left pos:{rightmid}
 CE: Then you stand under my roof… at least in words.
 CE: And in Vila Rica, words carry more weight than they should.
-@gosub .BlackScreen
+@gosub #BlackScreen
 
 
 # scene1C-2end
@@ -2561,8 +2562,8 @@ NA: He pushes off the wall, gesturing down the street.
 AL: Come.
 NA: Together, you head back along the stone streets.
 @stopBgm fade:3 !wait
-@gosub .BlackScreen
-@goto .choiceRota
+@gosub #BlackScreen
+@goto #choiceRota
 
 
 
@@ -2645,8 +2646,8 @@ NA: The world does not stop.
 NA: But for you, everything changes.
 NA: Now, you belong to another story…
 NA: One that rarely ends well.
-@gosub .BlackScreen
-@goto .End_RotaComum
+@gosub #BlackScreen
+@goto #End_RotaComum
 
 # BlackScreen
 @hideChars !wait
@@ -2662,24 +2663,25 @@ NA: One that rarely ends well.
 # End_RotaComum
 @stopBgm fade:1
 @if demoVersion=true
-@showUI DemoEndUI
+	@showUI DemoEndUI
 @endif
 
 @if afetoHipolita=1
-@goto rota_hipolita
+	@goto rota_hipolita
 @endif
 @if afetoTiradentes=1
-@goto rota_tiradentes
+	@goto rota_tiradentes
 @endIf
 @if afetoJoaquim=1
-@goto rota_joaquim
+	@goto rota_joaquim
 @endIf
 @if afetoBarbara=1
-@goto rota_barbara
+	@goto rota_barbara
 @endIf
 @if afetoCel=1
-@goto rota_cel
+	@goto rota_cel
 @endIf
+
 ; @title
 ;
 @stop

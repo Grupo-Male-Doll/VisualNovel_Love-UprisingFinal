@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0f4d2e006d741194095639fd26cd20a1
+guid: 0d42882e6a86e18419987b59459c1ebe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5131768021658436220
-    second: Dialog_Box_0
+      213: 6253264463050996576
+    second: Dialog_Box_Narrator_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dialog_Box_0
+      name: Dialog_Box_Narrator_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 25
-        width: 1555
-        height: 299
+        x: 53
+        y: 18
+        width: 1532
+        height: 304
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7209a093d3b73740800000000000000
-      internalID: 5131768021658436220
+      spriteID: 06b7abed5ee08c650800000000000000
+      internalID: 6253264463050996576
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Dialog_Box_0: 5131768021658436220
+      Dialog_Box_Narrator_0: 6253264463050996576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -212,7 +212,7 @@ PLAYER: I am pleasant.
 NA: She stares at you with a raised eyebrow and you theatrically put your hand to your chest in offense.
 @stopBgm fade:2 !wait
 @hideChars
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
 @bgm wander
 NA: You leave the inn, walking through the cobblestone streets, hearing the distant sound of horses and smelling the damp earth mixed with the aroma of food coming from the kitchens.
@@ -494,7 +494,7 @@ BA: Your knight has just appeared.
 NA: Hipólita seems mortified by the suggestion, and the fiancé is astonished.
 
 
-@goto .scene3B-2end
+@goto #scene3B-2end
 
 #scene3B-2
 @char {PLAYER}2.neutral
@@ -704,7 +704,7 @@ NA: She sighs and bites her lower lip, then turns away.
 NA: And you return to the room.
 
 
-@goto .scene4B-2end
+@goto #scene4B-2end
 
 #scene4B-2
 @char BA.smile
@@ -831,7 +831,7 @@ HI: Don't encourage </her/him>.
 NA: You try to defuse the situation by changing the subject.
 
 NA: Luckily, the argument loses momentum. You thank Hipólita but leave as quickly as you can.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @stopBgm fade:1 !wait
 @bgm respite
 @back bg_innNight
@@ -1211,7 +1211,7 @@ NA: But annoyingly, you think about two things.
 NA: Barbara's sharp smile and how Alvarenga became unexpectedly awkward.
 
 NA: You get lost in thought until you fall asleep.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_innDay
 NA: You hear some noises and feel the light in your eyes, then you wake up.
 
@@ -1852,7 +1852,7 @@ PLAYER: I wanted to.
 @char BA.smile
 NA: That makes her smile. It's small, beautiful, and different from the others, and her eyes seem to sparkle.
 
-@goto .scene5B-2end
+@goto #scene5B-2end
 #scene5B-2
 @char BA.neutral
 NA: Bárbara is quiet for a second.
@@ -2110,7 +2110,7 @@ NA: You spend some time at the window watching the Village from afar.
 PLAYER: This place seems much calmer…and more dangerous.
 
 NA: You don't know when, but at some point you lay down just to rest your back and ended up falling asleep.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;CAP 4 - Noite dos Inconfidentes
 @back bg_innDay
 NA: You were tossing and turning in bed when you felt a hand on your shoulder.
@@ -2923,7 +2923,7 @@ FR: Without me you'd already be dead.
 NA: And, unfortunately, she might be right.
 @hideChars
 NA: You go upstairs to get ready.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @stopBgm fade:1 !wait
 NA: Night falls slowly over Vila Rica.
 @back bg_gardenNight
@@ -3577,7 +3577,7 @@ NA: She laughs softly.
 BA: Relax.
 
 BA: You're not as discreet as you think.
-@goto .scene6B-2end
+@goto #scene6B-2end
 
 
 #scene6B-2
@@ -3893,7 +3893,7 @@ PLAYER: (What a beautiful couple.)
 NA: You say goodbye to the others probably with a grumpy face, because none of them question it.
 
 NA: They just wish you a good night, thank you for your presence, and let you leave.
-@goSub .BlackScreen
+@gosub #BlackScreen
 NA: The walk back to the inn is silent.
 
 NA: Silent only outside.
@@ -4085,7 +4085,7 @@ NA: Her laughter follows you upstairs.
 NA: You go to sleep slightly humiliated.
 
 NA: Very confused and unfortunately still thinking about them.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Cap 5 -
 @back bg_innDay
 NA: The next day begins with resentment.
@@ -4312,7 +4312,7 @@ FR: My God.
 
 FR: You really attract trouble.
 
-@goto .scene7B-2end
+@goto #scene7B-2end
 
 #scene7B-2
 @hide FR
@@ -4511,7 +4511,7 @@ BA: See you later.
 @hide BA
 NA: And this time she left smiling.
 
-@goto .scene7Bend
+@goto #scene7Bend
 
 #scene7B
 
@@ -4560,7 +4560,7 @@ NA: The silence seems too long afterward.
 PLAYER: (Ah.)
 
 PLAYER: (I ruined everything.)
-@goto .BadEnd
+@goto #BadEnd
 ;GAME OVER — "Tarde Demais"
 #scene7B-2end
 ;Depois das escolhas
@@ -4692,7 +4692,7 @@ FR: Hm.
 NA: She thinks.
 
 FR: You can help me or go out for a bit before you go crazy thinking too much.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Passagem de Tempo
 @back bg_squareNight
 NA: Night falls slowly over Vila Rica.
@@ -5323,7 +5323,7 @@ PLAYER: That was a terrifying request.
 
 BA: I'll take that as a maybe.
 
-@goto .scene8B-2end
+@goto #scene8B-2end
 
 #scene8B-2
 
@@ -5391,7 +5391,7 @@ NA: She looks at you and then looks away.
 BA: Can I do something impulsive?
 #scene8B-2end
 ;Depois das escolhas
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGB02_{gender}_01 id:CG time:0
 @unlock CG/CGB02_{gender}_1
 NA: For a moment neither of you speak, Bárbara just watches you.
@@ -5492,7 +5492,7 @@ NA: As if she wanted to forget the world for a few minutes again.
 @stopBgm fade:1 !wait
 @hide CG
 ;@back cg_black.Crossfade id:CG !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Depois da cena
 @bgm wander
 @back bg_squareNight.Crossfade time:0 !wait scale:3.0 pos:-65,90
@@ -5806,7 +5806,7 @@ NA: Feeling confused and guilty at the same time, questioning your morals and ch
 
 NA: And so you fall asleep in bed.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Cap 6 -
 @back bg_innDay
 NA: The next day, morning goes by calmly.
@@ -5900,7 +5900,7 @@ NA: Her smile widens.
 
 BA: Interesting.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;O armazém
 @bgm tension
 NA: Days later, the atmosphere in Vila Rica changes.
@@ -5934,7 +5934,7 @@ NA: The push happens too quickly, and she stumbles.
 NA: She hits wood and stone and falls.
 
 PLAYER: BÁRBARA!
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;CG
 @stopBgm fade:1 !wait
 NA: You run to her.
@@ -6047,7 +6047,7 @@ NA: But you listen, and for the first time Bárbara doesn't try to hide that she
 ;@back cg_black.Crossfade id:CG !wait
 @hide CG
 ;Passagem de tempo.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_overlookNight
 @char BA.neutral pos:{rightmid} !wait
 @char {PLAYER}2 pos:{leftmid}
@@ -6225,11 +6225,11 @@ NA: And then…
 
 @if afetoBarbara>5
 
-@goto .scene9B-1 
+@goto #scene9B-1 
 ; Final bom
 @else
 
-@goto .scene9B-2 
+@goto #scene9B-2 
 ; Final ruim
 @endif
 
@@ -6306,7 +6306,7 @@ NA: The only strong name, and one that is condemned, is that of Tiradentes. He b
 
 NA: His humiliation is in a public square, and it is anything but gentle.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;FLASHBACK
 @bgm backInTime
 NA: A few weeks ago, after the overlook meeting.
@@ -6588,7 +6588,7 @@ NA: But she loves him.
 NA: And perhaps that makes everything even more difficult.
 
 NA: Then she turns away and goes towards the bedroom.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;O escândalo
 @back bg_squareDay scale:1 pos:50,50 time:0
 NA: Shortly after, the separation happens.
@@ -6619,7 +6619,7 @@ NA: Others simply vanish from history.
 
 NA: And on a cold morning... Alvarenga is taken away, first imprisoned and then, after the trial, exiled.
 @stopBgm fade:3 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;A fuga
 @back bg_warehouseDay
 @char {PLAYER}2.smile pos:{leftmid} !wait
@@ -6676,7 +6676,7 @@ NA: You laugh and keep walking.
 NA: Then something tugs at your sleeve.
 @char {PLAYER}2.surprise
 PLAYER: Hm?
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGB04_{gender}_01 id:CG time:0
 @unlock CG/CGB04_{gender}_1
 NA: Before you can turn around, a pair of arms wrap around your waist.
@@ -6757,7 +6757,7 @@ NA: Not out of convenience or scandal.
 NA: But out of love.
 
 NA: Even if late.
-@goto .GameEnd
+@goto #GameEnd
 ;FIM!
 
 
@@ -6818,7 +6818,7 @@ NA: And for the first time since you met her, you feel like Bárbara has put up 
 
 NA: You still decide to walk her home, to make sure she'll be okay.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Flashback Noite no Mirante
 @bgm backInTime
 NA: Weeks earlier, that same night at the lookout point.
@@ -7295,7 +7295,7 @@ NA: The kind, patient, and rational man.
 
 NA: He simply succumbed to betrayal, jealousy, and anger.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
 ;AQUI mudar bg de acordo com cg
 @char {PLAYER}2.surprise pos:{leftmid} !wait
@@ -7396,7 +7396,7 @@ AL: I trusted you for years.
 NA: Bárbara tries to approach.
 
 BA: Please.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGB05_01 id:CG time:0
 ;CG
 @unlock CG/CGB05_1
@@ -7494,7 +7494,7 @@ NA: And you feel it, you feel pain.
 NA: A brutal impact to the chest.
 @hide CG
 NA: The world spins and you fall.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @bgm backInTime volume:0.7
 @blur MainBackground power:5
 @char BA.surprise pos:{rightmid} !wait
@@ -7523,7 +7523,7 @@ NA: Just a man who has lost everything.
 NA: Including himself.
 
 ;FIM!
-@goto .GameEnd
+@goto #GameEnd
 
 
 # BlackScreen

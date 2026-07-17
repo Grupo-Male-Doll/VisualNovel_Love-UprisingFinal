@@ -569,7 +569,7 @@ NA: A small smile escapes Joaquim.
 JO: Ah…
 
 JO: I like it when I'm not given easy answers.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGJ02_01 id:CG time:0
 @unlock CG/CGJ02_1
 
@@ -636,7 +636,7 @@ JO: Personality is rare around here.
 
 JO: Usually hidden behind convenience.
 
-@goto .scene3J-1end
+@goto #scene3J-1end
 
 
 #scene3J-2
@@ -790,7 +790,7 @@ JO: You're not what I expected.
 
 JO: Which makes everything... more interesting.
 
-@goto .sceneJ-A-end
+@goto #sceneJ-A-end
 
 
 #sceneJ-B
@@ -885,7 +885,7 @@ PLAYER: Probably not, but I like wicked things.
 @char JO.shy
 NA: You speak with a sharp smile and Joaquim seems to blush slightly.
 
-@goto .sceneJperguntaA-end
+@goto #sceneJperguntaA-end
 
 #J_perguntaB
 @char JO.surprise
@@ -929,7 +929,7 @@ NA: A half smile.
 
 JO: I'd even say you fascinated me.
 
-@goto .sceneJperguntaB-end
+@goto #sceneJperguntaB-end
 
 
 #scene4J-2
@@ -1025,7 +1025,7 @@ JO: See you soon.
 NA: He then disappears into the lights and shadows of the fair.
 
 NA: Leaving behind an invitation and a question.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareNight.Crossfade time:0 !wait scale:3.0 pos:-65,90
 NA: You make your way back to the inn at a slow pace, thinking about the conversation you had with Joaquim.
 
@@ -1039,7 +1039,7 @@ NA: When you arrive, the inn is already dark. You try not to make too much noise
 NA: When you find the door to your room, you go inside and change your clothes.
 
 NA: Finally throwing yourself on the bed. Your back aches a little but your mind is far away.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Cap 3 -
 
 ;No outro dia
@@ -1311,7 +1311,7 @@ PLAYER: I imagine so.
 
 NA: You bit the guava, the sweet and slightly acidic taste breaks the emptiness in your stomach.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
 NA: And then you leave.
 @bgm wander
@@ -1525,7 +1525,7 @@ JO: And I don't usually show this to just anyone.
 
 NA: His gaze rests on you.
 
-@goto .scene5J-2end
+@goto #scene5J-2end
 
 #5J-2
 
@@ -1891,7 +1891,7 @@ NA: His gaze holds yours.
 
 JO: For me... for others.
 
-@goto .scene6J-2end
+@goto #scene6J-2end
 
 #scene6J-2
 
@@ -2041,7 +2041,7 @@ JO: Whenever you wish, my door will be open to you.
 NA: You nod in agreement and leave.
 @stopBgm fade:2 !wait
 ;Na estalagem
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareNight.Crossfade time:0 !wait scale:3.0 pos:-65,90
 
 NA: Night has already fallen when you leave Joaquim's house.
@@ -2587,7 +2587,7 @@ NA: With your drawing.
 
 NA: And thought dangerously similar to it.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Durante a Noite
 @back bg_gardenNight
 @bgm wander
@@ -3007,7 +3007,7 @@ NA: And something in his expression hardens.
 PLAYER: (Great.)
 
 PLAYER: (The revolutionary distrusts me now.)
-@goto .scene7J-2end
+@goto #scene7J-2end
 
 #scene7J-2
 @hideChars
@@ -3069,7 +3069,7 @@ NA: There's something strange there.
 NA: Irritation or insecurity, something dangerously close to resentment.
 #scene7J-2end
 ;Após a reunião
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_gardenNight
 NA: The meeting ends hours later.
 
@@ -3244,7 +3244,7 @@ JO: Cruel.
 NA: He dramatically places his hand on his chest.
 
 JO: After I opened my heart.
-@goto .scene8J-2end
+@goto #scene8J-2end
 
 #scene8J-2
 @set hugJoaquim=false
@@ -3364,7 +3364,7 @@ NA: Then he lets go on your hand.
 NA: Only after long enough to make your heart flutter.
 
 PLAYER: (...this is definitely going to be a problem.)
-@goSub .BlackScreen
+@gosub #BlackScreen
 @stopBgm fade:2 !wait
 ;Na Estalagem
 @bgm respite
@@ -3433,7 +3433,7 @@ FR: That expression... you either had a big fight... or you enjoyed the company 
 PLAYER: I hate you.
 
 FR: No you don't.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_innNight
 NA: Francisca steps away and gestures for you to come inside.
 
@@ -3706,12 +3706,12 @@ NA: Because, inconveniently, your mind keeps returning to a dark veranda.
 NA: A hand holding yours and an excessively charming man asking:
 
 JO: "Will you continue to visit me?"
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_innNight
 PLAYER: (...This will either end badly or very well.)
 
 NA: With that thought sleep finally reaches you.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Cap 5
 
 NA: A few days go by.
@@ -3753,7 +3753,7 @@ FR: No.
 FR: Just a handsome man.
 
 FR: Similar danger.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @hide MainBackground
 @back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
 @stopBgm fade:4 !wait
@@ -3844,7 +3844,7 @@ NA: A weak, humorless laugh.
 JO: And she has terrible taste in jokes.
 
 
-@goto .scene9J-2end
+@goto #scene9J-2end
 
 #scene9J-2
 
@@ -3956,7 +3956,7 @@ NA: You raise your eyebrows, doubting what you just heard. Strange as it may see
 NA: Joaquim raises his hand.
 
 NA: Hesitates.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGJ03_{gender}_01 id:CG time:0
 @unlock CG/CGJ03_{gender}_1
 NA: The tips of his fingers lightly brush your face, careful.
@@ -4368,7 +4368,7 @@ NA: A small smile.
 JO: Then maybe I'll survive the week.
 @char {PLAYER}2.smile
 NA: You roll your eyes at him and leave, trying to ignore your own smile.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @stopBgm fade:2 !wait
 @back bg_innNight
 NA: It's already night when you find yourself back at the inn.
@@ -4618,7 +4618,7 @@ NA: The insecurity hidden under all his charm.
 NA: And the question—
 
 JO: (Will you be back?)
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
 ;Depois
 @stopBgm fade:2 !wait
@@ -4954,7 +4954,7 @@ TI: …do you really think we're "handsome men"?
 JO: Oh, for God's sake.
 @hideChars
 NA: You don't see it, but you're almost certain the two of them started arguing again.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Cap 6
 @back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
 NA: A few days later, Vila Rica seems heavier.
@@ -5261,7 +5261,7 @@ JO: God help me.
 
 JO: Because I believe I needed to hear such a thing.
 
-@goto .scene10J-2end
+@goto #scene10J-2end
 
 #scene10J-2
 
@@ -5408,7 +5408,7 @@ PLAYER: You're nothing like you seem.
 
 JO: If you stick around any longer, I'll end up believing dangerous things.
 
-@goto .scene11J2end
+@goto #scene11J2end
 
 #scene11J-2
 
@@ -5522,7 +5522,7 @@ NA: And, for the first time, Joaquim doesn't try to make you stay.
 #scene11J2end
 ;Depois das escolhas
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_innNight
 @bgm sad
 NA: Three days passed since you went to Joaquim's house, your days at the inn are a little boring.
@@ -5580,9 +5580,9 @@ NA: He laughs, weak and humorless.
 
 JO: I made a decision.
 @if afetoJoaquim>5
-@goto .scene12J-1
+@goto #scene12J-1
 @else
-@goto .scene12J-2
+@goto #scene12J-2
 
 @endif
 
@@ -5752,7 +5752,7 @@ NA: For the first time he seems soft, scared, but soft.
 JO: Very well.
 
 JO: Let us do something terribly irresponsible.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareNight
 NA: Days later.
 
@@ -5767,7 +5767,7 @@ NA: Tiradentes.
 NA: And Joaquim disappeared, or almost.
 
 NA: Because that night, when everything seemed about to collapse, he came.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGJ04_{gender}_01 id:CG time:0
 @unlock CG/CGJ04_{gender}_1
 NA: Under the night in Vila Rica, moonlight and distant lamplight, Joaquim mounted on a dark horse, little baggage and few certainties.
@@ -5972,7 +5972,7 @@ NA: Even if late.
 
 ;FIM!
 
-@goto .GameEnd
+@goto #GameEnd
 
 #scene12J-2
 @stopBgm fade:2 !wait
@@ -6211,7 +6211,7 @@ NA: He just stands there on the road, watching.
 
 NA: As a man who just gained everything and lost something he might not be able to name.
 @stopBgm fade:3 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @bgm sad
 ;Passagem de tempo.
 
@@ -6349,7 +6349,7 @@ GUARD: Did we arrest you or open a tavern?
 NA: A man of the Crown follows him, holding documents.
 
 NA: Joaquim steps away from the cell, going to him and straightening his clothes.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Frame 1
 @back CGJ05_{gender}_01 id:CG time:0
 @unlock CG/CGJ05_{gender}_1
@@ -6390,7 +6390,7 @@ NA: But his gaze wavers for a single second and his mouth trembles.
 NA: Because maybe, just maybe.
 
 NA: Survival cost him something he didn't expect to lose.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;;@back cg_black.Crossfade id:CG !wait
 @hide CG
 NA: They say Joaquim prospered.
@@ -6404,7 +6404,7 @@ NA: And avoided certain paths, certain names and memories.
 NA: Because sometimes, late at night, he seemed to look at closed doors.
 
 NA: Like a man waiting for someone he knew would never return.
-@goSub .GameEnd
+@gosub #GameEnd
 ;FIM!
 @stop
 

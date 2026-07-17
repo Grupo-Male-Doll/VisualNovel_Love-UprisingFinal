@@ -89,7 +89,7 @@ FR: It wasn't.
 @char FR.thinking
 NA: You dramatically bring your hand to your chest, pretending to be offended, and she looks at you and rolls her eyes.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay
 @bgm wander
 NA: You leave the inn and, outside, Vila Rica is bustling. You hear voices, the sounds of carts, and see soldiers walking through the city.
@@ -123,7 +123,7 @@ NA: You smile.
 NA: You're starting to understand when she's joking, or at least you hope she is.
 @stopBgm fade:4 !wait
 HI: Come in.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGC02_01 id:CG time:0
 @unlock CG/CGC02_1
 @bgm cel
@@ -162,7 +162,7 @@ NA: You raise an eyebrow in doubt.
 NA: A brief pause.
 
 ???: But it sounds more dramatic to say all.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_hipolitaDay
 @char HI.smile pos:{rightmid} !wait
 @char {PLAYER}2.surprise pos:{leftmid} !wait
@@ -219,7 +219,7 @@ NA: A strange sensation washes over you, brief and difficult to explain, like a 
 
 @stop
 
-@goto .scene3C-1
+@goto #scene3C-1
 
 @set afetoCel+=1
 
@@ -253,7 +253,7 @@ NA: The comment seems innocent, but a slight blush appears on her cheeks.
 
 NA: Internally, she seems strangely happy that you noticed, even if she can't explain why.
 
-@goto .scene3C-2end
+@goto #scene3C-2end
 
 #scene3C-2
 
@@ -420,7 +420,7 @@ PLAYER: See you soon.
 
 NA: You nod and for some reason it seems important.
 
-@goto .scene4C-2end
+@goto #scene4C-2end
 
 #scene4C-2
 
@@ -436,7 +436,7 @@ NA: But for a moment you think you saw a slight disappointment on her face.
 #scene4C-2end
 ;Depois das escolhas
 @stopBgm fade:3 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay
 @bgm wander
 NA: Shortly after, you leave Hipólita's house.
@@ -602,7 +602,7 @@ NA: Like a forgotten memory.
 NA: And it's with this thought that sleep finally finds you.
 
 NA: Or perhaps you find only more questions.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;O dia seguinte
 @back bg_innDay
 NA: The next day comes accompanied by the smell of freshly baked bread.
@@ -815,7 +815,7 @@ PLAYER: That doesn't make sense.
 FR: It makes perfect sense.
 
 NA: And she's clearly amused by your confusion.
-@goSub .BlackScreen
+@gosub #BlackScreen
 NA: Later.
 @stopBgm fade:2 !wait
 @back bg_squareDay
@@ -971,7 +971,7 @@ NA: Celina smiles.
 
 CELINA: Maybe.
 
-@goto .scene5C-2end
+@goto #scene5C-2end
 
 #scene5C-2
 @char CELINA.neutral
@@ -1485,7 +1485,7 @@ NA: You don't fully understand the meaning, but you realize it exists and that i
 
 NA: More important than a simple piece of fabric should be.
 
-@goto .scene6C-2end
+@goto #scene6C-2end
 
 #scene6C-2
 
@@ -1527,7 +1527,7 @@ NA: And you keep watching, until she disappears completely from sight.
 
 NA: Only then do you realize you're smiling.
 @stopBgm fade:4 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 NA: The walk back to the inn seems shorter.
 
@@ -1681,7 +1681,7 @@ NA: As you watch the distant lights of Vila Rica, you realize something.
 NA: You look forward to seeing her again.
 
 NA: And that might be more dangerous than it should be.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Cap 4 - Noite dos Inconfidentes
 @back bg_innDay
 NA: For the first time since arriving in Vila Rica...
@@ -2371,7 +2371,7 @@ FR: Always.
 
 NA: You leave the inn.
 @stopBgm fade:1 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareNight
 @bgm wander
 NA: And walk through the lantern lit streets, as night has fallen on Vila Rica.
@@ -2676,7 +2676,7 @@ CE: Thank you.
 
 NA: Without waiting for you to change your mind, he opens the door and leaves quickly.
 
-@goto .scene7C-2end
+@goto #scene7C-2end
 
 #scene7C-2
 
@@ -2882,7 +2882,7 @@ NA: You smile and nod.
 PLAYER: Then Cel it is.
 @char CE.happy
 NA: For the first time that night, Cel seems genuinely happy.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_hipolitaNight
 ;Depois da Reunião - Se o player reagiu bem
 
@@ -2970,7 +2970,7 @@ CEL: Thank you.
 
 NA: Cel seems genuinely happy.
 
-@goto .scene8C-2end
+@goto #scene8C-2end
 
 #scene8C-2
 @char {PLAYER}2.neutral
@@ -3041,7 +3041,7 @@ NA: For the first time since you met him, Cel seems distant.
 NA: As if a door has just closed between you two.
 
 NA: And you don't know if you'll be able to open it again.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Depois da Reunião - Se o player reagiu mal
 @back bg_hipolitaNight
 NA: The meeting ends much later than it should.
@@ -3135,7 +3135,7 @@ NA: Like a candle trying not to go out.
 #scene8C-2end
 ;Depois das cenas
 @stopBgm fade:1 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareNight
 @bgm wander
 NA: The way back to the inn seems longer that night.
@@ -3449,7 +3449,7 @@ NA: For the first time in a long time, you can't decide if you're nervous, curio
 NA: Maybe a little of all three.
 
 NA: And with that thought, the night finally leads you to sleep.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Cap 5 -
 @back bg_innDay
 NA: The next morning you wake up earlier than you'd like.
@@ -3509,7 +3509,7 @@ FR: Nothing related to the actor.
 PLAYER: Goodbye, Francisca.
 
 FR: Have fun.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @stopBgm fade:2 !wait
 NA: You leave before she can make the situation worse.
 @back bg_marketDay
@@ -4196,7 +4196,7 @@ CEL: I know.
 
 NA: And you leave the theater together.
 
-@goto .scene9C-2end
+@goto #scene9C-2end
 
 #scene9C-2
 
@@ -4220,7 +4220,7 @@ NA: And you go alone to the inn.
 #scene9C-2end
 ;Depois das cenas
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_innNight
 @bgm respite
 NA: When you finally arrive at the inn, everything is dark and silent.
@@ -4339,7 +4339,7 @@ NA: Still grumbling, you head upstairs, taking bites of your piece of bread.
 NA: And, for the first time in many days, you fall asleep smiling.
 @stopBgm fade:2 !wait
 ;Cap 6 -
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_theater
 @bgm cel
 NA: The next day, you return to the theater.
@@ -4396,7 +4396,7 @@ CEL: Most people choose a side.
 NA: You stand up and take a step toward Cel, they look different.
 @char CE.happy
 CEL: You chose me.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;CG
 @back CGC03_{gender}_01 id:CG time:0
 @unlock CG/CGC03_{gender}_1
@@ -4440,7 +4440,7 @@ NA: Which might just be the most adorable thing you've ever seen.
 
 NA: And then you pull apart.
 
-@goto .scene10C-3end
+@goto #scene10C-3end
 
 #scene10C-2
 @stopBgm fade:2 !wait
@@ -4518,7 +4518,7 @@ NA: Months later, you leave Minas, taking only one question with you.
 
 PLAYER: What if I had answered differently?
 
-@goto .GameEnd
+@goto #GameEnd
 
 #scene10C-3
 @stopBgm fade:2 !wait
@@ -4674,10 +4674,10 @@ NA: And in that moment, you realize it too late.
 NA: There was no right answer between Celina and Célio.
 
 NA: Because the answer was always Cel.
-@goto .GameEnd
+@goto #GameEnd
 #scene10C-3end
 ;Depois das Escolhas
-@goSub .BlackScreen
+@gosub #BlackScreen
 @stopBgm fade:2 !wait
 @back bg_innNight
 NA: You head back to the inn.
@@ -4774,7 +4774,7 @@ NA: Francisca disappears before you can finish the sentence.
 NA: Which was likely intentional.
 @hideChars
 NA: And for the first time in a long while, you sleep happily.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_innDay
 NA: A few days pass.
 
@@ -5049,7 +5049,7 @@ CEL: I think.
 PLAYER: CEEEL.
 @char CE.happy
 NA: They start laughing, and you realize you’ve lost the argument.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Passagens de tempo e cenas
 @back bg_theater
 NA: Over the next few days, the theater becomes part of your routine.
@@ -5199,7 +5199,7 @@ NA: And everything that makes them.
 
 NA: For the first time, you think they realize they've been understood, too.
 
-@goto .scene11C-2end
+@goto #scene11C-2end
 
 #scene11C-2
 @char {PLAYER}2.neutral
@@ -5476,7 +5476,7 @@ NA: And everyone knows they shouldn't have.
 ;Mais tarde
 
 NA: A new character enters the stage.
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;CG
 @back CGC04_01 id:CG time:0
 @unlock CG/CGC04_1
@@ -5596,7 +5596,7 @@ NA: The audience loved it.
 
 NA: The Crown understood it too.
 @hide CG
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_theater
 @char FR.neutral pos:{leftmid} !wait
 @char {PLAYER}2.neutral pos:{rightmid}
@@ -5989,7 +5989,7 @@ NA: But nothing lasts forever.
 
 NA: Not applause, not plays, nor the sense of safety you pretended to have that night.
 @stopBgm fade:3 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 NA: Reality arrives the next morning.
 
 NA: And it arrives early.
@@ -6107,7 +6107,7 @@ HI: Please.
 HI: Find Cel before they do.
 
 NA: You don't waste any time.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_marketDay.LineReveal params:0,1,0,1
 @back bg_overlookDay.LineReveal params:0,1,0,1
 @back bg_squareDay.LineReveal params:0,1,0,1
@@ -6216,11 +6216,11 @@ NA: And neither of you likes the answer to that question.
 
 @if (afetoCel>5)
 
-@goto .scene12C-1
+@goto #scene12C-1
  ; Final bom
 @else
 
-@goto .scene12C-2 
+@goto #scene12C-2 
 ; Final ruim
 @endif
 
@@ -6317,7 +6317,7 @@ PLAYER: Francisca.
 CEL: Naturally.
 
 NA: And for an instant, only for an instant, the fear vanishes.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_gardenNight
 @char HI.neutral pos:{leftmid} !wait
 @char CE.neutral pos:{rightmid}
@@ -6586,7 +6586,7 @@ NA: Because you know that if you do, you might not be able to leave.
 NA: And some goodbyes are easier when we carry a smile with us.
 
 NA: Just before dawn.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_overlookNight pos:-25,0 scale:2 time:0
 NA: You leave Vila Rica quietly.
 
@@ -6599,7 +6599,7 @@ NA: The streets, the church, and the inn.
 NA: Everything growing smaller, increasingly distant.
 @back bg_overlookAfternoon
 NA: Until the sun begins to rise and golden light washes over the road.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGC05_{gender}_01 id:CG time:0
 @unlock CG/CGC05_{gender}_1
 NA: For the first time since setting out, Cel seems to truly breathe.
@@ -6684,7 +6684,7 @@ NA: With freedom.
 
 NA: And with the chance to write the next act together.
 
-@goto .GameEnd
+@goto #GameEnd
 ;badend
 #scene12C-2
 @stopBgm fade:2 !wait
@@ -6782,7 +6782,7 @@ NA: Simply being who they were.
 
 NA: For the first time and the last.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 ;Epílogo
 @bgm backInTime
 NA: Many years later...
@@ -6882,7 +6882,7 @@ NA: "<i>Some people go down in history.</i>"
 NA: "<i>Others vanish from it.</i>"
 
 NA: "<i>And some just wanted to be free.</i>"
-@goto .GameEnd
+@goto #GameEnd
 
 
 # BlackScreen

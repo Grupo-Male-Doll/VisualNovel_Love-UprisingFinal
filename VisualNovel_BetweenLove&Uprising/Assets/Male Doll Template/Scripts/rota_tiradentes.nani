@@ -153,7 +153,7 @@ PLAYER: Maybe he knows what to do.
 @hideChars
 @hide MainBackground
 @back bg_black pos:50,50 scale:1 time:0
-@goSub .BlackScreen
+@gosub #BlackScreen
 @stopBgm fade:1 !wait
 @back bg_squareDay.Crossfade time:0.5 wait!
 NA: The streets of Vila Rica open before you. Stone houses, wooden doors, the distant sounds of labor.
@@ -165,7 +165,7 @@ NA: Dry earth. Low vegetation. Silence.
 NA: And then you see him.
 NA: Tiradentes sits on a cut log. An axe rests against his leg.
 
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGT02_01.Crossfade id:CG time:0 !visible
 @back CGT02_01.Crossfade id:CG time:0 wait! visible!
 @unlock CG/CGT02_1
@@ -327,7 +327,7 @@ NA: You smile.
 @char {PLAYER}2.smile look:left pos:{leftmid}
  PLAYER: Is this an invitation?
 NA: He seems to consider your question, as if weighing something.
-@goto .scene2T-1end
+@goto #scene2T-1end
 
 # scene2T-2
 @char {PLAYER}2.neutral look:left pos:{leftmid}
@@ -354,7 +354,7 @@ NA: A faint, almost ironic breath escapes him.
 @char TI.determined look:left pos:{rightmid}
 TI: Well-crafted words… meant to keep everything exactly as it is.
 NA: His gaze lingers on you for a moment longer.
-@goto .scene2T-3
+@goto #scene2T-3
 @stop
 
 # scene2T-3B
@@ -367,7 +367,7 @@ NA: He tilts his head slightly, thoughtful.
 TI: Many call it caution…
 TI: When, deep down, it is only well-dressed fear.
 NA: His tone is not accusatory, only curious.
-@goto .scene2T-3
+@goto #scene2T-3
 @stop
 
 # scene2T-1end
@@ -411,7 +411,7 @@ NA: Leaving you alone with the wind, the sun, and too many questions.
 NA: For the first time since arriving in Vila Rica…
 NA: You feel you are not merely an intruder… but someone being observed.
 @stopBgm fade:3 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 ; aqui bg rua
 @back bg_squareAfternoon.Crossfade pos:-65,90 scale:3.0 time:0 wait!
 
@@ -492,7 +492,7 @@ NA: Your face warms again.
 @hideChars
 NA: You head upstairs before she can see it.
 
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_innDay.Crossfade pos:90,45 scale:2 time:0 !wait
 @slide MainBackground to:90,50
 NA: Waking up here is no longer a shock. Not like before.
@@ -570,7 +570,7 @@ NA: You approach slowly. You peek inside.
 NA: Nothing. No sign of him outside.
 NA: You hesitate for a brief moment, then push the door and step in.
 
-@gosub .BlackScreen
+@gosub #BlackScreen
 @back bg_inTiradentesDay.Crossfade pos:50,50 scale:1.0 time:1.5
 @bgm tiradentes volume:1
 NA: The interior is simple. Bare walls, a worn wooden table, papers scattered without much order.
@@ -651,7 +651,7 @@ TI: Tell me.
 NA: His voice is softer now.
 @char TI.thinking look:left pos:{rightmid}
 TI: What do you think of all this?
-@goto .scene3T-1end
+@goto #scene3T-1end
 
 # scene3T-2
 NA: Silence weighs after your words.
@@ -770,7 +770,7 @@ TI: Forgive me.
 TI: It is not my habit to speak so.
 NA: He takes a folded cloth from the table and opens it carefully.
 NA: He extends it toward you.
-@goto .scene3T-3end
+@goto #scene3T-3end
 
 # scene3T-4
 NA: The sound of the glass still echoes in your ears.
@@ -882,7 +882,7 @@ NA: The handshake is firm and brief.
 TI: Until tomorrow.
 NA: You nod quickly and turn even faster, leaving the house.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 @back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 wait!
 NA: The air outside feels colder than before.
@@ -901,7 +901,7 @@ PLAYER: Great. I’ve become the local lunatic.
 NA: The inn stands before you like a refuge…
 NA: The door creaks as you open it.
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 @bgm respite
 @back bg_innDay
@@ -1010,7 +1010,7 @@ NA: At last, you understand why the bread tastes like pão de queijo.
 NA: The moment is calm.
 NA: Francisca had seemed like a stern woman at first, but she has become a true friend, though she shifts easily between teaching you to cook and asking far too many questions about your meeting with Tiradentes.
 NA: You feel a strange sensation… that perhaps you are exactly where you are meant to be.
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 ; Cap 4 – Noite dos Inconfidentes
 @back bg_innDay pos:90,50 scale:2.5 time:0
@@ -1229,7 +1229,7 @@ FR: Be it about politics… or your own inclinations.
 @hide FR
 NA: You stand and return inside, preparing for the night.
 NA: You climb the stairs, face warm, heart restless.
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 @stopBgm fade:2 !wait
 ; Casa da Hipólita
@@ -1239,7 +1239,7 @@ NA: Hipólita’s house is lit by oil lamps, casting trembling shadows across th
 NA: You take a breath before knocking.
 NA: The door opens discreetly.
 @bgm inconfidentes
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_hipolitaNight.Crossfade pos:50,50 scale:1
 NA: The interior is simple but elegant in its own way.
 NA: Dark wooden furniture. A sturdy table at the center. Candles carefully placed. Books stacked in a corner.
@@ -1582,7 +1582,7 @@ NA: Your attention lingers on Tiradentes on the way he speaks, the way he carrie
 NA: Eventually, you step outside, leaving the others to their debate.
 @stopBgm fade:2 !wait
 ; @back {EXTERIOR CASA DA HIPÓLITA}
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_gardenNight.Crossfade 
 NA: Night has fully fallen as you step onto the veranda.
 NA: The cool air brushes your skin, a welcome contrast to the heat of the day.
@@ -1626,7 +1626,7 @@ TI: Good night.
 NA: Tiradentes finally steps away, disappearing down the dirt road.
 NA: You decide it is late, you should return. The nights in Vila Rica are calm, your steps steady.
 PLAYER: (No bars, no crowds… no one trying to steal my phone in the middle of the night.)
-@goto .scene4T-1end
+@goto #scene4T-1end
 
 # scene4T-2
 @hideChars
@@ -1655,7 +1655,7 @@ NA: Tiradentes looks away from you. He seems… disappointed.
 NA: The discussion resumes, though your attention drifts. At some point, Hipólita and Bárbara clash briefly, but you barely notice.
 NA: The tension becomes suffocating. You slip out unnoticed.
 ; @back {EXTERIOR CASA DA HIPÓLITA}
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_gardenNight.Crossfade wait!
 @stopBgm fade:2 !wait
 NA: Night has fallen when you leave. The air is colder now.
@@ -1670,7 +1670,7 @@ NA: You walk along the dirt road. He keeps a slight distance.
 
 ; aqui bg
 ; @back {ESTRADA}
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareNight.Crossfade time:0 scale:3.0 pos:-65,90 !wait
 @char TI.determined
 TI: Your choice… surprised me.
@@ -1732,7 +1732,7 @@ NA: The cold feels less sharp now, but the warmth in your cheeks lingers.
 # scene4T-1end
 
 @stopBgm fade:2 !wait
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 ; Cap 5 -
 @bgm wander
@@ -1877,7 +1877,7 @@ NA: But you notice he is still watching.
 NA: Not exactly the sword.
 @char {PLAYER}2.thinking
 PLAYER: (Is he going to keep looking at me like that…?)
-@goto .scene5T-1end
+@goto #scene5T-1end
 
 # scene5T-2
 NA: Tiradentes takes the dagger from the box.
@@ -1956,7 +1956,7 @@ PLAYER: Where to?
 NA: A faint smile touches the corner of his mouth.
 TI: There is a place nearby.
 TI: I go there… when I need to think.
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 @back bg_overlookDay pos:100,60 scale:3 time:0
 NA: You walk along a narrow trail that climbs the hillside.
@@ -1972,7 +1972,7 @@ NA: The sky slowly shifts in color, first orange, then a soft violet.
 NA: Until the first stars begin to appear.
 NA: When you reach the top, the whole village stretches out below.
 @back bg_black pos:50,50 scale:1 time:0
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_overlookNight pos:50,50 scale:1
 NA: A few scattered lights begin to glow among the houses.
 NA: Tiradentes stops near a low stone wall that separates the overlook from the taller brush beyond.
@@ -2105,7 +2105,7 @@ TI: And others when… everything seems a little more within reach.
 NA: Tiradentes keeps his eyes on you for a moment.
 NA: As though making a quiet decision.
 NA: The hesitation lasts only an instant.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGT03_{gender}_01 id:CG time:0 !visible
 @back CGT03_{gender}_01 id:CG time:0 visible!
 @unlock CG/CGT03_{gender}_1
@@ -2140,7 +2140,7 @@ NA: As though weighing a silent decision.
 NA: Then he leans in slightly closer.
 NA: Close enough for you to catch the scent of leather and herbs.
 NA: The world seems to shrink around you.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGT03_{gender}_01 id:CG time:0 !visible
 @back CGT03_{gender}_01 id:CG time:0 visible!
 @unlock CG/CGT03_{gender}_1
@@ -2168,7 +2168,7 @@ NA: Yet in that moment, none of them feel as distant as before.
 NA: Silence settles between you once more.
 @endif
 
-@goto .scene6T-1end
+@goto #scene6T-1end
 
 # scene6T-2
 NA: The letter remains between you.
@@ -2183,7 +2183,7 @@ PLAYER: Not because I do not want to help, but because… it will not be necessa
 NA: The silence stretches between you—now uneasy.
 
 @if afetoTiradentes>=3
-@goto .scene6T-1end
+@goto #scene6T-1end
 @endif
 
 @char TI.sad
@@ -2317,7 +2317,7 @@ NA: The words still linger between you.
 NA: Unsaid. Or said too late.
 NA: The overlook fades behind you.
 ; END
-@goto .GameEnd
+@goto #GameEnd
 
 # scene6T-1end
 ; Depois da escolha certa
@@ -2356,7 +2356,7 @@ NA: Then Tiradentes steps back into the darkness between the trees.
 NA: Within seconds, he disappears into the night.
 NA: The guards’ voices continue climbing the trail.
 NA: And you have to decide quickly staying is no longer an option.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_overlookNight.Crossfade pos:-65,20 scale:3.0 time:0 wait!
 NA: You make your way down the narrow trail behind the brush.
 @sfx rustling
@@ -2445,7 +2445,7 @@ NA: Francisca sighs.
 @char FR.neutral
 FR: Go get some rest.
 FR: No use standing here worrying yourself sick.
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 @back bg_innNight pos:90,50 scale:2 time:0
 NA: You climb the stairs slowly.
@@ -2516,7 +2516,7 @@ NA: Louder.
 NA: Heavier.
 NA: And then.
 NA: A flash of white.
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 @back bg_innDay pos:90,50 scale:2 time:0
 @sfx {gender}_breath
@@ -2550,7 +2550,7 @@ NA: One name crosses your mind before any other.
 PLAYER: (Tiradentes.)
 @slide MainBackground to:90,60 time:0.5
 @hide MainBackground time:0
-@goSub .BlackScreen
+@gosub #BlackScreen
 NA: You do not think, only splash water on your face, throw on your clothes, and rush out.
 NA: Outside the inn, you are not sure where to go so you follow the noise, the crowd.
 
@@ -2593,7 +2593,7 @@ NA: His eyes meet yours and he sees both fear and resolve.
 NA: He understands that nothing he says will change your mind.
 @char TI.neutral
 TI: …Very well.
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 wait!
 NA: You both hurry across the square.
 NA: And soon, you find the road leading out toward the countryside.
@@ -2603,7 +2603,7 @@ NA: Nothing seems out of place on the outside except for one detail that immedia
 @stopBgm fade:1 !wait
 @hide MainBackground
 @back bg_black pos:50,50 scale:1 time:0
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 @back bg_tiradentesDay
 @bgm backInTime
@@ -2636,7 +2636,7 @@ NA: As if trying to accept something impossible.
 @choice "Argue with him" goto:.scene7T-2
 @stop
 
-@goto .scene7T-1
+@goto #scene7T-1
 # scene7T-1
 @set afetoTiradentes+=1
 NA: You say nothing. You simply step closer.
@@ -2660,7 +2660,7 @@ TI: I always knew it was dangerous.
 TI: And yet…
 TI: It helps to know someone stayed.
 PLAYER: I will not leave you alone, Tiradentes.
-@goto .scene7T-1end
+@goto #scene7T-1end
 
 # scene7T-2
 NA: You cannot hold yourself back you start pacing.
@@ -2688,7 +2688,7 @@ NA: He exhales.
 @char TI.neutral
 TI: Thank you for coming.
 NA: But the distance between you now feels a little wider.
-@goto .scene7T-2end
+@goto #scene7T-2end
 
 # scene7T-1end
 # scene7T-2end
@@ -2711,7 +2711,7 @@ NA: Tiradentes goes still.
 NA: You recognize the name before it is even spoken.
 NA: The Viscount of Barbacena.
 
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_tiradentesDay
 @char VI.neutral pos:{mid}
 VI: See how far your ideas have gone, alferes.
@@ -2723,7 +2723,7 @@ VI: In your case… with a rope.
 @sfx sword
 NA: The metallic sound of swords.
 
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_inTiradentesDayDestroyed
 SOLDIER: Search the house!
 NA: Tiradentes looks at you.
@@ -2742,7 +2742,7 @@ NA: His voice is firm.
 TI: Come with me. Now.
 @hideChars
 @slide MainBackground to:55,50 time:0.5
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 NA: He pulls you by the hand.
 NA: Not toward the front door, but to the back of the house.
@@ -2775,10 +2775,10 @@ NA: He whispers:
 TI: We must decide.
 
 @if afetoTiradentes>5
-@goto .scene8T-1
+@goto #scene8T-1
 ; Final bom
 @else
-@goto .scene8T-2
+@goto #scene8T-2
 ; Final ruim
 @endif
 
@@ -2876,7 +2876,7 @@ NA: Behind you, the sounds of the village slowly fade.
 NA: First the voices. Then the horses. Then the bells.
 NA: Until only the wind through the trees remains.
 
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back bg_overlookDay pos:-25,0 scale:2 time:0
 @sfx ocean volume:0.2 !wait loop!
 NA: After a while, you feel the sea breeze against your skin, the scent of salt in the air.
@@ -2920,7 +2920,7 @@ NA: But not regretful.
 NA: He steps closer.
 @stopSfx fade:3 !wait
 
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGT04_{gender}_01 id:CG time:0 !visible
 @back CGT04_{gender}_01 id:CG time:0 visible!
 @unlock CG/CGT04_{gender}_1
@@ -2967,7 +2967,7 @@ NA: Carried toward a place where no one knows your names.
 NA: Where there are no chains.
 NA: No gallows.
 NA: Only the future.
-@goto .GameEnd
+@goto #GameEnd
 ; END
 
 ; (Final Ruin)
@@ -3044,7 +3044,7 @@ NA: Toward where you are hiding.
 NA: As if he knows you are still there.
 @stopBgm fade:2 !wait
 @back bg_black pos:50,50 scale:1 time:0
-@goSub .BlackScreen
+@gosub #BlackScreen
 
 ; Algum tempo depois
 
@@ -3070,7 +3070,7 @@ NA: His head remains lowered.
 NA: The silence between you is heavy.
 @char {PLAYER}2.neutral look:left pos:{mid}
 PLAYER: Tiradentes…
-@goSub .BlackScreen
+@gosub #BlackScreen
 @back CGT05_01 id:CG time:0 !visible
 @back CGT05_01 id:CG time:0 visible!
 @unlock CG/CGT05_1
@@ -3123,7 +3123,7 @@ NA: A few silent tears streak down his face.
 NA: But he does not call out to you.
 NA: He does not try to stop your departure.
 NA: He simply accepts that he is no longer a part of your life.
-@goto .GameEnd
+@goto #GameEnd
 
 ; END
 

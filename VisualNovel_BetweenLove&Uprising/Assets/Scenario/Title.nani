@@ -3,12 +3,13 @@
 ; Title script path can be changed in the scripts configuration.
 
 ; For example, let's set 'Title' background.
-@back Title
+@bgm forest_day_birds wait:false
+@back bg_mainMenu
 
 ; Note that since we don't have a real background resource yet,
 ; Naninovel renders it as a placeholder with abstract visuals.
 
 ; Show the title menu.
-@showUI TitleUI
+@showUI TitleUI wait_false
 
 ; Click "NEW GAME" to play the entry script.

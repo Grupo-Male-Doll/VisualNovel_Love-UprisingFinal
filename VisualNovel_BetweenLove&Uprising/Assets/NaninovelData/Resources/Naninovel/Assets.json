@@ -895,6 +895,12 @@
             "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
         },
         {
+            "guid": "90889c26fbbf60d46a5916333938ebef",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_black",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
             "guid": "bcad78aec98bbeb49bb8a3426ea36151",
             "prefix": "Backgrounds/MainBackground",
             "path": "bg_farm",
@@ -1147,12 +1153,6 @@
             "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
         },
         {
-            "guid": "90889c26fbbf60d46a5916333938ebef",
-            "prefix": "Backgrounds/MainBackground",
-            "path": "cg_black",
-            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
-        },
-        {
             "guid": "00dacb9d2704d2946825d408fd643382",
             "prefix": "Backgrounds/MainBackground",
             "path": "MD-bg-ui-filter",
@@ -1163,6 +1163,786 @@
             "prefix": "Backgrounds/MainBackground",
             "path": "MD-filter-ui-dialog",
             "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "47eab30589e73a148993b2747054825e",
+            "prefix": "Characters/AL",
+            "path": "angry",
+            "group": "Characters/a89d6881-d34b-40c1-8077-fd1b88ce3f8f"
+        },
+        {
+            "guid": "1d9b48ee17c0f634b961fd295697ef09",
+            "prefix": "Characters/AL",
+            "path": "determined",
+            "group": "Characters/a89d6881-d34b-40c1-8077-fd1b88ce3f8f"
+        },
+        {
+            "guid": "816af1c9a3cb6764dbb39c2b45513d5a",
+            "prefix": "Characters/AL",
+            "path": "embarrass",
+            "group": "Characters/a89d6881-d34b-40c1-8077-fd1b88ce3f8f"
+        },
+        {
+            "guid": "54321b800ee07504a85e75e79d9c0b95",
+            "prefix": "Characters/AL",
+            "path": "happy",
+            "group": "Characters/a89d6881-d34b-40c1-8077-fd1b88ce3f8f"
+        },
+        {
+            "guid": "9dfc072a4d36a2d4eb372034d6321cca",
+            "prefix": "Characters/AL",
+            "path": "neutral",
+            "group": "Characters/a89d6881-d34b-40c1-8077-fd1b88ce3f8f"
+        },
+        {
+            "guid": "4897645172290404e8ef358073e87efb",
+            "prefix": "Characters/AL",
+            "path": "sad",
+            "group": "Characters/a89d6881-d34b-40c1-8077-fd1b88ce3f8f"
+        },
+        {
+            "guid": "adce1e5aa0b6657468a49047159b810c",
+            "prefix": "Characters/AL",
+            "path": "shy",
+            "group": "Characters/a89d6881-d34b-40c1-8077-fd1b88ce3f8f"
+        },
+        {
+            "guid": "a107455eee3455c44a19fe5af4b705df",
+            "prefix": "Characters/AL",
+            "path": "smile",
+            "group": "Characters/a89d6881-d34b-40c1-8077-fd1b88ce3f8f"
+        },
+        {
+            "guid": "8fcbfc4117a323a49b06105c3f9b8c6d",
+            "prefix": "Characters/AL",
+            "path": "surprise",
+            "group": "Characters/a89d6881-d34b-40c1-8077-fd1b88ce3f8f"
+        },
+        {
+            "guid": "ede77f013c2e9f542845f7f326c7ed9b",
+            "prefix": "Characters/AL",
+            "path": "thinking",
+            "group": "Characters/a89d6881-d34b-40c1-8077-fd1b88ce3f8f"
+        },
+        {
+            "guid": "1a0899e23c068e9479354d2c3dab2584",
+            "prefix": "Characters/BA",
+            "path": "angry",
+            "group": "Characters/7808ee75-5fc4-4644-98a8-53368f3a99ab"
+        },
+        {
+            "guid": "32e5a737289d55e4bb953a060672accf",
+            "prefix": "Characters/BA",
+            "path": "determined",
+            "group": "Characters/7808ee75-5fc4-4644-98a8-53368f3a99ab"
+        },
+        {
+            "guid": "964cf9a3537dfe94e8c1ac06a4e2875b",
+            "prefix": "Characters/BA",
+            "path": "embarrass",
+            "group": "Characters/7808ee75-5fc4-4644-98a8-53368f3a99ab"
+        },
+        {
+            "guid": "03166be78e43e6b47853d30f7f0b16ab",
+            "prefix": "Characters/BA",
+            "path": "happy",
+            "group": "Characters/7808ee75-5fc4-4644-98a8-53368f3a99ab"
+        },
+        {
+            "guid": "6a1ac3fbc5890b145afef56630a7d9f9",
+            "prefix": "Characters/BA",
+            "path": "neutral",
+            "group": "Characters/7808ee75-5fc4-4644-98a8-53368f3a99ab"
+        },
+        {
+            "guid": "70da9eccc6051184c9dfcf9ae5ed4664",
+            "prefix": "Characters/BA",
+            "path": "sad",
+            "group": "Characters/7808ee75-5fc4-4644-98a8-53368f3a99ab"
+        },
+        {
+            "guid": "6598cc5c024a80d40ac2a77667121946",
+            "prefix": "Characters/BA",
+            "path": "shy",
+            "group": "Characters/7808ee75-5fc4-4644-98a8-53368f3a99ab"
+        },
+        {
+            "guid": "b5ef5135f43adcd4aa5617f74bc63f2b",
+            "prefix": "Characters/BA",
+            "path": "smile",
+            "group": "Characters/7808ee75-5fc4-4644-98a8-53368f3a99ab"
+        },
+        {
+            "guid": "ed48c4c3e6ee2fd4dbcb2918552d91ca",
+            "prefix": "Characters/BA",
+            "path": "surprise",
+            "group": "Characters/7808ee75-5fc4-4644-98a8-53368f3a99ab"
+        },
+        {
+            "guid": "8c357170debb4f04c847d245078d8171",
+            "prefix": "Characters/BA",
+            "path": "thinking",
+            "group": "Characters/7808ee75-5fc4-4644-98a8-53368f3a99ab"
+        },
+        {
+            "guid": "9958f7dfb99886047857c50f664f3c98",
+            "prefix": "Characters/CE",
+            "path": "angry",
+            "group": "Characters/7ae6d77d-a7a1-49f0-a53d-5e442898fd3e"
+        },
+        {
+            "guid": "ba5e856b56d42ac419e0c22dfd99e826",
+            "prefix": "Characters/CE",
+            "path": "determined",
+            "group": "Characters/7ae6d77d-a7a1-49f0-a53d-5e442898fd3e"
+        },
+        {
+            "guid": "7de17bd17921d7845943b5cd1b6cd8b2",
+            "prefix": "Characters/CE",
+            "path": "embarrass",
+            "group": "Characters/7ae6d77d-a7a1-49f0-a53d-5e442898fd3e"
+        },
+        {
+            "guid": "e33c04c7433984441aa921028b3a24cf",
+            "prefix": "Characters/CE",
+            "path": "happy",
+            "group": "Characters/7ae6d77d-a7a1-49f0-a53d-5e442898fd3e"
+        },
+        {
+            "guid": "83a04006b30dd8549b68cfaebebe48c9",
+            "prefix": "Characters/CE",
+            "path": "neutral",
+            "group": "Characters/7ae6d77d-a7a1-49f0-a53d-5e442898fd3e"
+        },
+        {
+            "guid": "028b6f2c90d9e3d4e8baabfc866730eb",
+            "prefix": "Characters/CE",
+            "path": "sad",
+            "group": "Characters/7ae6d77d-a7a1-49f0-a53d-5e442898fd3e"
+        },
+        {
+            "guid": "aa81dc3c2775b4149be2a72d7f3ba3d2",
+            "prefix": "Characters/CE",
+            "path": "shy",
+            "group": "Characters/7ae6d77d-a7a1-49f0-a53d-5e442898fd3e"
+        },
+        {
+            "guid": "1fac0ec398d858549afa8ed89f10d0a5",
+            "prefix": "Characters/CE",
+            "path": "smile",
+            "group": "Characters/7ae6d77d-a7a1-49f0-a53d-5e442898fd3e"
+        },
+        {
+            "guid": "34f7c9fba4ff93749b75f12f51377acf",
+            "prefix": "Characters/CE",
+            "path": "surprise",
+            "group": "Characters/7ae6d77d-a7a1-49f0-a53d-5e442898fd3e"
+        },
+        {
+            "guid": "54e1dc538b94c3849a95265369885535",
+            "prefix": "Characters/CE",
+            "path": "thinking",
+            "group": "Characters/7ae6d77d-a7a1-49f0-a53d-5e442898fd3e"
+        },
+        {
+            "guid": "48d0a3c2086f1aa4995ed594a0be3e03",
+            "prefix": "Characters/CELINA",
+            "path": "angry",
+            "group": "Characters/fcb9276c-f206-43e3-856a-8d5d979c995d"
+        },
+        {
+            "guid": "33b85ca5b9d9fbe428c8d153a5f895f1",
+            "prefix": "Characters/CELINA",
+            "path": "determined",
+            "group": "Characters/fcb9276c-f206-43e3-856a-8d5d979c995d"
+        },
+        {
+            "guid": "7b6b799e16186634688c4691b7d8e76f",
+            "prefix": "Characters/CELINA",
+            "path": "embarrass",
+            "group": "Characters/fcb9276c-f206-43e3-856a-8d5d979c995d"
+        },
+        {
+            "guid": "e6be4e8ce1427a14592b1528f448fabb",
+            "prefix": "Characters/CELINA",
+            "path": "happy",
+            "group": "Characters/fcb9276c-f206-43e3-856a-8d5d979c995d"
+        },
+        {
+            "guid": "6abeb4d068bc3634993e585c6c956b61",
+            "prefix": "Characters/CELINA",
+            "path": "neutral",
+            "group": "Characters/fcb9276c-f206-43e3-856a-8d5d979c995d"
+        },
+        {
+            "guid": "7eb5392c78e5893458602c2cc1846b1d",
+            "prefix": "Characters/CELINA",
+            "path": "sad",
+            "group": "Characters/fcb9276c-f206-43e3-856a-8d5d979c995d"
+        },
+        {
+            "guid": "ab5943547c019e34d81278cae7ea1b38",
+            "prefix": "Characters/CELINA",
+            "path": "shy",
+            "group": "Characters/fcb9276c-f206-43e3-856a-8d5d979c995d"
+        },
+        {
+            "guid": "2caa25c464bbf5b4abf16cfeeaffee14",
+            "prefix": "Characters/CELINA",
+            "path": "smile",
+            "group": "Characters/fcb9276c-f206-43e3-856a-8d5d979c995d"
+        },
+        {
+            "guid": "3d099abb58ed0c3449de30e49ced33a1",
+            "prefix": "Characters/CELINA",
+            "path": "surprise",
+            "group": "Characters/fcb9276c-f206-43e3-856a-8d5d979c995d"
+        },
+        {
+            "guid": "c61fe52dd97edfe48aa4cf99ee3e822d",
+            "prefix": "Characters/CELINA",
+            "path": "thinking",
+            "group": "Characters/fcb9276c-f206-43e3-856a-8d5d979c995d"
+        },
+        {
+            "guid": "7f72f02d205dac2498aab9b1d9ca2498",
+            "prefix": "Characters/FR",
+            "path": "angry",
+            "group": "Characters/f8ba6884-1e7a-4379-9295-b116865e3390"
+        },
+        {
+            "guid": "b7f90a39b36c4f44fbb899e00e8b32d2",
+            "prefix": "Characters/FR",
+            "path": "determined",
+            "group": "Characters/f8ba6884-1e7a-4379-9295-b116865e3390"
+        },
+        {
+            "guid": "8275304ccbca6bb4dbb414806531cb87",
+            "prefix": "Characters/FR",
+            "path": "embarrass",
+            "group": "Characters/f8ba6884-1e7a-4379-9295-b116865e3390"
+        },
+        {
+            "guid": "fbd704ebce480f04792662dfa81917fd",
+            "prefix": "Characters/FR",
+            "path": "happy",
+            "group": "Characters/f8ba6884-1e7a-4379-9295-b116865e3390"
+        },
+        {
+            "guid": "2ac0dab780daec24c89255c5192af113",
+            "prefix": "Characters/FR",
+            "path": "neutral",
+            "group": "Characters/f8ba6884-1e7a-4379-9295-b116865e3390"
+        },
+        {
+            "guid": "a5d91c97edde3c74098c8426f1828b26",
+            "prefix": "Characters/FR",
+            "path": "sad",
+            "group": "Characters/f8ba6884-1e7a-4379-9295-b116865e3390"
+        },
+        {
+            "guid": "9513acaf763da8742bc0c9e911ba4af0",
+            "prefix": "Characters/FR",
+            "path": "shy",
+            "group": "Characters/f8ba6884-1e7a-4379-9295-b116865e3390"
+        },
+        {
+            "guid": "2407440564b555a46b479dc55d5910be",
+            "prefix": "Characters/FR",
+            "path": "smile",
+            "group": "Characters/f8ba6884-1e7a-4379-9295-b116865e3390"
+        },
+        {
+            "guid": "e9fd17a89f9154f47b42bdc71728f5fa",
+            "prefix": "Characters/FR",
+            "path": "surprise",
+            "group": "Characters/f8ba6884-1e7a-4379-9295-b116865e3390"
+        },
+        {
+            "guid": "107d3d2cc51b1744c93c7408c01946e4",
+            "prefix": "Characters/FR",
+            "path": "thinking",
+            "group": "Characters/f8ba6884-1e7a-4379-9295-b116865e3390"
+        },
+        {
+            "guid": "8c137a8e17d267d4394c6272d4910dad",
+            "prefix": "Characters/HI",
+            "path": "angry",
+            "group": "Characters/e399d94b-0889-486a-aeb8-cc366f5b6a22"
+        },
+        {
+            "guid": "6dba4d7e528a58d4098234a66cf83838",
+            "prefix": "Characters/HI",
+            "path": "determined",
+            "group": "Characters/e399d94b-0889-486a-aeb8-cc366f5b6a22"
+        },
+        {
+            "guid": "22b82ad02e0c3594ca86a10a055dbf4f",
+            "prefix": "Characters/HI",
+            "path": "embarrass",
+            "group": "Characters/e399d94b-0889-486a-aeb8-cc366f5b6a22"
+        },
+        {
+            "guid": "8a1eae3269213064f9c8d9d7759e9404",
+            "prefix": "Characters/HI",
+            "path": "happy",
+            "group": "Characters/e399d94b-0889-486a-aeb8-cc366f5b6a22"
+        },
+        {
+            "guid": "800a4996f8fbffc4aa131176c2f4e69b",
+            "prefix": "Characters/HI",
+            "path": "neutral",
+            "group": "Characters/e399d94b-0889-486a-aeb8-cc366f5b6a22"
+        },
+        {
+            "guid": "285215ff0bfd168499f6ce417c9441be",
+            "prefix": "Characters/HI",
+            "path": "sad",
+            "group": "Characters/e399d94b-0889-486a-aeb8-cc366f5b6a22"
+        },
+        {
+            "guid": "11d4b36e4a193094f9c06d8de43aaf07",
+            "prefix": "Characters/HI",
+            "path": "shy",
+            "group": "Characters/e399d94b-0889-486a-aeb8-cc366f5b6a22"
+        },
+        {
+            "guid": "df6e1e0d90362e840943bfe2a9c0118e",
+            "prefix": "Characters/HI",
+            "path": "smile",
+            "group": "Characters/e399d94b-0889-486a-aeb8-cc366f5b6a22"
+        },
+        {
+            "guid": "fc65cbffa6b8b9d45bfd130120780f89",
+            "prefix": "Characters/HI",
+            "path": "surprise",
+            "group": "Characters/e399d94b-0889-486a-aeb8-cc366f5b6a22"
+        },
+        {
+            "guid": "2ecd449726b12b741bf00245fc1f9ccc",
+            "prefix": "Characters/HI",
+            "path": "thinking",
+            "group": "Characters/e399d94b-0889-486a-aeb8-cc366f5b6a22"
+        },
+        {
+            "guid": "480c83664f758924d8b577e4858f386a",
+            "prefix": "Characters/JO",
+            "path": "angry",
+            "group": "Characters/70f0ddc0-f743-4bf5-ab23-0f08ca01126c"
+        },
+        {
+            "guid": "9875c6afd64ff084f8e76e565bd7db57",
+            "prefix": "Characters/JO",
+            "path": "determined",
+            "group": "Characters/70f0ddc0-f743-4bf5-ab23-0f08ca01126c"
+        },
+        {
+            "guid": "4d6aa887991357c4d8cfbfc20d27db99",
+            "prefix": "Characters/JO",
+            "path": "embarrass",
+            "group": "Characters/70f0ddc0-f743-4bf5-ab23-0f08ca01126c"
+        },
+        {
+            "guid": "1fd0fe37cd7c9b348924411631ecdab9",
+            "prefix": "Characters/JO",
+            "path": "happy",
+            "group": "Characters/70f0ddc0-f743-4bf5-ab23-0f08ca01126c"
+        },
+        {
+            "guid": "61d36d309a1ffbd42b4dd8dfe1d3aa76",
+            "prefix": "Characters/JO",
+            "path": "neutral",
+            "group": "Characters/70f0ddc0-f743-4bf5-ab23-0f08ca01126c"
+        },
+        {
+            "guid": "eb1e8ac77538f77438db6522a1db992e",
+            "prefix": "Characters/JO",
+            "path": "sad",
+            "group": "Characters/70f0ddc0-f743-4bf5-ab23-0f08ca01126c"
+        },
+        {
+            "guid": "a75269124bff0954baec7d4ef07ae944",
+            "prefix": "Characters/JO",
+            "path": "shy",
+            "group": "Characters/70f0ddc0-f743-4bf5-ab23-0f08ca01126c"
+        },
+        {
+            "guid": "1dcea0abaa1511248a037dda52161d7f",
+            "prefix": "Characters/JO",
+            "path": "smile",
+            "group": "Characters/70f0ddc0-f743-4bf5-ab23-0f08ca01126c"
+        },
+        {
+            "guid": "fad03c058497642498e58e1048c44a20",
+            "prefix": "Characters/JO",
+            "path": "surprise",
+            "group": "Characters/70f0ddc0-f743-4bf5-ab23-0f08ca01126c"
+        },
+        {
+            "guid": "f62af493ea5ff9b488ab8fc7c7fd9086",
+            "prefix": "Characters/JO",
+            "path": "thinking",
+            "group": "Characters/70f0ddc0-f743-4bf5-ab23-0f08ca01126c"
+        },
+        {
+            "guid": "aea492c45a2b4c44eaf4b144eab906e7",
+            "prefix": "Characters/PLAYERF",
+            "path": "angry",
+            "group": "Characters/ae35b370-4f82-4266-a9dd-194bee9355de"
+        },
+        {
+            "guid": "20d43fce62f470145909fc4ff33a1ba5",
+            "prefix": "Characters/PLAYERF",
+            "path": "determined",
+            "group": "Characters/ae35b370-4f82-4266-a9dd-194bee9355de"
+        },
+        {
+            "guid": "1c86370c4b49a7f4e923f94c71a84173",
+            "prefix": "Characters/PLAYERF",
+            "path": "embarrass",
+            "group": "Characters/ae35b370-4f82-4266-a9dd-194bee9355de"
+        },
+        {
+            "guid": "4d287b5ff1be205449945b1d79d7226d",
+            "prefix": "Characters/PLAYERF",
+            "path": "happy",
+            "group": "Characters/ae35b370-4f82-4266-a9dd-194bee9355de"
+        },
+        {
+            "guid": "72816615d5825fe4eaebee17086d7c0d",
+            "prefix": "Characters/PLAYERF",
+            "path": "neutral",
+            "group": "Characters/ae35b370-4f82-4266-a9dd-194bee9355de"
+        },
+        {
+            "guid": "ffd70baec580df647b46251c8a45f6a9",
+            "prefix": "Characters/PLAYERF",
+            "path": "sad",
+            "group": "Characters/ae35b370-4f82-4266-a9dd-194bee9355de"
+        },
+        {
+            "guid": "65ff5d8b1c5a1be4f93f5afb8ed8327a",
+            "prefix": "Characters/PLAYERF",
+            "path": "shy",
+            "group": "Characters/ae35b370-4f82-4266-a9dd-194bee9355de"
+        },
+        {
+            "guid": "eba6a75974e47bf418d7dff2741a7420",
+            "prefix": "Characters/PLAYERF",
+            "path": "smile",
+            "group": "Characters/ae35b370-4f82-4266-a9dd-194bee9355de"
+        },
+        {
+            "guid": "7f9ce1c3c15863140a55070ede5da8c4",
+            "prefix": "Characters/PLAYERF",
+            "path": "surprise",
+            "group": "Characters/ae35b370-4f82-4266-a9dd-194bee9355de"
+        },
+        {
+            "guid": "d58e2e2d396cd1342b7ba63af96a7e32",
+            "prefix": "Characters/PLAYERF",
+            "path": "thinking",
+            "group": "Characters/ae35b370-4f82-4266-a9dd-194bee9355de"
+        },
+        {
+            "guid": "2aaff62eb496d3d468a7b0c5748b3147",
+            "prefix": "Characters/PLAYERF2",
+            "path": "angry",
+            "group": "Characters/50f000e7-7207-40b9-a153-e0da834471b7"
+        },
+        {
+            "guid": "0e66c0e6facbfad41a1188e0facab482",
+            "prefix": "Characters/PLAYERF2",
+            "path": "determined",
+            "group": "Characters/50f000e7-7207-40b9-a153-e0da834471b7"
+        },
+        {
+            "guid": "b8376082e800cd5419e3d35a22908ab2",
+            "prefix": "Characters/PLAYERF2",
+            "path": "embarrass",
+            "group": "Characters/50f000e7-7207-40b9-a153-e0da834471b7"
+        },
+        {
+            "guid": "ad12a0e2feb06d94ea848e0f7be249f0",
+            "prefix": "Characters/PLAYERF2",
+            "path": "happy",
+            "group": "Characters/50f000e7-7207-40b9-a153-e0da834471b7"
+        },
+        {
+            "guid": "f0a615873327bd147a1bd36c4167a017",
+            "prefix": "Characters/PLAYERF2",
+            "path": "neutral",
+            "group": "Characters/50f000e7-7207-40b9-a153-e0da834471b7"
+        },
+        {
+            "guid": "12d58857fff63b947a7022318df7210a",
+            "prefix": "Characters/PLAYERF2",
+            "path": "sad",
+            "group": "Characters/50f000e7-7207-40b9-a153-e0da834471b7"
+        },
+        {
+            "guid": "33289602fbe04214bba30bbdeac985fc",
+            "prefix": "Characters/PLAYERF2",
+            "path": "shy",
+            "group": "Characters/50f000e7-7207-40b9-a153-e0da834471b7"
+        },
+        {
+            "guid": "63b0d235cca9d54499796ef50e6d9937",
+            "prefix": "Characters/PLAYERF2",
+            "path": "smile",
+            "group": "Characters/50f000e7-7207-40b9-a153-e0da834471b7"
+        },
+        {
+            "guid": "1a9b867a8707a43419fb72b5a6272a52",
+            "prefix": "Characters/PLAYERF2",
+            "path": "surprise",
+            "group": "Characters/50f000e7-7207-40b9-a153-e0da834471b7"
+        },
+        {
+            "guid": "af00e21d8dcb25c4b86b1c77e2b98f1a",
+            "prefix": "Characters/PLAYERF2",
+            "path": "thinking",
+            "group": "Characters/50f000e7-7207-40b9-a153-e0da834471b7"
+        },
+        {
+            "guid": "f186de32999109d4598eaad5f1483be3",
+            "prefix": "Characters/PLAYERM",
+            "path": "angry",
+            "group": "Characters/69f2bc4b-848b-48a5-aebc-0595fd85489b"
+        },
+        {
+            "guid": "90b04cee5ba1bf440bc5ce9fc635472a",
+            "prefix": "Characters/PLAYERM",
+            "path": "determined",
+            "group": "Characters/69f2bc4b-848b-48a5-aebc-0595fd85489b"
+        },
+        {
+            "guid": "310f9f9ac90646b42aead5f950867a6e",
+            "prefix": "Characters/PLAYERM",
+            "path": "embarrass",
+            "group": "Characters/69f2bc4b-848b-48a5-aebc-0595fd85489b"
+        },
+        {
+            "guid": "4d53aa5d2e9aa034ea268eb868bb69f6",
+            "prefix": "Characters/PLAYERM",
+            "path": "happy",
+            "group": "Characters/69f2bc4b-848b-48a5-aebc-0595fd85489b"
+        },
+        {
+            "guid": "a49ce8688d1adee48b5b6ce0fe71b5f9",
+            "prefix": "Characters/PLAYERM",
+            "path": "neutral",
+            "group": "Characters/69f2bc4b-848b-48a5-aebc-0595fd85489b"
+        },
+        {
+            "guid": "87eb24d93c000ad449e06c8e48133a44",
+            "prefix": "Characters/PLAYERM",
+            "path": "sad",
+            "group": "Characters/69f2bc4b-848b-48a5-aebc-0595fd85489b"
+        },
+        {
+            "guid": "951294d53540dc3489bec124d9c58cbe",
+            "prefix": "Characters/PLAYERM",
+            "path": "shy",
+            "group": "Characters/69f2bc4b-848b-48a5-aebc-0595fd85489b"
+        },
+        {
+            "guid": "4916ccaf916e55b41bb10045c7398bfa",
+            "prefix": "Characters/PLAYERM",
+            "path": "smile",
+            "group": "Characters/69f2bc4b-848b-48a5-aebc-0595fd85489b"
+        },
+        {
+            "guid": "b5964c2a5500bdd418bf31d7af7fbffa",
+            "prefix": "Characters/PLAYERM",
+            "path": "surprise",
+            "group": "Characters/69f2bc4b-848b-48a5-aebc-0595fd85489b"
+        },
+        {
+            "guid": "4557e88d4b9d08d4fb8a35a2eb51ceca",
+            "prefix": "Characters/PLAYERM",
+            "path": "thinking",
+            "group": "Characters/69f2bc4b-848b-48a5-aebc-0595fd85489b"
+        },
+        {
+            "guid": "1e7e50accad446c48b187f040311d2eb",
+            "prefix": "Characters/PLAYERM2",
+            "path": "angry",
+            "group": "Characters/ac1a8d4c-49d9-46aa-9c65-24bb4f6feb22"
+        },
+        {
+            "guid": "951f588db26c31944aae30199da7166c",
+            "prefix": "Characters/PLAYERM2",
+            "path": "determined",
+            "group": "Characters/ac1a8d4c-49d9-46aa-9c65-24bb4f6feb22"
+        },
+        {
+            "guid": "fe5545a66715c1340a53c07ed2e9c070",
+            "prefix": "Characters/PLAYERM2",
+            "path": "embarrass",
+            "group": "Characters/ac1a8d4c-49d9-46aa-9c65-24bb4f6feb22"
+        },
+        {
+            "guid": "1cac0392ec04f9348b573ad707674ea0",
+            "prefix": "Characters/PLAYERM2",
+            "path": "happy",
+            "group": "Characters/ac1a8d4c-49d9-46aa-9c65-24bb4f6feb22"
+        },
+        {
+            "guid": "35b2bbc537f324b41ac70f2dcc5e29bf",
+            "prefix": "Characters/PLAYERM2",
+            "path": "neutral",
+            "group": "Characters/ac1a8d4c-49d9-46aa-9c65-24bb4f6feb22"
+        },
+        {
+            "guid": "1fcae48b7205a9744aff9266d60e568f",
+            "prefix": "Characters/PLAYERM2",
+            "path": "sad",
+            "group": "Characters/ac1a8d4c-49d9-46aa-9c65-24bb4f6feb22"
+        },
+        {
+            "guid": "228cf098eb47b784cb33aed0cace0702",
+            "prefix": "Characters/PLAYERM2",
+            "path": "shy",
+            "group": "Characters/ac1a8d4c-49d9-46aa-9c65-24bb4f6feb22"
+        },
+        {
+            "guid": "bf0e0617f5bda8b448a8e422f3801317",
+            "prefix": "Characters/PLAYERM2",
+            "path": "smile",
+            "group": "Characters/ac1a8d4c-49d9-46aa-9c65-24bb4f6feb22"
+        },
+        {
+            "guid": "5b55878a6f9af0d4c84c1de3b09e85f1",
+            "prefix": "Characters/PLAYERM2",
+            "path": "surprise",
+            "group": "Characters/ac1a8d4c-49d9-46aa-9c65-24bb4f6feb22"
+        },
+        {
+            "guid": "ada0225969b4d3f468c008bd3c60fed7",
+            "prefix": "Characters/PLAYERM2",
+            "path": "thinking",
+            "group": "Characters/ac1a8d4c-49d9-46aa-9c65-24bb4f6feb22"
+        },
+        {
+            "guid": "b2595985ea831b3419e48b97a90529c5",
+            "prefix": "Characters/TI",
+            "path": "angry",
+            "group": "Characters/b6ab50b5-3fbd-4d2a-a727-f7c3340ec750"
+        },
+        {
+            "guid": "ce9450dabd018d646892d185bd332839",
+            "prefix": "Characters/TI",
+            "path": "determined",
+            "group": "Characters/b6ab50b5-3fbd-4d2a-a727-f7c3340ec750"
+        },
+        {
+            "guid": "d0c45f01cdc8a20469b7092e32361b37",
+            "prefix": "Characters/TI",
+            "path": "embarrass",
+            "group": "Characters/b6ab50b5-3fbd-4d2a-a727-f7c3340ec750"
+        },
+        {
+            "guid": "d38be50619768014f8a3f22828a9b0a1",
+            "prefix": "Characters/TI",
+            "path": "happy",
+            "group": "Characters/b6ab50b5-3fbd-4d2a-a727-f7c3340ec750"
+        },
+        {
+            "guid": "7aaa7d24ba597bd4e83be001a777032b",
+            "prefix": "Characters/TI",
+            "path": "neutral",
+            "group": "Characters/b6ab50b5-3fbd-4d2a-a727-f7c3340ec750"
+        },
+        {
+            "guid": "1fdfd0f84b03fae4da3dc8f24a1e7409",
+            "prefix": "Characters/TI",
+            "path": "sad",
+            "group": "Characters/b6ab50b5-3fbd-4d2a-a727-f7c3340ec750"
+        },
+        {
+            "guid": "ddbb5208d3d47b54fae80d9f9f1047a7",
+            "prefix": "Characters/TI",
+            "path": "shy",
+            "group": "Characters/b6ab50b5-3fbd-4d2a-a727-f7c3340ec750"
+        },
+        {
+            "guid": "37d8f61878679264ea81be78745d76dd",
+            "prefix": "Characters/TI",
+            "path": "smile",
+            "group": "Characters/b6ab50b5-3fbd-4d2a-a727-f7c3340ec750"
+        },
+        {
+            "guid": "d2858012110808648aaba4bd991a3240",
+            "prefix": "Characters/TI",
+            "path": "surprise",
+            "group": "Characters/b6ab50b5-3fbd-4d2a-a727-f7c3340ec750"
+        },
+        {
+            "guid": "4896d1f753f05fe499b3d40ee1c889c4",
+            "prefix": "Characters/TI",
+            "path": "thinking",
+            "group": "Characters/b6ab50b5-3fbd-4d2a-a727-f7c3340ec750"
+        },
+        {
+            "guid": "119109594a195ac44bfb8a4700370846",
+            "prefix": "Characters/VI",
+            "path": "angry",
+            "group": "Characters/78344e5c-ad56-4da8-8c67-febc406f354b"
+        },
+        {
+            "guid": "ee564dd626d60c342a1cb6e82b8354dc",
+            "prefix": "Characters/VI",
+            "path": "determined",
+            "group": "Characters/78344e5c-ad56-4da8-8c67-febc406f354b"
+        },
+        {
+            "guid": "5cf9573edc10b4444a3849a56a060995",
+            "prefix": "Characters/VI",
+            "path": "embarrass",
+            "group": "Characters/78344e5c-ad56-4da8-8c67-febc406f354b"
+        },
+        {
+            "guid": "ae227e9e0eb95d94ab4d2d5eb99fd338",
+            "prefix": "Characters/VI",
+            "path": "happy",
+            "group": "Characters/78344e5c-ad56-4da8-8c67-febc406f354b"
+        },
+        {
+            "guid": "efda2593842f7e5408c4e3e2443413c0",
+            "prefix": "Characters/VI",
+            "path": "neutral",
+            "group": "Characters/78344e5c-ad56-4da8-8c67-febc406f354b"
+        },
+        {
+            "guid": "c5e22d5b63f0a324cb56bf91b2d68fc3",
+            "prefix": "Characters/VI",
+            "path": "sad",
+            "group": "Characters/78344e5c-ad56-4da8-8c67-febc406f354b"
+        },
+        {
+            "guid": "1f4b8000d09ada74a987348569ef2bc2",
+            "prefix": "Characters/VI",
+            "path": "shy",
+            "group": "Characters/78344e5c-ad56-4da8-8c67-febc406f354b"
+        },
+        {
+            "guid": "a18ec85e202420a4098794ce2133f729",
+            "prefix": "Characters/VI",
+            "path": "smile",
+            "group": "Characters/78344e5c-ad56-4da8-8c67-febc406f354b"
+        },
+        {
+            "guid": "8b0cf4e17d97b8640bbe5c342ddec600",
+            "prefix": "Characters/VI",
+            "path": "surprise",
+            "group": "Characters/78344e5c-ad56-4da8-8c67-febc406f354b"
+        },
+        {
+            "guid": "07b8c7164607e2a4180c013059cd39d4",
+            "prefix": "Characters/VI",
+            "path": "thinking",
+            "group": "Characters/78344e5c-ad56-4da8-8c67-febc406f354b"
         },
         {
             "guid": "4fa6d62f894ae6e4698bfa8af59e7942",
@@ -1181,12 +1961,6 @@
             "prefix": "ChoiceHandlers",
             "path": "ChatReply",
             "group": "ChoiceHandlers/00656726-8044-4133-8067-8a2e0eaea900"
-        },
-        {
-            "guid": "c203e47c514c63b41838ee7df4ed72e0",
-            "prefix": "Scripts",
-            "path": "Entry",
-            "group": ""
         },
         {
             "guid": "de8521f0aeb9104499037d68b4751440",
@@ -1239,7 +2013,7 @@
         {
             "guid": "d899bf6df906e1d42b347a84a590a87a",
             "prefix": "Scripts",
-            "path": "Title",
+            "path": "Scenario/Title",
             "group": ""
         },
         {
@@ -1309,18 +2083,6 @@
             "group": ""
         },
         {
-            "guid": "b47d9659b2be5ee4e95a776f213c9d4b",
-            "prefix": "TextPrinters",
-            "path": "Bubble",
-            "group": "TextPrinters/16b50ca7-4519-4bbb-8ad7-9edc88371fa5"
-        },
-        {
-            "guid": "6f9836a3c4f777741b1962979d97e485",
-            "prefix": "TextPrinters",
-            "path": "Chat",
-            "group": "TextPrinters/527deeea-3e9b-40f6-a82d-2c1a01cd29ea"
-        },
-        {
             "guid": "1bc08ccd31adff6439e97161aa6e1d8b",
             "prefix": "TextPrinters",
             "path": "Dialogue",
@@ -1333,10 +2095,10 @@
             "group": "TextPrinters/d7be0c0d-2617-4814-bcf7-ca3fce129417"
         },
         {
-            "guid": "781828b806deb1e4cbf50ef9de41da10",
+            "guid": "3b8966bf30ed2c24b970d916092c87df",
             "prefix": "TextPrinters",
-            "path": "Wide",
-            "group": "TextPrinters/c24b2564-65d0-450f-9982-2c4ca0b77975"
+            "path": "NarratorDialogue",
+            "group": "TextPrinters/1823c0c7-0be8-4de8-b793-ef39496dd3cf"
         },
         {
             "guid": "7fba909c66b25324cb77db18679c2c96",
@@ -1357,7 +2119,7 @@
             "group": ""
         },
         {
-            "guid": "88d03f19bcbff914ba33a7c9895e2d7c",
+            "guid": "6fca3dc5b2384d9419e1474bc8bf62ae",
             "prefix": "UI",
             "path": "ConfirmationUI",
             "group": ""
@@ -1369,13 +2131,25 @@
             "group": ""
         },
         {
+            "guid": "91bedd5a5a6d6b0408e873ee4b4899f3",
+            "prefix": "UI",
+            "path": "CreditsUI",
+            "group": ""
+        },
+        {
+            "guid": "cadf83e44addea44a928f756890c286e",
+            "prefix": "UI",
+            "path": "DemoEndUI",
+            "group": ""
+        },
+        {
             "guid": "671ceb4f549ddf046913d7debf113469",
             "prefix": "UI",
             "path": "ExternalScriptsUI",
             "group": ""
         },
         {
-            "guid": "53aad00e5cf184e458adb001c550518a",
+            "guid": "bccd13eb2b5e7a044bc99b831453c9ae",
             "prefix": "UI",
             "path": "LoadingUI",
             "group": ""
@@ -1399,7 +2173,7 @@
             "group": ""
         },
         {
-            "guid": "8d53726b3d08433479398f02b4780e7f",
+            "guid": "b8608dd627d907f4fb978445b650b104",
             "prefix": "UI",
             "path": "SaveLoadUI",
             "group": ""
@@ -1444,6 +2218,684 @@
             "guid": "bb95f484e341dcd4391a572f22b7d067",
             "prefix": "UI",
             "path": "VariableInputUI",
+            "group": ""
+        },
+        {
+            "guid": "c5357843880660544a00cab93de33011",
+            "prefix": "Unlockables",
+            "path": "CG/CG01_01",
+            "group": ""
+        },
+        {
+            "guid": "bf0d235e683b2f6469730f8f9c6eead8",
+            "prefix": "Unlockables",
+            "path": "CG/CG01_02",
+            "group": ""
+        },
+        {
+            "guid": "2e6d281e290fa4146ac77bc99758429f",
+            "prefix": "Unlockables",
+            "path": "CG/CG01_03",
+            "group": ""
+        },
+        {
+            "guid": "34fa6220234ef0c4da82e6459c75d3d7",
+            "prefix": "Unlockables",
+            "path": "CG/CG02_01",
+            "group": ""
+        },
+        {
+            "guid": "7f878786bb8710d4e80e78406c613c4c",
+            "prefix": "Unlockables",
+            "path": "CG/CG02_02",
+            "group": ""
+        },
+        {
+            "guid": "801cc9d2208be2e44b4d7917f4232479",
+            "prefix": "Unlockables",
+            "path": "CG/CG02_03",
+            "group": ""
+        },
+        {
+            "guid": "fa269feeee8b0eb41a9b6541d9f8f06e",
+            "prefix": "Unlockables",
+            "path": "CG/CG03_female_01",
+            "group": ""
+        },
+        {
+            "guid": "490189518e6a1a644b105c2c23080531",
+            "prefix": "Unlockables",
+            "path": "CG/CG03_female_02",
+            "group": ""
+        },
+        {
+            "guid": "7db7d281a8e831d4c8bdc59d1be21f13",
+            "prefix": "Unlockables",
+            "path": "CG/CG03_female_03",
+            "group": ""
+        },
+        {
+            "guid": "d27baed89aa2c424e8435e5af48db791",
+            "prefix": "Unlockables",
+            "path": "CG/CG03_male_01",
+            "group": ""
+        },
+        {
+            "guid": "bca8c701e4d48394ea3a287caf672d88",
+            "prefix": "Unlockables",
+            "path": "CG/CG03_male_02",
+            "group": ""
+        },
+        {
+            "guid": "ac9ad75981a0a5f48bde40584f44e687",
+            "prefix": "Unlockables",
+            "path": "CG/CG03_male_03",
+            "group": ""
+        },
+        {
+            "guid": "ec0d6d7836b8c90499776a31b7cd48f1",
+            "prefix": "Unlockables",
+            "path": "CG/CG04_01",
+            "group": ""
+        },
+        {
+            "guid": "8b1f8076946af2943a0e911c917b3e99",
+            "prefix": "Unlockables",
+            "path": "CG/CG04_02",
+            "group": ""
+        },
+        {
+            "guid": "9ac6ee0332f6e3041974e432e620b84c",
+            "prefix": "Unlockables",
+            "path": "CG/CG04_03",
+            "group": ""
+        },
+        {
+            "guid": "8a39ad2ab988b834a9bb97686c70c28d",
+            "prefix": "Unlockables",
+            "path": "CG/CG05_01",
+            "group": ""
+        },
+        {
+            "guid": "1b09aeeae8006cb47ad5c5c4f6609341",
+            "prefix": "Unlockables",
+            "path": "CG/CG05_02",
+            "group": ""
+        },
+        {
+            "guid": "cab713546f804ca4db9af8b191ee0273",
+            "prefix": "Unlockables",
+            "path": "CG/CG05_03",
+            "group": ""
+        },
+        {
+            "guid": "b79aa6b0a5808c743be7d7b6a594973f",
+            "prefix": "Unlockables",
+            "path": "CG/CGB02_female_01",
+            "group": ""
+        },
+        {
+            "guid": "914fa2ed4a2d60b43a09b89577234caf",
+            "prefix": "Unlockables",
+            "path": "CG/CGB02_female_02",
+            "group": ""
+        },
+        {
+            "guid": "625315eb04da37f4e9ed9a768913e1ae",
+            "prefix": "Unlockables",
+            "path": "CG/CGB02_female_03",
+            "group": ""
+        },
+        {
+            "guid": "8df14da03cf7ed54f8bc3d24a16660e1",
+            "prefix": "Unlockables",
+            "path": "CG/CGB02_male_01",
+            "group": ""
+        },
+        {
+            "guid": "6a79051fd32c8e34c89f07207aa28bc5",
+            "prefix": "Unlockables",
+            "path": "CG/CGB02_male_02",
+            "group": ""
+        },
+        {
+            "guid": "fce91fc5877c1674b927ac73041ef17f",
+            "prefix": "Unlockables",
+            "path": "CG/CGB02_male_03",
+            "group": ""
+        },
+        {
+            "guid": "29c82ca9b1c5d4341a6ee79e15a97e43",
+            "prefix": "Unlockables",
+            "path": "CG/CGB03_female_01",
+            "group": ""
+        },
+        {
+            "guid": "36c699325597f1c4889dc932c6311a14",
+            "prefix": "Unlockables",
+            "path": "CG/CGB03_female_02",
+            "group": ""
+        },
+        {
+            "guid": "9ca9c5e0c7285ec48bc1bc9c1c2bd622",
+            "prefix": "Unlockables",
+            "path": "CG/CGB03_female_03",
+            "group": ""
+        },
+        {
+            "guid": "f0a25e6e9c456ed4cb54ed23d5257be4",
+            "prefix": "Unlockables",
+            "path": "CG/CGB03_male_01",
+            "group": ""
+        },
+        {
+            "guid": "ac5f5d5ada325994a94cc33f8d103ee1",
+            "prefix": "Unlockables",
+            "path": "CG/CGB03_male_02",
+            "group": ""
+        },
+        {
+            "guid": "7d1b2db62120c5042a8413cbfac0aed9",
+            "prefix": "Unlockables",
+            "path": "CG/CGB03_male_03",
+            "group": ""
+        },
+        {
+            "guid": "987ed98f8cfbaa24283a3876bd2f7022",
+            "prefix": "Unlockables",
+            "path": "CG/CGB04_female_01",
+            "group": ""
+        },
+        {
+            "guid": "b9dfcd2e4cfccb042b842f5a8d0cdfb3",
+            "prefix": "Unlockables",
+            "path": "CG/CGB04_female_02",
+            "group": ""
+        },
+        {
+            "guid": "3eb31436d2bb1b842a7ef1eba1a73459",
+            "prefix": "Unlockables",
+            "path": "CG/CGB04_female_03",
+            "group": ""
+        },
+        {
+            "guid": "76e8b1f5cb27651408c0b83919f92f64",
+            "prefix": "Unlockables",
+            "path": "CG/CGB04_male_01",
+            "group": ""
+        },
+        {
+            "guid": "9932e1df0a4796e4ab2e462f6a8ea5e2",
+            "prefix": "Unlockables",
+            "path": "CG/CGB04_male_02",
+            "group": ""
+        },
+        {
+            "guid": "0de878d8dbba6f345a6a9671446878be",
+            "prefix": "Unlockables",
+            "path": "CG/CGB04_male_03",
+            "group": ""
+        },
+        {
+            "guid": "cdffb2269f73f5b4b85f50cf962e4ba1",
+            "prefix": "Unlockables",
+            "path": "CG/CGB05_01",
+            "group": ""
+        },
+        {
+            "guid": "e28f85a8cdec43b4b94bd8e20cc5ce01",
+            "prefix": "Unlockables",
+            "path": "CG/CGB05_02",
+            "group": ""
+        },
+        {
+            "guid": "c859b4803de1e3940871cd08a40a2f6d",
+            "prefix": "Unlockables",
+            "path": "CG/CGB05_03",
+            "group": ""
+        },
+        {
+            "guid": "2fbe4fe5db815874cb62e15dca06a408",
+            "prefix": "Unlockables",
+            "path": "CG/CGC02_01",
+            "group": ""
+        },
+        {
+            "guid": "8b38b94be975c6646b755e5fbcb60eb1",
+            "prefix": "Unlockables",
+            "path": "CG/CGC02_02",
+            "group": ""
+        },
+        {
+            "guid": "c2568f4147c5c274b8153aad325c5812",
+            "prefix": "Unlockables",
+            "path": "CG/CGC02_03",
+            "group": ""
+        },
+        {
+            "guid": "f9850ed09f049bc45bad92a9b64581fe",
+            "prefix": "Unlockables",
+            "path": "CG/CGC03_female_01",
+            "group": ""
+        },
+        {
+            "guid": "c71ab4fb811704047be93e36880101aa",
+            "prefix": "Unlockables",
+            "path": "CG/CGC03_female_02",
+            "group": ""
+        },
+        {
+            "guid": "954f44a2dd91b324797f286eba7c1a38",
+            "prefix": "Unlockables",
+            "path": "CG/CGC03_female_03",
+            "group": ""
+        },
+        {
+            "guid": "70fecb6b1da9e704ba9010234c0ad6be",
+            "prefix": "Unlockables",
+            "path": "CG/CGC03_male_01",
+            "group": ""
+        },
+        {
+            "guid": "30b82958ad1f9604fb43d375ac1c48cb",
+            "prefix": "Unlockables",
+            "path": "CG/CGC03_male_02",
+            "group": ""
+        },
+        {
+            "guid": "f3921792dbd9d164187c76d169ba10de",
+            "prefix": "Unlockables",
+            "path": "CG/CGC03_male_03",
+            "group": ""
+        },
+        {
+            "guid": "d037d5b315d89e24ab6270d84fdd7fb2",
+            "prefix": "Unlockables",
+            "path": "CG/CGC04_01",
+            "group": ""
+        },
+        {
+            "guid": "08242d35305a4864d86dd821025c95a6",
+            "prefix": "Unlockables",
+            "path": "CG/CGC04_02",
+            "group": ""
+        },
+        {
+            "guid": "e45c90f268710ee4da780e5581016cb4",
+            "prefix": "Unlockables",
+            "path": "CG/CGC04_03",
+            "group": ""
+        },
+        {
+            "guid": "ed8f67c6f271f554f87bbdfc4f95cacc",
+            "prefix": "Unlockables",
+            "path": "CG/CGC05_female_01",
+            "group": ""
+        },
+        {
+            "guid": "e4c985c16b249934ab69feb893d23b68",
+            "prefix": "Unlockables",
+            "path": "CG/CGC05_female_02",
+            "group": ""
+        },
+        {
+            "guid": "cde6dc61afbf8c84faf85e8de57d75c0",
+            "prefix": "Unlockables",
+            "path": "CG/CGC05_female_03",
+            "group": ""
+        },
+        {
+            "guid": "0d604d1f85c479c43b387068d1c65fd3",
+            "prefix": "Unlockables",
+            "path": "CG/CGC05_male_01",
+            "group": ""
+        },
+        {
+            "guid": "98eb70320f94216409fe7f9f11f4bea3",
+            "prefix": "Unlockables",
+            "path": "CG/CGC05_male_02",
+            "group": ""
+        },
+        {
+            "guid": "b51a7928218f8fc44b6ae8d8927df3e9",
+            "prefix": "Unlockables",
+            "path": "CG/CGC05_male_03",
+            "group": ""
+        },
+        {
+            "guid": "16660b8961722174c86f1f857f32df37",
+            "prefix": "Unlockables",
+            "path": "CG/CGH02_female_01",
+            "group": ""
+        },
+        {
+            "guid": "18a7d1084e42f884abfd2b9656b42ea3",
+            "prefix": "Unlockables",
+            "path": "CG/CGH02_female_02",
+            "group": ""
+        },
+        {
+            "guid": "3257c9f34e367fd41b850c0c671eaca8",
+            "prefix": "Unlockables",
+            "path": "CG/CGH02_male_01",
+            "group": ""
+        },
+        {
+            "guid": "3ba562f6fc125d94c9ad6ec3164066ff",
+            "prefix": "Unlockables",
+            "path": "CG/CGH02_male_02",
+            "group": ""
+        },
+        {
+            "guid": "859b90f980ed55f4a96268f07c6e4f5a",
+            "prefix": "Unlockables",
+            "path": "CG/CGH03_female_01",
+            "group": ""
+        },
+        {
+            "guid": "1240994bbe0fb754686e862f00015f3c",
+            "prefix": "Unlockables",
+            "path": "CG/CGH03_female_02",
+            "group": ""
+        },
+        {
+            "guid": "8f2fd81c229b70046ad9764b3b7676cc",
+            "prefix": "Unlockables",
+            "path": "CG/CGH03_female_03",
+            "group": ""
+        },
+        {
+            "guid": "6b71c8c7a51cc6c42a7b1e5c5c46f48e",
+            "prefix": "Unlockables",
+            "path": "CG/CGH03_male_01",
+            "group": ""
+        },
+        {
+            "guid": "4cfe7bef191fee9419b32863c03e0642",
+            "prefix": "Unlockables",
+            "path": "CG/CGH03_male_02",
+            "group": ""
+        },
+        {
+            "guid": "0a1436a82ec00fe4596cace2c96c4c9c",
+            "prefix": "Unlockables",
+            "path": "CG/CGH03_male_03",
+            "group": ""
+        },
+        {
+            "guid": "97d586ae5e37fc1458a55b5f9043adb1",
+            "prefix": "Unlockables",
+            "path": "CG/CGH04_female_01",
+            "group": ""
+        },
+        {
+            "guid": "522babe49f6b9014882e913ca2163856",
+            "prefix": "Unlockables",
+            "path": "CG/CGH04_female_02",
+            "group": ""
+        },
+        {
+            "guid": "4ae9b99304c4f444cb5c627a8a981f56",
+            "prefix": "Unlockables",
+            "path": "CG/CGH04_female_03",
+            "group": ""
+        },
+        {
+            "guid": "56058184d19f3e34ab2ab2f9ac73398f",
+            "prefix": "Unlockables",
+            "path": "CG/CGH04_male_01",
+            "group": ""
+        },
+        {
+            "guid": "afa9d4bc7e9d29a4ab5832db12aa64a3",
+            "prefix": "Unlockables",
+            "path": "CG/CGH04_male_02",
+            "group": ""
+        },
+        {
+            "guid": "9cce8836bada37041a93d4b72e69342b",
+            "prefix": "Unlockables",
+            "path": "CG/CGH04_male_03",
+            "group": ""
+        },
+        {
+            "guid": "da863859d1595f041a6a11cde087a4e8",
+            "prefix": "Unlockables",
+            "path": "CG/CGH05_01",
+            "group": ""
+        },
+        {
+            "guid": "1e04ee300ac44e3468fd654b8bc234d5",
+            "prefix": "Unlockables",
+            "path": "CG/CGH05_02",
+            "group": ""
+        },
+        {
+            "guid": "31a3748bac41aa448b2b5f0e29cdd071",
+            "prefix": "Unlockables",
+            "path": "CG/CGH05_03",
+            "group": ""
+        },
+        {
+            "guid": "e78ae8c7f2f0521498ece65f079b637c",
+            "prefix": "Unlockables",
+            "path": "CG/CGH05_04",
+            "group": ""
+        },
+        {
+            "guid": "fe7beea1db717a84e875a85932aabcc7",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ02_01",
+            "group": ""
+        },
+        {
+            "guid": "d10a003a22d789f4bb3fcbd529323d6d",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ02_02",
+            "group": ""
+        },
+        {
+            "guid": "8a68b0c1c7fd1724893174b518c5f787",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ02_03",
+            "group": ""
+        },
+        {
+            "guid": "e3906ccd8243dd0479db8d4f44e7299b",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ03_female_01",
+            "group": ""
+        },
+        {
+            "guid": "d8e9ccb2fbbbb5743b3e36ee2f06efc8",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ03_female_02",
+            "group": ""
+        },
+        {
+            "guid": "9c68eb6866762b0449a158c37e4f53ec",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ03_female_03",
+            "group": ""
+        },
+        {
+            "guid": "3afb057a1e4748a4e98cd6d3e8a80726",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ03_male_01",
+            "group": ""
+        },
+        {
+            "guid": "93bb1f06616559946ae0c811e90dde55",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ03_male_02",
+            "group": ""
+        },
+        {
+            "guid": "00644a02aa4db1147a7810dd36a87e14",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ03_male_03",
+            "group": ""
+        },
+        {
+            "guid": "57c12d8e4877e514fbf8b2c407d06d8d",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ04_female_01",
+            "group": ""
+        },
+        {
+            "guid": "21e78b0e16321d447a852859e91e3332",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ04_female_02",
+            "group": ""
+        },
+        {
+            "guid": "49a186ba747113c488fbf568a087c363",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ04_female_03",
+            "group": ""
+        },
+        {
+            "guid": "fcd14c09c775d0b449cc858b1f722d6d",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ04_male_01",
+            "group": ""
+        },
+        {
+            "guid": "28de4f99bd7b8ff4aadcd5df01a39578",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ04_male_02",
+            "group": ""
+        },
+        {
+            "guid": "126381d064013d141a774d0f0e807c19",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ04_male_03",
+            "group": ""
+        },
+        {
+            "guid": "172ae5bab8482af448588b1e10bdb93e",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ05_female_01",
+            "group": ""
+        },
+        {
+            "guid": "c12c794131640ea479ad2947ff598720",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ05_female_02",
+            "group": ""
+        },
+        {
+            "guid": "799ffdea46453a243877885eabf46159",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ05_female_03",
+            "group": ""
+        },
+        {
+            "guid": "daa3f64bcfd4f054fa5d50c435a8aad4",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ05_male_01",
+            "group": ""
+        },
+        {
+            "guid": "04b89ec71cc41694aaa863693787a611",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ05_male_02",
+            "group": ""
+        },
+        {
+            "guid": "00bd86a5b18e92d4e95ac51f447f6496",
+            "prefix": "Unlockables",
+            "path": "CG/CGJ05_male_03",
+            "group": ""
+        },
+        {
+            "guid": "e199efa10f8f42041bc550103e19c728",
+            "prefix": "Unlockables",
+            "path": "CG/CGT02_01",
+            "group": ""
+        },
+        {
+            "guid": "bb84c84f77dec6442b6990cd02926fb8",
+            "prefix": "Unlockables",
+            "path": "CG/CGT02_02",
+            "group": ""
+        },
+        {
+            "guid": "97f8b126047dc5b4dac2b1c64c7f34a4",
+            "prefix": "Unlockables",
+            "path": "CG/CGT03_female_01",
+            "group": ""
+        },
+        {
+            "guid": "d8895bda2d5a6e04991ddda5fa637fd4",
+            "prefix": "Unlockables",
+            "path": "CG/CGT03_female_02",
+            "group": ""
+        },
+        {
+            "guid": "cbc95ea1b0149394eb872226bd04ed12",
+            "prefix": "Unlockables",
+            "path": "CG/CGT03_male_01",
+            "group": ""
+        },
+        {
+            "guid": "d663b35c43ac9954fa9b8e437fcb646f",
+            "prefix": "Unlockables",
+            "path": "CG/CGT03_male_02",
+            "group": ""
+        },
+        {
+            "guid": "e0daebeb676b273439752c71be308c25",
+            "prefix": "Unlockables",
+            "path": "CG/CGT04_female_01",
+            "group": ""
+        },
+        {
+            "guid": "fef57c116f470654690521f68ff5fd71",
+            "prefix": "Unlockables",
+            "path": "CG/CGT04_female_02",
+            "group": ""
+        },
+        {
+            "guid": "7fa99e59579964a4e8bd9343a3161071",
+            "prefix": "Unlockables",
+            "path": "CG/CGT04_female_03",
+            "group": ""
+        },
+        {
+            "guid": "ce060fbf53fc6674e963666d96589939",
+            "prefix": "Unlockables",
+            "path": "CG/CGT04_male_01",
+            "group": ""
+        },
+        {
+            "guid": "8c15341478ebfbb4aad8ab34697581f3",
+            "prefix": "Unlockables",
+            "path": "CG/CGT04_male_02",
+            "group": ""
+        },
+        {
+            "guid": "0821cfd25becfba46bc14a62d6a05f9e",
+            "prefix": "Unlockables",
+            "path": "CG/CGT04_male_03",
+            "group": ""
+        },
+        {
+            "guid": "f92b0caabcfc93c43a88a6007034ec4b",
+            "prefix": "Unlockables",
+            "path": "CG/CGT05_01",
+            "group": ""
+        },
+        {
+            "guid": "f379fbce3d7f61a4ebf18a5ea4d00028",
+            "prefix": "Unlockables",
+            "path": "CG/CGT05_02",
+            "group": ""
+        },
+        {
+            "guid": "e3e7ce9a22e67704880e3c971aa5695c",
+            "prefix": "Unlockables",
+            "path": "CGT05_03",
             "group": ""
         }
     ]
