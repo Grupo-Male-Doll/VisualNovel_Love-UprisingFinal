@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 1f10a4523c0cc6749b105443a64aee01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7907855318956190419
+    second: Logo_Edital_Fubanga_0
+  - first:
+      213: 3981858747303891885
+    second: Logo_Edital_Fubanga_1
+  - first:
+      213: -7431059746660510976
+    second: Logo_Edital_Fubanga_2
+  - first:
+      213: 6734961837618276207
+    second: Logo_Edital_Fubanga_3
+  - first:
+      213: -5193876228628977437
+    second: Logo_Edital_Fubanga_4
+  - first:
+      213: -283561074697466735
+    second: Logo_Edital_Fubanga_5
+  - first:
+      213: 4378152207820304757
+    second: Logo_Edital_Fubanga_6
+  - first:
+      213: -5892139451123649475
+    second: Logo_Edital_Fubanga_7
+  - first:
+      213: -6014495901569658166
+    second: Logo_Edital_Fubanga_8
+  - first:
+      213: -1377337660135632897
+    second: Logo_Edital_Fubanga_9
+  - first:
+      213: -4817387318271933946
+    second: Logo_Edital_Fubanga_10
+  - first:
+      213: 5066233444798582043
+    second: Logo_Edital_Fubanga_11
+  - first:
+      213: 5698551054268512922
+    second: Logo_Edital_Fubanga_12
+  - first:
+      213: 2750007570379363293
+    second: Logo_Edital_Fubanga_13
+  - first:
+      213: -7576334529475298433
+    second: Logo_Edital_Fubanga_14
+  - first:
+      213: -1749433903312438062
+    second: Logo_Edital_Fubanga_15
+  - first:
+      213: 5510747965109794683
+    second: Logo_Edital_Fubanga_16
+  - first:
+      213: 641448792597490267
+    second: Logo_Edital_Fubanga_17
+  - first:
+      213: 5953311745759896006
+    second: Logo_Edital_Fubanga_18
+  - first:
+      213: -3974148523843664965
+    second: Logo_Edital_Fubanga_19
+  - first:
+      213: -4570259338684971492
+    second: Logo_Edital_Fubanga_20
+  - first:
+      213: -5758508838817127377
+    second: Logo_Edital_Fubanga_21
+  - first:
+      213: -2184128678539370947
+    second: Logo_Edital_Fubanga_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_0
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 136
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25de6a2c77a14290800000000000000
+      internalID: -7907855318956190419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 52
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da394d21f67624730800000000000000
+      internalID: 3981858747303891885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 100
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003989728829fd890800000000000000
+      internalID: -7431059746660510976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 100
+        width: 6
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67ac03ab14677d50800000000000000
+      internalID: 6734961837618276207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 100
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e86931a615abe7b0800000000000000
+      internalID: -5193876228628977437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 100
+        width: 6
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c878674b6901cf0800000000000000
+      internalID: -283561074697466735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 100
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571b8bf8c3252cc30800000000000000
+      internalID: 4378152207820304757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_7
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 100
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34b5b8136aea3ea0800000000000000
+      internalID: -5892139451123649475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_8
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 100
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2d5ebf7d7388ca0800000000000000
+      internalID: -6014495901569658166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 100
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff09df02b6b2ece0800000000000000
+      internalID: -1377337660135632897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 100
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6020ee4f1c3352db0800000000000000
+      internalID: -4817387318271933946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 100
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d4c6ad970ee4640800000000000000
+      internalID: 5066233444798582043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_12
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 100
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a3a1cddf1551f40800000000000000
+      internalID: 5698551054268512922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_13
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 100
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3d81aa05df92620800000000000000
+      internalID: 2750007570379363293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_14
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 52
+        width: 116
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b3917f2e37bd690800000000000000
+      internalID: -7576334529475298433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc79034223c8b7e0800000000000000
+      internalID: -1749433903312438062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_16
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 52
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77731bb31c1a7c40800000000000000
+      internalID: 5510747965109794683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_17
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 52
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a60604742e6e800800000000000000
+      internalID: 641448792597490267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_18
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 52
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1ed23ad796e9250800000000000000
+      internalID: 5953311745759896006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_19
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 52
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3c7a739fcf8d8c0800000000000000
+      internalID: -3974148523843664965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_20
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 52
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c164542885d2390c0800000000000000
+      internalID: -4570259338684971492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_21
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 52
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24ab5298baa510b0800000000000000
+      internalID: -5758508838817127377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Edital_Fubanga_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 53
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3edae3f98a60b1e0800000000000000
+      internalID: -2184128678539370947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo_Edital_Fubanga_0: -7907855318956190419
+      Logo_Edital_Fubanga_1: 3981858747303891885
+      Logo_Edital_Fubanga_10: -4817387318271933946
+      Logo_Edital_Fubanga_11: 5066233444798582043
+      Logo_Edital_Fubanga_12: 5698551054268512922
+      Logo_Edital_Fubanga_13: 2750007570379363293
+      Logo_Edital_Fubanga_14: -7576334529475298433
+      Logo_Edital_Fubanga_15: -1749433903312438062
+      Logo_Edital_Fubanga_16: 5510747965109794683
+      Logo_Edital_Fubanga_17: 641448792597490267
+      Logo_Edital_Fubanga_18: 5953311745759896006
+      Logo_Edital_Fubanga_19: -3974148523843664965
+      Logo_Edital_Fubanga_2: -7431059746660510976
+      Logo_Edital_Fubanga_20: -4570259338684971492
+      Logo_Edital_Fubanga_21: -5758508838817127377
+      Logo_Edital_Fubanga_22: -2184128678539370947
+      Logo_Edital_Fubanga_3: 6734961837618276207
+      Logo_Edital_Fubanga_4: -5193876228628977437
+      Logo_Edital_Fubanga_5: -283561074697466735
+      Logo_Edital_Fubanga_6: 4378152207820304757
+      Logo_Edital_Fubanga_7: -5892139451123649475
+      Logo_Edital_Fubanga_8: -6014495901569658166
+      Logo_Edital_Fubanga_9: -1377337660135632897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

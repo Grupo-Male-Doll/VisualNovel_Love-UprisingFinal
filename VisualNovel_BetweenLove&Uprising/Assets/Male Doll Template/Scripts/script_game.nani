@@ -16,7 +16,8 @@
 @set liberaHipolita=false
 @set liberaJoaquim=false
 @set liberaTiradentes=false
-@set demoVersion=true
+@set demoVersion=false
+;@gosub #unlockFullGallery
 
 ; Rota Comum
 ; Cena Start - Escolha
@@ -2692,3 +2693,124 @@ NA: One that rarely ends well.
 
 ; @bgm schoolAmbience volume:0.5
 ; @stopBgm fade:2
+
+# unlockFullGallery
+@unlock CG/CG01_01
+@unlock CG/CG01_02
+@unlock CG/CG01_03
+@unlock CG/CG02_01
+@unlock CG/CG02_02
+@unlock CG/CG02_03
+@unlock CG/CG03_female_01
+@unlock CG/CG03_female_02
+@unlock CG/CG03_female_03
+@unlock CG/CG03_male_01
+@unlock CG/CG03_male_02
+@unlock CG/CG03_male_03
+@unlock CG/CG04_01
+@unlock CG/CG04_02
+@unlock CG/CG04_03
+@unlock CG/CG05_01
+@unlock CG/CG05_02
+@unlock CG/CG05_03
+
+@unlock CG/CGB02_female_01
+@unlock CG/CGB02_female_02
+@unlock CG/CGB02_female_03
+@unlock CG/CGB02_male_01
+@unlock CG/CGB02_male_02
+@unlock CG/CGB02_male_03
+@unlock CG/CGB03_female_01
+@unlock CG/CGB03_female_02
+@unlock CG/CGB03_female_03
+@unlock CG/CGB03_male_01
+@unlock CG/CGB03_male_02
+@unlock CG/CGB03_male_03
+@unlock CG/CGB04_female_01
+@unlock CG/CGB04_female_02
+@unlock CG/CGB04_female_03
+@unlock CG/CGB04_male_01
+@unlock CG/CGB04_male_02
+@unlock CG/CGB04_male_03
+@unlock CG/CGB05_01
+@unlock CG/CGB05_02
+@unlock CG/CGB05_03
+
+@unlock CG/CGC02_01
+@unlock CG/CGC02_02
+@unlock CG/CGC02_03
+@unlock CG/CGC03_female_01
+@unlock CG/CGC03_female_02
+@unlock CG/CGC03_female_03
+@unlock CG/CGC03_male_01
+@unlock CG/CGC03_male_02
+@unlock CG/CGC03_male_03
+@unlock CG/CGC04_01
+@unlock CG/CGC04_02
+@unlock CG/CGC04_03
+@unlock CG/CGC05_female_01
+@unlock CG/CGC05_female_02
+@unlock CG/CGC05_female_03
+@unlock CG/CGC05_male_01
+@unlock CG/CGC05_male_02
+@unlock CG/CGC05_male_03
+
+@unlock CG/CGH02_female_01
+@unlock CG/CGH02_female_02
+@unlock CG/CGH02_male_01
+@unlock CG/CGH02_male_02
+@unlock CG/CGH03_female_01
+@unlock CG/CGH03_female_02
+@unlock CG/CGH03_female_03
+@unlock CG/CGH03_male_01
+@unlock CG/CGH03_male_02
+@unlock CG/CGH03_male_03
+@unlock CG/CGH04_female_01
+@unlock CG/CGH04_female_02
+@unlock CG/CGH04_female_03
+@unlock CG/CGH04_male_01
+@unlock CG/CGH04_male_02
+@unlock CG/CGH04_male_03
+@unlock CG/CGH05_01
+@unlock CG/CGH05_02
+@unlock CG/CGH05_03
+@unlock CG/CGH05_04
+
+@unlock CG/CGJ02_01
+@unlock CG/CGJ02_02
+@unlock CG/CGJ02_03
+@unlock CG/CGJ03_female_01
+@unlock CG/CGJ03_female_02
+@unlock CG/CGJ03_female_03
+@unlock CG/CGJ03_male_01
+@unlock CG/CGJ03_male_02
+@unlock CG/CGJ03_male_03
+@unlock CG/CGJ04_female_01
+@unlock CG/CGJ04_female_02
+@unlock CG/CGJ04_female_03
+@unlock CG/CGJ04_male_01
+@unlock CG/CGJ04_male_02
+@unlock CG/CGJ04_male_03
+@unlock CG/CGJ05_female_01
+@unlock CG/CGJ05_female_02
+@unlock CG/CGJ05_female_03
+@unlock CG/CGJ05_male_01
+@unlock CG/CGJ05_male_02
+@unlock CG/CGJ05_male_03
+
+@unlock CG/CGT02_01
+@unlock CG/CGT02_02
+@unlock CG/CGT03_female_01
+@unlock CG/CGT03_female_02
+@unlock CG/CGT03_male_01
+@unlock CG/CGT03_male_02
+@unlock CG/CGT04_female_01
+@unlock CG/CGT04_female_02
+@unlock CG/CGT04_female_03
+@unlock CG/CGT04_male_01
+@unlock CG/CGT04_male_02
+@unlock CG/CGT04_male_03
+@unlock CG/CGT05_01
+@unlock CG/CGT05_02
+@unlock CG/CGT05_03
+@return
