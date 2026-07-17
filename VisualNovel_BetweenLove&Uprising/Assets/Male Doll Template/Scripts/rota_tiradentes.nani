@@ -1,0 +1,3156 @@
+; 2T -1 -  Rota Tiradentes
+# 2T_1
+
+@stopBgm fade:1 !wait
+@bgm respite
+@back bg_innDay
+NA: You wake slowly, shifting in bed, the air already warm.
+NA: The morning sun is rising, bringing heat with it.
+NA: Your eyes blink up at the low ceiling. Dark wooden beams stretch overhead, and the scent of clean cloth and old smoke seeps into everything, filling the space around you.
+NA: For a moment, you don’t understand where you are. You sit up abruptly.
+@char {PLAYER}2.surprise look:left pos:{mid}
+PLAYER: …no.
+NA: You run your hands over your face, trying to fully wake up.
+PLAYER: It was a dream… it has to be.
+NA: But your clothes are neatly folded over a chair that isn’t yours. Your sneakers, stained with red dirt, sit beside it.
+NA: There’s no sound of cars, no distant chatter carried through walls, no electricity humming in the background.
+NA: Reality settles in, piece by piece.
+PLAYER: I’m still here…
+NA: You look around, uneasy.
+NA: No bathroom. No sink. Nothing you’d recognize as basic comfort.
+@char {PLAYER}2.thinking look:left pos:{mid}
+PLAYER: How do people even live like this…?
+NA: You run your hands through your hair.
+PLAYER: I at least need to wash my face… honestly, a shower would be amazing right now.
+NA: After a moment of hesitation, you stand.
+NA: Your clothes still carry dust from the day before.
+NA: You put them on anyway.
+NA: Then head downstairs.
+NA: The inn’s common room is simple, but welcoming.
+NA: A woman stands by the counter, organizing clay containers.
+NA: She looks up as you approach. Her eyes are attentive, but not unfriendly.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+@char FR.neutral look:left pos:{rightmid}
+FR: Well now… awake already.
+NA: She studies you with curiosity.
+FR: Did you sleep well?
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Better than I expected.
+NA: She nods, satisfied.
+FR: I am Francisca. This house is mine.
+FR: And for now… it is yours as well.
+PLAYER: Thank you… for letting me stay.
+NA: She shrugs lightly.
+@char FR.thinking look:left pos:{rightmid}
+FR: Every soul needs shelter at some point.
+NA: Her gaze lingers on your hands, your face, your clothes.
+@char FR.thinking look:left pos:{rightmid}
+FR: There is water out back, if you wish to wash.
+FR: It is no luxury… but it will do.
+
+NA: You smile without meaning to, as if your prayers had just been answered.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: That already helps a lot.
+@hideChars
+NA: You head to the back in quick steps.
+NA: There, a large basin of water waits.
+NA: You dip your hands in, your body reacting instantly to the cold.
+@char {PLAYER}2.surprise look:left pos:{mid}
+PLAYER: Whoa!
+NA: You do your best to clean up.
+NA: No toothbrush. No modern soap. Just a jug and a few cloths.
+NA: After a while, you return to the kitchen.
+NA: Your skin is cold, your clothes slightly damp, your hair still wet.
+NA: On the table, there’s simple food.
+NA: Thick bread, broa, fruit… and a mug of something warm.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+@char FR.neutral look:left pos:{rightmid}
+NA: Francisca notices your gaze.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: This looks great.
+NA: You sit, take a bite of the bread and pause.
+NA: It tastes like pão de queijo.
+NA: A soft, involuntary sound of pleasure slips past your lips.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: It’s been a while since I had something like this.
+NA: Francisca watches with a faint smile.
+@char FR.smile look:left pos:{rightmid}
+FR: Hunger improves any table.
+NA: She studies you more carefully now.
+@char FR.thinking look:left pos:{rightmid}
+FR: Doctor Alvarenga brought you here.
+
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: He did.
+FR: He is a man of good nature.
+NA: She hesitates, choosing her words.
+@char FR.determined look:left pos:{rightmid}
+FR: Though his ideas… tend to bring him danger.
+NA: You pause, watching her for a moment, weighing whether to speak.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Are you talking about his ideas of change… or revolution?
+NA: She takes a slight step back.
+@char FR.angry look:left pos:{rightmid}
+FR: Some words are best spoken softly.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: But aren’t those the very ideas that allow you to be free?
+NA: She looks at you not with anger, but with caution.
+@char FR.surprise look:left pos:{rightmid}
+FR: Freedom… is a large word.
+FR: And far too costly.
+NA: She looks away.
+NA: You realize you’ve pushed too far.
+@char {PLAYER}2.embarrass look:left pos:{leftmid}
+PLAYER: Sorry. I didn’t mean to offend you or...
+NA: She raises a hand, gently stopping you.
+@char FR.determined look:left pos:{rightmid}
+FR: You owe me no apology.
+NA: A pause.
+FR: Only caution.
+FR: Vila Rica listens more than it seems.
+
+; AQUI BG RUA
+@hideChars
+@hide MainBackground time:1
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:1 wait!
+NA: After breakfast, you step out of the inn.
+NA: The morning sun already warms the street. The air is clean, though tinged with dust and the distant scent of earth and animals.
+NA: For a moment, you simply stand there, observing… breathing.
+@char {PLAYER}2.neutral look:left pos:{mid}
+PLAYER: Who would’ve thought no pollution would make the air this clean…
+PLAYER: This is real…
+NA: No cars. No wires. Nothing that belongs to your time.
+NA: You take a few steps, but Francisca calls out to you.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+@char FR.neutral look:left pos:{rightmid}
+FR: Wait a moment.
+NA: She stands at the doorway, holding a small bucket.
+@hide MainBackground
+@back bg_innDay.Crossfade pos:50,50 scale:1 time:0 wait!
+@char FR.determined look:left pos:{rightmid}
+FR: If you are to stay in this house… it is only proper that you help sustain it.
+NA: Her tone isn’t harsh, just direct.
+FR: Take this to the well and bring it back filled with water.
+@char {PLAYER}2.embarrass look:left pos:{leftmid}
+PLAYER: Sure. I can do that.
+NA: She hands you the bucket, and you follow her instructions.
+NA: The task is simple. The rope feels rough against your hands.
+NA: When you return, Francisca nods in approval.
+@char FR.neutral look:left pos:{rightmid}
+FR: You learn quickly. That will serve you well.
+NA: Moments later, you leave the inn once again.
+@hide FR
+@hide MainBackground
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:1 wait!
+@char {PLAYER}2.thinking look:left pos:{mid}
+PLAYER: This isn’t a dream…
+PLAYER: So I need to stop acting like it is.
+NA: You think of someone who might be able to help.
+PLAYER: Alvarenga… he was the only one who tried to protect me.
+NA: With long strides, you start walking.
+PLAYER: Maybe he knows what to do.
+
+@hideChars
+@hide MainBackground
+@back bg_black pos:50,50 scale:1 time:0
+@goSub .BlackScreen
+@stopBgm fade:1 !wait
+@back bg_squareDay.Crossfade time:0.5 wait!
+NA: The streets of Vila Rica open before you. Stone houses, wooden doors, the distant sounds of labor.
+NA: Your feet carry you away from the center. You’re not entirely sure where you’re going, but you try to retrace the path from the day before.
+@bgm tiradentes
+@back bg_tiradentesDay.Crossfade time:1.5 wait!
+NA: Until the city begins to fall behind, and the open land stretches out ahead.
+NA: Dry earth. Low vegetation. Silence.
+NA: And then you see him.
+NA: Tiradentes sits on a cut log. An axe rests against his leg.
+
+@goSub .BlackScreen
+@back CGT02_01.Crossfade id:CG time:0 !visible
+@back CGT02_01.Crossfade id:CG time:0 wait! visible!
+@unlock CG/CGT02_1
+
+NA: His shirt is open at the collar, revealing pale skin and the line of his chest. The sleeves are rolled up, exposing strong arms marked by labor.
+NA: Sunlight casts shadows across his skin. Veins stand subtly along his hands as he grips the axe.
+NA: He does not look like a hero, only a man. Strong. Present. Alive.
+NA: You stare a moment too long without realizing it.
+PLAYER: (…my God.)
+NA: Heat rises to your face.
+PLAYER: (He looks even more beautiful now than he did yesterday…)
+NA: As if sensing your gaze, he lifts his head.
+
+@back CGT02_02.Crossfade id:CG time:1.5 wait!
+
+NA: His eyes meet yours. One brow arches, curious.
+NA: You immediately look away, flustered.
+NA: But it’s too late. He rises slowly.
+TI: It is not common to see strangers in these parts so early.
+NA: His voice is calm.
+NA: He steps closer.
+
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@back bg_tiradentesDay.Crossfade time:1.5 wait!
+@char {PLAYER}2.shy look:left pos:{leftmid}
+@char TI.thinking look:left pos:{rightmid}
+TI: Have you lost your way… or are you searching for something?
+NA: You hesitate before answering.
+@char {PLAYER}2.shy look:left pos:{leftmid}
+PLAYER: I… I was looking for Alvarenga…
+NA: A pause.
+@char {PLAYER}2.shy look:left pos:{leftmid}
+PLAYER: Tiradentes.
+NA: The name lingers in the air.
+NA: He tilts his head slightly, intrigued.
+@char TI.smile look:left pos:{rightmid}
+TI: Tiradentes…
+NA: A small smile appears.
+NA: He seems interested, not offended.
+TI: Curious.
+NA: He studies you more closely.
+@char TI.thinking look:left pos:{rightmid}
+TI: Everyone calls me alferes.
+TI: Why do you not?
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Because that’s how I know you.
+NA: You realize what you’ve said and quickly correct yourself.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: But I can call you alferes, if you prefer.
+NA: Tiradentes watches you in silence… then smiles.
+@char TI.smile look:left pos:{rightmid}
+TI: No.
+TI: There is something different in the way you say it.
+NA: He steps closer, not invasive, but close enough.
+TI: Tiradentes… it sounds almost like a new name, in your voice.
+@char TI.thinking look:left pos:{rightmid}
+TI: But tell me… Alvarenga.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: He helped me yesterday, so I thought…
+NA: He nods slowly.
+@char TI.neutral look:left pos:{rightmid}
+TI: A man of great wit… and a greater heart.
+NA: Then he adds, naturally
+@char TI.determined look:left pos:{rightmid}
+TI: And a married man.
+NA: You blink, caught off guard.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: I know.
+NA: Without thinking, you add.
+@char {PLAYER}2.embarrass look:left pos:{leftmid}
+PLAYER: I mean...of course I know. He’s, well… handsome. Of course he’d have someone.
+NA: The silence that follows feels almost physical.
+NA: Tiradentes slowly raises an eyebrow.
+@char TI.thinking look:left pos:{rightmid}
+TI: Handsome?
+NA: There is no anger in his voice, only curiosity.
+TI: Indeed… he is said to be a man of good appearance.
+NA: He crosses his arms, thoughtful.
+TI: Though the years have granted him a certain maturity…
+TI: He is no longer a youth. Which, for some, seems to increase his appeal.
+NA: There’s something subtle in that remark.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Age doesn’t mean anything.
+NA: You answer too quickly.
+@char {PLAYER}2.shy look:left pos:{leftmid}
+PLAYER: I mean… sometimes it makes things better.
+NA: You realize what you just implied.
+NA: Tiradentes tilts his head slightly.
+@char TI.surprise look:left pos:{rightmid}
+TI: Better…?
+NA: He suppresses a smile.
+@char TI.smile look:left pos:{rightmid}
+TI: It seems you are well acquainted with the virtues of maturity.
+NA: Your face immediately heats up.
+@char {PLAYER}2.embarrass look:left pos:{leftmid}
+PLAYER: That’s not what I meant. I mean, it is, but not like that…
+PLAYER: I just meant he seems… respectable.
+NA: Tiradentes watches you for another moment. Then exhales softly, almost a restrained laugh.
+@char TI.smile look:left pos:{rightmid}
+TI: Do not trouble yourself.
+@char TI.neutral look:left pos:{rightmid}
+TI: You are not the first to notice his qualities… nor will you be the last.
+NA: There is something strange in that moment.
+NA: He rests a hand on the handle of the axe.
+@char TI.neutral look:left pos:{rightmid}
+TI: Alvarenga and I share… more than friendship.
+NA: He pauses.
+@char {PLAYER}2.smile look:left pos:{leftmid} transition:Crossfade
+NA: And you fail to contain a childish little laugh at the implication that flashes through your mind.
+PLAYER: Hmm…
+TI: We share ideas.
+PLAYER: Oh…
+NA: Tiradentes’ eyes return to you. Firm. Attentive.
+@char TI.thinking look:left pos:{rightmid}
+TI: Ideas not all understand… ideas not all approve of.
+NA: He tilts his head slightly.
+@char TI.determined look:left pos:{rightmid}
+TI: And you?
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: Me what?
+TI: You speak as one who has come from afar.
+TI: Tell me… what do you think of this world?
+NA: The question is not casual.
+TI: You saw the square.
+TI: You saw the men who work… and those who merely collect the fruits.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Yes.
+TI: Speak frankly. Does it seem just to you?
+
+@choice "No, I would change the way they treat the people" goto:.scene2T-1
+@choice "It may not be just, but the world is this way" goto:.scene2T-2
+@stop
+
+# scene2T-1
+@set afetoTiradentes+=1
+NA: You hold his gaze.
+@char {PLAYER}2.determined look:left pos:{leftmid}
+ PLAYER: I would change how they treat the people.
+PLAYER: It is not right.
+NA: The silence that follows is not heavy.
+NA: Tiradentes smiles. But it is not an ordinary smile.
+NA: He seems almost relieved.
+@char TI.surprise look:left pos:{rightmid}
+ TI: So soon… and you already see it.
+NA: He exhales a brief, satisfied breath through his nose.
+@char TI.neutral look:left pos:{rightmid}
+ TI: Rare it is to find someone who sees beyond their own convenience.
+NA: He relaxes his shoulders.
+TI: Many feel the weight.
+TI: Few dare to name it.
+NA: He steps a little closer, more open now.
+@char TI.thinking look:left pos:{rightmid}
+ TI: Tell me… what would you do if you could change it?
+TI: Vila Rica lacks men and women who think.
+TI: Not just those who obey.
+NA: For the first time, he seems to speak as an equal.
+NA: You smile.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+ PLAYER: Is this an invitation?
+NA: He seems to consider your question, as if weighing something.
+@goto .scene2T-1end
+
+# scene2T-2
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+ PLAYER: It’s just authority fulfilling its role.
+NA: Tiradentes’ jaw tightens slightly.
+@char TI.angry look:left pos:{rightmid}
+ TI: Fulfilling a role…
+NA: He takes a deep breath.
+@char TI.determined look:left pos:{rightmid}
+ TI: The executioner does the same.
+NA: His tone does not rise. But it chills.
+TI: Yet blood still flows.
+NA: Silence, and he stares at you for a long moment.
+
+@choice "Rules and order exist for a reason." goto:.scene2T-3A
+@choice "It’s not about agreeing, just avoiding the consequences." goto:.scene2T-3B
+@stop
+
+# scene2T-3A
+@char TI.thinking look:left pos:{rightmid}
+TI: Order…
+TI: That is what they always call it, before naming it justice.
+NA: A faint, almost ironic breath escapes him.
+@char TI.determined look:left pos:{rightmid}
+TI: Well-crafted words… meant to keep everything exactly as it is.
+NA: His gaze lingers on you for a moment longer.
+@goto .scene2T-3
+@stop
+
+# scene2T-3B
+@set afetoTiradentes+=1
+@char TI.thinking look:left pos:{rightmid}
+TI: Prudence, then.
+TI: A virtue… when it does not paralyze us.
+NA: He tilts his head slightly, thoughtful.
+@char TI.neutral look:left pos:{rightmid}
+TI: Many call it caution…
+TI: When, deep down, it is only well-dressed fear.
+NA: His tone is not accusatory, only curious.
+@goto .scene2T-3
+@stop
+
+# scene2T-1end
+# scene2T-3
+NA: Tiradentes remains silent for a moment.
+NA: His gaze is firm and attentive, as one trying to see beyond words.
+NA: Then, gradually, his expression softens.
+@char TI.determined look:left pos:{rightmid}
+ TI: Perhaps you do not yet know this land well enough.
+NA: He shifts his weight to one leg, more at ease.
+@char TI.thinking look:left pos:{rightmid}
+ TI: Vila Rica teaches… even by force.
+NA: There is no harshness in his voice now.
+NA: But neither full trust.
+TI: Many arrive here seeing only gold.
+TI: They take time to perceive the cost.
+NA: A brief pause.
+TI: I do not blame you for not seeing it entirely yet.
+NA: He tilts his head slightly.
+TI: Each awakens in their own time.
+NA: He releases the axe handle and wipes his hands on the cloth at his belt.
+@char TI.neutral look:left pos:{rightmid}
+ TI: I have some matters that cannot wait.
+NA: He gestures vaguely toward the city.
+TI: Vila Rica does not govern itself… even if many pretend it does.
+NA: Then he turns his eyes to you.
+@char TI.thinking look:left pos:{rightmid}
+ TI: If you wish to understand this land better…
+TI: My home will be open to you.
+NA: His tone is not formal, merely sincere.
+TI: Come when it pleases you.
+TI: You will be welcomed.
+NA: He does not insist.
+NA: There is something in the way he speaks that makes the invitation feel weighty.
+NA: He steps back.
+TI: Until soon.
+NA: And then he walks away.
+@hide TI
+@char {PLAYER}2.neutral look:left pos:{mid}
+NA: Leaving you alone with the wind, the sun, and too many questions.
+NA: For the first time since arriving in Vila Rica…
+NA: You feel you are not merely an intruder… but someone being observed.
+@stopBgm fade:3 !wait
+@goSub .BlackScreen
+; aqui bg rua
+@back bg_squareAfternoon.Crossfade pos:-65,90 scale:3.0 time:0 wait!
+
+NA: The way back seems shorter than before.
+NA: Or perhaps it is just your mind, too distant to notice.
+NA: The sun is lowering on the horizon, painting Vila Rica in warm, golden tones.
+NA: But it is not the heat that makes your chest feel tight.
+NA: Something new… that you do not yet know how to name.
+@bgm respite
+NA: The inn appears ahead.
+NA: Open windows release the scent of food and aged wood.
+NA: As you enter, Francisca is behind the counter, arranging some coins.
+@hide MainBackground
+@back bg_innAfternoon.Crossfade pos:50,50 scale:1.0 time:0 wait!
+
+NA: She looks up at the sound of your footsteps.
+NA: She watches you more closely than usual.
+@char FR.neutral look:left pos:{mid}
+FR: You’ve returned.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+@char FR.neutral look:left pos:{rightmid}
+PLAYER: I have.
+NA: She tilts her head slightly.
+FR: I can see that.
+NA: A pause. A faint smile touches the corner of her lips.
+@char FR.smile look:left pos:{rightmid}
+FR: And you did not return the same.
+NA: You raise an eyebrow.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: What do you mean?
+NA: She wipes her hands on her apron, still watching you.
+FR: Some return from the streets weary. Others, relieved.
+NA: Her smile grows, subtle but knowing.
+@char FR.happy look:left pos:{rightmid}
+FR: You returned… lit.
+NA: Heat rushes to your face.
+@char {PLAYER}2.embarrass look:left pos:{leftmid}
+PLAYER: I am not lit.
+NA: She raises an eyebrow.
+@char FR.thinking look:left pos:{rightmid}
+FR: No?
+NA: Silence.
+NA: You look away too late.
+NA: She lets out a soft laugh.
+@char FR.smile look:left pos:{rightmid}
+FR: Vila Rica has that gift.
+FR: At times, it weighs on us… at others, it awakens us.
+NA: You take a breath, trying to sound casual.
+@char {PLAYER}2.shy look:left pos:{leftmid}
+PLAYER: I ran into Tiradentes.
+NA: She freezes completely.
+@char FR.surprise look:left pos:{rightmid}
+FR: The alferes…
+NA: She repeats the title with respect.
+NA: Now she studies you more carefully.
+@char FR.neutral look:left pos:{rightmid}
+FR: And what did you think of him?
+NA: You hesitate.
+NA: Images flicker through your mind the sunlight on his skin, his smile, the quiet intensity of his gaze.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: He’s… different.
+NA: Francisca nods slowly.
+FR: He is a man of his word… and of danger.
+NA: She resumes sorting the coins.
+FR: Some call him mad. Others, just.
+NA: She looks back at you.
+@char FR.determined look:left pos:{rightmid}
+FR: And some choose to follow him.
+NA: Silence.
+@char FR.thinking look:left pos:{rightmid}
+FR: And you?
+NA: You don’t answer because you don’t know.
+NA: She does not press. She simply smiles, gently.
+FR: Go get some rest.
+FR: The body must follow the heart… wherever it has decided to go.
+@char {PLAYER}2.embarrass look:left pos:{leftmid}
+NA: Your face warms again.
+@hideChars
+NA: You head upstairs before she can see it.
+
+@goSub .BlackScreen
+@back bg_innDay.Crossfade pos:90,45 scale:2 time:0 !wait
+@slide MainBackground to:90,50
+NA: Waking up here is no longer a shock. Not like before.
+NA: For a moment, you simply stare at the wooden ceiling, darkened by time and the smoke of candles and oil lamps.
+@char {PLAYER}2.neutral look:left pos:{mid}
+PLAYER: (I’m still here.)
+NA: There is no doubt now. No panic. Just a quiet realization.
+PLAYER: (This is my new life. In Vila Rica.)
+NA: The morning air slips in through the small window, cool against your skin. Outside, the town is already in motion hurried, wheels creaking over stone, hushed voices carrying the weight of another day.
+NA: You sit at the edge of the bed and run a hand over your face.
+NA: No time to hesitate. Today, you have a reason to go out.
+NA: You wash your face with the cold water from the basin. The shock is brief, but enough to fully wake you.
+NA: The dust of the night fades away. You adjust your clothes with a care you are still learning, trying to look like someone who belongs to this time.
+@hide MainBackground
+@back bg_innDay.Crossfade pos:50,50 scale:1 time:1.5 wait!
+NA: As you walk down the inn’s stairs, the smell of coffee and warm bread fills the air.
+@char {PLAYER}2.neutral look:left pos:{leftmid} !wait
+@char FR.neutral look:left pos:{rightmid}
+FR: Good morning.
+NA: Francisca looks up as she sees you. A subtle smile forms, but there is something more behind it.
+FR: Did you sleep better tonight?
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: I did. Better than I thought I would.
+NA: She rests the cloth on the counter, tilting her head slightly.
+@char FR.neutral look:left pos:{rightmid}
+FR: This house tends to calm those who arrive troubled.
+FR: Yesterday, you returned… different.
+NA: You try to hide it, but feel warmth rising to your face.
+@char {PLAYER}2.shy look:left pos:{leftmid}
+PLAYER: I spoke with Tiradentes. He asked me to meet him again today.
+NA: You glance away for a moment.
+@char FR.surprise look:left pos:{rightmid}
+FR: Wow.
+NA: A small smile curls at the corner of her lips.
+@char FR.smile look:left pos:{rightmid}
+FR: The alferes does tend to have that effect on people.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: What effect?
+@char FR.neutral look:left pos:{rightmid}
+FR: He makes one think.
+NA: She hands you a mug.
+@char FR.thinking look:left pos:{rightmid}
+FR: And sometimes… he makes one want to return.
+NA: The coffee is warm in your hands, and you try to change the subject.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Is there anything I can help with today? Any work anything.
+NA: Francisca looks at you again. There is something almost too gentle in her refusal.
+@char FR.neutral look:left pos:{rightmid}
+FR: Not today. You’ve done enough for now.
+FR: There are other matters that require more of your attention this morning.
+NA: The way she says it leaves no doubt she knows exactly what she means.
+@char FR.neutral look:left pos:{rightmid}
+FR: Eat. If you’re going to see him, don’t keep him waiting.
+FR: No one finds what they seek on an empty stomach.
+NA: You nod and begin to eat. The bread is soft, with a faint cheesy flavor, and the coffee is strong.
+NA: But you barely taste it. Your thoughts are already elsewhere.
+NA: You finish quickly. You don’t want to waste time.
+@stopBgm fade:2 !wait
+@hideChars
+@hide MainBackground
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:1 wait!
+@bgm wander volume:0.3
+NA: You close the inn door carefully behind you.
+NA: The morning air is fresh. The sun has not yet taken the sky, but its light already spreads across the hills and stone paths.
+NA: Your steps follow the same direction as yesterday.
+@char {PLAYER}2.thinking look:left pos:{mid}
+PLAYER: It’s still strange… all of it.
+PLAYER: This place… this life.
+@stopBgm fade:3 !wait
+@hide MainBackground
+@back bg_tiradentesDay.Crossfade pos:50,50 scale:1.0 time:0 wait!
+NA: The house appears ahead, isolated, silent as before.
+NA: The door is open. Ajar, in fact.
+NA: You approach slowly. You peek inside.
+NA: Nothing. No sign of him outside.
+NA: You hesitate for a brief moment, then push the door and step in.
+
+@gosub .BlackScreen
+@back bg_inTiradentesDay.Crossfade pos:50,50 scale:1.0 time:1.5
+@bgm tiradentes volume:1
+NA: The interior is simple. Bare walls, a worn wooden table, papers scattered without much order.
+NA: Your eyes move across the objects: maps of the captaincy, dark ink markings, notes in the margins, calculations and names.
+NA: Among the papers, a small painting catches your attention. A portrait of a woman and a child, carefully made but worn by time.
+NA: You lean in slightly to observe it.
+TI: You arrived earlier than I expected.
+NA: The voice comes from behind you, calm.
+@char {PLAYER}2.surprise look:left pos:{leftmid} !wait
+@char TI.smile look:left pos:{rightmid}
+NA: You turn and there he is.
+NA: Leaning near the back door, watching you with a faint smile.
+TI: I am pleased to see you accepted my invitation.
+NA: Embarrassment still warms your face.
+@char {PLAYER}2.shy look:left pos:{leftmid}
+PLAYER: (You shouldn’t be standing there… watching me go through your things.)
+NA: But he does not seem bothered.
+@char TI.neutral look:left pos:{rightmid}
+TI: Do not be embarrassed.
+NA: He approaches with unhurried steps.
+TI: This house lacks comfort… but it is rich in unrest.
+NA: There is tiredness on his face.
+NA: More visible now, in the morning light.
+@char TI.thinking look:left pos:{rightmid}
+TI: Since our meeting yesterday, much has weighed on my mind.
+NA: He looks at the papers on the table, touching one with the tip of his fingers.
+TI: For some time, I have carried certain thoughts… certain intentions…
+NA: He lifts his eyes to you.
+TI: And for some reason… I believe you are capable of understanding them.
+NA: He makes a subtle gesture, inviting you closer to the table.
+@char {PLAYER}2.neutral
+@char TI.determined look:left pos:{rightmid}
+TI: Tell me… have you the resolve to hear the unrest of a man who can no longer live in peace under the yoke imposed upon us?
+NA: His voice is low, but firm.
+
+@choice "Tell me what you have in mind." goto:.scene3T-1
+@choice "Perhaps, but I worry about the consequences of your plans." goto:.scene3T-2
+@stop
+
+# scene3T-1
+@set afetoTiradentes+=1
+NA: He holds your gaze for a moment. Then nods slightly.
+@char TI.determined look:left pos:{rightmid}
+TI: Very well.
+NA: He opens one of the maps.
+NA: The lines are carefully marked villages, roads, circled points.
+TI: This land bleeds in silence.
+NA: His fingers trace the map.
+TI: The gold taken from here does not remain here. It is sent overseas, to sustain a Crown that knows nothing of our suffering.
+TI: And when there is no longer enough gold…
+NA: He tightens his grip slightly on the paper.
+@char TI.angry look:left pos:{rightmid}
+TI: They devise new ways to drain us. Taxes, levies… the Derrama.
+NA: There is bitterness in his voice, but also something deeper.
+TI: We are not subjects. We are resources.
+NA: He takes a deep breath.
+NA: For a moment, he seems more tired than ever.
+@char TI.thinking look:left pos:{rightmid}
+TI: There are men who think as I do. Men who believe this land can be free. That it can govern itself.
+NA: He looks directly at you.
+TI: Not out of ambition, but out of dignity.
+NA: His eyes falter for a brief moment.
+TI: Yet… it is no light burden.
+NA: He runs a hand over his face, weary.
+TI: Sleep has been scarce.
+@char TI.neutral look:left pos:{rightmid}
+TI: There are nights when I close my eyes and see only what may go wrong.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: (I could give you a spoiler…)
+NA: He exhales softly almost a humorless laugh.
+TI: Failure would not condemn only me… but all those who dare to believe.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: (If you had access to my history books… you might disagree.)
+NA: He looks back at you.
+TI: Even so… there are moments when a single presence is enough to ease the burden.
+NA: A pause.
+TI: Tell me.
+NA: His voice is softer now.
+@char TI.thinking look:left pos:{rightmid}
+TI: What do you think of all this?
+@goto .scene3T-1end
+
+# scene3T-2
+NA: Silence weighs after your words.
+TI: Consequences…
+NA: He repeats the word slowly, as if tasting it.
+NA: His expression shifts, subtly.
+TI: Prudence is a rare virtue in these times.
+NA: He walks to the window, glancing outside for a moment, making sure you are alone.
+NA: When he speaks again, his voice is measured.
+@char TI.thinking look:left pos:{rightmid}
+TI: Suppose… merely as an exercise of thought… that some men in this captaincy consider rising against the Crown’s abuses.
+NA: He does not say it as a confession.
+@char TI.determined look:left pos:{rightmid}
+TI: Suppose such men have grown weary of the Derrama, of the royal fifth, and of constant humiliation.
+TI: And that they believe the time has come to govern this land according to their own interests.
+NA: He stops before you, carefully studying your expression.
+@char TI.thinking look:left pos:{rightmid}
+TI: What would you say of such men?
+NA: There is no lightness now.
+TI: Would you call them reckless? Traitors? Or courageous?
+NA: He steps closer.
+TI: Because consequences… yes, they do exist.
+@char {PLAYER}2.determined look:left pos:{leftmid}
+PLAYER: Have you truly considered what those consequences might be?
+NA: His voice lowers even further.
+@char TI.sad look:left pos:{rightmid}
+TI: Imprisonment. Confiscation of property. A public example.
+NA: A brief flicker crosses his eyes something he has already imagined for himself.
+@char {PLAYER}2.angry look:left pos:{leftmid}
+PLAYER: "A public example”… have you at least considered the possibility of your mission being suici...
+@char {PLAYER}2.determined
+NA: You stop yourself.
+@char TI.determined look:left pos:{rightmid}
+TI: And yet… there are consequences in doing nothing as well.
+NA: He crosses his arms.
+TI: To live forever under unjust taxes… to watch the people suffer and remain still.
+TI: So tell me.
+NA: His tone is almost calm.
+@char TI.thinking look:left pos:{rightmid}
+TI: Which consequence seems more dreadful to you?
+
+# scene3T-1end
+NA: You meet his gaze, thinking about what to say.
+NA: There is tension in the air, as if your answer carries weight.
+NA: Tiradentes does not look away.
+NA: The silence grows between you.
+NA: You take a breath, about to speak but your hand hits the edge of the table, knocking over a glass of water.
+@sfx glass !wait
+@shake Camera count:1
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+NA: The sharp sound of glass shattering echoes far too loudly in the room, water spilling across the packed earth floor.
+NA: The fragments glint in the light from the window.
+NA: You startle at the noise.
+PLAYER: I…
+NA: The words die before they are born.
+NA: Tiradentes reacts at once, turning toward the door, alert to the outside.
+NA: Then he looks back at you.
+NA: And smiles, realizing it was only you who knocked the glass over.
+@char TI.smile look:left pos:{rightmid}
+TI: I believe the water suffered more than you did.
+NA: He crouches without ceremony and begins gathering the larger shards.
+@char TI.neutral look:left pos:{rightmid}
+TI: In times like these, any sound feels like an accusation.
+
+@choice "Apologize repeatedly" goto:.scene3T-3
+@choice "Try to clean it up" goto:.scene3T-4
+@stop
+
+# scene3T-3
+@set afetoTiradentes+=1
+@char {PLAYER}2.embarrass look:left pos:{leftmid}
+PLAYER: Forgive me… I… I was careless…
+PLAYER: I didn’t mean to…
+@char {PLAYER}2.shy look:left pos:{leftmid}
+PLAYER: I’m truly sorry…
+NA: Your voice grows quieter with each word.
+NA: You crouch as well, hurried, trying to gather the shards with trembling hands.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: I can clean it… I shouldn’t have touched anything…
+NA: Tiradentes lets out a soft breath through his nose, not irritation, almost a quiet laugh.
+@char TI.smile look:left pos:{rightmid}
+TI: Careful.
+NA: He reaches out and gently stops you from touching a sharper shard.
+TI: I would not have you hurt over something so small.
+NA: There is something in the calm, careful way he says it.
+NA: He continues gathering the pieces.
+@char TI.neutral look:left pos:{rightmid}
+TI: When I was a child… I was as clumsy as a young colt.
+NA: A faint smile appears on his lips.
+@char TI.smile look:left pos:{rightmid}
+TI: I would knock over jars, break bowls, make noise where silence was expected.
+TI: My mother scolded me often.
+NA: He lifts a small shard of glass, observing it.
+@char TI.neutral look:left pos:{rightmid}
+TI: This very house has witnessed some of those battles.
+NA: His smile grows slightly.
+@char TI.happy look:left pos:{rightmid}
+TI: At the time, I cared as though the world had ended.
+NA: He sets the shard down with the others.
+TI: Now… not anymore.
+NA: He looks up at you.
+@char TI.neutral look:left pos:{rightmid}
+TI: Some things break. Others remain.
+TI: Solitude… I have long grown used to it.
+TI: It is a constant companion on the road… and even among many.
+NA: His eyes meet yours.
+@char TI.thinking look:left pos:{rightmid}
+TI: But since you arrived…
+NA: He stops, as if catching himself.
+NA: Your fingers brush as you both reach for the same shard.
+NA: The touch is brief.
+TI: …
+NA: A faint flush rises to his face.
+@char TI.surprise look:left pos:{rightmid}
+TI: Forgive me.
+TI: It is not my habit to speak so.
+NA: He takes a folded cloth from the table and opens it carefully.
+NA: He extends it toward you.
+@goto .scene3T-3end
+
+# scene3T-4
+NA: The sound of the glass still echoes in your ears.
+NA: Embarrassment rises quickly.
+NA: Before thinking, you crouch and begin gathering the fragments, a little too hastily.
+@char {PLAYER}2.shy
+PLAYER: I can clean it… it was my fault…
+NA: Your fingers tremble slightly as you try to gather the pieces.
+NA: Tiradentes watches you for a moment.
+NA: He notices the silence and your embarrassment.
+NA: Then, calmly, he crouches beside you.
+@char TI.neutral
+TI: Do not rush.
+TI: It is only a glass. I have lost things of far greater value… and survived them all.
+NA: He takes a folded cloth from the table and opens it carefully.
+TI: Here.
+NA: He extends it toward you.
+
+# scene3T-3end
+NA: Your eyes meet his for a brief moment.
+NA: As he hands you the cloth, his hand rests over yours for a moment longer than necessary.
+NA: The contact is firm… and warm.
+NA: Time seems to pause between one moment and the next.
+NA: Tiradentes notices and looks away first.
+@char TI.thinking
+TI: …
+NA: His fingers pull away with restrained reluctance.
+NA: He stands, taking the shards of glass with him.
+@hide TI
+@char {PLAYER}2.shy pos:{mid}
+NA: You remain there, aware that something now lingers in the air something neither of you seem willing to name.
+NA: Once everything is clean, you stand, thinking you stayed far too long and wishing you could disappear into the floor from sheer embarrassment.
+@char {PLAYER}2.embarrass
+PLAYER: (First day he invites me over and I break a glass…)
+PLAYER: (At this rate, next time I’ll bring the whole house down and save time.)
+@char {PLAYER}2.shy pos:{leftmid}
+@char TI.neutral pos:{rightmid}
+NA: Footsteps return. Tiradentes reappears, wiping his hands on a cloth.
+NA: He pauses when he notices your stiff posture, your discomfort obvious.
+@char TI.thinking
+TI: You look as though you are awaiting sentence.
+NA: There is a subtle glint of humor in his eyes.
+@char TI.neutral
+TI: I assure you, your punishment will not be the scaffold…
+TI: …At least not for a glass.
+NA: The corner of his mouth lifts slightly.
+@char TI.smile
+TI: This house has survived worse.
+TI: Including its own owner.
+NA: He tilts his head, as if sharing a secret.
+@char TI.happy
+TI: When I first came here, I broke a chair simply by sitting on it.
+TI: I spent the rest of the night on the floor, reflecting on my choices.
+NA: You let out a small smile.
+NA: He watches your reaction, clearly pleased to have eased the moment.
+@char {PLAYER}2.smile
+PLAYER: I promise to spare the rest of your furniture.
+@char TI.smile
+TI: A prudent promise.
+NA: The silence that follows is no longer heavy.
+NA: You hesitate, then gesture lightly toward the door.
+@char {PLAYER}2.neutral
+PLAYER: I don’t wish to take up more of your time.
+NA: He notices and nods.
+@char TI.thinking
+TI: In truth…
+NA: He chooses his words carefully.
+@char TI.neutral
+TI: There will be a small gathering tomorrow evening.
+TI: At the house of Hipólita Jacinta Teixeira de Melo.
+NA: He watches your reaction closely.
+TI: Trusted people… conversations not meant for daylight.
+NA: A brief pause.
+@char TI.thinking
+TI: I believe your presence would be welcome.
+TI: Should you wish to attend.
+@char {PLAYER}2.determined
+PLAYER: I’ll go!
+NA: The answer slips out before you can think.
+NA: For a brief moment, Tiradentes’ face brightens.
+TI: I am glad. Tomorrow evening.
+NA: He straightens, as if the invitation were merely another matter settled.
+NA: You take a small step toward the door.
+@char {PLAYER}2.neutral
+PLAYER: Then… until tomorrow.
+TI: Until tomorrow.
+NA: He extends his hand.
+NA: You look at his hand… then at him… then back at his hand.
+NA: And for some reason you do not understand, your arms decide to act before your reason does.
+@char TI.shy
+@char {PLAYER}2.embarrass pos:{mid}
+NA: You step forward as if to embrace him.
+NA: At the same moment, he keeps his hand firmly extended for a handshake.
+NA: And the result is an awkward collision of intentions.
+NA: Your shoulder nearly meets his chest, his hand caught awkwardly between you for one second too long.
+@char {PLAYER}2.shy pos:{leftmid} time:0.3
+NA: You both pull away at the same time.
+PLAYER: (What is wrong with my ridiculous brain?)
+PLAYER: (A handshake. It was just a handshake.)
+NA: Tiradentes clears his throat softly, regaining composure.
+@char TI.embarrass
+TI: I believe… your farewells are more… enthusiastic than is customary here.
+NA: There is humor in his voice.
+@char {PLAYER}2.shy
+PLAYER: It was… a miscalculation.
+NA: He finally takes your hand properly this time.
+NA: The handshake is firm and brief.
+@char TI.neutral
+TI: Until tomorrow.
+NA: You nod quickly and turn even faster, leaving the house.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 wait!
+NA: The air outside feels colder than before.
+@bgm wander
+NA: Your steps quicken along the same path as yesterday stones, turns, and shadows.
+@char {PLAYER}2.thinking look:left pos:{mid}
+PLAYER: (I survived a near conspiracy… and almost died because of a greeting.)
+NA: The inn appears ahead, but your heart remains restless.
+NA: The walk back feels shorter or perhaps your mind is too busy replaying every second of what just happened.
+@char {PLAYER}2.thinking
+PLAYER: (I almost hugged him… I almost didn’t hug him.)
+PLAYER: Who hugs someone who clearly went for a handshake first?
+NA: A woman passing by, holding a child’s hand, overhears you. She gives you a look and crosses to the other side of the street.
+@char {PLAYER}2.surprise
+PLAYER: Great. I’ve become the local lunatic.
+NA: The inn stands before you like a refuge…
+NA: The door creaks as you open it.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+
+@bgm respite
+@back bg_innDay
+@char FR.surprise look:left pos:{leftmid}
+FR: Well, well.
+NA: Francisca is already behind the counter, as if she had been expecting you.
+@char FR.neutral look:left pos:{leftmid}
+FR: Back so soon.
+NA: Her gaze is sharp.
+@char {PLAYER}2.neutral look:left pos:{rightmid}
+PLAYER: Not that soon.
+FR: Hm.
+NA: She crosses her arms.
+@char FR.thinking look:left pos:{leftmid}
+FR: Well then?
+NA: You freeze for a second.
+@char {PLAYER}2.surprise
+PLAYER: Well then… what?
+FR: The alferes.
+@char {PLAYER}2.neutral
+PLAYER: Right.
+FR: Did you see him?
+PLAYER: I did.
+FR: And?
+PLAYER: And… we talked.
+FR: I would imagine so.
+@char FR.thinking look:left pos:{mid}
+NA: She steps a little closer.
+@char FR.determined
+FR: And nothing else happened?
+NA: Silence weighs.
+@char FR.neutral
+FR: Nothing worth mentioning?
+@char {PLAYER}2.shy
+PLAYER: I broke a glass.
+NA: She blinks.
+@char FR.surprise look:left pos:{leftmid}
+FR: You broke a glass?
+@char {PLAYER}2.neutral
+PLAYER: Yes.
+FR: In his house?
+PLAYER: Yes.
+FR: On your second meeting?
+PLAYER: Yes.
+@char FR.smile
+FR: Impressive efficiency.
+NA: You sigh.
+@char {PLAYER}2.embarrass
+PLAYER: I also almost hugged him.
+NA: Francisca goes still for half a second.
+@char FR.thinking
+FR: Almost?
+@char {PLAYER}2.shy
+PLAYER: No.
+NA: You close your eyes.
+PLAYER: I did. And he extended his hand for a handshake…
+NA: The silence lasts exactly as long as it needs to.
+NA: And then you hear her laugh, with genuine delight.
+@char FR.smile
+FR: The alferes must be in a complete state of confusion.
+@char {PLAYER}2.thinking
+PLAYER: I am too.
+FR: That is good.
+@char {PLAYER}2.surprise
+PLAYER: Good?
+@char FR.neutral look:left pos:{leftmid}
+FR: It means you are still alive… and feeling.
+NA: She watches you now with a gentler gaze.
+FR: And him?
+@char {PLAYER}2.neutral
+PLAYER: He didn’t run. He let me hug him… though with his hand stuck between us.
+@char FR.thinking
+FR: Then he is a brave man
+@char {PLAYER}2.thinking
+PLAYER: Or very polite. It was strange… almost comical.
+FR: Or very interested.
+NA: Heat rises to your face.
+@char {PLAYER}2.shy
+PLAYER: Francisca.
+FR: Yes?
+PLAYER: You’re not helping.
+FR: I am not helping. I am enjoying this.
+@char FR.smile
+NA: She smiles, then turns and picks up a piece of dough from the nearby table.
+FR: Come.
+NA: She gestures with her head.
+FR: You have caused enough damage to glassware for one day.
+@char FR.neutral
+FR: Let us see if you are less dangerous with bread.
+@char {PLAYER}2.thinking
+PLAYER: I’m not sure that’s a good idea.
+FR: It is an excellent idea.
+FR: Come closer.
+NA: You approach carefully.
+FR: First, your hands.
+NA: She takes your hands and places them on the dough.
+FR: Bread requires patience… and care.
+FR: Two things you clearly need to practice.
+@char {PLAYER}2.smile
+PLAYER: Am I being judged by dough?
+@char FR.happy
+FR: And losing.
+NA: She laughs softly.
+NA: She continues guiding you through the steps mixing the corn starch and cheese.
+NA: At last, you understand why the bread tastes like pão de queijo.
+NA: The moment is calm.
+NA: Francisca had seemed like a stern woman at first, but she has become a true friend, though she shifts easily between teaching you to cook and asking far too many questions about your meeting with Tiradentes.
+NA: You feel a strange sensation… that perhaps you are exactly where you are meant to be.
+@goSub .BlackScreen
+
+; Cap 4 – Noite dos Inconfidentes
+@back bg_innDay pos:90,50 scale:2.5 time:0
+NA: The next morning, you wake later than usual, sunlight pouring into the room.
+NA: Your body seems reluctant to leave the sheets.
+@char {PLAYER}2.thinking look:left pos:{mid}
+PLAYER: (Did I oversleep… or just sleep better?)
+NA: Fragments of dreams still drift through your mind.
+NA: You sit up, running a hand over your face.
+PLAYER: (What a situation…)
+NA: After a few minutes, you get dressed and hurry downstairs.
+@hideChars
+@hide MainBackground
+@back bg_innDay.Crossfade pos:50,50 scale:1 time:0
+
+NA: The smell of fresh bread already fills the hall.
+@char FR.neutral look:left pos:{rightmid} !wait
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+FR: Finally awake.
+NA: Francisca lifts her eyes from the table where she works.
+FR: You slept longer today.
+@char FR.thinking
+FR: Pleasant dreams, I assume.
+NA: Her tone is casual. Her eyes are not.
+@char {PLAYER}2.neutral
+PLAYER: Perhaps.
+FR: Hm.
+@char FR.smile
+NA: A half-smile.
+FR: Dreams that make one lose track of time usually have a name.
+@char {PLAYER}2.shy
+PLAYER: Francisca…
+@char FR.neutral
+FR: I am merely observing.
+NA: She wipes her hands on her apron.
+@char FR.neutral
+FR: Will you see him today?
+@char {PLAYER}2.neutral
+PLAYER: Only tonight.
+@char FR.thinking
+FR: Ah.
+NA: She seems to take note.
+FR: Night gatherings are rarely simple.
+PLAYER: It is just a meeting among friends… others will be there.
+@char FR.neutral
+FR: Of course… and who are these "friends”?
+PLAYER: Tiradentes. I think it is his gathering.
+NA: You try to sound casual.
+PLAYER: It will be at Hipólita’s house.
+FR: Hm.
+@char {PLAYER}2.thinking
+PLAYER: And… perhaps Alvarenga…
+NA: Francisca slowly stops what she is doing.
+FR: Perhaps?
+PLAYER: I hope so.
+@char FR.surprise
+FR: You hope?
+NA: Silence lingers for a second but you feel her gaze on you.
+@char FR.determined
+FR: You are not certain who will attend… yet you hope a particular man will be there?
+@char {PLAYER}2.neutral
+PLAYER: I only said that-
+@char FR.thinking
+FR: That you hope.
+NA: She crosses her arms.
+@char FR.neutral
+FR: Curious.
+FR: Yesterday, you broke a glass in the alferes’ house.
+FR: Today, you hope for the presence of a poet-doctor.
+FR: Your devotion spreads with admirable generosity.
+@char {PLAYER}2.determined
+PLAYER: It is not devotion!
+FR: No?
+@char {PLAYER}2.thinking
+PLAYER: It is… intellectual curiosity.
+@char FR.surprise
+FR: Ah.
+FR: The most dangerous kind.
+NA: She steps a little closer, clearly amused.
+@char FR.smile
+FR: And tell me...
+FR: Does your intellectual curiosity always make you blush when you say his name?
+@char {PLAYER}2.shy
+PLAYER: I am not blushing.
+@char FR.thinking
+FR: No?
+FR: Then it must be the heat from the oven.
+NA: You turn your face away, trying to change the subject.
+@char {PLAYER}2.thinking
+PLAYER: Why did you call him doctor?
+NA: Francisca looks up, surprised by the question.
+@char FR.determined
+FR: Because he is one.
+@char {PLAYER}2.neutral
+PLAYER: In what?
+@char FR.neutral
+FR: Law. Educated in Coimbra, he is a lawyer.
+NA: She returns to kneading the dough, as if mentioning something trivial.
+FR: And a poet.
+NA: You frown, intrigued.
+@char {PLAYER}2.surprise
+PLAYER: A poet?
+FR: Yes.
+@char FR.thinking
+FR: A man of law by day… a man of verse when it suits him.
+NA: You feel something stir in your stomach.
+@char {PLAYER}2.neutral
+PLAYER: A lawyer and a poet.
+@char {PLAYER}2.thinking
+PLAYER: (A man who knows how to argue… and chooses his words well…)
+PLAYER: (He must know exactly where to place them.)
+@char FR.neutral
+FR: Here, people are known by what they do.
+FR: That is why we call the alferes "alferes”… and the doctor "doctor.”
+FR: Each is known by the trade they carry.
+NA: You nod slowly.
+@char {PLAYER}2.thinking
+PLAYER: (I thought we called Tiradentes "alferes” because it sounded attractive.)
+NA: You bite the inside of your cheek to keep from smiling to yourself.
+@char FR.smile
+FR: Your mind is far from here.
+@char {PLAYER}2.shy
+PLAYER: I am merely organizing information.
+@char FR.thinking
+FR: Is something wrong?
+@char {PLAYER}2.neutral
+PLAYER: Nothing.
+FR: Take care.
+@char FR.determined
+FR: Revolutions are dangerous enough on their own.
+FR: Add poorly concealed passions… and they may become fatal.
+@char {PLAYER}2.angry
+PLAYER: There is no passion.
+@char FR.smile
+FR: Of course not.
+@char {PLAYER}2.thinking
+PLAYER: Can I help you with something today?
+NA: You change the subject. She raises an eyebrow.
+@char FR.thinking
+FR: Feeling guilty for sleeping in?
+@char {PLAYER}2.shy
+PLAYER: A little.
+@char FR.neutral
+FR: Good.
+FR: Then you may carry the flour sacks.
+NA: Work begins.
+NA: As you organize supplies, the question escapes before you can shape it properly.
+@char {PLAYER}2.neutral
+PLAYER: Francisca… how did you manage all this?
+NA: She does not stop working.
+@char FR.thinking
+FR: This?
+PLAYER: The inn.
+FR: Work.
+@char {PLAYER}2.thinking
+PLAYER: I mean…
+NA: You hesitate. Too late.
+PLAYER: You are free. You own your business. You are independent.
+NA: She stops and looks up.
+@char FR.determined
+FR: Is it my color that surprises you?
+NA: Her voice is firm, but not angry.
+@char {PLAYER}2.shy
+PLAYER: That is not what I meant
+FR: But it is what you thought.
+NA: Not aggressive. Just direct.
+NA: She remains silent for a moment. You wonder if you have said something wrong.
+@char FR.neutral
+FR: I was once enslaved.
+NA: You look at her, startled.
+@char {PLAYER}2.surprise
+FR: I bought my freedom with years of labor every coin counted twice.
+FR: Every favor weighed. Every night poorly slept.
+NA: She returns to kneading the dough.
+@char FR.determined
+FR: Freedom was not given to me. It was negotiated.
+NA: Embarrassment rises in you.
+@char {PLAYER}2.shy
+PLAYER: I did not mean to offend.
+@char FR.neutral
+FR: I know.
+NA: She sighs.
+FR: And that is precisely why I sympathize with the alferes.
+NA: You look at her.
+@char FR.thinking
+FR: He speaks of a government where no one is born the property of another.
+FR: Where taxes do not crush only the same people… where freedom is not a privilege.
+NA: She shrugs.
+@char FR.determined
+FR: Words are easy… but I favor men who at least dare to speak them.
+NA: You swallow.
+@char {PLAYER}2.thinking
+PLAYER: He truly believes in it.
+@char FR.neutral
+FR: I hope so.
+FR: Because belief is the first risk.
+
+@hideChars
+@back bg_innAfternoon.Crossfade time:1.5
+NA: The work continues. You organize the pantry while Francisca finishes preparing the bread.
+NA: It is still afternoon.
+NA: Your mind fills with thoughts as you lie in the hammock outside the inn.
+NA: Life in Vila Rica is calm, not like your life in the city. No deadlines, no buses, no deliveries.
+NA: A book rests in your hands, one you have been trying to read for some time.
+NA: But it always makes you drowsy. The Portuguese is old… and difficult.
+@blur MainBackground
+NA: Your eyes grow heavy.
+@hide MainBackground
+@blur MainBackground power:0
+@back bg_innNight.Crossfade time:0
+NA: When you blink again, Francisca is standing near you and dusk has already fallen.
+@char FR.neutral look:left pos:{mid}
+FR: Prepare yourself for your "meeting among friends.”
+FR: See if tonight you learn something useful.
+FR: Be it about politics… or your own inclinations.
+@hide FR
+NA: You stand and return inside, preparing for the night.
+NA: You climb the stairs, face warm, heart restless.
+@goSub .BlackScreen
+
+@stopBgm fade:2 !wait
+; Casa da Hipólita
+@back bg_gardenNight.Crossfade  wait!
+NA: Night settles heavily over the village.
+NA: Hipólita’s house is lit by oil lamps, casting trembling shadows across the clay walls.
+NA: You take a breath before knocking.
+NA: The door opens discreetly.
+@bgm inconfidentes
+@goSub .BlackScreen
+@back bg_hipolitaNight.Crossfade pos:50,50 scale:1
+NA: The interior is simple but elegant in its own way.
+NA: Dark wooden furniture. A sturdy table at the center. Candles carefully placed. Books stacked in a corner.
+NA: The scent of warm wax and wine fills the air.
+NA: "Night gatherings are rarely simple.”
+@char TI.neutral look:left pos:{mid}
+NA: They are already there: Tiradentes, standing near the table.
+@char JO.neutral look:left pos:{rightmid} !wait
+@char HI.neutral look:left pos:{leftmid}
+NA: Joaquim sits in a chair, chin resting on his hand. Hipólita watches calmly, beside her fiancé.
+@hide HI
+@char CE.neutral look:left pos:{leftmid}
+NA: In the back, leaning against the wall is Célio.
+@hide CE
+@char TI.neutral pos:{leftmid}
+NA: Tiradentes looks up as you enter.
+NA: A flicker of recognition.
+@char TI.neutral pos:{leftmid}
+TI: I am glad you came.
+NA: He offers a brief introduction.
+TI: We are among friends.
+@char TI.determined
+TI: And among those who desire more than merely accepting the weight imposed upon us.
+NA: He places his hands on the table.
+NA: Candlelight casts shadows upward across his face.
+TI: We pay taxes that drain us… we live under decisions made across the ocean.
+TI: We are treated as an extension never as a nation.
+@char JO.neutral look:left
+NA: Joaquim listens, chin resting on his fingers.
+TI: I dream of a time when this land is ours.
+TI: When we may say, with pride.
+NA: He draws a breath.
+TI: <i>Libertas quae sera tamen</i>.
+NA: The Latin echoes solemnly.
+TI: Freedom… even if it comes late.
+NA: Silence settles over the room.
+@char TI.thinking
+TI: But freedom is not born of desire alone.
+TI: It demands courage… and organization.
+NA: He begins to pace slowly.
+TI: And perhaps… a structure beyond words.
+@char TI.determined
+TI: A form of preparation… military, if necessary.
+NA: The word lands heavily.
+NA: Some are startled. Others are doubtful.
+@char JO.surprise
+NA: Joaquim shifts in his seat.
+@char TI.thinking
+TI: I do not speak of reckless violence.
+TI: I speak of defense.
+TI: Of being ready, should we be denied what is just.
+@char JO.surprise
+JO: Have you lost your mind?
+NA: The interruption is sharp.
+NA: The room freezes.
+@char JO.thinking
+JO: Military?
+@char JO.determined
+JO: You would face the Crown with a handful of idealists and rusted muskets?
+@char TI.determined
+TI: I do not speak of immediate confrontation
+@char JO.determined
+JO: That is exactly what you imply.
+NA: Tiradentes holds his gaze.
+TI: I speak of refusing eternal submission.
+JO: Submission or prudence?
+TI: Too much prudence becomes cowardice.
+JO: And too much recklessness becomes suicide.
+NA: The candle flames tremble.
+TI: Nothing changes if we accept fear as law.
+JO: And everything worsens if we mistake impulse for courage.
+NA: The air feels tighter now.
+NA: You watch them this tension was visible before, but here it is undeniable.
+NA: Hipólita observes in silence.
+@char TI.neutral
+TI: I do not propose marching tomorrow.
+TI: I propose preparation.
+@char JO.thinking
+JO: And when the Crown learns of it?
+NA: A look crosses the room.
+@char TI.thinking
+TI: If it learns, it will be because we never had freedom to begin with…
+TI: …or because someone spoke too freely.
+NA: The words are quiet, but they echo.
+NA: You feel the weight of it.
+NA: Tiradentes remains steady. Joaquim, clearly provoked.
+NA: The tension still vibrates when the door opens again.
+@hide JO !wait
+@hide HI
+@char TI pos:{leftmid}
+@char AL.neutral look:left pos:{mid}
+NA: Alvarenga enters like a man accustomed to being noticed.
+@char BA.neutral look:left pos:{rightmid}
+NA: Beside him elegant and composed Bárbara.
+NA: A murmur passes through the room.
+NA: You blink.
+PLAYER: (A lawyer… a poet… and married to Bárbara?)
+PLAYER: (That is like pairing the law and the outlaw.)
+NA: Alvarenga removes his gloves with measured calm.
+@char AL.surprise
+AL: Military force?
+NA: A brief glance toward Tiradentes.
+@char AL.thinking
+AL: I seem to have arrived at the interesting part.
+@char TI.neutral
+TI: We spoke of preparation.
+TI: Of organization… of not being caught unready.
+@char AL.determined
+AL: Preparation is prudent, but to what extent?
+@hide AL !wait
+@hide BA
+@char JO.smile look:left pos:{rightmid}
+NA: Joaquim leans forward.
+JO: He intends to convert soldiers… or oppose them.
+JO: He has yet to decide which madness he prefers.
+@char TI.angry
+TI: I said no such thing.
+@char JO.neutral
+JO: You implied it.
+@char TI.determined
+TI: I spoke of alliances.
+@char JO.thinking
+JO: Alliances? With whom?
+NA: Joaquim spreads his arms, theatrical.
+@char JO.determined
+JO: Whom do you intend to arm, alferes?
+JO: Hipólita? Bárbara?
+JO: Or perhaps the doctor wishes at last to play the role of a man and join the army?
+NA: Silence cuts sharply.
+@char BA.determined look:left pos:{mid}
+NA: Bárbara lifts her chin offended, yet amused.
+@hide BA
+@char AL.determined look:left pos:{mid}
+AL: I was unaware courage was measured by uniform.
+@char JO.determined
+JO: And I was unaware poetry could replace gunpowder.
+@hide AL
+@char TI.angry
+TI: Enough.
+NA: Tiradentes takes a breath.
+@char TI.determined
+TI: We do not speak of handing muskets to anyone at random.
+TI: We speak of seeking support where it exists.
+TI: There are dissatisfied men even among the ranks.
+@char JO.determined
+JO: And you believe they would risk their necks for an ideal?
+TI: For justice.
+JO: Justice does not pay wages.
+NA: Joaquim crosses his arms.
+JO: And do you not fear the Crown discovering this traffic in arms?
+JO: Or do you believe it sleeps?
+@char TI.thinking
+TI: Everything is risk.
+JO: Do you hear yourself?
+TI: I do.
+JO: Then why do you sound as though you do not understand what you are saying?
+TI: And why do you seem to understand everything and propose nothing?
+JO: Because I prefer to live.
+TI: And I prefer to live free.
+@char JO.thinking
+JO: Free and dead?
+TI: Submissive and comfortable?
+@char JO.angry
+JO: Prudent!
+@char TI.angry
+TI: Coward!
+JO: Reckless visionary!
+TI: Idle nobleman!
+@char JO.determined
+JO: A fine man of the army you are!
+@char TI.determined
+TI: Better than a fine man of parlors!
+JO: At least I know how to measure risk!
+TI: At least I understand the weight of honor!
+@char JO.thinking
+JO: Are you a fool?
+NA: The air in the room grows heavy, and some seem genuinely shocked.
+@char TI.angry
+TI: How dare you?
+@char JO.neutral
+JO: I merely wondered whether you lack understanding.
+@char TI.determined
+TI: I heard you perfectly well.
+NA: For a moment, they seem like two boys arguing over the bigger stick.
+@char TI.thinking
+TI: I propose a vote.
+@char JO.thinking
+JO: A vote?
+@char JO.determined
+JO: It would not be fair.
+@char TI.surprise
+TI: Why not?
+@char JO.determined
+JO: Because the doctor is your lapdog.
+@char AL.surprise look:left pos:{mid}
+AL: Pardon?
+@char TI.angry
+TI: How dare you?
+@char JO.neutral
+JO: Do not take offense, doctor…
+@char JO.thinking
+JO: I merely observe that you follow him with admirable devotion.
+@hide AL
+@char BA.smile pos:{mid}
+NA: Bárbara tilts her head, her smile sharp as a polished blade.
+JO: As for Dona Bárbara…
+JO: I believe she is here to grace us with her beauty… and, it seems, to share in our possible guilt.
+NA: Her smile does not fade only grows more dangerous.
+@hide BA
+@char HI.neutral pos:{mid}
+JO: Hipólita, on the other hand, is perhaps the only soul in this room possessed of good sense.
+@char HI.thinking
+NA: Hipólita raises an eyebrow, slightly impressed.
+@hide HI
+@char JO.determined look:left
+JO: And that one over there…
+@char CE.thinking pos:{mid}
+NA: He points to Célio at the back of the room.
+JO: I confess I do not know what service he provides to the cause, besides occupying a chair and consuming candlelight.
+@hide CE
+NA: The air is already thick with provocation when Tiradentes steps forward.
+@char TI.determined
+TI: Since you take such pleasure in judging everyone in this house…
+@char TI.neutral
+TI: Tell us, Joaquim…
+TI: What good do you bring to the cause, beyond a fine bearing and a readiness to offer opinions?
+NA: A murmur ripples through the room.
+@char JO.neutral
+JO: At least I am not the one who daydreams of imaginary barracks.
+@char TI.neutral
+TI: Better to dream of freedom than live counting fears.
+@char JO.thinking
+JO: And you, alferes?
+JO: Beyond being hot-headed… what are you?
+@char TI.determined
+TI: And you, beyond cautious to the point of cowardice, what are you?
+@char JO.angry
+JO: Coward?
+JO: You are senseless!
+@char TI.determined
+TI: Resentful!
+JO: Fanatic!
+@char TI.angry
+TI: Pampered nobleman!!
+@char JO.angry
+JO: Toy soldier!
+TI: Silence!
+JO: You be silent!
+TI: Do not command me to be silent!
+JO: Then do not provoke me!
+NA: For a moment, they are two boys in men’s clothing, trading barbs as if in a schoolyard.
+@char TI.determined
+TI: You speak much for one who risks nothing!
+@char JO.determined
+JO: And you risk everyone with your recklessness!
+@hideChars
+@char AL.determined look:left pos:{mid}
+@stopBgm fade:1 !wait
+AL: Enough.
+NA: Alvarenga’s voice is not loud, but it carries authority.
+AL: For God’s sake…
+AL: You are grown men, shouting like an old couple at the marketplace.
+NA: Silence falls abruptly.
+@char BA.smile look:left pos:{leftmid}
+NA: Bárbara, hides a laugh behind her hand.
+@char HI.thinking look:left pos:{rightmid}
+NA: Hipólita closes her eyes briefly, as if thanking the heavens.
+@hide BA
+@char CE.smile pos:{leftmid}
+NA: Célio watches with a faint, amused smile.
+@hide CE,HI
+@char AL.determined
+@bgm inconfidentes
+AL: We are grown men… or at least we pretend to be.
+NA: He looks at Joaquim.
+@char AL.thinking look:left pos:{mid}
+AL: And, let us be honest… you do have a mustache.
+NA: A brief silence.
+NA: A few glances drift toward Joaquim’s face.
+@char AL.thinking look:left pos:{leftmid}
+@char JO.shy look:left pos:{rightmid}
+JO: I do.
+@char JO.neutral
+JO: And a very well-kept one unlike certain poorly trimmed ideas in this room.
+NA: A few laughs escape.
+@char JO.smile
+JO: Perhaps the mustache would suit the doctor better.
+NA: He gestures toward Alvarenga with feigned innocence.
+@char JO.thinking
+JO: Since, as I hear, there are those who find him… charming.
+PLAYER: (The audacity of this man…)
+NA: The remark hangs in the air like a well-aimed arrow.
+NA: Your heart gives a rather undignified leap.
+NA: The moment still lingers when Alvarenga raises a hand slightly, calling for composure without raising his voice.
+@char AL.neutral pos:{mid}
+@char TI.neutral pos:{leftmid}
+AL: Since we are speaking of mustaches and madness…
+NA: He takes a few slow steps, as if restoring order through presence alone.
+AL: Perhaps we should hear from someone who has not yet turned this room into a battlefield.
+NA: His eyes settle on you.
+AL: You seem to be a person of sound judgment.
+NA: Joaquim raises an eyebrow; Tiradentes does not look away.
+AL: Tell us, then…
+AL: Between the fervor of the alferes and Joaquim’s prudence… where does your inclination lie?
+
+@choice "Support Tiradentes" goto:.scene4T-1
+@choice "Support Joaquim" goto:.scene4T-2
+@stop
+
+# scene4T-1
+@set afetoTiradentes+=1
+@hideChars
+
+@char {PLAYER}2.thinking look:left pos:{mid}
+PLAYER: I believe that without courage, nothing is ever achieved. So, however mad it may sound, Tiradentes is right to suggest a plan… and the use of force.
+NA: A brief silence follows.
+NA: You wonder whether you chose wisely. He may be right, but the consequences still frighten you.
+@char {PLAYER}2.determined look:left pos:{mid}
+PLAYER: Prudence is a virtue… but in excess, it achieves nothing.
+@char TI.smile pos:{leftmid}
+NA: Tiradentes’ eyes gleam faintly.
+@char JO.surprise look:left pos:{rightmid}
+JO: Ah.
+NA: Joaquim folds his arms.
+@char JO.determined
+JO: So you prefer fire to careful construction?
+@char {PLAYER}2.neutral
+PLAYER: Some things are worth the risk.
+NA: Hipólita watches you with renewed attention.
+NA: Bárbara smiles faintly to herself.
+@char TI.neutral
+TI: You see? Not all tremble at the word action.
+@char JO.thinking
+JO: Or perhaps they have yet to feel its weight.
+NA: The tension returns, but something has shifted.
+NA: You have chosen a side.
+NA: And Tiradentes does not hide his quiet satisfaction.
+NA: The discussion resumes plans, arguments, possibilities. At one point, Hipólita and Bárbara exchange a brief disagreement, though you pay it little mind.
+NA: Your attention lingers on Tiradentes on the way he speaks, the way he carries himself. He seems… pleased with you.
+NA: Eventually, you step outside, leaving the others to their debate.
+@stopBgm fade:2 !wait
+; @back {EXTERIOR CASA DA HIPÓLITA}
+@goSub .BlackScreen
+@back bg_gardenNight.Crossfade 
+NA: Night has fully fallen as you step onto the veranda.
+NA: The cool air brushes your skin, a welcome contrast to the heat of the day.
+@bgm tiradentes
+NA: You hear footsteps behind you and recognize them before a word is spoken.
+@char TI.neutral look:left pos:{mid}
+TI: May I keep you company for a moment?
+NA: He steps beside you, lingering in silence.
+TI: Inside… words weigh heavier than swords.
+NA: He lets out a soft breath.
+TI: Thank you… for standing by me. Even when I am surrounded by doubt.
+@char TI.neutral look:left pos:{leftmid}
+@char {PLAYER}2.thinking look:left pos:{rightmid}
+PLAYER: I worry about where your ideas may lead you.
+NA: He does not look at you, but a faint smile touches his lips.
+@char TI.smile
+TI: Not everyone understands that freedom demands risk.
+NA: A brief smile. Tired, but sincere.
+@char TI.thinking
+TI: When you spoke… it seemed to me I was not fighting alone.
+@char {PLAYER}2.neutral
+PLAYER: Even with my doubts… I want to stand by your side.
+NA: Your voice is low.
+TI: Tell me… did you speak from conviction… or for my sake?
+@char {PLAYER}2.thinking
+PLAYER: Both… I believe in you.
+NA: His hand drifts toward yours, resting on the wooden railing.
+NA: Your fingers brush softly, but the touch lingers with quiet intimacy.
+NA: The silence stretches longer than it should.
+NA: He clears his throat, as though remembering the hour.
+@char TI.neutral
+TI: I should… see that you return safely.
+NA: He does not move.
+NA: He hesitates.
+@char {PLAYER}2.neutral
+PLAYER: Good night.
+NA: The words come softly.
+NA: Yet he lingers a moment longer, watching you, as if reluctant to leave.
+TI: Good night.
+@hide TI
+NA: Tiradentes finally steps away, disappearing down the dirt road.
+NA: You decide it is late, you should return. The nights in Vila Rica are calm, your steps steady.
+PLAYER: (No bars, no crowds… no one trying to steal my phone in the middle of the night.)
+@goto .scene4T-1end
+
+# scene4T-2
+@hideChars
+@char {PLAYER}2.determined look:left pos:{mid}
+PLAYER: I believe every cause requires a cool head.
+NA: Tiradentes remains still.
+PLAYER: Courage is noble… but it can be very costly.
+NA: You know this may displease him, but you fear what may happen to him.
+NA: Joaquim tilts his chin slightly.
+@char JO.neutral look:left pos:{rightmid}
+JO: At last someone who does not mistake bravery for recklessness.
+@char TI.surprise look:left pos:{leftmid}
+TI: You call my plans reckless?
+@char {PLAYER}2.thinking
+PLAYER: No… only… dangerous.
+NA: Tiradentes’ gaze rests on you.
+NA: There is no anger, only something harder to read.
+@hide {PLAYER}2
+@char AL.determined look:left pos:{mid}
+AL: Prudence is not cowardice, alferes.
+@char JO.determined
+JO: It is survival.
+NA: The room divides into uneasy silences.
+NA: You feel the weight of your choice.
+NA: Tiradentes looks away from you. He seems… disappointed.
+NA: The discussion resumes, though your attention drifts. At some point, Hipólita and Bárbara clash briefly, but you barely notice.
+NA: The tension becomes suffocating. You slip out unnoticed.
+; @back {EXTERIOR CASA DA HIPÓLITA}
+@goSub .BlackScreen
+@back bg_gardenNight.Crossfade wait!
+@stopBgm fade:2 !wait
+NA: Night has fallen when you leave. The air is colder now.
+@bgm tiradentes fade:2
+NA: You hear footsteps behind you and recognize the voice.
+@char TI.neutral look:left pos:{mid}
+TI: May I walk with you for a moment?
+@char TI.neutral look:left pos:{leftmid}
+@char {PLAYER}2.neutral look:left pos:{rightmid}
+PLAYER: Of course.
+NA: You walk along the dirt road. He keeps a slight distance.
+
+; aqui bg
+; @back {ESTRADA}
+@goSub .BlackScreen
+@back bg_squareNight.Crossfade time:0 scale:3.0 pos:-65,90 !wait
+@char TI.determined
+TI: Your choice… surprised me.
+NA: His voice is controlled, not harsh.
+@char TI.sad
+TI: I did not expect it.
+NA: A brief silence.
+@char TI.neutral
+TI: Still… I am glad you are here.
+@char {PLAYER}2.thinking
+PLAYER: I imagine you may be upset… but you must be careful, Tiradentes.
+NA: He forces a faint smile.
+TI: Perhaps I needed to hear your caution… even if it stings.
+NA: His jaw tightens briefly.
+@char TI.thinking
+TI: You do not think me a fool… do you?
+@char {PLAYER}2.determined
+PLAYER: No! You are no fool, you are a man of courage, and very intelligent.
+NA: Warmth rises to your cheeks.
+@char {PLAYER}2.shy
+PLAYER: But Joaquim is right… the Crown may act against you… against you.
+@char TI.thinking
+TI: Tell me… do you believe I fight out of vanity… or for justice?
+NA: There is something else beneath the question, something quieter.
+@char {PLAYER}2.thinking
+PLAYER: For justice… I think.
+NA: His gaze finally meets yours more at ease now.
+@char TI.neutral
+TI: I am relieved you do not take me for a man driven by empty pride.
+NA: He pauses.
+@char TI.thinking
+TI: As for Joaquim…
+NA: A slight tension in his jaw.
+@char TI.determined
+TI: He is prudent. Excessively so, at times.
+NA: He exhales, almost amused.
+@char TI.smile
+TI: But believe me… he is not the only one capable of caution.
+TI: The Crown may react yes. And perhaps with violence.
+NA: He steps a little closer, not enough to touch, but enough for you to feel his warmth.
+@char TI.determined
+TI: But if I must face danger… I would rather do so with those who do not doubt my intentions.
+NA: He takes a breath, as if deciding something.
+TI: Do not let Joaquim’s fear draw you away from what you believe is right.
+NA: Silence settles between you.
+NA: He hesitates before parting as if he would rather stay.
+@char TI.thinking
+TI: I should allow you to return.
+NA: He inclines his head slightly.
+@char {PLAYER}2.neutral
+PLAYER: Good night, Tiradentes.
+@char TI.neutral
+TI: Good night.
+NA: His eyes linger on yours for a long moment.
+NA: Then he turns away.
+@hideChars
+NA: You continue down the road toward the inn.
+NA: The cold feels less sharp now, but the warmth in your cheeks lingers.
+# scene4T-1end
+
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+
+; Cap 5 -
+@bgm wander
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 wait!
+NA: The path to Tiradentes’ house no longer feels unfamiliar.
+NA: The bends in the trail, the stones beneath your feet, the scent of sun-warmed earth… all of it is becoming familiar.
+NA: You did not exactly have a reason to come today.
+NA: The sun is still low when you arrive at the farm, and the morning air carries the scent of damp soil and crushed grass.
+NA: When the house appears between the trees, you notice something different.
+@hide MainBackground
+@back bg_tiradentesDay pos:50,50 scale:1 time:0
+NA: The door stands open, yet the place seems empty.
+NA: You step a little closer.
+NA: Silence.
+NA: The wind stirs a loose leaf across the porch floor.
+@char {PLAYER}2.thinking look:left pos:{mid}
+PLAYER: (Perhaps he is not here.)
+NA: You are already thinking of leaving when you hear footsteps behind you.
+@stopBgm fade:2 !wait
+???: Are you looking for someone?
+NA: You turn quickly.
+@bgm tiradentes fade:2
+NA: Tiradentes stands a few steps behind you, holding a horse by the reins.
+NA: He looks surprised.
+@char {PLAYER}2.thinking look:left pos:{rightmid}
+@char TI.surprise look:left pos:{leftmid}
+TI: Well now.
+NA: A slow smile spreads across his face.
+TI: I was not expecting a visitor.
+@char {PLAYER}2.shy
+PLAYER: I… I was just passing by.
+NA: A weak excuse and one he clearly sees through.
+NA: He chooses not to comment.
+@char TI.smile
+TI: Then chance has been most generous.
+NA: He ties the horse to the fence.
+@char TI.neutral look:left
+TI: I have just returned from a patrol along the road.
+NA: He studies you with quiet curiosity.
+@char TI.thinking
+TI: And you?
+TI: Do you often wander to other people’s homes… or am I granted this particular honor?
+@char {PLAYER}2.shy
+PLAYER: Perhaps a little of both.
+NA: He lets out a soft laugh.
+@char TI.smile
+TI: In that case… do come in.
+
+; DENTRO DA CASA
+NA: Tiradentes steps inside, and you follow.
+@back bg_inTiradentesDay
+NA: You recognize the wooden table, scattered maps, loose papers, and a small open box resting on a bench.
+NA: Tiradentes notices your gaze.
+@char TI.thinking
+TI: I have been thinking too much of late.
+NA: He runs a hand through his hair, looking slightly tired.
+TI: And when I think too much… I recall things I learned in the ranks.
+@char {PLAYER}2.thinking
+ PLAYER: In the army?
+@char TI.neutral
+TI: I served many years as a soldier.
+PLAYER: Ah, yes… that explains the alferes.
+NA: He opens the box more fully.
+NA: Inside are a few simple weapons.
+@char TI.determined
+TI: If times take the turn I expect… we may all need to learn how to defend ourselves.
+NA: He lifts his gaze to you.
+TI: Even those not born for war.
+NA: A faint smile appears, and you raise an eyebrow.
+@char TI.thinking
+TI: Tell me… have you ever held a weapon before?
+@char {PLAYER}2.neutral
+PLAYER: Not exactly.
+TI: Then perhaps it is time you learned.
+NA: He takes from the box a sword and a dagger.
+@char TI.neutral
+TI: Each demands a different kind of courage.
+NA: His gaze meets yours.
+TI: Which would you like to try?
+
+@choice "Learn to use a sword" goto:.scene5T-1
+@choice "Learn to use a dagger" goto:.scene5T-2
+@stop
+
+# scene5T-1
+
+NA: You choose the sword.
+NA: Tiradentes nods at your decision and gestures for the two of you to step outside.
+@back bg_tiradentesDay
+NA: Outside, he rolls up the sleeves of his shirt and stands before you.
+NA: Tiradentes lifts the short sword, studying it for a moment.
+NA: Then he extends it toward you.
+@char TI.neutral
+TI: Let us begin.
+NA: You take the weapon hesitantly, the weight is greater than you expected.
+TI: It is not about strength.
+NA: He steps closer, slowly.
+TI: It is a matter of balance.
+NA: Tiradentes moves behind you too close.
+@char TI.neutral look:left pos:{mid}
+NA: The warmth of him seems to bridge the space between your bodies; you feel his breath against the back of your neck.
+TI: Like this.
+NA: His hands settle carefully at your waist, adjusting your posture.
+NA: Your heart immediately begins to race.
+NA: He turns you slightly, aligning your shoulders.
+@char TI.determined
+TI: Keep your footing steady.
+NA: His voice is lower now, close to your ear.
+NA: You try to focus on the instructions, but it is not easy.
+NA: Tiradentes reaches for the hand holding the sword.
+NA: His fingers wrap around yours you feel his chest against your back, a shiver running through you.
+@char TI.neutral
+TI: Do not grip it so tightly.
+TI: The blade should answer your arm, not fight against it.
+NA: He guides the movement slowly.
+NA: The sword cuts through the air in a simple arc.
+NA: His arm passes around you to correct the angle.
+NA: You feel his breath near your neck again.
+TI: There.
+NA: The word comes out almost like a murmur.
+NA: You repeat the motion.
+NA: Once.
+NA: And again.
+NA: His hand remains at your waist to steady you.
+NA: His fingers tighten slightly, instinctively, when you lose your balance for a moment.
+TI: Careful.
+NA: He lets out a quiet laugh.
+@char TI.smile
+TI: I must admit…
+TI: I have never had a student threaten to defeat themselves before the enemy.
+@char {PLAYER}2.determined
+PLAYER: I am learning.
+NA: You try to sound serious, but it does not quite work.
+NA: Tiradentes releases your waist… though a second later than he should.
+@char TI.smile pos:{leftmid}
+NA: When he steps back, the air suddenly feels colder.
+NA: He folds his arms, watching you.
+TI: Very well.
+TI: Now try it on your own.
+NA: You raise the sword again.
+NA: But you notice he is still watching.
+NA: Not exactly the sword.
+@char {PLAYER}2.thinking
+PLAYER: (Is he going to keep looking at me like that…?)
+@goto .scene5T-1end
+
+# scene5T-2
+NA: Tiradentes takes the dagger from the box.
+NA: The blade is smaller than the sword, but somehow feels more… dangerous.
+NA: He gestures for the two of you to step outside.
+@back bg_tiradentesDay
+NA: Outside, he rolls up his sleeves and stands before you.
+@char TI.determined
+TI: A dagger requires less strength.
+NA: He spins it lightly between his fingers, with practiced ease.
+TI: But it demands precision.
+@char TI.determined pos:{mid}
+NA: He steps closer facing you.
+NA: Close enough that you catch the faint scent of leather and wild herbs.
+@char TI.neutral
+TI: Hold it.
+NA: He places the dagger in your hand.
+NA: Your fingers close around it as he adjusts your grip, his hand enveloping yours.
+NA: His hands are warm.
+TI: Like this.
+NA: He studies your stance for a moment. Then steps half a pace closer.
+NA: Now you are nearly pressed together.
+NA: There is barely any space left between you.
+TI: In close combat… strength does not decide the outcome.
+NA: He gently takes hold of your wrist.
+NA: The blade rises between you.
+TI: It is the one who knows where to strike.
+NA: He guides your hand slowly.
+NA: The tip of the dagger comes to rest lightly against his own chest.
+TI: Here.
+TI: The heart.
+NA: The contact is light, but you can feel the warmth of his body beneath the fabric of his shirt.
+NA: He moves your hand slightly lower.
+NA: The blade glides slowly over the cloth.
+TI: Here… the stomach.
+NA: The closeness makes it difficult to remember this is only a lesson.
+NA: His hand is still wrapped around yours.
+NA: He guides the movement once more toward his side.
+TI: Between the ribs.
+@char {PLAYER}2.thinking
+PLAYER: (Oh, he’s doing this…)
+NA: He stops.
+NA: Perhaps realizing too late just how close the two of you are.
+NA: Your gaze meets his.
+@char {PLAYER}2.shy
+PLAYER: (God…)
+NA: For a moment, Tiradentes seems to forget what he was explaining.
+@char TI.shy
+TI: The important thing…
+NA: His voice is lower than before.
+TI: …is to remain calm.
+NA: Yet his hand is still over yours.
+NA: And neither of you has stepped away.
+
+# scene5T-1end
+; Conversa depois de qualquer escolha
+NA: The silence between you lingers a moment too long.
+NA: As if neither of you quite knows what to do next.
+NA: Tiradentes is the first to move.
+NA: He steps back.
+@char TI.embarrass look:left pos:{leftmid}
+TI: I believe… that will be enough for today.
+NA: His voice sounds a little firmer now.
+NA: As though he is regaining his composure.
+NA: You lower the weapon.
+NA: Your heart is still beating faster than it should for a simple lesson.
+@char {PLAYER}2.thinking
+PLAYER: (That was just a lesson.)
+PLAYER: (…wasn’t it?)
+NA: Tiradentes runs a hand along the back of his neck, glancing toward the horizon for a moment.
+NA: Then he lets out a small sigh.
+@char TI.neutral
+TI: Come.
+@char {PLAYER}2.surprise
+PLAYER: Where to?
+NA: A faint smile touches the corner of his mouth.
+TI: There is a place nearby.
+TI: I go there… when I need to think.
+@goSub .BlackScreen
+
+@back bg_overlookDay pos:100,60 scale:3 time:0
+NA: You walk along a narrow trail that climbs the hillside.
+@back bg_overlookAfternoon
+NA: The sun begins to set between the hills.
+NA: The training has left your arms tired and your legs heavy.
+NA: But Tiradentes seems used to the path.
+NA: At times, he slows his pace so you can keep up.
+@char {PLAYER}2.thinking look:left pos:{mid}
+PLAYER: (Did this man really bring me out here for a hike…?)
+NA: The sky slowly shifts in color, first orange, then a soft violet.
+@back bg_overlookNight
+NA: Until the first stars begin to appear.
+NA: When you reach the top, the whole village stretches out below.
+@back bg_black pos:50,50 scale:1 time:0
+@goSub .BlackScreen
+@back bg_overlookNight pos:50,50 scale:1
+NA: A few scattered lights begin to glow among the houses.
+NA: Tiradentes stops near a low stone wall that separates the overlook from the taller brush beyond.
+NA: You sit there, still catching your breath.
+NA: The sky is now dark enough for the stars to show.
+NA: For a while, neither of you speaks.
+NA: Only the sound of wind and rustling leaves.
+@char {PLAYER}2.surprise look:left pos:{mid}
+PLAYER: It is beautiful here.
+NA: Tiradentes steps closer, slowly.
+NA: He rests his arms on the stone wall beside you, his gaze fixed on the horizon.
+@char {PLAYER}2.surprise look:left pos:{rightmid}
+@char TI.neutral look:left pos:{leftmid}
+TI: The view is better once night falls.
+NA: He tilts his head slightly toward the open expanse.
+@char TI.thinking
+TI: You know…
+NA: His voice is quieter than usual.
+TI: Sometimes I wonder what the world will be like… when all this is over.
+@char {PLAYER}2.thinking
+PLAYER: The revolution?
+NA: A faint smile appears.
+@char TI.smile
+TI: If we are fortunate enough to call it that one day.
+NA: He runs a hand over his face, thoughtful.
+@char TI.thinking
+TI: People speak so much of freedom… of new laws… of a new nation.
+TI: But what I truly think of…
+NA: He pauses briefly.
+@char TI.neutral
+TI: …is a simple life.
+NA: He looks up at the sky.
+TI: A piece of land. A small house.
+@char TI.thinking
+TI: Horses… perhaps a few fruit trees.
+NA: His smile is almost shy now.
+TI: No soldiers. No absurd taxes.
+TI: Just… living.
+NA: The wind passes between you, and silence returns for a moment.
+@char TI.neutral
+TI: But there are days when I wonder if I will even live to see it.
+NA: He says it calmly, but something in his tone carries weight.
+TI: I have been thinking… quite a lot about death, of late.
+@char {PLAYER}2.angry
+PLAYER: Do not say that, not even in jest.
+TI: It is not fear.
+NA: He shakes his head slightly.
+@char TI.sad
+TI: It is only… awareness.
+TI: A man may die for many things. But to die without leaving anything behind…
+NA: He looks at his hands for a moment.
+@char TI.thinking
+TI: That seems far worse to me.
+NA: Tiradentes reaches into the inner pocket of his coat and takes out a carefully folded piece of paper.
+NA: The edges are slightly worn.
+@char {PLAYER}2.surprise
+PLAYER: What is it?
+@char TI.neutral
+TI: A letter.
+NA: He looks at it for a moment before answering.
+TI: From my mother.
+NA: He exhales slowly.
+TI: Things are becoming… delicate.
+NA: He finally meets your gaze.
+TI: The Crown is beginning to suspect.
+NA: The night feels quieter all of a sudden.
+@char TI.thinking
+TI: They do not know everything yet… but they can sense something stirring.
+NA: He holds the letter between his fingers.
+TI: If anything should happen to me… I want her to know I have no regrets.
+NA: He extends the paper toward you.
+TI: If all goes wrong… I want you to keep this.
+NA: The letter remains between you.
+NA: The gesture is simple, but its weight is anything but.
+@choice "Accept the letter" goto:.scene6T-1
+@choice "Refuse the letter" goto:.scene6T-2
+@stop
+
+# scene6T-1
+@set afetoTiradentes+=1
+NA: You hesitate for a moment, then reach out your hand.
+@char {PLAYER}2.neutral
+PLAYER: I will keep it, but you will take it back later.
+NA: Your fingers brush against his as you take the letter.
+NA: The contact is brief… but enough to make your heart race.
+NA: Tiradentes lets out a breath that seemed long held.
+@char TI.smile
+TI: Thank you.
+NA: The word is simple, but sincere.
+NA: He watches as you carefully fold the paper.
+@char TI.thinking
+TI: I did not think anyone… would understand.
+NA: He rests his arms against the stone wall again.
+@char TI.neutral
+TI: Many call me a dreamer… others, a madman.
+NA: A faint smile touches his lips.
+@char TI.thinking
+TI: But you…
+NA: He shakes his head slightly.
+@char TI.neutral
+TI: You have a patience few possess with me.
+PLAYER: (You have no idea…)
+NA: He turns his face toward you.
+TI: And a quiet kind of courage, as well.
+NA: His gaze softens.
+TI: To know I can trust you with something like this…
+NA: He glances briefly at where you tucked the letter away.
+TI: …means more than you can imagine.
+NA: The night wind passes between you, and the stars seem more numerous now.
+TI: I hope I am not placing you in danger by doing this.
+@char {PLAYER}2.determined
+PLAYER: I do not mind.
+NA: He watches you for a moment.
+NA: As if weighing your words.
+NA: Then he smiles, lighter this time.
+@char TI.happy
+TI: Then I am all the more grateful.
+NA: The village glows faintly below, while the sky above seems endless.
+NA: You remain side by side at the stone wall.
+NA: For a moment, no words are needed.
+NA: Only the comfortable silence between two people who have shared something meaningful.
+NA: Tiradentes looks up at the sky.
+@char TI.thinking
+TI: Strange…
+TI: There are days when the future feels impossible.
+NA: He turns his gaze back to you.
+TI: And others when… everything seems a little more within reach.
+
+@if gender="female"
+NA: Tiradentes keeps his eyes on you for a moment.
+NA: As though making a quiet decision.
+NA: The hesitation lasts only an instant.
+@goSub .BlackScreen
+@back CGT03_{gender}_01 id:CG time:0 !visible
+@back CGT03_{gender}_01 id:CG time:0 visible!
+@unlock CG/CGT03_{gender}_1
+NA: He steps closer, so close you can catch the scent of leather and wild herbs.
+NA: The tips of his long fingers brush your cheek, and your heart races.
+NA: Your gaze flickers briefly to his lips and he notices. A faint flush rises to his cheeks.
+NA: Then Tiradentes shifts slightly.
+NA: Instead of your lips, his soft ones touch your cheek.
+@back CGT03_{gender}_02 id:CG
+NA: The kiss, though only on your cheek, is slow and gentle.
+NA: A shiver runs through your body at the touch, your skin warm beneath it.
+NA: You barely have time to react.
+NA: When he pulls away, your cheeks are still flushed.
+NA: Tiradentes looks slightly embarrassed.
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@back bg_overlookNight
+@char TI.embarrass look:left pos:{leftmid} !wait
+@char {PLAYER}2.embarass pos:{rightmid}
+TI: Forgive me.
+NA: A small smile tugs at the corner of his lips.
+@char TI.smile
+TI: I believe the night… has made me bold.
+NA: But he does not step far away.
+NA: And for a moment, you remain there side by side, watching the stars.
+NA: Silence settles between you once more.
+@endif
+
+@if gender="male"
+NA: Tiradentes keeps his gaze on you for a moment.
+NA: As though weighing a silent decision.
+NA: Then he leans in slightly closer.
+NA: Close enough for you to catch the scent of leather and herbs.
+NA: The world seems to shrink around you.
+@goSub .BlackScreen
+@back CGT03_{gender}_01 id:CG time:0 !visible
+@back CGT03_{gender}_01 id:CG time:0 visible!
+@unlock CG/CGT03_{gender}_1
+NA: His face is only inches from yours. His warm breath brushes against your skin, sending a shiver through you.
+NA: Something flickers in his eyes hesitation, perhaps.
+NA: As if he is still questioning whether this is right.
+NA: His hand rises slowly, long fingers brushing your cheek.
+NA: The gesture is hesitant like he is testing whether he is allowed.
+NA: His gaze drops to your lips, something bright in his eyes.
+@back CGT03_{gender}_02 id:CG
+NA: You are so close now it is impossible to ignore what is happening.
+NA: For a moment, it feels as though he might actually kiss you.
+NA: But Tiradentes restrains himself, drawing a slow breath.
+TI: Have you ever wanted something…
+NA: He pauses briefly.
+TI: …that felt forbidden?
+NA: The question lingers between you.
+NA: The sky above remains filled with stars.
+NA: Yet in that moment, none of them feel as distant as before.
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@back bg_overlookNight
+@char TI.shy look:left pos:{leftmid} !wait
+@char {PLAYER}2.shy pos:{rightmid}
+NA: Silence settles between you once more.
+@endif
+
+@goto .scene6T-1end
+
+# scene6T-2
+NA: The letter remains between you.
+NA: The paper trembles slightly in the night wind.
+NA: You look at him… then at the letter.
+@char {PLAYER}2.surprise
+PLAYER: I cannot accept this.
+NA: Tiradentes does not pull his hand away immediately.
+NA: His gaze lingers on you, as if trying to understand.
+@char {PLAYER}2.determined
+PLAYER: Not because I do not want to help, but because… it will not be necessary.
+NA: The silence stretches between you—now uneasy.
+
+@if afetoTiradentes>=3
+@goto .scene6T-1end
+@endif
+
+@char TI.sad
+TI: Tell me…
+NA: He does not look at you.
+TI: Not necessary… why?
+NA: The question is quiet, but heavy.
+@char {PLAYER}2.thinking
+PLAYER: Because none of this has to happen.
+@char {PLAYER}2.determined
+PLAYER: There is still time to stop.
+NA: Tiradentes slowly turns his face toward you.
+NA: His gaze hardens.
+@char TI.angry
+TI: Stop?
+TI: After everything?
+@char {PLAYER}2.thinking
+PLAYER: Yes.
+PLAYER: Before it gets worse.
+NA: He steps toward you.
+@char TI.surprise
+TI: Worse for whom?
+NA: His tone shifts, no trace of softness now.
+@char {PLAYER}2.neutral
+PLAYER: For you… and for everyone.
+@char TI.thinking
+TI: For me…
+NA: He lets out a dry, humorless laugh.
+TI: Curious.
+@char TI.determined
+TI: Just yesterday, you seemed quite taken with my ideas.
+TI: Or was it only me?
+NA: That catches you off guard.
+@char {PLAYER}2.shy
+PLAYER: Do not pretend you do not understand.
+@char {PLAYER}2.angry
+PLAYER: I am still here, am I not?
+TI: You are.
+TI: But only until things become… inconvenient.
+@char {PLAYER}2.angry
+PLAYER: Oh, of course.
+PLAYER: Because you are clearly very skilled at avoiding inconvenience.
+NA: A brief silence.
+@char TI.thinking
+TI: Joaquim would be proud of that…
+TI: At least I do not run from such things.
+@char {PLAYER}2.determined
+PLAYER: Do you not?
+PLAYER: Because it seems to me you are running straight into one.
+NA: He steps closer.
+@char TI.determined
+TI: And you?
+TI: Always so careful… so safe.
+PLAYER: Someone has to be.
+@char {PLAYER}2.angry
+PLAYER: We already have one martyr in this conversation.
+NA: That hits, but he smiles.
+@char TI.smile
+TI: Martyr?
+TI: Not yet.
+@char TI.angry
+TI: Though I see you are already preparing my epitaph.
+@char {PLAYER}2.neutral
+PLAYER: I am just being realistic.
+@char TI.determined
+TI: And I, apparently, a fool.
+@char {PLAYER}2.determined
+PLAYER: I did not say that.
+TI: Not in so many words.
+NA: The tension rises.
+NA: His gaze darkens. You clench your fists.
+@char {PLAYER}2.thinking
+PLAYER: I am trying to stop you from destroying yourself.
+@char TI.sad
+TI: And I am trying to do something that matters.
+PLAYER: Is it worth dying for?
+NA: He tilts his head slightly.
+@char TI.thinking
+TI: You ask as one who has never considered dying for something.
+@char {PLAYER}2.neutral
+PLAYER: I have.
+PLAYER: I just did not choose an idea for it.
+NA: Tiradentes’ jaw tightens.
+TI: Then perhaps that is where we differ.
+NA: He holds your gaze.
+@char TI.angry
+TI: I have chosen.
+NA: You stand too close now.
+NA: Uneven breaths. Raw emotion.
+NA: As if the world around you has vanished.
+NA: That is why you do not hear the footsteps.
+NA: Nor see the lanterns emerging through the trees.
+
+@stopBgm fade:1
+@bgm tension
+GUARD: Well, well…
+GUARD: What a curious scene.
+NA: The voice comes from behind you.
+NA: You both step apart too quickly.
+NA: Soldiers surround the overlook, blades glinting in the dark.
+GUARD: The alferes…
+GUARD: In such fine company.
+NA: Low laughter.
+NA: Unpleasant.
+
+@if gender="female"
+GUARD: A lady alone at night…
+GUARD: In the company of the alferes…
+GUARD: This will give people something to talk about.
+@endif
+
+@if gender="male"
+GUARD: Two men, hiding away…
+GUARD: What an interesting choice of company.
+NA: A mocking laugh echoes.
+@endif
+
+@char TI.angry
+TI: Enough.
+NA: Tiradentes steps forward.
+NA: One guard restrains him roughly, another grabs you.
+@char {PLAYER}2.surprise
+PLAYER: Wait...
+@sfx manacle
+NA: Cold iron locks around your wrists.
+GUARD: You will spend the night under watch.
+GUARD: Both of you.
+NA: Tiradentes tries to look at you.
+NA: But now there is distance and not only physical.
+NA: The words still linger between you.
+NA: Unsaid. Or said too late.
+NA: The overlook fades behind you.
+; END
+@goto .GameEnd
+
+# scene6T-1end
+; Depois da escolha certa
+NA: The night wind gently stirs the leaves around the overlook.
+NA: Below, the village seems peaceful.
+NA: Then a sound cuts through the quiet: footsteps.
+@stopBgm fade:1
+@bgm tension
+NA: More than one. And the metallic clink of something striking against leather.
+@char {PLAYER}2.determined !wait
+@char TI.determined
+NA: Tiradentes straightens immediately.
+NA: His gaze shifts toward the trail leading up to the overlook and you hear voices.
+VOICE: This way. Check that path.
+NA: Tiradentes’ expression changes. The calm vanishes.
+@char TI.surprise look:left pos:{leftmid}
+TI: Guards.
+NA: He looks at you quickly
+@char TI.determined
+TI: You must leave.
+@char {PLAYER}2.surprise look:left pos:{rightmid}
+PLAYER: What about you?
+TI: I know these paths better than they do.
+NA: He is already moving.
+TI: Take the trail behind the brush.
+TI: Do not go back by the main road.
+NA: The voices are closer now, and lights begin to flicker between the trees.
+TI: Go. Now.
+NA: For a brief instant, he hesitates.
+NA: As if he wants to say something more.
+NA: But there is no time.
+@char TI.neutral
+TI: Trust me.
+NA: Then Tiradentes steps back into the darkness between the trees.
+@hide TI
+NA: Within seconds, he disappears into the night.
+NA: The guards’ voices continue climbing the trail.
+NA: And you have to decide quickly staying is no longer an option.
+@goSub .BlackScreen
+@back bg_overlookNight.Crossfade pos:-65,20 scale:3.0 time:0 wait!
+NA: You make your way down the narrow trail behind the brush.
+@sfx rustling
+NA: Branches scrape lightly against your clothes as you run through the dark.
+NA: Your heart is still pounding.
+NA: Up above, the guards’ voices echo across the overlook.
+NA: But with each step, they grow more distant.
+
+@back bg_squareNight.Crossfade pos:-65,90 scale:3.0 time:1 wait!
+NA: The trail finally opens near the road. The village is quieter now.
+NA: A few windows are still lit, but most houses are already asleep.
+NA: You hurry back to the inn.
+NA: The door creaks softly as you step inside.
+
+@hide MainBackground
+@stopBgm fade:1
+@bgm respite
+@back bg_innNight pos:50,50 scale:1 time:0
+NA: The common room is nearly empty.
+NA: Only a single lamp casts light over part of the counter.
+NA: And Francisca turns as she hears you enter.
+@char FR.surprise look:left pos:{rightmid} !wait
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+FR: Good heavens!
+NA: She presses a hand to her chest.
+@char FR.smile
+FR: You nearly scared me to death!
+@char {PLAYER}2.thinking
+PLAYER: Sorry…
+NA: You lean against the door, your chest rising and falling as you try to catch your breath.
+@char FR.neutral
+FR: What happened?
+NA: Francisca steps closer, studying you carefully.
+PLAYER: I was with Tiradentes.
+@char FR.thinking
+FR: The alferes?
+NA: She raises an eyebrow.
+@char {PLAYER}2.thinking
+PLAYER: We were at the overlook… talking…
+@char {PLAYER}2.angry
+PLAYER: Then guards showed up.
+NA: Her expression changes immediately.
+@char FR.surprise
+FR: Guards?
+@char {PLAYER}2.neutral
+PLAYER: Yes. He told me to leave as quickly as possible.
+NA: You glance at the door for a moment.
+NA: As if expecting him to walk in.
+PLAYER: I do not know what happened after that.
+NA: Francisca crosses her arms, thoughtful.
+@char FR.thinking
+FR: Hm.
+NA: Then her gaze returns to you.
+FR: Wait a moment.
+NA: A slow smile spreads across her face.
+@char FR.smile
+FR: You were with the lieutenant… alone… at the overlook… this late at night?
+NA: She tilts her head.
+FR: And you are telling me you were merely… talking?
+NA: You feel your face grow warm.
+@char {PLAYER}2.shy
+PLAYER: We just…
+PLAYER: Had… a moment.
+NA: Francisca breaks into a wide grin.
+@char FR.happy
+FR: Oh, so there was a moment.
+NA: She chuckles softly.
+@char FR.smile
+FR: Well, well.
+FR: Seems the alferes has been quite occupied these nights.
+@char {PLAYER}2.embarrass
+PLAYER: Francisca!
+FR: All right, all right.
+NA: She raises her hands in mock surrender.
+FR: I will not tease you any further.
+NA: But the amused smile remains on her face.
+FR: Still… be careful.
+@char FR.determined
+FR: These are dangerous times.
+NA: She glances briefly at the door as well.
+FR: I hope he knows how to stay hidden.
+NA: The comment lingers and you cannot help but worry about leaving him behind.
+@char {PLAYER}2.thinking
+PLAYER: So do I.
+NA: Francisca sighs.
+@char FR.neutral
+FR: Go get some rest.
+FR: No use standing here worrying yourself sick.
+@goSub .BlackScreen
+
+@back bg_innNight pos:90,50 scale:2 time:0
+NA: You climb the stairs slowly.
+NA: Each step creaks softly beneath your feet.
+NA: The room is dark when you enter, only faint moonlight filters through the window.
+NA: You lie down on the bed.
+NA: The mattress creaks slightly as you shift, but the exhaustion brings no rest.
+NA: Your thoughts return to the overlook.
+NA: To the star-filled sky and the moment that almost happened.
+NA: And then to the guards.
+NA: You turn to one side, then the other.
+NA: But sleep does not come.
+NA: Somewhere outside, the night goes on.
+NA: And you cannot stop wondering where Tiradentes is now.
+
+@stopBgm fade:2 !wait
+@blur MainBackground
+@slide MainBackground to:90,30
+@back bg_black
+@back pos:50,50 scale:1 time:0
+
+NA: Your vision blurs and everything goes dark.
+@sfx bell
+@bgm tension
+NA: First comes the sound: slow, heavy bells.
+;@sfx muffledVoices volume:0.5
+@sfx crowd volume:0.7
+NA: Then voices, many voices.
+NA: But none of them are whole.
+NA: Like distant echoes.
+@stopSfx fade:1
+NA: You see the square of Vila Rica.
+NA: But something is wrong, the people are blurred.
+NA: Like shadows.
+NA: Guards push through the crowd.
+@sfx chain
+NA: Chains rattle.
+NA: A man is being led away and you try to see his face.
+NA: For a moment, he has no face.
+NA: His hands are bound.
+NA: The crowd watches.
+NA: But no one steps forward.
+NA: Figures appear at the edge of the dream.
+NA: Familiar faces.
+NA: Distant.
+@sfx footsteps
+NA: As if being taken away.
+@sfx ocean volume:0.5
+NA: Ships. The sea. Land fading into the horizon.
+NA: And then only one remains.
+@stopSfx fade:2
+NA: A long-haired man. Alone.
+NA: The square shifts. The sky darkens.
+@sfx chain
+@sfx wood
+NA: The gallows stand there now, where once there was only stone.
+@sfx rope
+NA: Rope. Wood. Wind.
+PLAYER: (No…)
+NA: The man looks toward the crowd.
+NA: For a moment…
+NA: It feels like he is looking directly at you.
+NA: As if he knows you are there.
+NA: As if he is asking something of you.
+@sfx bell
+NA: The bells ring again.
+NA: Louder.
+NA: Heavier.
+NA: And then.
+NA: A flash of white.
+@goSub .BlackScreen
+
+@back bg_innDay pos:90,50 scale:2 time:0
+@sfx {gender}_breath
+NA: You wake drenched in sweat, your heart racing.
+@blur MainBackground power:0
+NA: Your chest rises and falls unevenly as you gasp for air.
+NA: Your pupils are wide and a sharp ache pulses in your chest.
+@char {PLAYER}2.surprise look:left pos:{mid}
+PLAYER: What?!
+@char {PLAYER}2.thinking
+PLAYER: That was not a dream…
+PLAYER: It was a warning…
+PLAYER: What truly happened… I remember now…
+@shake Camera
+@char {PLAYER}2.surprise
+NA: A loud noise from the street snaps your attention.
+NA: Voices, many voices and doors slamming.
+@hide {PLAYER}2
+@slide MainBackground to:90,0
+NA: You rush to the window and see: people running, guards many of them.
+NA: They enter homes, come out carrying papers, chests, belongings.
+NA: A woman cries in a doorway. A man argues with two soldiers.
+NA: In another street, someone throws papers into a fire in haste.
+NA: Documents burn too quickly.
+NA: The smell of smoke rises into the morning air.
+@char {PLAYER}2.surprise look:left pos:{mid}
+PLAYER: (No…)
+PLAYER: (It has begun.)
+NA: One name crosses your mind before any other.
+@char {PLAYER}2.thinking
+PLAYER: (Tiradentes.)
+@slide MainBackground to:90,60 time:0.5
+@hide MainBackground time:0
+@goSub .BlackScreen
+NA: You do not think, only splash water on your face, throw on your clothes, and rush out.
+NA: Outside the inn, you are not sure where to go so you follow the noise, the crowd.
+
+@back bg_squareDay
+NA: The town square is crowded.
+NA: People whisper. Some avoid looking at the guards.
+NA: Others simply flee.
+NA: And then you bump into someone.
+@char TI.neutral look:left pos:{mid}
+TI: Careful!
+NA: You recognize the voice before you even look up.
+@char TI.neutral look:left pos:{rightmid}
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+@bgm volume:0.4 fade:1
+PLAYER: Tiradentes…
+@char TI.surprise
+NA: He looks just as surprised as you.
+TI: I was just...
+NA: He cuts himself off.
+@char TI.thinking
+TI: I was worried about you.
+@char {PLAYER}2.thinking
+PLAYER: I was worried about you too. What happened yesterday? Are you all right?
+NA: For a moment, the chaos of the square fades.
+NA: Only the two of you remain.
+@bgm volume:1 fade:1
+NA: But the noise quickly returns.
+@char TI.determined
+TI: We need to leave…
+NA: He scans the surroundings carefully.
+@char TI.thinking
+TI: My house.
+TI: I need to see what remains.
+@char {PLAYER}2.determined
+PLAYER: I am coming with you.
+@char TI.thinking
+TI: No…
+NA: He hesitates.
+NA: His eyes meet yours and he sees both fear and resolve.
+NA: He understands that nothing he says will change your mind.
+@char TI.neutral
+TI: …Very well.
+@goSub .BlackScreen
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 wait!
+NA: You both hurry across the square.
+NA: And soon, you find the road leading out toward the countryside.
+NA: It feels quieter than the rest of the town and you find yourself wondering if anything truly happened here at all.
+NA: You do not know how long you have been walking, but soon you reach Tiradentes’ house.
+NA: Nothing seems out of place on the outside except for one detail that immediately draws your attention.
+@stopBgm fade:1 !wait
+@hide MainBackground
+@back bg_black pos:50,50 scale:1 time:0
+@goSub .BlackScreen
+
+@back bg_tiradentesDay
+@bgm backInTime
+NA: The door is open.
+NA: Not just ajar, left wide open.
+NA: Tiradentes steps inside first and stops in the middle of the room.
+@back bg_inTiradentesDayDestroyed
+NA: The place is wrecked.
+NA: Broken furniture, drawers pulled open, papers scattered across the floor.
+NA: Some torn. Others simply gone.
+NA: Maps trampled underfoot. Chairs overturned.
+NA: The silence feels heavier than the noise of the square.
+NA: Tiradentes takes a few slow steps.
+NA: As if each one costs him something.
+NA: He picks up a torn sheet of paper from the floor.
+NA: Looks at it.
+NA: His hands tremble slightly.
+NA: And then, he understands.
+NA: The paper slips from his fingers.
+NA: Tiradentes drops to his knees, the sound echoing through the room.
+NA: There is a faint shine in his eyes.
+@char TI.sad look:left pos:{mid}
+TI: …
+NA: His voice comes out almost as a whisper.
+TI: We have been betrayed.
+NA: He closes his eyes for a moment.
+NA: As if trying to accept something impossible.
+
+@choice "Support him and embrace him" goto:.scene7T-1
+@choice "Argue with him" goto:.scene7T-2
+@stop
+
+@goto .scene7T-1
+# scene7T-1
+@set afetoTiradentes+=1
+NA: You say nothing. You simply step closer.
+NA: And kneel beside him.
+NA: Your arms wrap around him before you can think twice.
+NA: Tiradentes goes still for a second.
+NA: As if he did not expect it.
+NA: Then he takes a deep breath.
+NA: And leans into the embrace, his arms tightening around you as his hands find yours.
+NA: You feel his breath against you uneven, heavy.
+NA: For a moment, you think he might be crying.
+NA: But instead, he simply holds onto your warmth.
+TI: …
+NA: His voice is low.
+TI: Thank you.
+NA: He runs a hand over his tired face.
+TI: For not leaving me alone now.
+NA: He looks at you.
+NA: There is exhaustion and fear.
+TI: I always knew it was dangerous.
+TI: And yet…
+TI: It helps to know someone stayed.
+PLAYER: I will not leave you alone, Tiradentes.
+@goto .scene7T-1end
+
+# scene7T-2
+NA: You cannot hold yourself back you start pacing.
+@char TI pos:{rightmid}
+@char {PLAYER}2.angry look:left pos:{leftmid}
+PLAYER: Everyone warned you.
+NA: The words slip out before you can stop them.
+PLAYER: Joaquim warned you. Others did too.
+PLAYER: It was dangerous.
+NA: Tiradentes slowly lifts his gaze.
+NA: You can see he is trying to hold back tears, but the shine in his eyes betrays him.
+NA: There is exhaustion there and something deeper.
+NA: When he speaks, his voice falters.
+@char TI.sad
+TI: I know.
+NA: The answer comes firmer than you expected.
+TI: I always knew.
+NA: He rises slowly,like he is carrying the weight of the world on his shoulders.
+TI: But hearing it now…
+NA: His eyes meet yours.
+TI: Does not help much.
+NA: He runs a hand over his face, trying to steady himself.
+TI: Still…
+NA: He exhales.
+@char TI.neutral
+TI: Thank you for coming.
+NA: But the distance between you now feels a little wider.
+@goto .scene7T-2end
+
+# scene7T-1end
+# scene7T-2end
+@stopBgm fade:3 !wait
+NA: The silence inside the house lasts only a few seconds.
+NA: Then a noise echoes from outside.
+NA: Many footsteps. Raised voices.
+@bgm tension
+NA: Soldiers.
+NA: Tiradentes lifts his head immediately.
+TI: …
+NA: He moves slowly.
+NA: His gaze shifts to the broken doorway.
+VOICE: Search everything!
+VOICE: He cannot be far!
+NA: The sound of boots approaches along the street.
+NA: Then another voice calm and cruel.
+VOICE: So this is where the great lieutenant chose to play at revolution?
+NA: Tiradentes goes still.
+NA: You recognize the name before it is even spoken.
+NA: The Viscount of Barbacena.
+
+@goSub .BlackScreen
+@back bg_tiradentesDay
+@char VI.neutral pos:{mid}
+VI: See how far your ideas have gone, alferes.
+VI: So far… and yet so useless.
+@char VI.smile
+NA: A low chuckle.
+VI: The Crown does reward betrayal.
+VI: In your case… with a rope.
+@sfx sword
+NA: The metallic sound of swords.
+
+@goSub .BlackScreen
+@back bg_inTiradentesDayDestroyed
+SOLDIER: Search the house!
+NA: Tiradentes looks at you.
+NA: For the first time since you arrived, he looks truly afraid.
+@char TI.determined look:left pos:{rightmid} !wait
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+TI: Listen to me.
+NA: He grabs your hand tightly, gripping your wrist.
+TI: If they find you here with me…
+TI: They will think you are part of this. And they will show no mercy.
+@char {PLAYER}2.determined
+PLAYER: But I am part of this.
+@char TI.determined
+TI: No!
+NA: His voice is firm.
+TI: Come with me. Now.
+@hideChars
+@slide MainBackground to:55,50 time:0.5
+@goSub .BlackScreen
+
+NA: He pulls you by the hand.
+NA: Not toward the front door, but to the back of the house.
+NA: You cross the ruined kitchen.
+NA: An open cupboard. Broken cups. Pots scattered across the floor.
+NA: Tiradentes pushes open a small door.
+
+@hide MainBackground
+@back bg_tiradentesDay pos:90,10 scale:2 time:0
+@slide MainBackground to:100,10 time:0.5
+
+NA: A narrow passage reveals itself behind the house.
+NA: The vegetation is dense.
+NA: A nearly hidden path.
+@char TI.neutral look:left pos:{mid}
+TI: This way.
+NA: You step onto the trail.
+NA: Behind you the soldiers enter the house.
+SOLDIER: Here!
+GUARD: Check the back!
+NA: You feel your heartbeat in your throat.
+NA: Tiradentes does not let go of your hand.
+NA: You move down the trail in silence.
+GUARD: I heard something!
+NA: You both freeze.
+NA: Two soldiers appear among the trees above the path.
+NA: They are very close.
+NA: Tiradentes tightens his grip on your hand.
+NA: He whispers:
+TI: We must decide.
+
+@if afetoTiradentes>5
+@goto .scene8T-1
+; Final bom
+@else
+@goto .scene8T-2
+; Final ruim
+@endif
+
+; (Final Bom)
+# scene8T-1
+NA: The soldiers are getting closer.
+NA: Voices echo through the woods.
+GUARD: They came through here!
+NA: Tiradentes looks ahead along the trail.
+NA: Then back toward the village.
+NA: His expression hardens.
+@char TI.determined
+TI: Perhaps this is for the best.
+@char TI pos:{rightmid}
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: What?
+@char TI.thinking look:left
+TI: If I surrender…
+TI: The others may have time to escape.
+NA: Your heart sinks.
+@char {PLAYER}2.determined
+PLAYER: No.
+@char TI.determined
+TI: It is the prudent course.
+@char {PLAYER}2.angry
+PLAYER: No!
+NA: You grab his arm harder than you meant to.
+PLAYER: I will not let you do this.
+@char TI.determined
+TI: This is not about choice.
+@stopBgm fade:1 !wait
+@bgm tiradentes
+PLAYER: It is!
+NA: Your voice trembles.
+PLAYER: You speak of justice… of freedom…
+@char {PLAYER}2.sad
+PLAYER: But what about you?
+PLAYER: Are you just going to surrender and die?
+NA: Tiradentes meets your gaze.
+NA: There is pain in his eyes.
+@char TI.thinking
+TI: If it is necessary.
+@char {PLAYER}2.determined
+PLAYER: And me?
+NA: The question slips out before you can stop it.
+PLAYER: What happens to me?
+NA: He hesitates.
+@char {PLAYER}2.sad
+PLAYER: Because I do not want to watch you die.
+NA: Your voice falters. Tears begin to fall.
+@char {PLAYER}2.determined
+PLAYER: I do not want to lose you.
+NA: Silence settles heavily between you.
+@char {PLAYER}2.neutral
+PLAYER: I like you.
+NA: The words finally come.
+PLAYER: Perhaps more than I should.
+PLAYER: And if there is any chance… even a small one…
+@char {PLAYER}2.happy
+PLAYER: I want a simple life with you.
+PLAYER: Far from all of this.
+NA: Tiradentes goes still.
+NA: As if the words take a moment to reach him.
+NA: His expression softens, something shifts.
+@char TI.surprise
+TI: …
+NA: He steps closer.
+@char TI.thinking
+TI: I have spent my life fighting for a future I may never see.
+NA: His voice is low.
+TI: And now someone asks me to live for it.
+NA: He exhales softly.
+@char TI.determined
+TI: Damn it…
+NA: A tired smile appears on his face.
+@char TI.smile
+TI: I did not expect it would be you to defeat me.
+NA: His hand gently touches your face.
+TI: I feel something for you as well.
+NA: He glances at the trail.
+NA: Then back at you.
+@char TI.thinking
+TI: Perhaps…
+TI: Perhaps there is still time for a simple life.
+NA: He takes your hand again.
+TI: Come.
+TI: Before I change my mind.
+NA: And this time, you both run.
+NA: Not from the fight… but toward survival.
+NA: The forest seems endless. Branches tear at your clothes.
+NA: Loose stones make every step uncertain, but you do not stop.
+NA: Tiradentes runs beside you.
+NA: At times he moves ahead, other times pulling your hand so you do not stumble.
+NA: Behind you, the sounds of the village slowly fade.
+NA: First the voices. Then the horses. Then the bells.
+NA: Until only the wind through the trees remains.
+
+@goSub .BlackScreen
+@back bg_overlookDay pos:-25,0 scale:2 time:0
+@sfx ocean volume:0.2 !wait loop!
+NA: After a while, you feel the sea breeze against your skin, the scent of salt in the air.
+NA: A small harbor emerges through the morning mist.
+NA: A few ships sway gently on the dark waters.
+@char TI.neutral !wait
+@char {PLAYER}2.neutral
+NA: A captain watches as the two of you approach.
+NA: He studies the situation in silence.
+CAPTAIN: You are running.
+NA: It is not a question.
+NA: Tiradentes takes a deep breath.
+@char TI.neutral
+TI: Yes.
+NA: The captain glances toward the distant village.
+NA: Then back at both of you.
+CAPTAIN: Then get aboard.
+CAPTAIN: Before someone comes asking questions.
+@hideChars
+@sfx wood volume:0.5 !loop
+NA: The wood creaks beneath your feet as you step onto the deck.
+@sfx rope volume:0.5 !loop
+NA: Ropes are pulled. Sails unfurl.
+NA: The ship begins to move. Slowly.
+NA: Vila Rica grows smaller behind you.
+NA: A lifetime left behind.
+NA: The sea wind turns colder.
+NA: You lean against the railing, watching the coastline fade.
+NA: For a moment, everything feels too quiet.
+NA: Then you feel someone step closer.
+NA: Tiradentes stops just behind you.
+NA: Close enough for you to feel the warmth of him… and the faint scent of herbs.
+NA: His breath brushes against your neck.
+NA: For a moment, he says nothing.
+NA: As if he too is watching the past disappear.
+@char TI.thinking look:left pos:{mid}
+TI: I never thought…
+TI: …I would leave that land like this.
+NA: His voice is low.
+NA: But not regretful.
+NA: He steps closer.
+@stopSfx fade:3 !wait
+
+@goSub .BlackScreen
+@back CGT04_{gender}_01 id:CG time:0 !visible
+@back CGT04_{gender}_01 id:CG time:0 visible!
+@unlock CG/CGT04_{gender}_1
+NA: His arm slowly wraps around you, his hand resting at your waist strong, yet careful.
+NA: As if still testing whether he is allowed.
+NA: The wind moves through your hair as the ship advances.
+NA: He remains close behind you.
+NA: Your back pressed lightly against his chest, you can feel the steady firmness of him.
+@back CGT04_{gender}_02 id:CG
+NA: His hand rises slowly, fingers brushing your face.
+NA: Almost reverent.
+NA: As though he still cannot quite believe you are there with him.
+; @char TI.neutral look:left pos:{mid}
+TI: It seems you truly stole me from the gallows.
+NA: A faint smile touches his lips.
+NA: You lean into his touch, savoring the warmth, the closeness between you.
+NA: His gaze drifts to your lips.
+NA: Then he leans in slowly, without hesitation this time.
+NA: His hand still cradles your face as he draws you closer.
+NA: Your lips brush against his.
+@back CGT04_{gender}_03 id:CG
+NA: The kiss begins soft, lingering, almost shy.
+NA: Then it deepens warm, unhurried.
+NA: He holds you closer, as though savoring the moment rather than rushing it.
+NA: There is something grounding in it.
+NA: The salt of the sea. The warmth of breath shared between you.
+NA: And everything that went unsaid for so long, finally finding its place.
+NA: His hand tightens slightly at your waist, pulling you closer.
+NA: The world seems to narrow, just the two of you, and the open sea ahead.
+NA: When he finally pulls away, his gaze lingers on yours.
+NA: His lips parted slightly, breath still uneven.
+NA: A crooked smile forms.
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@back bg_overlookDay pos:-25,0 scale:2 time:0
+@char TI.smile look:left pos:{mid}
+TI: Perhaps that simple life still exists.
+NA: You smile genuine, unguarded.
+PLAYER: It is all I could ever want.
+NA: The ship sails onward.
+NA: You rest your head against his chest as he holds you from behind.
+NA: Together, you watch the horizon.
+NA: Carried toward a place where no one knows your names.
+NA: Where there are no chains.
+NA: No gallows.
+NA: Only the future.
+@goto .GameEnd
+; END
+
+; (Final Ruin)
+# scene8T-2
+
+NA: The soldiers are getting closer.
+NA: Branches snap in the undergrowth.
+GUARD: Search the trail!
+NA: Tiradentes looks ahead, then back at you.
+NA: Something heavy passes through his gaze.
+@char TI pos:{leftmid}
+@char {PLAYER}2.neutral pos:{rightmid}
+PLAYER: If they find you…
+PLAYER: They will not stop with you.
+PLAYER: They will go after everyone.
+NA: Tiradentes says nothing.
+@char {PLAYER}2.thinking
+PLAYER: Maybe…
+PLAYER: Maybe if you surrender…
+@char TI.sad
+TI: Then at least the others may have a chance.
+PLAYER: That is not what I meant…maybe they will spare you, or...
+NA: The wind passes through the trees.
+NA: He closes his eyes briefly.
+NA: When he opens them again, the decision is made.
+@char TI.thinking
+TI: I always knew this could happen.
+NA: His voice is strangely calm.
+TI: But I will not let them take you with me.
+@char {PLAYER}2.surprise
+PLAYER: Tiradentes…
+NA: He grips your shoulders.
+@char TI.determined
+TI: Listen to me.
+NA: He pulls you off the trail into dense brush and damp earth.
+@char {PLAYER}2.sad
+PLAYER: No…
+TI: Please.
+NA: For the first time, his voice falters.
+@char TI.sad
+TI: I do not want you to die for my ideals.
+NA: His hand brushes your face thumb grazing your lips.
+NA: The gesture is quick. Warm.
+NA: Almost desperate.
+@char TI.neutral
+TI: If there is any justice in this world…
+TI: Perhaps one day we will meet again.
+@hideChars
+NA: He steps back then disappears from the brush.
+NA: You watch, hidden.
+NA: Your heart pounding.
+NA: Soldiers emerge.
+GUARD: There!
+NA: Swords are raised.
+NA: Tiradentes does not resist. He raises his hands in surrender.
+NA: The Viscount of Barbacena appears right behind.
+@char VI.determined pos:{leftmid} !wait
+@char TI.determined pos:{rightmid}
+VI: Well…
+VI: The great alferes.
+NA: His tone is almost amused.
+VI: So bold in your ideas.
+VI: And now, alone in the forest.
+NA: One of the soldiers grabs Tiradentes by the collar.
+@sfx punch
+NA: Another strikes him hard in the stomach.
+NA: The air rushes from his lungs, and he falls to his knees with a grunt of pain.
+GUARD: Traitor.
+VI: Take him.
+VI: The Crown will have great interest in your fate.
+NA: Chains are fastened around his wrists.
+NA: Before being led away, Tiradentes glances briefly at the forest.
+NA: Toward where you are hiding.
+NA: As if he knows you are still there.
+@stopBgm fade:2 !wait
+@back bg_black pos:50,50 scale:1 time:0
+@goSub .BlackScreen
+
+; Algum tempo depois
+
+@bgm sad
+NA: Days pass, and Vila Rica changes.
+NA: Guards patrol every street.
+NA: Names are whispered, and some have vanished.
+NA: Of the Inconfidentes, only one was imprisoned, claiming sole guilt and responsibility.
+NA: Some allies were exiled, but the only one left in prison as an example is Tiradentes.
+NA: On a quiet night…
+NA: You manage to bribe a guard.
+@back bg_prisonLightOn
+GUARD: Five minutes.
+GUARD: No more than that.
+NA: You enter the prison and approach one of the last cells.
+NA: The cell is cold, the stone damp.
+NA: Chains are attached to the wall.
+NA: You approach, and Tiradentes is sitting there.
+NA: His head bowed.
+NA: As if the weight of the world is upon him.
+NA: He does not notice your presence immediately.
+NA: His head remains lowered.
+NA: The silence between you is heavy.
+@char {PLAYER}2.neutral look:left pos:{mid}
+PLAYER: Tiradentes…
+@goSub .BlackScreen
+@back CGT05_01 id:CG time:0 !visible
+@back CGT05_01 id:CG time:0 visible!
+@unlock CG/CGT05_1
+NA: Slowly, he rises and leans against the bars, his gaze still down.
+NA: He looks thinner and more worn, his eyes swollen and deep-set.
+; @char {PLAYER}2.determined look:left pos:{leftmid}
+PLAYER: I came to see you. Wanted to know how you were.
+NA: Tiradentes lets out a small sigh.
+; @char TI.neutral look:left pos:{mid}
+TI: Like a man who already knows his destiny.
+NA: The words are spoken with far too much calm.
+; @char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Don’t say that.
+PLAYER: There might still be a way out.
+NA: He remains silent for a few seconds.
+NA: As if weighing his words.
+; @char TI.sad look:left pos:{mid}
+TI: You have always been kind to me.
+TI: Even when I barely deserved it.
+; @char {PLAYER}2.determined look:left pos:{leftmid}
+PLAYER: I did not come out of kindness.
+NA: Your voice comes out firmer than you expected.
+PLAYER: I came because I care about you.
+NA: Tiradentes remains still.
+NA: For a moment, you think he will not respond.
+; @char {PLAYER}2.sad look:left pos:{leftmid}
+PLAYER: I could not simply walk away.
+PLAYER: Not after everything.
+NA: Silence falls between you again.
+@back CGT05_02 id:CG
+NA: Then slowly, he lifts his chin.
+NA: His eyes meet yours.
+NA: Tired and empty.
+NA: As if the future has vanished.
+PLAYER: Everything will be alright.
+PLAYER: We’ll find a way.
+NA: Tiradentes watches you in silence.
+NA: Then he shakes his head.
+;@char TI.determined look:left pos:{mid}
+TI: No!!!
+NA: His voice is low.
+TI: Do not wait for me.
+NA: He looks away.
+TI: Go. Live your life.
+TI: It is not worth waiting for a ghost.
+@back CGT05_03 id:CG
+NA: He lowers his head again.
+NA: As you walk away from the cell, Tiradentes looks up one last time.
+NA: A few silent tears streak down his face.
+NA: But he does not call out to you.
+NA: He does not try to stop your departure.
+NA: He simply accepts that he is no longer a part of your life.
+@goto .GameEnd
+
+; END
+
+
+
+
+
+
+
+
+
+
+# BlackScreen
+@hideChars !wait
+@hidePrinter time:1 !wait
+@hide MainBackground
+@hide CG !wait
+@back bg_black pos:50,50 scale:1 time:0
+; @stopBgm fade:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:1.5 wait!
+@return
+
+# GameEnd
+@stopBgm fade:1
+@hideChars !wait
+@hide CG !wait
+@hidePrinter time:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:0.5 wait!
+@showUI TitleUI
+@stop

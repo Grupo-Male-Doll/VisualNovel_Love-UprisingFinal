@@ -1,6 +1,1170 @@
 {
     "Assets": [
         {
+            "guid": "811f49b6a7f067b4382eb89248a8f0bc",
+            "prefix": "Audio",
+            "path": "backInTime",
+            "group": ""
+        },
+        {
+            "guid": "c30c54d962a770b478d1ce9b5cf7038b",
+            "prefix": "Audio",
+            "path": "badEndMusic",
+            "group": ""
+        },
+        {
+            "guid": "54b5ff5b3e2861e4293876077272b3ca",
+            "prefix": "Audio",
+            "path": "barbara",
+            "group": ""
+        },
+        {
+            "guid": "c41ff7750138b3a46a3db05bf4980eac",
+            "prefix": "Audio",
+            "path": "bell",
+            "group": ""
+        },
+        {
+            "guid": "0a416c6b892be194188b57333ed049a5",
+            "prefix": "Audio",
+            "path": "cancel",
+            "group": ""
+        },
+        {
+            "guid": "394fe2f9aab2b8a4294755b373dc95f4",
+            "prefix": "Audio",
+            "path": "cel",
+            "group": ""
+        },
+        {
+            "guid": "9a5aa935bd09f7d49b04310d6b5a4569",
+            "prefix": "Audio",
+            "path": "chain",
+            "group": ""
+        },
+        {
+            "guid": "d36de4763ffab7d429a1229bde7236e7",
+            "prefix": "Audio",
+            "path": "clothes",
+            "group": ""
+        },
+        {
+            "guid": "ffdffed7f6db0b048a0622e96eb9166c",
+            "prefix": "Audio",
+            "path": "confirm",
+            "group": ""
+        },
+        {
+            "guid": "6ff37d289fbdc1249acaac85f3dfdf37",
+            "prefix": "Audio",
+            "path": "crowd",
+            "group": ""
+        },
+        {
+            "guid": "59e8eef83cea20243a87a170e11f7cbc",
+            "prefix": "Audio",
+            "path": "female_breath",
+            "group": ""
+        },
+        {
+            "guid": "3815a4dc03a156b49ba97f7c8a2dfba2",
+            "prefix": "Audio",
+            "path": "footsteps",
+            "group": ""
+        },
+        {
+            "guid": "28bf2134f8c146248b7c929dba22af9f",
+            "prefix": "Audio",
+            "path": "forest_day_birds",
+            "group": ""
+        },
+        {
+            "guid": "f073c1870edb91348ab576b21a245833",
+            "prefix": "Audio",
+            "path": "glass",
+            "group": ""
+        },
+        {
+            "guid": "3d811581ca666d04fa2ee1377d574dba",
+            "prefix": "Audio",
+            "path": "hipolita",
+            "group": ""
+        },
+        {
+            "guid": "f7d4413c2c7066c4f98cacddf88a4e48",
+            "prefix": "Audio",
+            "path": "horse",
+            "group": ""
+        },
+        {
+            "guid": "e6c699ae787d00644be32564a7c5e4b7",
+            "prefix": "Audio",
+            "path": "hungry",
+            "group": ""
+        },
+        {
+            "guid": "8eb25833837f0be4995fec7e2501754b",
+            "prefix": "Audio",
+            "path": "joaquim",
+            "group": ""
+        },
+        {
+            "guid": "21e12f5e83824b24dba2c410c73af12d",
+            "prefix": "Audio",
+            "path": "love",
+            "group": ""
+        },
+        {
+            "guid": "a6ad5a69d104b90459da7f1696b6fc27",
+            "prefix": "Audio",
+            "path": "male_breath",
+            "group": ""
+        },
+        {
+            "guid": "6f95b6bead9923a4b8fdb38e60f17a3a",
+            "prefix": "Audio",
+            "path": "manacle",
+            "group": ""
+        },
+        {
+            "guid": "854cd8fb71bee0f40be65f54be373150",
+            "prefix": "Audio",
+            "path": "menu",
+            "group": ""
+        },
+        {
+            "guid": "138b8e05e09d7ec4281aa463bd7c3aef",
+            "prefix": "Audio",
+            "path": "muffledVoices",
+            "group": ""
+        },
+        {
+            "guid": "611b7a3ab11c68d41b92aaa29e7f801b",
+            "prefix": "Audio",
+            "path": "ocean",
+            "group": ""
+        },
+        {
+            "guid": "8c05237aa73a1c443b1819c83fa706fb",
+            "prefix": "Audio",
+            "path": "punch",
+            "group": ""
+        },
+        {
+            "guid": "67994deb589638f41b0ef1822376f990",
+            "prefix": "Audio",
+            "path": "respite",
+            "group": ""
+        },
+        {
+            "guid": "9d78e84c8ddb3b64893a3e06e018003f",
+            "prefix": "Audio",
+            "path": "risada",
+            "group": ""
+        },
+        {
+            "guid": "c33c5876796be664fb9a27e2cda4e52a",
+            "prefix": "Audio",
+            "path": "rope",
+            "group": ""
+        },
+        {
+            "guid": "1c06222d6f809104b936b8022af71e6e",
+            "prefix": "Audio",
+            "path": "rustling",
+            "group": ""
+        },
+        {
+            "guid": "9331703768519c8419cd1f5ded1eea2b",
+            "prefix": "Audio",
+            "path": "sad",
+            "group": ""
+        },
+        {
+            "guid": "dd58d64a54edab7469fc14810caee1f0",
+            "prefix": "Audio",
+            "path": "sword",
+            "group": ""
+        },
+        {
+            "guid": "072a8c1935b84184caadf1f6957a6044",
+            "prefix": "Audio",
+            "path": "tension",
+            "group": ""
+        },
+        {
+            "guid": "383b01f884a0bcf489597678a80b4c23",
+            "prefix": "Audio",
+            "path": "tiradentes",
+            "group": ""
+        },
+        {
+            "guid": "bac9ad98aeca7fa47b050769f8906c63",
+            "prefix": "Audio",
+            "path": "wander",
+            "group": ""
+        },
+        {
+            "guid": "70701ec021c2fba4aaeac982eb66c5d2",
+            "prefix": "Audio",
+            "path": "warehouse",
+            "group": ""
+        },
+        {
+            "guid": "c0318a99a1ee96d42bebaea9efe21102",
+            "prefix": "Audio",
+            "path": "wood",
+            "group": ""
+        },
+        {
+            "guid": "c5357843880660544a00cab93de33011",
+            "prefix": "Backgrounds/CG",
+            "path": "CG01_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "bf0d235e683b2f6469730f8f9c6eead8",
+            "prefix": "Backgrounds/CG",
+            "path": "CG01_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "2e6d281e290fa4146ac77bc99758429f",
+            "prefix": "Backgrounds/CG",
+            "path": "CG01_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "34fa6220234ef0c4da82e6459c75d3d7",
+            "prefix": "Backgrounds/CG",
+            "path": "CG02_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "7f878786bb8710d4e80e78406c613c4c",
+            "prefix": "Backgrounds/CG",
+            "path": "CG02_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "801cc9d2208be2e44b4d7917f4232479",
+            "prefix": "Backgrounds/CG",
+            "path": "CG02_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "fa269feeee8b0eb41a9b6541d9f8f06e",
+            "prefix": "Backgrounds/CG",
+            "path": "CG03_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "490189518e6a1a644b105c2c23080531",
+            "prefix": "Backgrounds/CG",
+            "path": "CG03_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "7db7d281a8e831d4c8bdc59d1be21f13",
+            "prefix": "Backgrounds/CG",
+            "path": "CG03_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "d27baed89aa2c424e8435e5af48db791",
+            "prefix": "Backgrounds/CG",
+            "path": "CG03_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "bca8c701e4d48394ea3a287caf672d88",
+            "prefix": "Backgrounds/CG",
+            "path": "CG03_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "ac9ad75981a0a5f48bde40584f44e687",
+            "prefix": "Backgrounds/CG",
+            "path": "CG03_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "ec0d6d7836b8c90499776a31b7cd48f1",
+            "prefix": "Backgrounds/CG",
+            "path": "CG04_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "8b1f8076946af2943a0e911c917b3e99",
+            "prefix": "Backgrounds/CG",
+            "path": "CG04_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "9ac6ee0332f6e3041974e432e620b84c",
+            "prefix": "Backgrounds/CG",
+            "path": "CG04_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "8a39ad2ab988b834a9bb97686c70c28d",
+            "prefix": "Backgrounds/CG",
+            "path": "CG05_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "1b09aeeae8006cb47ad5c5c4f6609341",
+            "prefix": "Backgrounds/CG",
+            "path": "CG05_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "cab713546f804ca4db9af8b191ee0273",
+            "prefix": "Backgrounds/CG",
+            "path": "CG05_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "b79aa6b0a5808c743be7d7b6a594973f",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB02_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "914fa2ed4a2d60b43a09b89577234caf",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB02_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "625315eb04da37f4e9ed9a768913e1ae",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB02_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "8df14da03cf7ed54f8bc3d24a16660e1",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB02_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "6a79051fd32c8e34c89f07207aa28bc5",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB02_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "fce91fc5877c1674b927ac73041ef17f",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB02_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "29c82ca9b1c5d4341a6ee79e15a97e43",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB03_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "36c699325597f1c4889dc932c6311a14",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB03_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "9ca9c5e0c7285ec48bc1bc9c1c2bd622",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB03_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "f0a25e6e9c456ed4cb54ed23d5257be4",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB03_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "ac5f5d5ada325994a94cc33f8d103ee1",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB03_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "7d1b2db62120c5042a8413cbfac0aed9",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB03_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "987ed98f8cfbaa24283a3876bd2f7022",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB04_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "b9dfcd2e4cfccb042b842f5a8d0cdfb3",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB04_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "3eb31436d2bb1b842a7ef1eba1a73459",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB04_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "76e8b1f5cb27651408c0b83919f92f64",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB04_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "9932e1df0a4796e4ab2e462f6a8ea5e2",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB04_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "0de878d8dbba6f345a6a9671446878be",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB04_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "cdffb2269f73f5b4b85f50cf962e4ba1",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB05_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "e28f85a8cdec43b4b94bd8e20cc5ce01",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB05_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "c859b4803de1e3940871cd08a40a2f6d",
+            "prefix": "Backgrounds/CG",
+            "path": "CGB05_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "2fbe4fe5db815874cb62e15dca06a408",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC02_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "8b38b94be975c6646b755e5fbcb60eb1",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC02_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "c2568f4147c5c274b8153aad325c5812",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC02_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "f9850ed09f049bc45bad92a9b64581fe",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC03_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "c71ab4fb811704047be93e36880101aa",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC03_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "954f44a2dd91b324797f286eba7c1a38",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC03_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "70fecb6b1da9e704ba9010234c0ad6be",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC03_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "30b82958ad1f9604fb43d375ac1c48cb",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC03_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "f3921792dbd9d164187c76d169ba10de",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC03_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "d037d5b315d89e24ab6270d84fdd7fb2",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC04_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "08242d35305a4864d86dd821025c95a6",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC04_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "e45c90f268710ee4da780e5581016cb4",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC04_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "ed8f67c6f271f554f87bbdfc4f95cacc",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC05_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "e4c985c16b249934ab69feb893d23b68",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC05_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "cde6dc61afbf8c84faf85e8de57d75c0",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC05_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "0d604d1f85c479c43b387068d1c65fd3",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC05_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "98eb70320f94216409fe7f9f11f4bea3",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC05_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "b51a7928218f8fc44b6ae8d8927df3e9",
+            "prefix": "Backgrounds/CG",
+            "path": "CGC05_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "16660b8961722174c86f1f857f32df37",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH02_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "18a7d1084e42f884abfd2b9656b42ea3",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH02_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "3257c9f34e367fd41b850c0c671eaca8",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH02_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "3ba562f6fc125d94c9ad6ec3164066ff",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH02_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "859b90f980ed55f4a96268f07c6e4f5a",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH03_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "1240994bbe0fb754686e862f00015f3c",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH03_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "8f2fd81c229b70046ad9764b3b7676cc",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH03_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "6b71c8c7a51cc6c42a7b1e5c5c46f48e",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH03_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "4cfe7bef191fee9419b32863c03e0642",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH03_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "0a1436a82ec00fe4596cace2c96c4c9c",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH03_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "97d586ae5e37fc1458a55b5f9043adb1",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH04_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "522babe49f6b9014882e913ca2163856",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH04_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "4ae9b99304c4f444cb5c627a8a981f56",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH04_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "56058184d19f3e34ab2ab2f9ac73398f",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH04_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "afa9d4bc7e9d29a4ab5832db12aa64a3",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH04_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "9cce8836bada37041a93d4b72e69342b",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH04_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "da863859d1595f041a6a11cde087a4e8",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH05_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "1e04ee300ac44e3468fd654b8bc234d5",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH05_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "31a3748bac41aa448b2b5f0e29cdd071",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH05_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "e78ae8c7f2f0521498ece65f079b637c",
+            "prefix": "Backgrounds/CG",
+            "path": "CGH05_04",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "fe7beea1db717a84e875a85932aabcc7",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ02_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "d10a003a22d789f4bb3fcbd529323d6d",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ02_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "8a68b0c1c7fd1724893174b518c5f787",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ02_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "e3906ccd8243dd0479db8d4f44e7299b",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ03_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "d8e9ccb2fbbbb5743b3e36ee2f06efc8",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ03_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "9c68eb6866762b0449a158c37e4f53ec",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ03_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "3afb057a1e4748a4e98cd6d3e8a80726",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ03_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "93bb1f06616559946ae0c811e90dde55",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ03_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "00644a02aa4db1147a7810dd36a87e14",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ03_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "57c12d8e4877e514fbf8b2c407d06d8d",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ04_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "21e78b0e16321d447a852859e91e3332",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ04_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "49a186ba747113c488fbf568a087c363",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ04_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "fcd14c09c775d0b449cc858b1f722d6d",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ04_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "28de4f99bd7b8ff4aadcd5df01a39578",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ04_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "126381d064013d141a774d0f0e807c19",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ04_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "172ae5bab8482af448588b1e10bdb93e",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ05_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "c12c794131640ea479ad2947ff598720",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ05_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "799ffdea46453a243877885eabf46159",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ05_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "daa3f64bcfd4f054fa5d50c435a8aad4",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ05_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "04b89ec71cc41694aaa863693787a611",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ05_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "00bd86a5b18e92d4e95ac51f447f6496",
+            "prefix": "Backgrounds/CG",
+            "path": "CGJ05_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "e199efa10f8f42041bc550103e19c728",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT02_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "bb84c84f77dec6442b6990cd02926fb8",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT02_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "97f8b126047dc5b4dac2b1c64c7f34a4",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT03_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "d8895bda2d5a6e04991ddda5fa637fd4",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT03_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "cbc95ea1b0149394eb872226bd04ed12",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT03_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "d663b35c43ac9954fa9b8e437fcb646f",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT03_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "e0daebeb676b273439752c71be308c25",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT04_female_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "fef57c116f470654690521f68ff5fd71",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT04_female_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "7fa99e59579964a4e8bd9343a3161071",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT04_female_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "ce060fbf53fc6674e963666d96589939",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT04_male_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "8c15341478ebfbb4aad8ab34697581f3",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT04_male_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "0821cfd25becfba46bc14a62d6a05f9e",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT04_male_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "f92b0caabcfc93c43a88a6007034ec4b",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT05_01",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "f379fbce3d7f61a4ebf18a5ea4d00028",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT05_02",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "e3e7ce9a22e67704880e3c971aa5695c",
+            "prefix": "Backgrounds/CG",
+            "path": "CGT05_03",
+            "group": "Backgrounds/9531f383-864c-4d95-aba6-c5aed3b5127e"
+        },
+        {
+            "guid": "bcad78aec98bbeb49bb8a3426ea36151",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_farm",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "e85096c4050d12b46b24db1919cac751",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_gardenAfternoon",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "22d37a5c525f43f4bb7277ea0691a110",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_gardenDay",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "feef584eef5afaf4bac9bf68d0ab132a",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_gardenNight",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "94bc20721e6771b47a4da8283477e9f0",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_hipolitaAfternoon",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "1c7b1fbb1294cda478935a86479e563a",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_hipolitaDay",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "46bb35c2f967b094da9dd69b78436dbb",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_hipolitaDayDestroyed",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "cfed7234780fb9948b1a2ae01af9cc2d",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_hipolitaNight",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "0ca08df49be866c43a0dde0cde16e34f",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_innAfternoon",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "12d5e101f00ed8043b3f51d304095993",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_innDay",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "6fce4624c7c2f4b45b295e38730c80af",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_innNight",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "ca5f1e6ff74a86144b50b1b591e540a9",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_inTiradentesAfternoon",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "a264cb1c8ef38bc41bb1bb8ce64752f6",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_inTiradentesDay",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "8583f10d33c9162479ae7f3cc9d04fdd",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_inTiradentesDayDestroyed",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "2f5a3d00a86488c4083e49a0276c0d46",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_inTiradentesNight",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "a02afffacc009f14db3376e8431d8ed9",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_inTiradentesNightDestroyed",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "37839c36f95d4984dbdc765a625f62c9",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_joaquimAfternoon",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "97db8281901c20741b0f70de3cd76ca3",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_joaquimDay",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "5ca32ecd350b5aa499ad17db22a8d869",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_joaquimDayReal",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "6395b958d12132a44980f548361c7607",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_joaquimNight",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "87a267b6f83daac44af88edd729807ab",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_joaquimReal",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "b049ae6fb44682c409ac75f95a943926",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_mainMenu",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "f5e22087be05a504d9b3e10851a70a17",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_marketAfternoon",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "81317243af75b6b439e61efd85f3d81d",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_marketDay",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "a26c13b22bc23cd45a69e8c1527e4e37",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_marketNight",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "c3ef181373e2f2049ba9de192f315be7",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_Menus",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "16215bb8fc4717d439d86a57304f2570",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_overlookAfternoon",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "c15ee29df2ce2d64896e9d760392ec78",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_overlookDay",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "13c5d717fd96aad47bcf82bfae1f29d9",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_overlookNight",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "b154e4e06238e814ebf051076062db91",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_prisonLightOff",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "c2d84ae64e6a2c24db0fcb8cd94735b2",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_prisonLightOn",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "3b5ad70fc3e185e45ad07db21f0a53cb",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_squareAfternoon",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "9295be14592e738468c32ca889f0774b",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_squareDay",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "c8828a2a8d407994597455f9b5cae84d",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_squareNight",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "d3e2fbb3a46739441a7f5cd1dc01c2d1",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_theater",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "412e3b6c275a6b94aa92dcda30e4ff1e",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_theater2",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "05cc3cdcb2b13a54ab1df2b5f1e80b6f",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_tiradentesAfternoon",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "89012c2df0c8d4f4ebfd431dad4aa4da",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_tiradentesDay",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "a31f3386d111d9948bb9facaa63c4ddf",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_tiradentesNight",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "95a4097e19bba9448972434c60940c73",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_warehouseAfternoon",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "07bb0d7fc399eab42b7c7996f5feaa42",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_warehouseDay",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "e7c27d4c8aa75084eb4d6839e8f44eb0",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "bg_warehouseNight",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "90889c26fbbf60d46a5916333938ebef",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "cg_black",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "00dacb9d2704d2946825d408fd643382",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "MD-bg-ui-filter",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
+            "guid": "5e779fe5a1198d04f93259b750c6f44b",
+            "prefix": "Backgrounds/MainBackground",
+            "path": "MD-filter-ui-dialog",
+            "group": "Backgrounds/4218052e-4a9b-4b0e-893d-e9902ed0d463"
+        },
+        {
             "guid": "4fa6d62f894ae6e4698bfa8af59e7942",
             "prefix": "ChoiceHandlers",
             "path": "ButtonArea",
@@ -22,6 +1186,54 @@
             "guid": "c203e47c514c63b41838ee7df4ed72e0",
             "prefix": "Scripts",
             "path": "Entry",
+            "group": ""
+        },
+        {
+            "guid": "de8521f0aeb9104499037d68b4751440",
+            "prefix": "Scripts",
+            "path": "Male Doll Template/Scripts/rota_barbara",
+            "group": ""
+        },
+        {
+            "guid": "c5361db7fdb4d83499c4707f958a2e00",
+            "prefix": "Scripts",
+            "path": "Male Doll Template/Scripts/rota_cel",
+            "group": ""
+        },
+        {
+            "guid": "04c60269083eb86419f272b093f2029f",
+            "prefix": "Scripts",
+            "path": "Male Doll Template/Scripts/rota_hipolita",
+            "group": ""
+        },
+        {
+            "guid": "b3bb26fc77a6ed548b3a4ed0b3cdcf0d",
+            "prefix": "Scripts",
+            "path": "Male Doll Template/Scripts/rota_joaquim",
+            "group": ""
+        },
+        {
+            "guid": "633da969013ab304780d771ec8248625",
+            "prefix": "Scripts",
+            "path": "Male Doll Template/Scripts/rota_tiradentes",
+            "group": ""
+        },
+        {
+            "guid": "56681b76a21f7604b9f5b984b8af6b97",
+            "prefix": "Scripts",
+            "path": "Male Doll Template/Scripts/script_bad_end_1",
+            "group": ""
+        },
+        {
+            "guid": "9104e3982ea1cb641824609c45fe425a",
+            "prefix": "Scripts",
+            "path": "Male Doll Template/Scripts/script_game",
+            "group": ""
+        },
+        {
+            "guid": "7649363caaa03494b89f951bd3619c93",
+            "prefix": "Scripts",
+            "path": "Male Doll Template/Scripts/script_title",
             "group": ""
         },
         {

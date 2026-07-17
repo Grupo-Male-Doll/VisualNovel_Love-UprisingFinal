@@ -1,0 +1,7546 @@
+@back bg_innDay
+NA: You wake up a little disoriented.
+
+NA: And for a moment you think you've returned.
+
+NA: Until you see the dark wooden ceiling.
+
+NA: Smell the old fabrics and feel the slight morning chill.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: (Nope!)
+
+PLAYER: Still here.
+
+PLAYER: Vila Rica in 1700-and-some-historical-tragedy.
+
+PLAYER: Maybe I really have gone mad.
+
+NA: You sit up slowly in bed, shifting against the sheets. The situation you're in is still strange and absurd.
+
+NA: The silence of the inn is different from what it should be.
+
+NA: It definitely doesn't resemble the city at all. There's more creaking wood, heavy footsteps and clanking pots.
+
+
+NA: You slowly rub your face
+
+NA: Next to the bed, in the corner of the room there's a copper basin, a clean folded cloth, and a pitcher of water.
+
+
+PLAYER: (Ah... the depressing historical bath.)
+
+NA: You try to improvise some dignity and a decent bath, washing your face, neck, and arms.
+
+NA: You end up basically spilling most of it on yourself, and the water is cold, cruelly cold.
+
+PLAYER: My God.
+@char {PLAYER}2.thinking
+PLAYER: How did people survive without showers?
+@char {PLAYER}2.surprise
+FR: Complaining less than you, perhaps.
+@char {PLAYER}2.surprise pos:{leftmid}
+@char FR.smile pos:{rightmid}
+NA: You startle to see Francisca leaning against the door with her arms crossed.
+
+FR: Good morning, lost creature.
+@char {PLAYER}2.thinking
+PLAYER: Do you normally knock?
+@char FR.neutral
+FR: I do.
+
+FR: You just didn't hear.
+
+NA: She enters, watching you as if assessing a child making a mess.
+
+FR: I'm Francisca.
+
+FR: The owner of this inn, at least the part that hasn't collapsed yet.
+
+FR: And you are the most confused figure that has ever appeared here.
+@char {PLAYER}2.thinking
+PLAYER: That's offensive.
+@char FR.smile
+FR: It's an observation.
+
+NA: A small smile.
+@char {PLAYER}2.smile
+PLAYER: I'm {name}.
+
+FR: But you seem kind-hearted.
+
+FR: Which usually complicates people's lives.
+
+NA: She approaches the window and opens the curtains.
+
+FR: So?
+
+FR: Have you accepted that you're trapped in Vila Rica?
+
+FR: Or are you still in the horrified phase?
+@char {PLAYER}2.neutral
+PLAYER: I'm between "outburst" and "denial".
+
+FR: Excellent.
+
+FR: That's the spirit.
+@char FR.neutral
+NA: Francisca starts tidying up some things in the room while talking.
+
+FR: It's a small village.
+
+FR: Everyone knows everyone else's business, even when they shouldn't.
+
+
+FR: There are self-important military men, pretentious poets, and rich people pretending they don't owe money.
+@char {PLAYER}2.thinking
+PLAYER: That's specific.
+
+PLAYER: I almost feel like I know all these people.
+
+FR: Vila Rica is always specific.
+@hideChars
+NA: She leaves, leaving you some fresh bed linens. You close the door and change into the clothes Alvarenga lent you.
+
+NA: After a long day in Vila Rica, they seem dusty. You wet the clothes to clean them, and they end up soaked.
+
+NA: You lay them on the windowsill, hoping the heat and sun will be enough.
+
+NA: It's already a little late when you go downstairs, but your clothes are dry.
+
+
+NA: The sweet smell coming from the kitchen overcomes your dignity.
+@char FR.neutral pos:{rightmid} !wait
+@char {PLAYER}2.neutral pos:{leftmid}
+NA: Francisca seems to have already set something aside for you.
+
+NA: A simple board on the table with still-warm cornbread, fresh cheese, and guava paste.
+
+PLAYER: Is this breakfast?
+
+FR: A snack.
+
+FR: Or "food so you don't faint from working."
+
+NA: You sit down and try the cornbread.
+
+PLAYER: Okay.
+
+PLAYER: This is dangerously good.
+
+FR: See?
+
+FR: Not everything in this century is a struggle.
+
+PLAYER: Since we're talking about the village…I think I met someone yesterday.
+
+NA: Francisca immediately looks up.
+
+
+
+FR: Ah?
+
+FR: Finally socializing.
+
+FR: Who?
+
+PLAYER: A woman.
+
+NA: She immediately assumes an interested expression.
+
+FR: A woman?
+
+PLAYER: Very elegant, confident, and…beautiful, someone you'd like to be…friends with.
+@char FR.smile
+FR: "Friends"?
+
+NA: Francisca smiles.
+
+FR: Oh.
+
+FR: So you're talking about Hipólita.
+
+PLAYER: Hipólita? No, I mean, yes but…
+
+FR: Landowner, wealthy and intelligent.
+
+FR: She has more sense than half the men in this village.
+@char FR.determined
+NA: Her tone changes.
+
+FR: Her fiancé, on the other hand…
+
+NA: An almost dramatic pause.
+
+FR: ...Has opinions.
+
+PLAYER: That sounds threatening.
+
+FR: Because it is.
+
+NA: Francisca watches you for a moment.
+
+FR: But perhaps it would do you good to go out.
+
+FR: Before I put you to work.
+@char {PLAYER}2.thinking
+PLAYER: I didn't say I was going out, and was that a threat?
+
+
+@char FR.neutral
+FR: It was an incentive.
+
+FR: Perhaps you need a distraction.
+
+NA: Francisca seems to have already made a decision for you.
+
+FR: Go visit her.
+@char {PLAYER}2.surprise
+PLAYER: What? Me and now?
+
+FR: "Now".
+
+FR: Before you change your mind or start philosophizing about the wrong century again.
+
+NA: She practically shoves you out of the inn when you finish eating.
+
+FR: Go.
+
+FR: And be minimally pleasant.
+@char {PLAYER}2.thinking
+PLAYER: I am pleasant.
+@char FR.thinking
+NA: She stares at you with a raised eyebrow and you theatrically put your hand to your chest in offense.
+@stopBgm fade:2 !wait
+@hideChars
+@goSub .BlackScreen
+@back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
+@bgm wander
+NA: You leave the inn, walking through the cobblestone streets, hearing the distant sound of horses and smelling the damp earth mixed with the aroma of food coming from the kitchens.
+
+NA: Vila Rica seems strangely alive.
+
+NA: You walk past vendors setting up stalls and men discussing politics as if no one could hear them.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER:  (Definitely some revolution is going to go wrong here.)
+
+NA: You also see some crown soldiers talking near a property with some women. You find it strange because they don't seem as rude as they were to you yesterday.
+
+NA: As you move away, the dirt ground meets your footsteps and you begin to see only trees and bushes around you.
+@back bg_squareAfternoon.Crossfade time:0 !wait scale:3.0 pos:-65,90
+NA: The path is beautiful and the afternoon slowly fades as you walk.
+
+NA: But it definitely doesn't look like the way to the warehouse.
+@char {PLAYER}2.thinking
+PLAYER: (Strange.)
+
+PLAYER: (I went this way yesterday, didn't I?)
+
+NA: As you approach, the houses become larger and more beautiful.
+@hide MainBackground
+@back bg_gardenAfternoon scale:1 pos:50,50 time:0
+NA: Until you find a large, elegant farmhouse with a well-kept garden.
+
+PLAYER: I remember this place….
+
+PLAYER: Okay.
+
+NA: You knock on the door.
+
+NA: A few moments later the door opens and then you see her.
+
+NA: Beautiful, elegant, and with impeccable posture.
+@char {PLAYER}2 pos:{leftmid}
+@char HI.neutral pos:{rightmid}
+NA: But she's not the woman you were expecting.
+
+PLAYER: (Ah.)
+
+PLAYER: (Maybe I misunderstood everything.)
+
+HI: Can I help?
+
+PLAYER: I…
+
+NA: You hesitate as you watch her tilt her head, trying to understand.
+
+@char {PLAYER}2.neutral
+PLAYER: I think there's been a misunderstanding.
+@char HI.smile
+NA: Hipólita watches you for a moment, then smiles, amused.
+
+HI: Francisca?
+
+PLAYER: Francisca.
+@char HI.neutral
+NA: A small sigh from her.
+
+HI: Of course.
+
+HI: Come in.
+
+HI: Since you were sent here by accident.
+
+NA: The tone is dry, but not hostile.
+@back bg_hipolitaAfternoon
+NA: You go inside, the house is beautiful and the furniture well-kept.
+
+HI: So.
+
+HI: What exactly was the plan?
+
+PLAYER: I guess meeting someone again?
+
+HI: Francisca will pay for this.
+
+NO: Hipólita?
+
+NA: A man comes from the back and enters the room; he's tall and has a firm posture, very military-style.
+
+NA: But when he comes in the room seems to change.
+
+NO: Another visitor?
+
+HI: Don't start.
+
+NO: I haven't started anything.
+
+NO: Yet.
+
+PLAYER: (Wow.)
+
+PLAYER: (Something's very wrong here.)
+
+NO: Maybe I should just accept that this house is now an inn.
+
+HI: Maybe you should learn some manners.
+
+NO: Maybe you should stop acting like a… single woman.
+
+NO: Because someone in this house needs to think rationally!
+@char HI.determined
+HI: And someone in this house needs to learn to shut up occasionally!
+
+NA: You stop, watching his jaw clench.
+@char {PLAYER}2.surprise
+PLAYER: (Wow, I'm in the middle of an aristocratic brawl.)
+
+NA: Hipólita looks poised to kill someone with elegance, and her fiancé seems equally willing.
+
+@stopBgm fade:1 !wait
+NA: And then the door opens, without announcement or hesitation.
+@bgm barbara
+@char BA.neutral pos:{mid}
+NA: She enters, elegant, poised, and impossible to ignore.
+
+NA: Yours eyes scan that woman from head to toe.
+
+PLAYER: (WAIT.)
+
+PLAYER: (It's her.)
+@char BA.smile
+BA: My God.
+
+BA: I go out for an afternoon and already find domestic civil war.
+
+NA: Her voice is calm, but sharp.
+@char HI.neutral
+NA: Hipólita lets out a long, almost relieved sigh.
+
+HI: Bárbara.
+
+@char {PLAYER}2.neutral
+NA: You watch her more closely.
+
+NA: The way she lifts her face, the confidence and the small smile.
+@char BA.neutral
+NA: And Bárbara seems to finally notice you there.
+@char BA.smile
+BA: Ah.
+
+NA: A discreet smile.
+
+BA: We have company.
+
+NA: She walks to Hipólita's fiancé, without haste or fear.
+
+BA: My dear.
+
+NA: Her tone is polite.
+@char BA.neutral
+BA: Good neighborly politics still exist in this village.
+
+BA: And I'm sure… some would be annoyed...
+NA: A beat.
+
+BA: ...if they found out half the street heard this argument..
+
+NA: The groom clearly swallows his irritation.
+
+NO: That's none of your business.
+@char BA.smile
+BA: It is now.
+
+NA: A small smile.
+
+BA: Because you're shouting loud enough to involve the entire neighborhood.
+
+NA: She then turns to Hipólita.
+
+BA: And you.
+NA: Bárbara approaches her without ceremony.
+
+BA: You look gorgeous when you're angry, but you scare half the village.
+
+NA: Hipólita's fiancé clearly recoils slightly, still irritated but less willing to continue shouting.
+@char HI.determined
+HI: Bárbara!
+
+NA: The tone is a warning.
+@char BA.neutral
+BA: Oh, don't look at me like that.
+
+BA: Someone in this house needs to have some sense.
+
+BA: And clearly it's not your fiancé.
+
+NO: I appreciate the insult.
+@char BA.smile
+BA: You're welcome.
+
+NA: A small, sharp smile appears on her face.
+
+BA: although…
+@char BA.thinking
+NA: She looks Hipólita up and down.
+
+BA: ...sometimes I suspect you enjoy a bit of drama.
+
+HI: I don't.
+@char BA.smile
+BA: Hm.
+
+NA: A slow smile.
+
+BA: Then maybe you just like winning arguments.
+
+NA: Hipólita puts her hand on her hip, clearly annoyed.
+@char BA.neutral
+BA: What's wrong?
+
+NA: Her tone is too innocent.
+
+BA: I'm just trying to help.
+@char HI.surprise
+NA: Hipólita clearly loses some of her composure.
+@char HI.determined
+NA: Not defeated, but someone who is too used to those provocations.
+
+@choice "Defend Hipólita" goto:.scene3B-1
+
+@choice "Agree with Bárbara" goto:.scene3B-2
+
+@stop
+
+
+#scene3B-1
+@set afetoBarbara+=1
+@char {PLAYER}2.thinking
+PLAYER: I think you're being too harsh on her.
+
+NA: Bárbara looks at you, slowly.
+@char BA.surprise
+NA: She seems a little surprised, but not in a bad way.
+
+BA: Oh?
+@char {PLAYER}2.neutral
+PLAYER: She's clearly already dealing with a lot.
+
+PLAYER: It doesn't seem fair to keep provoking her.
+@char BA.thinking
+NA: A brief silence.
+
+NA: Bárbara crosses her arms.
+
+BA: So you're the type to defend people in trouble.
+
+PLAYER: I'm just being reasonable.
+
+BA: Hm.
+@char BA.neutral
+NA: Something changes in her gaze.
+
+NA: Not exactly irritation, it's closer to discomfort and a kind of admiration for the courage to defy her...
+
+BA: Curious.
+
+BA: Hipólita has already survived men worse than my words.
+
+NA: She glances at Hipólita.
+
+BA: Still…
+
+NA: A beat.
+
+BA: ...You must feel very special.
+
+HI: By God... Bárbara.
+@char BA.smile
+BA: What?
+
+NA: The smile reappears, a little more restrained.
+
+BA: Your knight has just appeared.
+
+NA: Hipólita seems mortified by the suggestion, and the fiancé is astonished.
+
+
+@goto .scene3B-2end
+
+#scene3B-2
+@char {PLAYER}2.neutral
+PLAYER: Well…
+
+NA: Everyone looks at you, interested in what you're going to say, and you hesitate a little.
+
+PLAYER: She looks a little scary and annoyed.
+@char BA.surprise
+NA: Bárbara looks at you immediately.
+
+@char BA.happy
+NA: And laughs.
+
+BA: See?
+
+BA: At least someone in this house has eyes.
+
+HI: Don't encourage </her/him>.
+
+PLAYER: I'm just being honest.
+@char BA.smile
+BA: And I like honesty.
+
+NA: Her gaze lingers a second longer.
+
+BA: Especially when it benefits me.
+
+HI: Traitor.
+
+PLAYER: I'm sorry?
+
+HI: Francisca sends someone confused to my house and in less than ten minutes you've already pitted me against two people.
+
+BA: Oh, don't be dramatic.
+
+BA: I still like you more than him.
+
+NA: She points to the groom.
+
+NO: That's reassuring.
+
+#scene3B-2end
+;Depois das escolhas
+@char HI.neutral
+@char BA.neutral
+NA: The tension gradually eases.
+
+NA: Hipólita still seems shaken, while the groom is less inclined to argue.
+
+NA: And then, before you know it, Barbara lightly touches your arm.
+
+BA: Come.
+@char {PLAYER}2.surprise
+PLAYER: What?
+
+BA: I need to find out if you're naturally bold…
+
+BA: Or if you just have terrible survival instincts.
+
+NA: And before Hipólita protests.
+
+BA: I'll give </her/him> back.
+@hide HI
+@char BA pos:{rightmid}
+NA: And then she leads you down the hallway.
+@char {PLAYER}2.neutral
+PLAYER: That was a little cruel.
+@char BA.surprise
+NA: Bárbara looks at you, she seems surprised but amused.
+
+BA: Cruel?
+@char BA.smile
+BA: My dear-
+
+NA: Her smile widens.
+
+BA: That was diplomacy.
+
+BA: Cruelty requires more creativity.
+
+NA: You just watch her.
+
+NA: Because, honestly, she seems to know exactly what she's doing.
+
+NA: And she seems far too pleased with herself.
+
+BA: I know this situation.
+
+NA: She adjusts her gloves.
+
+BA: They fight.
+
+BA: Then they make up.
+
+NA: You smell something almost floral, but it fades.
+@char BA.neutral
+BA: Tell me…
+
+NA: She looks at you sideways, as if she's already decided something.
+
+BA: You are a bold person.
+
+PLAYER: Me?
+
+BA: Entering a house in the middle of an argument and still staying.
+
+PLAYER: I didn't enter a house in the middle of an argument, the argument started because I entered the house.
+@char BA.smile
+NA: She looks at you with a smile and for a second you heard what you said.
+
+BA: I like that.
+
+NA: She tilts her head slightly.
+
+BA: But tell me…
+
+NA: Her gaze lingers a second longer.
+
+BA: Are you always so curious… or just about me?
+
+PLAYER: I think a little of both…
+
+PLAYER: Now you tell me…..
+
+@choice "Ask who Barbara really is and what she's doing there" goto:.scene4B-1
+
+@choice "Confront her about the way she spoke to Hipólita" goto:.scene4B-2
+
+@stop
+
+
+#scene4B-1
+@set afetoBarbara+=1
+PLAYER: Who are you… really?
+
+PLAYER: And what exactly are you doing here?
+@char BA.thinking
+NA: Bárbara slowly raises an eyebrow.
+
+NA: Clearly surprised.
+@char BA.smile
+BA: My God.
+
+NA: A small smile.
+
+BA: You're direct.
+
+PLAYER: You came in here as if you were in charge.
+
+BA: Maybe I just have practice entering where I'm needed.
+
+@char BA.neutral
+NA: She leans lightly against the doorframe.
+
+NA: Relaxed yet elegant, as if the space naturally organizes itself around her.
+
+BA: My name is Bárbara Heliodora.
+
+NA: A brief pause.
+
+BA: I've known Hipólita for some time.
+
+BA: And someone in this village needs to stop her from turning men to ashes when she loses her temper.
+
+PLAYER: So you two are friends?
+@char BA.smile
+NA: Her smile changes, becoming softer.
+
+BA: Sometimes.
+
+BA: Other times, we just survive each other.
+
+NA: She distractedly twirls a ring on her finger, as if by habit.
+
+PLAYER: And you?
+
+PLAYER: What do you do?
+@char BA.neutral
+NA: Something changes, very quickly.
+
+BA: Oh.
+@char BA.smile
+NA: She has a sharp gaze and a practiced smile.
+
+BA: I talk too much, give unsolicited opinions.
+
+BA: And occasionally I stop men from humiliating themselves in public.
+
+PLAYER: That didn't answer anything.
+
+BA: I know.
+
+NA: Her smile widens.
+
+BA: But I like to leave a little mystery.
+@char BA.neutral
+NA: She tilts her head slightly, watching you.
+
+
+BA: And you seem to enjoy solving things.
+
+PLAYER: Maybe.
+
+NA: She sighs and bites her lower lip, then turns away.
+
+NA: And you return to the room.
+
+
+@goto .scene4B-2end
+
+#scene4B-2
+@char BA.smile
+@char {PLAYER}2.determined
+PLAYER: You were harsh with her.
+
+NA: You speak with clear irritation.
+
+NA: Bárbara looks at you, without immediately responding.
+
+PLAYER: Hipólita  was clearly already upset.
+
+PLAYER: It seemed… unnecessary.
+@char BA.neutral
+NA: Her small smile disappears.
+
+BA: Hm.
+
+BA: So you're the type to rush to the defense.
+
+PLAYER: That's not it.
+@char BA.determined
+BA: No?
+
+NA: She crosses her arms.
+@char BA.neutral
+BA: Because you seemed very worried about Hipólita.
+
+NA: The tone is still light.
+
+PLAYER: I just thought it was unfair.
+
+NA: A brief silence.
+
+BA: Curious.
+
+BA: She survived much worse than my words.
+
+NA: A small sigh.
+
+BA: But I appreciate your concern on her behalf.
+@char BA.smile
+NA: Her smile returns, but she seems distant.
+
+
+BA: Don't worry.
+
+BA: I'm sure Hipólita will appreciate such a dedicated guardian.
+@char {PLAYER}2.neutral
+PLAYER: That's not what I meant…
+
+BA: Naturally.
+
+NA: She adjusts her gloves.
+
+
+NA: And then simply walks away.
+
+PLAYER: Bárbara…
+
+BA: We'll talk later.
+@hide BA
+NA: Without looking back.
+
+NA: And for some reason you feel you did something wrong.
+
+NA: Even without understanding exactly what.
+
+NA: Then you return alone to the room.
+#scene4B-2end
+;Depois das escolhas
+
+NA: The tension of the argument is gone, Hipólita's fiancé is speaking more quietly, and she seems exhausted.
+
+NA: Bárbara stops near the door, ready to leave.
+@char BA.smile pos:{rightmid}
+BA: Hipólita.
+
+NA: A small smirk.
+
+BA: Try not to completely scare your fiancé.
+
+BA: It's still difficult to find even minimally tolerable men in this village.
+@char HI.determined pos:{mid}
+HI: Bárbara.
+
+NA: Her tone is a warning.
+
+BA: What?
+
+NA: She smiles far too innocent.
+
+BA: I'm complimenting you.
+@char HI.neutral
+NA: Hipólita sighs, defeated.
+
+HI: Go away.
+
+HI: Before I regret liking you.
+
+BA: Too late.
+
+NA: And then, for the last time, her eyes meet yours.
+
+NA: A second too long, as if she wanted to say something.
+
+BA: See you soon.
+
+NA: Her tone is light, but it seems intentional.
+@hide BA
+@char HI pos:{rightmid}
+NA: Then she leaves
+
+NA: The silence she leaves behind seems longer than it should be.
+
+HI: She's impossible.
+
+NA: Hipólita rubs her forehead, clearly tired.
+
+NO: At least someone in this house has the courage to speak certain truths.
+
+HI: Don't encourage </her/him>.
+
+NA: You try to defuse the situation by changing the subject.
+
+NA: Luckily, the argument loses momentum. You thank Hipólita but leave as quickly as you can.
+@goSub .BlackScreen
+@stopBgm fade:1 !wait
+@bgm respite
+@back bg_innNight
+NA: When you finally return to the inn, the sky is already darkening.
+
+NA: You smell food and firewood.
+@char FR.neutral pos:{rightmid}
+NA: Upon entering, you see Francisca sitting near the window mending fabrics, as if she had been there for hours.
+
+FR: Ah.
+
+NA: She looks up.
+
+FR: You survived.
+
+PLAYER: Barely.
+
+FR: What happened?
+
+PLAYER: Let's just say a big fight… a huge fight.
+
+FR: Excellent.
+
+NA: She puts her sewing aside.
+
+FR: Sit.
+
+FR: Now I want details.
+
+NA: You sit down, collapsing into the chair, you hadn't realized until that moment how tired you were from walking all day.
+
+NA: And inevitably you end up telling her.
+
+NA: From the discussion at the house, about Hipólita's fiancé and the woman who entered as if she commanded the entire place.
+
+PLAYER: And then the girl I was talking about appeared.
+
+PLAYER: In this case, "The Woman", sharp gaze, elegant... very elegant...
+
+PLAYER: She basically ended the discussion without raising her voice.
+
+NA: Francisca stops, slowly blinking at you.
+@char FR.thinking
+FR: …The woman?
+
+PLAYER: Bárbara.
+
+NA: Francisca remains motionless.
+@char FR.smile
+NA: Slowly a smile begins to appear.
+
+FR: Ah.
+
+FR: So you met Bárbara.
+
+
+PLAYER: You know her?
+
+FR: The whole village knows her.
+
+FR: It's hard to ignore Lady Bárbara.
+
+NA: She watches you too much.
+
+FR: And you clearly haven't.
+
+PLAYER: What?
+
+FR: Nothing.
+
+NA: A dangerously amused smile.
+
+FR: I only noticed the way you said "very elegant."
+
+PLAYER: I didn't say it weird.
+
+FR: Yes, you did.
+
+FR: With the look of someone who's already starting to have bad ideas.
+@char {PLAYER}2.embarrass
+PLAYER: For God's sake, Francisca!
+
+NA: You cross your arms looking at her.
+
+FR: Oh, don't give me that look.
+
+FR: She's beautiful.
+
+FR: I would have poor judgement too.
+
+PLAYER: Huh?
+
+FR: Nothing.
+
+FR: I just found it curious.
+
+FR: Because you spent the day describing her as if you had a divine vision.
+
+PLAYER: It wasn't like that.
+
+FR: It was a little.
+
+FR: "Very elegant."
+
+FR: "Very beautiful."
+
+FR: "Very confident."
+
+FR: You almost sighed mid sentence.
+
+PLAYER: FRANCISCA.
+
+FR: What?
+
+NA: Her smile just keeps growing.
+
+FR: I'm just observing.
+@char FR.thinking
+FR: But I admit…
+
+NA: She tilts her head, seemingly thinking about something.
+
+FR: You have interesting taste.
+@char {PLAYER}2.thinking
+PLAYER: What does that mean?
+@char FR.neutral
+NA: She doesn't answer, you notice something strange in her eyes.
+
+FR: Nothing.
+
+FR: I just think Vila Rica might surprise you.
+
+PLAYER: That was kind of threatening.
+
+FR: It was a warning.
+
+NA: Before you can insist—
+
+@sfx knock
+
+
+NA: A firm knock on the door.
+@char FR.thinking
+FR: At this hour?
+@char {PLAYER}2.thinking
+NA: Francisca finds it strange, and so do you.
+@char FR.surprise
+@char {PLAYER}2.surprise
+NA: When the door opens, you are both surprised.
+@char AL.neutral pos:{mid}
+NA: Alvarenga is standing there.
+
+
+NA: Well-dressed, hair neatly styled, and that impeccable posture.
+
+NA: Too calm for someone showing up unannounced.
+
+AL: Good evening.
+
+FR: Doctor?
+
+AL: I apologize for the late hour.
+
+NA: His gaze meets yours.
+
+AL: I just wanted to make sure your first night in Vila Rica went well.
+
+PLAYER: You came here… for this?
+
+AL: That seems like the least I could do.
+
+AL: The situation I found you in wasn't exactly ordinary.
+@char {PLAYER}2.embarrass
+NA: You immediately feel embarrassed.
+
+PLAYER: About that…
+
+PLAYER: I still need to pay you for the clothes.
+@char AL.smile
+NA: A small, discreet smile appears on his face.
+
+AL: There's no need.
+
+AL: I believe I understand what happened.
+@char {PLAYER}2.embarrass
+PLAYER: So…
+
+NA: You look at your clothes and don't think before speaking.
+
+PLAYER: Do you want them back?
+
+NA: A beat, as Alvarenga clearly considers the question.
+@char AL.embarrass
+NA: And then he becomes slightly embarrassed, for the first time.
+
+AL: Ah.
+
+AL: Not now.
+
+AL: I believe it would be…
+
+NA: A brief pause.
+
+AL: A tad strange to see you walking around the village naked.
+
+NA: Silence falls over all of you after those words.
+@char {PLAYER}2.embarrass
+PLAYER: …
+
+FR: …
+
+NA: You feel your face heat up.
+
+PLAYER: Oh my God.
+
+AL: Forgive me.
+
+NA: For the first time he seems slightly embarrassed.
+
+AL: I just meant you can keep them.
+
+PLAYER: Right….
+
+PLAYER: Thank you.
+
+AL: You're welcome.
+
+NA: He give a small bow.
+
+AL: And if you need anything, don't hesitate.
+
+NA: His gaze lingers for a moment longer.
+
+AL: Good night.
+@hide AL
+NA: And then he leaves.
+
+NA: The silence after he leaves lasts exactly three seconds.
+
+FR: But what was that talk about walking around naked in front of the doctor?
+
+PLAYER: THAT'S NOT IT.
+
+NA: You shout almost too fast.
+
+FR: No?
+
+NA: She crosses her arms trying to look serious and failing miserably.
+
+
+FR: Because from here I heard something very similar to:
+
+NA: She clears her throat theatrically.
+
+FR: "I believe it would be a tad strange to see you walking around the village naked."
+
+PLAYER: FRANCISCA.
+
+NA: You feel your cheeks getting even hotter.
+
+FR: "You can keep my clothes."
+
+PLAYER: STOP.
+@char FR.surprise
+FR: Oh.
+
+NA: Hand on chest, feigning sheer drama.
+
+FR: Forgive me.
+
+FR: I didn't know we were already so intimate.
+
+PLAYER: We're not!
+@char FR.smile
+FR: Yet.
+
+NA: Her smile widens.
+
+FR: But I must admit you have a rare skill.
+
+
+FR: Are you trying to seduce half of Vila Rica?
+@char {PLAYER}2.surprise
+PLAYER: Excuse me?
+
+FR: You've barely arrived in the village and you're already collecting troubled beautiful people.
+@char {PLAYER}2.neutral
+PLAYER: You're exaggerating.
+
+FR: Am I?
+
+FR: First, an elegant lady who barely entered the room and already left you looking like you had seen a miracle.
+
+FR: Then a very distinguished doctor came to visit you personally at the inn in the evening.
+
+
+
+FR: Out of sheer "kindness."
+
+NA: The invisible quotation marks are audible.
+
+PLAYER: He was just being polite!
+
+FR: Hm.
+
+NA: She looks at you as if she clearly doesn't believe it.
+
+FR: Busy men don't usually visit strangers at nightfall out of politeness.
+
+FR: Even more so when they bring clothes and worries.
+
+PLAYER: You make everything sound weird.
+
+FR: Because it is weird.
+
+NA: She laughs softly.
+
+FR: But I'll admit.
+
+FR: You have refined taste.
+
+PLAYER: You said that before.
+
+FR: And I say it again.
+
+FR: Because, if you're going to get yourself into disgrace, at least you chose beautiful people.
+
+PLAYER: Woman, please…
+
+FR: What?
+
+NA: A dangerously amused smile.
+
+PLAYER: You're unbearable.
+
+FR: And you blushed.
+
+FR: Which amuses me deeply.
+@char FR.neutral
+NA: And then you notice again that knowing look.
+
+FR: What worries me is that sometimes in this village…
+
+
+FR: Some companies already come very well accompanied.
+
+PLAYER: What does that mean?
+
+FR: Nothing.
+
+FR: I'm just saying don't get too attached too quickly.
+
+PLAYER: That's specific.
+@char FR.smile
+FR: It's advice.
+
+NA: She picks up her sewing again, but is clearly smiling to herself.
+
+FR: Although if you continue at this pace… perhaps in a few days you'll have half the village fighting for your attention.
+@char {PLAYER}2.thinking
+PLAYER: I'm not going to stand here being falsely accused.
+NA: You speak dramatically.
+PLAYER: Good night.
+
+FR: <i>May the saints help us when you start to understand certain things.</i>
+@char {PLAYER}2.surprise
+PLAYER: What?
+
+FR: Good night.
+
+FR: Go to sleep before I have to explain the world to you.
+@hideChars
+NA: You turn and climb the stairs toward your room.
+
+NA: But annoyingly, you think about two things.
+
+NA: Barbara's sharp smile and how Alvarenga became unexpectedly awkward.
+
+NA: You get lost in thought until you fall asleep.
+@goSub .BlackScreen
+@back bg_innDay
+NA: You hear some noises and feel the light in your eyes, then you wake up.
+
+NA: And for the first time you're not immediately startled.
+
+NA: You stir in bed, feeling the slightly rough fabric against your skin, while slowly blinking and looking at the wooden ceiling.
+
+NA: You feel the slight morning chill and the exciting smell of bread and firewood.
+
+NA: The wooden ceiling.
+
+PLAYER: (This is becoming dangerously normal.)
+
+PLAYER: (Because if I can't get back, I'll have to stay here…)
+
+NA: You sit up in bed, stretching your arms, a little surprised by the thoughts running through your mind.
+
+NA: You get dressed and ready, improvising a shower and your morning routine.
+
+NA: Still resentful of the cold water.
+
+NA: When you go downstairs, Francisca is already awake, of course she is.
+@char FR.neutral !wait
+@char {PLAYER}2.neutral
+NA: She's spreading herbs on the table, some hanging and others drying on a cloth.
+
+FR: Ah.
+FR: The creature with complicated tastes has awakened.
+
+PLAYER: Good morning to you too.
+
+FR: Did you sleep well?
+
+FR: Or did you spend the night thinking about attractive people?
+
+PLAYER: Francisca, we're starting the day like this?
+FR: What?
+
+FR: I have a scientific curiosity.
+
+NA: You roll your eyes.
+
+PLAYER: Is there anything I can help with today?
+
+NA: Francisca looks at you.
+
+FR: Hm.
+
+FR: Yes, there is.
+
+NA: She points to the table.
+
+FR: We need to separate and tie these herbs.
+
+FR: Some are for tea.
+
+FR: Other for aches.
+
+FR: Others for people who overdo it on the wine and then act surprised.
+
+PLAYER: You know all this?
+
+FR: Someone in this house needs to.
+
+NA: She hands you small branches.
+
+FR: Tie them like this.
+
+NA: She holds the branches, tying them so you can see how it's done.
+
+FR: Not like you're trying to strangle the plant.
+
+PLAYER: You pick on me too much.
+
+FR: Because you get distracted easily.
+
+FR: Even more so after yesterday.
+
+NA: Work continues, slow and calm.
+
+NA: You have some difficulty tying the herbs, but you manage with enough calm.
+
+NA: While Francisca ties them masterfully.
+
+NA: The smell of herbs fills the room.
+
+PLAYER: Is Vila Rica always so… intense?
+
+FR: Depends.
+
+FR: There are days when we only have debt, gossip, and drunk men.
+
+FR: And other days someone decides to start a revolution.
+
+PLAYER: You're talking about Tiradentes.
+
+FR: Who else?
+@char FR.smile
+FR: The man wakes up wanting to change the world before lunch.
+
+
+NA: She gives a small smile.
+
+FR: But I like him.
+
+FR: He's foolish.
+
+FR: But well-intentioned.
+
+PLAYER: Do you believe in him?
+@char FR.neutral
+FR: I believe he does.
+
+FR: Sometimes that's enough.
+
+FR: Sometimes that kills people.
+
+NA: The tone becomes more serious for a moment.
+
+PLAYER: And Alvarenga?
+
+FR: Hm.
+
+NA: Her smile changes, it seems more amused.
+
+FR: Elegant, polite, important…
+
+FR: …Very intelligent and very busy.
+
+FR: He looks like a man who knows exactly when to speak and, worse, knows when to remain silent.
+
+PLAYER: That sounds like a compliment.
+
+FR: Because it is.
+
+FR: But it also usually means trouble.
+
+PLAYER: And Bárbara?
+
+NA: Francisca stops just for a second.
+
+FR: Oh.
+
+FR: We're back to this subject.
+
+PLAYER: I just asked.
+
+@char FR.smile
+FR: Of course.
+
+FR: Naturally.
+
+NA: Her smile is terrifying.
+
+FR: Bárbara is…
+
+NA: She thinks for a moment, choosing her words.
+@char FR.neutral
+FR: Complicated.
+
+FR: Elegant, very clever…
+
+FR: And dangerously aware of it.
+
+PLAYER: Dangerous?
+
+FR: Not with a knife.
+
+FR: Although I wouldn't bet against her in an argument.
+
+NA: Francisca continues separating the herbs, but she's clearly having fun.
+
+FR: Let's just say there are people in this village who can do certain things…
+
+FR: Or go certain places… say certain words…
+
+FR: Without receiving the same judgment that other people would receive.
+
+PLAYER: Because she's important?
+
+FR: In her own way.
+
+FR: She has prestige, a good reputation.
+
+FR: People like her or pretend to like her.
+
+FR: And she knows exactly how to steer a conversation in her favor.
+
+PLAYER: You seem suspicious of her.
+
+FR: No.
+
+FR: I just think Lady Bárbara usually gets what she wants.
+
+
+NA: She pauses briefly.
+
+FR: And sometimes that includes people.
+
+PLAYER: What do you mean?
+
+FR: Well.
+
+FR: Company, conversations, visits.
+
+FR: Some would say she appreciates interesting people.
+
+NA: Her gaze slowly lingers on you.
+
+FR: And you have an impressive talent for attracting attention without realizing it.
+@char {PLAYER}2.thinking
+PLAYER: First of all, it's a natural charm, and that was specific.
+
+FR: It was an observation.
+
+PLAYER: Are you implying something?
+
+FR: Me?
+
+NA: She brings her hand to her chest, the gesture is pure drama.
+
+FR: Never.
+
+FR: I'm just saying don't be charmed too quickly.
+
+
+FR: Vila Rica likes surprises.
+@char {PLAYER}2.neutral
+NA: Time passes and you finish separating and tying the herbs.
+
+
+NA: And, shortly after, you eat together.
+
+NA: It's simple, warm, and comfortable.
+
+NA: For the first time, it almost seems routine.
+
+NA: And that scares you a little, because your life was much busier, but this simplicity seems to comfort you.
+
+NA: When the sun begins to set, you finally stand up.
+
+
+PLAYER: I think I'll go out for a bit, you know, a stroll around the village.
+@char FR.thinking
+NA: Francisca slowly raises an eyebrow.
+
+FR: Oh?
+
+FR: "A stroll"?
+
+PLAYER: A stroll.
+
+FR: Hm.
+
+FR: And does this stroll involve an elegant dress code?
+
+PLAYER: Please, Francisca.
+
+FR: Just asking.
+
+FR: For organizational purposes.
+
+FR: In case you need to reserve a room for your broken heart.
+
+PLAYER: You're terrible.
+
+FR: And you're clearly going to see someone.
+
+PLAYER: I'm not going to see anyone… but if I meet someone it wouldn't be a problem.
+
+FR: At least comb your hair.
+
+NA: You roll your eyes at her comment and get up.
+
+PLAYER: Bye.
+
+FR: Good luck!
+
+FR: And don't come back married without telling me first!
+@hideChars
+NA: Then you leave.
+@stopBgm fade:2 !wait
+NA: Completely ignoring the fact that Francisca almost laughs when the door closes.
+@bgm wander
+@back bg_marketNight
+
+NA: Night falls over Vila Rica.
+
+NA: And unlike what you imagined, the village doesn't go to bed early.
+
+
+NA: Lanterns illuminate the cobblestone streets.
+
+NA: Stalls are still open, people are negotiating, laughter and the smell of warm bread, wine and smoke.
+
+NA: The night market is still alive.
+
+NA: Some people walk together, couples talk quietly.
+
+NA: Men discuss politics as if the world depended on it.
+
+NA: And then you see that property again.
+
+NA: The same one where soldiers used to talk to women during the day.
+
+NA: Only now it's even busier.
+
+NA: Laughter escapes through open windows, distant music, men coming and going.
+
+NA: Some women leaning on the balcony wave to passersby.
+
+WOMAN: My.
+
+WOMAN: Don't you want to come in, sweetie?
+@char {PLAYER}2.surprise pos:{mid}
+PLAYER: Oh no, thank you.
+
+OTHERWOMAN: Too bad.
+
+OTHERWOMAN: So cute and so shy.
+@char {PLAYER}2.thinking
+PLAYER: (Maybe it's a tavern?)
+
+PLAYER: (Or some kind of inn?)
+
+NA: One of the women laughs, as if she'd heard your thoughts.
+
+PLAYER: What friendly people.
+
+NA: You continue walking, completely oblivious.
+
+NA: Until you turn onto a narrower street.
+
+NA: A discreet alley, too quiet compared to the rest of the village.
+
+NA: And then you see her.
+
+NA: Bárbara alone under the dim light of a lamp.
+@char {PLAYER}2 pos:{leftmid}
+@char BA.neutral pos:{rightmid}
+NA: Her hair partially loose and without gloves.
+
+NA: And for the first time she looks less flawless.
+
+NA: A delicate necklace is broken in her hands.
+
+NA: The small beads scattered partially across the fabric of her dress.
+
+NA: She sighs softly, clearly frustrated.
+
+PLAYER: Bárbara?
+@char BA.surprise
+NA: She looks up quickly.
+
+NA: And for a moment seems genuinely surprised.
+
+BA: You?
+
+NA: Her eyes drift down to you.
+
+NA: Then around, as if she didn't expect company.
+@char BA.neutral
+BA: My.
+
+BA: Vila Rica is smaller than I thought.
+
+PLAYER: Are you alright?
+
+NA: She looks at the necklace.
+
+BA: Hm.
+
+BA: I'll survive.
+
+NA: Her tone is still light but different, she seems genuinely tired.
+
+BA: Apparently I'm less graceful than I thought.
+
+NA: She raises the broken necklace.
+
+BA: And I lost a small war against jewels.
+
+PLAYER: If you want, I can help you.
+
+NA: A beat.
+
+
+NA: Bárbara studies you for a few seconds, as if measuring something.
+
+BA: How curious.
+
+BA: Are you always like this?
+
+PLAYER: Like what?
+
+BA: Helpful?
+@char BA.smile
+BA: Or just with me?
+
+NA: The corner of her mouth lifts, but there's something strange there.
+
+NA: Less teasing and more sincere than before.
+
+PLAYER: You seem different.
+@char BA.surprise
+NA: The comment catches her off guard.
+
+BA: Different?
+@char BA.neutral
+PLAYER: At the warehouse and at Hipólita's house you seemed more... confident.
+
+NA: A brief silence.
+@char BA.smile
+NA: And then Barbara laughs softly, almost humorlessly.
+
+BA: Ah.
+
+BA: So you've discovered a terrible secret.
+
+BA: Sometimes I get tired too.
+
+NA: She looks at the necklace again.
+
+BA: I'm not as elegant as I seem.
+
+BA: I just practice a lot.
+@char BA.neutral
+NA: The alley is quieter than the rest of the village.
+
+NA: From afar you hear laughter, music, and distant sounds of horses.
+
+NA: But here it's just you and her.
+
+NA: Bárbara finally manages to put part of the necklace back together.
+
+
+BA: How embarrassing.
+
+BA: To be found like this.
+
+PLAYER: Like what?
+
+BA: Disheveled.
+
+NA: She looks at the broken thread.
+
+BA: Failing over something so small.
+
+PLAYER: You don't look like someone who fails.
+@char BA.smile
+NA: Bárbara smiles.
+
+BA: Oh.
+
+BA: You have a very generous view of me.
+
+NA: She leans her shoulder against the wall for a moment.
+
+BA: People like to imagine that I am…
+
+BA: Strong.
+
+BA: Always correct and elegant.
+
+BA: Always in control.
+@char BA.neutral
+NA: She sighs.
+
+BA: It's tiring sometimes.
+
+PLAYER: You don't need to seem strong all the time.
+
+NA: That makes her really look at you.
+
+NA: Like nobody's said something like that in a long time.
+
+BA: What a dangerous thing to say.
+
+PLAYER: Why?
+
+BA: Because it might make someone believe it.
+
+
+NA: Her gaze drops for a moment to her own hands.
+
+BA: And believing is usually… complicated.
+
+PLAYER: Complicated how?
+
+NA: Bárbara seems to hesitate.
+
+NA: For the first time since you met her, she seems speechless.
+
+BA: I…
+
+NA: She pauses, looking at something for a moment.
+
+BA: There are things about me that…
+
+NA: Silence.
+
+NA: Her gaze lingers for a moment, like someone weighing the consequences.
+
+BA: It doesn't matter.
+
+PLAYER: You can say it.
+@char BA.determined
+BA: No.
+@char {PLAYER}2.surprise
+NA: Her tone is too fast and too quick, it even surprises you.
+@char BA.neutral
+NA: She immediately softens.
+
+BA: Forgive me.
+
+BA: Just…
+@char BA.smile
+NA: A soft, weak laugh.
+
+BA: You have a terrible habit of making me want honesty.
+
+PLAYER: Is that bad?
+
+NA: She stares at you.
+
+BA: Perhaps.
+
+BA: Because honesty…
+
+NA: A short pause.
+
+
+BA: Tends to scare people.
+
+PLAYER: You think it would scare me?
+
+NA: Bárbara almost answers, almost.
+@char BA.neutral
+BA: If you knew certain things…
+
+NA: She stops and closes her eyes for a moment.
+
+BA: No.
+
+BA: Forget it.
+@char BA.smile
+NA: Her smile returns.
+
+NA: But it seems forced now.
+
+BA: See?
+
+BA: I'm already ruining the charm of the encounter.
+
+PLAYER: You're not.
+@char BA.neutral
+NA: That catches her off guard.
+
+BA: I'm not?
+
+PLAYER: You seem more…real.
+
+NA: The silence lasts a second longer.
+
+@char BA.smile
+NA: And then she looks at you and smiles slightly.
+
+BA: Careful.
+
+BA: If you continue like this, you risk me starting to like you.
+
+NA: She clearly tries to turn the moment into a tease.
+
+NA: But it kind of fails because you realize that's what she meant.
+
+
+@choice "Now can I help you fix the necklace?" goto:.scene5B-1
+
+@choice "Sorry, I didn't mean to interrupt your moment" goto:.scene5B-2
+
+@stop
+
+
+
+#scene5B-1
+@set afetoBarbara+=1
+@char BA.neutral
+NA: Bárbara blinks.
+
+NA: As if the question had caught her off guard.
+
+BA: Help?
+
+PLAYER: You seem frustrated, and you've already tried more than once in front of me.
+
+PLAYER: And... well.
+
+PLAYER: You don't have to do everything alone.
+
+NA: Silence lasts a while.
+
+NA: And something about her relaxes.
+
+BA: How strange.
+
+PLAYER: What?
+
+BA: You really care.
+
+NA: The tone isn't provocative.
+
+PLAYER: Is that so unexpected?
+
+BA: More than you imagine.
+
+NA: She hesitates and then carefully hands you one end of the necklace.
+
+BA: Very well.
+
+BA: But if you make it worse, I will solemnly blame you.
+
+NA: You two move closer, closer than before.
+
+
+NA: Your fingers almost touch a few times as you try to rearrange the small pieces.
+
+NA: And for the first time, she seems calm.
+
+NA: Without the mask or the theatrics she always puts on.
+
+BA: Thank you.
+
+NA: She speaks softly but sincerely.
+
+BA: You didn't need to stop.
+
+PLAYER: I wanted to.
+@char BA.smile
+NA: That makes her smile. It's small, beautiful, and different from the others, and her eyes seem to sparkle.
+
+@goto .scene5B-2end
+#scene5B-2
+@char BA.neutral
+NA: Bárbara is quiet for a second.
+@char BA.smile
+NA: And then gives a small, overly polite smile.
+
+BA: Oh.
+
+BA: You didn't interrupt.
+
+NA: She picks up the broken necklace.
+
+BA: I'm used to solving my little tragedies on my own.
+
+PLAYER: Still…
+
+BA: Don't worry.
+
+NA: She shrugs slightly, nonchalant.
+
+BA: Such is life.
+
+NA: But there's disappointment there.
+
+NA: Even if she hides it well.
+
+BA: Still... it was kind of you to worry.
+
+#scene5B-2end
+;Depois das escolhas
+
+NA: The night breeze passes by you and gently ruffles your hair.
+
+NA: Bárbara adjusts the necklace in her hands.
+
+BA: Either way…
+
+BA: It was good to see you again.
+
+NA: The way she speaks seems more sincere than it should be.
+
+PLAYER: It was good to see you too.
+@char BA.neutral
+BA: Can I ask you something?
+
+NA: She crosses her arms, looking a little nervous.
+
+PLAYER: Of course.
+
+BA: Don't tell anyone about tonight.
+
+PLAYER: Why?
+
+NA: She hesitates, then answers.
+
+BA: Because I prefer that certain versions of me…
+
+NA: Her gaze lowers.
+
+BA: Don't circulate around Vila Rica.
+@char BA.smile
+BA: Besides…
+
+NA: Her tone becomes a little lighter.
+
+BA: I like the idea of ​​us having a little secret.
+
+PLAYER: Secret?
+
+BA: Don't make me sound sentimental.
+
+NA: She takes a step back.
+
+BA: Goodnight.
+
+;---
+
+NA: She says something, more quietly.
+
+NA: Almost as if it slipped out unintentionally.
+
+BA: Be well.
+@hide BA
+NA: You watch her leave.
+
+NA: Elegant as always.
+
+NA: But now knowing that perhaps there's something more behind that impossible woman.
+@char {PLAYER}2.neutral pos:{mid}
+NA: You start walking back.
+
+NA: The fair is emptier now.
+
+NA: Fewer voices.
+
+NA: More lights off.
+
+NA: The night chill begins to take over the streets.
+
+PLAYER: (She was acting strange.)
+
+PLAYER: (As if she were about to say something and…)
+
+NA: You stop.
+
+PLAYER: (I'm not going to think about it.)
+
+NA: From afar you hear a noise and then firm, calmer footsteps.
+
+PLAYER: Unless it's two guys on a motorcycle…
+
+NA: Then you hear a familiar voice and calm down.
+@char {PLAYER}2 pos:{leftmid}
+@char AL.neutral pos:{rightmid}
+AL: Well.
+
+AL: If it isn't our mysterious visitor from another time.
+
+NA: You freeze for a second.
+
+PLAYER: (Oh, maybe two guys on a motorcycle would have been better…)
+
+NA: Alvarenga approaches, well-dressed even at night.
+
+NA: With that air of a man who seems too well put together to exist.
+
+AL: It's late to be walking alone.
+
+AL: Or maybe too early.
+
+PLAYER: I was just walking.
+
+NA: His gaze discreetly drifts to the street you came from and then back to you.
+
+NA: A brief pause as he seems to connect some dots.
+
+AL: I understand.
+
+PLAYER: Understand what?
+
+AL: Nothing particularly scandalous.
+
+NA: The tone is calm and polite, which makes it all the worse.
+
+PLAYER: I was literally just walking.
+
+AL: Naturally.
+
+NA: He seems profoundly unconvinced.
+
+AL: Vila Rica has…certain nightlife establishments.
+
+PLAYER: Establishments?
+
+AL: Where gentlemen usually seek entertainment.
+
+NA: A beat.
+
+PLAYER: Oh... You think I was…
+
+NA: Do you remember the women on the balcony, the laughter…
+
+PLAYER: (Oh.)
+@char {PLAYER}2.embarrass
+PLAYER: (OH.)
+
+PLAYER: NO.
+
+PLAYER: I wasn't…
+
+AL: There's no need to explain yourself.
+
+NA: The corner of his mouth threatens to turn up.
+
+AL: I won't judge your habits.
+
+PLAYER: Those aren't my habits, man!
+
+AL: Still…
+
+NA: He glances discreetly at you.
+
+AL: I'm glad to know you're… adapting to the village.
+
+PLAYER: I wasn't in the red light…
+@char AL.surprise
+AL: Red light?
+
+PLAYER: Nevermind.
+@char AL.happy
+NA: He laughs softly for the first time, discreetly.
+@char AL.neutral
+AL: Forgive me.
+
+AL: I couldn't resist.
+@char {PLAYER}2.neutral
+NA: You keep walking.
+
+NA: The silence is strangely comfortable, even with your dignity completely shattered.
+
+AL: But are you truly alright?
+
+PLAYER: I am.
+
+PLAYER: I just went for a walk.
+
+NA: He nods and seems to believe you, or decides not to insist.
+
+AL: I'm pleased.
+
+NA: A short pause
+
+AL: If you need anything, keep looking for me.
+
+PLAYER: Thank you.
+
+NA: Soon the inn appears in the distance.
+
+NA: You almost sigh in relief.
+
+PLAYER: (Great.)
+
+PLAYER: (Francisca must already be asleep.)
+
+PLAYER: (I won't need to explain anything at all.)
+
+AL: Good night.
+
+PLAYER: Good night.
+@hide AL
+NA: Alvarenga bids farewell with a small, elegant gesture and turns to leave.
+
+PLAYER: (Thank goodness.)
+
+NA: Because you definitely wouldn't survive explaining this conversation to Francisca.
+@back bg_innNight
+NA: You enter the inn slowly, trying not to make a sound.
+@stopBgm fade:2 !wait
+PLAYER: (Thank God.)
+@bgm respite
+NA: You open the door slowly and step carefully.
+
+NA: Almost silently, you go up to your room.
+
+NA: Still thinking about her.
+
+NA: And about that strange feeling that Bárbara tried to tell you something.
+
+NA: But couldn't.
+
+NA: And then you change but you're still not sleepy.
+
+NA: You spend some time at the window watching the Village from afar.
+
+PLAYER: This place seems much calmer…and more dangerous.
+
+NA: You don't know when, but at some point you lay down just to rest your back and ended up falling asleep.
+@goSub .BlackScreen
+;CAP 4 - Noite dos Inconfidentes
+@back bg_innDay
+NA: You were tossing and turning in bed when you felt a hand on your shoulder.
+@char {PLAYER}2.surprise pos:{leftmid} !wait
+@char FR.neutral pos:{rightmid}
+FR: Wake up.
+
+NA: You open your eyes abruptly.
+
+FR: If you keep making that face, I'll swear you died in your sleep.
+
+PLAYER: AAH—
+
+NA: Francisca is there in the room, standing in front of you.
+
+NA: As if it were the most normal thing in the world.
+
+PLAYER: What the devil are you doing here?!
+
+FR: Nothing with the devil.
+
+FR: I came upstairs by myself.
+
+NA: She crosses her arms, clearly proud of her own joke.
+
+PLAYER: Francisca!
+
+FR: What?
+
+FR: It wouldn't hurt you to wake up early.
+
+FR: After breakfast, you're coming with me to the market.
+
+PLAYER: To the market?
+
+FR: We need to buy groceries.
+
+FR: And someone needs to carry things.
+@char {PLAYER}2.neutral
+PLAYER: Oh, so I'm the handyman.
+
+FR: Exactly.
+
+FR: See how quickly you learn.
+@char {PLAYER}2.sad
+NA: You groan dramatically.
+
+FR: Get up.
+
+FR: Before I drag you out of bed.
+@hide FR
+NA: She leaves and you toss and turn in bed a little more.
+@char {PLAYER}2.neutral pos:{mid}
+NA: Shortly after, you get ready.
+
+NA: It's still strange waking up here and realizing that it's starting to feel routine.
+
+NA: You wash yourself with cold water, but at least your face and body are clean and your hair is minimally presentable.
+
+PLAYER: I miss shampoo, conditioner... hair cream...
+
+NA: And then you guys have breakfast, or something like that.
+
+NA: You swallow the bread, still warm, and taste the pão-de-queijo and then the cornbread.
+
+PLAYER: (My God.)
+PLAYER: (This is dangerously delicious.)
+@char {PLAYER}2 pos:{leftmid}
+@char FR.neutral pos:{rightmid}
+FR: Eat faster.
+
+NA: You swallow almost without chewing.
+
+PLAYER: That's cruel.
+
+FR: Cruelty is running out of flour.
+
+FR: Come.
+@stopBgm fade:2 !wait
+NA: You finish eating amidst Francisca's protests, then she grabs a kind of bag and you leave.
+@back bg_marketDay
+@bgm wander
+NA: Walking through the cobblestone streets, the market is bustling and noisy, smelling of fruit, fabric, smoke, and animals.
+
+FR: I need herbs.
+@char {PLAYER}2.happy
+NA: You let out a childish laugh.
+
+PLAYER: Herbs….
+
+NA: Francisca rolls her eyes and ignores your comment, going down her shopping list.
+@char {PLAYER}2.neutral
+FR: Beans… maybe fabric.
+
+PLAYER: Maybe?
+
+FR: Depends on the price.
+
+NA: You help by carrying some things.
+
+NA: Until…
+@char {PLAYER}2.surprise
+PLAYER: (Oh no.)
+@hideChars
+NA: Two familiar figures.
+@char AL.neutral pos:{rightmid} !wait
+@char TI.neutral pos:{leftmid}
+AL: Well.
+
+TI: Good morning.
+
+NA: Alvarenga and Tiradentes are walking together and chatting. They stop when they see you.
+
+AL: I see you survived last night.
+@char {PLAYER}2.surprise pos:{mid}
+NA: You freeze.
+
+PLAYER: (No…please.)
+
+PLAYER: (Don't say it.)
+@char TI.thinking
+TI: Last night?
+@hide TI
+@char FR.smile pos:{leftmid}
+NA: Francisca slowly turns to you.
+
+FR: Oh?
+
+AL: Did you arrive safely after your walk?
+
+NA: A beat.
+
+AL: By that… lively property.
+@char {PLAYER}2.embarrass
+NA: A silence and you're sure you want to die.
+
+FR: Property?
+
+NA: She looks at you, then at Alvarenga and back at you.
+
+FR: …
+
+FR: What property?
+
+NA: Your cheeks burn under your skin.
+
+PLAYER: THAT WASN'T IT…
+@hide FR
+@char TI.thinking pos:{leftmid}
+TI: What property?
+
+AL: The one frequented by soldiers.
+@hide TI
+@char FR.surprise pos:{leftmid}
+NA: Francisca's eyes widen.
+
+FR: OH MY GOD.
+
+FR: YOU WENT TO A BROTHEL?!
+
+PLAYER: I DIDN'T KNOW IT WAS A BROTHEL!
+@hide AL
+@char TI.happy pos:{rightmid}
+NA: Tiradentes immediately laughs out loud.
+
+TI: YOU DIDN'T KNOW?!
+
+FR: Oh heavens.
+
+FR: It's worse.
+
+FR: It's innocent.
+@hide TI
+@char AL.smile pos:{rightmid}
+AL: In your defense, you seemed genuinely confused.
+@char {PLAYER}2.shy
+PLAYER: Thank you.
+
+AL: Still, it was quite funny.
+
+PLAYER: You're going to kill me.
+@hide AL
+@char TI.happy pos:{rightmid}
+TI: Maybe.
+@char FR.happy
+NA: Francisca is already laughing too much.
+
+FR: "What friendly people."
+
+FR: I bet you thought that too.
+
+PLAYER: …Maybe.
+
+NA: She almost doubles over laughing.
+
+FR: Good heavens.
+@char FR.smile
+FR: Creature.
+@char TI.neutral
+NA: After finally regaining some composure, Tiradentes clears his throat.
+@char {PLAYER}2.neutral
+TI: On another note, there will be a meeting today.
+
+TI: At Hipólita's house.
+
+TI: We would like you to come.
+@hide FR
+@char AL.neutral pos:{leftmid}
+AL: Confidential matter.
+
+PLAYER: Will Bárbara be there?
+
+NA: A short pause as they look at each other, Alvarenga looks at you.
+
+AL: …Bárbara?
+
+PLAYER: Yeah.
+@char AL.thinking
+NA: A strange quirk appears in his mouth, like someone hiding information.
+
+AL: Hm.
+
+AL: Most likely.
+
+TI: Do you know Lady Bárbara?
+@hide TI
+@char FR.surprise pos:{rightmid}
+FR: OH.
+@char FR.neutral
+NA: Francisca looks at you slowly.
+
+FR: I see now.
+
+PLAYER: See what?
+@char FR.smile
+FR: Nothing.
+
+NA: Her smile is criminal.
+
+AL: Anyway, we hope to see you tonight.
+@hide FR
+@char TI.neutral pos:{rightmid}
+TI: And try not to visit any more… suspicious establishments until then.
+
+PLAYER: I hate you guys.
+
+TI: Doesn't seem like it.
+
+NA: They both say goodbye.
+@hide AL
+AL: See you soon.
+@hide TI
+TI: Until tonight.
+@char {PLAYER}2.neutral pos:{leftmid}
+NA: And they leave.
+@char FR.neutral pos:{rightmid}
+NA: Francisca waits exactly three seconds, it almost seems like she counted.
+
+FR: So.
+
+NA: She crosses her arms.
+@char FR.thinking
+FR: THE BROTHEL?
+
+PLAYER: I didn't know!
+
+FR: And Alvarenga found you?!
+
+PLAYER: Yes, I wasn't in there, I came from somewhere else…
+@char FR.smile
+FR: Oh, that's magnificent.
+
+PLAYER: It's not!
+
+FR: It is.
+
+FR: Especially this part.
+
+NA: She adopts a dramatic voice.
+
+FR: "Did you arrive safely after the property?"
+@char {PLAYER}2.surprise
+PLAYER: FRANCISCA.
+
+FR: You blushed.
+
+PLAYER: I didn't.
+
+FR: You blushed a lot.
+
+NA: You continue walking through the fair.
+
+
+NA: Francisca becomes strangely quiet for a moment, which immediately seems suspicious.
+
+FR: Tell me something.
+@char {PLAYER}2.neutral
+PLAYER: I get scared when you talk like that.
+
+FR: Between the doctor and the alferes…
+
+FR: Which one seems more handsome to you?
+
+PLAYER: …What?
+
+FR: Well.
+
+
+FR: More pleasing to the eye.
+@char {PLAYER}2.surprise
+NA: You almost trip.
+
+PLAYER: Francisca?!
+
+FR: Answer me.
+
+FR: It's a matter of science.
+@char {PLAYER}2.neutral
+PLAYER: That's not science.
+
+FR: It is to me.
+
+NA: You sigh.
+
+PLAYER: Alvarenga, Tiradentes is handsome, but Alvarenga has a certain something.
+
+NA: A beat.
+@char FR.surprise
+NA: Francisca slowly turns to you.
+
+FR: The doctor? A certain something?
+
+PLAYER: Yes.
+@char FR.thinking
+NA: She seems to assess your answer.
+
+FR: Older.
+
+PLAYER: So what?
+
+NA: She slows to a stop.
+
+FR: "So what?"
+
+FR: We have specific tastes now.
+
+PLAYER: Don't talk like that.
+
+FR: Then don't give me ammunition.
+@char FR.neutral
+FR: But you know...
+
+NA: She lowers her voice slightly, looking around.
+
+FR: The doctor is a married man.
+
+PLAYER: I know.
+@char FR.thinking
+NA: Now it's Francisca who stops.
+
+NA: She seems genuinely confused.
+
+FR: You do?
+
+PLAYER: I've seen the wedding ring.
+
+NA: Silence.
+
+FR: Have you been looking at his hands?
+
+PLAYER: …Maybe.
+
+FR: My God.
+
+PLAYER: He has nice hands.
+@char FR.surprise
+FR: WHAT?
+
+PLAYER: His hands...
+
+PLAYER: They're…
+
+NA: You hesitate..
+
+PLAYER: Strong, well-cared for, and he has those veins…
+
+NA: Francisca makes a choking sound.
+
+FR: LORD JESUS.
+
+FR: ARE YOU NOTICING THE MAN'S VEINS?!
+
+PLAYER: Keep your voice down!
+
+FR: Oh no.
+
+NA: She dramatically brings her hand to her chest.
+
+FR: You're already lost.
+
+PLAYER: I'm not!
+@char FR.neutral
+FR: You are.
+
+FR: First Lady Bárbara and now the married doctor.
+
+FR: Soon you'll be sighing over the tax collector.
+
+PLAYER: I won't!
+
+FR: Good.
+
+FR: Because at least he'd be single.
+
+PLAYER: You're awful.
+
+FR: And you have dangerously refined taste.
+
+NA: She starts walking again, clearly having too much fun.
+
+FR: "Hands with those veins…"
+
+FR: Dear God.
+
+FR: I’ll never forget that.
+
+PLAYER: FRANCISCA.
+
+FR: What?
+@char FR.smile
+FR: I’m just trying to understand your trauma.
+
+NA: She smiles, that smile of someone who’s definitely going to use this against you later.
+
+NA: The rest of the fair happens under constant public humiliation.
+
+FR: "Nice hands."
+
+PLAYER: Francisca, can you stop talking about this to half the village?
+
+FR: Forgive me.
+
+NA: She clearly isn't sorry.
+
+FR: I'm still trying to understand.
+
+FR: Among so many qualities in a man, you chose… his hands.
+
+PLAYER: You asked, and there are some I can't even name…
+
+FR: And you answered with alarming enthusiasm.
+
+NA: You grab another bag just to pretend.
+
+NA: The rest of the morning is spent between stalls and small purchases.
+
+FR: More flour.
+
+NA: She hands you a bag.
+
+FR: Don't drop it.
+
+PLAYER: You trust me a lot.
+
+FR: No.
+
+FR: But my back trusts me less.
+
+NA: Shortly after, you stop in front of a small bread stall.
+
+NA: The warm smell hits you first.
+
+PLAYER: Oh.
+
+PLAYER: The bread man.
+
+NA: The baker looks up.
+
+MERCHANT: Well!
+
+MERCHANT: The "credit card" person.
+
+NA: Francisca immediately stops.
+
+FR: The what?
+
+PLAYER: No... nothing.
+
+MERCHANT: </She/He> asked me if I accepted "credit or debit".
+
+NA: The man laughs to himself.
+
+MERCHANT: I ​​spent half an hour wondering if it was a saint's name.
+@char FR.happy
+NA: Francisca doubles over a little from laughing so hard.
+
+FR: SAINT CREDIT.
+
+FR: Protector of debts.
+
+PLAYER: I hate this century.
+
+FR: And it hates you back.
+
+NA: Still laughing, she buys some bread.
+
+FR: But give me two extra.
+
+FR: My assistant suffered public humiliation.
+
+MERCHANT: Deserved.
+
+PLAYER: You are cruel.
+@char FR.neutral
+NA: The bags get heavier and heavier.
+@stopBgm fade:1 !wait
+NA: Until finally the inn appears again in front of you.
+@bgm respite
+@back bg_innDay
+NA: You unload flour, beans, herbs, bread, some vegetables...
+
+FR: There.
+
+NA: She points.
+
+FR: Don't mix the dry goods with the wet goods.
+
+PLAYER: You speak like a general.
+
+FR: And this is war.
+
+FR: Against starving people.
+
+NA: After putting everything away, the silence becomes more comfortable.
+
+PLAYER: Francisca... how did you get all this?
+
+NA: She stops.
+
+FR: All this?
+
+PLAYER: The inn.
+PLAYER: You're in charge of everything.
+
+NA: A brief silence.
+
+NA: Francisca rests her hands on the table.
+
+FR: With difficulty.
+
+NA: Her tone changes slightly, her voice is lower and more honest.
+
+FR: I was born a slave.
+
+NA: You remain silent, the words hit you instantly, and you remember what time period you're in.
+
+FR: I was raised to serve.
+
+FR: To learn when to lower my head.
+
+FR: When to be silent or when to disappear.
+@char FR.smile
+NA: She gives a small, humorless smile.
+
+FR: I was never very good at that.
+
+PLAYER: Francisca…
+
+FR: Calm down.
+
+NA: She makes a small gesture.
+
+FR: It's over.
+
+FR: Or almost.
+
+NA: She distractedly fiddles with a bag of flour.
+
+FR: I worked for years, saved money and…
+
+FR: I bought my freedom.
+
+NA: A beat
+
+FR: And then I bought this.
+
+NA: She looks around.
+
+FR: Small but mine.
+
+PLAYER: That's incredible… considering the circumstances.
+
+FR: Hm.
+
+NA: A small smile.
+
+FR: It's tiring.
+
+FR: But I like knowing that nobody bosses me around.
+
+NA: She seems to hesitate a little, almost daydreaming.
+
+FR: Even though…
+
+NA: Her gaze wanders.
+
+FR: Sometimes it's lonely.
+
+PLAYER: Have you ever liked someone?
+
+NA: She laughs through her nose.
+
+FR: Dangerous question.
+
+PLAYER: Sorry.
+
+FR: No.
+
+NA: She leans her hip on the table.
+
+FR: No need.
+
+FR: I like it already.
+
+NA: The way she speaks changes, she seems more careful.
+
+FR: But Vila Rica isn't kind.
+
+FR: Especially about certain things.
+
+PLAYER: Certain things?
+
+FR: A Black woman.
+
+NA: She speaks simply, as if by fact.
+
+FR: Falling in love with a white man… it doesn't always end well.
+
+NA: The tone isn't bitter, just tired.
+
+FR: Sometimes they have feelings.
+
+FR: But not enough.
+
+FR: Or they do it secretly.
+
+FR: Out of shame.
+@char {PLAYER}2.sad
+NA: You feel a tightness in your chest.
+
+PLAYER: I'm sorry.
+
+FR: Don't be.
+@char FR.smile
+NA: She smiles.
+
+FR: I survived.
+@char {PLAYER}2.neutral
+FR: And I learned to choose my troubles better.
+@char FR.neutral
+NA: Her gaze goes directly to you.
+
+FR: Advice that might be useful to you.
+@char {PLAYER}2.thinking
+PLAYER: Was that a hint?
+@char FR.happy
+FR: A very clear one.
+@char {PLAYER}2.happy
+NA: You laugh.
+
+NA: The weight of the conversation lessens a little.
+@char {PLAYER}2.neutral
+PLAYER: Do you need help with anything else?
+@char FR.neutral
+FR: No.
+
+NA: She points to the door.
+
+FR: Go live your strange life.
+
+NA: The hours pass slowly, the smell of bread still lingers in the kitchen.
+
+NA: Francisca organizes some things while you just…exist.
+
+FR: Don't you have anything to do?
+
+PLAYER: I do.
+
+FR: And what is it?
+
+PLAYER: Wait for nightfall.
+
+FR: Pathetic.
+
+PLAYER: Thank you.
+@char FR.thinking
+NA: She watches you thoughtfully for a few seconds.
+
+FR: Hm.
+
+FR: Perhaps there's hope.
+
+PLAYER: That's never good when you talk like that.
+@char FR.neutral
+FR: Stand up.
+
+PLAYER: No.
+
+FR: That wasn't a question.
+
+NA: Before you can protest, she's already moved a chair from the middle of the kitchen.
+
+PLAYER: Francisca.
+
+FR: If you're going to attend meetings with important people, at least learn not to look like a frightened goat.
+
+PLAYER: Goat?!
+
+FR: Sometimes a deer.
+
+FR: But a particularly lost deer.
+
+PLAYER: That was so specific.
+
+FR: Come.
+
+NA: She extends her hand.
+
+FR: I'm going to teach you something useful.
+
+PLAYER: What?
+
+FR: To dance.
+@char {PLAYER}2.surprise
+PLAYER: WHAT?
+
+FR: Well.
+
+FR: What if Dona Bárbara invites you?
+
+FR: Or the doctor with the nice hands.
+
+NA: You almost choke.
+
+PLAYER: FRANCISCA.
+
+FR: I'm just preventing tragedies.
+
+NA: Before you can escape, she grabs your hands.
+
+FR: Posture.
+@char {PLAYER}2.embarrass
+PLAYER: This is humiliating.
+
+FR: More humiliating than the brothel?
+@char {PLAYER}2.neutral
+PLAYER: …
+
+PLAYER: Continue.
+
+NA: Francisca sighs dramatically.
+
+FR: One step and then another slowly.
+
+NA: You step on her foot.
+@char FR.surprise
+FR: OUCH!
+@char {PLAYER}2.surprise
+PLAYER: It was an accident!
+@char FR.neutral
+FR: Dear God.
+
+FR: Poor doctor.
+
+PLAYER: ALVARENGA IS NOT GOING TO DANCE WITH ME.
+
+FR: Yet.
+@char {PLAYER}2.neutral
+PLAYER: You're infernal.
+
+NA: After a while you improve a little.
+
+FR: You no longer look like a chair tipping over.
+
+PLAYER: Was that a compliment?
+
+FR: One of the greatest I've ever given you.
+@back bg_innAfternoon
+NA: The sun begins to set and the light slowly changes through the window.
+
+FR: Very well.
+
+NA: She crosses her arms.
+
+FR: Go get ready.
+
+FR: You have a secret meeting.
+
+NA: A beat
+
+FR: And try not to look too much at men's hands tonight.
+
+@char {PLAYER}2.embarrass
+PLAYER: I HATE YOU.
+
+FR: Lies.
+
+FR: Without me you'd already be dead.
+
+NA: And, unfortunately, she might be right.
+@hideChars
+NA: You go upstairs to get ready.
+@goSub .BlackScreen
+@stopBgm fade:1 !wait
+NA: Night falls slowly over Vila Rica.
+@back bg_gardenNight
+@bgm inconfidentes
+NA: You arrive at Hipólita's house shortly after nightfall.
+
+NA: Light and the sound of voices escape through the windows.
+@char HI.neutral
+NA: When the door opens, Hipólita sighs.
+
+HI: Come in.
+
+HI: Before the neighbors decide to denounce us just by the volume of our voices.
+@back bg_hipolitaNight
+@hide HI
+NA: You enter.
+
+NA: The atmosphere is already familiar: Candles, books, wine, and people conspiring as if it were normal.
+@char TI.neutral pos:{mid}
+NA: Tiradentes is standing, talking too much.
+@char JO.neutral pos:{leftmid}
+NA: Joaquim, slumped in a chair, looks like a man who lost his patience at least twenty minutes ago.
+@char CE.smile pos:{rightmid}
+NA: Leaning against the wall, Célio watches everything with an amused expression.
+
+CE: Ah.
+
+CE: You survived.
+@hide CE
+@char {PLAYER}2.neutral pos:{rightmid}
+PLAYER: Barely.
+
+JO: I'm sorry.
+
+JO: I would have spared another sensible person from listening to the alferes's speech.
+
+TI: A speech requires listeners capable of understanding.
+
+JO: Then explain more slowly.
+
+NA: You sigh.
+
+PLAYER: (Ah…they’ve already started.)
+
+TI: I speak of courage.
+
+JO: And I of prudence.
+
+TI: Too much prudence becomes cowardice.
+
+JO: And too much courage becomes stupidity.
+
+TI: At least I propose something!
+
+JO: Yes.
+@hide {PLAYER}2
+@char HI.neutral pos:{rightmid}
+NA: Hipólita closes her eyes for a moment, as if praying for patience.
+
+HI: If possible… no shouting today.
+
+JO: I'll try..
+
+NA: A short pause.
+
+JO: If the alferes also tries not to propose suicidal revolutions.
+
+TI: I already told you I don't propose suicide.
+
+JO: Pardon me.
+
+NA: Joaquim puts his hand to his chest.
+
+JO: I'll call it "poorly planned collective death".
+@hide HI
+@char CE.thinking pos:{rightmid}
+
+CE: That was almost poetic.
+
+TI: Don't encourage him.
+
+JO: At least Célio offers entertainment.
+
+JO: More than certain military ideas.
+
+TI: You are afraid to act.
+
+JO: And you seem to forget that others have necks to lose.
+
+NA: The tone rises.
+
+TI: You want freedom but you are afraid to act like a free man.
+
+JO: And you act like a man who has nothing to lose!
+@char TI.determined
+TI: I have honor!
+
+JO: Honor doesn't pay debts nor prevent execution.
+@hide CE
+@char HI.sad pos:{rightmid}
+NA: Hipólita sighs.
+@hide HI
+@char TI pos:{rightmid}
+TI: Freedom is not born only of desire.
+
+TI: It requires preparation.
+
+NA: Tiradentes places both hands on the table.
+
+TI: Contacts, organization, and perhaps military support.
+
+NA: The silence weighs heavily.
+
+JO: Oh no.
+
+NA: Joaquim closes his eyes, like a deeply weary man.
+
+JO: Here we go again.
+
+TI: I'm not talking about immediate war.
+
+TI: But about being ready.
+@char JO.surprise
+JO: Ready??
+
+JO: For what?
+
+NA: He opens his arms dramatically.
+
+JO: Half a dozen nervous men, two poets, an overly confident alferes—
+
+JO: And Célio.
+@char CE.thinking pos:{mid}
+CE: I feel unfairly included.
+@hide CE
+TI: There are dissatisfied soldiers.
+@char JO.neutral
+JO: Oh, of course.
+
+JO: And they will certainly abandon their careers, their pay, and their own heads…
+
+JO: Because a very enthusiastic man asked them to.
+
+TI: Don't be a coward.
+
+JO: Don't be an idiot.
+@char HI.neutral
+HI: Gentlemen…
+
+TI: I already said that at least I propose something.
+
+JO: To die.
+
+HI: Please.
+
+JO: Hipólita—
+
+NA: Joaquim opens his arms dramatically.
+
+JO: You are intelligent.
+
+JO: Tell me, would you entrust your life to the alferes?
+@char HI.thinking
+HI: I won't answer that.
+
+JO: Sensible answer.
+@hide HI
+TI: And you?
+
+TI: What do you offer besides complaints?
+
+JO: Excellent hair.
+
+JO: Handsome bearing.
+
+NA: He points to himself.
+
+JO: And survival.
+@char CE.thinking
+CE: At least he's honest.
+
+JO: And that one over there—
+
+NA: Joaquim points to Célio.
+
+JO: Continues to mysteriously exist in this cause.
+@char CE.neutral
+CE: I am deeply wounded.
+@hide CE
+JO: As for the doctor…
+
+NA: A brief theatrical pause.
+
+JO: He follows the alferes like a very well-dressed dog.
+
+NA: The silence is heavy.
+
+TI: Don't you dare!
+JO: What?
+JO: Did I lie?
+@char HI.neutral
+NA: Hipólita rubs her forehead.
+
+HI: By God.
+@hide HI
+JO: As for Lady Bárbara—
+@char JO.smile
+NA: A crooked smile.
+
+JO: A very beautiful woman, untrustworthy, but dangerously beautiful.
+
+NA: A beat.
+
+JO: And the doctor would certainly agree.
+
+NA: You immediately freeze.
+@hideChars
+NA: Before someone answers, the door opens.
+
+NA: The sound cuts through the discussion.
+@char BA.neutral pos:{mid}
+NA: And then she enters.
+
+NA: Bárbara, elegant, impeccably dressed, chin held high.
+
+NA: As if she had been painted by someone excessively talented.
+@char AL.neutral pos:{rightmid}
+NA: Right behind her, Alvarenga, one hand on her waist, irritatingly handsome and impeccable.
+
+NA: Joaquim crosses his arms.
+@char JO.neutral pos:{leftmid}
+JO: Oh, excellent.
+
+JO: Beauty and diplomacy have arrived.
+
+JO: Perhaps we should consult the doctor.
+
+NA: A beat.
+
+JO: I heard he appreciates lost causes.
+
+BA: Am I too late?
+
+AL: I'm afraid so.
+
+JO: You arrived at the perfect moment.
+@hide BA
+@char TI.neutral pos:{mid}
+NA: Joaquim points to Tiradentes.
+
+JO: The alferes intends to form an imaginary army.
+
+JO: I believe all that's left is to convince the Crown to collaborate.
+@char TI.determined
+TI: Don't mock.
+
+AL: Military support?
+
+NA: Alvarenga calmly removes his gloves.
+
+AL: I confess I've arrived at an interesting point.
+@char TI.neutral
+TI: I'm talking about preparation.
+
+AL: Hm.
+
+NA: A beat.
+
+AL: And whom do you intend to convince?
+
+TI: There are dissatisfied men among the military as well.
+
+JO: And they will certainly happily die for it.
+
+JO: Isn't that right, doctor?
+
+AL: I only believe…
+
+NA: He chooses his words carefully.
+
+AL: That courage without calculation can become tragedy.
+@char JO.smile
+JO: HAH.
+
+NA: Joaquim points dramatically.
+
+JO: See?
+
+JO: The doctor still has his wits about him.
+@char TI.determined
+TI: Or too much prudence.
+
+JO: Or enough intelligence.
+@hideChars
+@char BA.smile pos:{rightmid}
+NA: Bárbara is already observing everything, she seems amused.
+@char HI.neutral pos:{leftmid}
+BA: Hipólita.
+
+NA: A slow glance around the room.
+
+BA: I see you still allow shouting in your house.
+
+HI: I see you still like to arrive only at the worst moment.
+
+BA: Someone needs to preserve the dignity of the meeting.
+
+NA: A brief pause.
+
+BA: Clearly it's not you.
+@char HI.smile
+NA: Hipólita smiles only with the corner of her mouth.
+
+HI: And yet you keep coming back.
+
+NA: The strange atmosphere between them is almost artistic.
+@hideChars
+@char AL.neutral pos:{rightmid} !wait
+@char {PLAYER}2.neutral pos:{leftmid}
+NA: And then Alvarenga looks at you.
+
+AL: Ah.
+
+AL: I see you survived the fair.
+@char {PLAYER}2.surprise
+PLAYER: …
+
+PLAYER: (My God.)
+
+PLAYER: (They're married.)
+
+PLAYER: (Now the ring Bárbara kept twirling on her finger makes sense… hands.)
+
+PLAYER: (And I complimented his hands.)
+@char BA.neutral pos:{mid}
+NA: Bárbara follows his gaze.
+
+NA: She looks at you and then at Alvarenga, a little surprised but understanding.
+
+BA: Do you know each other?
+
+AL: We've had occasion to talk before.
+
+NA: The corner of her mouth twitches, like someone who has just realized something.
+
+BA: Hm.
+
+BA: Interesting.
+
+AL: I see you're still wearing the clothes.
+
+PLAYER: What?
+@char AL.smile
+AL: The clothes.
+
+NA: He smiles slightly.
+
+AL: I'm glad they fit.
+
+PLAYER: (THE CLOTHES.)
+
+
+PLAYER: (From his house.)
+
+NA: Bárbara slowly turns her face towards you.
+@char BA.smile
+BA: Oh.
+
+NA: A small, subtle smile appears.
+
+BA: So that's how they ended up on you.
+@char AL.embarrass
+AL: Well.
+
+NA: He seems slightly embarrassed.
+
+AL: </She/He/> needed something decent to wear.
+@char {PLAYER}2.embarrass
+PLAYER: (I'M WEARING THEIR CLOTHES!)
+
+BA: At least you chose the pretty ones.
+
+NA: The comment is mild.
+
+PLAYER: I…
+
+NA: You simply stop functioning.
+@hideChars
+@char TI.angry pos:{leftmid} !wait
+@char JO.angry pos:{rightmid}
+NA:  In the almost distant background, the discussion continues.
+
+TI: It's not naive to want to fight!
+
+JO: It's naive to think that others want to die with you!
+@char HI.neutral pos:{mid}
+HI: Please, gentlemen…
+@hide HI
+@char CE.thinking pos:{mid}
+CE: I'm starting a bet on who wins.
+@hide CE
+JO: The doctor at least understands reason!
+
+TI: The doctor isn't a general!
+
+JO: Thank goodness!
+@hideChars
+NA: But everything seems so far away.
+@char {PLAYER}2.surprise pos:{mid}
+NA: Because right now you're too busy processing the fact that:
+
+PLAYER: (Barbara and Alvarenga are married.)
+@char {PLAYER}2.embarrass
+PLAYER: (And I complimented them both in front of Francisca.)
+
+PLAYER: (My God.)
+@hideChars
+NA: The discussion has lasted longer than it should.
+@char TI.angry pos:{leftmid} !wait
+@char JO.angry pos:{rightmid}
+NA: Tiradentes and Joaquim continue exchanging accusations.
+
+TI: Courage requires risk.
+
+JO: And stupidity requires an audience.
+@hideChars
+@char HI.neutral pos:{leftmid} !wait
+@char CE.thinking pos:{rightmid}
+CE: At least this is still entertaining.
+
+NA: Hipólita rests her hands on the table, clearly tired.
+
+HI: If we just keep talking, we won't get anything done.
+
+HI: I can help.
+
+NA: A beat.
+@hide CE
+@char HI pos:{mid}
+HI: I know people, I can circulate, listen, and deliver messages.
+
+NO: No.
+
+NA: The cut is immediate.
+@char HI.surprise
+HI: What?
+
+NO: You won't get involved in that.
+
+HI: Excuse me?
+
+NO: It's dangerous.
+@char HI.determined
+HI: For all of us.
+
+NO: Especially for you.
+
+NA: The tone changes, he's harsher with her.
+
+NO: I don't like the idea of ​​my fiancée being involved in politics.
+
+HI: Your fiancée?
+
+NA: Her smile disappears.
+
+HI: Interesting.
+
+NA: The atmosphere becomes uncomfortable.
+
+HI: Because I swore I still owned me.
+
+NO: Hipólita!
+
+HI: No.
+
+NA: She takes a deep breath.
+
+HI: Continue without me, then.
+@hideChars
+NA: Hipólita turns and goes out into the garden.
+
+NA: The silence weighs heavily.
+@char {PLAYER}2.neutral pos:{mid}
+NA: You take a half-step, ready to follow her.
+
+NA: But a hand lightly grabs your arm.
+@char {PLAYER}2 pos:{leftmid} !wait
+@char BA.neutral pos:{rightmid}
+BA: So predictable.
+
+NA: You look and realize Bárbara is very close.
+
+BA: Can I steal you for a moment?
+
+NA: Her gaze quickly goes to the garden door and then back to you.
+
+BA: Or have you already chosen your side tonight?
+
+@choice "Go with Bárbara" goto:.scene6B-1
+
+@choice "Turn around and go talk to Hipólita" goto:.scene6B-2
+
+@stop
+
+
+#scene6B-1
+@set afetoBarbara+=1
+@stopBgm fade:1 !wait
+@bgm barbara
+@set stayWithBarbara=true
+NA: You hesitate but end up following Barbara.
+
+NA: She leads you outside but not to the garden.
+
+NA: A side corridor, quieter and more private.
+
+BA: Before you make that face…
+
+NA: She crosses her arms.
+
+BA: Yes.
+
+BA: I'm married.
+
+PLAYER: You could have told me.
+
+BA: I could have.
+
+NA: A short pause.
+
+BA: But I didn't.
+
+PLAYER: Why?
+
+NA: Bárbara sighs and for the first time seems unsure of her words.
+
+BA: Because sometimes I like to be just… Bárbara.
+
+NA: She looks away.
+
+BA: Not "the wife of".
+
+BA: Not rumors, not appearances.
+
+BA: Just me.
+
+PLAYER: To Alvarenga?
+@char BA.thinking
+NA: She raises an eyebrow.
+@char BA.smile
+BA: Oh.
+
+NA: A small smile forms slowly.
+
+BA: So that's the part that bothers you?
+
+PLAYER: It's not that.
+
+BA: Hm.
+
+NA: She tilts her head slightly, observing you.
+
+NA: Like putting together a jigsaw puzzle.
+
+BA: Are you sure?
+
+BA: Because you seemed almost… offended.
+
+PLAYER: You omitted that!
+
+BA: Or are you upset that I already have a husband?
+
+NA: The silence lasts a second longer than it should.
+
+BA: Or…
+
+NA: Her smile widens sharply.
+
+BA: Are you upset that the husband is precisely that one?
+
+NA: She points toward the room, as if to Alvarenga.
+
+PLAYER: Bárbara!
+
+BA: Oh.
+
+NA: She seems deeply pleased.
+
+BA: Interesting.
+
+PLAYER: It's not interesting.
+
+BA: It is a little.
+
+NA: She takes a step closer.
+
+BA: Listen.
+
+NA: Her tone softens.
+
+BA: I didn't mean to deceive you.
+
+BA: Just…
+
+NA: She hesitates, a rare occurrence.
+
+BA: I didn't think it would matter.
+
+BA: And maybe I was curious to see how you looked at me before you knew.
+
+PLAYER: That's cruel.
+@char BA.happy
+BA: A little.
+
+NA: She lets out a sincere sigh.
+@char BA.smile
+BA: Forgive me.
+
+NA: The way she speaks seems surprisingly honest.
+
+BA: Still…
+
+NA: Her gaze slides quickly, almost provocatively.
+
+BA: I must admit…
+
+BA: Your expression upon finding out was memorable.
+
+PLAYER: I was in shock.
+
+BA: I noticed.
+
+BA: Especially when you mentioned my husband.
+
+NA: The way she says "my husband" seems deliberate.
+
+BA: I almost thought...
+
+NA: She tilts her head slightly.
+
+BA: "Are you lusting after my husband, creature?"
+
+PLAYER: BÁRBARA.
+
+NA: You answer loudly and feel your cheeks heat up.
+
+NA: As contradictory as it may seem, Bárbara is one of the few people who actually speaks her mind when she wants to.
+
+NA: She laughs softly.
+
+BA: Relax.
+
+BA: You're not as discreet as you think.
+@goto .scene6B-2end
+
+
+#scene6B-2
+@stopBgm fade:1 !wait
+@bgm barbara
+@set stayWithBarbara=false
+NA: You pull away, gently but firmly.
+
+PLAYER: I think I'll go talk to Hipólita.
+
+NA: Bárbara raises an eyebrow.
+
+BA: Sure.
+
+PLAYER: And honestly…
+
+NA: You cross your arms.
+
+PLAYER: I'm a little angry with you.
+
+BA: With me?
+
+PLAYER: You're married.
+
+BA: Oh.
+
+PLAYER: You could have said so.
+
+BA: I could.
+
+PLAYER: That's weird!
+
+BA: Weird…
+
+NA: She repeats the word slowly.
+
+BA: But a bride—...
+
+NA: Her gaze discreetly drifts to the garden door.
+
+BA: That one doesn't seem like a problem to you?
+
+PLAYER: Hipólita is different.
+@char BA.smile
+BA: Is she?
+
+NA: A small, humorless laugh.
+
+BA: Because from where I am…
+
+NA: She crosses her arms.
+
+BA: You seem quite willing to run after her.
+
+BA: Even at the exact moment I tried to talk to you.
+
+PLAYER: It's not like that.
+
+BA: Hm.
+
+NA: She takes a step closer, very close.
+
+NA: You stiffen your body and your heart races.
+
+BA: No?
+
+NA: Her overly attentive gaze sweeps over your face.
+
+BA: I'd swear that Lady Hipólita is… how shall I say…
+
+NA: Her smile widens sharply.
+
+BA: Somewhat attached to you.
+
+PLAYER: She just…
+
+BA: Just?
+
+NA: Bárbara laughs softly.
+
+BA: My dear…
+
+NA: Her tone is dangerously sweet.
+
+BA: Women don't look at someone indifferent to them like that.
+
+BA: And you don't exactly seem… immune either.
+
+PLAYER: You're exaggerating.
+
+BA: Perhaps.
+
+NA: She observes you for a second that's far too long.
+
+BA: Or maybe I just have eyes.
+@char BA.neutral
+NA: Her tone changes again.
+
+BA: I just found it curious.
+
+BA: With me it's "you're married."
+
+NA: She tilts her head.
+
+BA: But with Hipólita…
+
+NA: A quick glance at the garden.
+
+BA: "Ah, being with the bride is all right."
+
+PLAYER: That's not it!
+
+BA: Of course.
+
+BA: Anyway…
+
+NA: She finally lets go of your arm.
+@char BA.smile
+BA: Go.
+
+NA: Her smile is now small, almost bitter.
+
+BA: She's waiting for you.
+
+BA: Clearly, I'm the one who's getting in the way tonight.
+
+PLAYER: Bárbara…
+@char BA.neutral
+BA: No.
+
+NA: She raises her hand, stopping you.
+
+BA: Go take care of your borrowed bride.
+
+NA: The phrase comes lightly.
+
+NA: But something about it… hurts.
+
+
+#scene6B-2end
+;Depois das escolhas
+@char BA.neutral
+NA: The mood between you two is still awkward.
+
+NA: Something that ended in teasing or something close to an argument.
+
+NA: And then a calm voice emerges from behind you.
+@char AL.neutral pos:{mid}
+AL: Ah.
+
+NA: You turn around.
+
+AL: So you're here.
+
+NA: Alvarenga approaches with the irritating tranquility of someone who never seems truly in a hurry.
+@char AL.smile
+AL: Forgive me.
+
+NA: A small, polite smile.
+
+AL: Am I interrupting something?
+
+BA: Perhaps.
+
+NA: Bárbara answers before you can speak.
+
+BA: Or maybe we were already done complicating things.
+
+AL: Hm.
+
+NA: His gaze goes from you to Bárbara and then back again.
+
+AL: I see you know each other.
+
+PLAYER: A little?
+
+BA: Enough for awkward discussions.
+
+AL: Have you started arguing already?
+
+NA: He seems genuinely amused.
+
+BA: I blame curiosity.
+
+AL: Always dangerous.
+
+NA: He studies you a little more closely, like fitting pieces together.
+
+AL: So…
+
+NA: A small, vague gesture with his hand.
+
+AL: It was you.
+
+PLAYER: Me?
+
+AL: The person who found my wife under… curious circumstances.
+@char {PLAYER}2.surprise
+NA: You almost stop breathing.
+
+PLAYER: She told you?!
+@char BA.smile
+BA: Not everything.
+
+NA: Her smile widens, slightly cruel.
+
+BA: Yet.
+@char {PLAYER}2.neutral
+AL: I'm glad you helped.
+
+NA: The way he speaks is simple.
+
+NA: Without demands or tension, as if trusting her were natural.
+
+AL: Bárbara usually pretends she doesn't need help.
+@char BA.neutral
+BA: Because I almost never do.
+
+AL: Almost.
+
+NA: There's something comfortable between them, an old intimacy.
+
+PLAYER: (Oh.)
+
+PLAYER: (They really like each other.)
+
+NA: Strangely, that bothers you a little.
+
+AL: Anyway.
+
+NA: He adjusts his gloves.
+
+AL: Thank you for your kindness.
+
+BA: And for keeping it a secret.
+
+NA: Bárbara gives you a quick look, softer this time.
+
+BA: At least for now.
+
+NA: Alvarenga offers her his arm.
+
+NA: Naturally and without imposing, just waiting.
+
+AL: I think we should leave.
+
+BA: Already?
+
+AL: If we stay…
+
+NA: A beat as he seems to look around.
+
+AL: Joaquim will end up insulting someone else.
+
+NA: In the background you hear…
+
+JO: AND THE DOCTOR IS STILL WRONG!
+
+TI: YOU'RE THE IMBECILE!
+
+CE: Five coins for the alferes.
+
+HI: FOR GOD'S SAKE.
+
+NO: Five coins for Joaquim.
+@char AL.neutral
+NA: Alvarenga sighs.
+
+AL: See?
+
+BA: Convincing argument.
+
+NA: Bárbara takes his arm.
+
+NA: But before leaving, she looks at you one last time.
+
+;Se vc escolheu ela:
+@if stayWithBarbara=true
+BA: We still need to finish that conversation.
+
+NA: A short pause.
+
+BA: No scandals next time.
+
+;Se escolheu Hipólita
+@else
+BA: Try not to break too many hearts while I'm gone.
+
+NA: A short pause.
+
+BA: Especially a brides'.
+
+PLAYER: Bárbara!
+@char BA.smile
+BA: Oh.
+
+NA: A small, teasing smile.
+
+BA: I'm just kidding.
+
+NA: Maybe, or maybe not.
+@endif
+NA: And then she leaves with her husband.
+@hide BA,AL
+NA: The two walk together in an almost irritatingly beautiful way.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: (Wow.)
+
+PLAYER: (How annoying.)
+
+PLAYER: (What a beautiful couple.)
+@stopBgm
+NA: You say goodbye to the others probably with a grumpy face, because none of them question it.
+
+NA: They just wish you a good night, thank you for your presence, and let you leave.
+@goSub .BlackScreen
+NA: The walk back to the inn is silent.
+
+NA: Silent only outside.
+
+NA: Because inside your head there's confusion, embarrassment, and a worrying amount of thoughts about beautiful and emotionally unavailable people.
+@back bg_innNight
+@bgm respite
+NA: The inn is already quieter when you enter.
+@char FR.neutral pos:{rightmid} !wait
+@char {PLAYER}2.neutral pos:{leftmid}
+NA: But of course Francisca is still awake.
+
+NA: Almost as if she were waiting for you to catch up on the gossip.
+
+FR: Why.
+
+NA: She looks up.
+
+FR: You're back alive.
+
+PLAYER: Barely.
+
+FR: So it was a meeting after all.
+
+NA: She rests her elbow on the table.
+
+FR: Tell me.
+
+NA: You hesitate.
+
+FR: Oh no.
+
+FR: That face always promises trouble.
+@char {PLAYER}2.sad
+PLAYER: Francisca.
+
+PLAYER: I found something out.
+@char FR.determined
+FR: Is it serious?
+
+PLAYER: Very.
+
+NA: You take a deep breath.
+
+PLAYER: Alvarenga and Bárbara are married.
+@char FR.neutral
+NA: Silence.
+
+FR: Wow.
+
+FR: You don't say.
+@char {PLAYER}2.surprise
+PLAYER: You knew?!
+
+FR: Me?
+
+NA: She dramatically puts her hand to her chest.
+
+FR: Never.
+
+FR: Only me and half of this blessed village.
+@char {PLAYER}2.determined
+PLAYER: FRANCISCA.
+
+NA: You get annoyed and clench your fists.
+
+FR: What?
+
+FR: You never asked.
+@char {PLAYER}2.surprise
+PLAYER: You could have told me!
+
+FR: And miss out on the fun?
+
+NA: You stare at her indignantly.
+
+FR: Besides…
+
+NA: She tilts her head.
+
+FR: You were so engrossed in looking at Lady Bárbara…
+
+FR: And at certain masculine hands…
+@char FR.smile
+NA: Her smile widens.
+
+FR: That I doubt you would have heard anything.
+@char {PLAYER}2.neutral
+PLAYER: You're awful.
+
+FR: I'm fun.
+@char {PLAYER}2.surprise
+PLAYER: I WAS EMBARRASSED.
+
+FR: Oh, certainly.
+
+FR: I can perfectly picture the moment.
+
+NA: She puts her hand on her chest again.
+
+FR: "My God."
+
+FR: "The handsome man belongs to the beautiful woman."
+
+PLAYER: FRANCISCA.
+
+FR: "And maybe I’m wearing their clothes."
+
+PLAYER: HOW DO YOU…
+
+FR: Your face gives it all away.
+@char {PLAYER}2.sad
+NA: You cross your arms, visibly sulking.
+
+PLAYER: I'm mad at you.
+
+FR: I noticed.
+
+NA: A short pause.
+
+FR: But be honest.
+
+FR: It was a little funny.
+
+PLAYER: No.
+
+FR: Yes, it was.
+
+NA: She moves a little closer, with that look of someone who's already decided to annoy you to death.
+
+FR: So.
+
+FR: Which of the two broke your heart more?
+@char {PLAYER}2.surprise
+PLAYER: Neither!
+
+FR: Hm.
+
+NA: She clearly doesn't believe it.
+
+FR: The doctor or the elegant lady?
+@char {PLAYER}2.neutral
+PLAYER: Don't you have any limits?
+
+FR: I do.
+
+FR: I just don't use them.
+
+NA: You sigh defeated.
+
+PLAYER: I'm going to sleep.
+
+FR: Ah…
+
+NA: She speaks quickly.
+
+FR: Don't go to sleep angry with me.
+@char {PLAYER}2.thinking
+PLAYER: I am angry.
+
+FR: But not with me.
+
+FR: With you.
+
+NA: She points accusingly.
+
+FR: For desiring compromised merchandised.
+@char {PLAYER}2.surprise
+PLAYER: YOU ARE IMPOSSIBLE.
+
+FR: And you have terrible taste.
+
+FR: Or excellent.
+
+FR: I'm still deciding.
+@char {PLAYER}2.neutral
+NA: You roll your eyes.
+
+PLAYER: Good night, Francisca.
+
+FR: Good night.
+
+FR: And try not to dream about other people's partners.
+
+PLAYER: What the hell…
+@hide FR
+NA: Her laughter follows you upstairs.
+
+NA: You go to sleep slightly humiliated.
+
+NA: Very confused and unfortunately still thinking about them.
+@goSub .BlackScreen
+;Cap 5 -
+@back bg_innDay
+NA: The next day begins with resentment.
+
+NA: Pure resentment.
+
+NA: You wake up still sulking and feeling betrayed.
+@char {PLAYER}2.neutral pos:{leftmid}
+PLAYER: (She knew.)
+
+PLAYER: (All along.)
+
+NA: You walk down the inn stairs with a considerable pout.
+@char FR.neutral pos:{rightmid}
+NA: Francisca glances at your face once and immediately understands.
+
+FR: Oh.
+
+FR: You're still on about it.
+
+PLAYER: I'm not talking to you.
+
+FR: How tragic.
+
+NA: She stirs something in a pot.
+
+NA: The scent rises and it's sweet, warm, and comforting.
+
+FR: Still.
+
+NA: She places a plate on the table.
+
+FR: I made something for your suffering.
+
+NA: Still warm cornbread.
+
+NA: A thick porridge sweetened with honey and cinnamon, bread toasted in butter, and strong coffee.
+
+PLAYER: You made this for me?
+
+FR: No.
+
+FR: To end that abandoned widow look of yours.
+
+PLAYER: I'm not even going to comment on that.
+
+FR: Eat.
+
+NA: You grumble but sit down.
+
+NA: And unfortunately, it's very good.
+
+PLAYER: Damn.
+@char FR.smile
+FR: Ah.
+
+NA: She smiles victoriously.
+
+FR: Forgiveness comes quickly when there's butter.
+
+PLAYER: I'm still angry.
+
+FR: But with a full belly.
+
+FR: Which already helps.
+
+NA: You sigh defeated.
+
+PLAYER: Okay.
+
+NA: Short pause while you eat the cornbread.
+
+PLAYER: I forgive you.
+
+FR: I know.
+
+PLAYER: You're unbearable.
+
+FR: And you love me anyway.
+
+NA: You roll your eyes but end up hugging her from the side.
+
+FR: Oh?
+
+FR: I get affection now?
+
+PLAYER: Don't get used to it.
+
+FR: Too late.
+@stopBgm fade:2 !wait
+NA: And then a knock on the door.
+
+NA: Francisca raises an eyebrow.
+
+FR: So early?
+
+NA: She goes to open it and stops.
+
+FR: Oh.
+
+FR: Speaking of pretty problems.
+@bgm barbara
+NA: You look up and almost choke on your porridge.
+@char BA.neutral pos:{mid}
+BA: Good morning.
+
+NA: You see Bárbara, elegant as always, her hair perfectly styled and her dress impeccable.
+
+BA: Am I interrupting something?
+
+FR: Just a dramatic reconciliation.
+
+NA: Francisca leans her shoulder against the door.
+
+FR: This creature here spent the night suffering because she discovered that certain people are married.
+@char BA.smile
+BA: Oh?
+
+NA: The corner of Barbara's mouth opens, slowly and provocatively.
+
+BA: Are we still on this?
+@char {PLAYER}2.embarrass
+PLAYER: FRANCISCA FOR GOD'S SAKE, CAN YOU NOT TALK TO HER ABOUT THIS…
+
+FR: Why.
+
+NA: She points casually.
+
+FR: You're the married one here.
+
+BA: Fair enough.
+
+NA: Bárbara turns her gaze to you, more gently this time.
+
+BA: Can I steal them for a moment?
+
+FR: If you give them back whole.
+@hide FR
+BA: No promises.
+
+PLAYER: That doesn't reassure me.
+
+NA: Bárbara ignores you, as if she's already made up her mind.
+
+BA: I'd like to invite you out tonight.
+@char {PLAYER}2.surprise
+PLAYER: Out?
+@char BA.smile pos:{rightmid}
+BA: Hm.
+
+NA: A small smile.
+
+BA: Unless you're still mad at me.
+@char FR.neutral pos:{mid}
+FR: OH.
+
+NA: Francisca immediately jumps into the conversation.
+
+FR: We have an invitation now.
+
+PLAYER: Oh my dear.
+
+FR: I'll shut up.
+
+NA: Bárbara crosses her arms, waiting.
+
+BA: So?
+
+@choice "Accept the invitation" goto:.scene7B-1
+
+@choice "Ask if this is appropriate" goto:.scene7B-2
+
+@stop
+
+
+
+#scene7B-1
+@set afetoBarbara+=1
+PLAYER: Okay.
+
+NA: Bárbara seems discreetly pleased.
+
+BA: Great.
+
+PLAYER: But does this seem…appropriate?
+
+BA: Not really.
+
+NA: Her smile widens.
+
+BA: Maybe it's part of the charm.
+
+PLAYER: You're impossible.
+
+BA: And yet you keep talking to me.
+
+FR: They like trouble.
+
+PLAYER: FRANCISCA.
+
+BA: I promise minimally acceptable behavior.
+
+FR: Lies.
+
+BA: Probably.
+
+PLAYER: Okay.
+
+BA: Excellent.
+
+BA: At nightfall near the church.
+
+NA: She turns to leave, but stops.
+
+BA: And don't tell my husband.
+@char FR.surprise
+FR: OH MY GOD.
+@char {PLAYER}2.surprise
+PLAYER: BÁRBARA?!
+@hide BA
+NA: She laughs softly and walks away.
+
+FR: My God.
+
+FR: You really attract trouble.
+
+@goto .scene7B-2end
+
+#scene7B-2
+@hide FR
+@char BA pos:{rightmid}
+PLAYER: But…what about Alvarenga?
+@char BA.neutral
+NA: Bárbara's smile fades just a little.
+
+BA: Oh.
+
+BA: So we've arrived at this.
+
+PLAYER: You're a married woman.
+
+BA: I am.
+
+PLAYER: Isn't that strange?!
+
+BA: Strange?
+
+NA: She crosses her arms.
+
+BA: Funny.
+
+BA: Yesterday you seemed very comfortable chasing after Hipólita.
+
+PLAYER: Hipólita is different, and I've already said that.
+
+BA: Is she?
+@char BA.determined
+NA: Her tone sharpens.
+
+BA: Because as far as I know, she's still engaged.
+
+PLAYER: It's not the same thing at all.
+
+BA: No?
+
+NA: One step closer.
+
+BA: Explain the difference to me, then.
+
+PLAYER: You have a husband!
+
+BA: And Hipólita has a fiancé.
+
+PLAYER: But…
+
+BA: But what?
+
+NA: Short pause.
+
+BA: It only bothers you when it's me?
+
+PLAYER: You omitted that!
+
+BA: And you judged quickly.
+
+NA: The tone rises quickly.
+@char BA.thinking
+BA: Besides...
+
+NA: She raises an eyebrow.
+
+BA: You didn't seem so worried when you admired certain male beauties.
+
+PLAYER: Bárbara, I'm not hitting on Alvarenga.
+@char BA.smile
+BA: Oh.
+
+NA: A small, cruel smile.
+
+BA: Now you remember him.
+
+PLAYER: That doesn't change the fact that it seems wrong!
+@char BA.neutral
+BA: Wrong.
+
+NA: She repeats, colder now.
+
+BA: Interesting word.
+
+BA: Well, I'd say wrong—
+
+NA: Her gaze meets his.
+
+BA: It's feigning interest and then backing away the instant things get complicated.
+
+PLAYER: That's not fair.
+
+BA: No.
+
+NA: She laughs humorlessly.
+
+BA: It's not.
+
+NA: She sighs.
+
+BA: Then forget it.
+
+NA: She takes a half step back, like someone building a wall.
+
+BA: Clearly this was my mistake.
+
+PLAYER: Bárbara…
+
+BA: No.
+
+NA: The tone is cutting.
+
+BA: If it's so scandalizing, I won't bother you again.
+
+NA: A beat
+@char BA.sad
+BA: It was a pleasure meeting you.
+
+NA: But her gaze seems more hurt than she'd like to admit.
+
+@choice "Wait. That's not it" goto:.scene7A
+
+@choice "Maybe it's better this way" goto:.scene7B
+
+@stop
+
+
+#scene7A
+
+PLAYER: Wait.
+
+NA: She stops, but doesn't look at you immediately.
+
+PLAYER: That's not it.
+
+PLAYER: Just…
+
+NA: You hesitate.
+
+PLAYER: It's complicated.
+
+PLAYER: I like you.
+
+PLAYER: But I don't know what to do with…
+
+NA: A vague gesture.
+
+PLAYER: All of this.
+
+NA: Finally, she looks at you.
+
+BA: Hm.
+
+NA: Less defensive now.
+
+PLAYER: And maybe I'm being an idiot.
+
+BA: Maybe.
+
+BA: But at least an honest idiot.
+
+PLAYER: Was that a compliment?
+
+BA: One of the highest you'll receive from me.
+
+NA: A silence, lighter now.
+
+BA: Listen.
+
+NA: The tone softens.
+
+BA: I didn't ask you for promises or madness.
+
+BA: Just one night.
+
+PLAYER: Okay.
+
+PLAYER: I accept.
+@char BA.smile
+NA: Her smile returns.
+
+BA: Good.
+
+BA: As night falls near the church.
+
+NA: She approaches a little.
+
+BA: And try not to overthink.
+
+NA: A beat
+
+BA: You look so adorable when you're confused.
+
+
+PLAYER: Bárbara.
+
+BA: See you later.
+@hide BA
+NA: And this time she left smiling.
+
+@goto .scene7Bend
+
+#scene7B
+
+PLAYER: Maybe…
+
+NA: You take a deep breath.
+
+PLAYER: It's better this way.
+
+NA: The silence is heavy and Bárbara remains motionless for a moment.
+@char BA.neutral
+BA: I understand.
+
+NA: Her tone changes, it's polite but cold.
+
+BA: Then I won't take up any more of your time.
+
+PLAYER: I didn't want to…
+
+BA: No.
+
+NA: She raises her hand, stopping you.
+
+BA: Don't make this more embarrassing than it already is.
+@char BA.smile
+BA: I sincerely hope...
+
+NA: Her smile returns, but it seems empty.
+
+BA: That Hipólita or some other single soul will keep you company.
+
+NA: This hurts more than it should.
+
+BA: As for me…
+
+NA: She straightens her posture, like armor.
+
+BA: I believe I don't wish to see you again.
+
+BA: Farewell.
+
+NA: And then she leaves without looking back.
+
+NA: The silence seems too long afterward.
+@char {PLAYER}2.sad
+PLAYER: (Ah.)
+
+PLAYER: (I ruined everything.)
+@goto .BadEnd
+;GAME OVER — "Tarde Demais"
+#scene7B-2end
+;Depois das escolhas
+@stopBgm fade:2 !wait
+NA: The door closes, you see Barbara leaving, and the silence lasts exactly two seconds.
+@char FR.neutral pos:{rightmid}
+FR: So.
+@bgm respite
+NA: Francisca crosses her arms slowly.
+
+FR: You really accept nighttime invitations from married women now.
+
+PLAYER: Don't start.
+
+FR: "Don't start"?
+
+NA: She points dramatically to the door.
+
+FR: The elegant creature comes to my inn and invites you to a date…
+
+NA: A beat.
+
+FR: And I "don't start"?
+
+PLAYER: It's not a date.
+
+FR: Ah.
+
+FR: Of course.
+
+NA: She brings her hand to her chest.
+
+FR: Because people certainly walk alone at nightfall out of sheer appreciation for the architecture of Vila Rica.
+
+PLAYER: When you put it like that.
+
+FR: With a beautiful, married woman.
+
+PLAYER: You're worse than usual today.
+
+FR: I'm inspired.
+
+NA: You sigh.
+
+PLAYER: I don't even know what to think.
+
+FR: I know.
+
+NA: A beat.
+
+FR: You're thinking:
+
+NA: She raises her voice in a terrible impression of you.
+
+FR: "My God."
+
+FR: "The beautiful woman wants to go out with me."
+
+FR: "But she has a handsome husband."
+
+FR: "Who is also handsome."
+@char {PLAYER}2.surprise
+PLAYER: I DIDN'T SAY THAT.
+@char FR.smile
+FR: Not with words.
+
+NA: Her smile widens.
+
+FR: But your face said it all.
+
+PLAYER: You're unbearable.
+
+FR: And yet you hugged me.
+
+NA: A pause, and she seems to be thinking about something.
+
+FR: Which, by the way, doesn't authorize you to abandon me for handsome aristocrats.
+
+PLAYER: You're exaggerating.
+
+FR: I'm being realistic.
+@char FR.neutral
+NA: She moves a little closer.
+
+FR: So you intend to kiss a married woman?
+@char {PLAYER}2.sad
+PLAYER: But please…
+
+FR: Valid question.
+
+PLAYER: I don't even know if anything will happen.
+
+FR: Hm.
+
+NA: She watches you, clearly judging.
+
+FR: By the way Lady Bárbara looked at you… I might bet money on it.
+
+PLAYER: Stop.
+
+FR: I just want to be prepared.
+
+PLAYER: Prepared for what?
+
+FR: For tragedy or marriage.
+
+FR: I haven't decided yet.
+@char {PLAYER}2.thinking
+PLAYER: With a MARRIED WOMAN?
+
+FR: Vila Rica has seen worse.
+
+FR: Besides, I've already realized that common sense isn't exactly your talent.
+@char {PLAYER}2.neutral
+PLAYER: I hate you.
+
+FR: That's a lie.
+
+NA: She points to the kitchen.
+
+FR: Now that you're going to meet an elegant woman, maybe you'll stop looking like someone who went to bed angry with the world.
+
+PLAYER: Maybe…
+
+PLAYER: What do I do until then?
+@char FR.thinking
+FR: Hm.
+
+NA: She thinks.
+
+FR: You can help me or go out for a bit before you go crazy thinking too much.
+@goSub .BlackScreen
+;Passagem de Tempo
+@back bg_squareNight
+NA: Night falls slowly over Vila Rica.
+@char BA.neutral pos:{mid}
+@bgm barbara
+NA: When you get close to the church, she's already there.
+
+NA: Leaning against the stone wall, looking like an overpriced painting.
+@char BA.neutral pos:{rightmid}
+@char {PLAYER}2 pos:{leftmid}
+BA: Punctual.
+
+PLAYER: I thought a mysterious woman like you would be late.
+@char BA.smile
+BA: Only when I want to cause suffering.
+
+NA: Her smile is small.
+
+BA: Come.
+
+NA: Without much explanation, she starts walking.
+
+NA: You climb the path, moving away from the houses, noise, and voices.
+
+NA: The climb is narrow, and you feel your calves ache a little, but Bárbara climbs with familiar ease.
+
+NA: She stops and looks at you sometimes, clearly noticing your difficulty with the path.
+@back bg_overlookNight
+NA: Until only the wind and the distant glow of the village lights remain.
+
+NA: The overlook is simple, old stones and tall grass.
+
+NA: But the view up there is beautiful, the whole city seems smaller from up there.
+
+NA: The stars in the sky seem to shine even brighter, and the small illuminated houses along with the trees look like a painting.
+
+BA: It's quiet here.
+
+PLAYER: It's beautiful.
+
+NA: She sits down first, without ceremony.
+
+BA: And nobody interrupts.
+
+BA: Almost nobody.
+
+NA: You sit next to her.
+
+NA: Not too close, but close enough.
+
+PLAYER: Do you come here often?
+
+BA: When I need to think.
+
+BA: Or escape.
+
+PLAYER: From what?
+
+NA: She looks at the village.
+
+BA: People.
+
+BA: Expectations… and the versions of me they create.
+
+NA: The wind moves a few strands of her hair.
+
+BA: It's tiring being watched all the time.
+
+PLAYER: You seem to handle it well.
+
+BA: Seeming and feeling are different things.
+
+NA: The silence between you two isn't bad.
+
+PLAYER: Can I ask you something?
+
+BA: Depends.
+
+PLAYER: About Alvarenga.
+
+NA: She lets out a small sigh, as if she expected it.
+
+BA: Ah.
+
+BA: We finally got to the doctor.
+
+PLAYER: You noticed?
+@char BA.thinking
+BA: My dear.
+
+NA: She raises an eyebrow.
+
+BA: I notice almost everything.
+@char BA.neutral
+BA: Ask.
+
+PLAYER: Do you like him?
+@char BA.smile
+NA: She laughs softly, almost surprised.
+
+BA: I do.
+
+PLAYER: Are you in love?
+
+NA: The smile changes, seems smaller.
+
+BA: That question is more complicated.
+
+NA: Short pause.
+
+BA: Alvarenga is probably one of the kindest men I've ever met.
+
+NA: She distractedly fiddles with her necklace.
+
+BA: He's honest, patient, and kind even when he shouldn't be.
+
+PLAYER: He seems like it.
+
+BA: It's rare.
+
+BA: Men like that are rare.
+@char BA.thinking
+BA: Look at Hipólita's fiancé.
+
+NA: She grimaces.
+
+BA: I would never marry a man like that.
+
+PLAYER: You and Alvarenga seem to get along well.
+@char BA.smile
+BA: We're partners.
+
+NA: She smiles slightly, seeming more sincere.
+
+BA: We talk a lot.
+
+BA: I tend to be brutally honest with him, and he with me.
+
+NA: A beat.
+
+BA: We're not always happy, but we rarely lie.
+
+PLAYER: So… you love each other?
+
+BA: In our own way.
+
+NA: Her gaze shifts to the city.
+
+BA: Our beginning was a scandal.
+
+BA: We couldn't get married.
+
+BA: He was a royal magistrate, and Portuguese law forbade it.
+
+NA: She laughs humorlessly.
+
+BA: So we did something society hates.
+
+PLAYER: What?
+
+BA: We stayed together anyway.
+
+BA: Without blessing, without permission.
+
+BA: No feigning shame.
+
+NA: She looks at you.
+
+BA: The city loved hating us.
+
+PLAYER: That's kind of romantic.
+
+BA: It's also inconvenient.
+
+NA: A small smile.
+
+BA: Then we managed to make it official.
+
+BA: With the help of the Church and a little stubbornness.
+
+NA: The wind blows stronger and she twirls the ring on her finger.
+
+BA: Still, marriage doesn't solve everything.
+
+PLAYER: But you seem to like him and he likes you.
+
+BA: I like him a lot.
+
+NA: She smirks
+
+BA: He deserves someone better than me sometimes.
+
+PLAYER: That sounds sad.
+
+BA: Maybe.
+
+BA: Or just grown-up.
+
+NA: She turns her body slightly, observing you now.
+
+BA: But tell me…
+
+BA: Do you think he's handsome?
+@char {PLAYER}2.shy
+NA: Your eyes widened at the question and you felt your face heat up; that was direct.
+
+PLAYER: Maybe.
+@char BA.happy
+BA: Maybe?
+
+NA: She laughs.
+
+BA: Oh, please.
+
+PLAYER: He was the first person I met here.
+
+PLAYER: He helped me… there’s a certain affection involved.
+@char BA.smile
+BA: Hm.
+
+NA: She seems genuinely amused.
+
+BA: He’s handsome, I don’t blame you.
+
+BA: Even though he’s older than he should be.
+@char {PLAYER}2.thinking
+PLAYER: You talk like he's an old man.
+
+BA: Because he complains about his back.
+
+PLAYER: He doesn’t look old enough for that.
+
+BA: Oh, no.
+
+NA: Her smile widens, teasing.
+
+BA: Physically, I believe the doctor is doing very well.
+
+BA: And I believe nature has been quite generous to the doctor.
+@char {PLAYER}2.surprise
+NA: You almost choke on the comment.
+
+PLAYER: Bárbara.
+@char BA.thinking
+BA: What?
+
+NA: She raises an eyebrow, feigning innocence.
+
+BA: I'm a married woman.
+
+BA: I have divine permission for certain comments.
+@char {PLAYER}2.neutral
+PLAYER: And you speak very calmly about it.
+@char BA.smile
+BA: Should I be worried?
+
+NA: A small smile.
+
+BA: Alvarenga has never given me reason to be.
+
+NA: She crosses one leg over the other.
+
+BA: Besides...
+
+NA: A slow smile forms, mischievous and calculated.
+
+BA: The doctor usually fulfills his duties very well…
+
+BA: …Let's just say he doesn't exactly… disappoint me either.
+@char {PLAYER}2.embarrass
+NA: If there were a hole nearby, you'd certainly fall into it right now.
+
+PLAYER: …
+@char {PLAYER}2.shy
+PLAYER: Bárbara, for God's sake…
+
+BA: What?
+
+NA: She looks dangerously pleased.
+
+BA: Don't make me feign innocence.
+
+NA: She leans in slightly.
+
+BA: The man studied abroad, writes poetry, and has never been one to do anything halfway.
+
+PLAYER: You made that sound…
+@char BA.happy
+BA: Scandalous?
+
+NA: She laughs, clearly amused by the situation.
+
+BA: I'm his wife, I can compliment him.
+@char BA.thinking
+NA: She looks at the sky as if thinking.
+
+BA: Let's just say…
+
+NA: Her gaze returns to you.
+
+BA: ...Age has never hindered him in any way.
+@char {PLAYER}2.embarrass
+PLAYER: BÁRBARA, THAT'S ENOUGH!
+@char BA.smile
+BA: My.
+
+NA: She laughs softly.
+
+BA: You blush easily.
+@char {PLAYER}2.thinking
+PLAYER: You do this on purpose.
+
+BA: I do.
+
+PLAYER: You like to embarrass me.
+
+BA: Very much.
+
+NA: A beat.
+
+BA: But I confess
+
+NA: Her smile sharpens.
+
+BA: I find it adorable how much your interest in my husband seems… visual.
+
+PLAYER: What?
+
+BA: His hands.
+@char {PLAYER}2.embarrass
+NA: You start thinking about all the possibilities of her knowing about this.
+
+PLAYER: (Clearly it must have nothing to do with Francisca shouting this to half the fair.)
+
+PLAYER: How did you…
+@char BA.happy
+BA: Oh.
+
+NA: She laughs.
+@char BA.smile
+BA: So I was right, you noticed the hands.
+
+PLAYER: It wasn't like that…
+
+NA: You realize you gave yourself away for no reason and curse mentally.
+
+NA: A dangerously satisfied smile.
+
+BA: Visible veins and long fingers.
+
+BA: I understand perfectly.
+@char {PLAYER}2.neutral
+PLAYER: I'm leaving.
+
+BA: You won't.
+
+NA: She laughs softly.
+
+BA: Besides, I'm almost certain he'd like to know he arouses such interest.
+@char {PLAYER}2.embarrass
+PLAYER: DON'T YOU DARE.
+
+BA: Now maybe I want it even more.
+
+BA: But don't worry.
+
+BA: You have no competition.
+
+PLAYER: WHAT?
+
+BA: Nothing.
+
+NA: She laughs softly, like someone who just threw wood on a fire on purpose.
+@char {PLAYER}2.neutral
+NA: The wind blows between you.
+
+NA: And for the first time that night, the silence seems too comfortable.
+
+PLAYER: Can I ask something else?
+
+BA: Depends on how intrusive.
+
+PLAYER: Why did you marry him?
+
+NA: The question comes out faster than you intended.
+@char BA.neutral
+NA: Bárbara doesn't answer right away.
+
+NA: She looks at the village, her eyes lost in something distant, almost like a memory from the past.
+
+BA: That's a dangerous question.
+
+PLAYER: Sorry.
+
+BA: No.
+
+NA: A beat.
+
+BA: Just difficult.
+
+NA: She distractedly runs her fingers over her own necklace, as if organizing something.
+
+BA: When I was younger...
+
+BA: ...I fell in love.
+
+PLAYER: With Alvarenga?
+
+BA: No.
+
+NA: The tone is low, almost distant.
+
+BA: With a woman.
+@char {PLAYER}2.surprise
+NA: The silence hits hard and you're surprised.
+
+PLAYER: Oh my God.
+
+PLAYER: You're bi?
+
+NA: Bárbara slowly turns her face.
+@char BA.thinking
+BA: I am what?
+
+PLAYER: Or pan?
+
+BA: Like a pot?
+
+PLAYER: No…
+
+PLAYER: It's a term from my…
+@char {PLAYER}2.thinking
+NA: You freeze.
+
+PLAYER: Area.
+
+BA: Hm.
+
+NA: She clearly finds it strange.
+
+BA: You use very curious words.
+@char {PLAYER}2.neutral
+PLAYER: Sorry.
+
+PLAYER: But…
+
+NA: A short pause, and your eyes almost sparkle.
+
+PLAYER: A woman?
+@char BA.neutral
+BA: Yes.
+
+NA: Her smile doesn't come this time.
+
+BA: She was kind.
+
+BA: Much kinder than I deserved.
+
+PLAYER: What happened?
+
+BA: The century happened.
+
+BA: Society, church, men, and families.
+
+NA: Her tone hardens.
+
+BA: There was no future.
+
+BA: There wasn't even a name for it.
+
+NA: She laughs humorlessly.
+
+BA: We kissed in secret. We touched in secret… and…
+
+BA: …We made love in secret.
+
+NA: A beat.
+
+BA: And then it was all over.
+
+PLAYER: Do you still think about her?
+@char BA.sad
+BA: Sometimes.
+
+NA: Her gaze becomes distant again.
+
+BA: But I think more about the feeling.
+
+PLAYER: What feeling?
+
+BA: Being chosen.
+
+NA: It comes out small, more vulnerable than anything so far.
+
+NA: You go quiet.
+
+BA: After that I learned something.
+
+PLAYER: What?
+
+BA: That love is rarely enough.
+
+BA: Then came Alvarenga.
+@char BA.smile
+BA: Kind, patient, honest… he was safe.
+
+NA: A small smile finally appears.
+
+BA: And unlike many men, he never tried to break me.
+
+BA: He never tried to belittle me.
+
+PLAYER: But do you love him?
+
+BA: In my own way.
+
+BA: But not like that first time.
+
+PLAYER: That sounds sad.
+
+BA: It is.
+@char BA.neutral
+NA: She looks at you, directly now.
+
+BA: I'm afraid of many things.
+
+PLAYER: Like what?
+
+BA: Loneliness.
+
+BA: Losing control.
+
+BA: Needing someone more than I should.
+@char BA.smile
+NA: The smile becomes smaller, more genuine.
+
+BA: And maybe…I've never been truly loved.
+
+BA: Not entirely.
+
+BA: Not chosen.
+
+BA: I was desired, admired, and… talked about.
+
+NA: She laughs softly without joy.
+
+BA: But chosen?
+
+NA: She shakes her head.
+
+BA: I don't know if I ever was.
+
+NA: The wind blows.
+
+NA: And for the first time that night, Barbara seems less impossible.
+
+NA: More human, sadder, and closer.
+
+PLAYER: …
+
+NA: You don't quite know what to say, but you know you want to say something.
+
+@choice "I like you" goto:.scene8B-1
+
+@choice "Comfort Bárbara" goto:.scene8B-2
+
+@stop
+
+
+
+#scene8B-1
+@set afetoBarbara+=1
+NA: Silence weighs heavily between you, but not in a bad way.
+
+NA: You hesitated a little, as it seemed too daunting to say aloud.
+
+NA: Bárbara doesn't respond immediately.
+
+BA: Hm.
+
+NA: She watches you.
+
+NA: Too intently, as if trying to figure out if you're going to run away from your own sentence.
+
+PLAYER: I know it's complicated.
+
+PLAYER: And that you're married… to Alvarenga…
+
+BA: I am.
+
+PLAYER: But still…
+
+NA: You sigh.
+
+PLAYER: I like you… I don't know how to explain it but…
+
+NA: For the first time that night, she seems speechless.
+
+BA: This is terribly inconvenient.
+
+PLAYER: You started it.
+
+BA: I did.
+
+NA: She has a small, almost shy smile.
+
+BA: But I confess—
+
+NA: She moves closer, just enough.
+
+BA: That's nice to hear.
+
+BA: To be chosen.
+
+
+BA: Even by someone with clearly questionable judgment.
+
+PLAYER: Are you insulting me?
+
+
+BA: Affectionately.
+
+NA: The wind blows between you.
+
+BA: Can I do something deeply irresponsible?
+
+PLAYER: That was a terrifying request.
+
+BA: I'll take that as a maybe.
+
+@goto .scene8B-2end
+
+#scene8B-2
+
+NA: You notice how she avoids looking directly at you.
+
+PLAYER: Hey.
+
+NA: A beat.
+
+PLAYER: I think you're wrong.
+
+BA: About what?
+
+PLAYER: About never being chosen.
+
+NA: She laughs softly, disbelieving.
+
+BA: You're kind.
+
+PLAYER: No.
+
+PLAYER: I mean it.
+
+NA: You think for a second, but continue.
+
+PLAYER: Maybe people have loved parts of you.
+
+PLAYER: But that doesn't mean…
+
+NA: A brief pause.
+
+PLAYER: That you don't deserve someone who chooses all of it.
+@char BA.neutral
+NA: Her gaze shifts, as if that had hit a sensitive spot.
+
+BA: That was dangerously kind.
+
+PLAYER: Sorry.
+
+BA: Don't apologize.
+
+NA: She approaches slightly, closer now.
+
+
+BA: I think I needed to hear that.
+
+BA: Even if it came from someone with questionable taste.
+@char {PLAYER}2.thinking
+PLAYER: Because I like you?
+
+BA: Because you also think my husband is handsome.
+@char {PLAYER}2.surprise
+PLAYER: BÁRBARA.
+@char BA.happy
+NA: She laughs, soft and quiet.
+
+BA: But…
+@char BA.smile
+NA: The smile diminishes, becoming more sincere.
+
+BA: Thank you.
+
+NA: She looks at you and then looks away.
+
+BA: Can I do something impulsive?
+#scene8B-2end
+;Depois das escolhas
+@goSub .BlackScreen
+@back CGB02_{gender}_01 id:CG time:0
+@unlock CG/CGB02_{gender}_1
+NA: For a moment neither of you speak, Bárbara just watches you.
+
+NA: As if she were making a decision.
+
+BA: You're a problem.
+
+PLAYER: Me?
+
+BA: You.
+
+NA: Her smile is small, but dangerous.
+
+BA: And an unexpected problem.
+
+NA: Before you can answer, she slowly approaches.
+
+NA: Without haste, giving the impression that she could stop at any moment.
+
+NA: But she doesn't.
+
+NA: Your heart races.
+
+NA: Bárbara raises a hand.
+
+NA: Her fingers find your shoulder, firm and warm.
+
+NA: The touch doesn't seem timid, it never would be.
+
+NA: You feel a shiver run through your body.
+
+NA: Your faces are close, too close.
+
+BA: You're still overthinking.
+
+PLAYER: And you…
+
+NA: The sentence dies because she's too close.
+
+NA: Bárbara smiles, as if she knows exactly the effect she has.
+@back CGB02_{gender}_02 id:CG
+NA: Her gaze slowly descends to your mouth.
+
+NA: And remains there, long enough to leave you speechless.
+
+NA: Her smile grows only slightly.
+
+NA: The provocation is silent.
+
+NA: Then she looks back into your eyes, as if daring you to back away.
+
+NA: You don't back away.
+
+NA: And she seems to like that very much.
+
+NA: Her fingers lightly squeeze your shoulders.
+
+NA: Bringing you a little closer.
+
+NA: There is no more distance, no room for doubt.
+@back CGB02_{gender}_03 id:CG
+NA: And then you feel her lips against yours, soft and warm.
+
+NA: The kiss begins extremely slowly, she brushes her lips against yours.
+
+NA: But then you feel her tongue against your lower lip and you can't think straight, just thirst.
+
+NA: The kiss deepens, hot and so slow it's almost torturous, tongues moving against each other and Barbara's taste is so sweet it could be intoxicating.
+
+NA: Her tongue invading your mouth without asking permission, exploring with a possessiveness that makes you moan against her mouth.
+
+NA: The world seems distant, the village lights, the wind, the voices.
+
+NA: Everything disappears.
+
+NA: Only the warmth of that moment remains.
+
+NA: Finally, she lightly bites your lower lip and slowly pulls away.
+
+NA: You see her satisfied smile, but there's a glint in her eyes, dilated pupils, a genuine desire.
+@back CGB02_{gender}_02 id:CG
+BA: See?
+
+PLAYER: What?
+
+NA: You ask, your breath ragged.
+
+BA: Much better than arguing.
+
+NA: And from the playful glint in her eyes, she clearly intends to keep teasing you for the rest of the night.
+
+BA: I think you're causing me trouble now.
+@back CGB02_{gender}_03 id:CG
+NA: And before you can answer, she pulls you back close.
+
+NA: As if she wanted to forget the world for a few minutes again.
+@stopBgm fade:1 !wait
+@hide CG
+;@back cg_black.Crossfade id:CG !wait
+@goSub .BlackScreen
+;Depois da cena
+@bgm wander
+@back bg_squareNight.Crossfade time:0 !wait scale:3.0 pos:-65,90
+NA: The way back seems shorter.
+
+NA: Or maybe it's just because you're too distracted to notice.
+
+NA: The night breeze is cool.
+
+NA: And no matter how hard you try to think of something else, you keep remembering the overlook.
+
+NA: Bárbara's smile, the sparkle in her eyes, and the kiss.
+@char {PLAYER}2.neutral
+PLAYER: (This was a bad idea.)
+
+PLAYER: (Actually, a terrible idea.)
+@char {PLAYER}2.smile
+NA: But you let out a silly smile.
+
+PLAYER: (An extremely good idea.)
+@char {PLAYER}2.smile
+NA: You sigh and almost trip over a rock.
+
+VOICE: Careful.
+
+NA: You raise your head and freeze.
+
+PLAYER: Oh no.
+@char {PLAYER}2 pos:{leftmid}
+@char AL.neutral pos:{rightmid}
+NA: Alvarenga is standing a few steps ahead.
+
+AL: Good evening.
+@char {PLAYER}2.neutral
+PLAYER: Good evening.
+
+NA: An awkward silence passes between you.
+
+AL: Coming back late.
+
+PLAYER: Yes.
+
+AL: Taking a walk?
+
+PLAYER: Sort of.
+
+AL: Hm.
+
+NA: His gaze is calm and polite.
+
+NA: Which, for some reason, makes everything worse.
+
+AL: Where are you coming from?
+
+PLAYER: From the overlook.
+
+AL: Ah.
+
+NA: A beat.
+
+AL: Alone?
+
+NA: You open your mouth, close it, and open it again.
+
+PLAYER: I...
+
+NA: Silence answers before you do.
+
+NA: And Alvarenga notices, of course he notices.
+
+AL: I see.
+
+NA: And that's worse than any accusation.
+
+PLAYER: It's not what it looks like.
+@char AL.thinking
+AL: Curiously, I didn't ask what it looked like.
+
+PLAYER: ...
+@char AL.neutral
+NA: He sighs.
+
+AL: Can I ask a question?
+
+PLAYER: I think so.
+
+AL: Have you ever liked something you knew you couldn't have?
+
+NA: The question comes calmly, without aggression or judgment.
+
+PLAYER: ...
+
+AL: And how far should someone go for that feeling?
+
+NA: Your heart tightens.
+
+PLAYER: I don't know.
+
+AL: Me neither.
+
+NA: His eyes seem distant, as if he were thinking about something beyond that conversation.
+
+AL: But I believe some choices come at a price.
+@char AL.smile
+NA: He smiles, it's a small, tired smile.
+
+AL: Good night.
+
+PLAYER: Good night, doctor.
+@hide AL
+NA: He keeps walking.
+
+NA: And you stand still for a few seconds.
+
+NA: Feeling strangely guilty.
+
+PLAYER: (That was worse than if he had yelled.)
+
+NA: When you finally arrive at the inn, the lights are already off.
+
+PLAYER: ...
+
+PLAYER: Of course.
+
+NA: You fiddle with it, but realize the door is locked.
+
+NA: You knock and nothing.
+
+NA: You knock again and nothing.
+
+PLAYER: Francisca is going to kill me.
+
+NA: You look at the window, then at the roof.
+
+NA: And then at the window again.
+
+PLAYER: (This is a terrible idea.)
+
+NA: Five minutes later you're trying to climb a tree near the inn that overlooks the roof.
+
+PLAYER: (Terrible idea.)
+
+NA: You think as your feet slip slightly off the tree because of your period shoes, but you manage to grab on and climb onto the roof.
+
+NA: Ten minutes later you're on the roof, but you step on a loose plank and, while grabbing it, fall through the window.
+@hide MainBackground
+@back bg_innNight scale:1 pos:50,50 time:0
+PLAYER: OUCH!
+
+NA: As you fall inside, a loud thud echoes.
+@char FR.surprise pos:{rightmid}
+FR: AAAAAAAAH!
+@char {PLAYER}2.surprise pos:{leftmid}
+PLAYER: AAAAAAAAH!
+
+NA: Francisca jumps out of bed.
+
+FR: THIEF!
+
+PLAYER: FRANCISCA, IT'S ME!
+
+FR: EVEN WORSE!
+
+NA: A pillow flies towards you and hits your head.
+
+PLAYER: OW!
+
+FR: WHAT THE HELL ARE YOU DOING IN MY ROOM?
+
+PLAYER: I CAME IN THROUGH THE WRONG WINDOW!
+
+FR: THAT EXPLANATION DOESN'T HELP!
+
+PLAYER: The door was locked so I came in through the window, but I think I miscounted, it should have been my bedroom window.
+
+FR: You broke into my room.
+
+PLAYER: I did.
+
+FR: Like a lover.
+@char {PLAYER}2.neutral
+PLAYER: Francisca, when you talk like that it doesn't help.
+
+FR: Like a very incompetent lover.
+
+PLAYER: FRANCISCA PLEASE.
+@char FR.neutral
+NA: She lights a candle and finally looks at you properly.
+@char FR.thinking
+FR: Hm.
+
+NA: She narrows her eyes.
+
+FR: That face.
+
+PLAYER: What face?
+
+FR: The face.
+
+NA: A beat.
+
+FR: Did something happen?
+
+PLAYER: ...
+@char FR.surprise
+FR: OH.
+
+NA: She sits on the bed.
+
+FR: Something happened.
+
+PLAYER: I talked to Bárbara at the lookout point tonight.
+
+FR: You just talked?
+
+PLAYER: We talked about a few things and then we got closer and…
+
+FR: Oh my God.
+
+PLAYER: We kissed…
+
+FR: YOU KISSED THE MARRIED WOMAN.
+@char {PLAYER}2.surprise
+PLAYER: Speak quieter! It's not for the whole of Vila Rica to know.
+
+FR: YOU KISSED THE MARRIED WOMAN.
+
+PLAYER: FRANCISCA, PUT IT IN THE NEWSPAPER RIGHT AWAY ALONG WITH TIRADENTES' REVOLUTION.
+
+FR: Dear lord.
+
+NA: She puts her hand to her forehead.
+
+FR: I leave you alone for ONE night.
+@char {PLAYER}2.neutral
+PLAYER: It wasn't like that.
+@char FR.neutral
+FR: It was exactly like that.
+
+PLAYER: And it gets worse.
+
+FR: WORSE?
+
+PLAYER: I met Alvarenga right after.
+
+NA: Silence.
+
+FR: Let's pray to heaven that the doctor never develops an inclination for pastoral life.
+@char {PLAYER}2.thinking
+PLAYER: I don't understand.
+
+FR: With so many horns, he'd end up being mistaken for a goat.
+@char {PLAYER}2.neutral
+NA: Laughter settles in your throat, but you feel guilty too.
+
+FR: Did you kiss him too?
+@char {PLAYER}2.surprise
+PLAYER: NO!
+
+FR: What a pity.
+
+PLAYER: FRANCISCA!
+
+FR: I needed to make sure.
+@char {PLAYER}2.neutral
+PLAYER: You're awful.
+
+FR: And you're a disaster.
+
+NA: She points at you.
+
+FR: First you're charmed by the wife and then by the husband.
+
+FR: If you keep going at this rate, the poor doctor will end up looking like a deer with his head so adorned.
+
+PLAYER: I don't…
+
+FR: Don't finish that sentence, even you don't believe it.
+@char {PLAYER}2.embarrass
+NA: You cover your face in embarrassment.
+
+PLAYER: I'm leaving.
+
+FR: Yes.
+
+FR: Go to sleep.
+
+NA: She points to the door.
+
+FR: And try not to break into any more residences tonight.
+
+PLAYER: It was an accident.
+
+FR: It was a courting.
+
+PLAYER: Good night, Francisca.
+
+FR: Good night.
+
+NA: Short pause.
+
+FR: Lover.
+
+PLAYER: FRANCISCA, I have ears!
+@hide FR
+NA: Her laughter follows you down the hallway.
+
+NA: And when you enter the room you are exhausted with a variety of emotions and thoughts.
+
+NA: Feeling confused and guilty at the same time, questioning your morals and character almost.
+
+NA: And so you fall asleep in bed.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+;Cap 6 -
+@back bg_innDay
+NA: The next day, morning goes by calmly.
+
+NA: You're still trying to organize your thoughts from the previous night.
+
+NA: Which isn't working very well.
+
+VOICE: May I speak with you?
+@char {PLAYER}2.neutral pos:{leftmid} !wait
+@char HI.neutral pos:{rightmid}
+NA: You turn around and Hipólita is there.
+
+NA: Elegant as always, but clearly uneasy.
+
+HI: About the meeting.
+
+HI: And about some things that happened after it.
+
+NA: You notice she chose her words carefully.
+
+PLAYER: Of course.
+
+NA: Hipólita takes a small step closer.
+
+HI: I believe certain people like to turn everything into a spectacle.
+
+VOICE: Some people need to compensate for a lack of substance.
+
+NA: You close your eyes.
+
+PLAYER: No.
+@stopBgm fade:1 !wait
+@bgm barbara
+@char BA.neutral pos:{mid}
+NA: Bárbara appears as if she'd been summoned.
+
+BA: Good morning.
+
+HI: Bárbara.
+
+BA: Hipólita.
+
+NA: The silence between the two could kill plants.
+
+HI: We were talking.
+
+BA: I noticed.
+
+HI: In private.
+@char BA.smile
+BA: Oh.
+
+NA: Bárbara smiles.
+
+BA: How intimidating.
+
+NA: Hipólita takes a deep breath.
+
+HI: I don't have time for this.
+
+BA: Me neither.
+
+NA: That's a lie, they both know, and you do too.
+
+HI: Anyway.
+
+NA: Hipólita looks at you again, but her confidence is no longer the same.
+
+HI: We'll talk later.
+@hide HI
+NA: She says goodbye quickly and leaves.
+@char BA pos:{rightmid}
+NA: Bárbara watches her leave, a little too pleased.
+
+BA: She likes you.
+
+PLAYER: Bárbara, listen to what you're saying.
+
+BA: What?
+
+NA: She looks at you.
+
+NA: Clearly expecting a response and gauging your reaction.
+
+PLAYER: You guys are impossible.
+
+BA: Diplomatic response.
+
+NA: Her smile widens.
+
+BA: Interesting.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+;O armazém
+@bgm tension
+NA: Days later, the atmosphere in Vila Rica changes.
+@back bg_squareDay
+NA: Soldiers appear more frequently.
+
+NA: Comments on taxes, inspections, and investigations.
+
+NA: And then the rumors come.
+
+NA: The Crown is checking the gold trade.
+
+NA: More rigorously than before.
+
+NA: When you hear Bárbara's name, your stomach sinks.
+@back bg_warehouseDay
+NA: And you run desperately and find the warehouse in chaos.
+
+NA: Soldiers, open crates, scattered goods, and orders being shouted.
+
+NA: And then you see her.
+@char {PLAYER}2.surprise pos:{mid}
+PLAYER: Bárbara!
+
+NA: She emerges from a side door, trying to escape.
+
+NA: One of the soldiers sees her.
+
+NA: The push happens too quickly, and she stumbles.
+
+NA: She hits wood and stone and falls.
+
+PLAYER: BÁRBARA!
+@goSub .BlackScreen
+;CG
+@stopBgm fade:1 !wait
+NA: You run to her.
+@back CGB03_{gender}_01 id:CG time:0
+@unlock CG/CGB03_{gender}_1
+@bgm barbara
+NA: As you kneel, the blood catches your attention.
+
+NA: Running down her left arm.
+
+NA: For the first time, she doesn't seem invincible.
+
+BA: I'm fine.
+
+PLAYER: You're bleeding.
+
+NA: She looks at you, then at her arm, and nods.
+
+BA: I noticed.
+
+PLAYER: You need to sit down.
+
+BA: I don't.
+
+PLAYER: Yes, you do, you stubborn creature.
+
+NA: You help her up.
+
+NA: Carefully, as if she might break.
+@back CGB03_{gender}_02 id:CG
+NA: Bárbara notices and it bothers her.
+
+BA: Don't look at me like that.
+
+PLAYER: Like what?
+
+BA: As if I were fragile.
+
+PLAYER: You're not fragile, but you're hurt.
+
+BA: And still alive.
+
+NA: She tries to move away, proud and stubborn as always.
+
+BA: I can take care of myself.
+
+PLAYER: Bárbara..
+
+BA: I don't need pity.
+
+NA: Her tone comes out harsher than it should.
+
+NA: But you see.
+
+NA: The fear hidden behind the anger.
+
+NA: The shock and the vulnerability, everything she normally buries under charm and irony.
+
+PLAYER: Nobody is feeling pity.
+
+NA: She stops and looks deep into your eyes.
+
+PLAYER: I'm worried.
+
+NA: Silence follows immediately.
+
+NA: Bárbara doesn't seem to know what to do with that.
+
+PLAYER: For the first time since I met you...
+
+PLAYER: ...you seem scared and that scares me too.
+
+BA: ...
+
+PLAYER: And that's okay.
+
+NA: She averts her gaze for a moment.
+@back CGB03_{gender}_03 id:CG
+NA: You move closer and hug her tightly.
+
+NA: Without asking permission, without room for teasing and her mask.
+
+NA: First she stiffens, as if to complain or push you back.
+
+BA: ...
+
+NA: But she doesn't.
+
+NA: Slowly you feel her body relax.
+
+NA: Her fingers discreetly hold your clothes, almost hidden.
+
+NA: You close your eyes, feeling only her body against yours and smelling the scent of dried flowers.
+
+BA: I hate when you're right.
+
+PLAYER: I know.
+
+BA: And I hate seeming weak.
+
+PLAYER: I know that too.
+
+NA: A beat.
+
+BA: Thank you.
+
+NA: Her voice comes out so low it's almost lost in the wind.
+
+NA: But you listen, and for the first time Bárbara doesn't try to hide that she needed help.
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+;Passagem de tempo.
+@goSub .BlackScreen
+@back bg_overlookNight
+@char BA.neutral pos:{rightmid} !wait
+@char {PLAYER}2 pos:{leftmid}
+NA: The night is silent.
+
+NA: After the commotion at the warehouse, you ended up getting away from the village.
+
+NA: Away from the soldiers, from curious onlookers, away from everyone, really.
+
+NA: Bárbara is sitting beside you, her arm already bandaged.
+
+NA: For the first time, she seems truly tired.
+
+BA: Did you know that half this village believes I live only of dresses and smiles?
+
+PLAYER: Doesn't seem like a bad deal.
+@char BA.smile
+BA: It isn't.
+
+NA: She laughs, but the laughter doesn't last.
+@char BA.neutral
+BA: The truth is less interesting.
+
+BA: I'm the one who supports a good part of my family.
+
+NA: You stare at her.
+
+BA: In secret, because certain things are easier when men believe things were their idea.
+
+PLAYER: And Alvarenga allows this?
+
+NA: Bárbara lets out a short laugh.
+
+BA: Allows?
+
+BA: As if I asked his permission.
+
+PLAYER: That's not what I meant.
+
+BA: I know.
+
+NA: She shakes her head.
+
+BA: But many assume the doctor takes care of everything.
+
+BA: The bills, the house… the family.
+
+NA: She rolls her eyes.
+
+BA: As if I spent my days choosing ribbons and admiring flowers.
+
+PLAYER: So he doesn't support his family?
+
+BA: Alvarenga would support the whole world if he were allowed.
+
+NA: The comment is loaded with affection, even with the provocation.
+
+BA: That's precisely the problem.
+
+PLAYER: Problem?
+
+BA: Well.
+
+NA: She crosses her arms.
+
+BA: My family isn't his responsibility.
+
+BA: It's mine.
+
+NA: A short pause.
+
+BA: He helps because he's generous, I help because they're mine.
+
+BA: There's a considerable difference.
+
+PLAYER: So you do it in secret?
+@char BA.smile
+BA: Not always.
+
+NA: A small smile.
+
+BA: But it's simpler to let certain gentlemen believe they're saving the world.
+
+PLAYER: And Alvarenga?
+
+BA: Alvarenga knows.
+
+NA: Her smile softens.
+
+BA: He always knew.
+
+BA: And he was polite enough never to pretend I needed permission to do it.
+
+PLAYER: That sounds tiring.
+
+BA: It is.
+@char BA.neutral
+NA: She looks at her own hands.
+
+BA: The Crown knows this too, or suspects it.
+
+BA: That's why they watch my business.
+
+NA: That's why they ask questions, that's why they try to find something.
+
+NA: A beat.
+
+BA: And one day maybe they will.
+
+NA: The wind blows between you.
+@char BA.smile
+BA: When I was younger I thought I could choose my life.
+
+NA: She smiles humorlessly.
+@char BA.neutral
+BA: Then I learned that women rarely choose.
+
+BA: They choose for us.
+
+NA: A beat.
+
+BA: My father chose, society chose, the Church chose.
+
+NA: Her gaze is lost in the darkness.
+
+BA: And I adapted, as always.
+
+PLAYER: But you chose some things.
+
+BA: Few.
+
+BA: Fewer than I would have liked.
+
+NA: She turns to you.
+
+BA: You know what scares me the most?
+
+PLAYER: What?
+
+NA: For the first time she hesitates.
+
+BA: Trust.
+
+BA: Because every time I trusted someone...
+
+NA: She doesn't finish, and she doesn't need to.
+
+BA: And now I'm doing it again.
+
+NA: Your heart aches.
+
+BA: Which is a terrible idea.
+
+PLAYER: Bárbara…
+
+BA: And I don't want to lose you.
+
+NA: A heavy silence falls.
+
+BA: Not to Hipólita or for the alferes's revolution.
+
+NA: She holds your gaze.
+
+BA: Nor for anything else.
+@char BA.smile
+NA: She tries to smile, but the vulnerability shows through nonetheless.
+
+BA: See?
+
+BA: Terrible idea.
+
+NA: The moment lingers.
+
+NA: And then…
+
+@if afetoBarbara>5
+
+@goto .scene9B-1 
+; Final bom
+@else
+
+@goto .scene9B-2 
+; Final ruim
+@endif
+
+
+
+#scene9B-1
+
+
+PLAYER: It's not such a terrible idea.
+
+NA: Bárbara raises an eyebrow.
+
+PLAYER: Because I care about you too.
+
+NA: The silence that follows is different, it seems softer.
+
+BA: Hm.
+
+NA: She tries to appear indifferent and fails miserably.
+
+BA: How reckless of you.
+
+PLAYER: I learned from you.
+
+BA: Then it's my fault.
+
+PLAYER: Totally.
+@char BA.happy
+NA: Bárbara laughs softly.
+
+NA: And for the first time that night it seems lighter.
+
+BA: You're still trouble.
+
+PLAYER: And you like it.
+
+BA: Unfortunately.
+
+NA: She rests her head on your shoulder.
+
+NA: The gesture is small, almost shy, and extremely rare.
+
+BA: Thank you.
+
+NA: The tone is so sincere it's surprising.
+
+NA: And something changes there.
+
+NA: As if a part of her finally believes she's not alone.
+
+;NA: Tudo desmorona
+@stopBgm fade:2 !wait
+@bgm tension
+@back bg_squareDay
+NA: The days pass slowly after that night, but you are restless, just like Vila Rica.
+
+NA: Rumors become accusations, and accusations become arrests.
+
+NA: What was once whispered in candlelit rooms is now discussed in squares, taverns, and administrative corridors.
+
+NA: The Crown has discovered, or discovered enough.
+
+NA: Names begin to circulate.
+
+NA: Houses are watched, letters are intercepted, and men disappear during the night.
+
+NA: Some are arrested and released after betraying their companions, others try to escape.
+
+NA: And some simply await the inevitable.
+
+NA: The revolution died before it was even born.
+
+NA: The only strong name, and one that is condemned, is that of Tiradentes. He becomes a martyr and a symbol.
+
+NA: His humiliation is in a public square, and it is anything but gentle.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+;FLASHBACK
+@bgm backInTime
+NA: A few weeks ago, after the overlook meeting.
+@back bg_squareNight.Crossfade time:0 !wait scale:3.0 pos:-65,90
+NA: The front door closes.
+@char AL.neutral pos:{rightmid}
+NA: Alvarenga is seated at the table.
+
+NA: An open book lies untouched before him.
+@char BA.neutral pos:{leftmid}
+NA: When Bárbara enters, he looks up.
+
+AL: You're back late.
+
+BA: I am.
+
+NA: She calmly removes her gloves as if nothing were wrong.
+
+AL: I ran into someone on the way.
+
+BA: You did?
+
+AL: I did.
+
+NA: Silence falls.
+
+AL: They told me they came from the overlook.
+
+BA: And?
+
+AL: And they were telling the truth.
+
+NA: Bárbara rests a hand on the chair, studying him.
+
+AL: Are you hiding something from me?
+
+BA: What do you think?
+
+NA: Alvarenga lets out a slow, tired breath.
+
+AL: I think I know you.
+
+BA: You do.
+
+AL: And I think you rarely go to the overlook to admire the stars.
+@char BA.smile
+NA: A smile appears at the corner of her mouth.
+
+BA: Fair enough.
+
+AL: Then I'll just ask one question.
+
+NA: He closes the book.
+
+AL: Are you doing something that would shame our marriage?
+@char BA.neutral
+NA: The silence lasts much too long.
+
+BA: Perhaps.
+
+NA: Another pause.
+
+BA: Or yes.
+
+NA: Alvarenga closes his eyes for a moment.
+
+NA: Not out of anger or jealousy, just sadness.
+
+AL: I understand.
+
+BA: You don't seem surprised.
+
+AL: Because I'm not.
+
+NA: She frowns.
+
+AL: Bárbara.
+
+AL: After so many years, I know when you look at someone.
+
+NA: A beat.
+
+AL: And I also know when someone looks at you.
+
+BA: And you're not angry?
+@char AL.smile
+AL: I am.
+
+NA: He smiles humorlessly.
+
+AL: But not for the reasons you imagine.
+
+BA: Then why?
+
+AL: Because I noticed before you did.
+
+NA: The comment makes her blink.
+@char AL.sad
+AL: And because I suspect you haven't been happy for some time now.
+
+NA: For the first time, she has no answer.
+
+AL: You've never lacked honesty.
+
+AL: Don't start lying now.
+
+BA: ...
+
+AL: Do you like this person?
+
+NA: Silence answers.
+
+AL: I understand.
+
+NA: Alvarenga gets up and goes to the window, watching the village.
+
+AL: Things are getting worse.
+
+BA: I know.
+
+AL: If names are given... if there are arrests...
+
+AL: Maybe I'll be taken too.
+
+NA: Bárbara stands still.
+
+AL: Lawyers aren't usually forgiven when they know too much.
+
+BA: Don't talk like that.
+
+AL: I will.
+
+NA: He turns around.
+@char AL.determined
+AL: Because someone needs to.
+
+NA: A short pause, he stares at her seriously.
+
+AL: When that happens...
+
+AL: I want you to leave.
+
+BA: No.
+
+AL: I want to.
+
+BA: I won't abandon you...
+
+AL: Bárbara.
+
+NA: For the first time, his voice is firm and irrefutable.
+
+AL: I've spent half my life watching people choose for you.
+
+NA: He approaches.
+
+AL: I won't do the same.
+@char AL.smile
+NA: A small, sad smile.
+
+AL: But, this time, choose freedom.
+
+AL: Even if it's far from me.
+@char BA.sad
+NA: Bárbara feels her eyes burning.
+
+BA: You're an impossible man.
+
+AL: I've heard that many times.
+
+NA: He approaches.
+
+NA: Silence settles.
+
+NA: And for the first time in that conversation, neither of them seems to know what to say.
+
+NA: Years of shared experiences, years of complicity, arguments, trips, nights, letters, laughter, and dreams…
+
+NA: A whole life shared.
+
+NA: And yet there is no word capable of summing it all up.
+
+NA: Alvarenga raises one hand.
+
+NA: His fingers gently touch her face.
+
+NA: As they have done so many times over the years.
+
+NA: Bárbara closes her eyes for a moment.
+
+BA: You remain terribly kind.
+
+AL: And you remain terribly stubborn.
+
+NA: A low laugh escapes her, wet with tears that refuse to fall.
+
+NA: Then she takes a step forward and reduces the distance between them.
+
+NA: His arms slowly, naturally, embrace her.
+
+NA: As if that hug had been rehearsed for a lifetime.
+
+NA: Bárbara rests her forehead on his shoulder for just a few seconds.
+
+NA: Enough to remember and enough to hurt.
+
+BA: I'm sorry.
+
+AL: I know.
+
+BA: I never meant to hurt you.
+
+AL: I know that too.
+
+NA: A short pause.
+
+AL: And I would never believe you did it out of cruelty.
+@char BA.happy
+NA: She laughs weakly.
+
+BA: You were always better than me.
+@char BA.sad
+AL: No.
+
+NA: He brushes a strand of hair from her face.
+
+AL: I just had more time to learn of loss.
+
+NA: That finally breaks her.
+
+NA: Bárbara lifts her face.
+
+NA: And places a soft kiss on his lips.
+
+NA: Brief and affectionate.
+
+NA: There's no urgency, just a deep and long-standing affection.
+
+NA: Built over years.
+
+NA: When they part, Alvarenga doesn't try to stop her.
+
+NA: He doesn't ask for explanations or demand promises.
+
+NA: He just holds her face in his hands.
+
+NA: As if he wanted to keep that image.
+
+AL: Be happy.
+
+NA: His voice is low and sincere.
+
+AL: For once in your life...
+@char AL.smile
+AL: Think less about what others expect of you.
+
+AL: And more about what you desire.
+
+NA: Then he leans in.
+
+NA: And kisses her forehead, a long and gentle kiss.
+
+NA: Such a simple gesture, and yet it feels like a farewell.
+
+BA: Goodbye, doctor.
+
+NA: His eyes shine, but the smile remains.
+
+AL: Goodbye, Bárbara.
+
+NA: She stands still for a moment, watching him.
+
+NA: Knowing that it might be the last time.
+
+NA: Knowing that she still loves him, in a different way.
+
+NA: But she loves him.
+
+NA: And perhaps that makes everything even more difficult.
+
+NA: Then she turns away and goes towards the bedroom.
+@goSub .BlackScreen
+;O escândalo
+@back bg_squareDay scale:1 pos:50,50 time:0
+NA: Shortly after, the separation happens.
+
+NA: Not officially, with a court lawyer and paperwork.
+
+NA: But everywhere that matters.
+
+NA: The rumors spread like wildfire.
+
+NA: Ladies whisper and men speculate.
+
+NA: Vila Rica society devours the scandal with enthusiasm.
+
+NA: Bárbara doesn't care.
+@back bg_squareNight
+;As prisões
+
+NA: Then comes the storm.
+
+NA: Houses are invaded, friends disappear.
+
+NA: The revolution ends.
+
+NA: Some are imprisoned, others exiled.
+
+NA: Others simply vanish from history.
+
+NA: And on a cold morning... Alvarenga is taken away, first imprisoned and then, after the trial, exiled.
+@stopBgm fade:3 !wait
+@goSub .BlackScreen
+;A fuga
+@back bg_warehouseDay
+@char {PLAYER}2.smile pos:{leftmid} !wait
+@char BA.smile pos:{rightmid}
+NA: You meet Bárbara before dawn.
+@bgm love
+NA: A horse, a few bags, and no real plan.
+
+BA: So.
+
+PLAYER: So.
+@char BA.neutral
+BA: You can still back out.
+
+PLAYER: I won't.
+@char BA.smile
+BA: Great.
+
+NA: A smile appears, small but real.
+
+BA: Because neither will I.
+
+NA: For the first time since you met her... there's no pretense, no provocation.
+
+NA: No games.
+
+NA: Just Bárbara.
+
+NA: Dawn is still far away.
+
+NA: The road is long and uncertain.
+
+NA: But for the first time, it's not so scary.
+
+PLAYER: So that's it.
+
+BA: Yes.
+
+PLAYER: No plan?
+
+BA: I have a plan.
+@char {PLAYER}2.surprise
+PLAYER: What is it?
+
+BA: To improvise with elegance.
+@char {PLAYER}2.thinking
+PLAYER: That's not a plan.
+
+BA: It's been working so far.
+
+@char {PLAYER}2.happy
+NA: You laugh and keep walking.
+
+NA: Then something tugs at your sleeve.
+@char {PLAYER}2.surprise
+PLAYER: Hm?
+@goSub .BlackScreen
+@back CGB04_{gender}_01 id:CG time:0
+@unlock CG/CGB04_{gender}_1
+NA: Before you can turn around, a pair of arms wrap around your waist.
+
+NA: They hold you tight and firm.
+
+NA: You gasp in surprise.
+
+PLAYER: Bárbara?
+@back CGB04_{gender}_02 id:CG
+NA: She hugs you from behind, affectionately and without warning.
+
+NA: Just tightly, as if she were afraid you would disappear.
+
+PLAYER: Are you okay?
+
+BA: No.
+
+NA: The answer comes immediately and honestly.
+
+BA: But I think I will be.
+@back CGB04_{gender}_03 id:CG
+NA: You feel her head on your shoulder.
+
+NA: The hug tightens a little more and you reach for her hands, squeezing them affectionately.
+
+BA: I've spent my whole life saying goodbye to people.
+
+NA: A short pause.
+
+BA: I'd like to try something different.
+
+PLAYER: And what would that be?
+
+BA: Staying.
+
+NA: You smile.
+
+NA: Slowly you hold her hands and intertwines your fingers.
+
+PLAYER: I think I can help with that.
+
+NA: Her laughter vibrates against your shoulder, low and warm .
+
+BA: How convenient.
+
+NA: When you finally turn around, she's still smiling.
+
+NA: And for the first time since you met her, she seems very happy.
+
+NA: A simple and frightening happiness.
+
+NA: And maybe it's at that moment that you realized.
+
+NA: Bárbara isn't just running away with you.
+
+NA: She chose you, completely.
+
+NA: They say a businesswoman disappeared from Vila Rica.
+
+NA: They say she abandoned her fortune, reputation, and position.
+
+NA: They say many things, almost all of them wrong.
+
+NA: Because somewhere far away...
+
+
+NA: In a city where no one knows their names...
+
+NA: A woman finally chose her own life.
+
+NA: And, for the first time... was chosen in return.
+
+NA: Not out of obligation.
+
+NA: Not out of convenience or scandal.
+
+NA: But out of love.
+
+NA: Even if late.
+@goto .GameEnd
+;FIM!
+
+
+
+#scene9B-2
+
+NA: You don't answer immediately.
+
+NA: Not out of malice or rejection.
+
+NA: Just because you don't know what to say.
+
+NA: But the silence lasts too long.
+
+BA: ...
+
+NA: Her smile weakens, just a little.
+
+NA: But you notice.
+
+BA: I understand.
+
+PLAYER: Bárbara, I…
+@char BA.neutral
+BA: No.
+
+NA: She shakes her head.
+
+BA: You're not obligated to answer.
+
+NA: The tone remains polite, but something has changed.
+
+BA: That was an unfair question.
+
+NA: As if she already regrets having spoken so much.
+
+;NA: Como se já estivesse se arrependendo de ter falado tanto.
+
+BA: I think I got carried away.
+
+PLAYER: That wasn't it.
+
+BA: Maybe not.
+
+BA: But I still don't know where I stand in your life.
+
+NA: The comment is mild, but it hurts.
+
+BA: And that scares me more than it should.
+@char BA.smile
+NA: She smiles, but now it looks like one of her usual masks.
+
+BA: See?
+
+BA: I told you trusting was a terrible idea.
+
+NA: And for the first time since you met her, you feel like Bárbara has put up a wall between you.
+
+NA: You still decide to walk her home, to make sure she'll be okay.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+;Flashback Noite no Mirante
+@bgm backInTime
+NA: Weeks earlier, that same night at the lookout point.
+@back bg_squareNight.Crossfade time:0 !wait scale:3.0 pos:-65,90
+@char AL.neutral pos:{rightmid}
+@char BA.neutral pos:{leftmid}
+NA: When Bárbara returned home and Alvarenga was leaning against the window, watching the night.
+
+AL: You're back late.
+
+BA: And you're up late.
+
+AL: I was waiting.
+
+BA: That was never a healthy habit.
+
+NA: Alvarenga turns, meeting her eyes.
+
+AL: I met someone on the way.
+
+NA: Bárbara understands immediately.
+
+BA: You did?
+
+AL: I did.
+
+NA: The silence is heavy.
+
+AL: They told me they were coming from the overlook.
+
+BA: And?
+
+AL: And they hesitated when I asked if they were alone.
+@char BA.thinking
+NA: She crosses her arms.
+
+BA: Maybe you were asking too many questions.
+
+AL: Maybe.
+
+NA: A short pause and he sighs, looking a little tired.
+
+AL: Are you hiding something from me?
+@char BA.smile
+NA: This time she doesn't answer honestly.
+
+NA: This time she smiles.
+
+BA: What do you think?
+
+AL: I think I know you.
+
+BA: You do?
+
+NA: She laughs but without humor.
+
+BA: Sometimes I think you only know the version of me that you prefer.
+
+AL: Bárbara.
+@char BA.neutral
+BA: No.
+
+NA: She shakes her head.
+
+BA: Let's do something different.
+
+BA: If you have accusations, present them.
+
+AL: I don't wish to accuse you.
+@char BA.smile
+BA: No?
+
+NA: Her smile widens.
+
+BA: Then why do you seem like a jealous husband?
+@char AL.determined
+NA: That affects him.
+
+AL: I'm not jealous.
+
+BA: Of course not.
+
+BA: Never.
+
+NA: She walks around the room.
+
+BA: The right man.
+
+BA: The honorable man.
+
+BA: The man incapable of desiring what he shouldn't.
+
+AL: Because I'm your husband.
+
+BA: Ah.
+
+NA: Her tone is venomous.
+
+BA: So that was it.
+@char AL.thinking
+AL: What was?
+
+BA: The problem.
+
+BA: You like that person.
+@char AL.determined
+NA: His face hardens, he looks offended.
+
+AL: No.
+
+BA: Liar.
+
+AL: I've never been unfaithful to you.
+
+BA: Physically?
+
+BA: Perhaps not.
+
+NA: She approaches.
+
+BA: But don't ask me to believe you never noticed.
+@char AL.thinking
+AL: Noticed what?
+
+BA: That they look at you.
+
+NA: Alvarenga tilts his head.
+
+BA: The young women, the widows…
+
+BA: …The bored wives.
+
+NA: She laughs.
+
+BA: The elegant lawyer, the poet…
+
+BA: …The gentleman.
+
+AL: I never gave them a reason.
+
+BA: And now I'm supposed to believe that just because you said so?
+@char AL.neutral
+NA: The blow is precise, because she knows exactly where to hurt.
+
+AL: You're not fair.
+
+BA: And you are?
+
+NA: Silence explodes between the two.
+
+AL: I've always respected your space, your choices…
+
+AL: …Your secrets.
+
+BA: How generous you are.
+
+AL: Bárbara!
+@char BA.neutral
+BA: No.
+
+NA: Her smile disappears.
+
+BA: I've spent years hearing how understanding you are.
+
+BA: How modern you are.
+
+BA: How much you understand things other men wouldn't understand.
+
+AL: Because I love you.
+@char BA.smile
+BA: You love me?
+
+BA: Then let's talk about love.
+@char BA.neutral
+NA: A short pause and her smile disappears.
+
+BA: Let's talk about all the times I said things that would make other husbands run away.
+
+NA: She approaches.
+
+BA: When I told you about women.
+
+BA: About who I was.
+
+BA: About who I desired.
+@char AL.determined
+NA: His face hardens.
+
+AL: I never judged you for that.
+@char BA.smile
+BA: No.
+
+BA: Never.
+
+NA: Her smile is cruel now.
+
+BA: Because you were always too busy being perfect.
+
+BA: Or maybe just curious…
+
+NA: Alvarenga stares at her and something forms in his gaze, understanding exactly where Bárbara is taking this conversation.
+
+AL: Enough.
+
+BA: Oh.
+
+NA: She opens her arms.
+
+AL: Did you find someone better?
+@char BA.neutral
+BA: Don't do that.
+
+AL: Is answering so difficult?
+
+BA: Because it's not a competition.
+
+AL: Then what is it?
+
+BA: It happened.
+
+AL: It happened?
+
+NA: He laughs humorlessly.
+
+AL: Like rain?
+
+AL: Like a fever?
+
+AL: Like an accident?
+
+AL: I gave you a life.
+@char BA.determined
+BA: I don't owe you love out of gratitude.
+
+AL: I never asked for that.
+
+BA: No?
+
+AL: I asked for honesty.
+
+NA: Then Bárbara hits back.
+@char BA.thinking
+BA: Honesty?
+
+NA: She crosses her arms.
+
+BA: Then let's be honest.
+
+BA: When was the last time you asked me if I was happy?
+@char AL.neutral
+AL: ...
+@char BA.determined
+BA: When was the last time you looked at me without treating me like something precious that needed to be protected?
+
+NA: And that hurts because maybe there's some truth to it.
+
+AL: And when was the last time you gave me the opportunity to correct that?
+
+AL: When was the last time you told me anything?
+@char BA.neutral
+BA: Well.
+
+BA: You spend more time with the alferes than with me.
+@char AL.thinking
+AL: For God's sake.
+
+BA: You don't like the joke?
+@char AL.neutral
+AL: Not when you're using any absurdity to avoid the conversation.
+
+BA: And Joaquim?
+@char AL.determined
+AL: Bárbara.
+
+BA: What?
+
+AL: I'm not going to dignify that with an answer.
+
+BA: Ah.
+
+NA: She points at him.
+
+BA: See?
+@char AL.surprise
+AL: Because it's absurd.
+
+BA: Or because I got it right?
+@char AL.sad
+AL: Because you are cruel.
+
+NA: For the first time, his voice falters.
+@char AL.determined
+AL: And you are dodging the question.
+
+NA: The comment hits her.
+@char BA.surprise
+BA: Dodging?
+
+AL: Yes.
+@char BA.neutral
+NA: He takes a step forward.
+
+AL: Because none of this is about the alferes.
+
+AL: Nor about Joaquim.
+
+AL: Nor about anyone else.
+
+NA: A beat.
+
+AL: It's about us.
+
+AL: And every time I get closer to the truth, you change the subject.
+
+NA: Bárbara opens her mouth, but doesn't answer.
+@char AL.sad
+AL: Because you know.
+
+NA: His voice grows lower, sadder.
+
+AL: You know exactly what I'm talking about.
+
+NA: For the first time that night, she doesn't have a ready provocation.
+
+NA: And that says more than any answer.
+
+AL: Then answer me.
+
+AL: At least once.
+
+AL: No games, no irony, no evasions.
+
+NA: He stares at her.
+
+AL: Is there someone?
+@char BA.sad
+NA: Her heart clenches.
+
+NA: Because she knows.
+
+NA: She knows exactly who he's talking about and she knows exactly what the answer is.
+
+BA: ...
+
+AL: Bárbara.
+
+NA: Silence lingers.
+
+AL: Please.
+
+
+NA: It's not an order, it's not an accusation, it's a request.
+
+NA: From someone who still wants to believe.
+
+BA: No.
+
+NA: The word comes out quick, clean and simple.
+
+BA: There is no one.
+@char AL.neutral
+NA: Silence falls immediately.
+
+AL: ...
+
+NA: He holds her gaze for a few seconds, as if searching for something.
+
+AL: I understand.
+@char BA.angry
+NA: And that should have been the end of the conversation, but Bárbara gets angry.
+
+NA: She steps forward.
+
+BA: I never denied you anything.
+@char AL.surprise
+NA: Her words makes him look up.
+
+BA: I never humiliated you.
+
+BA: I never left you.
+@char BA.determined
+NA: A brief pause.
+
+BA: I never stopped being your wife.
+
+AL: ...
+
+BA: So don't pretend I cheated on you for years.
+@char AL.determined
+NA: For the first time, something hardens within him.
+
+AL: No.
+
+NA: The answer comes immediately.
+
+AL: Don't pretend that's what I'm talking about.
+
+NA: Silence strikes her.
+
+AL: I never complained about your company.
+
+AL: I never complained about our life.
+
+AL: I never complained about you.
+
+NA: A short pause.
+
+AL: I'm asking something else.
+
+NA: He takes a step forward.
+
+AL: When did you stop loving me?
+
+BA: I didn't…
+
+AL: Or perhaps the right question is…
+
+NA: His voice falters, just a little.
+@char AL.smile
+AL: When did you start loving someone else?
+@char BA.sad
+NA: Bárbara feels her stomach sink.
+
+BA: There's no one, I already told you.
+
+NA: Another lie, and they both know it.
+@char AL.neutral
+AL: I understand.
+
+NA: His smile disappears.
+
+AL: Then I'll trust your word.
+@hide AL
+NA: He walks away.
+@hideChars
+NA: And that night...
+
+NA: For the first time in many years... Alvarenga believes a lie.
+@hide MainBackground
+@back bg_squareAfternoon scale:1 pos:50,50 time:0
+NA: Because the alternative hurts too much.
+
+NA: But the memory of that night is clear in his mind.
+
+NA: That look, that request.
+
+NA: That single opportunity to hear the truth.
+
+NA: And to realize, too late... that she lied.
+
+NA: Directly, without hesitation, and looking him in the eyes.
+
+NA: And that haunted Alvarenga, who didn't sleep well for some time.
+
+NA: Later, Alvarenga would discover the truth.
+
+NA: Not through confession or honesty.
+
+NA: But by chance, or perhaps destiny.
+
+NA: A letter.
+
+NA: A piece of paper forgotten among books and documents.
+
+NA: Few words, but enough.
+
+NA: Then came the confirmation.
+
+NA: A meeting, a conversation, and a look that lasted too long.
+
+NA: And then everything he had been ignoring finally took shape.
+
+NA: The kind, patient, and rational man.
+
+NA: He simply succumbed to betrayal, jealousy, and anger.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+@back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
+;AQUI mudar bg de acordo com cg
+@char {PLAYER}2.surprise pos:{leftmid} !wait
+@char BA.surprise pos:{rightmid}
+@sfx doorSlam
+NA: As you approach her house, the door opens and slams with a bang.
+@char AL.determined
+NA: Alvarenga clearly already knows.
+@bgm tension
+BA: Alvarenga..
+
+NA: He doesn't answer.
+
+NA: For the first time since you met him, his face is unrecognizable.
+
+AL: You lied to me.
+
+BA: ...
+
+AL: After all these years.
+@char BA.neutral
+NA: Her silence is answer enough.
+@char AL.sad
+AL: I asked.
+
+NA: His voice falters, a mixture of anger and sadness.
+
+AL: I gave you the opportunity to tell the truth.
+
+BA: Alvarenga..
+@char AL.angry
+AL: NO.
+@char BA.surprise
+NA: The shout makes you shudder.
+
+AL: Don't take that away from me too.
+
+NA: He laughs, without any humor.
+@char AL.determined
+AL: So many people lie.
+
+AL: So many politicians, so many administrators.
+
+NA: A beat.
+
+AL: But you never did.
+@char BA.sad
+NA: That hurts more than any accusation.
+
+AL: That's what we had.
+
+BA: I know.
+
+AL: No.
+
+NA: He shakes his head.
+
+AL: I don't think you do.
+
+NA: Then his eyes meet yours.
+
+NA: And something worse happens.
+
+AL: Now I understand.
+
+AL: The conversation that night.
+
+NA: Your stomach sinks as if you'd been punched.
+
+AL: When I asked you if it was worth destroying something for a feeling.
+
+NA: Silence answers.
+
+AL: You lied too.
+
+PLAYER: I... uh.
+
+AL: After everything.
+@char AL.smile
+NA: His smile appears, small and wounded.
+
+AL: I helped you.
+@char AL.sad
+AL: I gave you clothes, shelter…trust.
+
+NA: His voice falters, with pain, sadness, and humiliation.
+
+AL: And yet… after everything.
+
+BA: Listen to me.
+
+AL: I listened for years.
+
+NA: His voice finally breaks.
+
+AL: I trusted you for years.
+
+NA: Bárbara tries to approach.
+
+BA: Please.
+@goSub .BlackScreen
+@back CGB05_01 id:CG time:0
+;CG
+@unlock CG/CGB05_1
+NA: Alvarenga grabs her arm impulsively.
+
+
+NA: Like someone desperate to prevent everything from slipping through their fingers.
+
+NA: She struggles, frightened.
+
+BA: Let go of me.
+
+AL: NO.
+
+NA: For the first time, there's something dangerous in his voice.
+
+NA: He pulls her close.
+
+NA: As if he were still trying to understand what's happening.
+
+NA: As if he refused to accept that she no longer belonged to him in that way.
+
+NA: His face is filled with anger, but behind it lies something worse.
+
+NA: Pain.
+
+AL: Do you know what the hardest part is?
+
+NA: His eyes meet yours.
+
+AL: It's not losing someone.
+
+NA: A short pause.
+
+AL: It's discovering that you lost her long before.
+
+BA: Alvarenga...
+
+NA: Her voice trembles.
+
+BA: This isn't you.
+
+AL: No.
+
+NA: The smile that appears is terrible.
+
+AL: I don't believe I know who I am anymore.
+@back CGB05_02 id:CG
+NA: Bárbara tries to break free again and he grabs her wrist.
+
+NA: Hard enough to hurt, without realizing or thinking.
+
+BA: You're hurting me.
+
+NA: This makes him hesitate, for just a moment.
+
+NA: Then his eyes return to you.
+
+NA: And all the hurt finds a target.
+
+AL: I welcomed you.
+
+NA: A beat.
+
+AL: I trusted you.
+
+NA: His voice falters.
+
+AL: And you stole the only thing I truly considered mine.
+@back CGB05_03 id:CG
+NA: He pulls the pistol from his clothes, quick and intentional.
+
+BA: NO!
+
+NA: Bárbara tries to reach for him.
+
+NA: Tries to push the gun away, tries to stop him.
+
+AL: It's very difficult...
+
+NA: His voice is almost unrecognizable.
+
+AL: To be betrayed by the one you love.
+@sfx gun !wait
+@shake !wait
+@stopBgm !wait
+NA: The gunshot seems to echo through the city.
+
+
+
+NA: Loud, strong, and deafening.
+@blur CG power:5
+NA: And you feel it, you feel pain.
+
+NA: A brutal impact to the chest.
+@hide CG
+NA: The world spins and you fall.
+@goSub .BlackScreen
+@bgm backInTime volume:0.7
+@blur MainBackground power:5
+@char BA.surprise pos:{rightmid} !wait
+@char AL.surprise pos:{leftmid}
+NA: Your breath comes in rasps and when you look up Alvarenga is standing still.
+
+NA: Motionless.
+
+NA: As if he himself couldn't believe what he had done.
+
+AL: …
+
+NA: The pistol slips from his fingers, falling to the ground.
+
+NA: The hatred has vanished, leaving only horror.
+NA: He releases Bárbara, who runs to you.
+
+AL: My God.
+
+AL: My God... what have I done?
+
+NA: And for the first time not that night, he doesn't seem like an enemy.
+
+NA: Just a man who has lost everything.
+
+NA: Including himself.
+
+;FIM!
+@goto .GameEnd
+
+
+# BlackScreen
+@hideChars !wait
+@hidePrinter time:1 !wait
+@hide MainBackground
+@hide CG !wait
+@back bg_black pos:50,50 scale:1 time:0
+; @stopBgm fade:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:1.5 wait!
+@return
+
+# GameEnd
+@stopBgm fade:1
+@hideChars !wait
+@hide CG !wait
+@hidePrinter time:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:0.5 wait!
+@showUI TitleUI
+@stop

@@ -1,0 +1,2692 @@
+# gameStart
+@back bg_black
+
+@set left="15,-90"
+@set leftmid="25,-90"
+@set mid="50,-90"
+@set rightmid="75,-90"
+@set right="85,-90"
+@set afetoTiradentes=0
+@set afetoHipolita=0
+@set afetoBarbara=0
+@set afetoJoaquim=0
+@set afetoCel=0
+@set liberaBarbara=false
+@set liberaCelio=false
+@set liberaHipolita=false
+@set liberaJoaquim=false
+@set liberaTiradentes=false
+@set demoVersion=false
+
+; Rota Comum
+; Cena Start - Escolha
+@back bg_black
+NA: Choose your appearance.
+@char PLAYERF.neutral look:left pos:{leftmid}
+@char PLAYERM.neutral look:left pos:{rightmid}
+@choice Left goto:.female
+@choice Right goto:.male
+@stop
+
+# female
+@set gender="female"
+@set PLAYER="PLAYERF"
+@set name="Maria"
+@set selector=0
+@hideChars
+@goto .scene0-0
+# male
+@set gender="male"
+@set PLAYER="PLAYERM"
+@set name="João"
+@set selector=1
+@hideChars
+@goto .scene0-0
+
+
+
+
+; Cena 0.0 — O tempo se rompe
+# scene0-0
+NA: Choose your name.
+@input name summary:"Choose your name."
+@stop
+
+;@choice Tiradentes goto:rota_tiradentes
+;@choice Hipolita goto:rota_hipolita
+;@choice Joaquim goto:rota_joaquim
+;@choice Barbara goto:rota_barbara
+;@choice Cel goto:rota_cel
+;@choice Comum
+;@stop
+
+@bgm backInTime volume:0.7
+
+;NA: “They say the mountains of Minas keep secrets."
+NA: “They say the mountains of Minas keep secrets."
+NA: "Secrets buried beneath gold, blood, and promises…"
+NA: "But some promises refuse to stay buried."
+NA: "They pull. They call."
+NA: "They refuse silence.”
+; @fadeout 1
+@gosub .BlackScreen
+
+; Scene 1
+@wait 1.0
+
+; AAA
+@back bg_farm.Crossfade pos:70,100 scale:2.0 time:0 wait!
+@slide MainBackground to:70,90
+NA: Down there, under the scorching sun and the dry soil of Minas Gerais, you slowly wake up in a time that does not belong to you.
+
+; Variação de gênero
+@if gender="female"
+NA: Wearing tailored pants and a band T-shirt. Slowly, you begin to move, little by little.
+@endif
+@if gender="male"
+NA: Wearing jeans and your sweater over your shirt. Slowly, you begin to move, little by little.
+@endif
+@stopBgm fade:5 !wait
+
+NA: Your eyes blink a few times, absorbing the brightness hitting your pupils. Your body feels hot, and your head seems to throb.
+PLAYER: Where am I?
+NA: With difficulty and exhaustion, you slowly sit up. Dust falls from your clothes as you try to stand.
+PLAYER: I was…..
+NA: Confusion lingers in your mind, your memories are tangled and mixed together.
+PLAYER: I remember being there, and then a flash of light… now I’m here.
+@hide MainBackground
+@back bg_farm.Crossfade pos:50,50 scale:1.0 time:1.5 wait!
+
+@char {PLAYER}.surprise look:left pos:{mid}
+@bgm wander volume:0.7
+
+NA: You look around, feeling the weight of the sun.
+PLAYER: Here where? And what kind of hellish heat is this…
+NA: From afar, you hear something striking the ground with force. A sound you can’t recognize, but it seems to be approaching fast.
+@sfx horse !wait
+NA: When you turn around, you come face to face with horses and several wagons approaching.
+PLAYER: But what the—
+; AQUI: PULAR PRA TRAS
+@slide {PLAYER} to:50,-85 easing:easeOutElastic time:0.5
+@slide {PLAYER} to:{mid} time:0.3
+NA: Just in time, you awkwardly jump backward, barely avoiding being hit.
+MERCHANT: Don’t you watch where you’re going?
+@stopSfx fade:3 !wait
+@char {PLAYER}.thinking
+
+PLAYER: Sorry, it’s not like I was standing in the middle of the street.
+NA: The merchant passes slowly, staring at you with a curious expression. He looks at you in shock and clearly doesn’t understand anything you’re saying.
+MERCHANT: This fellow talks crooked… not from around here.
+PLAYER: Great. I time-traveled just to become a circus attraction.
+NA: They move on with their horses and wagons, leaving you even more confused than before.
+PLAYER: Wagons and horses? What is this, the Middle Ages?
+NA: Looking around, you notice you’re wearing only one sneaker, and your phone is shattered inside your pocket.
+PLAYER: Great. If only I could get a signal… signal—what am I thinking?
+@sfx horse !wait
+NA: New sounds of horses trotting closer make you take a few hesitant steps back.
+NA: Riders pass by, wearing odd clothes and apparently carrying weapons. They look at you with disdain.
+NA: One of them throws a provocation your way.
+SOLDIER: You dress like a fairground fool.
+@sfx risada volume:0.3
+NA: They all seem to laugh as they hurry past, while you simply clench your fists in response.
+@stopSfx fade:3 !wait
+PLAYER: Now I’m being insulted by people dressed like museum exhibits.
+
+@char {PLAYER}.neutral look:left pos:{mid}
+
+PLAYER: Let’s assume this isn’t a dream or some messed-up coma. That means the machine worked, and I’m...?
+PLAYER: This doesn’t look like a setting from any of the great wars. If I can find… or at least manage to talk to someone.
+PLAYER: Maybe I should go that way. I’ve seen wagons and soldiers—what else could there be?
+NA: You turn slightly, as if expecting an answer that never comes.
+
+@char {PLAYER}.determined look:left pos:{mid}
+
+NA: Yeah, keep talking to yourself… that doesn’t look strange at all.
+
+; Scene 2
+
+NA: With one foot wearing a shoe and the other only in a rather funny sock, you start walking in the same direction the horses and wagons went. The dry stone ground and the sun feel like pure torture.
+NA: Along the way, after thinking about giving up and sitting down more than once.
+NA: The sound of a softer trot draws your attention again.
+
+@char {PLAYER}.neutral look:left pos:{mid}
+
+PLAYER: Yeah… this really is a busy road.
+NA: When you look back, you see a man of average build approaching on horseback. Unlike the others, he slows down when he notices you.
+
+@char {PLAYER}.neutral look:left pos:{rightmid}
+@char AL.neutral look:left pos:{leftmid}
+
+NA: He pulls the reins and brings the horse to a stop beside you.
+NA: The man looks you up and down — the strange clothes, the lost posture, the confused gaze.
+@char AL.smile look:left pos:{leftmid}
+
+NA: A half-smile appears on his face, more curious than hostile.
+??: One does not often see folk dressed like that in these parts.
+NA: He tilts his head, clearly sizing you up.
+??: Lost your convoy… or did you fall from the sky?
+
+@char {PLAYER}.thinking look:left pos:{rightmid}
+PLAYER: From the con— the what?
+@char AL.neutral look:left pos:{leftmid}
+NA: He raises an eyebrow, staring at you.
+@char {PLAYER}.neutral look:left pos:{rightmid}
+PLAYER: Let’s just say I woke up in the wrong place.
+NA: With an amused smile on his lips, he says:
+@char AL.smile look:left pos:{leftmid}
+??: That happens. But folk usually wake in a bed, not on a road.
+PLAYER: You’re right… where are we?
+??: In Vila Rica — or at least on the road leading to it.
+@char {PLAYER}.surprise look:left pos:{rightmid}
+PLAYER: Vila Rica?
+@char AL.surprise look:left pos:{leftmid}
+???: Don’t tell me you didn’t know where you were stepping?
+@char {PLAYER}.thinking look:left pos:{rightmid}
+PLAYER: I had absolutely no idea.
+NA: He arches an eyebrow, watching you closely.
+@char AL.neutral look:left pos:{leftmid}
+??: You speak in a peculiar way… and those clothes are not from around here, that much is certain.
+NA: He nudges the horse forward at a slow pace, still observing you.
+??: And so, where do you come from?
+@char {PLAYER}.neutral look:left pos:{rightmid}
+PLAYER: São Paulo.
+@char AL.thinking look:left pos:{leftmid}
+NA: The man furrows his brow, thoughtful.
+??: The Captaincy of São Paulo?
+@char {PLAYER}.thinking look:left pos:{rightmid}
+PLAYER: If you say so… then I suppose it is.
+NA: He studies you more carefully now, as if sensing something strange, but chooses not to press.
+@char AL.determined look:left pos:{leftmid}
+??: Then you truly came from far away. That explains quite a lot.
+NA: A brief silence settles between you, until he lets out a half-smile.
+??: Wherever you may be from, it seems the road has betrayed you.
+NA: He adjusts himself in the saddle and extends his hand.
+@char AL.neutral look:left pos:{leftmid}
+??: My name is Inácio José de Alvarenga Peixoto, but you may call me Alvarenga.
+@char {PLAYER}.neutral look:left pos:{rightmid}
+PLAYER: It’s a pleasure.
+AL: And you, what is your name?
+PLAYER: My name is {name}. Bureaucracy shortened names over time.
+NA: For a moment, Alvarenga falls silent, studying you closely.
+NA: He presses his lips together, as if deciding whether to ask or not.
+@char AL.thinking look:left pos:{leftmid}
+AL: Bureaucracy…?
+NA: The word sounds odd on his tongue. He lets out a brief, restrained laugh — more curious than suspicious.
+@char AL.neutral look:left pos:{leftmid}
+AL: Be that as it may, your name is far too short for this land… and your manner confirms the rest.
+NA: Alvarenga gently pulls the reins, turning the horse back toward the main road.
+@char AL.determined look:left pos:{leftmid}
+AL: Very well, {name}. Wherever you came from, it’s not wise to linger here.
+NA: Alvarenga moves the horse forward at a slow pace, riding alongside you.
+NA: Silence stretches for a few steps, until you can’t take it anymore.
+PLAYER: Why are you helping me?
+NA: He looks ahead, thoughtful.
+@char AL.thinking look:left pos:{leftmid}
+AL: Because those who wander lost tend to cause trouble.
+NA: He throws you a quick glance.
+@char AL.neutral look:left pos:{leftmid}
+AL: And you don’t seem dangerous. Just… out of place.
+NA: You frown.
+@char {PLAYER}.surprise look:left pos:{rightmid}
+PLAYER: And that’s enough?
+NA: Alvarenga gives a half-smile.
+@char AL.smile look:left pos:{leftmid}
+AL: Also because I was once lost… and someone extended a hand to me.
+NA: He nods toward the road ahead.
+@char AL.neutral look:left pos:{leftmid}
+AL: Besides, Vila Rica is full of watchful eyes. A lone stranger draws far too much attention.
+NA: As you walk along the road, Alvarenga glances again at your clothes, assessing.
+AL: Those garments attract far too much attention.
+NA: He hesitates for a moment, as if weighing his own generosity.
+
+; Variação de gênero
+; Se o jogador for homem
+@if gender="male"
+AL: I can lend you some clothes. They’re not new, but at least they don’t look like they came from a trinket stall.
+NA: You look at him, a little surprised.
+@char {PLAYER}.thinking look:left pos:{rightmid}
+PLAYER: I’ll return them.
+NA: Alvarenga smiles faintly.
+@char AL.happy look:left pos:{leftmid}
+AL: I certainly hope so. I don’t look nearly as elegant without them.
+@endif
+
+; Se o jogador for mulher
+@if gender="female"
+@char AL.shy look:left pos:{leftmid}
+AL: My wife may have something that fits you.
+NA: He says it, a bit embarrassed.
+AL: She’s curious. She’ll likely have questions.
+@endif
+@stopBgm fade:3 !wait
+@gosub .BlackScreen
+; CENA 3
+@bgm respite volume:0.7
+@back bg_squareDay.Crossfade pos:50,50 scale:1 time:1.5 wait!
+@sfx crowd volume:0.3 !wait
+NA: You continue walking, and little by little the sound of voices grows — mixed with the clinking of metal, footsteps, street calls.
+NA: Buildings come into view: stone houses, packed-earth roads, people moving back and forth.
+@char AL.neutral look:left pos:{leftmid}
+@char {PLAYER}.neutral look:left pos:{rightmid}
+AL: Vila Rica. Loud, suspicious… and full of people with more ideas than sense.
+NA: He gestures ahead. You walk a little farther until you reach a pleasant, well-kept house.
+@stopSfx fade:3 !wait
+NA: Alvarenga dismounts with ease and ties the horse to a nearby post. Then he approaches the door and bends down to remove his boots.
+AL: My wife dislikes it when I come in with dirty boots. She’ll complain until she runs out of breath.
+NA: He gives you a sideways glance, almost conspiratorial.
+@char AL.thinking look:left pos:{leftmid}
+AL: I’d appreciate it if you did the same.
+NA: You lower your gaze to your feet — one dusty sneaker… the other only a sock.
+@char {PLAYER}.embarrass look:left pos:{rightmid}
+PLAYER: Sure.
+NA: As you remove what remains of your shoe, an awkward silence settles in.
+
+@hide MainBackground
+@back bg_squareDay.Crossfade pos:-55,90 scale:2.5 time:1 wait!
+; AQUI
+
+NA: He then opens the wooden door and invites you inside.
+NA: The house is well cared for — wood beams, whitewashed walls, the scent of recently prepared food.
+NA: Alvarenga gestures with his hand.
+AL: Wait here a moment. I’ll be right back.
+@hide AL
+@char {PLAYER}.neutral look:left pos:{mid}
+NA: You nod. While waiting, your curious eyes wander around the room: a neatly set table, wooden furniture, utensils worn by use, small portraits and objects you don’t recognize.
+NA: Everything feels… far too old. Any detail could be a clue.
+NA: Something to confirm what time you’re truly in.
+NA: Footsteps approach.
+@char AL.thinking look:left pos:{leftmid}
+NA: Alvarenga returns carrying folded clothes in his arms.
+
+@char {PLAYER}.surprise look:left pos:{rightmid}
+AL: I believe these will fit you.
+NA: He indicates a small room nearby and steps away, clearly giving you privacy.
+@back bg_black.Crossfade pos:50,50 scale:1 time:0
+@gosub .BlackScreen
+NA: You enter and close the door behind you.
+NA: You change clothes carefully. The fabric is rough, unlike what you’re used to. When you look at yourself, you barely recognize the reflection — now you seem to belong to this place, even without knowing how or why.
+
+
+@sfx clothes volume:0.5
+@wait 1.0
+@char {PLAYER}2.thinking look:left pos:{mid}
+PLAYER: This is getting way too real.
+
+@back bg_squareDay.Crossfade pos:50,50 scale:1.0 time:1.5 wait!
+NA: When you leave the room, Alvarenga waits outside, arms crossed, evaluating the result.
+NA: He nods, apparently satisfied.
+@char AL.neutral look:left pos:{leftmid}
+@char {PLAYER}2.thinking look:left pos:{rightmid}
+AL: Much better.
+NA: Alvarenga adjusts his sleeves and walks to the door.
+AL: Now that you no longer draw attention at first glance… we should deal with what’s most urgent.
+NA: He opens the door, letting sunlight flood the room.
+AL: Are you hungry?
+NA: Your stomach answers before you even think to speak.
+@sfx hungry
+@char AL.smile look:left pos:{leftmid}
+AL: I thought so. The market is still lively at this hour. If we go now, we avoid the worst of the chaos.
+NA: He takes a small cloth bundle and tucks it close to his body.
+@char AL.neutral look:left pos:{leftmid}
+AL: Besides, it’s best you see how things work around here.
+NA: He gives you a meaningful look — and steps out, certain you’ll follow.
+NA: You walk through the packed-earth streets. The bustle grows with every corner: voices blend together, hurried footsteps cross your path, the metallic jingle of coins echoes here and there.
+@stopBgm fade:3 !wait
+@gosub .BlackScreen
+@bgm wander volume:0.7
+@back bg_marketDay.Crossfade time:1.5 wait!
+
+NA: The scent of the market reaches you before the sight of it — ripe fruit, salted meat, strong spices.
+NA: Makeshift stalls line the main road. Merchants loudly announce their goods, haggle over prices, and call out to customers.
+MERCHANT: Fresh bread! Two vinténs!
+@char AL.neutral look:left pos:{leftmid} !wait
+@char {PLAYER}2.neutral look:left pos:{rightmid}
+NA: Alvarenga slows his pace, observing everything with practiced ease.
+AL: This is where everything passes… food, news, and trouble.
+NA: You stare at the coins in a vendor’s hand, trying to understand their value.
+@char {PLAYER}2.thinking look:left pos:{rightmid}
+PLAYER: And this… is worth how much?
+NA: Alvarenga sighs.
+AL: Enough to feed someone. And too little to complain about.
+NA: The vendor extends his hand.
+MERCHANT: Gold or silver?
+NA: You hesitate, then ask, honestly:
+@char {PLAYER}2.neutral look:left pos:{rightmid}
+PLAYER: Do you take card?
+NA: The world seems to stop. The vendor blinks, suspicious.
+NA: Alvarenga closes his eyes for a second.
+@char AL.surprise look:left pos:{leftmid}
+AL: Gold. Only gold.
+NA: You hurry to respond.
+@char {PLAYER}2.embarrass look:left pos:{rightmid}
+PLAYER: Right. Gold.
+PLAYER: Credit upfront?
+NA: Silence drops heavily. The vendor raises an eyebrow.
+NA: Alvarenga nearly chokes on his breath.
+AL: …Upfront?
+NA: You try to correct yourself.
+@char {PLAYER}2.shy look:left pos:{rightmid}
+PLAYER: Credit or debit?
+NA: The vendor crosses his arms.
+MERCHANT: Gold or you get nothing.
+@char AL.thinking look:left pos:{leftmid}
+NA: Alvarenga runs a hand over his face, holding back laughter.
+AL: Definitely not from around here.
+NA: He pays for the bread and hands it to you.
+@char AL.neutral look:left pos:{leftmid}
+AL: Consider it a welcome courtesy.
+MERCHANT: What kind of language is that?
+@char AL.determined look:left pos:{leftmid}
+@if gender="female"
+AL: Ignore it. She speaks… differently.
+@else
+AL: Ignore it. He speaks… differently.
+@endif
+; AL: Ignore it. </She/He> speaks… differently.
+NA: The vendor grumbles but hands over the bread. Alvarenga passes you the bundle.
+@char AL.embarrass look:left pos:{leftmid}
+AL: Try not to invent new words in public.
+NA: You bite into the bread. It’s simple, but warm.
+@char {PLAYER}2.neutral look:left pos:{rightmid}
+; pensamento
+PLAYER: (At least hunger is the same in any century.)
+
+; CENA 4
+@char AL.neutral look:left pos:{leftmid}
+NA: Alvarenga wipes his hands on the cloth he keeps at his side and gestures ahead.
+NA: Up front, the street opens into a wide square, already crowded with more people than expected for that hour. Men, women, merchants, onlookers — all pressed together, whispering, staring in the same direction.
+NA: A murmur hangs in the air.
+@char AL.thinking look:left pos:{leftmid}
+AL: Strange…
+@stopBgm fade:3 !wait
+NA: You follow his gaze.
+
+@back bg_squareDay.Crossfade time:1.5 wait!
+
+NA: At the center of the square, a small improvised stage has been set up. Planks hastily supported, a few stacked crates.
+NA: A light buzz floats in the air, almost cheerful.
+@char {PLAYER}2.thinking look:left pos:{rightmid}
+
+; pensamento
+PLAYER: (What’s happening now…?)
+@bgm cel volume:0.5
+NA: In the middle of the square, a small group has gathered.
+NA: An improvised stage: old planks, stacked crates, ropes pulled tight.
+NA: Wooden dolls dance suspended by strings. Marionettes.
+NA: A voice rises from behind the curtain.
+ACTOR: They say the gold belongs to the land… yet somehow it only finds its way into the hands of those who’ve never dirtied their boots.
+; sfx laughter
+NA: Muffled laughter spreads.
+NA: Another puppet appears, exaggerated, wearing a crooked crown.
+ACTOR: And when the people ask for bread… they’re answered with more taxes!
+NA: Some laugh. Others glance around, tense.
+NA: You notice the main performer now…
+NA: The confident manner, the lively gaze, the presence that dominates the space even while hidden behind satire.
+NA: Alvarenga frowns.
+@char AL.angry look:left pos:{leftmid}
+AL: These performers… they don’t know when to stop.
+NA: The laughter doesn’t last long.
+NA: The metallic sound of boots cuts through the performance.
+NA: Soldiers push through the crowd, forcing space.
+@stopBgm fade:1 !wait
+SOLDIER: Enough of this nonsense!
+SOLDIER: Pack this up. Now.
+
+@hideChars
+
+NA: The crowd protests in murmurs.
+NA: One of the soldiers reaches to yank down the stage curtain.
+NA: Before he can—
+NA: A firm voice slices through the air.
+@bgm tiradentes volume:0.7
+
+@char TI.determined look:left pos:{mid}
+
+??: The square does not belong to force.
+??: It belongs to the people.
+NA: Silence spreads, heavy and sudden.
+NA: A man steps forward, parting the crowd as he moves.
+NA: Long hair, steady posture, a determined gaze. 
+NA: Even before stepping up, he commands attention.
+NA: Alvarenga recognizes him instantly.
+AL: What does he think he’s doing now…?
+
+@gosub .BlackScreen
+; aqui
+@hideChars
+@back CG01_01.Crossfade id:CG time:1.5 wait!
+@unlock CG/CG01_1
+
+NA: The man climbs onto one of the crates, rising above the crowd.
+NA: The murmuring slowly fades.
+NA: Sunlight strikes his face as he speaks again.
+??: If even puppets understand the weight placed upon our backs… perhaps it is time we start listening to one another.
+NA: The soldiers exchange looks.
+SOLDIER: Mind your words, alferes.
+NA: Another soldier lets out a short, dry laugh.
+SOLDIER: Alferes… a small rank for such boldness.
+NA: He tilts his head slightly, as if accepting the remark.
+??: Small, yes. But still enough to see who feels the burden first when the bill comes due.
+NA: A ripple of whispers moves through the square.
+NA: The soldier clenches his fists.
+SOLDIER: The Viscount will be informed of this insolence.
+NA: The man smiles calmly, almost politely.
+
+; @char TI.smile look:left pos:{mid}
+
+??: The Viscount knows how to count.
+??: And he also knows that flogging artists won’t grow the fifth… nor erase the shadow of the levy.
+NA: Laughter now rises more freely.
+NA: He continues, without raising his voice.
+
+; @char TI.determined look:left pos:{mid}
+
+??: The people dig, carry, sweat, and pay.
+??: And when nothing remains… they are told they still owe more.
+NA: He pauses briefly.
+NA: In the silence, his eyes sweep across the crowd.
+NA: For a moment, his gaze settles.
+
+; @char TI.smile look:left pos:{mid}
+@hide CG
+@back CG01_02.Crossfade id:CG pos:60,15 scale:2.5 time:0 wait!
+@slide CG to:50,-5
+
+NA: He watches you with curiosity, a faint smile appearing at the corner of his lips — quick, almost furtive.
+NA: For an instant, he seems charmed as your eyes meet.
+NA: Then he resumes speaking, as if nothing had interrupted his train of thought.
+
+@hide CG
+@back CG01_03.Crossfade id:CG pos:50,50 scale:1 time:0 wait!
+
+; @char TI.determined look:left pos:{mid}
+
+??: I do not speak against orders.
+??: I speak in favor of people.
+NA: The soldiers exchange glances but do not advance.
+NA: They retreat, frustrated, restrained by the weight of the crowded square.
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@gosub .BlackScreen
+@back bg_squareDay.Crossfade time:1.5 wait!
+NA: He steps down from the crate without any gesture of triumph.
+NA: The crowd begins to disperse, still carrying the echo of his words.
+NA: Alvarenga exhales slowly.
+@char AL.thinking look:left pos:{leftmid}
+AL: He plays with the edge of the blade… and knows it.
+NA: You feel something strange in your chest. It isn’t fear.
+NA: It’s the sense of having witnessed the beginning of something that cannot be undone.
+NA: The crowd continues to disperse, murmurs lingering — whispers, watchful looks, restrained smiles.
+NA: The man steps down from the improvised stage.
+NA: You keep watching him, barely realizing you’re staring.
+NA: He approaches and stops beside Alvarenga.
+NA: The two exchange a look and smile.
+@char AL.smile look:left pos:{leftmid}
+AL: Always turning the square into a powder keg.
+NA: They greet each other warmly.
+@char TI.smile look:left pos:{rightmid}
+??: And you always reminding me where the fuse lies.
+NA: They clasp hands briefly, like old acquaintances.
+NA: Alvarenga lowers his voice.
+@char AL.thinking look:left pos:{leftmid}
+AL: You speak too loudly, Tiradentes.
+AL: Words like that, in an open square… may cost more than you imagine.
+NA: Tiradentes shrugs calmly.
+@char TI.neutral look:left pos:{rightmid}
+TI: They cost less than silence.
+TI: And someone must pay that debt.
+NA: Alvarenga sighs, running a hand over his face.
+AL: One day you’ll hang for it.
+TI: Then let it be with my head held high.
+NA: Only then does he seem to notice you standing there.
+NA: His gaze settles, curious and attentive, and a light smile appears.
+@char TI.surprise look:left pos:{rightmid}
+TI: I see you’re not walking alone, Alvarenga.
+NA: Alvarenga gestures vaguely in your direction.
+@char AL.neutral look:left pos:{leftmid}
+AL: Found them on the road.
+AL: Lost, dressed in a… curious fashion.
+NA: You still seem a bit overwhelmed.
+@char {PLAYER}2.surprise look:left pos:{mid}
+PLAYER: WAIT!!!
+PLAYER: You’re… Tiradentes?
+NA: The silence lingers a second longer than comfortable.
+NA: Tiradentes blinks, confused.
+@char TI.thinking look:left pos:{rightmid}
+TI: Tiradentes… they call me that, yes.
+TI: But I prefer alferes, if it’s not too much to ask.
+NA: You swallow hard, eyes shining.
+
+PLAYER: My God…
+PLAYER: I’m in colonial Brazil…
+NA: Alvarenga raises an eyebrow.
+@char AL.thinking look:left pos:{leftmid}
+AL: Indeed. A colony of Portugal, to be precise.
+NA: You press a hand to your chest, emotional.
+PLAYER: The history books don’t portray you very well — they don’t do justice to your loveliness.
+@char TI.surprise look:left pos:{rightmid}
+NA: Tiradentes freezes for a moment.
+NA: Then he lets out a short, disbelieving laugh.
+@char TI.embarrass look:left pos:{rightmid}
+TI: Loveliness?
+TI: Alvarenga, where did you find this creature?
+NA: Alvarenga smirks.
+@char AL.smile look:left pos:{leftmid}
+AL: Fell right into my path. Quite literally.
+NA: Tiradentes studies you more closely now, clearly intrigued.
+@char TI.neutral look:left pos:{rightmid}
+TI: Well then.
+TI: Wherever you’ve come from, you seem to have a loose tongue… and sharp eyes.
+NA: Before the conversation continues, Alvarenga looks around and raises an eyebrow upon noticing the soldiers still nearby.
+@char AL.thinking look:left pos:{leftmid}
+AL: I need to speak with them before they decide to cause more trouble.
+AL: I’ll use what influence I still have.
+NA: He takes two steps, then looks at Tiradentes.
+AL: Try not to cause more unrest while I’m gone.
+TI: I promise nothing.
+@hide AL
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+NA: Alvarenga walks toward the soldiers, leaving the two of you alone in the square as it slowly returns to its usual murmur.
+NA: Tiradentes crosses his arms, leaning slightly toward you.
+NA: Up close, he seems less heroic — and more human.
+NA: Sweat marks his forehead, his shoulders carry a hint of fatigue, yet his gaze remains sharp.
+@char TI.smile look:left pos:{rightmid}
+TI: Tell me, traveler from a strange time:
+TI: What do these books say about me?
+NA: His smile is calm. His eyes, dangerously curious.
+PLAYER: They say many things… your work as a dentist, your role in the Minas conspiracy, and about your…
+NA: You hesitate, remembering the fate history books gave Tiradentes.
+NA: He notices the pause and tilts his head slightly, understanding.
+@char TI.neutral look:left pos:{rightmid}
+TI: Do not trouble yourself. I would rather be remembered poorly than not remembered at all.
+PLAYER: Right…
+NA: You glance around, trying to change the subject.
+PLAYER: The words you spoke were beautiful… but dangerous.
+NA: Tiradentes lets out a tired, knowing half-smile.
+TI: Speeches always sound better from a distance, don’t they?
+
+@choice "People really listened" goto:.scene1T-1
+@choice "Words don’t fill empty stomachs" goto:.scene1T-2
+@stop
+
+# scene1T-1
+@set liberaTiradentes=true
+NA: Tiradentes studies you for a longer moment.
+@char TI.smile look:left pos:{rightmid}
+TI: I like the way you think.
+TI: If there were time and occasion… much more could be said.
+NA: A guard passes not far away.
+NA: Tiradentes notices immediately. He lowers his voice — cautious, not conspiratorial.
+@char TI.thinking look:left pos:{rightmid}
+TI: Vila Rica is full of attentive ears.
+TI: Choose carefully what you carry with you.
+NA: He takes two steps away, then pauses.
+@char TI.neutral look:left pos:{rightmid}
+TI: Still…
+TI: Not every silence is a virtue.
+
+@goto .scene1T-3end
+
+# scene1T-2
+NA: He breathes deeply, as if deciding not to argue with the world.
+@char TI.determined look:left pos:{rightmid}
+TI: I know hunger.
+TI: I know the weight of taxes, of gold vanishing from empty hands at day’s end.
+NA: A brief, weary smile.
+@char TI.thinking look:left pos:{rightmid}
+TI: If words don’t fill stomachs… at least they remind us they exist.
+NA: He nods to you with respect.
+NA: You look back thoughtfully, wondering whether your words can truly help him.
+@choice "Maybe I want to hear more" goto:.scene1T-1
+@choice "It’s none of my concern" goto:.scene1T-3
+@stop
+
+
+# scene1T-3
+@set liberaTiradentes=false
+NA: Tiradentes’ gaze darkens slightly.
+@char TI.angry look:left pos:{rightmid}
+TI: For one who comes from afar, I understand.
+TI: The troubles of this town may not reach you.
+PLAYER: I didn’t say that.
+PLAYER: I just think words can bring serious consequences.
+@char TI.determined look:left pos:{rightmid}
+TI: And silence brings them as well.
+NA: He gives a short nod.
+TI: Farewell.
+NA: Without waiting for a reply, he disappears into the crowd.
+@goto .TESTE
+@goto .scene1T-3end
+
+
+# scene1T-3end
+
+; Depois das escolhas
+; CENA 5
+@hideChars
+NA: Tiradentes melts back into the crowd.
+@stopBgm fade:3 !wait
+NA: The square returns to its usual noise — vendors calling out, footsteps, distant bells.
+@bgm wander volume:0.7
+NA: The soldiers remain watchful, and Alvarenga returns to your side.
+@char AL.neutral look:left pos:{mid}
+AL: It would be wise for us to move along.
+AL: Not everyone appreciates seeing authority challenged in public.
+NA: You agree.
+NA: But as you walk, one thing remains clear: the books you read
+NA: do not do justice to the man you just met.
+NA: Alvarenga leads you into a quieter street, away from the square’s bustle. The voices fade behind you, replaced by the distant creak of wagons and hurried footsteps.
+NA: He stops near a calmer stretch of road, shaded by nearby buildings.
+AL: Here you are safer. It would not be wise to wander much for now.
+NA: You look at him, intrigued.
+NA: He seems restless, glancing back.
+PLAYER: Are you going back to the square?
+AL: Alvarenga hesitates for a moment, choosing his words.
+@char AL.thinking look:left pos:{mid}
+AL: I need to speak with a friend… and look into a certain matter.
+NA: There is something incomplete in the way he says it — as if there were a name he prefers not to mention.
+PLAYER: Sounds important.
+NA: He inclines his head slightly.
+@char AL.neutral look:left pos:{mid}
+AL: In Vila Rica, almost everything is.
+NA: He mounts his horse again, takes the reins, and before leaving, gives you one last warning:
+AL: Wait here.
+AL: And if you do decide to walk… do not stray too far.
+@hideChars
+NA: With that, he rides off down the dirt road, blending back into the city.
+NA: You are left alone.
+NA: The sun still weighs heavy overhead, and Vila Rica pulses around you.
+NA: You take a deep breath.
+
+; aqui
+@set rotaEstrada=false
+@set rotaArmazem=false
+@set rotaFeira=false
+@set rotaTeatro=false
+
+# choiceRota
+
+
+@if rotaEstrada=true&rotaArmazem=true&rotaFeira=true&rotaTeatro=true
+@goto .scene6
+@endif
+@back bg_squareDay.Crossfade time:1.5 wait!
+NA: Maybe it's time to choose where to go.
+
+
+@choice "Follow the road" goto:.Rota_Estrada if:rotaEstrada=false
+@choice "Check the warehouse" goto:.Rota_Armazem if:rotaArmazem=false
+@choice "Check the market" goto:.Rota_Feira if:rotaFeira=false
+@choice "Check the theater" goto:.Rota_Teatro if:rotaTeatro=false
+@stop
+
+# scene6
+@stopBgm fade:5 !wait
+@back bg_squareAfternoon.Crossfade time:1.5 wait!
+NA: You and Alvarenga return to the town square after walking for some time.
+NA: You pass by soldiers who have resumed their watch following Tiradentes’ speech.
+NA: The soldiers exchange looks — clearly displeased — but step back.
+@bgm tension volume:0.7
+NA: A Crown officer with rigid posture gives you a long, measuring stare, as if committing your face to memory.
+NA: He turns away, his cloak swaying behind him.
+NA: Alvarenga approaches immediately, resting a firm but subtle hand on your arm.
+@char AL.neutral look:left pos:{mid}
+AL: Come. Before they change their minds.
+NA: You move away together, blending once more into the square’s crowd.
+NA: The murmur slowly returns — but it no longer sounds the same.
+NA: In the distance, you spot Tiradentes speaking with a few men. Alert, he briefly meets your gaze.
+NA: This time he does not smile. He simply inclines his head.
+NA: Across the square, Joaquim watches the scene while leaning against a column, his expression hard to read. When he notices you looking, he raises an eyebrow slightly.
+NA: You feel eyes on you.
+NA: One step. Then another.
+NA: As you try to move away, a voice cuts through the air.
+SOLDIER: You there. A moment.
+NA: Two soldiers approach, hands near their weapons — not aggressive, but clearly suspicious.
+SOLDIER: You’ve been observing too closely.
+SOLDIER: Writing anything down, by chance?
+PLAYER: I wasn’t doing anything.
+NA: One soldier exchanges a glance with the other.
+
+SOLDIER: They all say that.
+NA: Alvarenga, who was nearby, notices the situation and steps back toward you — but another soldier raises a hand to stop him.
+NA: Stay where you are, sir.
+NA: Tell us — whom do you serve?
+PLAYER: No one. I just… arrived in the city.
+NA: A short, uncomfortable silence.
+SOLDIER: Just… arrived.
+NA: The tone makes it clear this does not help.
+
+NA: You speak too quickly. Your words sound strange.
+NA: The soldiers frown, hands tightening near their weapons.
+SOLDIER: Your speech is… crooked.
+SOLDIER: Doesn’t sound like a mule driver or a miner.
+NA: Another soldier folds his arms.
+SOLDIER: And that’s usually a bad sign.
+NA: Ignoring the warning, Alvarenga steps forward, placing himself between you and the men.
+AL: That’s enough, gentlemen.
+AL: The disturbance is over. There’s no crime here.
+NA: The captain watches him with a cold smile — almost satisfied.
+CAPTAIN: You never tire of standing where you shouldn’t… do you?
+NA: He circles Alvarenga slowly, assessing him.
+CAPTAIN: First… certain poorly explained dealings in your household.
+CAPTAIN: Then your persistent protection of the alferes. 
+CAPTAIN: Now this stranger who appears from nowhere… and listens too closely.
+NA: The captain’s gaze slides toward you.
+CAPTAIN: You do seem fond of collecting trouble, Mr. Alvarenga.
+NA: Alvarenga’s jaw tightens. His voice comes out steady — loaded with tension.
+@char AL.angry look:left pos:{mid}
+AL: I attend to what is my duty.
+AL: And I owe no explanation of hospitality to those who mistake surveillance for justice.
+NA: One of the soldiers lets out a low laugh.
+SOLDIER: Still believe name and coin solve everything?
+NA: The captain raises a hand for silence, though his tone remains provocative.
+CAPTAIN: The Crown’s power does not bend to favors.
+CAPTAIN: Nor to gold… nor to good company.
+
+NA: Alvarenga exhales an ironic sigh, almost disbelieving what he just heard. He steps forward, anger finally surfacing.
+@char AL.determined look:left pos:{mid}
+AL: Do not invoke virtue while you feed on another man’s suffering.
+AL: If there is disorder in Vila Rica, it is born of blind exaction.
+NA: Silence grows heavy.
+NA: For a moment, you think this has gone too far.
+NA: The captain merely smiles — slow and deliberate.
+CAPTAIN: Dangerous words.
+CAPTAIN: You walk far too close to the alferes, sir.
+NA: He turns to the soldiers.
+CAPTAIN: Mark this outsider’s face well.
+CAPTAIN: Do not lose sight of him.
+NA: His gaze returns to Alvarenga.
+CAPTAIN: Today, we shall let it pass.
+CAPTAIN: Tomorrow… we shall see if your influence weighs as much as you believe.
+NA: He makes as if to leave.
+NA: The air seems to relax — for a single second.
+NA: Then the sound of firm footsteps cuts through the murmur. A strange silence spreads across the square.
+NA: A man of imposing stature emerges among the soldiers — immaculate attire, a cold and calculating gaze.
+NA: He does not need to announce himself.
+NA: The soldiers straighten immediately.
+@char AL.determined look:left pos:{rightmid}
+
+@char VI.angry look:left pos:{leftmid}
+
+??: What a fine spectacle you’ve arranged here.
+
+NA: The captain swallows hard.
+CAPTAIN: Viscount… it was merely—
+VI: Merely?
+NA: His gaze sweeps the area slowly.
+VI: An alferes stirring the people in a public square. Performers mocking the Crown.
+VI: And now… yet another stranger in the midst of chaos.
+NA: His eyes settle on Alvarenga.
+VI: And, as always, you at the center of the disturbance.
+@char AL.neutral look:left pos:{rightmid}
+NA: Alvarenga steps forward, striving to maintain dignity.
+AL: Viscount, there is no disorder that—
+
+@char VI.determined look:left pos:{leftmid}
+
+VI: Silence.
+NA: The interruption is sharp and abrupt.
+NA: Two soldiers step closer to Alvarenga — just enough to remind him he holds no power here.
+NA: The Viscount then turns to you. His gaze is heavy, cold, and assessing.
+VI: And who is this now?
+VI: For what reason were you listening to what does not concern you?
+NA: Alvarenga attempts to intervene.
+@char AL.determined look:left pos:{rightmid}
+@if gender="female"
+AL: She is under my—
+@else
+AL: He is under my—
+@endif
+VI: I did not address you.
+NA: Silence weighs on the air. Alvarenga’s jaw tightens in clear irritation, while the Viscount simply ignores him, focusing on you.
+
+@if gender="female"
+NA: The viscount frowns.
+@char VI.determined look:left pos:{leftmid}
+VI: A woman… alone?
+VI: And tell me—under whose care are you?
+NA: His tone is not concerned. It is interrogative.
+VI: Or do ladies now wander unaccompanied among soldiers and agitators?
+NA: An uneasy murmur spreads through the crowd. He studies you from head to toe, measuring.
+PLAYER: I… uh…
+VI: Where is your husband? Or your father? A guardian, at the very least?
+PLAYER: I have none.
+NA: That answer stirs even more murmurs.
+VI: That is most improper.
+VI: A woman without protection is trouble… or makes it.
+NA: His patronizing tone irritates you. Your fists clench until your knuckles turn white as you glare back at him.
+SOLDIER: We cannot simply let her wander like this.
+SOLDIER: She will be placed under the supervision of someone respectable.
+NA: You feel the weight of the word *placed*.
+@endif
+
+@if gender="male"
+@char VI.determined look:left pos:{leftmid}
+NA: The viscount raises an eyebrow slightly.
+NA: A man with no known trade, no master, no clear purpose…
+NA: He tilts his head, assessing you.
+@char VI.thinking look:left pos:{leftmid}
+VI: Some would call that a traveler.
+VI: I usually call it a vagrant.
+NA: A cold smile curls on his lips.
+VI: Or worse… an accomplice.
+@endif
+
+NA: His gaze slides briefly toward Alvarenga.
+@char VI.determined look:left pos:{leftmid}
+VI: You seem to have a curious taste for troublesome company.
+VI: I wonder what advantage a married man finds… in surrounding himself with such inconvenient companions.
+NA: His eyes move from you to Alvarenga, heavy with judgment.
+@wait 0.4
+NA: Before the tension can erupt, a familiar voice cuts through the silence.
+@hide AL
+@char TI.neutral look:left pos:{rightmid}
+TI: Your Excellency.
+NA: He approaches with a firm but respectful posture.
+@char TI.determined look:left pos:{rightmid}
+TI: I see no crime here that would justify such diligence.
+NA: The viscount smiles without humor.
+@char VI.smile look:left pos:{leftmid}
+VI: Alferes.
+VI: Your boldness today has exceeded what is tolerable.
+NA: His gaze shifts to someone approaching.
+NA: Joaquim appears shortly after, his expression far too relaxed for the situation.
+@char JO.neutral look:left pos:{mid}
+NA: Tiradentes keeps his posture straight.
+TI: I merely reminded the crowd that the square is not a barracks, Your Excellency.
+NA: A soldier steps forward, but the viscount raises a hand, stopping him.
+@char VI.angry look:left pos:{leftmid}
+VI: A reminder?
+VI: You call it a reminder to stir murmurs against the Crown?
+NA: He steps a little closer.
+VI: You spoke of taxes, of gold, of burdens…
+VI: Dangerous words, spoken into the wrong ears.
+NA: Tiradentes holds his gaze.
+TI: I spoke only what all feel and few dare to say.
+NA: The viscount lets out a short, bitter laugh.
+@char VI.smile look:left pos:{leftmid}
+VI: Courage you do not lack.
+VI: Judgment, perhaps.
+NA: His attention turns to Joaquim.
+@char VI.thinking look:left pos:{leftmid}
+VI: And you, Reis…
+VI: I see you hurry to defend the alferes.
+@char JO.thinking look:left pos:{mid}
+JO: Well… if you question everyone who listens to a speech, the square will soon be empty.
+@char TI.neutral look:left pos:{rightmid}
+TI: This person was with me earlier.
+TI: Nothing more than curiosity… a virtue still permitted, I believe.
+NA: He inclines his head slightly.
+@char VI.determined look:left pos:{leftmid}
+VI: Two uniformed men protecting an inconvenient speech…
+VI: This foreigner—and these words—must be of great importance indeed.
+NA: Joaquim answers with an easy smile, though his tone is firm.
+@char JO.smile look:left pos:{mid}
+JO: Vila Rica has grown rather small of late, Your Excellency.
+JO: We keep running into the same faces… and the same problems.
+NA: The viscount examines him from head to toe.
+@char VI.neutral look:left pos:{leftmid}
+VI: Reis…
+NA: A calculated pause.
+VI: Still playing at being a great merchant?
+NA: He steps forward.
+@char VI.determined look:left pos:{leftmid}
+VI: Tell me—do you come here as a man of business…
+VI: Or as a soldier who seems to have forgotten to whom he owes obedience?
+NA: Joaquim keeps smiling, but his eyes harden.
+JO: I serve the Crown when it serves order. Not abuse.
+NA: A restless murmur spreads through the square.
+NA: The viscount’s expression darkens.
+VI: Your manners grow dangerously loose, Reis.
+NA: He casts one last glance at Tiradentes.
+@char VI.angry look:left pos:{leftmid}
+VI: And your speeches gather far too many listeners, Alferes
+NA: Silence.
+NA: The viscount steps back, reclaiming control.
+@char VI.determined look:left pos:{leftmid}
+VI: Not today.
+NA: He gestures briefly to the soldiers.
+VI: But do not mistake my patience for forgetfulness.
+NA: His eyes turn to you again.
+NA: Once more, the question—now almost a sentence.
+@char VI.neutral look:left pos:{leftmid}
+VI: So then…
+VI: Under whose protection are you?
+
+
+NA: Silence falls like a weight.
+@if liberaBarbara=false&liberaCelio=false&liberaHipolita=false&liberaJoaquim=false&liberaTiradentes=false
+@goto .Bad_End
+@endif
+
+@choice "Under the care of Hipólita Teixeira de Melo" goto:.Rota_Hipolita if:liberaHipolita=true
+@choice "In Tiradentes’ company" goto:.Rota_Tiradentes if:liberaTiradentes=true
+@choice "In Joaquim’s company" goto:.Rota_Joaquim if:liberaJoaquim=true
+@choice "Hand over the letter Bárbara gave you" goto:.Rota_Barbara if:liberaBarbara=true
+@choice "With Célio’s theater troupe" goto:.Rota_Celio if:liberaCelio=true
+@stop
+
+; “Under the care of Hipólita Teixeira de Melo.”
+# Rota_Hipolita
+@set afetoHipolita=0
+@set afetoHipolita+=1
+NA: The Viscount raises an eyebrow slightly.
+@char VI.thinking look:left pos:{leftmid}
+VI: Hipólita…?
+NA: A faint smile.
+VI: I wonder what a lady of such fine lineage is doing involving herself with… outsiders like you.
+NA: He glances sideways at Alvarenga.
+VI: Certain company stains worse than road mud.
+NA: Alvarenga tightens his jaw, but restrains himself.
+@goto .scene6follow
+
+; “In Tiradentes’ company.”
+# Rota_Tiradentes
+@set afetoTiradentes=0
+@set afetoTiradentes+=1
+NA: The Viscount lets out a short, dry laugh.
+@char VI.angry look:left pos:{leftmid}
+VI: Ah. Of course.
+NA: He turns directly to Tiradentes.
+@char VI.determined look:left pos:{leftmid}
+VI: Another problem joining the alferes who already speaks too freely in public squares.
+NA: Tiradentes holds his gaze.
+@char TI.determined look:left pos:{rightmid}
+TI: I do nothing but remind the people of the burden they carry.
+VI: And I make it my duty to remind you who holds the chain.
+@goto .scene6follow
+
+; “In Joaquim’s company.”
+# Rota_Joaquim
+@set afetoJoaquim=0
+@set afetoJoaquim+=1
+@char VI.thinking look:left pos:{leftmid}
+NA: The Viscount studies Joaquim with renewed attention.
+VI: Reis…
+NA: He measures him from head to toe.
+VI: Tell me, Joaquim — what has been wrong with you lately?
+VI: First questionable dealings… now defending strangers?
+NA: Joaquim answers with a controlled smile.
+@char JO.smile look:left pos:{mid}
+JO: Vila Rica has grown small, Your Excellency — it offers few new distractions.
+JO: And I don't ignore the rare exceptions.
+VI: Too small for your maneuvers.
+@goto .scene6follow
+
+; “Hand over the letter Bárbara gave me.”
+# Rota_Barbara
+@set afetoBarbara=0
+@set afetoBarbara+=1
+NA: You extend the letter.
+@char VI.surprise look:left pos:{leftmid}
+NA: The Viscount takes it, reads quickly, and his expression hardens.
+@char VI.angry look:left pos:{leftmid}
+VI: “Services to merchants”… an interesting choice of words.
+NA: He lifts his gaze, sharp.
+@char VI.determined look:left pos:{leftmid}
+VI: Now I see. Another one circulating among warehouses and hidden favors.
+NA: A soldier murmurs something in the background.
+VI: Do not think this will go unnoticed.
+@goto .scene6follow
+
+; “I’m with the theater troupe. With Célio.”
+# Rota_Celio
+@set afetoCel=0
+@set afetoCel+=1
+@char VI.angry look:left pos:{leftmid}
+NA: The Viscount frowns, clearly displeased.
+VI: Theater?
+NA: He exhales in disdain.
+VI: Another vagrant decorating the city with antics while the gold disappears.
+NA: His gaze darkens.
+VI: Be careful. People without trade tend to end up… hanging poorly.
+@goto .scene6follow
+
+; Bad End
+
+; @if hipolita=0&tiradentes=0&joaquim=0&barbara=0&celio=0
+; @goto Bad_End
+; @endif
+
+# scene6follow
+; Após a escolha e resposta
+NA: Tiradentes steps forward.
+@char TI.determined look:left pos:{rightmid},-1
+TI: Be that as it may, Viscount, the outsider answered honestly.
+NA: Joaquim crosses his arms.
+@char JO.determined look:left pos:{mid}
+JO: And committed no crime worthy of such scrutiny.
+NA: The Viscount studies them both slowly.
+@char VI.surprise look:left pos:{leftmid}
+VI: Two officers defending a stranger…
+NA: He shakes his head. A heavy pause.
+@char VI.thinking look:left pos:{leftmid}
+VI: For now… enough.
+NA: He turns to the soldiers.
+@char VI.determined look:left pos:{leftmid}
+VI: Let them go. But remember the face.
+NA: His gaze returns to you.
+VI: Vila Rica does not forget faces that do not belong.
+NA: With a sharp gesture, he walks away. The soldiers follow.
+NA: As the Viscount distances himself, Joaquim turns to Tiradentes.
+@hide VI
+@char JO.angry look:left pos:{leftmid}
+JO: You speak too much. One day it will cost you dearly.
+NA: Tiradentes answers calmly, but firmly.
+@char TI.determined look:left pos:{rightmid}
+TI: Silence costs more to those who already have nothing.
+NA: They hold each other’s gaze for a moment.
+@char JO.determined look:left pos:{leftmid}
+
+JO: We are not the same, alferes.
+@char TI.neutral look:left pos:{rightmid}
+TI: I never said we were.
+NA: They part with a brief nod — more political than friendly — and go their separate ways.
+@hideChars
+NA: You realize: there is respect… but no friendship.
+@wait 0.4
+
+@char AL.determined look:left pos:{mid}
+NA: Alvarenga releases the breath he had been holding.
+AL: We should leave. Before they change their minds.
+NA: For a moment, he says nothing.
+NA: Then, in a low voice meant only for you:
+@char AL.sad look:left pos:{mid}
+AL: This should not have happened to you. I placed you in danger before you even understood where you were standing.
+PLAYER: They spoke of your wife…
+NA: He closes his eyes for a second.
+@char AL.neutral look:left pos:{mid}
+AL: We will speak of that later.
+NA: He looks at you seriously.
+@char AL.determined look:left pos:{mid}
+AL: Now listen carefully. From this moment on, you are no longer just a stranger.
+NA: A pause.
+AL: You are someone they have chosen to watch.
+NA: You continue walking.
+NA: As you walk, he speaks quietly:
+@char AL.embarrass look:left pos:{mid}
+AL: I would take you into my home…
+AL: But my wife is far too suspicious these days to welcome surprises.
+NA: He makes a conciliatory gesture.
+@char AL.neutral look:left pos:{mid}
+AL: Still, I know a safe inn.
+@stopBgm fade:5 !wait
+@gosub .BlackScreen
+
+; CENA 7
+@back bg_innNight.Crossfade time:1.5 wait!
+@bgm respite volume:0.7
+@hideChars
+NA: The inn is simple, but clean. Worn wood, the smell of warm food in the air.
+NA: The owner is a Black woman with a firm posture and a watchful gaze.
+NA: She studies you a moment longer than necessary.
+@char FR.surprise look:left pos:{rightmid}
+??: You bring no coins… nor any belongings.
+NA: You confirm, slightly embarrassed.
+NA: She sighs and crosses her arms.
+NA: Before you can respond, Alvarenga steps in, his tone carefully casual.
+@char AL.neutral look:left pos:{leftmid}
+@if gender="female"
+AL: The lass ran into… complications.
+@else
+AL: The lad ran into… complications.
+@endif
+; AL: The </lass/lad> ran into… complications.
+AL: They’ll stay only a short while. I’ll vouch for them, Francisca.
+NA: He discreetly places a few coins on the counter — no counting aloud, no drawing attention.
+NA: The woman covers them with her hand almost immediately.
+@char FR.neutral look:left pos:{rightmid}
+FR: I see.
+NA: She looks back at you, her expression softer now.
+FR: You may stay. But not as charity.
+NA: A small, firm smile.
+@char FR.smile look:left pos:{rightmid}
+FR: You’ll help around the house while you’re here.
+FR: With what you know… and what you’ve yet to learn.
+NA: You agree, relieved.
+NA: She gestures toward the wooden stairs.
+
+FR: We’ll talk properly tomorrow.
+FR: Vila Rica takes its toll on everyone… but it doesn’t close its doors to those willing to work.
+@hide FR
+@char AL.neutral look:left pos:{mid}.
+; NA: Alvarenga steps closer, lowering his voice.
+NA: You step closer to Alvarenga, lowering your voice.
+PLAYER: Hey… thank you. Truly.
+NA: He turns, slightly surprised, as if he hadn’t expected open gratitude.
+@char AL.surprise look:left pos:{mid}
+AL: There’s nothing to thank me for.
+NA: You hesitate for a moment, then ask:
+PLAYER: But… why are you doing this?
+PLAYER: You barely know me.
+NA: Alvarenga holds your gaze a second longer than necessary. When he speaks, his tone is calm — almost too gentle for a man used to caution.
+@char AL.thinking look:left pos:{mid}
+AL: Let’s say I have a fondness for those who seem out of place…
+NA: He adjusts his gloves, preparing to leave.
+@char AL.neutral look:left pos:{mid}
+AL: Vila Rica is rarely patient with those who arrive without a map.
+AL: If I can keep someone from getting lost on their first day… I do.
+NA: A strange tightness settles in your chest — somewhere between relief and curiosity.
+PLAYER: Still… not everyone would do that.
+NA: Alvarenga allows himself a brief, restrained half-smile.
+@char AL.smile look:left pos:{mid}
+AL: I once received help when I needed it. I simply return the favor when I can.
+
+NA: He mounts his horse, gathers the reins, and before leaving, casts you one last look.
+@char AL.neutral look:left pos:{mid}
+AL: Rest tonight.
+AL: Tomorrow, the city will demand more of you than you imagine.
+NA: With a small nod, he rides off down the dirt road.
+NA: You watch him go until his silhouette fades into the darkness.
+PLAYER: (Okay… so besides being polite, mysterious, and clearly attractive…)
+PLAYER: (He’s also a gentleman.)
+NA: You shake your head, trying — unsuccessfully — to push the thought away.
+NA: Then you climb the inn’s stairs, knowing that tomorrow Vila Rica won’t let you pass unnoticed.
+
+@gosub .BlackScreen
+;@goto "MD Template (Resources)/Scripts/rota_tiradentes"
+@goto .End_RotaComum
+
+; Cena 5H- 1-Rota da Hipolita
+# Rota_Estrada
+@stopBgm fade:3 !wait
+@set rotaEstrada=true
+NA: Not quite sure where you’re going, you follow the packed dirt road, the sun weighing heavy on your shoulders.
+@back bg_gardenDay.Crossfade time:1.5 wait!
+@bgm hipolita volume:0.7
+NA: In the distance, a large manor stands out — grand, almost like a country estate.
+NA: Beside it, a carefully maintained garden arranged in European fashion, sharply contrasting with everything around it.
+PLAYER: (Well… the definition of “multifunctional” just got updated…)
+NA: You try not to stare too much, but curiosity wins. Your steps carry you closer.
+NA: Among the garden plants, a woman moves with careful precision.
+@char HI.neutral look:left pos:{mid}
+NA: Short dark hair. Her eyes are bright and attentive, though touched by a quiet fatigue.
+NA: When she lifts her head and notices you, she hesitates for a moment.
+NA: Then a small smile appears on her lips.
+@char HI.smile look:left pos:{mid}
+NA: A sudden chill runs through you. A light flutter in your stomach.
+NA: She holds your gaze, returning it — her lips tremble as if she might say something, but she thinks better of it.
+
+; Variação de gênero
+@if gender="male"
+@char HI.thinking look:left pos:{mid}
+HI: You’re not from around here… are you?
+NA: A brief pause.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+@char HI.thinking look:left pos:{rightmid}
+PLAYER: How can you tell?
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+NA: She gives a knowing half-smile — the kind that already has the answer.
+@char HI.neutral look:left pos:{rightmid}
+HI: The way you speak. And that look… people who know where they’re stepping don’t walk like that.
+NA: You take a breath before replying.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Maybe I’m just trying to find the right path.
+NA: She tilts her head slightly, curious.
+HI: Looks like you got lost before you even started looking.
+NA: A short silence settles between you.
+NA: Then you step forward, almost on impulse.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: I’m {name}.
+NA: She holds your gaze a second longer than necessary.
+HI: Hipólita.
+NA: The name lingers in the air — simple and steady.
+PLAYER: That’s a beautiful name.
+@char HI.shy look:left pos:{rightmid}
+@endif
+
+@if gender="female"
+NA: She watches you a moment longer than politeness requires.
+@char HI.neutral look:left pos:{mid}
+NA: Her movements falter slightly as she raises her head.
+NA: Then comes a restrained, gentle smile.
+@char HI.smile look:left pos:{mid}
+NA: She wipes her hands on her apron before speaking.
+??: Good afternoon.
+NA: Her voice is soft, polite, and free of suspicion.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+@char HI.smile look:left pos:{rightmid}
+PLAYER: Good afternoon…
+NA: You hold each other’s gaze a moment longer than usual. Neither seems eager to break it.
+NA: She studies you with quiet curiosity.
+@char HI.thinking look:left pos:{rightmid}
+??: Forgive my frankness… but I don’t recall seeing your face among those who pass through here.
+NA: You smile faintly, unsure why.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: Is it that obvious?
+NA: The woman shakes her head gently.
+@char HI.neutral look:left pos:{rightmid}
+??: Not from carelessness. It’s the way you look… those who come from far away tend to see everything as if waking from a dream.
+NA: She steps a little closer, still keeping a respectful distance.
+NA: A surprised laugh escapes you.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: I think that’s exactly it.
+NA: She smiles back.
+@char HI.smile look:left pos:{rightmid}
+??: Then welcome… at least to this little corner.
+NA: A brief pause. The wind stirs the garden leaves.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: I’m {name}.
+NA: She tilts her head, satisfied.
+HI: Hipólita.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: Hipólita… that’s a beautiful name.
+@endif
+
+NA: She doesn’t seem to expect the compliment. The smile comes — small, restrained.
+@char HI.surprise look:left pos:{rightmid}
+HI: Thank you… I’m not used to hearing it said like that.
+NA: She lowers her gaze slightly, folding her hands in front of her. The sun weighs heavy.
+NA: After a moment, she glances around.
+@char HI.neutral look:left pos:{rightmid}
+HI: If you don’t mind… the sun is relentless today. My garden is just there. At least there’s shade — and a bit of cool air.
+NA: She gestures toward the side of the manor, where trees and garden beds line up in careful, almost too-European order.
+
+; Cena 5H-2
+
+NA: You walk side by side through the garden. The sounds of the street begin to fade.
+NA: The garden is meticulously maintained — almost overly organized. Symmetrical beds, neatly trimmed herbs, flowers chosen with care. Everything here feels ruled by someone who spends a great deal of time tending it.
+NA: Hipólita lightly brushes one of the plants.
+@char HI.neutral look:left pos:{rightmid}
+HI: I like coming here when I can. It’s one of the few places where time moves a little slower.
+NA: She sits in the shade and gestures discreetly for you to do the same.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: You take care of all this yourself, ma’am?
+@char HI.surprise look:left pos:{rightmid}
+HI: Ma’am?
+NA: For a moment, her smile falters — brief, almost imperceptible, but real.
+NA: A short pause. She folds her hands neatly again.
+@char HI.neutral look:left pos:{rightmid}
+HI: When I can, yes. Some would say it’s too much work for a woman…
+NA: She smiles faintly.
+HI: But there are things that only bloom when touched by one’s own hands.
+NA: A comfortable silence settles between you.
+NA: Hipólita studies you more closely now, as if weighing her words.
+@char HI.thinking look:left pos:{rightmid}
+HI: And you? You seem… out of step with the world.
+NA: Her gaze lingers, careful.
+PLAYER: Well… you were right about me. I arrived in the city not long ago. Let’s put it that way.
+NA: She tilts her head, intrigued.
+HI: And where did you live before?
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: São Paulo. Or the Captaincy of São Paulo, as they’d say. Either way… it doesn’t matter much.
+@char HI.smile look:left pos:{rightmid}
+HI: And what is it like?
+PLAYER: Big. Very big.
+@char HI.sad look:left pos:{rightmid}
+NA: Her smile slowly fades, replaced by something heavier — almost weary.
+@char {PLAYER}2.sad look:left pos:{leftmid}
+PLAYER: It’s an incredible place. A world that’s both beautiful and sad.
+PLAYER: It gave me everything… and took what I had.
+NA: Hipólita notices the shift in your expression. Her eyes soften.
+@char HI.sad look:left pos:{rightmid}
+HI: That doesn’t sound like a happy memory.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Not really. The city is intoxicating… it uses you.
+NA: She stays quiet for a moment, absorbing your words.
+@char HI.neutral look:left pos:{rightmid}
+HI: I understand.
+NA: It isn’t pity — more recognition.
+NA: Her gaze drifts briefly toward the house.
+HI: Here, everything has its place. A time to wake, to sit at the table, to smile… when appropriate.
+HI: It isn’t as exciting as your former city.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Different is good. Strangely… I feel more at peace here than I have in a long time.
+NA: She breathes deeply, straightening her posture.
+@char HI.thinking look:left pos:{rightmid}
+HI: Don’t misunderstand me. I’m grateful for what I have.
+HI: It’s just… sometimes I feel I’m living a life that was decided before I ever learned how to choose.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: You don’t control your own destiny?
+NA: Hipólita lets out a small, humorless laugh.
+@char HI.determined look:left pos:{rightmid}
+HI: One governs very little when born a woman… and well placed.
+NA: She looks back at you.
+HI: I was taught what was proper: to behave well, speak when appropriate, stay silent when expected… and marry respectably.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: And what do you do with your days? Do you work?
+@char HI.neutral look:left pos:{rightmid}
+HI: The duties of a respectable household, of course.
+HI: I rely on Celina — she’s devoted and kind-hearted. Without her… I confess much here would fall out of order.
+NA: There’s warmth and pride in her voice when she says it.
+HI: Aside from that… I tend the garden. It’s where I find some peace.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: And studies? Ever thought about that?
+NA: Hipólita raises an eyebrow slightly.
+@char HI.surprise look:left pos:{rightmid}
+HI: Tell me… where did you say you were from again?
+NA: She smiles with gentle irony.
+HI: I’m not a man — such rights aren’t mine. Still, I was taught to read and write… enough to spare me embarrassment.
+HI: I keep a few good books. Quiet companions… faithful ones.
+NA: She notices your surprise and tilts her head curiously.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+HI: I suppose that isn’t very common where you come from.
+
+@choice "Of course not — not at all" goto:.scene1H-1
+@choice "It’s not something I think about much, but I understand" goto:.scene1H-2
+@stop
+; Escolha do Jogador
+
+# scene1H-1
+@set liberaHipolita=false
+
+@char {PLAYER}2.determined look:left pos:{leftmid}
+PLAYER: Forgive me… but spending a lifetime between walls, flowers, and an arranged marriage… that hardly sounds like a dream to me.
+NA: Hipólita’s smile falters for a moment.
+@char HI.determined look:left pos:{rightmid}
+HI: Some dreams are not ours to choose.
+NA: She folds her hands neatly before her.
+@char HI.angry look:left pos:{rightmid}
+HI: Not everyone has the privilege of judging what was imposed upon them.
+@char {PLAYER}2.embarrass look:left pos:{leftmid}
+NA: The weight of her words settles between you. She straightens her posture.
+PLAYER: I’m sorry… I didn’t mean it that way.
+NA: Hipólita hesitates, then softens.
+@char HI.neutral look:left pos:{rightmid}
+HI: Do not trouble yourself. Words spoken without malice carry little harm.
+NA: She steps back, already creating distance.
+HI: The afternoon grows late… I should return inside.
+@char {PLAYER}2.sad look:left pos:{leftmid}
+PLAYER: Will I see you again?
+NA: Hipólita holds the answer for a heartbeat.
+HI: Perhaps.
+NA: She turns quickly and disappears into the house — her steps far too firm for someone who said *perhaps*.
+@hide HI
+NA: You’re left with the clear feeling that you crossed an invisible boundary.
+@goto .scene1H-1end
+
+# scene1H-2
+@set liberaHipolita=true
+
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: I imagine tending a household and preparing for marriage… isn’t exactly every woman’s dream.
+NA: Hipólita studies you, surprised by the gentleness.
+HI: Not always… but one learns to desire what is possible.
+NA: A brief, comfortable silence settles.
+NA: Hipólita tilts her head, measuring you.
+@char HI.thinking look:left pos:{rightmid}
+HI: Tell me… are you promised? Engaged, perhaps?
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: Thank heavens, no.
+NA: A quick laugh escapes her — a little too fast to be entirely spontaneous.
+@char HI.smile look:left pos:{rightmid}
+HI: Then under whose protection are you?
+NA: You blink, confused.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: Protection?
+NA: Hipólita sighs, explaining what seems obvious in her world.
+@char HI.neutral look:left pos:{rightmid}
+HI: In this town, anyone unaccompanied invites talk. They will ask who answers for you… who stands as your guardian.
+NA: She considers for a moment, then decides.
+@char HI.thinking look:left pos:{rightmid}
+HI: If anyone asks… you may say you are under my protection — Hipólita Jacinta Teixeira de Melo.
+NA: She speaks the name with quiet authority — almost like a shield.
+NA: A smile slips from you before you can stop it.
+@char {PLAYER}2.happy look:left pos:{leftmid}
+@char HI.surprise look:left pos:{rightmid}
+HI: What is it?
+PLAYER: Nothing…
+NA: She tilts her head, studying you.
+@char HI.thinking look:left pos:{rightmid}
+HI: Are you smiling at my name?
+@char {PLAYER}2.shy look:left pos:{leftmid}
+PLAYER: No… it just sounds strong. Hipólita Jacinta… it’s quite a combination.
+NA: A faint blush colors her cheeks.
+@char HI.embarrass look:left pos:{rightmid}
+HI: Yours does not strike me as particularly simple either.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: Let’s blame government registries… and American books.
+NA: Hipólita frowns, confused — then smiles anyway.
+@char HI.thinking look:left pos:{rightmid}
+HI: You speak in riddles.
+NA: Before you can respond, footsteps crunch across the dirt.
+NA: Hipólita stiffens immediately.
+@char HI.surprise look:left pos:{rightmid}
+HI: We should not be seen like this.
+NA: Her voice is low but urgent.
+NA: Hipólita grabs your hand abruptly and pulls you down to a lower part of the garden.
+
+@hideChars
+@gosub .BlackScreen
+@back CG03_{gender}_01.Crossfade id:CG time:0 wait!
+@unlock CG/CG03_{gender}_1
+NA: You both hide among the plants and tall trees, your back pressing against the wall, warmed by the sun and covered in creeping grass.
+NA: You shift slightly, catching the faint scent of earth and flowers as Hipólita leans forward, peering toward the house.
+NA: She leans ahead, her body tense, her eyes  fixed on the doorway.
+NA: A loose strand of hair falls across her face, brushing her cheek, but she does not move to tuck it away.
+NA: Her breathing is controlled as if even that could give you away.
+
+@back CG03_{gender}_02.Crossfade id:CG time:1.5 wait!
+
+NA: The silence feels heavy, your heart racing without quite knowing why.
+NA: A man appears in front of the house. Hipólita remains perfectly still until he passes.
+NA: He steps inside and moves through the space as if he knows it well.
+NA: When she sees him, you notice the tension in her body, her shoulders going rigid.
+NA: Her hand finds hers again, gripping slightly, as if she needs the reassurance.
+NA: You glance at your intertwined fingers, the warmth of the contact making you suddenly self-conscious.
+
+@back CG03_{gender}_03.Crossfade id:CG time:1.5 wait!
+
+NA: Hipólita relaxes once he moves deeper into the house and disappears from sight.
+NA: She lets out a quiet sigh of relief, and you watch her with curiosity.
+NA: She notices your hands still joined and gently lets go, a faint blush rising to her cheeks.
+NA: She parts her lips as if to say something, but stops herself. Nothing comes out.
+NA: Still… you noticed.
+
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@gosub .BlackScreen
+@back bg_gardenDay.Crossfade time:1.5 wait!
+@char HI.sad look:left pos:{rightmid}
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+NA: When the danger feels distant, you may:
+@choice "Ask about the man" goto:.scene2H-1
+@choice "Pretend you didn’t notice" goto:.scene2H-2
+@stop
+
+# scene2H-1
+@set liberaHipolita=true
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Who was that?
+NA: Hipólita takes her time answering.
+@char HI.thinking look:left pos:{rightmid}
+HI: My fiancé.
+NA: She forces a smile.
+NA: Her face flickers through surprise, shock… and a quiet sadness.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: You’re engaged?
+@char HI.sad look:left pos:{rightmid}
+HI: It was decided long ago.
+PLAYER: But you’re so young!
+HI: I am… but in these lands, that raises little concern.
+@goto .scene2H-1end
+
+# scene2H-2
+@set liberaHipolita=false
+
+NA: You remain silent.
+NA: Hipólita watches you for a few seconds — a hint of disappointment flickering in her expression.
+
+; Encerramento da Cena
+# scene2H-1end
+NA: She rises first, smoothing her dress.
+HI: I must go inside. It would not be proper to linger.
+NA: Before leaving, she hesitates.
+HI: I am… glad to have met you.
+NA: She folds her hands neatly before her.
+HI: Should you happen to pass by again… speak with me.
+PLAYER: I will.
+@hide HI
+@char {PLAYER}2.sad look:left pos:{mid}
+NA: She enters the house in firm steps — tense. The door closes.
+NA: The garden falls silent once more.
+
+@if liberaHipolita=true
+PLAYER: (Engaged… of course. Here I was enjoying a moment with someone promised to another.)
+@endif
+
+NA: A short sigh escapes you.
+PLAYER: I’ve definitely lost my senses.
+PLAYER: I should start thinking of ways to disappear from here before I land myself in trouble.
+
+# scene1H-1end
+NA: Looking around, you notice no one is in sight.
+NA: You leave the garden carefully and return to the dirt road, your steps quicker now.
+NA: You nearly collide with someone as you round the path.
+@char AL.neutral look:left pos:{rightmid}
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+AL: Good thing I found you. Let us return to the square — there are still matters I must explain.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Right away.
+
+@if liberaHipolita=true
+NA: As you walk, your encounter with Hipólita refuses to leave your thoughts.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Alvarenga… tell me something.
+AL: Yes?
+PLAYER: In this time… do people who cheat still get stoned in the public square?
+NA: Alvarenga stops for a moment, clearly trying to understand.
+@char AL.surprise look:left pos:{rightmid}
+AL: I beg your pardon?
+PLAYER: Like in the time of Jesus.
+NA: He studies you skeptically.
+@char AL.thinking look:left pos:{rightmid}
+AL: No one is stoned in any square, if that is your concern.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Good to know.
+NA: Alvarenga resumes walking.
+@char AL.thinking look:left pos:{rightmid}
+AL: That said, adultery does not go unpunished.
+AL: One may lose honor, rights… suffer social exile… even banishment, in certain cases.
+PLAYER: Sounds… reasonable.
+NA: He casts you a sideways glance.
+@char AL.neutral look:left pos:{rightmid}
+AL: Not to mention the wronged spouse’s right to seek justice by their own hand… against the wife — and her lover.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+NA: You freeze for a moment, swallowing hard — and nearly choke.
+@char AL.surprise look:left pos:{rightmid}
+AL: Are you well?
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: What did you say?
+NA: Alvarenga keeps walking, though his tone sharpens with attention.
+@char AL.determined look:left pos:{rightmid}
+AL: And what prompted such a question?
+NA: You hesitate.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Curiosity… I’m trying to understand how things work here.
+NA: Alvarenga studies you from the corner of his eye.
+@char AL.thinking look:left pos:{rightmid}
+AL: Hmm.
+NA: He walks a few steps in silence before speaking again.
+@char AL.determined look:left pos:{rightmid}
+AL: Then make sure you understand well. In this land, words carry weight — and so do glances.
+NA: He makes a vague gesture, as if brushing dust away.
+@char AL.neutral look:left pos:{rightmid}
+AL: And certain company… costs more than it seems.
+NA: You force a half-smile.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: I’ll be careful.
+AL: See that you are.
+NA: The conversation ends there.
+@endif
+
+NA: The road continues… but the sense of warning lingers.
+@stopBgm fade:3 !wait
+@gosub .BlackScreen
+@goto .choiceRota
+
+
+; Cena 1J-1 — Rota Joaquim
+# Rota_Feira
+@stopBgm fade:3 !wait
+@set rotaFeira=true
+
+@if rotaArmazem=false&rotaEstrada=false
+@goto .skipFeira
+@endif
+
+NA: Alvarenga steps away with a friend, and he seems eager for privacy to discuss something.
+
+# skipFeira
+
+NA: You glance around and wander a little. The fair’s murmur suddenly breaks.
+
+@back bg_marketDay.Crossfade time:1.5 wait!
+
+@bgm joaquim volume:0.7
+NA: Voices rise, footsteps close in, and before you realize it, a small circle forms in front of one of the stalls.
+NA: At the center, a well-dressed man argues with another whose rigid posture and royal insignia mark him as an agent of the Crown.
+NA: The first man draws attention immediately.
+
+@gosub .BlackScreen
+@back CG02_01.Crossfade id:CG time:0 wait!
+@unlock CG/CG02_1
+
+NA: Elegant clothes, though worn at the edges. Carefully groomed hair, a confident smile beneath a mustache, and eyes that betray tension.
+NA: There’s something naturally charming and magnetic about him.
+NA: The tax collector, on the other hand, speaks louder than necessary.
+TAX: Don’t try to sweet-talk me, Joaquim. A debt is a debt. The Crown isn’t paid in promises.
+NA: Whispers ripple through the crowd. Joaquim keeps his chin high, though you notice the tightness in his jaw.
+
+; @char JO.determined look:left pos:{mid}
+
+JO: Sweet talk? You call it ornament when the price of gold changes by the day — without warning, without reason?
+JO: Taxes rise as if sprouting from the ground, and still you expect us to pay with a smile?
+NA: Murmurs spread again. The collector narrows his eyes.
+TAX: They all say the same thing.
+NA: He lets out a dry laugh and leans closer, voice sharp.
+TAX: Next time, I won’t come alone.
+NA: For a second, the air seems to stop.
+
+@back CG02_02.Crossfade id:CG time:1.5 wait!
+
+NA: Before anyone can react, Joaquim steps forward, grabs the collector by the collar, and pulls him close, finger pointed at his face.
+NA: A shocked murmur sweeps the crowd.
+JO: Mind the words you choose. Are you threatening someone… standing behind a military badge?
+NA: The tax collector’s eyes shine — not with fear, but contempt.
+TAX: Have you forgotten who granted you such boldness? Who upholds the title you’re so proud of?
+TAX: Portugal… and its queen.
+NA: Silence falls heavy.
+NA: Joaquim glances at you. For a heartbeat, his gaze softens.
+
+; @char JO.thinking look:left pos:{mid}
+
+@back CG02_03.Crossfade id:CG time:1.5 wait!
+
+NA: He releases the collar abruptly and draws a measured breath.
+
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@gosub .BlackScreen
+@back bg_marketDay.Crossfade time:1.5 wait!
+
+@char JO.thinking look:left pos:{mid}
+JOAQUIM: I ask only for time. I’ve never run from what I owe — and I won’t start now.
+NA: The tax collector straightens his uniform and tilts his head slightly.
+TAX: Choose your next steps wisely.
+NA: Without another word, he pushes through the onlookers and leaves.
+NA: Joaquim stands still for a moment. He exhales, smooths his vest, squares his shoulders.
+NA: When he turns back with a calmer expression, he approaches you.
+@char JO.smile look:left pos:{mid}
+JO: Ah… hello. I trust you didn’t see anything…
+NA: His smile is gallant, almost teasing, though a faint flush colors his face.
+NA: He gestures vaguely, as if he could wave the whole incident away.
+NA: You stare at him, fascinated.
+
+@char JO.smile look:left pos:{rightmid}
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+
+PLAYER: (First he argues with an important official, grabs him by the collar, and now he’s standing here like he’s about to comment on the weather.)
+PLAYER: Who was that man?
+@char JO.neutral look:left pos:{rightmid}
+JO: The fair’s lively today, don’t you think? Raised voices, tempers flaring… nothing unusual around here.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Very lively. Haven’t seen a fight like that in a while — and this one didn’t even involve street food.
+NA: He lets out a short laugh.
+NA: Without waiting for a reply, he starts walking as if assuming you’ll follow — and you do.
+NA: You both move away from the commotion, the noise fading behind you.
+@char JO.thinking look:left pos:{rightmid}
+JO: Forgive my frankness…
+NA: He casts you a quick, curious glance.
+JO: I’m fairly certain I’ve never seen you around here.
+NA: The weight of the comment settles in.
+@char JO.neutral look:left pos:{rightmid}
+JO: And I do make a point of knowing this town. New faces don’t go unnoticed… especially when they appear at such… delicate moments.
+NA: His tone is light, but attentive.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: Is it that obvious?
+NA: He smiles, more confident now.
+
+@char JO.smile look:left pos:{rightmid}
+JO: To someone who lives here? Always.
+JO: There’s a way locals walk, the way they look around. They move like they already know where the street will trip them.
+NA: He nods ahead.
+JO: You don’t. You walk like the ground might still surprise you.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: You’re very observant.
+@char JO.thinking look:left pos:{rightmid}
+JO: Let me guess… recently arrived?
+NA: His eyes gleam with curiosity.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: What are you, some kind of detective?
+NA: He looks momentarily confused.
+JO: I simply pay attention. Comes with my duties.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Was that man part of your work?
+@char JO.angry look:left pos:{rightmid}
+JO: Hardly. He’s a Crown tax collector.
+NA: It only takes a few steps before Joaquim starts talking — and doesn’t stop.
+@char JO.determined look:left pos:{rightmid}
+JO: Taxes that appear from nowhere… fees that change with Lisbon’s mood…
+JO: We work like pack animals, and still it’s never enough.
+NA: He sighs, running a hand through his hair.
+@char JO.neutral look:left pos:{rightmid}
+JO: The debts never end. They only change their names.
+
+@choice "Stay silent" goto:.scene1J-1
+@choice "Ask what’s going on" goto:.scene1J-2
+@stop
+
+# scene1J-1
+NA: You say nothing. You simply walk beside him.
+NA: For a moment, Joaquim seems mildly surprised.
+@char JO.thinking look:left pos:{rightmid}
+JO: Silence is an answer too, you know?
+NA: He gives a faint sideways smile.
+JO: And sometimes… it’s the wisest one.
+NA: He takes a deep breath.
+JO: There are days when talking only sinks us deeper into the mud.
+NA: His tone lightens.
+@char JO.neutral look:left pos:{rightmid}
+JO: But don’t mind me. I’ve spoken enough for one day.
+NA: He inclines his head toward you.
+JO: Forgive me. I don’t usually unload my troubles onto the first pleasant face I meet.
+NA: He looks at you with that charming smile.
+@char JO.thinking look:left pos:{rightmid}
+JO: By the way… I still don’t know your name.
+
+@goto .scene1J-1end
+
+# scene1J-2
+
+@set liberaJoaquim=true
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: What exactly is happening?
+NA: Joaquim hesitates for a moment. Then he smiles — crooked, conflicted.
+@char JO.neutral look:left pos:{rightmid}
+JO: Ah… don’t mistake me. I love my queen, and Portugal is the land that shaped me.
+NA: He lifts his gaze, weighing his words.
+@char JO.determined look:left pos:{rightmid}
+JO: But love doesn’t mean closing one’s eyes. These taxes… this isn’t justice. It’s hunger dressed as order.
+NA: He lets out a humorless chuckle.
+JO: And when hunger tightens its grip, they always claim it’s for the good of the realm.
+NA: His voice lowers.
+JO: Funny, isn’t it? The realm’s good never seems to pass through the pockets of those who rule it.
+NA: For a moment, the light tone fractures.
+@char JO.smile look:left pos:{rightmid}
+JO: I promised my family I’d become someone. That I’d give them comfort.
+JO: Some days I think I promised too much.
+NA: He studies you now, as if deciding whether he’s said too much.
+NA: Realizing his own outburst, he lets out a short, almost habitual laugh.
+@char JO.shy look:left pos:{rightmid}
+JO: Forgive me. I don’t usually unload my troubles onto the first pleasant face I meet.
+NA: He gives you that charming smile.
+@char JO.thinking look:left pos:{rightmid}
+JO: By the way… I still don’t know your name.
+
+@goto .scene1J-1end
+
+# scene1J-1end
+
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: A pleasant face, am I?
+NA: He slows his pace. The corner of his mouth lifts in amusement.
+@char JO.smile look:left pos:{rightmid}
+JO: Pleasant… curious… and dangerously observant.
+JO: A rare combination around here.
+NA: He stops before a nearby stall filled with fabrics and small trinkets.
+@char JO.determined look:left pos:{rightmid}
+JO: Don’t think that argument was about a lack of coin.
+NA: He leans closer, voice conspiratorial.
+JO: I’m simply not… how shall I put it… diverting gold from the mines or Crown coffers.
+NA: You laugh at his phrasing.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: Of course.
+NA: He laughs lightly — as if it were a joke — though there’s challenge in his gaze.
+@char JO.smile look:left pos:{rightmid}
+JO: Allow me to mend that dreadful first impression?
+NA: He gestures broadly to the stall.
+JO: Choose something. Consider it a gesture of peace… or interest.
+
+@choice "Refuse the offer" goto:.scene2J-1
+@choice "Accept the offer" goto:.scene2J-2
+@stop
+
+# scene2J-1
+
+NA: You shake your head, a faint smile lingering.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: That’s not necessary.
+NA: Joaquim raises his hands in theatrical surrender.
+@char JO.neutral look:left pos:{rightmid}
+JO: Fair enough. I must admit — refusal can be charming too.
+NA: He inclines slightly, respectful.
+JO: Another time, then.
+JO: Memorable encounters rarely settle themselves in a single gesture.
+NA: The smile remains, but now there’s genuine curiosity behind it.
+
+@goto .scene2J-1end
+
+# scene2J-2
+
+NA: You point to one of the items on the stall.
+NA: Joaquim smiles, pleased — not triumphant, but sincerely delighted.
+@char JO.happy look:left pos:{rightmid}
+JO: Excellent choice.
+JO: You’ve good taste… which only makes this more interesting.
+NA: He pays without hesitation and hands you the item with care.
+@char JO.smile look:left pos:{rightmid}
+JO: Consider it an agreement.
+JO: I gain pleasant company… and you gain something to remember this meeting by.
+NA: His gaze lingers a moment longer than necessary.
+
+@goto .scene2J-1end
+
+# scene2J-1end
+@char JO.neutral look:left pos:{rightmid}
+JO: Still… thank you for not laughing. Or pointing fingers.
+JO: That’s more than most offer.
+NA: The marketplace hums around you, yet something quieter settles between you.
+NA: Joaquim holds your attention a moment longer, as if in no hurry to leave.
+JO: I confess… I’d rather see you again under gentler circumstances.
+JO: Without collectors, curious eyes… or the whole market listening in.
+NA: His voice lowers, almost intimate.
+NA: He tilts his head, watching your reaction.
+@char JO.thinking look:left pos:{rightmid}
+JO: There are places in Vila Rica where time slows… and conversations breathe easier.
+NA: The smile that follows is soft, but deliberate.
+@char JO.smile look:left pos:{rightmid}
+JO: Perhaps I’ll show you one… if you wish.
+NA: He steps back, creating distance on purpose.
+@char JO.neutral look:left pos:{rightmid}
+JO: Until then, take care of yourself.
+JO: And try not to forget my name too quickly.
+NA: With one last lingering look — long enough to unsettle your heartbeat — Joaquim disappears into the crowd.
+@hide JO
+
+NA: You remain still for a moment, feeling the strange weight of attention just lost.
+NA: It isn’t long before a familiar voice sounds behind you.
+@char AL.neutral look:left pos:{rightmid}
+AL: I see you’ve begun meeting the city’s more… interesting figures.
+NA: He looks toward where Joaquim vanished, expression unreadable.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: You know him?
+NA: Alvarenga exhales shortly, crossing his arms.
+@char AL.thinking look:left pos:{rightmid}
+AL: I do. And I understand his sort very well.
+NA: A brief pause.
+AL: Joaquim is intelligent, charismatic… and always steps just beyond what’s safe.
+AL: He knows what people want to hear — and when to say it.
+NA: He finally looks back at you.
+AL: I don’t say this so you’ll avoid him. Only… pay attention.
+NA: His tone carries no reprimand — only concern.
+NA: You meet his gaze, something in your expression that he seems to read in seconds.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Understood.
+NA: He runs a hand through his hair, lips tightening slightly.
+@char AL.determined look:left pos:{rightmid}
+AL: Listen — involvement with certain people can be… stimulating.
+AL: Dangerous in equal measure.
+NA: A faint half-smile.
+@char AL.smile look:left pos:{rightmid}
+AL: Joaquim has always been that way.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Don’t worry. I’ll be careful with him.
+NA: He gestures toward the path ahead.
+AL: Come. There’s more you need to see… and hear.
+NA: You walk together toward the square.
+NA: As you go, Joaquim’s smile keeps returning to your thoughts — along with the uneasy sense that this meeting was only the beginning of something far greater.
+@stopBgm fade:3 !wait
+@gosub .BlackScreen
+@goto .choiceRota
+
+; Cena ‘B- 1-Rota da Bárbara
+# Rota_Armazem
+@set rotaArmazem=true
+@stopBgm fade:3 !wait
+
+NA: The dirt road narrows as you move away from the city center.
+@back bg_warehouseDay.Crossfade time:1.5 wait!
+
+NA: Wagons creak past, men bargain in low voices, and a massive stone warehouse dominates the stretch.
+@bgm barbara volume:0.7
+NA: This is no place for idle curiosity.
+NA: That’s when you see her.
+
+@hideChars
+@back CG04_01.Crossfade id:CG time:0 wait!
+@unlock CG/CG04_1
+
+NA: Leaning against one of the columns stands a woman radiating confidence, dressed far too elegantly for a place like this. 
+NA: The corset shapes her silhouette, her long hair falling in deliberate disarray. She speaks with merchants like someone who owns the game.
+NA: She watches a negotiation unfold, fingers tapping impatiently.
+
+@back CG04_02.Crossfade id:CG time:1.5 wait!
+
+NA: When she catches your gaze, she doesn’t look away.
+; @char BAR.neutral look:left pos:{mid}
+NA: On the contrary — her eyes travel over you, measuring.
+
+@back CG04_03.Crossfade id:CG time:1.5 wait!
+
+??: Can I help you… or are you just watching the flow?
+NA: Her tone is light — but sharp.
+; @char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: I didn’t expect this much activity out here.
+NA: A corner of her mouth lifts.
+
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@gosub .BlackScreen
+@back bg_warehouseDay.Crossfade time:1.5 wait!
+
+@char BA.smile look:left pos:{rightmid}
+??: Wherever money moves, there’s always a stir.
+??: Especially when the Crown decides to tighten the leash.
+NA: You step a little closer.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Do you work here?
+NA: She lets out a brief laugh.
+@char BA.thinking look:left pos:{rightmid}
+??: Let’s say I handle… complications.
+??: For those who prefer their names kept off other tongues.
+NA: She crosses her arms, watching a shipment being carried inside.
+@char BA.determined look:left pos:{rightmid}
+??: Taxes that rise without warning, fees that change with the day…
+??: Lisbon calls it order. We call it suffocation.
+NA: Her gaze returns to you — sharper now.
+@char BA.determined look:left pos:{rightmid}
+??: But you don’t look like you’re from around here.
+NA: A brief pause — she studies you.
+??: And you hardly seem the type who came to bargain gold.
+??: So tell me… what brings you walking roads that don’t belong to you?
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: I was just trying to get to know the city better.
+??: And what do you think of what you’ve seen so far?
+@char {PLAYER}2.shy look:left pos:{leftmid}
+PLAYER: It’s… very beautiful.
+NA: The blush says more than the words. Warmth rises to your cheeks.
+NA: She notices. A slow smile curls at her lips.
+@char BA.smile look:left pos:{rightmid}
+??: Vila Rica tends to have that effect.
+NA: She leans slightly closer, closing the distance between you.
+@char BA.neutral look:left pos:{mid}
+??: If you’re not in a hurry…
+??: Walk with me. I have business that favors discretion.
+NA: A brief pause — her gaze steady.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: Why invite me if you don’t even know me?
+NA: For a moment, the question seems to amuse her.
+NA: She folds her arms slowly, tilting her head.
+@char BA.determined look:left pos:{mid}
+??: Precisely because of that.
+??: Someone arriving without a past in this town is usually… very dangerous — or very interesting.
+NA: She steps closer, near enough for you to catch her faint perfume.
+@char BA.thinking look:left pos:{mid}
+??: I don’t yet know which you are. And I admit… I’m curious.
+@char BA.neutral look:left pos:{rightmid}
+NA: She steps back, already beginning to walk.
+??: Come.
+??: If you dislike what you see, you may leave owing me nothing.
+NA: Without looking back or waiting for your reply, she starts ahead.
+
+@choice "Refuse the invitation" goto:.scene1B-1
+@choice "Accept the invitation" goto:.scene1B-2
+@stop
+
+# scene1B-1
+
+@set liberaBarbara=false
+PLAYER: I don’t think that’s a good idea. Best not to meddle in business that isn’t mine.
+NA: She pauses briefly. Not offended — just assessing.
+@char BA.neutral look:left pos:{mid}
+??: Prudence is a rare virtue around here. Shame it sometimes arrives too early.
+NA: She steps back, restoring the distance she’d broken.
+@char BA.neutral look:left pos:{rightmid}
+??: Vila Rica rarely offers second doors.
+NA: Before leaving, she casts one final glance, then melts back into the road’s movement.
+NA: You can’t shake the feeling you lost more than a conversation.
+@hide BA
+@goto .scene1B-1end
+
+# scene1B-2
+
+@set liberaBarbara=true
+NA: You hesitate only a moment… then nod.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: If you insist.
+NA: She studies you.
+NA: The smile returns — slow and satisfied.
+NA: She turns and walks ahead, certain you’ll follow.
+@char BA.smile look:left pos:{rightmid}
+??: Pay attention to what you’re about to see.
+??: After this… Vila Rica won’t look the same.
+NA: Crossing into the warehouse, the air itself feels heavier.
+NA: From the outside, the building looks unremarkable. Inside, movement never stops.
+@sfx warehouse volume:0.4 !wait
+NA: Thick timber beams, iron-marked crates, men speaking in low tones. When Bárbara enters, voices falter for a moment.
+NA: She moves like someone who knows every corner.
+@char BA.neutral look:left pos:{rightmid}
+??: Not everything that passes through Vila Rica follows the Crown’s roads. Some paths exist only because someone keeps them alive.
+NA: She stops beside a simple table where a large ledger rests.
+NA: Before opening it, she turns to you.
+??: Before I say anything… I need to know who I’m speaking to.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: My name is {name}.
+NA: She studies you closely — no flirtation now, only assessment.
+@char BA.determined look:left pos:{rightmid}
+??: I saw you in the crowd during the alferes’s speech.
+??: Not the face of a mere onlooker — but of someone who listens… and remembers.
+NA: Her fingers brush the ledger’s cover without opening it.
+@char BA.thinking look:left pos:{rightmid}
+??: In this town, that means one of two things:
+??: You’re interested in what’s coming…or you’re very good at pretending.
+NA: A heavy silence settles as she holds your gaze.
+??: Tell me…
+@stopSfx fade:3 !wait
+??: What were you looking for in that speech?
+
+@choice "Deny (Lie)" goto:.scene2B-1
+@choice "Tell the truth" goto:.scene2B-2
+@stop
+
+# scene2B-1
+@set liberaBarbara=false
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Nothing in particular. Just curiosity… like everyone else.
+NA: The woman doesn’t react right away. She closes the ledger without ever opening it.
+NA: The sound echoes through the warehouse.
+@char BA.determined look:left pos:{rightmid}
+??: Curiosity is an expensive luxury in this town.
+NA: Her gaze hardens.
+@char BA.angry look:left pos:{rightmid}
+??: Those who lie out of fear… rarely find courage when truth comes to collect.
+NA: She steps back.
+??: You’re not who I thought you were.
+NA: Without another word, she turns and walks deeper into the warehouse, already issuing orders to others.
+@hide BA
+@goto .scene2B-1end
+
+# scene2B-2
+
+@set liberaBarbara=true
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: I was looking for answers. And maybe… a way to change what I see.
+NA: She doesn’t smile immediately — she studies you a few seconds longer.
+NA: Then she opens the ledger.
+NA: Marked pages. Careful notes.
+NA: Names. Values. Debts crossed out and rewritten. Routes that appear on no map.
+@char BA.determined look:left pos:{rightmid}
+??: Widows who would lose everything. Women alone. Merchants crushed by taxes that change with Lisbon’s mood.
+NA: She shuts the book firmly.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: You’re some kind of…
+@char BA.determined look:left pos:{rightmid}
+??: They call me a criminal for this — yet no one calls the Crown merciful.
+NA: Her eyes lock on yours.
+??: I don’t fight for grand ideals.
+??: I fight so some of us survive.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: So… you’re a kind of Robin Hood.
+@char BA.surprise look:left pos:{rightmid}
+??: Robin… who?
+NA: You grin.
+??: I know no saint or rogue by that name.
+@char {PLAYER}2.happy look:left pos:{leftmid}
+PLAYER: He’s not from this time.
+NA: Her eyes narrow slightly, assessing.
+@char BA.thinking look:left pos:{rightmid}
+??: You have a curious way of speaking…
+NA: After a brief hesitation, she pulls a folded letter from her coat and hands it to you.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: What’s this?
+NA: Bárbara holds your gaze before answering.
+@char BA.determined look:left pos:{rightmid}
+??: A favor.
+??: Or, if you prefer… the help of an ally.
+NA: You raise an eyebrow.
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: Are we friends now?
+NA: A brief smile — sharp, almost dangerous.
+@char BA.smile look:left pos:{rightmid}
+??: For now.
+NA: Her fingers brush yours as she releases the letter — quick, deliberate.
+@char BA.neutral look:left pos:{rightmid}
+??: If you ever find yourself in trouble… remember me.
+NA: Something in her gaze has shifted.
+NA: She steps back, pulling her gloves into place.
+@char BA.neutral look:left pos:{rightmid}
+??: We shouldn’t be seen together any longer.
+NA: You hesitate, letter still in hand.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: At least tell me your name?
+NA: She pauses.
+NA: Turns slowly — half-smile precise and elegant.
+@char BA.smile look:left pos:{rightmid}
+??: Bárbara.
+NA: A beat.
+NA: She leans closer, voice lowered like a secret.
+@char BA.neutral look:left pos:{rightmid}
+BA: Remember that name.
+BA: Use it only if you truly must.
+NA: Her eyes linger a moment longer than necessary. She leans in slightly.
+BA: Some favors… require discretion.
+NA: Without waiting for a reply, she melts back into the warehouse — just another shadow among crates and murmured voices.
+@hide BA
+NA: You stand there a moment, letter in hand.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: (Whoever you are… you’re a dangerous, intriguing woman, Bárbara.)
+
+
+# scene2B-1end
+; Cena B-3
+NA: Stepping outside, the daylight feels almost too bright.
+
+# scene1B-1end
+NA: The city’s noise rushes back as if nothing happened.
+NA: Then you see him.
+NA: Alvarenga approaches quickly, concern written across his face.
+@char AL.thinking look:left pos:{rightmid}
+AL: Finally. I’ve been looking for you.
+NA: His gaze sweeps over you. A faint frown forms.
+@char AL.surprise look:left pos:{rightmid}
+AL: What happened to you?
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: What do you mean?
+AL: You seem… different.
+NA: You hesitate.
+@char {PLAYER}2.shy look:left pos:{leftmid}
+PLAYER: I met someone.
+NA: His eyebrow lifts.
+@char AL.surprise look:left pos:{rightmid}
+AL: Someone?
+NA: You look away.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Someone… I can’t talk about yet.
+NA: A brief silence.
+NA: He studies your eyes — the spark, the lingering smile.
+@char AL.thinking look:left pos:{rightmid}
+AL: I see.
+NA: But his tone carries warning, not agreement.
+AL: Come.
+AL: The square is crowded… and there are things you need to understand.
+NA: You walk side by side along the dirt road.
+NA: For a moment, only footsteps and distant city voices fill the air.
+NA: Alvarenga breaks the silence.
+@char AL.determined look:left pos:{rightmid}
+AL: Vila Rica is generous to newcomers…
+AL: But it charges dearly those who fall under its spell.
+NA: You look at him.
+@char {PLAYER}2.determined look:left pos:{leftmid}
+PLAYER: Are you talking about the city… or the people?
+NA: A humorless smile.
+@char AL.thinking look:left pos:{rightmid}
+AL: Around here, the two are rarely separate.
+NA: He watches the movement ahead.
+@char AL.neutral look:left pos:{rightmid}
+AL: Some know how to use the weight of a glance… a word… silence itself.
+AL: Not out of cruelty — but necessity.
+NA: A pause.
+AL: And some mistake that for sincerity.
+NA: The words hit deeper than you expect.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: So I should distrust everyone?
+@char AL.neutral look:left pos:{rightmid}
+AL: No.
+AL: Just mind where you step.
+NA: A quick glance toward you.
+AL: Especially when well-placed people are involved.
+NA: The warning lingers unsaid.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Still… some encounters feel inevitable.
+NA: He exhales softly.
+@char AL.thinking look:left pos:{rightmid}
+AL: Some things can’t be avoided.
+NA: The square opens ahead, full of voices and movement.
+NA: Before stepping away, he adds quietly —
+@char AL.neutral look:left pos:{rightmid}
+AL: If you ever need help, come to me first.
+AL: Not everyone who offers a hand does so without hidden intent.
+NA: You nod, accepting the warning.
+@if liberaBarbara=true
+NA: Yet the letter in your pocket suddenly feels heavier.
+
+
+@endIf
+@stopBgm fade:3 !wait
+@gosub .BlackScreen
+@goto .choiceRota
+
+;Cena 1C-1 — Rota Célio
+
+# Rota_Teatro
+@hide AL
+@stopBgm fade:3 !wait
+@set rotaTeatro=true
+NA: You walk through the streets of Vila Rica toward the theater, the echo of the speech in the square still hammering in your head.
+NA: Between vendors and narrow alleys, a memory forces its way forward:
+NA: The young man who — among puppets and sharp jokes — dared mock gold, taxes, and the Crown.
+NA: The theater building doesn’t stand out at first glance. Worn wood, wide doors, the smell of dust and too many people packed into too small a space.
+NA: Before you even step inside, whispers reach you:
+NA: “They say more than plays are staged in there…”
+NA: “Careful. Loose words can lead straight to the gallows.”
+
+@back bg_theater.Crossfade time:1.5 wait!
+
+@bgm cel volume:0.7
+NA: Inside, the murmur swells.
+NA: Then you see him — and remember him from Tiradentes’ speech.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+
+; flashback
+NA: The noise of the square still echoes in your memory — Tiradentes’ voice, the soldiers, the weight of words thrown into the air.
+NA: Then… something clicks. One memory pulls another.
+NA: You remember a different kind of movement in the crowd.
+NA: It wasn’t a speech — it was a performance.
+NA: The young man had appeared among puppets and colorful cloth as if the square itself were his stage.
+
+@gosub .BlackScreen
+@back CG05_01.Crossfade id:CG time:0 wait!
+@unlock CG/CG05_1
+
+??: Vila Rica, Vila Rica!
+??: Before the weight of gold bends your backs… allow laughter to hold your shoulders upright!
+NA: Some people laughed. Others stepped closer.
+NA: He spun between the puppets with ease — broad gestures, an effortless smile — as if the whole world were just another audience.
+NA: He lifts two puppets. One wears outrageously rich clothes, the other… nothing but patches.
+
+RICHPUPPET: <i>Attention, good people! I bring glorious news!</i>
+POORPUPPET: That doesn’t smell like good news…
+RICHPUPPET: <i>Taxes… have gone up!</i>
+NA: The poor puppet collapses.
+POORPUPPET: I have perished from this world!
+NA: The crowd laughs.
+RICHPUPPET: <i>Not yet! You’ve still the breathing tax to pay!</i>
+NA: The poor puppet jolts awake.
+POORPUPPET: We pay for air now?!
+RICHPUPPET: <i>Everything is taxed!</i>
+NA: The poor puppet holds its breath.
+NA: Silence.
+NA: It starts to tremble.
+POORPUPPET: I shall die… for the sake of savings…
+NA: It drops again.
+NA: The actor intervenes — dramatically.
+??: Man, breathe!
+POORPUPPET: I dare not! It’s too expensive!
+NA: The actor pulls the puppets apart with theatrical flair.
+??: Enough! These puppets are getting far too educated!
+
+@back CG05_02.Crossfade id:CG time:1.5 wait!
+
+NA: The poor puppet leans in conspiratorially:
+POORPUPPET: It wasn’t me… it was the royal fifth!
+NA: The square erupts in laughter. Célio bows both puppets extravagantly.
+??: See? Even wood complains… imagine flesh and blood!
+NA: And then… he looks straight at you.
+
+@back CG05_03.Crossfade id:CG time:1.5 wait!
+
+NA: The smile he gave wasn’t for the crowd — it was conspiratorial.
+NA: As if saying, “Yes, I see you there.” And you remember the small spark of pride it gave you.
+??: When the world grows too heavy… come to the theater. Laughter is still free there.
+NA: The memory fades.
+
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@gosub .BlackScreen
+@back bg_theater.Crossfade time:1.5 wait!
+
+NA: The young man moves among actors and puppets with the same ease, broad gestures and easy grin intact. When he catches your gaze, he raises an amused eyebrow.
+??: Well now…
+@char CE.happy look:left pos:{rightmid}
+??: If I’m not mistaken, I’ve seen that face before.
+NA: You step closer.
+
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: I saw you earlier. During Tiradentes’ speech.
+NA: His smile doesn’t disappear — it sharpens.
+@char CE.smile look:left pos:{rightmid}
+??: Did you now?
+??: Must be a misunderstanding. Today I was only among curtains, lines, and make-believe.
+NA: He leans closer, lowering his voice like he’s sharing a secret.
+NA: Though I admit… my face has a habit of wandering where it shouldn’t.
+NA: He extends a hand — far too elegant for a dusty street.
+@char CE.neutral look:left pos:{rightmid}
+CE: They call me Célio.
+CE: An actor… when the city allows it. A liar… when it doesn’t.
+NA: His eyes glint with playful irony.
+@char CE.thinking look:left pos:{rightmid}
+CE: And you are the one seeing me where I’m not?
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: My name is {name}.
+NA: He inclines his head slightly, voice low.
+@char CE.thinking look:left pos:{rightmid}
+CE: A pleasure… but tell me…
+CE: What did you think of all that?
+
+@choice "I disagree" goto:.scene1C-1
+@choice "I agree" goto:.scene1C-2
+@stop
+
+# scene1C-1
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Doesn’t performing like that put you in serious danger? It’s already hard enough to survive as an artist…
+NA: He lets out a short laugh.
+@char CE.determined look:left pos:{rightmid}
+CE: Survival’s never been simple for those who live by the stage.
+CE: If we don’t starve, we’re silenced.
+NA: His gaze turns serious for a moment.
+@char CE.thinking look:left pos:{rightmid}
+CE: You speak like someone who’s already learned fear… born here?
+@goto .scene1C-1end
+
+# scene1C-2
+@set liberaCelio=true
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: I thought it was necessary. Someone had to say it out loud.
+NA: Célio studies you a moment longer than usual.
+@char CE.neutral look:left pos:{rightmid}
+CE: Necessary… a dangerous word.
+CE: But a beautiful one in the mouth of someone who still believes in it.
+NA: A half-smile appears.
+@char CE.smile look:left pos:{rightmid}
+CE: You speak like someone not born here… or someone who hasn’t yet learned to fear.
+
+# scene1C-1end
+
+; Conversas depois das escolhas
+
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Not exactly.
+PLAYER: Let’s just say I’ve studied… all of this a little.
+NA: He tilts his head, curious.
+@char CE.surprise look:left pos:{rightmid}
+CE: Studied?
+CE: That’s an interesting choice of words.
+NA: His gaze moves over you with genuine interest.
+@char CE.thinking look:left pos:{rightmid}
+CE: Tell me… do you enjoy theater?
+PLAYER: I took a few classes back in school.
+@char CE.thinking look:left pos:{rightmid}
+NA: He blinks, briefly confused.
+CE: School…
+CE: Ah. One of those places where one learns to repeat before learning to create.
+NA: He shrugs with a grin.
+@char CE.neutral look:left pos:{rightmid}
+CE: Then you understand a little of what I mean.
+NA: He gestures broadly toward the stage, where puppets and scenery await the next show.
+CE: Theater doesn’t change the world.
+CE: But for an hour, it lets Vila Rica forget the weight of gold… debts… and the names that watch us.
+NA: His voice lowers slightly.
+CE: Here, people laugh.
+CE: And those who laugh… breathe.
+NA: You nod without quite realizing.
+@char {PLAYER}2.neutral look:left pos:{leftmid}
+PLAYER: Makes sense.
+PLAYER: Sometimes that’s all you can do.
+NA: You hesitate, then add — almost teasing:
+@char {PLAYER}2.determined look:left pos:{leftmid}
+PLAYER: But provoking the Crown in public helps with what, exactly?
+PLAYER: Besides earning yourself a death sentence, you sound almost as reckless as Tiradentes.
+NA: Célio stops walking.
+NA: He doesn’t seem offended — only attentive.
+NA: He studies the empty stage for a moment before answering.
+@char CE.determined look:left pos:{rightmid}
+CE: Madness… is a light word, spoken by those who’ve never felt their chest tighten.
+NA: He turns to you, voice calm but firm.
+CE: The alferes doesn’t raise his voice because he ignores danger.
+CE: He does it because he knows it better than most who fear it.
+NA: A crooked smile crosses his face, edged with irony.
+CE: The Crown treasures silence.
+CE: Silence asks no questions… and leaves no memory.
+NA: He takes two steps forward, as if rehearsing an invisible speech.
+CE: Theater does the same — by other means.
+CE: Where he shouts, I raise puppets. Where he speaks of taxes, I show hunger… disguised as laughter.
+NA: You cross your arms, thoughtful.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: Still… it feels small against armed men.
+NA: Célio lets out a low laugh, humorless.
+@char CE.smile look:left pos:{rightmid}
+CE: Swords wound the flesh.
+CE: Ideas… take longer. But they never ask permission.
+NA: He leans in slightly, as if sharing something precious.
+@char CE.neutral look:left pos:{rightmid}
+CE: The square forgets quickly.
+CE: The stage doesn’t. Those who laugh today… think tomorrow.
+NA: A brief pause.
+CE: If that’s madness… then Vila Rica is full of madmen who learned to stay quiet for too long.
+NA: He studies you again, renewed curiosity in his eyes.
+@char CE.thinking look:left pos:{rightmid}
+CE: And you?
+CE: You speak like someone who doubts… but doesn’t look away.
+NA: There’s something sincere in his gaze — curiosity mixed with challenge.
+@char {PLAYER}2.determined look:left pos:{leftmid}
+PLAYER: I understand protesting authority.
+PLAYER: I’ve been to demonstrations, questioned plenty… but here… in this backward place, everything feels riskier.
+PLAYER: Death could be decided by someone in a ridiculous wig back in Portugal saying, “well then.”
+NA: Célio bursts into laughter — loud, genuine, impossible to contain.
+@char CE.happy look:left pos:{rightmid}
+CE: By the saints…
+CE: I’ve never heard Lisbon described so accurately.
+NA: He wipes at his face, still smiling.
+@char CE.smile look:left pos:{rightmid}
+CE: You’re certainly not from around here — no doubt about that.
+CE: You speak like someone who’s traveled far… and still looks at things with unburdened eyes.
+NA: The laughter fades into something more attentive.
+@char CE.neutral look:left pos:{rightmid}
+CE: Strange… and singular.
+CE: Vila Rica hasn’t offered me novelty like this in quite some time.
+NA: He watches you carefully now.
+NA: Curiosity settles in his gaze — sincere, edged with challenge.
+@char CE.thinking look:left pos:{rightmid}
+CE: Tell me honestly.
+CE: Have you ever felt the urge to say something… even knowing you shouldn’t?
+@char {PLAYER}2.determined look:left pos:{leftmid}
+PLAYER: All the time.
+NA: The distant sounds of the city return — hurried footsteps, voices, clanking metal.
+NA: Célio’s tone softens, almost playful.
+@char CE.thinking look:left pos:{rightmid}
+CE: Perhaps that’s why you lingered here.
+CE: Theater has a way of recognizing those burdened with too many questions. So then… if it doesn’t trouble you…
+NA: He steps a little closer, voice more personal now.
+@char CE.neutral look:left pos:{rightmid}
+CE: I’d like you to watch one of our rehearsals.
+CE: Not a performance for crowds… only for those who know how to look.
+NA: A brief pause, thick with expectation.
+CE: What do you say?
+
+@choice Refuse goto:.scene2C-1
+@choice Accept goto:.scene2C-2
+@stop
+
+# scene2C-1
+@char {PLAYER}2.determined look:left pos:{leftmid}
+PLAYER: I think I’d better not. I’m still trying to understand this place.
+NA: He accepts the answer with quiet grace.
+@char CE.neutral look:left pos:{rightmid}
+CE: I understand. A city does not reveal itself to those in a hurry.
+NA: A faint smile.
+CE: But the curtains remain open… should you change your mind.
+@stopBgm fade:3 !wait
+@gosub .BlackScreen
+@goto .scene1C-2end
+; Vai direto para a Cena C-3 com Alvarenga do lado de fora
+
+# scene2C-2
+@set liberaCelio=true
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: I’d like that. Truly.
+NA: Célio smiles, pleased.
+@char CE.smile look:left pos:{rightmid}
+CE: Then come.
+CE: Perhaps the stage has something to teach you as well.
+NA: As you properly step into the theater—
+NA: The wooden benches creak under the weight of silence. The scent of old fabric, paint, and wax hangs thick in the air.
+NA: Célio lights a few candles onstage. Shadows stretch along the walls, warped and alive.
+@char CE.neutral look:left pos:{rightmid}
+CE: Pay no mind to the bareness of the place.
+CE: A stage without an audience is like a square without rumor… it seems dead, but merely sleeps.
+NA: He moves naturally among puppets and costumes.
+NA: On a nearby table lie wooden figures with exaggerated faces: a long-nosed tax collector, a bent miner, a weary-eyed woman.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: These actually go on stage?
+NA: Célio smiles, almost proud.
+@char CE.smile look:left pos:{rightmid}
+CE: They do.
+CE: And under laughter — the only blade that slips by unnoticed.
+NA: He lifts the tax collector puppet.
+CE: <i>“Pay, pay… for even the air you breathe belongs to His Majesty.”</i>
+NA: The miner puppet answers, hunched:
+@char CE.determined look:left pos:{rightmid}
+CE: “Then take my breath as well… for gold I have no more.”
+NA: Célio lowers the puppets, watching your reaction.
+@char CE.determined look:left pos:{rightmid}
+CE: You see?
+CE: I don’t say “Crown.” I don’t say “Portugal”… yet those who listen understand.
+@char {PLAYER}2.thinking look:left pos:{leftmid}
+PLAYER: That’s… surprisingly direct.
+NA: Célio tilts his head, measuring the words.
+@char CE.neutral look:left pos:{rightmid}
+CE: Too direct, and doors close.
+CE: Veiled… and people laugh, carry it home… and think later.
+NA: He steps closer to the stage and sits on its edge.
+CE: Theater doesn’t change the world in a night.
+NA: A brief pause.
+NA: Célio rises and wipes his hands on a cloth.
+@char CE.thinking look:left pos:{rightmid}
+CE: This city distrusts those without ties.
+CE: No name, no home, no trade… suspicion comes swiftly.
+NA: He glances around, then back to you, more serious now.
+@char CE.determined look:left pos:{rightmid}
+CE: If anyone asks…
+CE: You’ll say you assist me here. Rehearsals, backstage work — whatever is needed.
+@char {PLAYER}2.happy look:left pos:{leftmid}
+PLAYER: Are you offering me a job?
+NA: Célio lets out a short laugh.
+@char CE.smile look:left pos:{rightmid}
+CE: An honest pretext is sometimes all that keeps someone safe in these streets.
+NA: He steps a little closer, lowering his voice.
+@char CE.neutral look:left pos:{mid}
+CE: I ask for no oath, no banner.
+CE: Only attentive eyes… and silence when it’s wise.
+NA: A measured pause.
+@char CE.thinking look:left pos:{rightmid}
+CE: Do you accept?
+@char {PLAYER}2.smile look:left pos:{leftmid}
+PLAYER: Sure. I have a feeling I’m going to like it here.
+NA: Célio nods, satisfied.
+@char CE.neutral look:left pos:{rightmid}
+CE: Then you stand under my roof… at least in words.
+CE: And in Vila Rica, words carry more weight than they should.
+@gosub .BlackScreen
+
+
+# scene1C-2end
+
+; Cena C3 - Encontro com Alvarenga
+@back bg_squareDay.Crossfade time:1.5 wait!
+NA: As you leave the theater, the late-afternoon air feels cooler.
+NA: The city murmurs — hurried footsteps, hushed voices, distant bells.
+NA: At the doorway, Alvarenga waits, leaning against the wall with arms crossed.
+AL: I see you’ve chosen… interesting company.
+@char {PLAYER}2.surprise look:left pos:{leftmid}
+PLAYER: Were you waiting for me?
+NA: Alvarenga exhales, half resigned.
+@char AL.thinking look:left pos:{rightmid}
+AL: Let’s say I’ve learned not to lose sight of those who attract too many eyes.
+AL: Especially the Crown’s.
+NA: He casts a quick glance at the theater.
+@char AL.determined look:left pos:{rightmid}
+AL: Artists like him… tend to draw unwanted attention.
+@char {PLAYER}2.determined look:left pos:{leftmid}
+PLAYER: He’s just putting on a play.
+NA: Alvarenga raises a brow.
+@char AL.thinking look:left pos:{rightmid}
+AL: Around here, “just” rarely means little.
+NA: A heavy silence settles.
+@char AL.neutral look:left pos:{rightmid}
+AL: I’m not saying you chose poorly.
+AL: Only… be cautious.
+NA: He pushes off the wall, gesturing down the street.
+AL: Come.
+NA: Together, you head back along the stone streets.
+@stopBgm fade:3 !wait
+@gosub .BlackScreen
+@goto .choiceRota
+
+
+
+# Bad_End
+@stopBgm fade:1
+@bgm badEndMusic
+@hide TI !wait
+@hide JO
+@char VI.neutral look:left pos:{mid}
+NA: You swallow hard, unsure of what to say.
+NA: The Viscount watches you for a long moment.
+NA: His eyes are cold. Calculating.
+@char VI.determined look:left pos:{mid}
+VI: Tell me… under whose protection do you stand in Vila Rica?
+NA: He repeats the question, heavier this time.
+NA: It hangs in the air simple. Direct.
+NA: But your mind suddenly feels empty.
+PLAYER: I…
+NA: You hesitate.
+NA: No name comes to your lips. No protection. No ties.
+NA: The silence stretches beyond what is acceptable.
+NA: The Viscount tilts his head slightly.
+@char VI.surprise look:left pos:{mid}
+VI: No one?
+NA: A faint smile touches his lips without warmth.
+@char VI.determined look:left pos:{mid}
+VI: Curious…
+VI: A soul without patron… without declared home… without a name to sustain it.
+NA: His gaze hardens.
+VI: And yet, you move among people… of interest.
+NA: He makes a subtle gesture with his hand. Two guards step toward you.
+PLAYER: I just-
+VI: Yes, yes.
+VI: I imagine you will claim mere curiosity.
+NA: He takes a slow step forward.
+VI: But in times such as these… curiosity tends to be costly.
+NA: The guards are already at your side.
+@char VI.determined look:left pos:{leftmid}
+@char AL.determined look:left pos:{rightmid}
+AL: My Lord Viscount.
+NA: Alvarenga intervenes, stepping forward.
+AL: I believe there has been a misunderstanding.
+@sfx sword
+NA: Before he can continue, the metallic sound of blades partially drawn cuts through the air.
+NA: The guards shift position a clear warning.
+@hide AL
+@char TI.angry look:left pos:{rightmid}
+TI: They are not-
+NA: Tiradentes tries to step forward.
+NA: One of the guards raises his blade toward him.
+GUARD: One more step, and I shall consider it an affront to the Crown, alferes.
+NA: The movement forces him to stop.
+NA: But his eyes remain fixed on you.
+@char JO.determined look:left pos:{mid}
+JO: This is excessive…
+NA: Joaquim speaks, clearly irritated.
+JO: To arrest someone for not knowing how to answer
+VI: For not being able to answer.
+NA: The Viscount cuts him off without raising his voice.
+VI: There is a difference.
+NA: Silence settles once more.
+VI: In the Crown’s lands, no one is no one by chance.
+NA: A small gesture of his hand.
+VI: Take them.
+PLAYER: Wait!
+NA: A firm hand grabs your arm. Cold iron shackles snap around your wrist.
+@sfx manacle
+NA: The sound is sharp.
+NA: Tiradentes takes an instinctive step forward. The guards advance again, he is forced to stop.
+NA: But he does not look away from you.
+NA: There is something in his eyes anger… and helplessness.
+NA: Alvarenga’s expression hardens, clearly calculating how far he can go.
+NA: Joaquim only watches, jaw tense.
+NA: The Viscount… does not react.
+NA: He simply observes.
+NA: As if everything had already been decided long before the question.
+NA: The square of Vila Rica continues to live around you.
+NA: People pass. Conversations carry on.
+NA: The world does not stop.
+NA: But for you, everything changes.
+NA: Now, you belong to another story…
+NA: One that rarely ends well.
+@gosub .BlackScreen
+@goto .End_RotaComum
+
+# BlackScreen
+@hideChars !wait
+@hidePrinter time:1 !wait
+@hide MainBackground
+@hide CG !wait
+@back bg_black pos:50,50 scale:1 time:0
+; @stopBgm fade:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:1.5 wait!
+@return
+
+
+# End_RotaComum
+@stopBgm fade:1
+@if demoVersion=true
+@showUI DemoEndUI
+@endif
+
+@if afetoHipolita=1
+@goto rota_hipolita
+@endif
+@if afetoTiradentes=1
+@goto rota_tiradentes
+@endIf
+@if afetoJoaquim=1
+@goto rota_joaquim
+@endIf
+@if afetoBarbara=1
+@goto rota_barbara
+@endIf
+@if afetoCel=1
+@goto rota_cel
+@endIf
+; @title
+;
+@stop
+
+; @hideChars
+; @back CG01_01.Crossfade time:1.5 wait!
+; @unlock CG/CG01_01
+
+; @bgm schoolAmbience volume:0.5
+; @stopBgm fade:2

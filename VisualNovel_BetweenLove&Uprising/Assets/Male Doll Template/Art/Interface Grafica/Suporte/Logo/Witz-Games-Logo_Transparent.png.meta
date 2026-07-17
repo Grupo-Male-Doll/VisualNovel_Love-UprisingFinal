@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: beb076558b624594bb10bc7f8aa0fc29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2516592877979404683
+    second: Witz-Games-Logo_Transparent_0
+  - first:
+      213: 4764477004242894648
+    second: Witz-Games-Logo_Transparent_1
+  - first:
+      213: 3060686640253920243
+    second: Witz-Games-Logo_Transparent_2
+  - first:
+      213: -1309533230579134922
+    second: Witz-Games-Logo_Transparent_3
+  - first:
+      213: 3390632418808802465
+    second: Witz-Games-Logo_Transparent_4
+  - first:
+      213: -4658581684122992732
+    second: Witz-Games-Logo_Transparent_5
+  - first:
+      213: 2533552253473315948
+    second: Witz-Games-Logo_Transparent_6
+  - first:
+      213: -8229685166658609452
+    second: Witz-Games-Logo_Transparent_7
+  - first:
+      213: 2973955532614155369
+    second: Witz-Games-Logo_Transparent_8
+  - first:
+      213: -7602721766380175743
+    second: Witz-Games-Logo_Transparent_9
+  - first:
+      213: 5595308015719813962
+    second: Witz-Games-Logo_Transparent_10
+  - first:
+      213: 3060555426362907356
+    second: Witz-Games-Logo_Transparent_11
+  - first:
+      213: 9028527069930198037
+    second: Witz-Games-Logo_Transparent_12
+  - first:
+      213: 7498123055578267746
+    second: Witz-Games-Logo_Transparent_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_0
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 433
+        width: 328
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57672c76c14431dd0800000000000000
+      internalID: -2516592877979404683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_1
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 606
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f3a629792de1240800000000000000
+      internalID: 4764477004242894648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_2
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 472
+        width: 153
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f36e19784eb97a20800000000000000
+      internalID: 3060686640253920243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_3
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 472
+        width: 177
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ec2c9077a93dde0800000000000000
+      internalID: -1309533230579134922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_4
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 484
+        width: 113
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aca5077832fd0f20800000000000000
+      internalID: 3390632418808802465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_5
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 497
+        width: 108
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af35b8f3a4695fb0800000000000000
+      internalID: -4658581684122992732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_6
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 517
+        width: 30
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cda28e95cf82320800000000000000
+      internalID: 2533552253473315948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_7
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 434
+        width: 170
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de130491f84acd80800000000000000
+      internalID: -8229685166658609452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_8
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 463
+        width: 160
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c364bdccc954920800000000000000
+      internalID: 2973955532614155369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_9
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 346
+        width: 71
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e77cc95d4bd7690800000000000000
+      internalID: -7602721766380175743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_10
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 347
+        width: 76
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4310edbef686ad40800000000000000
+      internalID: 5595308015719813962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_11
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 347
+        width: 80
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda51cbd1f6497a20800000000000000
+      internalID: 3060555426362907356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_12
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 347
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5141030f885cb4d70800000000000000
+      internalID: 9028527069930198037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witz-Games-Logo_Transparent_13
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 346
+        width: 50
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260c8e9313fae0860800000000000000
+      internalID: 7498123055578267746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Witz-Games-Logo_Transparent_0: -2516592877979404683
+      Witz-Games-Logo_Transparent_1: 4764477004242894648
+      Witz-Games-Logo_Transparent_10: 5595308015719813962
+      Witz-Games-Logo_Transparent_11: 3060555426362907356
+      Witz-Games-Logo_Transparent_12: 9028527069930198037
+      Witz-Games-Logo_Transparent_13: 7498123055578267746
+      Witz-Games-Logo_Transparent_2: 3060686640253920243
+      Witz-Games-Logo_Transparent_3: -1309533230579134922
+      Witz-Games-Logo_Transparent_4: 3390632418808802465
+      Witz-Games-Logo_Transparent_5: -4658581684122992732
+      Witz-Games-Logo_Transparent_6: 2533552253473315948
+      Witz-Games-Logo_Transparent_7: -8229685166658609452
+      Witz-Games-Logo_Transparent_8: 2973955532614155369
+      Witz-Games-Logo_Transparent_9: -7602721766380175743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

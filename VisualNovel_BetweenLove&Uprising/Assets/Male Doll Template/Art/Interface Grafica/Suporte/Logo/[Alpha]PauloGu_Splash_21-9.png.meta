@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: 6aa03d7a296d88a4fb01011a842c0a78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4101032726755721152
+    second: '[Alpha]PauloGu_Splash_21-9_0'
+  - first:
+      213: 3215080871044665749
+    second: '[Alpha]PauloGu_Splash_21-9_1'
+  - first:
+      213: 3160863547991844761
+    second: '[Alpha]PauloGu_Splash_21-9_2'
+  - first:
+      213: -4816768511482358841
+    second: '[Alpha]PauloGu_Splash_21-9_3'
+  - first:
+      213: 8641003618882148102
+    second: '[Alpha]PauloGu_Splash_21-9_4'
+  - first:
+      213: -8067686211425077469
+    second: '[Alpha]PauloGu_Splash_21-9_5'
+  - first:
+      213: 3296826959985654599
+    second: '[Alpha]PauloGu_Splash_21-9_6'
+  - first:
+      213: -1846410263537765643
+    second: '[Alpha]PauloGu_Splash_21-9_7'
+  - first:
+      213: -8976217472565855043
+    second: '[Alpha]PauloGu_Splash_21-9_8'
+  - first:
+      213: 7793179577306362294
+    second: '[Alpha]PauloGu_Splash_21-9_9'
+  - first:
+      213: 991338322636077782
+    second: '[Alpha]PauloGu_Splash_21-9_10'
+  - first:
+      213: 4723949946541305425
+    second: '[Alpha]PauloGu_Splash_21-9_11'
+  - first:
+      213: 7301139060137563405
+    second: '[Alpha]PauloGu_Splash_21-9_12'
+  - first:
+      213: 8530203945871677359
+    second: '[Alpha]PauloGu_Splash_21-9_13'
+  - first:
+      213: -7964800949666587679
+    second: '[Alpha]PauloGu_Splash_21-9_14'
+  - first:
+      213: -2674355059578816909
+    second: '[Alpha]PauloGu_Splash_21-9_15'
+  - first:
+      213: -9007333360834642852
+    second: '[Alpha]PauloGu_Splash_21-9_16'
+  - first:
+      213: -5672715798388629598
+    second: '[Alpha]PauloGu_Splash_21-9_17'
+  - first:
+      213: 6170018942257311087
+    second: '[Alpha]PauloGu_Splash_21-9_18'
+  - first:
+      213: 3365118285680084530
+    second: '[Alpha]PauloGu_Splash_21-9_19'
+  - first:
+      213: 5340735974729377056
+    second: '[Alpha]PauloGu_Splash_21-9_20'
+  - first:
+      213: 5413054606563162349
+    second: '[Alpha]PauloGu_Splash_21-9_21'
+  - first:
+      213: -1128212764307669285
+    second: '[Alpha]PauloGu_Splash_21-9_22'
+  - first:
+      213: 2972432782713325743
+    second: '[Alpha]PauloGu_Splash_21-9_23'
+  - first:
+      213: 3744937051870058929
+    second: '[Alpha]PauloGu_Splash_21-9_24'
+  - first:
+      213: 4109597122120409801
+    second: '[Alpha]PauloGu_Splash_21-9_25'
+  - first:
+      213: -2080998915924475109
+    second: '[Alpha]PauloGu_Splash_21-9_26'
+  - first:
+      213: 4370064470314428720
+    second: '[Alpha]PauloGu_Splash_21-9_27'
+  - first:
+      213: -4145516935615450265
+    second: '[Alpha]PauloGu_Splash_21-9_28'
+  - first:
+      213: -3649149868047484606
+    second: '[Alpha]PauloGu_Splash_21-9_29'
+  - first:
+      213: -5381826146840162934
+    second: '[Alpha]PauloGu_Splash_21-9_30'
+  - first:
+      213: 2333901677161552124
+    second: '[Alpha]PauloGu_Splash_21-9_31'
+  - first:
+      213: 4833834767546366147
+    second: '[Alpha]PauloGu_Splash_21-9_32'
+  - first:
+      213: 9134750303884043105
+    second: '[Alpha]PauloGu_Splash_21-9_33'
+  - first:
+      213: 690527707475875315
+    second: '[Alpha]PauloGu_Splash_21-9_34'
+  - first:
+      213: 4317884817586621905
+    second: '[Alpha]PauloGu_Splash_21-9_35'
+  - first:
+      213: -6848337567274985135
+    second: '[Alpha]PauloGu_Splash_21-9_36'
+  - first:
+      213: 5641486565263274583
+    second: '[Alpha]PauloGu_Splash_21-9_37'
+  - first:
+      213: 2815627940527502315
+    second: '[Alpha]PauloGu_Splash_21-9_38'
+  - first:
+      213: 1614690909832119784
+    second: '[Alpha]PauloGu_Splash_21-9_39'
+  - first:
+      213: -1076873574652017469
+    second: '[Alpha]PauloGu_Splash_21-9_40'
+  - first:
+      213: 9054868853066800094
+    second: '[Alpha]PauloGu_Splash_21-9_41'
+  - first:
+      213: 1680013512028773356
+    second: '[Alpha]PauloGu_Splash_21-9_42'
+  - first:
+      213: 6703349419436579681
+    second: '[Alpha]PauloGu_Splash_21-9_43'
+  - first:
+      213: -8038132247089461449
+    second: '[Alpha]PauloGu_Splash_21-9_44'
+  - first:
+      213: -643116337348187523
+    second: '[Alpha]PauloGu_Splash_21-9_45'
+  - first:
+      213: -5297986263351359554
+    second: '[Alpha]PauloGu_Splash_21-9_46'
+  - first:
+      213: 8037169951480919314
+    second: '[Alpha]PauloGu_Splash_21-9_47'
+  - first:
+      213: -1702772737353748579
+    second: '[Alpha]PauloGu_Splash_21-9_48'
+  - first:
+      213: 535907659041963139
+    second: '[Alpha]PauloGu_Splash_21-9_49'
+  - first:
+      213: -2573305837185482045
+    second: '[Alpha]PauloGu_Splash_21-9_50'
+  - first:
+      213: -8485262488806203331
+    second: '[Alpha]PauloGu_Splash_21-9_51'
+  - first:
+      213: -3311244182852656235
+    second: '[Alpha]PauloGu_Splash_21-9_52'
+  - first:
+      213: 382387794742178785
+    second: '[Alpha]PauloGu_Splash_21-9_53'
+  - first:
+      213: 2484987980831519153
+    second: '[Alpha]PauloGu_Splash_21-9_54'
+  - first:
+      213: -5203636268028690911
+    second: '[Alpha]PauloGu_Splash_21-9_55'
+  - first:
+      213: 5477336308525875517
+    second: '[Alpha]PauloGu_Splash_21-9_56'
+  - first:
+      213: 8084632740495378785
+    second: '[Alpha]PauloGu_Splash_21-9_57'
+  - first:
+      213: 6869885984564649906
+    second: '[Alpha]PauloGu_Splash_21-9_58'
+  - first:
+      213: -2595479223951503386
+    second: '[Alpha]PauloGu_Splash_21-9_59'
+  - first:
+      213: 3006833181025149858
+    second: '[Alpha]PauloGu_Splash_21-9_60'
+  - first:
+      213: -3930141127209304690
+    second: '[Alpha]PauloGu_Splash_21-9_61'
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_0'
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 382
+        width: 106
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfb68a698bc9e830800000000000000
+      internalID: 4101032726755721152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_1'
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 653
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59155ca94034e9c20800000000000000
+      internalID: 3215080871044665749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_2'
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 653
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997e88166a4addb20800000000000000
+      internalID: 3160863547991844761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_3'
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 654
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c39ec32f86672db0800000000000000
+      internalID: -4816768511482358841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_4'
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 654
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607d55662030be770800000000000000
+      internalID: 8641003618882148102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_5'
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 654
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327f0b89222d90090800000000000000
+      internalID: -8067686211425077469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_6'
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 654
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b30eb17aea0cd20800000000000000
+      internalID: 3296826959985654599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_7'
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 653
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f23234e5ab3066e0800000000000000
+      internalID: -1846410263537765643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_8'
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 654
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbcbe0944c11e6380800000000000000
+      internalID: -8976217472565855043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_9'
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 654
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1bc28198fe62c60800000000000000
+      internalID: 7793179577306362294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_10'
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 654
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da74fcb3f0f1cd00800000000000000
+      internalID: 991338322636077782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_11'
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 654
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ee154a277de8140800000000000000
+      internalID: 4723949946541305425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_12'
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 654
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d059a37ca4bd25560800000000000000
+      internalID: 7301139060137563405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_13'
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 654
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa711573b4f516670800000000000000
+      internalID: 8530203945871677359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_14'
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 654
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebdd605cb7577190800000000000000
+      internalID: -7964800949666587679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_15'
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 439
+        width: 228
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376398e1e38c2ead0800000000000000
+      internalID: -2674355059578816909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_16'
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 604
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cfcedf7068ff280800000000000000
+      internalID: -9007333360834642852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_17'
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 594
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af9c4569077641b0800000000000000
+      internalID: -5672715798388629598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_18'
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 458
+        width: 544
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dadaea98f40a550800000000000000
+      internalID: 6170018942257311087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_19'
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 458
+        width: 115
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236022d604d43be20800000000000000
+      internalID: 3365118285680084530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_20'
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 555
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025e4e4921b1e1a40800000000000000
+      internalID: 5340735974729377056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_21'
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 555
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de83dfd2c780f1b40800000000000000
+      internalID: 5413054606563162349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_22'
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 555
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde3168e778c750f0800000000000000
+      internalID: -1128212764307669285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_23'
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 555
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa88a540ed3304920800000000000000
+      internalID: 2972432782713325743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_24'
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 555
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9d9ea3860b8f330800000000000000
+      internalID: 3744937051870058929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_25'
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 555
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c264f91fc8380930800000000000000
+      internalID: 4109597122120409801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_26'
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 555
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b134956f28ece13e0800000000000000
+      internalID: -2080998915924475109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_27'
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 591
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039a5ae6b7695ac30800000000000000
+      internalID: 4370064470314428720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_28'
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 555
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763764a9f4a2876c0800000000000000
+      internalID: -4145516935615450265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_29'
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 555
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249bdde678d9b5dc0800000000000000
+      internalID: -3649149868047484606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_30'
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 555
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8dcea232a9ef45b0800000000000000
+      internalID: -5381826146840162934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_31'
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 555
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf817e7b53fa36020800000000000000
+      internalID: 2333901677161552124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_32'
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 555
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8b88e3c1b351340800000000000000
+      internalID: 4833834767546366147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_33'
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 478
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16366eed00725ce70800000000000000
+      internalID: 9134750303884043105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_34'
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 491
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f51aa79a4f359900800000000000000
+      internalID: 690527707475875315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_35'
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 491
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd8d4d4d553ceb30800000000000000
+      internalID: 4317884817586621905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_36'
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 491
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1599c904441d5f0a0800000000000000
+      internalID: -6848337567274985135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_37'
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 491
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752f7a724269a4e40800000000000000
+      internalID: 5641486565263274583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_38'
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 491
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be37ecea1be131720800000000000000
+      internalID: 2815627940527502315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_39'
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 491
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e58896d3d8886610800000000000000
+      internalID: 1614690909832119784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_40'
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 491
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c48cda703d2e01f0800000000000000
+      internalID: -1076873574652017469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_41'
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 440
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb9bc24f3b59ad70800000000000000
+      internalID: 9054868853066800094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_42'
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 397
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebd45a536b905710800000000000000
+      internalID: 1680013512028773356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_43'
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 397
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b96d6f7c4170d50800000000000000
+      internalID: 6703349419436579681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_44'
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 397
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737ce922f41d27090800000000000000
+      internalID: -8038132247089461449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_45'
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 397
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a6c1b39113317f0800000000000000
+      internalID: -643116337348187523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_46'
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 424
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb70b0c3095c976b0800000000000000
+      internalID: -5297986263351359554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_47'
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 397
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215b675fc73c98f60800000000000000
+      internalID: 8037169951480919314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_48'
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 397
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f6fc097398e58e0800000000000000
+      internalID: -1702772737353748579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_49'
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 397
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c7b913d2def6700800000000000000
+      internalID: 535907659041963139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_50'
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 397
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2ce1c99f7c94cd0800000000000000
+      internalID: -2573305837185482045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_51'
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 397
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3062c829ba4e3a80800000000000000
+      internalID: -8485262488806203331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_52'
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 397
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5932d7c95f81c02d0800000000000000
+      internalID: -3311244182852656235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_53'
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 397
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e37d006ca38e4500800000000000000
+      internalID: 382387794742178785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_54'
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 397
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1f39c07637c7220800000000000000
+      internalID: 2484987980831519153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_55'
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 397
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e7fcf5268f8c7b0800000000000000
+      internalID: -5203636268028690911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_56'
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 397
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31c8093a58630c40800000000000000
+      internalID: 5477336308525875517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_57'
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 397
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16948bca4a2623070800000000000000
+      internalID: 8084632740495378785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_58'
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 390
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf196d97ecb65f50800000000000000
+      internalID: 6869885984564649906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_59'
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 397
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efc672b5610bfbd0800000000000000
+      internalID: -2595479223951503386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_60'
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 424
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3acd5e8da6ab920800000000000000
+      internalID: 3006833181025149858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[Alpha]PauloGu_Splash_21-9_61'
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 397
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d3983b7755579c0800000000000000
+      internalID: -3930141127209304690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      '[Alpha]PauloGu_Splash_21-9_0': 4101032726755721152
+      '[Alpha]PauloGu_Splash_21-9_1': 3215080871044665749
+      '[Alpha]PauloGu_Splash_21-9_10': 991338322636077782
+      '[Alpha]PauloGu_Splash_21-9_11': 4723949946541305425
+      '[Alpha]PauloGu_Splash_21-9_12': 7301139060137563405
+      '[Alpha]PauloGu_Splash_21-9_13': 8530203945871677359
+      '[Alpha]PauloGu_Splash_21-9_14': -7964800949666587679
+      '[Alpha]PauloGu_Splash_21-9_15': -2674355059578816909
+      '[Alpha]PauloGu_Splash_21-9_16': -9007333360834642852
+      '[Alpha]PauloGu_Splash_21-9_17': -5672715798388629598
+      '[Alpha]PauloGu_Splash_21-9_18': 6170018942257311087
+      '[Alpha]PauloGu_Splash_21-9_19': 3365118285680084530
+      '[Alpha]PauloGu_Splash_21-9_2': 3160863547991844761
+      '[Alpha]PauloGu_Splash_21-9_20': 5340735974729377056
+      '[Alpha]PauloGu_Splash_21-9_21': 5413054606563162349
+      '[Alpha]PauloGu_Splash_21-9_22': -1128212764307669285
+      '[Alpha]PauloGu_Splash_21-9_23': 2972432782713325743
+      '[Alpha]PauloGu_Splash_21-9_24': 3744937051870058929
+      '[Alpha]PauloGu_Splash_21-9_25': 4109597122120409801
+      '[Alpha]PauloGu_Splash_21-9_26': -2080998915924475109
+      '[Alpha]PauloGu_Splash_21-9_27': 4370064470314428720
+      '[Alpha]PauloGu_Splash_21-9_28': -4145516935615450265
+      '[Alpha]PauloGu_Splash_21-9_29': -3649149868047484606
+      '[Alpha]PauloGu_Splash_21-9_3': -4816768511482358841
+      '[Alpha]PauloGu_Splash_21-9_30': -5381826146840162934
+      '[Alpha]PauloGu_Splash_21-9_31': 2333901677161552124
+      '[Alpha]PauloGu_Splash_21-9_32': 4833834767546366147
+      '[Alpha]PauloGu_Splash_21-9_33': 9134750303884043105
+      '[Alpha]PauloGu_Splash_21-9_34': 690527707475875315
+      '[Alpha]PauloGu_Splash_21-9_35': 4317884817586621905
+      '[Alpha]PauloGu_Splash_21-9_36': -6848337567274985135
+      '[Alpha]PauloGu_Splash_21-9_37': 5641486565263274583
+      '[Alpha]PauloGu_Splash_21-9_38': 2815627940527502315
+      '[Alpha]PauloGu_Splash_21-9_39': 1614690909832119784
+      '[Alpha]PauloGu_Splash_21-9_4': 8641003618882148102
+      '[Alpha]PauloGu_Splash_21-9_40': -1076873574652017469
+      '[Alpha]PauloGu_Splash_21-9_41': 9054868853066800094
+      '[Alpha]PauloGu_Splash_21-9_42': 1680013512028773356
+      '[Alpha]PauloGu_Splash_21-9_43': 6703349419436579681
+      '[Alpha]PauloGu_Splash_21-9_44': -8038132247089461449
+      '[Alpha]PauloGu_Splash_21-9_45': -643116337348187523
+      '[Alpha]PauloGu_Splash_21-9_46': -5297986263351359554
+      '[Alpha]PauloGu_Splash_21-9_47': 8037169951480919314
+      '[Alpha]PauloGu_Splash_21-9_48': -1702772737353748579
+      '[Alpha]PauloGu_Splash_21-9_49': 535907659041963139
+      '[Alpha]PauloGu_Splash_21-9_5': -8067686211425077469
+      '[Alpha]PauloGu_Splash_21-9_50': -2573305837185482045
+      '[Alpha]PauloGu_Splash_21-9_51': -8485262488806203331
+      '[Alpha]PauloGu_Splash_21-9_52': -3311244182852656235
+      '[Alpha]PauloGu_Splash_21-9_53': 382387794742178785
+      '[Alpha]PauloGu_Splash_21-9_54': 2484987980831519153
+      '[Alpha]PauloGu_Splash_21-9_55': -5203636268028690911
+      '[Alpha]PauloGu_Splash_21-9_56': 5477336308525875517
+      '[Alpha]PauloGu_Splash_21-9_57': 8084632740495378785
+      '[Alpha]PauloGu_Splash_21-9_58': 6869885984564649906
+      '[Alpha]PauloGu_Splash_21-9_59': -2595479223951503386
+      '[Alpha]PauloGu_Splash_21-9_6': 3296826959985654599
+      '[Alpha]PauloGu_Splash_21-9_60': 3006833181025149858
+      '[Alpha]PauloGu_Splash_21-9_61': -3930141127209304690
+      '[Alpha]PauloGu_Splash_21-9_7': -1846410263537765643
+      '[Alpha]PauloGu_Splash_21-9_8': -8976217472565855043
+      '[Alpha]PauloGu_Splash_21-9_9': 7793179577306362294
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

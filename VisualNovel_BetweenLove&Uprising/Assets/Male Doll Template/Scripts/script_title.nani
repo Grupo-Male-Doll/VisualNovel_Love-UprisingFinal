@@ -1,0 +1,21 @@
+@bgm forest_day_birds
+;@back bg_mainMenu
+@stop
+
+#OnNewGame
+; Following commands will be executed when the player clicks "NEW GAME". Notice that we're waiting for the stopBgm. So that the currently played music is fully stopped before the new game begins to load.
+@stopBgm
+@stop
+
+#OnLoad
+; Below commands will be executed when the player loads a saved game.
+@stop
+
+#OnSettings
+; Below commands will be executed when the player clicks on the settings button.
+; THIS SHIT DOESN'T WORK!
+
+#OnExit
+; Below commands will be executed when the player clicks "EXIT".
+@wait 1.5
+@stop

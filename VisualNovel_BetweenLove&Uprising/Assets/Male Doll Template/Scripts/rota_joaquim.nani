@@ -1,0 +1,6428 @@
+@back bg_innDay
+@bgm respite
+NA: You wake up slowly, your eyelids still heavy.
+
+NA: You blink a few times, the ceiling above you unfamiliar.
+
+NA: Dark wooden beams.
+
+NA: You smell a faint scent of dust, fabric, and something burnt in the air.
+
+NA: This is definitely not your room.
+@char {PLAYER}2.thinking pos:{mid}
+PLAYER: (...Where...)
+
+PLAYER: (...am I?)
+
+NA: You sit up in bed..
+
+NA: The clothes you wear aren't yours, the fabric is heavier.
+
+NA: More rustic, it even itches a little.
+
+NA: The silence around you is broken by footsteps downstairs.
+
+NA: You hear voices, movement.
+
+PLAYER: These people are awake at this hour?
+
+NA: You run your hands through your hair and stretch.
+@char {PLAYER}2.neutral
+PLAYER: (Right...)
+
+PLAYER: (Vila Rica, inn, and this wasn't a dream).
+@char {PLAYER}2.thinking
+PLAYER: (Will anyone congratulate me for time traveling?)
+
+PLAYER: Guest not….
+
+NA: You stand up slowly, stepping onto the wooden floors.
+
+PLAYER: (Slippers would be nice right about now.)
+
+NA: Then you realize your body craves something almost urgent, namely a shower.
+
+NA: You look around and find a basin of water.
+
+PLAYER: …Seriously?
+
+NA: No shower or tap.
+
+NA: Just a cloth, water, and courage.
+@char {PLAYER}2.surprise
+NA: You dip your hands in and the shock is immediate.
+
+NA: The water is cold, very cold.
+@char {PLAYER}2.determined
+PLAYER: Ok.
+
+PLAYER: I can do this.
+
+PLAYER: I think.
+
+NA: You wipe your face and neck with the cloth trying to clean yourself.
+
+PLAYER: This isn't working.
+
+NA: When you basically spill some of the basin water on yourself, making a mess on the floor but at least feeling clean.
+
+NA: The result is debatable on account of the mess you'll have to clean up.
+
+PLAYER: (I'd give anything for a real shower right now...)
+
+NA: Still, you are, technically, clean.
+
+NA: Which seems to be enough for this century.
+
+NA: You look for the clothes Alvarenga lent you, wipe them down and they're clean.
+
+NA: You get changed and head toward the stairs.
+
+NA: Downstairs, the world is already in motion.
+
+NA: The inn lounge is bustling, conversation, the clinking of cutlery, and the smell of strong coffee.
+@char {PLAYER}2.neutral pos:{leftmid}
+@char FR.neutral pos:{rightmid}
+NA: Behind the counter, a woman observes everything and everyone.
+
+NA: You approach her, a little confused.
+
+FR: Well then.
+
+NA: She looks up when she sees you.
+
+FR: Our guest is awake.
+
+FR: And looks like they survived the night.
+
+PLAYER: Survived... is a strong word...
+
+FR: It tends to be.
+
+NA: She observes you with open curiosity.
+
+FR: I'm Francisca.
+
+FR: And you are…
+
+NA: A brief silence.
+
+PLAYER: I'm {name} and I'm a little lost.
+
+FR: Great.
+@char FR.smile
+FR: Lost people tend to make good stories.
+@char {PLAYER}2.thinking
+PLAYER: I was brought here, wasn't I?
+@char FR.neutral
+FR: You were.
+
+NA: She wipes her hands on her apron.
+
+FR: By Doctor Alvarenga.
+
+FR: You arrived with him yesterday.
+
+FR: Somewhat disoriented.
+@char FR.thinking
+FR: Which, I must say, hasn't improved.
+
+PLAYER: He brought me?
+@char FR.neutral
+FR: Brought and left you.
+
+FR: Like someone who trusts... or is having fun.
+
+PLAYER: I spent the day with him and Tiradentes, I think the sun was too much for me.
+
+NA: Francisca leans her head to the side.
+
+FR: Ah, the alferes, so you've heard of him.
+
+FR: Naturally.
+
+FR: His name precedes him in this village.
+
+FR: Man of ideas... and problems.
+
+PLAYER: Tiradentes is an interesting and brave man, although the atmosphere between him and Joaquim seems off.
+@char {PLAYER}2.thinking
+PLAYER: Do you know Joaquim?
+
+NA: Her reaction is different.
+@char FR.thinking
+FR: Ah.
+
+NA: She falls silent, seemingly thinking on what to reply.
+
+FR: And why do you ask of him?
+
+PLAYER: Just... curious.
+
+FR: Curious.
+
+FR: It always starts like that.
+
+NA: She crosses her arms.
+
+FR: What do you know of him?
+
+PLAYER: Nothing yet.
+
+FR: Better that way.
+
+NA: She wipes her hands on her apron.
+
+FR: He's a man of flimsy words.
+
+FR: Easy smiles and... errant intentions.
+
+FR: Joaquim is charming and he knows that.
+
+PLAYER: Is that a warning?
+
+FR: It's a courtesy.
+
+FR: He charms before he thinks, and he thinks little when he charms.
+
+NA: She looks at you more firmly.
+
+FR: Be careful.
+
+FR: He's not like the alferes.
+
+FR: The alferes carries the world.
+
+FR: Joaquim… toys with it.
+
+NA: She approaches you.
+
+PLAYER: I'll keep that in mind.
+@char FR.smile
+FR: Do try to.
+
+FR: But I'm not betting much on it.
+
+NA: She walks away.
+@char FR.neutral
+FR: Before you lose yourself in more problematic men…
+
+FR: You'll need to eat.
+
+FR: And, if you want to stay, work.
+
+PLAYER: Work?
+
+FR: Yes.
+
+FR: No one exists for free here.
+
+NA: A rag is thrown in your direction and you catch it by surprise.
+
+FR: Start by not breaking anything.
+
+FR: That's progress already.
+
+PLAYER: Ok… that I know how to do.
+
+FR: That's what everyone says.
+
+NA: You study the counter.
+
+NA: The table and the glasses.
+
+NA: And then you start, somewhat uncertain.
+
+NA: The rag spreading more than cleaning.
+@char FR.thinking
+FR: No.
+
+FR: That way you're just moving the dirt around.
+@char {PLAYER}2.thinking
+PLAYER: I'm cleaning.
+
+FR: You're bargaining with the dust.
+
+FR: And you're losing.
+
+NA: She approaches.
+
+NA: Grabs your hand unceremoniously.
+
+NA: Adjusts the movement.
+@char FR.neutral
+FR: Pressure and direction.
+
+PLAYER: This turned into a lesson very quickly.
+
+FR: Does that happen to you often?
+
+PLAYER: Sometimes.
+
+NA: You try again and do better.
+
+FR: You'll survive.
+
+NA: You move on to the glasses.
+@char {PLAYER}2.surprise
+NA: One slips and you catch it at the last second.
+@char FR.smile
+FR: Ah.
+
+FR: We have reflexes.
+
+FR: That's something.
+@char {PLAYER}2.neutral
+PLAYER: I'm getting better.
+@char FR.neutral
+FR: Slowly.
+
+FR: But yes.
+
+NA: You watch her for a while.
+
+PLAYER: Have you been doing this for a long time?
+
+FR: Long enough not to trust anyone that says "I know what I'm doing".
+@char FR.smile
+NA: A half smile.
+
+FR: And long enough to recognize who can learn.
+
+NA: You return to the rag, more focused now.
+
+FR: See?
+
+FR: It's not that hard.
+@char {PLAYER}2.smile
+PLAYER: I just needed instructions.
+
+FR: And someone to stop you from making it worse.
+
+NA: A brief, comfortable silence settles between you.
+
+FR: If you keep going like this... maybe I won't have to redo everything you do.
+@char {PLAYER}2.surprise
+PLAYER: Is that a compliment?
+
+FR: It's the closest you'll get today.
+@char {PLAYER}2.happy
+PLAYER: It's enough.
+@char {PLAYER}2.smile
+NA: You continue cleaning the table, now more careful and attentive, just like Francisca taught you.
+@char FR.neutral
+NA: She looks around, assessing your moves.
+
+FR: Very good.
+
+FR: Since you haven't broken anything…
+
+FR: We can risk a new task.
+@char {PLAYER}2.thinking
+PLAYER: This sounds like a terrible idea.
+
+FR: For me or for you?
+@char {PLAYER}2.neutral
+PLAYER: I refuse to answer.
+
+NA: She picks up a pot and points to the table.
+
+FR: Come.
+
+FR: Time to eat.
+
+PLAYER: That, I do well.
+
+FR: We'll see.
+
+NA: You didn't even notice time passing, but could tell from the pot that it was already lunchtime and, considering you had no breakfast, that was great.
+
+NA: At the table you see: pieces of rustic bread, a thick bean broth, pork, and cassava flour.
+
+NA: Everything has a strong and comforting smell.
+
+FR: Eat.
+
+FR: Before it gets cold.
+
+NA: You sit and grab a plate, serving yourself a little of everything and tasting it, bringing the spoon to your mouth.
+@char {PLAYER}2.surprise
+NA: The beans are hearty, the pork salty and intense, and the flour gives it texture.
+
+PLAYER: This is much better than I expected.
+
+FR: You didn't expect much, then.
+@char {PLAYER}2.smile
+PLAYER: Fair enough.
+
+FR: We don't have luxury.
+
+FR: But we're not starving either.
+@char {PLAYER}2.neutral
+NA: You eat in silence for a while.
+
+NA: A more comfortable silence than before.
+
+FR: So.
+
+FR: Vila Rica.
+
+FR: What do you think?
+
+PLAYER: Chaotic, beautiful, and full of suspicious people.
+
+FR: Excellent summary.
+
+NA: She drinks some water.
+
+FR: Everything revolves around gold, here.
+
+FR: Or the lack thereof.
+
+FR: And who gets to control both.
+@char {PLAYER}2.thinking
+PLAYER: Seems peaceful.
+
+FR: It is.
+@char FR.thinking
+FR: If you ignore the conspiracies, egos, and the Crown.
+@char {PLAYER}2.smile
+NA: A small smile escapes you.
+@char FR.neutral
+FR: Have you gotten used to the noise?
+
+NA: She comments, almost casual.
+@char {PLAYER}2.neutral
+PLAYER: I still don't know what's noise and what's normal.
+
+FR: Then you're at the right place.
+
+FR: Here everything seems like too much... until it doesn't.
+
+PLAYER: Is Vila Rica always like this?
+
+FR: Always in motion.
+
+NA: She calmly breaks the bread.
+
+FR: Too much gold attracts too many people.
+
+FR: And too many people complicate things.
+
+FR: And you?
+
+FR: Have you started to get to know all these people yet?
+
+NA: The tone is still unassuming.
+
+PLAYER: A little.
+
+FR: Hm.
+
+NA: She doesn't insist right away.
+
+FR: And you survived?
+
+PLAYER: So far, yes.
+
+FR: Good sign.
+
+NA: You continue eating, the atmosphere is calmer now.
+@hideChars
+NA: The sounds of the inn become background noise.
+
+NA: Chatter, cutlery, footsteps.
+@back bg_innAfternoon
+NA: The rest of the day goes by between chores.
+
+NA: Short conversations and curious glances directed at you, who seem lost in each task.
+@back bg_innNight
+NA: When you're done, the sun has already set.
+
+NA: Night falls on the village and it seems like a completely different place.
+@hide MainBackground
+@stopBgm fade:4 !wait
+@back bg_marketNight
+
+NA: You leave, a little apprehensive, you were already getting anxious being inside all day.
+NA: As you approach the town square, you see the market still bustling.
+@bgm joaquim
+NA: Lantern lights, quieter voices, and more unrestrained laughter.
+@char JO.neutral pos:{mid}
+NA: That's when you see him.
+
+NA: Joaquim.
+
+NA: In front of a stall, he seems to be arguing with a merchant.
+
+JO: I'm not saying your price is unfair.
+
+JO: I'm only saying your courage in asking it is admirable.
+
+MERCHANT: The price is fair!
+
+JO: For the seller it'll always seem fair.
+
+JO: For the payer, it's almost philosophy.
+
+NA: The merchant rolls his eyes.
+
+COMERCIANTE: Take it or leave it.
+@char JO.thinking
+JO: I'll take it.
+@char JO.smile
+JO: But with the clear understanding I was elegantly deceived.
+
+NA: He pays in no hurry, with a smile still on his face.
+@char JO.surprise
+NA: Then he sees you.
+
+NA: And everything seems to change.
+@char JO.smile
+JO: My…
+
+NA: His smile widens.
+
+JO: There's something better than any bargain.
+
+NA: He approaches without hesitation.
+
+NA: Confident steps and a direct gaze.
+
+JO: And here I am wasting words on someone who doesn't deserve them.
+
+JO: When I could have saved them for you.
+@char JO.smile pos:{rightmid}
+@char {PLAYER}2.thinking pos:{leftmid}
+PLAYER: Does that work on everyone?
+
+JO: No.
+
+JO: Only with those worth the try.
+
+NA: He watches you with thorough attention.
+
+NA: As if reading something.
+
+JO: I didn't see you earlier.
+
+JO: What seems to me like a serious flaw in this village.
+@char {PLAYER}2.neutral
+PLAYER: I just got here, spent the day busy at the inn.
+
+JO: A waste.
+
+JO: Vila Rica wasn't made to be watched from behind a counter.
+
+JO: It was made to be... experienced.
+
+NA: He takes a step forward.
+
+NA: Close enough to lower his voice.
+
+JO: Tell me…
+
+JO: Did you come for the fair, or... something more interesting?
+
+PLAYER: I haven't decided yet.
+@char JO.neutral
+JO: I can help with that.
+@char JO.smile
+NA: A smirk.
+
+JO: I have some experience with bad decisions.
+
+JO: Some, I dare say, quite memorable.
+@char {PLAYER}2.thinking
+NA: His charm isn't gentle, it's precise.
+
+NA: And dangerously comfortable.
+
+JO: And, since you spent the day under Francisca's roof…
+
+JO: Tell me, has she warned you about me yet?
+@char {PLAYER}2.neutral
+PLAYER: Yes.
+
+JO: Excellent.
+
+JO: I like it when my reputation precedes me.
+
+NA: There's a playful glint in his eyes.
+@char JO.neutral
+JO: And yet here you are.
+
+JO: Talking to me. At night. Alone.
+
+NA: He tilts his head slightly.
+
+JO: That says more about you... than me.
+
+NA: His gaze lingers on you a moment longer.
+
+NA: As if waiting for your answer... or measuring the silence.
+@char {PLAYER}2.thinking
+PLAYER: Perhaps it says something about me, or just about yourself.
+@char JO.smile
+NA: A small smile escapes Joaquim.
+
+JO: Ah…
+
+JO: I like it when I'm not given easy answers.
+@goSub .BlackScreen
+@back CGJ02_01 id:CG time:0
+@unlock CG/CGJ02_1
+
+NA: He leans slightly to the side.
+
+NA: Resting against the tent with a lazy familiarity.
+
+NA: Then, unhurried, takes an apple.
+
+NA: Spins it in his fingers and observes the movement.
+
+NA: The light from the lamps outline his face.
+
+NA: The smirk is already there.
+
+NA: And he looks directly at you.
+
+NA: The following movement is slow.
+@back CGJ02_02 id:CG
+NA: He brings the apple to his lips.
+
+NA: The fruit brushes against them as it spins in his fingers.
+
+NA: A simple gesture, but nothing about him is careless.
+
+NA: His gaze doesn't stray for yours for a moment.
+@back CGJ02_03 id:CG
+NA: Then he pulls the apple away from his lips.
+
+NA: And extends it towards you, stopping at a precise distance.
+
+NA: The choice is between you.
+
+@choice "Accept the apple" goto:.scene3J-1
+
+@choice "Refuse the apple" goto:.scene3J-2
+
+@stop
+
+#scene3J-1
+@set afetoJoaquim+=1
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@back bg_marketNight 
+@char JO.smile pos:{rightmid} !wait
+@char {PLAYER}2.neutral pos:{leftmid}
+NA: You extend your hand.
+
+NA: Your fingers touch for a brief moment.
+
+NA: Too intentional to be an accident and too quick to be avoided.
+
+NA: Joaquim watches and his smile widens.
+
+JO: Good choice.
+@char JO.neutral
+JO: I like decisive people.
+
+JO: Specially when they're quick about it.
+
+NA: He crosses his arms, satisfied.
+
+JO: Personality is rare around here.
+
+JO: Usually hidden behind convenience.
+
+@goto .scene3J-1end
+
+
+#scene3J-2
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@back bg_marketNight 
+@char JO.smile pos:{rightmid} !wait
+@char {PLAYER}2.neutral pos:{leftmid}
+NA: You don't move.
+@char {PLAYER}2.thinking
+NA: You just look at the apple and then at him.
+
+NA: Joaquim tilts his head slightly.
+@char JO.smile
+NA: The smile doesn't disappear, but it changes.
+
+JO: Difficult or cautious.
+
+JO: I haven't decided yet.
+
+NA: He pulls the apple back.
+
+NA: Spins it in his fingers again.
+
+JO: I like that too.
+@char JO.neutral
+JO: It makes things more interesting.
+
+
+#scene3J-1end
+NA: His gaze returns to you.
+@char JO.determined
+NA: More attentive now.
+
+JO: You know…
+
+JO: Vila Rica seems simple at first glance.
+
+JO: But it rarely is.
+
+NA: He takes a small step, shortening the distance further.
+
+JO: I'm not a man fond of surprises.
+
+JO: I'd rather know who I'm dealing with.
+@char {PLAYER}2.neutral
+PLAYER: And what do you make of me?
+@char JO.smile
+NA: Joaquim smirks.
+
+JO: I'm not sure yet.
+
+JO: And I confess... such ignorance displeases me a little.
+
+NA: He taps his fingers against the wood, as if thinking about something.
+
+JO: I propose to you, then... a game.
+@char {PLAYER}2.thinking
+PLAYER: A game?
+
+JO: Yes.
+
+JO: Nothing to be afraid of.
+
+JO: At least... for now.
+
+NA: His tone is light but there's intention underneath.
+
+JO: A simple test.
+
+JO: To see if you're a problem, an ally…
+
+JO: Or just a pleasant distraction.
+
+NA: His gaze lingers on yours
+
+NA: He seems curious and interested in your answer.
+
+@choice "I agree. I'm not afraid of the truth." goto:.scene4J-1
+
+@choice "I'll pass. I don't like games " goto:.scene4J-2
+
+@stop
+
+#scene4J-1
+@set afetoJoaquim+=1
+
+@char {PLAYER}2.neutral
+@char JO.smile
+NA: His smile deepens.
+
+NA: Not by surprise, but approval.
+
+JO: Now that's better.
+
+JO: Those who don't fear the truth... are either very confident…
+
+JO: Or very reckless.
+
+NA: A slight tilt of the head.
+
+JO: Both interest me.
+@char JO.neutral
+JO: Let's make a deal, then.
+
+JO: I ask you a question and you answer honestly.
+
+JO: In return, I grant you the same.
+
+JO: Word for word.
+
+NA: He raises his hand, as if sealing something invisible.
+
+NA: The game has begun.
+
+JO: Tell me…
+
+JO: Who are you and why on earth have you come here?
+
+@choice "Answer honestly" goto:.sceneJ-A
+
+@choice "Tell a half truth" goto:.sceneJ-B
+
+@stop
+
+
+#sceneJ-A
+
+@char {PLAYER}2.thinking
+NA: You hesitate for a brief moment.
+
+NA: And then you speak.
+@char {PLAYER}2.neutral
+PLAYER: I'm obviously not from here, I came from the city, where I studied and worked.
+@char JO.surprise
+PLAYER: Some would say I don't belong to this time. Well, I think one of my researches brought me here.
+@char JO.neutral
+PLAYER: And I don't know if this is a dream, a test, or how to go back.
+
+NA: Joaquim listens without interrupting.
+
+NA: His gaze fixed on you.
+
+NA: Truly paying attention.
+
+JO: Hm…
+@char JO.smile
+NA: A small smile emerges.
+
+JO: You're not what I expected.
+
+JO: Which makes everything... more interesting.
+
+@goto .sceneJ-A-end
+
+
+#sceneJ-B
+@char {PLAYER}2.thinking
+NA: You choose your words.
+@char JO.neutral
+NA: Adjust and omit.
+
+PLAYER: I'm not from this village.
+
+PLAYER: I come from elsewhere... for study reasons.
+
+PLAYER: And I'll be here longer than I thought.
+
+PLAYER: I don't know how to leave here yet…
+
+NA: Joaquim listens.
+
+NA: Without interrupting.
+
+NA: But he looks at you differently, as if he perceived what you were doing.
+
+JO: Hm…
+
+NA: He tilts his head slightly.
+
+JO: You say enough... but not everything.
+
+JO: Prudent or distrustful.
+
+JO: I like that too.
+
+
+#sceneJ-A-end
+;Depois das respostas
+@char JO.neutral
+NA: He strokes his chin, thinking about what he just heard.
+
+JO: I did my part.
+
+JO: Now it's your turn to ask the question.
+
+NA: A small hand gesture.
+@char {PLAYER}2.thinking
+JO: Choose wisely.
+
+;Escolha "sua pergunta"
+
+@choice "Why were you arguing with the Crown tax collector and the merchant? " goto:.J_perguntaA
+
+@choice "Who are you really... and why are you following me? " goto:.J_perguntaB
+
+@Stop
+
+#J_perguntaA
+@char JO.thinking
+NA: The question catches him off guard
+
+NA: Not completely surprised, but enough.
+
+NA: Joaquim lets out a quiet laugh.
+
+JO: Straightforward.
+
+JO: I like that.
+
+JO: Very well.
+
+JO: Answer for answer.
+
+NA: He strokes his mustache.
+
+JO: Let's just say... I've made some... unfortunate investments.
+
+JO: And certain people...
+
+JO: Crown included, have little patience for such misfortunes.
+@char JO.neutral
+NA: He shrugs.
+
+JO: Nothing serious.
+
+JO: Just enough to keep me... interesting.
+@char JO.smile
+NA: His smile returns.
+
+JO: And you?
+
+JO: Still think you're in good company?
+@char {PLAYER}2.smile
+PLAYER: Probably not, but I like wicked things.
+@char JO.shy
+NA: You speak with a sharp smile and Joaquim seems to blush slightly.
+
+@goto .sceneJperguntaA-end
+
+#J_perguntaB
+@char JO.surprise
+NA: For a moment, Joaquim is truly surprised.
+
+JO: Ah…
+@char JO.smile
+NA: His smile changes.
+
+NA: Less shallow and more honest.
+
+JO: Dangerous question.
+
+JO: Even more so for a first night.
+
+NA: He watches you more closely.
+@char JO.neutral
+JO: Very well.
+
+JO: You'll have your answer.
+
+JO: I am a uniformed man.
+
+JO: Not a small rank, although, at the moment…
+
+JO: Certain circumstances make that.... less convenient.
+@char JO.determined
+NA: He takes half a step closer.
+
+JO: As for you…
+
+NA: His gaze fixes on you.
+
+JO: It's not that I'm circling you.
+
+JO: But there's something about you that doesn't quite fit.
+
+JO: And anything that doesn't fit... catches my attention.
+@char JO.smile
+NA: A half smile.
+
+JO: I'd even say you fascinated me.
+
+@goto .sceneJperguntaB-end
+
+
+#scene4J-2
+@char JO.smile
+NA: His smile doesn't disappear.
+
+NA: But it gets colder.
+
+JO: No?
+
+JO: What a shame.
+@char JO.sad
+NA: He runs his hand through his hair, looking a little disappointed.
+
+JO: Then you won't last a day here.
+@char JO.neutral
+JO: Vila Rica is made of games.
+
+JO: In plain sight or under disguise.
+
+NA: He smooths his hand down his coat.
+
+JO: And those who refuse to play... usually lose without realizing it.
+
+NA: A more direct look.
+
+JO: Or, worse, become pawns.
+
+NA: He takes half a step back.
+
+NA: Still interested.
+
+NA: But now with a different assessment.
+
+JO: If you change your mind…
+
+
+#sceneJperguntaA-end
+#sceneJperguntaB-end
+;Depois das cenas
+
+NA: The moment slowly fades.
+
+NA: The fair continues around you.
+
+NA: But something has already been said or avoided between you two.
+
+NA: Joaquim studies you for one last moment.
+@char JO.neutral
+JO: The night advances.
+
+JO: And I have certain... matter to attend to.
+
+NA: His tone is light, but there's something behind it.
+
+NA: He takes a step back.
+
+NA: Still within your space.
+
+JO: This was a... fruitful encounter.
+@char JO.smile
+JO: In one way or another.
+
+NA: A soft smirk.
+
+JO: And I don't usually waste interesting encounters.
+
+NA: He tilts his head to the side.
+
+JO: If perhaps you wish to see me again... you may do so freely.
+
+NA: His gaze meets yours.
+
+JO: My house is not closed to visitors.
+
+JO: As long as they come with intention.
+
+NA: A more suggestive smirk.
+
+JO: And some courage.
+
+NA: He takes another step back.
+
+JO: Don't get stuck in formalities.
+
+JO: I never liked them.
+
+NA: Almost blending into the crowd, he casts one last glance.
+
+JO: See you soon.
+@hide JO
+@char {PLAYER}2 pos:{mid}
+NA: He then disappears into the lights and shadows of the fair.
+
+NA: Leaving behind an invitation and a question.
+@goSub .BlackScreen
+@back bg_squareNight.Crossfade time:0 !wait scale:3.0 pos:-65,90
+NA: You make your way back to the inn at a slow pace, thinking about the conversation you had with Joaquim.
+
+NA: The lights inside the houses dim and your path is lit only by the moon and stars.
+@stopBgm fade:1 !wait
+@bgm respite
+@hide MainBackground
+@back bg_innNight scale:1 pos:50,50 time:0
+NA: When you arrive, the inn is already dark. You try not to make too much noise as you climb the stairs.
+
+NA: When you find the door to your room, you go inside and change your clothes.
+
+NA: Finally throwing yourself on the bed. Your back aches a little but your mind is far away.
+@goSub .BlackScreen
+;Cap 3 -
+
+;No outro dia
+@back bg_innDay
+NA: Light streams in through the window.
+
+NA: You open your eyes slowly.
+
+NA: You blink a few times trying to adjust, and feel the warmth on your skin. You stretch slightly in bed.
+
+NA: Looking out the window you realize it doesn't seem to be morning
+@char {PLAYER}2.thinking pos:{mid}
+PLAYER: Did I oversleep?
+@char {PLAYER}2.neutral
+NA: You get up slowly, heading to the water basin to help you wake up, then you grab your clothes, dust them off and put them on.
+
+NA: Then you go downstairs slowly.
+
+NA: Reaching the middle of the stairs you can hear the inn in full swing: pots, voices, and hurried footsteps fill the air.
+@char {PLAYER}2.thinking pos:{leftmid}
+@char FR.neutral pos:{rightmid}
+NA: You find Francisca behind the counter.
+
+NA: She looks up the moment you appear.
+
+FR: Well...
+
+FR: Look who decided to return to the world of the living.
+@char {PLAYER}2.embarrass
+PLAYER: Did I wake up late?
+@char FR.thinking
+FR: Late?
+
+NA: She rests her hands on the counter.
+
+FR: It's almost lunchtime.
+@char {PLAYER}2.surprise
+NA: You open your mouth in surprise. You knew you were tired but you had no idea you slept that much.
+
+PLAYER: And you let me sleep?
+@char FR.smile
+FR: I did.
+
+NA: A soft smile.
+
+FR: I assumed you had a... fruitful night.
+@char {PLAYER}2.embarrass
+NA: You freeze for half a second.
+
+PLAYER: It wasn't like that at all.
+
+FR: Naturally not.
+
+NA: She gets back to taking notes on the inn's notebook, still amused.
+
+FR: There's no more coffee.
+
+FR: You escaped that.
+@char {PLAYER}2.thinking
+PLAYER: That?
+@char FR.neutral
+FR: More clove.
+@char {PLAYER}2.surprise
+PLAYER: Oh, yes…
+
+NA: A quick glance.
+
+FR: You seem grateful.
+@char {PLAYER}2.neutral
+NA: You sigh softly in relief.
+
+FR: Tell me…
+
+NA: She doesn't look directly at you and leans in slightly.
+
+FR: Then?
+
+FR: Did you find the person you asked about?
+@char {PLAYER}2.thinking
+NA: You look up.
+
+PLAYER: Joaquim?
+@char FR.smile
+FR: I won't make you repeat the name.
+
+NA: A light, curious glint in her eyes.
+@char {PLAYER}2.neutral
+PLAYER: I did.
+
+FR: And?
+
+NA: She leans forward slightly.
+
+FR: Was the curiosity worth it?
+
+PLAYER: It was.
+@char {PLAYER}2.embarrass
+PLAYER: He's a... captivating, handsome man, and…
+
+NA: Silence lasts half a second.
+
+NA: Francisca closes her eyes for a moment, analyzing your affirmation.
+
+FR: Naturally.
+
+FR: It was a matter of time.
+
+PLAYER: What?
+
+FR: You.
+
+FR: And complicated men.
+
+PLAYER: You're exaggerating.
+
+FR: I'm being precise.
+
+PLAYER: But Alvarenga is, also.
+@char FR.thinking
+NA: Francisca raises an eyebrow.
+
+FR: Is also what?
+
+PLAYER: Handsome.
+@char FR.happy
+NA: Now her smile is more open.
+
+FR: Ah.
+@char FR.smile
+FR: So we have a pattern.
+
+FR: Handsome, dangerous men. And, if possible, unavailable.
+
+PLAYER: That's not true.
+
+FR: No?
+
+FR: Would you try and prove it?
+
+NA: You look away.
+
+PLAYER: Coincidences.
+
+FR: Sure.
+
+FR: The entire Vila Rica is conspiring to surround you with bad decisions.
+
+NA: She rests her chin on her hand, amused.
+
+FR: And tell me.
+
+FR: Is the alferes on that list?
+
+PLAYER: Francisca.
+
+FR: What?
+
+FR: I'm asking for science.
+@char {PLAYER}2.happy
+NA: You laugh, almost unintentional.
+@char {PLAYER}2.smile
+PLAYER: I just got here.
+@char FR.thinking
+FR: And you've already mapped out all the men in the village.
+
+FR: Impressive.
+@char {PLAYER}2.neutral
+PLAYER: I've mapped no one, I just met them around.
+
+PLAYER: It wasn't intentional.
+@char FR.smile
+FR: It never is.
+
+NA: A wry smile.
+
+FR: And tell me... which one pleased you most?
+@char {PLAYER}2.embarrass
+PLAYER: Francisca!
+
+FR: I'm just studying your taste.
+
+NA: You look away, somewhat embarrassed.
+@char {PLAYER}2.neutral
+NA: You glance at Francisca for a moment.
+
+PLAYER: Do you need help today?
+@char FR.neutral
+NA: She doesn't answer right away.
+
+NA: She just stares.
+
+NA: Your attempt at changing the subject was spotted.
+
+FR: Hm.
+@char FR.thinking
+FR: Today you're being... diligent.
+
+NA: She narrows her eyes.
+
+FR: Or restless.
+
+PLAYER: I just wanted to help today, since I slept in late.
+
+FR: Of course, it's never anything else.
+
+NA: She crosses her arms.
+
+FR: Tell me, does that have a name?
+
+PLAYER: What?
+
+FR: That sudden wish to go out.
+
+PLAYER: I don't wanna go out, I just asked if you need help here…
+
+PLAYER: ...if you don't need it, maybe I'll go out.
+
+NA: A short silence, and you hesitate.
+@char FR.smile
+FR: Joaquim?
+
+NA: You don't even need to answer, her smile says it all.
+
+FR: Look at that.
+
+FR: Not even a rest day?
+
+PLAYER: I just thought of stopping by.
+@char FR.thinking
+FR: "Stopping by".
+
+NA: She repeats the word slowly.
+
+FR: The entire Vila Rica started like that.
+@char FR.neutral
+NA: She sighs.
+
+FR: Go.
+
+PLAYER: What?
+
+FR: Before you start making up worse excuses.
+
+NA: She pick up a guava and throws it at you.
+
+NA: You catch it by reflex.
+
+FR: At least you won't go on an empty stomach.
+@char FR.neutral
+FR: I'll save you a plate for when you return…
+
+FR: If you return.
+@char {PLAYER}2.smile
+PLAYER: Don't you trust me?
+
+FR: I do.
+
+FR: It's him I'm worried about.
+
+NA: You nod in agreement.
+
+FR: His house isn't hard to find.
+
+FR: Follow the main road and ask around.
+
+FR: Joaquim is usually the talk of the town.
+
+PLAYER: I imagine so.
+
+NA: You bit the guava, the sweet and slightly acidic taste breaks the emptiness in your stomach.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+@back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
+NA: And then you leave.
+@bgm wander
+NA: Walking through the streets of Vila Rica you see horses passing by, the light dust in the air, and the people of the village, some chatting in small groups.
+
+NA: You have a hard time understanding what they say, but there were a few things.
+
+VOICE1: …debts…
+
+VOICE2: …alferes…
+
+VOICE3: …it doesn't end well…
+
+NA: You try to follow what they're saying and you don't always manage it.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: (…I definitely still don't understand everything)
+
+NA: You walk a little further and then decide to ask someone.
+
+NA: Then you see a woman near a stall, carefully arranging fabrics.
+
+PLAYER: Excuse me…
+
+PLAYER: Do you know where I can find Joaquim?
+
+NA: She slows to a stop.
+
+NA: Lifts her gaze at you.
+
+WOMAN: I do.
+
+NA: A short silence.
+
+WOMAN: And why would you like to know?
+
+NA: The tone isn't hostile, but it's not neutral either.
+
+PLAYER: I just... wanted to talk to him.
+
+NA: She crosses her arms.
+
+NA: Assessing you from head to tow.
+
+WOMAN: "Just".
+
+WOMAN: Naturally.
+
+NA: A half smile.
+
+WOMAN: And you are…?
+
+PLAYER: I just arrived in the village.
+
+WOMAN: It shows.
+
+NA: She takes a small step closer.
+
+WOMAN: Joaquim has the habit of drawing attention.
+
+WOMAN: But he doesn't usually... keep company.
+@char {PLAYER}2.surprise
+PLAYER: I don't…
+
+WOMAN: No need to explain.
+
+NA: She interrupts gently.
+@char {PLAYER}2.neutral
+WOMAN: He lives further ahead.
+
+WOMAN: Follow this road and turn left.
+
+NA: She points, but doesn't take her eyes off you.
+
+WOMAN: A large house, a little neglected.
+
+WOMAN: Hard not to notice.
+
+NA: A slight tilt of the head.
+
+WOMAN: Just like him.
+
+PLAYER: Thank you.
+
+NA: You start to walk away.
+
+WOMAN: And...
+
+NA: She calls and you turn around.
+
+WOMAN: Be careful.
+
+WOMAN: Joaquim is... interesting.
+
+NA: A small smile.
+
+WOMAN: But rarely simple.
+
+NA: You continue on your way, with the directions in mind.
+
+NA: And the slight feeling maybe you're not the only one curious about him.
+
+NA: You follow down the mentioned road.
+
+NA: Quieter now, fewer people and more silence.
+
+NA: Fewer people.
+
+NA: More silence.
+
+NA: Thoughts occupy your mind.
+@char {PLAYER}2.surprise
+NA: And then your foot stumbles.
+
+NA: A small unevenness on a loose stone.
+
+PLAYER: Ouch!
+
+NA: It doesn't quite twist, but it hurts.
+
+NA: Enough to make you stop.
+@char {PLAYER}2.thinking
+PLAYER: (Great.)
+
+PLAYER: (Perfect timing.)
+
+NA: You test the weight.
+
+NA: You can walk.
+
+NA: But not as steady.
+@char {PLAYER}2.neutral
+NA: Still, you go on limping.
+
+NA: The house appears before you.
+
+NA: It's big, it was once elegant, not it looks a bit neglected.
+@stopBgm fade:2 !wait
+NA: You knock.
+@bgm joaquim
+NA: Or maybe you don't even need to, the door opens.
+@char {PLAYER}2 pos:{leftmid}
+@char JO.neutral pos:{rightmid}
+NA: Joaquim is there.
+
+NA: His gaze goes straight to you.
+
+NA: And he gives you a once over.
+@char JO.smile
+JO: Come in.
+
+NA: A small smile appears.
+
+JO: Before someone mistakes you for a lame horse at my door.
+@char {PLAYER}2.thinking
+PLAYER: I'm not limping that bad.
+
+JO: You are enough.
+
+JO: And I have eyes.
+
+NA: He opens the door wider, letting you in.
+
+JO: Come.
+@hide MainBackground
+@back bg_joaquimDay scale:1 pos:50,50 time:0
+@sfx doorClose
+NA: The door closes behind you.
+@char {PLAYER}2.neutral
+NA: The sound echoes softly through the house.
+@char JO.neutral
+NA: Joaquim quickly steps inside.
+
+NA: Adjusting paper, closing a book.
+
+NA: Pushing letters out of sight.
+
+NA: You watch.
+
+@choice "See the house for what it really is" goto:.5J-1
+@choice "See it through Joaquim's eyes" goto:.5J-2
+
+@stop
+
+# 5J-1
+@set afetoJoaquim+=1
+NA: You don't look away or soften what you see.
+
+NA: Open accounting books, incomplete calculations.
+
+NA: Piled up letters, some with official seals and others already violated.
+
+NA: The implicit content is clear.
+
+NA: Demands, pressure, and problems surround that man.
+
+NA: In a corner you see fancy pitchers.
+
+NA: But they smell of cheap wine.
+
+NA: The house seems to try to project an image of luxury, but not very successfully.
+
+NA: Joaquim notices your gaze wandering.
+
+NA: Of course he does.
+@char JO.smile
+JO: It's not the best version of this house... but it is the most honest.
+
+NA: A half smile.
+
+JO: And I don't usually show this to just anyone.
+
+NA: His gaze rests on you.
+
+@goto .scene5J-2end
+
+#5J-2
+
+NA: You choose not to focus on the details.
+
+NA: Or perhaps you just accept them as part of the scenery.
+
+NA: The house seems elegant and spacious, with good quality wooden furniture.
+
+NA: With books on the shelves and some on the table, they seem to be related to work and some letters scattered around.
+
+NA: Joaquim observes your reaction and relaxes.
+
+JO: I like people who don't get lost in details.
+
+JO: They usually see what matters.
+#scene5J-2end
+;Depois das escolhas
+
+NA: He comes a little closer.
+
+JO: Sit.
+
+JO: I don't usually receive visitors this early.
+
+JO: Nor so... injured.
+
+PLAYER: I'm fine.
+
+JO: Naturally.
+
+JO: Everyone says that before things get worse.
+
+NA: He approaches, closer than before.
+
+PLAYER: You don't need to…
+
+JO: I do.
+
+NA: The tone is light, but it doesn't sound like a suggestion.
+
+NA: You sit and he crouches in front of you.
+
+NA: His hands reach for your ankle.
+
+NA: You feel his steady and warm hands, a little rough from manual labor, but strong and veiny.
+
+NA: The touch isn't hesitant, but it's not careless either.
+
+PLAYER: I can...
+
+JO: I know.
+
+JO: Still, let me see.
+
+NA: He adjusts your foot slightly and carefully puts pressure on a spot.
+@char {PLAYER}2.surprise
+PLAYER: …ah.
+
+JO: Here?
+@char {PLAYER}2.neutral
+PLAYER: A little.
+
+NA: He watches closely.
+
+NA: Focused, unlike the man at the fair.
+
+JO: You didn't twist it.
+
+JO: Just a misstep.
+@char JO.smile
+NA: A wry smirk returns.
+
+JO: Which, considering your recent choices... doesn't surprise me.
+@char {PLAYER}2.thinking
+PLAYER: Do you always talk like that?
+
+JO: Only when I'm right.
+@char {PLAYER}2.neutral
+NA: He carefully releases your foot.
+
+NA: But doesn't move away immediately.
+
+NA: He looks up.
+
+NA: From your foot to your face.
+
+NA: Too close now.
+
+JO: You should be more careful.
+@char JO.neutral
+NA: A slight tilt of the head.
+
+JO: Not every fall will be so... harmless.
+
+NA: A silence falls.
+
+NA: He gets up slowly.
+
+JO: Still…
+@char JO.smile
+NA: A half smile.
+
+JO: I must admit I appreciate unexpected visits.
+
+NA: He extends his hand.
+
+NA: Offering to help you stand up.
+
+JO: Specially when they bring good stories and problems with them.
+
+NA: His gaze fixed on yours.
+
+JO: Often they are the same thing.
+
+NA: He steps away and goes toward the jugs, bringing one to you.
+
+NA: He pours the wine into two glasses.
+
+JO: Since you're here... I won't pass myself as a bad host.
+
+NA: He hands you a glass.
+
+NA: Your fingers brush lightly.
+
+NA: You sit at the table and Joaquim stays up, leaning against the door and watching you.
+
+NA: The first sip goes down hot and strong.
+
+NA: The wine is different from your time.
+
+NA: Then a memory comes to your mind.
+@char {PLAYER}2.thinking
+PLAYER: I think I've seen you before.
+
+NA: Joaquim looks up slightly.
+
+PLAYER: Of course I saw you at the fair, but you were there at Tiradentes' speech, weren't you?
+
+NA: A brief silence.
+@char JO.smile
+JO: Perhaps.
+
+NA: A half smile.
+
+JO: I frequent places where people talk too much.
+
+PLAYER: And you agree with him?
+
+NA: Joaquim swirls the wine in his glass, thoughtful.
+
+JO: Agree... is a strong word.
+
+JO: But I admire men who believe in something.
+
+JO: Even when it costs them everything.
+
+PLAYER: And you?
+
+PLAYER: Do you believe in something?
+@char JO.neutral
+NA: He stares at you, more serious now.
+
+JO: I believe in survival.
+
+JO: Everything else... depends on the day.
+
+NA: He takes another sip.
+
+JO: And you?
+
+JO: Are you among believers... or observers?
+@char {PLAYER}2.neutral
+PLAYER: I observe.
+
+PLAYER: But what he does speaks louder than words.
+
+NA: Joaquim looks up slightly.
+
+PLAYER: Tiradentes seems to really want to change things around here.
+
+PLAYER: He has something... something that makes people listen.
+
+NA: Joaquim doesn't answer right away.
+
+NA: He takes a slow sip.
+@char JO.smile
+JO: He does.
+
+NA: A half-smile appears.
+
+JO: Yes, he does.
+@char JO.neutral
+NA: He sets his glass down on the table.
+
+JO: Conviction.
+
+JO: A rare thing.
+
+JO: And, not infrequently, dangerous.
+
+NA: His gaze wanders for a moment.
+
+JO: Men like that either bend the world to their will or are crushed by it.
+
+PLAYER: And you think he'll succeed?
+@char JO.smile
+NA: Joaquim lets out a small, humorless laugh.
+
+JO: Succeed?
+
+JO: I wouldn't know.
+@char JO.neutral
+NA: He tilts his head.
+
+NA: But he believes.
+
+JO: And, at times, that's enough.
+
+NA: Silence.
+
+JO: I've seen men follow others for far less.
+
+NA: He looks back at you.
+
+JO: And you?
+
+JO: Would you follow him?
+
+NA: His tone isn't accusatory, but direct.
+
+NA: He seems curious.
+
+NA: Joaquim twirls his empty glass.
+
+JO: Some consider him a hero.
+
+JO: Some think him a fool.
+@char JO.smile
+NA: A small crooked smile.
+
+JO: And there are those who envy him.
+@char JO.neutral
+NA: He says nothing more.
+
+PLAYER: Sounds like you admire him... but you don't like it.
+@char JO.smile
+NA: Joaquim lets out a low laugh.
+
+JO: You're observant.
+
+JO: That could be a problem.
+@char {PLAYER}2.thinking
+PLAYER: Or maybe you don't it when you're not the center of attention.
+@char JO.neutral
+NA: The silence is brief and tense. He seems to be assessing his words
+@char JO.smile
+NA: Then Joaquim smiles.
+
+JO: Ah… so you have barbs.
+
+JO: Interesting.
+
+NA: He leans against the door.
+@char JO.neutral
+JO: Maybe you're right.
+
+JO: Or maybe I just wanna have a life that's more than just a good story.
+@char JO.determined
+NA: His gaze darkens.
+
+JO: Unlike him.
+
+NA: He leans away from the door and takes a few steps closer to you.
+
+NA: Joaquim rests his arm next to yours.
+
+JO: Tell me, did you come here for ideas…
+
+JO: Or for me?
+
+NA: His tone is light.
+@char {PLAYER}2.neutral
+PLAYER: Depends.
+
+JO: "Depends?"
+
+PLAYER: One question for another?
+@char JO.thinking
+NA: He stares at you and raises an eyebrow.
+
+JO: Ah…
+@char JO.smile
+NA: A slow smile emerges.
+
+JO: Well played.
+@char {PLAYER}2.smile
+PLAYER: I learned from you.
+
+NA: A low laugh escapes his lips.
+
+JO: Then ask your question.
+
+JO: And see if you are as skillful in answering as you are in dodging.
+
+@choice "Ask the real reason why Joaquim wants to support the cause" goto:.scene6J-1
+
+@choice "Ask why he seems to have a problem with Tiradentes" goto:.scene6J-2
+
+@stop
+
+#scene6J-1
+@set afetoJoaquim+=1
+PLAYER: Truly, not in pretty words... but in what you don't say.
+@char JO.neutral
+NA: Joaquim falls silent.
+
+NA: His gaze shifts.
+
+JO: It's not a simple question.
+
+PLAYER: I didn't ask for simple answers.
+@char JO.smile
+NA: A soft laugh, brief and tired.
+@char JO.sad
+NA: He runs a hand over his face.
+
+JO: I'm in debt.
+
+JO: More than I can repay.
+
+NA: His words are quiet.
+
+NA: Restrained.
+
+JO: To the Crown, to merchants, and to impatient men.
+
+NA: He glances around.
+
+JO: This house... supports me less than it seems.
+
+NA: A heavy silence falls, he clenches his hands.
+
+JO: I could lose it.
+
+JO: I could lose more than that.
+
+NA: He looks at you again.
+
+JO: And there are people... that I can't drag down with me.
+
+NA: He seems to hesitate for a moment.
+
+NA: Then his hand finds yours.
+
+NA: His touch is firm.
+
+NA: His fingers squeeze lightly and there's a slight tremor in his hand.
+
+JO: If something changes... maybe there's a way out.
+
+NA: His gaze holds yours.
+
+JO: For me... for others.
+
+@goto .scene6J-2end
+
+#scene6J-2
+
+JO: "Problem"?
+
+PLAYER: If it's not a problem, you're always disagreeing with him.
+@char JO.neutral
+NA: The effect is immediate.
+
+NA: Joaquim's body stiffens and his smile fades.
+
+NA: His gaze shifts.
+
+JO: I'm not disagreeing.
+
+JO: I'm just observing.
+
+PLAYER: It doesn't seem like it's just that.
+
+NA: He empties his glasses in one gulp.
+
+JO: He speaks as if the world were simple.
+
+NA: His voice is quieter, more strained.
+
+JO: As if willpower was enough... to remake it.
+@char {PLAYER}2.thinking
+PLAYER: And you don't like that?
+
+NA: Joaquim lets out a short, joyless laugh.
+
+JO: I'm displeased that they believe that.
+
+NA: He leaned closer to you.
+
+JO: Because when he fails... he's not the only one to pay the price.
+
+NA: His gaze meets yours.
+
+JO: It never is.
+
+NA: There's something there, restrained respect, annoyance, and something harder to mention.
+
+NA: Something close to envy.
+
+;Cena depois das escolhas
+#scene6J-2end
+@char JO.neutral
+NA: The silence stretches.
+
+NA: Full of unspoken things.
+
+NA: Joaquim doesn't move away and doesn't insist on the subject.
+
+NA: He just waits.
+
+JO: So... will you finally tell me?
+
+NA: His gaze meets yours.
+
+PLAYER: I came for you.
+
+NA: Joaquim doesn't smile immediately.
+
+NA: He watches you.
+
+NA: As if measuring the weight of your words.
+
+JO: Dangerous word.
+
+PLAYER: You asked.
+
+NA: A second.
+@char JO.smile
+NA: Then, he smiles, satisfied.
+
+JO: I did, and I got my answer.
+
+NA: He approaches, closer than before.
+
+JO: You're bolder than you seem.
+
+NA: He looks you up and down.
+
+JO: I like that even more.
+
+NA: His hand brushes against yours again.
+
+NA: This time it's not by chance, his touch is warm.
+
+JO: But be careful.
+
+NA: His voice lowers.
+
+JO: I'm not a prudent choice.
+
+NA: A half smile.
+
+JO: Nor am I easy to abandon afterwards.
+
+NA: The moment slowly dissolves.
+@char JO.neutral
+NA: Joaquim steps away enough.
+
+NA: He runs his hand over his glass, distracted.
+
+JO: I should thank you.
+
+NA: His gaze returns to yours.
+
+JO: For having accepted my invitation.
+
+JO: And even more for coming.
+@char JO.smile
+NA: A soft smile takes shape.
+
+JO: Not everyone would have such... disposition.
+
+NA: He tilts his head to the side.
+
+JO: It was a... fruitful visit.
+
+JO: In many aspects.
+
+NA: His tone carries intention.
+
+JO: I believe it won't be the last time.
+
+NA: A half smile.
+
+JO: This is a small village.
+
+JO: And certain presences... become difficult to avoid.
+
+NA: His gaze holds yours a moment longer.
+
+JO: Or to forget.
+@char {PLAYER}2.shy
+NA: You nod, but your cheeks are hot. You set the glass down on the table and, still limping, head toward the door.
+
+NA: Your steps are slow and Joaquim watches you intently.
+
+NA: When you reach the door without any problems he stops leaning against the wall.
+@char JO.neutral
+JO: Whenever you wish, my door will be open to you.
+
+NA: You nod in agreement and leave.
+@stopBgm fade:2 !wait
+;Na estalagem
+@goSub .BlackScreen
+@back bg_squareNight.Crossfade time:0 !wait scale:3.0 pos:-65,90
+
+NA: Night has already fallen when you leave Joaquim's house.
+
+NA: The air is colder and the streets of Vila Rica are getting quieter.
+
+NA: Streetlights are lit and voices can be heard in the distance.
+NA: When you finally approach the inn, you see the lights on and hear voices from inside.
+@stopBgm fade:1 !wait
+@hide MainBackground
+@back bg_innNight scale:1 pos:50,50 time:0
+@bgm respite
+NA: Going in you realize Francisca is behind the counter, but she's not alone.
+@char FR.neutral pos:{leftmid}
+@char AL.neutral pos:{rightmid}
+NA: You see Doctor Alvarenga with his firm and elegant posture as always, and a thin man who seems familiar.
+
+NA: The three of them talk in hushed tones.
+
+NA: But they stop as soon as they see you enter.
+@char FR.smile
+FR: Well…
+
+NA: An instant smile.
+
+FR: Look who's back.
+
+FR: And at a respectable hour.
+
+NA: Her gaze sweeps over you quickly.
+
+FR: No visible damage.
+
+FR: Always reassuring.
+
+NA: Alvarenga nods in greeting.
+
+AL: Good evening.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: Good evening.
+
+NA: The third man watches with controlled curiosity.
+@hideChars
+@char CE.neutral pos:{mid}
+NA: You stare at him, certain you've seen him before.
+
+CE: Well…
+@char CE.smile
+NA: A small smile appears.
+
+CE: I believe we've met before.
+
+NA: He takes a step closer.
+
+CE: At the alferes's speech.
+
+NA: A flash of inspiration and you recall.
+
+NA: The one who puts on the puppet show and almost got arrested by the guards.
+
+CE: Célio.
+
+NA: A slight nod.
+
+CE: At your service.
+
+PLAYER: I remember you, great show with the puppets.
+
+NA: He seems pleased with that.
+
+CE: Not everyone pays attention.
+
+CE: I'm glad you did.
+@hideChars
+@char FR.neutral
+@char AL.neutral
+NA: Francisca watches the exchange with interest.
+@char FR.smile
+FR: Look at that... you're already a well known figure among men of ideas.
+
+NA: A half smile.
+
+AL: I was looking for you, by the way.
+
+NA: His gaze sets on you and you raise an eyebrow, confused.
+
+AL: Tomorrow night we're having a meeting.
+@hide FR
+@char CE.neutral pos:{leftmid}
+NA: Célio crosses his arms, attentive.
+
+AL: Among some people interested in the same... matters.
+
+NA: A short silence.
+
+AL: The alferes will be present.
+
+NA: Célio completes with controlled enthusiasm.
+
+CE: And there will be much to be said.
+
+CE: And, who knows, heard.
+
+NA: Alvarenga speaks again.
+
+AL: I thought you might wish to attend.
+
+NA: You consider the invitation for a moment.
+
+NA: Francisca says nothing.
+
+NA: But observes everything.
+@char {PLAYER}2 pos:{mid}
+PLAYER: I'll be there.
+@char CE.smile
+NA: Célio smiles softly.
+
+CE: Excellent.
+
+CE: It's always good to see new faces... before they become old acquaintances.
+
+NA: Alvarenga nods.
+
+AL: Then it's settled.
+
+NA: He waves briefly and leaves.
+
+NA: Célio follows him.
+
+CE: See you tomorrow.
+@hide CE,AL
+NA: They both leave and close the door.
+
+NA: Silence lasts a moment.
+@char {PLAYER}2.neutral pos:{leftmid}
+@char FR.neutral pos:{rightmid}
+FR: Célio, Alvarenga and the alferes tomorrow.
+
+NA: She lists them.
+@char FR.smile
+FR: You must have done something very interesting today.
+
+NA: A smirk.
+
+FR: Or very reckless.
+
+NA: She comes a little closer.
+
+FR: Or both.
+
+NA: Her eyes gleam in a tease.
+@char FR
+@char {PLAYER}2.neutral
+PLAYER: I think I've had enough excitement for one night.
+@char FR.thinking
+NA: Francisca raises an eyebrow.
+
+FR: Just for this one?
+
+FR: Admirable progress.
+@char {PLAYER}2.smile
+NA: You laugh quietly, too tired to answer her provocations as you should.
+
+PLAYER: I'll tell you tomorrow.
+
+PLAYER: I intend to wake up early and help at the inn.
+
+NA: Francisca tilts her head to the side.
+
+FR: We'll see if that promise survives until dawn.
+@char FR.smile
+NA: A half smile.
+
+FR: But I won't refuse help.
+
+FR: Especially when it comes with goodwill.
+
+NA: She picks up some glasses from the counter.
+
+FR: Go rest.
+
+FR: Vila Rica tends to be more tiring than it seems.
+
+PLAYER: I noticed.
+
+NA: Francisca casts one last glance your direction.
+
+FR: And you've only seen part of it.
+@hideChars
+@hide MainBackground
+@back bg_innNight.Crossfade pos:90,50 scale:2 time:0 !wait
+NA: You slowly go upstairs.
+
+NA: Your body is tired but your mind is wide awake.
+
+NA: The room is silent when you enter.
+
+NA: Only the dim candlelight illuminates the space.
+
+NA: You close the door and sit on the bed.
+
+NA: And finally breathe.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: (Joaquim…)
+
+NA: His teasing smile, the wine, and the way he looked at you.
+
+NA: As if he were always trying to figure something out.
+
+PLAYER: ("Did you come for ideas... or for me?")
+
+NA: The question returns uninvited.
+
+NA: You remove your boots and change, than lie down on the bed.
+
+NA: But sleep doesn't come easy.
+
+NA: Because Vila Rica now feels different.
+
+NA: Closer and dangerously harder to leave.
+
+NA: And, before falling asleep, it's him that comes to your mind.
+@hideChars
+@hide MainBackground
+;CAP 4 - Noite dos Inconfidentes
+@back bg_innDay
+NA: Morning light slowly streams through the bedroom window.
+
+NA: And this day you even wake up before the inn's activity begins.
+@char {PLAYER}2.sad pos:{mid}
+PLAYER: (...Way too early.)
+@char {PLAYER}2.neutral
+NA: Your body still feels tired from last night, but your mind wakes up quickly.
+
+NA: You get up quickly and wash your face in the basin of cold water.
+@char {PLAYER}2.surprise
+NA: The shock almost hurts.
+@char {PLAYER}2.sad
+PLAYER: (Definitely miss a hot shower.)
+@char {PLAYER}2.neutral
+NA: After getting ready as best you can, you go downstairs.
+@hide MainBackground
+@back bg_innDay scale:1 pos:50,50 time:0
+NA: The inn is still silent.
+
+NA: Chairs still on top of some tables.
+
+NA: The kitchen stove has just been lit.
+
+NA: Until you hear footsteps behind you.
+@char {PLAYER}2 pos:{leftmid}
+@char FR.thinking pos:{rightmid}
+FR: Dear lord…
+
+NA: Francisca appears, still adjusting her tied up hair.
+
+NA: And stops when she sees you already awake.
+
+FR: You?
+
+FR: Before the sun finished rising?
+
+PLAYER: I said I would help today.
+
+NA: She narrows her eyes.
+
+FR: Hmm.
+
+FR: You're too chipper for someone who slept so little.
+@char FR.smile
+NA: A slow smile appears on her face.
+
+FR: Or perhaps you had pleasant company in your dreams.
+
+PLAYER: You come up with a lot of theories about me.
+
+FR: And I'm almost always right.
+
+NA: She approaches the counter.
+
+NA: Arranging some produce bags.
+
+FR: So?
+
+FR: How was the visit to Dr. Joaquim?
+
+NA: The name coming from her sounds almost provocative.
+
+PLAYER: It was... interesting.
+
+FR: Dangerous word.
+
+NA: She repeats immediately.
+
+FR: Everything in Vila Rica that starts with "interesting" ends in trouble.
+
+PLAYER: He doesn't seem so bad.
+
+NA: Francisca hums softly.
+
+FR: I didn't say he was bad.
+
+FR: I only said that caution is advisable.
+
+NA: She starts to pour beans onto the table.
+
+FR: Joaquim has enough charm to convince half this village.
+
+FR: And not enough common sense to save it afterwards.
+
+PLAYER: You clearly prefer Tiradentes.
+
+NA: Francisca chuckles.
+
+FR: Well... you don't need to choose Tiradentes specifically.
+
+FR: There are other men in this captaincy.
+
+NA: She thinks for a moment.
+
+FR: Célio, for example.
+
+FR: Polite, intelligent, and much less likely to die for his country before he's forty.
+@char {PLAYER}2.thinking
+PLAYER: So that's it?
+
+PLAYER: You just wanna push me toward different men?
+
+NA: Francisca leans on the counter.
+
+NA: Amused.
+
+FR: And you?
+
+FR: Is that all you like?
+
+FR: Complicated men committed to bad ideas?
+@char {PLAYER}2.embarrass
+NA: You can't help but laugh, your cheeks burning.
+
+PLAYER: Maybe I like both.
+@char FR.sad
+NA: Francisca brings her hand to her chest, dramatic.
+
+FR: We're doomed.
+@char FR.neutral
+NA: She points to the table.
+
+FR: Sit.
+
+FR: Before you start a sentimental revolution in this inn too.
+@char {PLAYER}2.neutral
+NA: You sit.
+
+NA: The sound of beans falling onto the table mixes with the distant noise of the streets of Vila Rica waking up.
+
+NA: Francisca places a large bowl between you.
+
+NA: Black beans, some good and others broken of full of small blemishes.
+
+FR: Separate the good from the bad.
+
+FR: And try not to ruin half in the process.
+
+PLAYER: Inspiring trust.
+
+FR: I learned to moderate it with you.
+
+NA: You begin working.
+
+NA: Or try to.
+
+NA: A few minutes later Francisca sighs deeply.
+
+FR: No.
+
+PLAYER: "No" what?
+
+FR: That goes on the bad pile.
+
+NA: She picks up some beans from your hands.
+
+FR: These cook poorly.
+
+FR: These rot.
+
+FR: And this one...
+
+NA: She picks up a crooked bean.
+
+FR: I believe it's already dead.
+
+PLAYER: How can you tell all this?
+
+FR: Because someone needed to know.
+
+NA: She continues sorting the beans with impressive speed.
+
+FR: An inn doesn't run itself.
+
+FR: Nor cooks.
+
+NA: You try to mimic her, less successfully.
+
+FR: Your hands aren't used to this.
+
+PLAYER: I have different skills.
+@char FR.smile
+FR: I imagine so.
+
+NA: A wry smile.
+
+FR: Talking to dangerous men, perhaps.
+
+PLAYER: You really won't let go of Joaquim today.
+
+FR: Not while he keeps looking at you like a gambler looking at a betting table.
+@char {PLAYER}2.happy
+NA: You laugh.
+@char FR.happy
+NA: So does Francisca.
+@char {PLAYER}2.smile
+@char FR.smile
+NA: The conversation flows with teases, village stories, and minor corrections to the bean sorting.
+
+FR: Not that one.
+@char {PLAYER}2.thinking
+PLAYER: This looks just like the others.
+
+FR: And yet, it isn't.
+
+NA: And which men from the village will probably end up arrested by the end of the year.
+@char FR.neutral
+FR: Joaquim will certainly be on the list.
+
+PLAYER: You really don't like him.
+
+FR: I do.
+
+NA: She shrugs.
+
+FR: I just don't trust him.
+
+FR: Those are different things.
+
+NA: After a while, the smell of food fills the kitchen.
+
+NA: Lunch is simple.
+
+NA: Beans thickened with flour, salted meat, sautéed kale, and a piece of corn bread, still warm.
+
+NA: You eat together while Francisca comments on the village guests.
+
+FR: The notary across the street is going bankrupt.
+
+FR: His wife already sold half her jewelry.
+
+PLAYER: Vila Rica really likes gossip.
+
+FR: Vila Rica sustains itself on gold, debt, and curiosity over people's lives.
+
+NA: After lunch, the afternoon heat weights heavily on the village.
+
+NA: Francisca stays busy inside the inn, and you....
+@hideChars !wait
+@hide MainBackground
+@back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
+NA: Outside, movement is slower now.
+
+NA: Some people walk along the cobblestone streets and children run by.
+
+NA: You find a quieter corner near the inn.
+
+NA: And end up grabbing paper and charcoal.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: (I haven't drawn in a while…)
+
+NA: You start, absentminded.
+
+NA: Loose lines.
+
+NA: Face, shoulders.
+
+NA: A male silhouette.
+@char FR.neutral pos:{rightmid}
+NA: So focused you don't even notice Francisca coming up behind you.
+
+FR: My…
+@char {PLAYER}2.surprise pos:{leftmid}
+NA: Her voice almost makes you jump.
+
+PLAYER: You scared me!
+
+FR: A half-naked man.
+
+FR: Such refined talent.
+
+PLAYER: What?!
+
+NA: You cover the drawing much too quickly.
+
+NA: Which only makes it worse.
+
+FR: Ah, now I'm certain.
+
+FR: It's indecent.
+@char {PLAYER}2.embarrass
+PLAYER: It's not indecent.
+@char FR.smile
+FR: Of course not.
+
+FR: It's art.
+
+NA: She watches you a moment longer, her smile softening.
+
+FR: That reminds me…
+
+NA: Francisca crosses her arms.
+
+FR: Back in my time there was a Portuguese painter staying here.
+
+FR: He claimed to draw saints.
+@char FR.thinking
+NA: She arches an eyebrow.
+
+FR: Curiously, all his saints looked like shirtless sailors.
+@char {PLAYER}2.happy
+NA: You laugh way too loud.
+
+FR: So don't worry.
+
+FR: I've seen worse art.
+
+NA: She pats your shoulder lightly.
+
+FR: And uglier men too.
+
+NA: Then she goes back to the inn.
+
+NA: Leaving you alone again.
+
+NA: With your drawing.
+
+NA: And thought dangerously similar to it.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+;Durante a Noite
+@back bg_gardenNight
+@bgm wander
+NA: Night falls over Vila Rica.
+
+NA: Hipólita's farm at the distance is lit, small golden lights shining through the windows.
+
+NA: The dirt road is silent, you can hear the sounds of your own footsteps.
+
+NA: You adjust your clothes one last time before knocking on the door.
+
+NA: A servant discreetly opens it.
+
+NA: And, without many questions, allows you entry.
+@back bg_hipolitaNight
+@stopBgm fade:2 !wait
+NA: The interior is simple, but elegant.
+
+NA: Well maintained dark wood furniture, lit candles casting soft shadows on the walls.
+@bgm joaquim
+NA: The scent of wine mixed with warm candle wax and freshly served food lingers in the air.
+
+NA: You look around and realize most people are already here.
+@char TI.neutral pos:{leftmid}
+NA: Tiradentes is standing near the table.
+@char JO.neutral pos:{rightmid}
+NA: Joaquim, on the other hand, is sprawled in a chair.
+
+NA: A wine glass in hand.
+
+NA: His appearance too impeccable for someone participating in a conspiracy.
+@hideChars
+@char HI.neutral pos:{leftmid}
+NA: Hipólita is near a window.
+
+NA: Watching everything with the weary patience of someone who may already regret offering up their own home.
+
+NA: Her fiancé stays near her, quiet but vigilant.
+@char CE.neutral pos:{rightmid}
+NA: Célio is leaning against a wall in the background, papers in his hands.
+
+NA: He looks like a man who entered a political meeting and left stuck in a play.
+@hideChars
+@char TI.smile pos:{leftmid}
+NA: Tiradentes looks up when he notices you, there's a small glint of recognition.
+
+TI: I'm glad you came.
+
+TI: We're among friends.
+
+TI: Or at least among people willing to dream of something better.
+@char JO.thinking pos:{rightmid}
+NA: Joaquim raises an eyebrow.
+
+JO: We've already started dreaming.
+
+JO: We just need to figure out who will foot the bill when we wake up.
+
+NA: A brief silence.
+
+NA: Célio seems to suppress a laugh.
+@char TI.neutral
+TI: We were talking about the burden this land bears.
+
+TI: Taxes, dependence, and decisions made overseas.
+
+NA: He starts slowly walking around the room.
+
+TI: I dream of a time when this land belongs to those who live in it.
+
+TI: A time when we're not only an extension... but a nation.
+
+NA: He takes a deep breath.
+@char TI.determined
+TI: <i>Libertas quae sera tamen.</i>
+
+TI: Freedom, even if late.
+
+NA: The latin words seem to resonate with everyone in the room.
+
+NA: Joaquim slowly swirls his glass.
+
+JO: Very beautiful.
+
+JO: Almost poetic.
+@char JO.smile
+NA: A small crooked smile.
+
+JO: Now only the difficult part remains.
+
+JO: Making it real.
+
+TI: Freedom demands courage.
+
+TI: And preparation.
+
+NA: The tone shifts.
+
+TI: Maybe even military preparations, if necessary.
+@char JO.neutral
+NA: Silence.
+
+NA: Joaquim stops swirling his glass.
+
+JO: Military?
+
+NA: He slowly raises his gaze.
+
+JO: My dear alferes, you have half a dozen restless men…
+
+NA: A casual gesture at the room.
+
+JO: Two poets, a patient hostess, and a colonel who seems to wish he were anywhere else…
+
+NA: Hipólita's fiancé clenches his jaw.
+
+NO: I didn't ask for your opinion.
+
+JO: And yet, you have it.
+@hideChars
+@char BA.neutral pos:{leftmid}
+@char AL.neutral pos:{rightmid}
+NA: You see the door opening and hear a low laugh escape Bárbara, who had just walked in alongside Alvarenga.
+
+NA: Her hand resting gently on his shoulder.
+
+NA: You blink.
+
+PLAYER: (Wait.)
+
+PLAYER: (Bárbara and Alvarenga are married?)
+
+PLAYER: (They're both attractive... but it was easier to imagine Hipólita with Tiradentes than these two.)
+
+BA: Continue.
+
+BA: I'm quite entertained.
+@hideChars
+@char JO
+JO: As I was saying—
+
+NA: Joaquim raises his glass.
+
+JO: We have this and Célio.
+@char CE.neutral pos:{leftmid}
+CE: I still don't understand why I'm still included in tragedies.
+
+JO: Because you're always in them.
+
+NA: A laugh or two escapes.
+@hide CE
+@char TI.determined
+TI: I'm not suggesting war tomorrow.
+
+TI: I'm suggesting preparation and defenses.
+
+TI: Free men need to be ready.
+
+JO: Free men?
+
+JO: Ah.
+
+JO: And where will you find such men?
+
+JO: In the square? In the taverns?
+
+JO: Or among the poor wretches who can barely support their own household?
+
+TI: I will find them wherever there is courage.
+
+JO: Courage won't pay for gunpowder or feed soldiers.
+
+NA: Joaquim tilts his head.
+@char AL.neutral pos:{mid}
+JO: The doctor can barely afford the dust on his boots.
+
+AL: I already start to regret coming.
+@hide AL
+@char BA.neutral pos:{mid}
+JO: Bárbara would win a revolution just by being outrageously beautiful.
+
+BA: And it would work.
+@hide BA
+@char HI.neutral pos:{mid}
+JO: Hipólita—
+
+NA: He points at her.
+
+JO: Is perhaps the only sensible person in this room.
+
+HI: Don't include me.
+
+NA: Hipólita sighs.
+
+HI: I'm just trying to stop you from turning my house into a mess.
+
+JO: Too late.
+@hide HI
+TI: You want freedom... but you're afraid to act as a free man.
+
+NA: The air shifts.
+@char JO.smile
+NA: Joaquim has a small, amused smile.
+
+JO: And you act as if you have nothing to lose.
+
+NA: The smile fades slightly.
+
+JO: Which, let's face it, is a dangerously comfortable position.
+
+TI: If everyone thought like you, nothing would change!
+
+JO: And if everyone thought like you we would die inspired.
+
+JO: And much too early.
+
+TI: Excessive prudence is cowardice!
+
+JO: And excessive imprudence is stupidity.
+
+NA: Hipólita's fiancé averts his gaze, clearly reconsidering his life choices.
+
+TI: You talk a lot for someone who risks so little!
+
+JO: And you risk other people's necks too much!
+@char TI.angry
+TI: At least I try to act!
+@char JO.angry
+JO: At least I try to survive!
+
+TI: Coward!
+
+JO: Melodramatic!
+
+TI: Fanatic!
+
+JO: Martyr by choice!
+
+TI: Complacent nobleman!
+
+JO: Costume soldier!
+
+NA: For a moment they look like two boys fighting over the biggest stick.
+
+JO: Tell me, do you intend to free Minas or just become a beautiful tragic story?
+
+TI: Better to die fighting than to live on your knees!
+@char JO.surprise
+NA: Something shifts for a moment, the words seem to resonate with the others in the room.
+@char JO.angry
+JO: Some of us have something to lose.
+@char TI.determined
+TI: I have much to lose.
+@char JO.thinking
+JO: Do you?
+
+NA: Joaquim tilts his head.
+
+JO: Because, from where I'm standing it looks like you have a great fondness for ideas…
+
+JO: And little familiarity with consequences.
+
+TI: Consequences exist precisely because men like you hesitate!
+
+JO: Men like me?
+
+NA: Joaquim laughs quietly, humorless.
+
+JO: Men like me support households, pay debts and protect people.
+
+JO: While men like you argue over glory.
+
+TI: I'm not looking for glory.
+
+TI: I look for justice.
+
+JO: Justice?
+@char JO.determined
+JO: Justice won't stop power.
+
+TI: So we should kneel?
+
+JO: We must think!
+
+TI: You already think too much!
+
+TI: I'd rather die fighting than to live in submission!
+
+JO: Beautiful saying!
+
+JO: Write it on a tombstone!
+
+NA: Silence weights with Joaquim's insinuation.
+@hideChars
+@char AL.determined pos:{mid}
+AL: Enough.
+
+NA: Alvarenga's voice cuts through the room, calm but steady.
+
+AL: You're grown men.
+
+AL: Or at least you try to appear so.
+
+NA: Bárbara covers a smile with her wine glass.
+
+AL: You fight like an old married couple at a public fair.
+@hideChars
+@char CE.happy
+NA: Célio fails miserably at hiding his laugh.
+
+CE: I must admit that was good.
+@hideChars
+@char JO.neutral
+@char TI.determined
+JO: Don't lump me with the alferes.
+
+JO: I have more refined tastes.
+
+TI: I couldn't stand an hour by your side.
+
+JO: I survived this meeting.
+
+JO: I think I'm capable.
+
+NA: A few laughs escape.
+@hideChars
+@char HI.sad pos:{leftmid}
+NA: Hipólita rubs her forehead.
+@char HI.neutral
+HI: May I please request that no one start a revolution or duel in my living room?
+@char BA.smile pos:{rightmid}
+BA: Oh, leave them be.
+
+BA: It has been long since I've had this much fun.
+@char JO.neutral pos:{mid}
+NA: Then Joaquim finally looks at you.
+@char JO.smile
+NA: His smile changes.
+
+NA: Less political, more personal.
+
+JO: Ah.
+
+JO: Now the night gets better.
+
+NA: Hipólita notices and so does Bárbara.
+
+BA: Oh… That's promising.
+
+@choice "Defend Joaquim" goto:.scene7J-1
+
+@choice "Defend Tiradentes" goto:.scene7J-2
+
+@stop
+
+
+#scene7J-1
+@set afetoJoaquim+=1
+@hideChars
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: Joaquim isn't entirely wrong.
+
+NA: Silence falls quickly.
+@char TI.surprise pos:{leftmid}
+NA: Tiradentes stares at you surprised.
+
+PLAYER: Ideals are important.
+
+PLAYER: But no one here seems to consider the risks.
+
+PLAYER: And someone needs to thinking about what comes after.
+@char JO.neutral pos:{rightmid}
+NA: Joaquim doesn't smile right away.
+
+NA: Just watches you more closely than before.
+
+JO: Finally.
+
+JO: A sensible soul in this room.
+@hide TI
+@char HI.thinking pos:{leftmid}
+HI: We had one already.
+
+NA: Hipólita raises an eyebrow.
+@char JO.smile
+JO: Now we have two.
+
+NA: A few quiet laughs.
+@hide HI
+@char TI.determined pos:{leftmid}
+TI: Excessive prudence paralyses.
+
+PLAYER: So does excessive impulsivity.
+
+NA: Tiradentes remains silent.
+
+NA: His gaze lingers on you a second longer.
+
+NA: Something changed between you, small but noticeable.
+
+PLAYER: (I don't think he liked that.)
+
+NA: Joaquim, however, seems strangely quiet.
+
+NA: His gaze meets yours again.
+
+NA: And there's something new there.
+
+NA: Gratitude or something dangerously close.
+
+JO: (I won't forget this.)
+
+NA: Tiradentes watches you two.
+
+NA: And something in his expression hardens.
+
+PLAYER: (Great.)
+
+PLAYER: (The revolutionary distrusts me now.)
+@goto .scene7J-2end
+
+#scene7J-2
+@hideChars
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: Tiradentes is right.
+
+NA: The atmosphere shifts.
+
+NA: Immediately.
+
+PLAYER: If no one is willing to take risks, nothing ever changes.
+
+PLAYER: Perhaps courage is needed.
+@char TI.smile pos:{leftmid}
+NA: Tiradentes seems genuinely touched.
+
+TI: Thank you for your honesty.
+@char JO.neutral pos:{rightmid}
+NA: Joaquim becomes very quiet.
+
+NA: Too quiet.
+
+JO: Ah.
+@char JO.smile
+NA: A small crooked smile.
+
+JO: So it's two against one now?
+
+PLAYER: That's not what I meant.
+
+JO: Of course.
+
+JO: Naturally.
+
+NA: His tone is light, his gaze isn't.
+
+NA: For the first time something about him seems... hurt.
+
+NA: Or insecure.
+
+JO: The alferes has admirers.
+
+JO: That doesn't surprise me.
+
+NA: He finishes the wine in one gulp.
+
+JO: Conviction is impressive.
+
+JO: I guess.
+
+PLAYER: (...Is he jealous?)
+
+NA: Joaquim avoids your gaze the rest of the meeting.
+
+NA: And when he does look, it lasts far too little.
+
+NA: There's something strange there.
+
+NA: Irritation or insecurity, something dangerously close to resentment.
+#scene7J-2end
+;Após a reunião
+@goSub .BlackScreen
+@back bg_gardenNight
+NA: The meeting ends hours later.
+
+NA: Amidst wine, discussions, and vague promises of discretion.
+
+NA: Little by little, everyone leaves.
+
+NA: Hipólita accompanies Bárbara to the exit.
+
+NA: Célio disappears after an excessively theatrical farewell.
+
+NA: Tiradentes leaves first.
+
+NA: He seems deep in thought.
+@char JO.neutral pos:{mid}
+NA: Joaquim stays, leaning against the veranda.
+
+NA: An almost empty glass in his hand.
+
+NA: The sky above is already full of stars.
+
+JO: Aren't you in a hurry?
+@char JO pos:{rightmid}
+@char {PLAYER}2.thinking pos:{leftmid}
+PLAYER: I don't think so.
+
+NA: A brief silence.
+
+JO: May I say something... without you judging me too pathetic?
+
+PLAYER: That depends on what comes next.
+
+NA: A small, weak laugh escapes him.
+
+JO: Fair.
+
+NA: He avoids your gaze for a moment.
+
+NA: As if choosing his words too carefully.
+
+JO: The alferes... has something.
+
+JO: Conviction.
+
+JO: People follow men like that.
+
+NA: He swirls his glass slowly.
+
+JO: And I—
+
+NA: A tired half-smile.
+
+JO: I always seem like the one who hesitates.
+
+JO: The one who calculates, the one who fears.
+
+PLAYER: You don't look weak.
+
+JO: No?
+
+NA: A small humorless laugh.
+
+JO: Because sometimes that's how I feel.
+
+NA: Wind blows across the veranda, ruffling his hair.
+
+JO: I'm afraid of failure.
+
+JO: As a man, as an ally.
+
+JO: As someone worthy of trust.
+@char JO.neutral
+NA: He finally looks at you.
+
+JO: Perhaps it's foolish of me to say this…
+
+JO: But...
+
+NA: A pause, he seems to consider whether to speak or not.
+
+JO: I don't appreciate the idea of losing you to the alferes's heroism.
+
+NA: The tone isn't playful as usual.
+
+JO: Tell me, will you continue to visit me?
+
+JO: Or will I have to compete for your attention with revolutionaries without heroic mustaches?
+
+NA: For the first time, Joaquim seems unsure.
+
+NA: Less character and more real.
+
+@choice "Hug Joaquim" goto:.scene8J-1
+
+@choice "Reprimand him" goto:.scene8J-2
+
+@stop
+
+#scene8J-1
+@set afetoJoaquim+=1
+@set hugJoaquim=true
+NA: You hesitate only for a moment.
+
+NA: Then you take a step forward.
+
+PLAYER: I think you're overthinking.
+
+NA: Your voice comes out lower than intended.
+
+NA: Before you can reconsider, you hug him.
+
+NA: Yours arms wrap around his strong torso and your hands rest on his back.
+
+NA: Joaquim clearly didn't expect that.
+
+NA: His body stiffens for a second.
+
+NA: Like a man unaccustomed to receiving comfort without ulterior motives.
+
+NA: Your face is so close to his chest and neck you can smell him
+
+JO: My…
+
+NA: A low, almost surprised laugh.
+
+JO: Is this pity?
+
+PLAYER: No.
+
+PLAYER: Don't spoil the moment.
+
+NA: A small silence.
+
+NA: Then he finally relaxes.
+
+NA: Slowly he wraps his arms around your body and pulls you close.
+
+NA: The wine, the fatigue and the night's tension seem to suddenly lift from his shoulders.
+
+JO: You're dangerous.
+
+PLAYER: Why?
+
+JO: Because I'm starting to get used to it.
+
+NA: His tone is light.
+
+NA: But the way he clings to your back doesn't seem like a joke.
+
+JO: And that doesn't usually end well for me.
+
+PLAYER: Maybe this time it will.
+
+NA: Joaquim is watching you.
+
+NA: As if trying to decide whether to believe you.
+
+JO: If you keep saying things like that... I'll start to have hope.
+
+NA: When you walk away, he seems less guarded.
+
+NA: Less of a character and more like just a tired man.
+
+JO: Still... don't trade me for the alferes.
+
+JO: I have better hair.
+
+PLAYER: That's debatable.
+@char JO.surprise
+JO: Cruel.
+
+NA: He dramatically places his hand on his chest.
+
+JO: After I opened my heart.
+@goto .scene8J-2end
+
+#scene8J-2
+@set hugJoaquim=false
+PLAYER: Joaquim you need to stop putting yourself down.
+@char JO.thinking
+NA: He raises an eyebrow.
+
+JO: Ah.
+
+JO: Now I'm getting lectures?
+
+PLAYER: I mean it.
+
+PLAYER: You act like you've already lost before you even try.
+
+NA: His mood wavers slightly.
+
+JO: You have strong opinions.
+
+PLAYER: Someone has to.
+
+NA: Joaquim laughs through his nose.
+
+JO: That was strangely offensive.
+
+PLAYER: It was deserved.
+
+NA: The following silence isn't bad, just honest.
+
+JO: Perhaps you're right.
+
+NA: He twirls the glass between his fingers.
+
+JO: I just don't usually trust when something matters to me.
+
+PLAYER: Then learn.
+
+NA: He finally looks at you.
+
+JO: Is that an order?
+
+PLAYER: Just friendly advice.
+@char JO.smile
+JO: Hm.
+
+NA: A small smile.
+
+JO: You continue to surprise me.
+
+JO: And, unfortunately for me, I'm starting to like it.
+
+NA: He quickly looks away.
+
+NA: As if admitting that as already too much.
+
+JO: As for the alferes... at least try to pretend you don't find him overly heroic.
+
+JO: It wounds my pride.
+@char {PLAYER}2.embarrass
+NA: Your cheeks burn with embarrassment.
+
+PLAYER: You're impossible.
+
+JO: Charming.
+
+JO: There's a difference.
+
+NA: You chuckle at his words.
+#scene8J-2end
+;Depois das cenas das escolhas
+@hide MainBackground
+@back bg_squareNight.Crossfade time:0 !wait scale:3.0 pos:-65,90
+NA: It's darker when you leave the veranda.
+
+NA: The walk back to Vila Rica is quiet, only the sound of footsteps on the dirt and insects in the distance.
+
+NA: Joaquim insists on accompanying you.
+
+JO: I wouldn't forgive myself if I left you walking alone at this hour.
+
+JO: Besides…
+
+NA: A small smile.
+
+JO: Perhaps you wish to steal a few more moments.
+
+NA: You don't talk much but it's not uncomfortable.
+
+NA: It's the kind of silence that happens when enough has already been said.
+
+NA: When you can finally see the inn, Joaquim stops.
+
+JO: So... you survived your first revolution meeting.
+
+PLAYER: Barely.
+
+JO: There's hope for you still.
+
+NA: He hesitates, something unusual for him.
+
+NA: Then, before you can say anything, his hand finds yours.
+
+NA: Just for a second.
+
+NA: His touch is warm and his thumb lightly brushes your fingers.
+
+JO: Good night.
+
+NA: His voice is quieter.
+
+JO: And don't take so long to visit.
+
+JO: I'm starting to suspect I like your company.
+
+NA: Then he lets go on your hand.
+
+NA: Only after long enough to make your heart flutter.
+
+PLAYER: (...this is definitely going to be a problem.)
+@goSub .BlackScreen
+@stopBgm fade:2 !wait
+;Na Estalagem
+@bgm respite
+@back bg_innNight
+NA: You enter through the gate and slowly open the inn door.
+
+NA: Inside everything is silent and mostly dark.
+
+NA: You climb the few steps to the entrance, still feeling the weight of Joaquim's hand in yours.
+@char {PLAYER}2.shy pos:{mid}
+PLAYER: (That was dangerously romantic.)
+
+PLAYER: (And probably a terrible idea.)
+@char FR.thinking pos:{rightmid}
+@char {PLAYER}2.surprise pos:{leftmid}
+FR: Oh.
+
+NA: The voice comes even before you enter.
+
+NA: Startled, you almost trip on the steps and look up
+
+NA: Francisca is at the downstairs window, leaning against the frame.
+
+NA: Watching the street as if clearly waiting for something or someone.
+@char FR.smile
+FR: Back already?
+
+NA: A smirk.
+
+FR: I confess I expected you to take longer.
+
+PLAYER: Francisca!
+
+NA: You speak with surprise.
+
+FR: Why.
+
+FR: I assumed there would be at least one dramatic kiss under the stars.
+
+NA: You almost trip on your own feet hearing that.
+
+PLAYER: What?!
+
+FR: Don't look at me like that.
+
+NA: She descends the last steps.
+
+FR: I waited at the window out of manners... and curiosity.
+
+PLAYER: You were spying on me?!
+
+FR: Watching.
+
+FR: There's a difference.
+
+NA: She retorts.
+
+PLAYER: You're impossible.
+
+FR: And you're predictable.
+
+NA: She tilts her head.
+
+FR: That expression... you either had a big fight... or you enjoyed the company way too much.
+
+PLAYER: I hate you.
+
+FR: No you don't.
+@goSub .BlackScreen
+@back bg_innNight
+NA: Francisca steps away and gestures for you to come inside.
+
+FR: Tell me, how was the secret meeting?
+
+NA: Her eyes light up.
+
+FR: Was there conspiracy? Scandal? Political adultery?
+
+PLAYER: I think "chaos" sums it up well.
+
+NA: Francisca seems immediately interested.
+
+FR: Ah.
+
+FR: So Joaquim was present.
+
+PLAYER: How did you…
+
+FR: My child, I know that creature.
+
+FR: Where he steps, either trouble or gossip follow.
+
+NA: You sigh.
+
+PLAYER: It was... intense.
+
+FR: Intense?
+
+NA: She crosses her arms.
+
+FR: That's what someone says when they don't want to share everything.
+
+PLAYER: Joaquim and Tiradentes fought.
+
+NA: Francisca slowly closes her eyes.
+
+FR: Naturally they fought.
+
+FR: It's like rain at summer, it'll happen eventually.
+
+PLAYER: It was ugly, they almost ate each other alive.
+
+PLAYER: Joaquim insulted almost everyone.
+
+FR: Oh no.
+
+NA: She slaps her own forehead.
+
+FR: Tell me he at least spared the hostess.
+
+PLAYER: He said Hipólita was the only sensible one.
+
+FR: Hm.
+
+FR: Correct.
+
+PLAYER: He said Bárbara was only helpful because she was pretty.
+
+FR: Also correct.
+
+PLAYER: And picked on Célio just for existing.
+
+FR: Even more correct.
+@char {PLAYER}2.happy
+NA: You end up laughing unintentionally.
+@char {PLAYER}2.neutral
+PLAYER: Tiradentes was furious and Joaquim seemed to be having fun.
+
+FR: Of course he was.
+
+FR: The man likes attention almost as much as he likes wine.
+
+NA: She watches you for a moment.
+
+FR: And then?
+
+FR: What else happened that was... interesting?
+
+NA: The way she says "interesting" makes you immediately suspicious.
+@char {PLAYER}2.thinking
+PLAYER: Nothing.
+
+FR: Hm.
+
+PLAYER: We talked.
+
+PLAYER: He was insecure.
+@char FR.surprise
+FR: Joaquim?
+
+NA: She seems genuinely surprised.
+
+PLAYER: Yes.
+
+PLAYER: About Tiradentes, about not being good enough and about failure.
+
+FR: Well.
+
+FR: That's news.
+
+NA: She glances at you sideways.
+
+FR: And what did you do?
+
+PLAYER: I…
+
+;(Eu não sei como seria a label ou goto, mas é uma variação para ação do jogador, se abraçou essa cena)
+@if hugJoaquim=true
+NA: You hesitate.
+
+FR: Oh.
+
+FR: That was a promising pause.
+@char {PLAYER}2.shy
+PLAYER: I hugged him.
+
+NA: A silence, and Francisca slowly places her hands on her hips.
+
+FR: You hugged him.
+
+PLAYER: Don't make that face.
+
+FR: The creature barely winks at you and he already gets hugs?
+
+PLAYER: He was unwell!
+
+FR: Joaquim?
+
+NA: She seems genuinely surprised.
+
+FR: The man with the smug smile and sharp tongue?
+
+PLAYER: Yes.
+@char FR.smile
+NA: A smile grows on her face.
+
+FR: Was it a good hug?
+@char {PLAYER}2.embarrass
+PLAYER: FRANCISCA.
+
+FR: I'm just assessing the situation.
+
+PLAYER: You're terrible.
+
+FR: And you're blushing.
+
+FR: Which amuses me deeply.
+
+NA: You roll your eyes.
+@else
+;Ou para essa daqui:
+
+PLAYER: I spoke some truths.
+
+FR: Oh?
+
+NA: She immediately seems interested.
+
+FR: Did you two fight?
+
+PLAYER: Not exactly.
+
+PLAYER: I just... said he needed to act like he was already defeated.
+
+PLAYER: He belittles himself too much.
+
+PLAYER: And maybe he should trust people a little more.
+@char FR.neutral
+NA: Francisca is silent for a moment.
+
+FR: Look at that.
+
+FR: You've barely arrived in the village and you're already fixing problematic men.
+
+PLAYER: He needed to hear it.
+
+FR: Joaquim certainly hated it.
+
+PLAYER: Actually, he listened to me.
+@char FR.thinking
+NA: Francisca raises her eyebrows.
+
+FR: He did?
+
+FR: Joaquim?
+
+FR: Without flirting or making a joke out of it?
+
+PLAYER: A little of both.
+@char FR.smile
+FR: Hm.
+
+NA: A smirk appears on her face.
+
+FR: Perhaps he likes you more than I imagined.
+
+PLAYER: Francisca.
+
+FR: What?
+
+FR: Men don't take lectures for free.
+
+FR: Especially handsome men.
+
+PLAYER: You speak as if you had experience.
+
+FR: My dear, I survived many years watching people make terrible choices.
+
+FR: And, sometimes... being one of them.
+
+NA: She shrugs.
+@endif
+;E depois a cena segue
+
+FR: So will you see him again?
+
+PLAYER: I think so.
+
+NA: You answer too quickly.
+@char FR.smile
+NA: Francisca smiles.
+
+NA: Slowly.
+
+NA: Like someone who just won a silent argument.
+
+FR: Ah.
+
+FR: So we're at that point.
+
+PLAYER: What point?
+
+FR: The one where you pretend you're just curious.
+
+FR: When it clearly isn't.
+
+PLAYER: You pick on me too much.
+
+FR: Someone has me.
+
+FR: Because I suspect your judgement leaves your body when a certain man smiles
+@char {PLAYER}2.neutral
+PLAYER: Good night, Francisca.
+
+FR: Are you avoiding the conversation?
+
+PLAYER: Yes.
+
+FR: Prudent.
+
+NA: She laughs softly.
+
+FR: Sleep well.
+
+FR: And dream little of problematic revolutionaries.
+
+PLAYER: I'm really leaving.
+@hide FR
+@char {PLAYER}2 pos:{mid}
+NA: Still hearing Francisca laughing, you go up to your room.
+
+NA: You change your clothes and lie down in bed.
+
+NA: But sleep is slow to come.
+@hideChars
+@back bg_gardenNight
+NA: Because, inconveniently, your mind keeps returning to a dark veranda.
+@char JO.smile pos:{mid}
+NA: A hand holding yours and an excessively charming man asking:
+
+JO: "Will you continue to visit me?"
+@goSub .BlackScreen
+@back bg_innNight
+PLAYER: (...This will either end badly or very well.)
+
+NA: With that thought sleep finally reaches you.
+@goSub .BlackScreen
+;Cap 5
+
+NA: A few days go by.
+
+NA: Strangely restless days, until you decide to visit him again.
+
+NA: Vila Rica is still alive. You see horses, dust, and gossip when you spend time at the inn's window to get some air.
+
+NA: Conspiracies, too whispered to be called by name.
+
+NA: And, inconveniently, you think of Joaquim more often than you should
+@back bg_innDay
+@char FR.neutral pos:{rightmid}
+@char {PLAYER}2.neutral pos:{leftmid}
+FR: You're leaving early again.
+
+NA: Francisca watches you over a pot as you take slow steps toward the door.
+
+FR: Should I assume curiosity won again?
+
+PLAYER: Perhaps.
+
+FR: Hm.
+
+FR: Pretty curiosity usually brings misfortune.
+
+PLAYER: You say that about everything.
+
+FR: And I'm almost always right.
+
+NA: Still, she hands you a piece of fruit before you leave.
+
+FR: If he offers you wine before lunch, be suspicious.
+
+PLAYER: You speak as if he were a criminal.
+
+FR: No.
+
+FR: Just a handsome man.
+
+FR: Similar danger.
+@goSub .BlackScreen
+@hide MainBackground
+@back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
+@stopBgm fade:4 !wait
+NA: The path to Joaquim's house is more familiar this time.
+
+NA: Almost comfortable.
+
+NA: You knock and there's no answer.
+
+NA: The door is ajar.
+
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: Joaquim?
+@hide MainBackground
+@back bg_joaquimDayReal scale:1 pos:50,50 time:0
+NA: You go inside.
+@bgm backInTime
+NA: The house is still beautiful, but tired.
+
+NA: Account books open, forgotten glasses and papers scattered across the table.
+
+NA: Then something catches your eye as you walk around the room.
+
+NA: An open letter.
+
+NA: The crown seal still imprinted on the broken wax.
+
+NA: Your eyes scan the lines.
+
+NA: Demands, debts, veiled threats.
+
+NA: And something worse.
+
+NA: An offer with information, names and, in exchange for cooperation... tolerance.
+
+PLAYER: (...This can't be good.)
+
+JO: No.
+
+NA: The voice is quick and tense.
+@char {PLAYER}2 pos:{leftmid}
+@char JO.surprise pos:{rightmid}
+NA: Joaquim stands in the doorway, pale.
+
+JO: No.
+
+JO: Please—
+
+NA: He quickly crosses the room.
+
+JO: Don't read that.
+
+JO: Don't think the worst of me.
+
+NA: For the first time he seems genuinely scared.
+
+NA: No charm or irony, but fear.
+
+@choice "Understand" goto:.scene9J-1
+
+@choice "Doubt him" goto:.scene9J-2
+
+@stop
+#scene9J-1
+@set afetoJoaquim+=1
+PLAYER: Joaquim!
+
+PLAYER: Breathe.
+
+PLAYER: I'm not judging you.
+
+NA: He stops.
+
+NA: As if he didn't even expect that answer.
+
+PLAYER: I just want to understand.
+
+PLAYER: What happened?
+@char JO.sad
+NA: Joaquim runs a hand over his face.
+
+NA: His eyes are sunken and he looks disheveled, clearly tired like someone who didn't sleep well.
+
+JO: Life happened.
+
+NA: A weak, humorless laugh.
+
+JO: And she has terrible taste in jokes.
+
+
+@goto .scene9J-2end
+
+#scene9J-2
+
+PLAYER: So what should I think?
+
+PLAYER: Because this looks very bad.
+
+@char JO.surprise
+NA: The blow is immediate.
+
+NA: Joaquim stands still.
+
+JO: Ah.
+@char JO.smile
+NA: A small smile, not reaching his eyes.
+
+JO: So we've reached this part.
+
+PLAYER: I just want to understand.
+
+PLAYER: This looks like blackmail.
+
+NA: A long silence.
+@char JO.sad
+JO: Because it is.
+
+NA: His answer is quiet.
+
+JO: And perhaps I deserve your suspicion.
+
+JO: But still—
+
+NA: He finally faces you.
+
+JO: Allow me at least an explanation before you condemn me.
+
+NA: After a moment you nod slowly.
+#scene9J-2end
+;Depois das escolhas.
+
+NA: He slowly sits on the floor, suddenly exhausted.
+
+JO: My father left me a respectable name.
+
+JO: Lands... This house...
+
+NA: His gaze wanders around the room.
+
+JO: And debts.
+
+JO: More than you can imagine.
+
+JO: Debts from a dead man, failed businesses, favors poorly claimed, and promises never kept.
+
+PLAYER: And you inherited all of that?
+
+JO: I did.
+
+NA: A small laugh, bitter.
+
+JO: Including the duty to pretend I'm in control of something.
+
+NA: He averts his gaze.
+
+JO: There are days when I wake up wondering how much time I have left before they take everything.
+
+JO: My house, name... my freedom.
+
+JO: And then comes a man like Tiradentes, talking about change.
+
+JO: About freedom... about hope.
+
+NA: A brief silence.
+
+JO: And I want to believe.
+
+JO: God knows I want to.
+
+JO: But I'm also afraid.
+
+PLAYER: Afraid of what?
+
+JO: Of failure.
+
+JO: Of choosing the wrong side.
+
+JO: Of being too small a man when everything crumbles.
+
+NA: The silence between you changes.
+
+NA: Something is closer, more vulnerable.
+
+NA: Without realizing it, you're already sitting too close.
+
+JO: And worst part is—
+
+NA: He laughs weakly.
+
+JO: Is that I care too much about what you think of me.
+
+NA: His gaze meets yours.
+
+JO: Which is ridiculous.
+
+JO: Because I've known you for such a short time.
+
+NA: You raise your eyebrows, doubting what you just heard. Strange as it may seem, it makes sense.
+
+NA: Joaquim raises his hand.
+
+NA: Hesitates.
+@goSub .BlackScreen
+@back CGJ03_{gender}_01 id:CG time:0
+@unlock CG/CGJ03_{gender}_1
+NA: The tips of his fingers lightly brush your face, careful.
+
+JO: Tell me you haven't thought the worst of me yet.
+
+NA: There's something troubled about him, almost desperate.
+
+NA: Like a man trying to hold onto something before losing it.
+
+NA: And then, even before you can answer, he slowly approaches.
+
+NA: Like someone who still considers stopping.
+
+NA: Again you smell the wine and the woody perfume.
+@back CGJ03_{gender}_02 id:CG
+NA: His thumb lightly brushes your lower lip, feeling the softness of your skin.
+
+NA: A hesitant gesture.
+
+JO: Forgive me for this.
+@back CGJ03_{gender}_03 id:CG
+NA: Then you feel his lips against yours, the hairs in his mustache tickling your skin.
+
+NA: It's not gentle, not perfectly thought out.
+
+NA: It's tense, restrained, and hot.
+
+NA: Like someone tired of faking control, or fear mixed with desire.
+
+NA: And the world feels much smaller than the distance between you.
+
+NA: For a moment you widen your eyes in surprise, but you don't pull away.
+
+NA: He captures your lips with his, and you feel his tongue brush against yours.
+
+NA: You let out a moan, muffled against his mouth, and yield to the kiss.
+
+NA: His tongue finds yours and you taste warm wine in your mouth, his hands moving up to your hair.
+
+NA: He holds you and squeezes the strands between his fingers, giving you a slight shiver running down your spine.
+
+NA: He pulls you close, deepening the kiss, and you rest your hand on his leg.
+
+
+PLAYER: Joaquim…
+
+NA: The name comes out softly.
+
+NA: Then you stay, the kiss starts again differently.
+
+NA: Slower and less impulsive.
+
+NA: His hand finds yours for a moment.
+
+NA: As if needing to confirm you're still there.
+
+NA: When you finally pull away it's not much.
+
+NA: Both of your lips are swollen and a little red.
+
+JO: This was probably a terrible idea.
+
+NA: His voice is low, almost hoarse.
+
+NA: The silence after the kiss lingers.
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@back bg_joaquimDayReal
+@char JO.shy !wait
+@char {PLAYER}2.shy
+NA: Breathing is still a little uneven.
+
+NA: Joaquim remains close, too close.
+
+NA: As if he still hadn't decided whether he should move away.
+
+PLAYER: That…
+
+PLAYER: Came out of nowhere.
+@char JO.smile
+NA: A small crooked smile comes to his face.
+
+JO: It did?
+
+NA: He tilts his head slightly.
+
+JO: It felt a long time coming to me.
+@char {PLAYER}2.embarrass
+PLAYER: Joaquim!
+@char JO.shy
+JO: I mean it.
+
+NA: He looks away for a moment.
+
+JO: I've wished to do that for a while.
+
+NA: His confession is quiet, less calculated than usual.
+
+PLAYER: What?
+
+PLAYER: Kissing me?
+
+JO: Hm.
+@char JO.smile
+NA: A half smile.
+
+JO: I was curious.
+
+JO: I wanted to know—
+
+NA: He hesitates, considering if he should even say it.
+
+JO: Your taste.
+
+NA: His face retains that teasing expression.
+
+NA: But there's something honest underneath.
+
+NA: And your face flushes with embarrassment hearing his words.
+
+PLAYER: That was absurdly specific.
+
+JO: I'm a curious man.
+
+NA: A brief silence.
+
+JO: Also…
+
+NA: He stops, his fingers swirling the empty glass.
+
+JO: I wanted something selfish.
+
+PLAYER: Joaquim…
+
+NA: He looks back at you and seems straightforward, no more jokes now.
+
+JO: I wanted to make my claim.
+
+NA: The way he speaks makes your heart skip a beat.
+
+PLAYER: Your claim?
+
+JO: Don't look at me like that.
+
+JO: I know how it sounds.
+
+NA: A short laugh.
+
+JO: Vila Rica is full of people.
+
+JO: The alferes and his heroic ideals.
+
+JO: The doctor with that unbearably impeccable air
+
+JO: Half this village seems to enjoy looking at you.
+
+NA: He crosses his arms.
+
+JO: And I'm not a particularly generous man.
+
+
+@char {PLAYER}2.surprise
+NA: He stops for half a second and you look at him confused.
+
+PLAYER: Alvarenga?
+
+NA: You speak before thinking, with more surprise than intention.
+@char JO.thinking
+NA: Joaquim slowly raises an eyebrow.
+
+JO: Look at that.
+
+JO: Even his name comes to you quickly.
+
+PLAYER: That's not what I meant…
+
+JO: No?
+
+NA: He rests his elbow on his knee and leans a little closer.
+
+JO: Or do you think I didn't notice?
+
+PLAYER: Noticed what, creature?
+
+JO: The way you look at him.
+
+NA: A brief silence.
+
+JO: "Elegant".
+
+JO: "Handsome".
+
+JO: "A proper man".
+
+NA: He lists his words as if presenting evidence in a court of law.
+
+PLAYER: Joaquim… I only said that…
+@char JO.smile
+JO: Oh, I know.
+
+NA: The crooked smile returns, but there's something charged beneath it.
+
+JO: I also heard when you almost sighed at his "respectable appearance".
+@char {PLAYER}2.embarrass
+PLAYER: I DIDN'T SIGH.
+
+NA: You stop yourself, because maybe you did a little.
+
+JO: Hm.
+
+NA: His smile widens.
+
+NA: But he doesn't seem satisfied, he seems jealous.
+
+JO: The doctor has a good hand, good speech, good posture…
+
+JO: And old enough to be sensible.
+
+JO: Me, on the other hand, am just bad company and debt.
+
+NA: The humor in the sentence doesn't hide everything.
+
+PLAYER: Are you really jealous of Alvarenga who is, shockingly, married?
+
+JO: I'm taking inventory of threats.
+
+PLAYER: Joaquim be serious.
+@char JO.sad
+JO: Yes.
+
+NA: He sighs as if in surrender.
+
+JO: A little.
+
+NA: His honesty catches you off guard.
+
+JO: And before you say anything, the idea of competing with a man of good reputation isn't particularly attractive to me.
+
+JO: Even less so with one you clearly consider to be handsome.
+
+PLAYER: You're exaggerating.
+@char JO.neutral
+JO: Am I?
+@char {PLAYER}2.neutral
+NA: He tilts his head, his gaze locked on yours.
+
+JO: Then answer me something.
+
+NA: His tone lowers.
+
+JO: Who do you prefer?
+
+NA: Silence falls immediately.
+@char {PLAYER}2.surprise
+PLAYER: What?
+
+JO: Don't play dumb.
+
+JO: Doctor impeccable or me.
+
+NA: A vague gesture to himself.
+
+JO: The indebted, inconvenient man who clearly just kissed you recklessly.
+
+NA: You open you mouth and close it again.
+
+NA: Because somehow the answer seems obvious.
+
+PLAYER: Unfortunately, it's you, you conceited mustachioed man.
+
+NA: He runs his finger through his mustache as if offended.
+
+NA: But something in his face softens immediately, as if he heard exactly what he needed to hear.
+@char JO.smile
+JO: Ah.
+
+NA: A small, relieved smile.
+
+JO: Very well.
+
+JO: Then allow me a small moment of vanity.
+
+NA: He moves just a little closer.
+
+JO: I believe I've defeated a dangerously handsome man.
+
+PLAYER: You're ridiculous.
+
+JO: And yet…
+
+NA: His gaze briefly falls to your lips.
+
+JO: …It seems you chose me.
+
+NA: You feel your face heat up.
+
+PLAYER: Don't make a big deal out of this.
+
+JO: Too late.
+
+JO: I intend to feel superior to the doctor for the next three months.
+
+PLAYER: JOAQUIM.
+
+JO: Four, maybe.
+
+NA: His body relaxes and he leans back against the furniture.
+
+JO: Still, I don't regret it.
+
+NA: His tone lowers.
+
+JO: I've been wondering for a while if you would make me as uneasy afterward as you did before.
+
+PLAYER: And?
+@char JO.sad
+JO: It got worse.
+
+NA: For the first time, he seems genuinely defeated by something.
+
+JO: I believe I'll be thinking of you in a deeply inconvenient way.
+@char {PLAYER}2.thinking
+PLAYER: "Inconvenient" sounds concerning.
+@char JO.happy
+NA: Joaquim lets out a small laugh.
+
+NA: He seems dangerously pleased with himself.
+@char JO.smile
+JO: Ah.
+
+NA: A crooked smile.
+
+JO: So should I omit that I will probably turn you into very bad thoughts?
+
+PLAYER: Joaquim.
+
+JO: Or not the most reputable stories.
+@char {PLAYER}2.embarrass
+PLAYER: JOAQUIM.
+@char JO.happy
+NA: He laughs, for real this time.
+
+PLAYER: You're absurd.
+@char JO.smile
+JO: No.
+
+JO: I'm just a man.
+
+NA: He tilts his head slightly.
+
+
+JO: A man that, unfortunately, just discovered that he appreciates your taste a little too much.
+
+PLAYER: Do you say that to everyone?
+
+JO: No.
+
+NA: A beat.
+
+JO: I usually lie better to the others.
+
+NA: You give him a light playful tap on the shoulder.
+
+PLAYER: You're impossible.
+
+JO: And yet you stayed.
+
+NA: His smile softens.
+
+JO: Perhaps that pleases me more than it should.
+
+NA: You end up staying there.
+
+NA: On the living room floor, the conversation going back and forth between silences.
+@back bg_joaquimNightReal
+NA: When night starts to fall outside, Joaquim sighs.
+
+PLAYER: It's late.
+
+NA: You say with a heavy voice and he nods, seeming a little sad.
+
+JO: And Francisca has probably already decided half the sins you committed with me.
+
+PLAYER: Half?
+
+JO: Knowing her?
+
+JO: Maybe all of them.
+@char JO.neutral
+NA: You stand up and he accompanies you to the door.
+
+NA: Quieter than usual.
+
+NA: Before you leave he holds your hand for a moment.
+
+JO: Will you be back?
+
+NA: His voice falters.
+
+PLAYER: I will.
+
+NA: The answer comes too easily.
+@char JO.smile
+JO: Hm.
+
+NA: A small smile.
+
+JO: Then maybe I'll survive the week.
+@char {PLAYER}2.smile
+NA: You roll your eyes at him and leave, trying to ignore your own smile.
+@goSub .BlackScreen
+@stopBgm fade:2 !wait
+@back bg_innNight
+NA: It's already night when you find yourself back at the inn.
+
+NA: Almost silent.
+
+NA: Almost.
+@bgm respite
+FR: Ah.
+
+NA: The voice comes from the window.
+@char FR.neutral pos:{rightmid}
+FR: Look who's back.
+
+NA: Francisca is leaning there, watching the street.
+
+FR: With a suspiciously happy expression.
+@char {PLAYER}2.neutral pos:{leftmid}
+PLAYER: You're spying on guests now?
+
+FR: Only the interesting ones.
+@char FR.thinking
+NA: She narrows her eyes.
+
+FR: And you clearly got up to something.
+
+PLAYER: I didn't get up to anything.
+
+FR: Hm.
+
+FR: That face doesn't appear after honest work.
+
+FR: You don't come back like this even after a good lunch.
+@char {PLAYER}2.shy
+NA: You feel your face heat up.
+@char FR.smile
+FR: Oh.
+
+NA: Her smile widens immediately.
+
+FR: You're blushing.
+
+FR: Now I'm certain.
+
+PLAYER: I only talked to Joaquim.
+
+FR: "Talked".
+
+NA: She repeats the word slowly, as if in disbelief.
+
+FR: And I'm Queen of Portugal.
+
+PLAYER: Francisca…
+
+FR: Don't give me that look.
+
+FR: That's the look of someone who did something bad... and liked it.
+
+PLAYER: You're impossible, you know that?
+
+FR: And you're far too happy for someone who only "talked".
+
+NA: A brief silence.
+
+FR: Did you kiss?
+
+PLAYER: …
+@char FR.surprise
+FR: You DID.
+@char FR.smile
+NA: She puts her hands on her hips, triumphant.
+
+FR: Joaquim?!
+@char {PLAYER}2.embarrass
+PLAYER: Keep your voice down!
+
+FR: Oh, now it's a secret.
+
+FR: Interesting.
+
+PLAYER: It was nothing special.
+
+FR: Nothing special?
+
+FR: You've been smiling to yourself ever since you walked through the door.
+
+FR: Not even when I tell you to work do you have this kind of joy.
+@char {PLAYER}2.neutral
+PLAYER: That's cruel, especially since the work here doesn't bring me joy, with some respect of course.
+
+FR: It was an observation.
+
+NA: She comes a little closer.
+
+FR: Then?
+
+FR: Is the man a good kisser or does he rely only on charm?
+@char {PLAYER}2.embarrass
+PLAYER: FRANCISCA.
+
+FR: What?
+
+FR: Scientific question.
+
+PLAYER: I hate you.
+
+FR: No.
+
+FR: You hate how right I am.
+
+NA: She chuckles.
+
+FR: So I suppose you'll see him again?
+
+PLAYER: Maybe.
+
+FR: "Maybe."
+
+NA: She crosses her arms.
+
+FR: My dear you are already lost.
+
+FR: Let me guess.
+
+FR: The man looked at you as if he knows exactly the effect he causes…
+
+FR: He spoke too softly, came too close, and now you're here
+
+NA: She gestures at you.
+
+FR: With the look of someone who saw a saint.
+@char {PLAYER}2.neutral
+PLAYER: You made half of that up.
+
+FR: Ah.
+
+FR: So there was another half.
+
+PLAYER: No, I mean yes….
+
+@char FR.thinking
+FR: Answer me something important.
+
+NA: She rests her face on her hand, as if dealing with a very serious matter.
+
+FR: Did he cry before or after the kiss?
+@char {PLAYER}2.surprise
+PLAYER: WHAT?
+
+FR: Joaquim looks like a man who suffers dramatically.
+
+FR: Seemed relevant to ask.
+
+PLAYER: He didn't cry!
+@char FR.smile
+FR: "He".
+
+NA: Her smile widens.
+
+FR: We're already on "he".
+
+FR: No more "Mr. Joaquim".
+
+FR: You move quickly.
+@char {PLAYER}2.neutral
+PLAYER: You're terrible.
+
+FR: And you're predictable.
+
+FR: Tell me, did he at least walk you to the door?
+
+PLAYER: Yes.
+
+FR: Hold your hand?
+
+NA: You hesitate half a second.
+@char {PLAYER}2.embarrass
+FR: AH.
+
+FR: He did.
+
+PLAYER: Stop!
+
+FR: Oh, this is worse than I thought.
+
+FR: You already have romance in your eyes.
+
+PLAYER: No I don't.
+
+FR: You are.
+
+FR: I can almost hear your sighs from here.
+
+NA: She crosses her arms, still smiling.
+
+FR: And I thought we would lose you to the alferes…
+
+FR: Or to the handsome doctor.
+@char {PLAYER}2.neutral
+PLAYER: Tiradentes is my friend and Alvarenga is married, that's the second time I had to say that today.
+
+NA: She ignores your words and keeps talking.
+
+FR: But you didn't, you chose the walking problem of all people.
+
+PLAYER: You talk about him as if he were a disaster.
+
+FR: Because he is.
+
+FR: A very well dressed disaster.
+@char FR.sad
+NA: She sighs, theatrically.
+
+FR: What a tragedy.
+
+FR: If only he were ugly, it would be easier to forget.
+
+PLAYER: Good night, Francisca.
+
+FR: Good night.
+
+NA: You're almost upstairs when you hear her again.
+@char FR.smile
+FR: Oh!
+
+FR: And if there's another kiss, at least pretend you're not so happy when you come back.
+
+FR: You almost made me believe in love.
+@char {PLAYER}2.embarrass
+PLAYER: FRANCISCA.
+
+FR: Sleep well, lovestruck creature.
+
+PLAYER: I'M NOT IN LOVE.
+@hideChars
+
+NA: You mutter some complaint and go up to your room.
+
+NA: But, lying in bed, something insists on coming back.
+
+@back bg_joaquimNightReal
+@char JO.shy pos:{mid}
+NA: The way Joaquim held your hand.
+
+NA: The insecurity hidden under all his charm.
+
+NA: And the question—
+
+JO: (Will you be back?)
+@goSub .BlackScreen
+@back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
+;Depois
+@stopBgm fade:2 !wait
+NA: A few days go by.
+
+NA: Days of odd routine.
+
+NA: The inn, Francisca, some awkward conversations.
+@bgm wander
+NA: Gossips from Vila Rica and occasional, or not so occasional, encounters.
+
+NA: Joaquim continues to appears in your thought with inconvenient frequency.
+
+NA: And, when he appears in person, he always seems to find a way to get too close.
+
+NA: That morning, however, chance seems to choose another path.
+
+NA: You cross the quietest part of the village, the bustle of the fair still distant.
+
+NA: The smell of damp earth mixed with that of firewood.
+@char TI.neutral pos:{rightmid}
+TI: Well.
+
+NA: The steady voice makes you look up.
+
+NA: Tiradentes dismounts his horse.
+
+NA: The same intense air as always.
+
+NA: But today he seems more tired.
+
+TI: I haven't seen you in a while.
+@char {PLAYER}2.neutral pos:{leftmid}
+PLAYER: I've been busy.
+@char TI.smile
+NA: A small smile.
+
+TI: Or distracted.
+
+NA: The comment seems casual, but observant.
+
+PLAYER: I think Vila Rica is busier than it seems.
+@char TI.thinking
+TI: Hm.
+
+NA: He seems to ponder something.
+
+TI: And sometimes more dangerous too.
+
+NA: His tone shifts slightly, more serious.
+
+TI: Tell me... have you spent much time in certain company?
+
+NA: You understand even before the name comes up.
+
+PLAYER: Joaquim?
+@char TI.neutral
+NA: Tiradentes doesn't answer right away.
+
+TI: Joaquim is a smart man.
+
+TI: Charming when he wants to.
+
+NA: A brief silence.
+@char TI.determined
+TI: But don't confuse charm with resolve.
+
+NA: His gaze a little heavier now.
+
+TI: There are men who desire change.
+
+TI: And men who only want to survive it.
+
+PLAYER: Do you think I can't trust him?
+@char TI.neutral
+NA: Tiradentes sighs.
+
+TI: I'm not saying that.
+
+TI: I'm only saying that... in this land, trust is a precious commodity.
+
+TI: And not everyone pays the same price.
+
+NA: Silence falls and you think about what he's telling you.
+
+TI: There is much at stake.
+
+TI: More than you might imagine.
+
+
+PLAYER: Sounds like you're warning me.
+@char TI.smile
+TI: Perhaps I am.
+
+NA: A small, tired smile.
+@char TI.neutral
+TI: Or perhaps I just don't wish to see someone with a good heart become a pawn in someone else's game.
+@stopBgm fade:1 !wait
+@bgm joaquim
+NA: Before you can answer, a movement in the distance catches your attention.
+@char JO.neutral pos:{mid}
+NA: Leaning against the wall across the street, you see Joaquim with his arms crossed, watching you two talk.
+
+NA: And he clearly has been there long enough to have drawn the wrong conclusions.
+
+PLAYER: (...Oh no.)
+@char JO.thinking
+NA: When your eyes meet, he raises an eyebrow.
+@char JO.smile
+JO: What a curious scene.
+
+NA: His voice arrives before him, light and polite.
+
+JO: Am I interrupting?
+
+NA: He asks, approaching you two.
+@char TI.neutral
+TI: No.
+
+NA: Tiradentes answers first, calmly.
+
+TI: We were just talking.
+
+JO: Naturally.
+
+NA: His smile doesn't reach his eyes.
+
+JO: You and your discreet conversations.
+
+JO: In empty streets.
+
+JO: Always very patriotic, I imagine.
+
+PLAYER: Joaquim…
+
+JO: No.
+
+NA: He raises his hand, still smiling.
+
+JO: I don't wish to interrupt the alferes's morning heroism.
+
+TI: If you have something to say…
+
+TI: ...Say it clearly.
+
+JO: I do.
+
+NA: He tilts his head.
+
+JO: It seems curious to me how you always appear when someone shows interest in other company.
+
+NA: The silence is heavy, and the two look at each other the same way they did at Hipólita's that night.
+
+PLAYER: Joaquim.
+
+PLAYER: Are you jealous?
+@char JO.surprise
+NA: The effect is immediate.
+
+JO: Me?
+
+NA: A chuckle, almost offended.
+
+JO: Don't be absurd.
+
+JO: I just have eyes.
+
+TI: Having eyes isn't the same as having common sense.
+@char JO.smile
+JO: Ah.
+
+NA: Joaquim smiles.
+
+JO: I see you woke ready to pick a fight with me today.
+
+TI: I don't have to try hard.
+
+NA: You can almost see the argument escalating again.
+
+PLAYER: Don't you two get tired?
+
+TI: Often.
+
+JO: Never.
+@char JO.neutral
+NA: Joaquim turns his gaze to you.
+
+NA: This time less irritated and more insecure than he'd like to appear.
+
+JO: Have you finished your chat?
+
+NA: His tone is light.
+
+JO: Or should I return later?
+
+NA: For the first time you notice something uncomfortably human in him.
+
+NA: The fear of being left out, but Tiradentes answers before you can say anything.
+@char TI.determined
+TI: You don't need to return.
+
+NA: Tiradentes crosses his arms.
+
+TI: The conversation wasn't a secret.
+
+JO: Ah.
+
+JO: Naturally.
+
+NA: Joaquim tilts his head.
+
+JO: Just friendly warnings, I imagine.
+
+JO: About what a terrible man I am.
+
+TI: If the shoe fits…
+
+JO: See?
+
+NA: Joaquim looks at you.
+
+JO: He doesn't even try to appear impartial.
+
+TI: Impartiality is difficult when I've seen men lose so much by trusting the wrong people.
+
+JO: And I've seen men lose everything by following idealists.
+
+TI: At least I try to protect those around me.
+
+JO: Curious.
+
+JO: Because from where I'm looking, it seems that you like to decide for others.
+
+TI: And you like to run when something requires courage.
+
+JO: Fanaticism.
+
+TI: Resentment.
+
+NA: You feel a headache coming.
+
+PLAYER: Oh my god.
+
+PLAYER: How old are you two?
+
+NA: They both fall silent for a rare moment.
+
+PLAYER: Because honestly…
+@char JO.surprise
+@char TI.surprise
+PLAYER: I'm not going to stand here watching two handsome men fight over who owns the ball.
+
+NA: Complete silence as they both look at you confused.
+
+TI: Owns the... ball?
+
+JO: What ball?
+
+PLAYER: Exactly.
+
+NA: You raise your hands.
+
+PLAYER: You two keep picking on each other, throwing shade and acting like you're in a ridiculous competition.
+
+PLAYER: And honestly... I don't have the energy for this today.
+
+NA: Tiradentes seems offended or confused, perhaps both.
+
+TI: I'm not arguing over anything.
+@char JO.thinking
+JO: Oh, really?
+
+NA: Joaquim arches his eyebrow.
+
+JO: Because you seemed very interested in warning </her/him> about me.
+
+TI: I only offered caution.
+
+JO: Of course.
+
+JO: Heroically.
+@char {PLAYER}2.determined
+PLAYER: No.
+
+PLAYER: Enough.
+
+NA: You point at the two of them.
+
+PLAYER: When you decide to act like grown ups, you can come see me.
+
+PLAYER: Until then, sort out your... ball.
+
+NA: You turn away already walking with heavy steps.
+@char JO.surprise
+JO: Wait…
+@char TI.surprise
+TI: I don't think you understood…
+
+PLAYER: NO.
+
+PLAYER: Not today.
+@hide {PLAYER}2
+NA: You keep walking, ignoring them both.
+
+NA: As you walk, you finally hear the silence.
+
+NA: But behind you, Tiradentes and Joaquim remain confused.
+
+TI: What ball?
+
+JO: I also wish to know.
+@char TI.thinking
+TI: I believe it was a metaphor.
+@char JO.thinking
+JO: For what?
+
+TI: I don't know.
+
+JO: Maybe you own it.
+@char TI.surprise
+TI: Me?!
+
+JO: You seem very concerned about me.
+
+TI: I'm not concerned with you!
+
+JO: Hm.
+
+NA: Silence.
+@char TI.embarrass
+TI: …do you really think we're "handsome men"?
+
+JO: Oh, for God's sake.
+@hideChars
+NA: You don't see it, but you're almost certain the two of them started arguing again.
+@goSub .BlackScreen
+;Cap 6
+@back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
+NA: A few days later, Vila Rica seems heavier.
+
+NA: There's tension in the streets, people whispering.
+
+NA: Merchants complaining, and a constant rumor of new taxes.
+
+NA: The crown seems to want to squeeze Vila Rica with more charges and debts, perhaps applying the Derrama.
+
+NA: You end up going to Joaquim's house.
+
+NA: Perhaps out of habit, worry, or longing.
+
+NA: The door is ajar, strangely.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: Joaquim?
+
+NA: No answer.
+@hide MainBackground
+@back bg_joaquimDayReal scale:1 pos:50,50 time:0
+NA: Going inside, you find chaos: scattered papers, open letters, broken glasses, and account books piled on the floor.
+@char {PLAYER}2 pos:{leftmid}
+@char JO.sad pos:{rightmid}
+NA: Joaquim is sitting at the table, motionless.
+
+NA: His face visibly tired, his hands clutching a crumpled sheet of paper.
+
+PLAYER: Joaquim?
+@char JO.surprise
+NA: He quickly looks up, startled.
+
+NA: Like he was caught.
+@char JO.smile
+JO: Ah.
+
+NA: A smile appears, weak and forced.
+
+JO: I wasn't expecting company.
+
+PLAYER: You don't look well.
+
+PLAYER: What happened?
+
+NA: He laughs, low and humorless.
+
+JO: The Crown "happened".
+
+NA: He holds up some papers.
+@char JO.sad
+JO: New taxes, charges, and threats.
+
+NA: His jaw clenches.
+
+JO: If I don't pay...
+
+JO: They'll take the house.
+
+NA: His gaze wanders the room.
+
+JO: This house.
+
+NA: Silence.
+
+JO: The little I still pretend to own.
+@char {PLAYER}2.sad
+PLAYER: Joaquim…
+
+JO: No.
+
+NA: He runs a hand over his face.
+
+JO: Don't look at me like that.
+
+JO: I hate when you look at me as if you're already mourning my funeral.
+@char {PLAYER}2.surprise
+@char JO.surprise
+NA: Before you answer, you both hear knocks on the door.
+
+JO: No.
+
+JO: Not now.
+
+NA: Silence is still heavy in the room.
+
+NA: Joaquim seems about to say something…
+
+NA: But the knocking insists, now louder.
+
+NA: Joaquim freezes.
+
+JO: …
+
+NA: His face pales.
+
+VOICE: Mr. Joaquim?
+
+NA: You see something change in him, it's not irritation or charm.
+
+NA: But fear, real and pure.
+
+JO: Shit.
+
+NA: The word is quiet, almost a whisper.
+
+JO: Hide.
+
+PLAYER: What?
+
+JO: Now.
+
+NA: He approaches quickly, his voice low but urgent.
+
+JO: If they find you here... they'll ask too many questions.
+
+JO: And I can't…
+
+NA: He stops, frustrated with himself.
+
+JO: Just trust me this time.
+
+NA: You hesitate, but eventually give in.
+
+NA: Joaquim quickly leads you to a side room, behind a partition and near stairs.
+
+JO: Don't make a sound.
+
+NA: Before leaving he touches your hand for a moment.
+
+JO: Please.
+@hide {PLAYER}2
+NA: Then he partially closes the door and takes a deep breath.
+
+JO: I'm coming.
+
+NA: You hear the door opening and heavy footsteps echo through the house.
+@char VI.neutral pos:{leftmid}
+NA: The man who enters doesn't need to raise his voice to take up space.
+
+NA: Well-dressed, impeccable posture, and a calculated gaze.
+
+NA: Beside him, two Crown's men.
+
+NA: Joaquim immediately straightens his posture.
+
+JO: Your Excellency.
+
+NA: The visitor studies the house meticulously, the papers, the drinks.
+
+NA: The carefully hidden decadence.
+@char VI.smile
+VI: Mr.Joaquim.
+
+NA: A cordial, but cold smile.
+
+VI: I've heard that your days are... financially difficult.
+
+NA: Joaquim doesn't answer, but his jaw clenches.
+
+VI: It's a pity.
+
+NA: He walks slowly around the room.
+
+VI: Especially for a man in your position.
+
+VI: And with the company you keep.
+
+NA: His gaze falls on Joaquim, who becomes slightly uneasy.
+
+VI: I've heard rumors.
+
+VI: Late night conversations, meetings…
+
+VI: Men dreaming beyond their means.
+
+NA: Joaquim remains motionless.
+
+VI: And, naturally, some say you're close to the alferes..
+
+VI: Tiradentes.
+
+NA: The name carries weight.
+
+JO: I know many people in the village.
+
+VI: Naturally.
+
+NA: The viscount gives a small, almost amused smile.
+
+VI: I've also heard you're close to Alvarenga.
+
+VI: And certain houses... where ideas circulate more freely than they should.
+
+NA: Joaquim discreetly squeezes his fingers against the fabric of his clothes.
+
+VI: Oh.
+
+VI: I don't blame you.
+
+VI: Men talk, dream, drink, and do foolish things.
+
+VI: But you know the Crown appreciates sensible men.
+
+NA: He pulls a letter from his jacket and calmly places it on the table.
+
+VI: Your debt.
+
+VI: They could disappear.
+
+NA: The silence is heavy, Joaquim looks at him with a different gleam in his eyes.
+
+VI: You keep the house.
+
+VI: Your name is preserved.
+
+VI: No public humiliation.
+
+VI: No arrest.
+
+NA: He approaches Joaquim, coming face  to face.
+
+VI: In exchange I only wish to know what dangerous dreams circulate this village.
+
+VI: Names, nothing more.
+
+NA: A long silence as he stares at Joaquim.
+
+VI: And, of course…
+
+NA: His tone softens.
+
+VI: It would be regrettable if such a respectable man ended up being mistaken for a traitor.
+
+NA: The message is clear.
+
+VI: Think about it.
+
+NA: He adjusts his gloves.
+
+VI: You are not a man for martyrdom.
+
+VI: You're a smart man.
+
+NA: Then he nods to the two soldiers and turns to leave.
+
+NA: At the door he gives Joaquim one last pointed look.
+@hide VI
+NA: The door closes and silence lasts too long.
+
+NA: Until Joaquim rests both hands on the table.
+
+JO: God.
+
+NA: His voice falters.
+
+JO: God forgive me.
+
+NA: When he finally speaks he doesn't seem cocky, a tease, or confident.
+
+NA: Just tired and afraid.
+
+JO: I don't know what to do.
+@char {PLAYER}2.neutral pos:{leftmid}
+NA: You come out of your hiding spot and walk toward him.
+
+@choice "Stay with him" goto:.scene10J-1
+
+@choice "Ask him to fight" goto:.scene10J-2
+
+@stop
+
+
+#scene10J-1
+@set afetoJoaquim+=1
+PLAYER: Hey.
+
+PLAYER: Breathe.
+
+NA: You approach him slowly.
+
+PLAYER: You're not alone.
+
+NA: Joaquim let's out a weak, almost broken laugh.
+
+JO: No?
+
+JO: Because right now I feel quite alone.
+
+PLAYER: Then I'll stay.
+
+NA: The effect is immediate.
+
+NA: Something in him gives way.
+
+JO: You will?
+
+NA: He asks, quiet and uncertain.
+
+PLAYER: Yes.
+
+NA: He closes his eyes for a second, as if he needed to hear that.
+
+JO: God help me.
+
+JO: Because I believe I needed to hear such a thing.
+
+@goto .scene10J-2end
+
+#scene10J-2
+
+PLAYER: Joaquim.
+
+PLAYER: You can't give in like that.
+
+PLAYER: You speak of change and hope.
+
+PLAYER: And you're going to betray people?
+@char JO.surprise
+NA: The blow lands.
+
+JO: It's not that simple!
+
+NA: His voice rises and then breaks.
+@char JO.sad
+JO: You don't understand.
+
+NA: He looks around and points his finger.
+
+JO: I lose this…
+
+JO: …I lose everything.
+
+JO: My house, my name... my life.
+
+PLAYER: But what about those who trust you?
+
+NA: The silence between you is heavy, you look at him as if daring him to make the right choice.
+
+JO: You think…
+
+JO: Do you really think I can be a better man than this?
+
+PLAYER: I think you can try.
+
+NA: He looks at you for far too long, trying to decide if he believes you.
+
+NA: As the silence grows, the house seems smaller and more suffocating.
+#scene10J-2end
+;Depois das escolhas
+
+JO: Tell me something.
+
+NA: He approaches you slowly.
+
+JO: If I make the wrong choice…
+
+JO: Will everything change?
+
+JO: Will you still…
+
+NA: He stops.
+
+JO: Will you still look at me the same way?
+
+NA: The question weights more than it should.
+
+JO: What should I do?
+
+JO: Tell me.
+
+JO: Because...
+
+NA: His voice falters.
+
+JO: I'm scared.
+
+NA: He's dangerously close to you, so close you feel his warm breath against your skin as he stares at you intensely.
+
+@choice "Accept" goto:.scene11J-1
+
+@choice "Refuse" goto:.scene11J-2
+
+@stop
+
+
+#scene11J-1
+@set afetoJoaquim+=1
+NA: Instead of answering you hold his face.
+
+NA: Joaquim stops speaking immediately.
+
+PLAYER: You don't have to go through this alone.
+
+NA: Something in his gaze crumbles.
+
+JO: Don't do that.
+
+PLAYER: Do what?
+
+JO: Be kind to me.
+
+JO: It's dangerously addictive.
+
+NA: Then he kisses you before he finishes the sentence.
+
+NA: You kiss him back right away.
+
+NA: The taste of wine is still there.
+
+NA: It's not the provocative kiss from before.
+
+NA: Less controlled, more afraid and needier.
+
+NA: As if trying to memorize something before you lose it.
+
+NA: Your hand moves up to his face, then his hair, your fingers clinging to it without you realizing it.
+
+NA: You just pull him close.
+
+NA: Ah first he freezes and you feel his body stiffen.
+
+NA: As if he'd forgotten how to receive comfort.
+
+NA: Then he gives in.
+
+NA: Joaquim makes a quiet sound against your lips.
+
+NA: A relieved sigh.
+
+JO: God…
+
+NA: His forehead rests against yours.
+
+JO: Don't look at me like that.
+
+JO: This is humiliating.
+
+PLAYER: What?
+
+JO: Learning I like it when people care for me.
+
+NA: A small tired laugh.
+
+JO: Don't spread that around.
+
+JO: I have a scoundrel reputation to keep.
+
+NA: You roll your eyes at the comment.
+
+PLAYER: You're nothing like you seem.
+
+JO: If you stick around any longer, I'll end up believing dangerous things.
+
+@goto .scene11J2end
+
+#scene11J-2
+
+NA: Joaquim leans in slowly.
+
+NA: His touch is careful.
+
+NA: His hand on your face, his thumb tracing circles under your chin.
+
+JO: I just…
+
+NA: His voice falters, lower than usual.
+
+JO: I need something good tonight.
+
+NA: Then he kisses you, or tries to.
+
+NA: But you instinctively pull away.
+
+NA: Your hand on his chest, a light but firm push.
+
+PLAYER: No.
+
+NA: Silence comes quick and a little embarrassing.
+
+NA: Joaquim freezes.
+
+NA: As if he couldn't understand.
+
+JO: …Ah.
+
+NA: His hand drops slowly.
+
+PLAYER: This isn't right.
+
+PLAYER: You're desperate.
+
+PLAYER: And I don't wanna be…
+
+NA: You hesitate.
+
+PLAYER: A distraction from your fear.
+
+NA: His gaze changes, almost imperceptible.
+
+JO: I understand.
+
+NA: His voice is calm, too calm.
+
+PLAYER: Joaquim…
+
+JO: No.
+
+NA: A small hand gesture asking you to stop.
+
+JO: Don't do that.
+
+PLAYER: Do what?
+
+JO: The part where you try to be gentle after breaking someone in half.
+
+NA: You open your mouth and close it.
+
+PLAYER: I didn't mean to…
+@char JO.smile
+JO: I know.
+
+NA: He gives a small, tired smile.
+
+JO: You never do.
+
+NA: He walks away, goes to the table and pours some wine.
+
+JO: You must be right.
+
+NA: He takes a long sip.
+
+JO: Desperate men rarely inspire romance.
+
+PLAYER: That's not what I said.
+
+JO: No?
+
+NA: His smile is crooked now.
+
+JO: So I also failed to interpret glances.
+
+NA: The silence between you grows, uncomfortable.
+
+PLAYER: I still care about you.
+
+NA: Joaquim laughs softly, humorless.
+
+JO: That might be the problem.
+
+JO: Because I begin to suspect I care more.
+
+NA: And that sentence hurts.
+
+NA: You feel your face heat up and your eyes suddenly moisten.
+
+JO: It's late.
+
+NA: His eyes avoid yours.
+
+JO: Maybe it's better if you go.
+
+NA: When you leave, he doesn't walk you to the door.
+
+NA: And, for the first time, Joaquim doesn't try to make you stay.
+#scene11J2end
+;Depois das escolhas
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+@back bg_innNight
+@bgm sad
+NA: Three days passed since you went to Joaquim's house, your days at the inn are a little boring.
+
+NA: Even Francisca notices how you seem a bit sad and doesn't tease you.
+@char JO.sad pos:{rightmid}
+NA: But that night something changes. You were getting ready to go to your room when he appears at the inn door.
+
+NA: Face tired as someone who has had days of poor sleep, and his clothes are disheveled.
+@hideChars
+@char FR.thinking pos:{rightmid}
+@char {PLAYER}2.neutral pos:{leftmid}
+FR: Your man looks like a ghost.
+
+PLAYER: Francisca…
+
+FR: I'll pretend I hear nothing.
+
+FR: And tell him that honest people sleep.
+@hide FR
+NA: She disappears discreetly.
+
+NA: Joaquim waits for you outside.
+
+PLAYER: Joaquim?
+@char JO pos:{rightmid}
+NA: He doesn't answer right away.
+
+JO: Walk with me.
+
+NA: His voice is weird and quiet.
+
+PLAYER: Joaquim—
+
+JO: Please.
+
+NA: Something about him makes you go.
+
+NA: You nod and walk through the door.
+
+@hide MainBackground
+@back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
+
+NA: The path is silent, most of the lights already out.
+
+NA: You stop far away, where no one can hear you.
+
+PLAYER: You're scaring me.
+
+NA: Then he finally speaks.
+
+JO: Maybe you should.
+
+NA: He laughs, weak and humorless.
+
+JO: I made a decision.
+@if afetoJoaquim>5
+@goto .scene12J-1
+@else
+@goto .scene12J-2
+
+@endif
+
+
+#scene12J-1
+@stopBgm fade:2 !wait
+NA: Joaquim stops walking.
+@bgm love
+JO: I spoke.
+
+NA: Your heart sinks.
+
+PLAYER: You…
+
+JO: Listen.
+
+NA: He interrupts quickly.
+
+JO: I said enough to survive.
+
+JO: Not enough to destroy everyone.
+
+NA: He averts his gaze.
+
+JO: I still did something unforgivable.
+
+PLAYER: Joaquim…
+
+JO: I know.
+
+NA: He runs a hand over his face, exhausted.
+
+JO: I spent the days thinking.
+
+JO: About fear, about the house, and…
+
+JO: About everything I could lose.
+
+NA: His gaze meets yours.
+
+NA: And for the first time he seems completely vulnerable.
+
+JO: And then I realized something.
+
+JO: None of this matters to me as much as I thought.
+
+NA: A small laugh escapes him, bitter.
+
+JO: You are a terrible influence.
+@char {PLAYER}2.surprise
+PLAYER: Me?
+
+JO: Yes.
+
+NA: A half smile.
+
+JO: Because now I have absurd thoughts.
+
+PLAYER: Such as?
+
+JO: Such as wanting to live.
+
+JO: And not just survive.
+
+JO: With you.
+
+NA: The silence has a different weight and you feel your heart pounding again.
+
+JO: I like you.
+
+JO: More than I should... More than it's prudent.
+
+JO: And if I stay here I'll end up dead.
+
+JO: Or worse.
+
+JO: So tell me it's not too late.
+
+NA: He laughs, weak and broken.
+
+JO: What a fine position for a man, no?
+
+JO: Choosing who destroys him.
+
+JO: Tell me…
+
+NA: His gaze seems desperately tired.
+
+JO: What would you do in my place?
+
+JO: Because—
+
+NA: His voice falters.
+
+JO: I'm afraid of becoming a man I won't be able to bear.
+@char {PLAYER}2.sad
+PLAYER: Joaquim… you betrayed them.
+
+NA: He lowers his gaze.
+
+JO: I know.
+
+JO: I hate myself a little for that.
+@char {PLAYER}2.determined
+PLAYER: Then prove something to me.
+@char JO.neutral
+JO: What?
+
+PLAYER: Go away with me.
+
+PLAYER: No house, no name, no precious fortune.
+
+PLAYER: Leave everything behind.
+
+NA: Joaquim blinks.
+
+JO: You're asking me to abandon everything I spent my life trying to keep.
+
+PLAYER: I'm asking you to choose something different.
+
+PLAYER: To choose someone…
+
+NA: He looks at you for a few moments.
+@char JO.happy
+NA: Then he laughs, weak and emotional.
+
+JO: God.
+
+JO: You are completely irresponsible.
+@char {PLAYER}2.smile
+PLAYER: I learned from you.
+@char JO.smile
+JO: Very well.
+
+NA: You see his eyes are moist.
+
+JO: You're a terrible influence.
+
+JO: Did you know that?
+
+PLAYER: I learned from you.
+@char JO.happy
+NA: A short laugh escapes him, weak but real.
+
+JO: God.
+@char JO.smile
+JO: He approaches and his hands find yours.
+
+JO: Forgive me.
+
+NA: His voice comes out low.
+
+JO: For the fears, for the lies.
+
+JO: And for the weak man I may have been.
+
+JO: You ask me to abandon everything I know.
+
+PLAYER: Yes.
+
+NA: He looks at you far too long.
+
+JO: …
+
+NA: For the first time he seems soft, scared, but soft.
+
+JO: Very well.
+
+JO: Let us do something terribly irresponsible.
+@goSub .BlackScreen
+@back bg_squareNight
+NA: Days later.
+
+NA: There are rumors, names, distrust and arrests.
+
+NA: In fact, what began with widespread arrests and house searches led to a man being arrested and taking responsibility for everything.
+
+NA: The condemned martyr serving as an example for anyone who tried to challenge the authority of the Portuguese Crown in Brazil.
+
+NA: Tiradentes.
+
+NA: And Joaquim disappeared, or almost.
+
+NA: Because that night, when everything seemed about to collapse, he came.
+@goSub .BlackScreen
+@back CGJ04_{gender}_01 id:CG time:0
+@unlock CG/CGJ04_{gender}_1
+NA: Under the night in Vila Rica, moonlight and distant lamplight, Joaquim mounted on a dark horse, little baggage and few certainties.
+
+NA: And Joaquim without his usual air of a man in control.
+
+JO: You can still give up.
+
+PLAYER: Will you?
+
+JO: No.
+
+NA: A small crooked smile.
+
+JO: For the first time I believe I am choosing something that I want.
+
+JO: Not out of fear.
+
+PLAYER: Then that's enough.
+
+NA: He just holds the reins with one hand, extending the other to you.
+
+JO: Come.
+
+JO: Before I regain my senses.
+@back CGJ04_{gender}_02 id:CG
+NA: You smile at him, then his hand finds yours, steady and warm.
+
+NA: You're surprised at how strong he is, as he pulls you up easily while you try to push your foot on the saddle.
+
+NA: You try and almost lose your balance.
+
+JO: My God.
+
+JO: Careful.
+
+JO: It's a horse, not a supply cart.
+
+PLAYER: That helps a lot.
+
+JO: I'm extremely helpful.
+
+NA: You finally manage to get on.
+@back CGJ04_{gender}_03 id:CG
+NA: Because it still takes takes a moment trying to figure out exactly where your legs should be.
+
+JO: Have mercy on me.
+
+JO: I'm starting to fear for my reputation.
+
+PLAYER: Your reputation?
+
+JO: If anyone sees you like this, they'll think I kidnapped you.
+
+PLAYER: I think I would have escaped.
+
+JO: Oh?
+
+NA: He gives you a small, crooked smile.
+
+JO: And where would you go?
+
+PLAYER: Maybe to look for a better horse rider.
+
+NA: The silence lasts half a second.
+
+NA: Joaquim chokes on his own pride, or perhaps just his saliva.
+
+JO: Pardon?
+
+PLAYER: What.
+
+PLAYER: I don't even know if you're good at this yet.
+
+NA: For the first time, Joaquim seems genuinely taken aback.
+
+JO: Are you…
+
+NA: He clears his throat.
+
+JO: Are you challenging me?
+
+PLAYER: Maybe.
+
+NA: A slight blush colors his face, very discreet.
+
+JO: Well.
+
+JO: I admit that…
+
+NA: A small sideways smile.
+
+JO: Perhaps I possess certain talents that you are not aware of yet.
+
+PLAYER: That sounded conceited.
+
+JO: Because it was.
+
+NA: He looks over his shoulder.
+
+JO: But if you're so inexperienced... I can teach you.
+
+NA: A short pause.
+
+JO: Riding.
+
+NA: The tone comes out too innocent.
+
+PLAYER: Joaquim!
+
+JO: What?
+
+JO: I was talking about the horse.
+
+NA: You finally manage to sit down and Joaquim puts his arms around you so you can hold the reins.
+
+JO: Like this.
+
+NA: The voice is lower now.
+
+JO: And try not to fall.
+
+JO: I've grown more fond of you than I should.
+
+NA: You feel his strong, muscular body behind you and his warm breath on your neck.
+
+NA: He hold the reins with one hand while the other goes to your waist, holding you as if afraid you'll fall; the contact warm and firm.
+
+NA: The proximity makes his woody scent invade your nose and for a moment you simply rest your head against his body.
+
+JO: I don't promise fortune or immediate peace.
+
+NA: His arm tightens slightly around you.
+
+JO: But I promise to try to be a better man than I was yesterday.
+
+JO: If you still want me around.
+
+PLAYER: Considering the position we're in.
+
+PLAYER: I think I'll have to put up with you.
+
+JO: Excellent.
+
+JO: Because I intend to make myself inconveniently difficult to forget.
+
+NA: They say a man disappeared from Vila Rica.
+
+NA: Indebted, problematic, unreliable.
+
+NA: A man of excessive charm and smooth talk, who left behind a house that was never entirely his.
+
+NA: A name, some enemies, and debts he finally gave up paying.
+
+NA: They also say he was never seen again, but some say he died or was imprisoned.
+
+NA: But the roads like tall tales.
+
+NA: And in the markets between villages, some swear they've seen him.
+
+NA: A man too handsome with an easy smile on a dark horse.
+
+NA: Always arguing with someone who speaks strangely next to him.
+
+JO: <i>You hold the reins like someone who wants to die.</i>
+
+PLAYER: <i>And you give instructions like you were born on a horse.</i>
+
+JO: <i>Deeply offensive.</i>
+
+NA: Some say they argued frequently.
+
+NA: About roads, about money, and the fact Joaquim insisted on spending coin they didn't have.
+
+JO: <i>It's an investment.</i>
+
+PLAYER: <i>In wine?</i>
+
+JO: <i>In happiness.</i>
+
+NA: And also some unreliable witnesses say they argued over who, after all, rode worse.
+
+PLAYER: <i>You're exaggerating and almost threw me off.</i>
+
+JO: <i>I didn't.</i>
+
+JO: <i>I just tested your faith.</i>
+
+PLAYER: <i>You almost killed me.</i>
+
+JO: <i>But you didn't die.</i>
+
+JO: <i>Therefore, I was excellent.</i>
+
+NA: Whatever the truth may be, those who swear they saw them agree on one thing:
+
+NA: The man from Vila Rica, who was previously so preoccupied with surviving, finally seemed light.
+
+NA: As a man who could have been too late, but discovered just in time that freedom, sometimes, is found less in revolutions and more in the right people by your side.
+
+NA: Even if late.
+
+;FIM!
+
+@goto .GameEnd
+
+#scene12J-2
+@stopBgm fade:2 !wait
+@char JO.neutral
+@char {PLAYER}2.neutral
+NA: Joaquim stops walking.
+@bgm tension
+JO: I spoke.
+NA: The world seems to stop around him, you feel your heart heavy and your mouth suddenly goes dry.
+@char {PLAYER}2.surprise
+PLAYER: You what!?
+JO: I gave them names.
+NA: Your heart sinks.
+JO: Not all, but enough…
+PLAYER: Joaquim…
+NA: Your voice comes out quiet, in disbelief.
+JO: Don't look at me like that.
+JO: I wanted to live.
+PLAYER: Live?
+PLAYER: You call this living?
+NA: He stiffens.
+JO: You have no idea what they were asking of me!
+@char {PLAYER}2.neutral
+PLAYER: Tiradentes was right.
+@char JO.surprise
+NA: The blow hits him squarely.
+
+PLAYER: You're a coward.
+@char JO.neutral
+NA: Complete silence from him.
+PLAYER: He's more of a man than you'll ever be.
+NA: Joaquim laughs, short and cold.
+NA: He seems dangerously hurt.
+JO: Ah.
+JO: So that's it.
+NA: He crosses his arms in revolt.
+JO: The great alferes.
+JO: The hero.
+JO: The man of courage.
+@char JO.angry
+JO: I always knew.
+PLAYER: Knew what?
+JO: That you would end up choosing him.
+NA: His jealously is so evident it would be ridiculous, if it weren't so sad.
+@char JO.neutral
+JO: Maybe I should have put a mustache on you too.
+@char {PLAYER}2.surprise
+PLAYER: What?!
+JO: To see if you would finally look at me with admiration.
+@char {PLAYER}2.angry
+PLAYER: That's not funny!
+JO: No?
+JO: Because I'm having a great time.
+
+NA: He's not, not at all.
+PLAYER: You betrayed people!
+JO: I survived!
+PLAYER: Like a rat!
+JO: And he will die like a stupid martyr!
+PLAYER: Shut up!
+JO: No!
+NA: Now he's angry, too. Hurt, jealous, and desperate.
+JO: I spent too much time trying to be enough for you!
+JO: And in the end it was always the alferes.
+JO: Or the handsome doctor.
+JO: Or any man and woman in this damned village!
+PLAYER: You're unbelievable.
+JO: And you're cruel.
+NA: A horrible silence falls.
+@char JO.neutral
+JO: You know the worst part?
+@char JO.smile
+NA: A crooked, broken smile.
+JO: I still would have run away with you.
+@char {PLAYER}2.surprise
+NA: You lose your breath for a second.
+@char {PLAYER}2.determined
+PLAYER: Then you should have chosen differently.
+
+@char JO.neutral
+NA: Something in him breaks.
+JO: Ah.
+@char JO.smile
+NA: A small, icy smile
+JO: I believe I already did.
+@char JO.neutral
+NA: He keeps walking, not looking at you.
+
+NA: For a moment, you almost consider leaving.
+
+NA: But then something seems off.
+
+NA: The street is too empty, too quiet.
+
+
+PLAYER: Joaquim…
+@char JO.sad
+NA: He stops and finally looks at you.
+
+NA: He looks tired, hurt, and strangely distant.
+
+JO: You know…
+
+NA: His voice is quiet.
+
+JO: I find it curious.
+
+JO: I spent so much time fearing you would abandon me…
+
+JO: And, in the end, you're the one who did it first.
+
+PLAYER: What are you talking about?
+
+NA: Joaquim laughs, weak and joyless.
+
+JO: It won't make a difference anymore.
+
+NA: You hear voices in the distance and many footsteps. A shiver runs through your body and you stare at him.
+
+PLAYER: Joaquim?
+
+NA: And then you understand.
+
+NA: Armed men emerge from the shadows.
+
+GUARD: In name of the Crown!
+@char {PLAYER}2.sad
+PLAYER: No.
+
+NA: You heart sinks.
+
+PLAYER: Joaquim?!
+
+NA: He remains motionless, not surprised but waiting.
+
+PLAYER: You... you scheduled this?
+
+JO: I needed to survive.
+
+NA: His answer is quiet.
+@char {PLAYER}2.determined
+PLAYER: You bastard.
+@char JO.neutral
+JO: Don't make this difficult.
+@char {PLAYER}2.angry
+PLAYER: Difficult?!
+
+PLAYER: You betrayed everyone!
+
+PLAYER: Tiradentes, Francisca and Alvarenga are all right about you.
+
+PLAYER: I was stupid enough not to see.
+@char JO.angry
+NA: That hits him, deep and cruel.
+
+NA: You see fury in his eyes.
+@char JO.neutral
+JO: Ah, yes.
+@char JO.smile
+NA: The smile returns.
+
+JO: The great alferes.
+
+NA: A small nod.
+
+JO: Doctor Alvarenga.
+
+NA: The name comes out loaded with contempt and jealousy.
+
+JO: Handsome, elegant, and a poet.
+
+JO: With his refined manners and gentle voice.
+
+PLAYER: Joaquim, that's not what this is about.
+
+JO: No.
+
+JO: Let me finish.
+
+NA: His voice falters for a moment.
+
+JO: And Francisca…
+
+NA: A bitter laugh.
+
+
+JO: Ah, that one never liked me.
+
+JO: I bet she warned you.
+
+JO: "Watch out for Joaquim."
+
+JO: "Joaquim is trouble."
+
+NA: A step forward.
+
+JO: You see.
+
+NA: He spreads his arms theatrically.
+
+JO: They were right.
+
+JO: Tell me…
+
+NA: He takes a step close enough to you.
+
+JO: When exactly did you decide I had lost?
+
+PLAYER: When you chose to be a coward!
+@char JO.determined
+NA: Something hardens in him for good.
+
+JO: Well then.
+
+JO: At least cowards live longer.
+
+NA: He raises his flask that you didn't even notice.
+
+JO: Take them.
+
+NA: The guards grab your arms as you struggle to break free.
+
+PLAYER: You'll rot alone!
+@char JO.neutral
+NA: Joaquim hesitates, only for a moment.
+
+JO: Perhaps.
+@char JO.smile
+NA: A small, crooked smile. Sadder than it is cruel.
+
+JO: But alive.
+@hide {PLAYER}2
+NA: And when you're taken away, he doesn't follow you.
+
+NA: He just stands there on the road, watching.
+
+NA: As a man who just gained everything and lost something he might not be able to name.
+@stopBgm fade:3 !wait
+@goSub .BlackScreen
+@bgm sad
+;Passagem de tempo.
+
+NA: The following days are confusing, dark and damp.
+@back bg_prisonLightOn
+NA: And now you're together in the cell.
+
+NA: Tiradentes hurt and furious.
+
+NA: Célio too quiet, and the other men and women.
+
+NA: The betrayal weighting heavily on everyone.
+@char TI.neutral pos:{leftmid}
+TI: I warned you.
+
+NA: There is no cruelty in his voice, only weariness.
+
+TI: But none of us imagined…
+
+NA: He doesn't finish and he doesn't need to.
+
+NA: Then you hear footsteps.
+
+NA: Too elegant for that decadent place, and you see Joaquim.
+@char JO.neutral pos:{rightmid}
+NA: Well dressed, clean, and free.
+
+NA: Belonging to another world now.
+@char JO.smile
+JO: Good afternoon.
+
+NA: His smile is small and controlled.
+@char TI.angry
+TI: Coward.
+
+NA: Tiradentes almost spits with anger and disgust.
+
+JO: Prudent.
+
+NA: He automatically corrects, like an old habit.
+
+JO: Well.
+
+NA: A small crooked smile as he looks at you.
+
+JO: I believe you now have an opportunity.
+@char {PLAYER}2.determined pos:{mid}
+PLAYER: What?
+
+JO: Your great alferes.
+
+NA: He vaguely nods at Tiradentes.
+
+JO: So honorable.
+
+JO: So virtuous.
+
+JO: So dramatically patriotic.
+
+TI: Shut up.
+
+JO: Oh, no.
+
+NA: Joaquim crosses his arms.
+
+JO: Now it's you who'll have company at night.
+
+JO: You can finally discuss freedom until the wee hours of the morning...
+
+JO: …Or perhaps just continue your mutual obsession.
+
+PLAYER: Joaquim, why don't you shut your mouth since this is all your fault.
+
+NA: He gives you a cold, cynical smile.
+
+JO: Don't worry about me.
+
+JO: I'm sure the alferes will take very good care of you.
+
+TI: Dear God.
+
+NA: Tiradentes loses his patience and grabs the cell bars, getting close to Joaquim.
+
+TI: Even now you can't stop being petty?
+
+JO: Petty?
+
+NA: Joaquim laughs.
+
+JO: You destroyed half this village with your dreams of grandeur!
+
+TI: And you the other half with your cowardice!
+
+JO: Cowardice?!
+
+NA: Joaquim takes a step.
+
+JO: At least I didn't lead men to the gallows out of pride!
+
+TI: At least I fought for something beyond myself!
+
+JO: Oh, yes.
+
+NA: Joaquim opens his arms theatrically.
+
+JO: The martyr!
+
+JO: The hero!
+
+JO: The most virtuous man in Minas!
+
+TI: Scoundrel.
+
+JO: Reckless visionary.
+
+TI: Traitor!
+
+JO: Fanatic!
+
+NA: For a moment the two seem about to grapple, stopped only by the bars between them.
+@hide {PLAYER}2
+@char CE.determined pos:{mid}
+CE: For God's sake.
+
+CE: Can you wait for the execution before you kill each other?
+
+NA: For a second you almost forget where you are. Almost.
+
+GUARD: Silence in there!
+
+NA: The door slams open.
+
+GUARD: Did we arrest you or open a tavern?
+
+NA: A man of the Crown follows him, holding documents.
+
+NA: Joaquim steps away from the cell, going to him and straightening his clothes.
+@goSub .BlackScreen
+;Frame 1
+@back CGJ05_{gender}_01 id:CG time:0
+@unlock CG/CGJ05_{gender}_1
+EM: For services rendered to the Crown.
+
+NA: The man hands over the letter.
+
+EM: Your debts are hereby forgiven.-
+
+EM: And His Majesty acknowledges your loyalty.
+@back CGJ05_{gender}_02 id:CG
+;Frame 2
+
+NA: Joaquim takes the document.
+
+NA: His fingers grip the paper with satisfaction.
+
+NA: A small smile appears, beautiful and empty.
+
+NA: Behind bars, the conspirators react with anger and shock.
+@back CGJ05_{gender}_03 id:CG
+;Frame 3
+
+NA: He then looks at you directly.
+
+NA: Directly.
+
+NA: The whole world disappears for a moment.
+
+JO: You see?
+
+NA: His smile is cold.
+
+JO: In the end, I survived.
+
+NA: But his gaze wavers for a single second and his mouth trembles.
+
+NA: Because maybe, just maybe.
+
+NA: Survival cost him something he didn't expect to lose.
+@goSub .BlackScreen
+;;@back cg_black.Crossfade id:CG !wait
+@hide CG
+NA: They say Joaquim prospered.
+
+NA: He paid his debt, cleared his name, received protection from the Crown against his furious enemies.
+
+NA: But they also say he started drinking more.
+
+NA: And avoided certain paths, certain names and memories.
+
+NA: Because sometimes, late at night, he seemed to look at closed doors.
+
+NA: Like a man waiting for someone he knew would never return.
+@goSub .GameEnd
+;FIM!
+@stop
+
+# BlackScreen
+@hideChars !wait
+@hidePrinter time:1 !wait
+@hide MainBackground
+@hide CG !wait
+@back bg_black pos:50,50 scale:1 time:0
+; @stopBgm fade:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:1.5 wait!
+@return
+
+# GameEnd
+@stopBgm fade:1
+@hideChars !wait
+@hide CG !wait
+@hidePrinter time:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:0.5 wait!
+@showUI TitleUI
+@stop

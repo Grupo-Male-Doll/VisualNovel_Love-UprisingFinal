@@ -1,0 +1,3996 @@
+
+@stopBgm fade:2 !wait
+@back bg_innDay
+@bgm respite
+
+NA: The morning light enters through the window cracks and reaches your eyes.
+NA: You blink a couple times, adjusting to the brightness, and stir in bed.
+NA: Your gaze lingers on the ceiling and you startle, sitting up abruptly.
+NA: This room and the warm air against your skin feel odd to you.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: Damn, I'm still here..... then this is all real.
+PLAYER: How did I manage this? Am I delirious?
+NA: Thoughts and ideas wander your mind, but you can't stay in bed all day.
+NA: The bed creaks softly when you get up.
+NA: Outside, Vila Rica already rises. You hear voices and footsteps.
+NA: Standing up, you grab your clothes and get dressed.
+NA: You go down the stairs to the inn.
+NA: The smell of fresh coffee and warm bread fills the room.
+@char {PLAYER}2 pos:{leftmid}
+@char FR.neutral pos:{rightmid}
+NA: Behind the counter, a woman watches you intently.
+NA: Unlike yesterday, she takes the initiative.
+FR: Good morning.
+NA: Her tone is firm, but not hostile.
+FR: We haven't had the pleasure of properly introducing ourselves.
+NA: She sets the rag on the counter, wiping her hands.
+@char FR.smile
+FR: Francisca.
+NA: A soft smile.
+FR: And you...?
+@char {PLAYER}2.smile
+PLAYER: {name}.
+@char FR.thinking
+NA: She repeats it quietly.
+FR: Hm.
+NA: You approach, still somewhat lost.
+PLAYER: Is there... somewhere I can freshen up?
+@char FR.smile
+NA: Francisca chuckles.
+FR: Yes.
+FR: But it might not be how you hope.
+NA: She turns away and goes into the pantry.
+NA: Not long after, she lays some items on the counter.
+NA: Leaves, cloves, and a small amount of powder.
+NA: Your head tilts to the side as you consider the items.
+@char {PLAYER}2.thinking
+PLAYER: ...is this food?
+@char FR.smile
+FR: No.
+NA: She holds back laughter.
+FR: It's for cleaning your mouth.
+NA: You hesitate.
+PLAYER: Are you serious?
+FR: Very.
+NA: She crosses her arms.
+FR: Or do you intend to talk to half the world with sleepy breath?
+NA: You grab one of the cloves, still unsure.
+@char {PLAYER}2.surprise
+NA: The taste is immediate. Strong and spicy.
+NA: Your eyes almost close.
+PLAYER: This burns.
+@char FR.neutral
+FR: It cleans.
+NA: She shrugs.
+FR: Not everything that serves a purpose is pleasant.
+NA: You keep going, though against your will.
+PLAYER: (I would give anything for a toothbrush right now...)
+FR: With time, you get used to it.
+NA: She watches you for a moment.
+@char FR.smile
+FR: Or at least one learns to pretend so.
+NA: When you're done, she shoves a plate in your direction.
+FR: Now that's more like it.
+@char FR.neutral
+FR: Eat.
+NA: The bread is still warm as you take a piece.
+NA: Its texture is soft on the inside, slightly gooey.
+@char {PLAYER}2.surprise
+NA: The taste surprises you.
+PLAYER: (...This...)
+PLAYER: (Almost tastes like pão de queijo.)
+@char {PLAYER}2.neutral
+NA: Coffee comes next, strong and bitter.
+@char {PLAYER}2.thinking
+PLAYER: (Would it be too much to ask for sweetener?)
+@char FR.neutral
+FR: So...
+NA: She leans on the counter, studying you with more interest now.
+FR: Since you survived the clove...
+FR: ...we can have a conversation.
+FR: Doctor Alvarenga.
+PLAYER: (Here we go.)
+FR: Friend of yours?
+PLAYER: Sort of.
+PLAYER: I met him by chance.
+@char FR.smile
+FR: By chance...
+NA: She holds a smirk on her lips.
+FR: This village has been full of earnest chances.
+@char {PLAYER}2.thinking
+PLAYER: Agreed, I heard of a few...
+NA: She tilts her head slightly.
+PLAYER: I heard of Hipólita...
+NA: Francisca makes a small “hm”.
+FR: You heard, of course.
+@char FR pos:{mid}
+NA: She approaches a little more.
+@char {PLAYER}2.embarrass
+FR: Well, I also heard: She's engaged.
+NA: A short silence between you.
+NA: Her eyes gleam in a taunt.
+FR: And not to just any man.
+@char FR.neutral pos:{rightmid}
+NA: She steps back, grabbing a rag.
+FR: Vila Rica may seem small... but commitments here are grand.
+NA: She looks at you again.
+FR: Heed, then, where you go.
+@char FR.smile
+NA: A half smile.
+FR: Or with whom.
+PLAYER: (Great.)
+PLAYER: (I barely got here and I'm already in the middle of a relationship.)
+@char FR.neutral
+FR: Now that you are fed like a person...
+@char {PLAYER}2.surprise
+NA: Francisca's voice pulls you from your delusions.
+NA: She throws a rag in your direction.
+FR: You can help as one.
+PLAYER: Me?
+FR: I see no one else available.
+@char FR.smile
+NA: A half smile.
+FR: Unless you'd rather go back to the cloves?
+@char {PLAYER}2.neutral
+PLAYER: ...I'll help.
+@char FR.neutral
+NA: The task isn't complicated.
+NA: It's just cleaning and organizing the inn entrance.
+NA: You help her organize items and watch her clean.
+PLAYER: (Too bad bleach wasn't invented yet... could I do it??
+NA: But time passes faster than you expected.
+NA: And somehow this simple service is pleasant.
+FR: That's enough.
+NA: Francisca takes the rag from your hands.
+FR: Before I have start paying you for it.
+@char {PLAYER}2.smile
+PLAYER: Tempting.
+@char FR.smile
+FR: Don't push it.
+NA: But there is humor there.
+NA: You turn toward the door, open it and leave the inn.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 wait!
+@bgm wander
+NA: The sun is higher in the sky, you realize that yesterday you hadn't really noticed the path and houses around.
+NA: You start walking in slow steps, the road stretches ahead of you.
+NA: On your walk, you start recognizing the road and some of the trees.
+NA: The path feels all too familiar.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: (I shouldn't...)
+NA: Your feet keep going.
+PLAYER: (Going back there makes no sense.)
+NA: But there is something on your mind: a face and a memory.
+NA: And when you realize it, you're already on the same path as before.
+@stopBgm fade:1 !wait
+@hideChars
+@hide MainBackground
+@back bg_gardenDay pos:50,50 scale:1 time:0
+NA: The manor comes to view amidst the vegetation, followed by the beautiful green garden beside it.
+@bgm hipolita
+@char HI.neutral pos:{mid}
+NA: When you see her a smile spread across your lips and your cheeks flush slightly.
+NA: In the garden carefully harvesting herbs, Hipólita has a serious but tired expression.
+NA: Like someone who carries more than they should.
+NA: And then-
+NA: She looks up and sees you.
+NA: You exchange a knowing glance for a few seconds and an affectionate expression shapes her face.
+@char HI.smile
+NA: The smile seems immediate.
+HI: Well...
+HI: I didn't expect to see you again.
+
+; Variação de CG dependendo do gênero
+@if gender="male"
+NA: You approach slowly.
+NA: Your heart beats faster than it should.
+NA: Your eyes fall upon the flowers in the garden.
+NA: Before you can think about it, you glance at the flowers and pick one.
+@goSub .BlackScreen
+@back CGH02_{gender}_01 pos:50,50 id:CG scale:1 time:0
+@unlock CG/CGH02_{gender}_1
+NA: Holding it between your finger and plucking it from the earth, you offer it to her.
+NA: A simple gesture.
+NA: For a second, you consider backing out.
+NA: But it's too late, her eyes wander over yours and then to the flower.
+@back CGH02_{gender}_02 id:CG
+NA: She accepts it with a genuine smile on her lips.
+NA: Her fingers brush against yours, delicate and warm.
+NA: Her smile shifts, softer now.
+PLAYER: A flower for a smile from a beautiful lady.
+NA: Hipólita seems to consider your words.
+PLAYER: (“A flower for a smile" what's your problem?)
+PLAYER: Sorry.....
+
+@else
+NA: You approach.
+NA: Observing the care in which she chooses each leaf.
+NA: Hipólita watches you for a moment, her eyes tracing your face.
+NA: As if she deciphered something, a subtle smile emerges.
+@goSub .BlackScreen
+@back CGH02_{gender}_01 pos:50,50 id:CG scale:1 time:0
+@unlock CG/CGH02_{gender}_1
+NA: She then chooses a flower, picks it, and offers it to you.
+NA: Not a single word.
+NA: It's a kind gesture.
+NA: You lift your hand to your chest in surprise.
+PLAYER: For me?
+NA: She nods, her smile wider.
+@back CGH02_{gender}_02 id:CG
+NA: When you take the flower, her fingers brush yours.
+NA: A soft touch, that lingers a second longer than it should.
+NA: Her smile deepens.
+; aquii
+@endif
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@back bg_gardenDay.Crossfade pos:50,50
+NA: She then turns around, taking slow steps toward the garden.
+NA: The garden feels livelier, the sound of birds and trees fill the air.
+@char HI pos:{mid}
+HI: I was just handling simple things.
+NA: You glance at the herbs in her hands.
+HI: Sometimes... that's all we have left.
+NA: But her gaze returns to you.
+NA: There's a brief silence, but while she looks at you something dangerous seems to surface.
+NA: Her eyes study you as if she had something to say.
+HI: Would you like to come in?
+@char HI pos:{rightmid)}
+@char {PLAYER}2.surprise pos:{leftmid}
+NA: The invite is sudden, seemingly impulsive.
+NA: As if she hadn't planned to say it.
+NA: Then you remember: The fiancé, the house and all this implies.
+PLAYER: (This isn't a good idea...)
+PLAYER: (And yet...)
+NA: You don't reply right away.
+
+; Escolha:
+@choice Decline goto:.scene2H-1
+@choice Accept goto:.scene2H-2
+@stop
+
+
+# scene2H-1
+NA: You hesitate.
+NA: For a moment, you picture.
+NA: The interior of the house, the proximity, and what it would be like.
+PLAYER: (No...)
+PLAYER: (This is not a good idea.)
+PLAYER: I don't think this is... appropriate.
+NA: Silence comes quickly.
+NA: Not heavy, but understanding.
+NA: Hipólita holds your gaze for a moment.
+NA: As if she already expected such answer.
+HI: You are prudent.
+@char HI.smile
+NA: A soft smile.
+HI: It's a rare quality.
+NA: But there's something there, a hint of disappointment.
+NA: So subtle it almost goes unnoticed.
+PLAYER: I don't want to cause trouble.
+HI: Nor I.
+NA: She answers, almost a whisper.
+HI: Still...
+NA: She adjusts the herbs in her hands.
+HI: If you perhaps come by again...
+HI: Your company wouldn't be unwelcome.
+PLAYER: I... will remember that.
+NA: Your eyes meet once more.
+NA: And stay, one second longer.
+@hideChars
+NA: So you walk away. Before you change your mind.
+@goSub .BlackScreen
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 !wait
+NA: You walk the way back, the road feels much longer now.
+NA: The sun heavier.
+@char {PLAYER}2.sad pos:{mid}
+PLAYER: (I did the right thing.)
+PLAYER: (I did, didn't I?)
+NA: You slow your pace to a stop, studying the path.
+NA: The dirt, the little plants growing among stones.
+NA: Without much thought, you crouch.
+NA: Your fingers graze a simple herb by the roadside.
+NA: Its scent drifts soft and fresh.
+PLAYER: (She would know what this is called)
+@char {PLAYER}2.smile
+NA: A small smile emerges, involuntary.
+NA: You twirl the herb between your fingers, thoughtful.
+PLAYER: (Should I have gone in?)
+NA: A gush of wind ruffles your hair and you stand up.
+NA: Following the path to the inn.
+
+
+# scene2H-2
+@set afetoHipolita+=1
+
+PLAYER: ...yes.
+NA: The answer comes out both louder and quieter than you anticipated.
+NA: But it's enough.
+NA: Hipólita opens the door and you go inside.
+@back bg_hipolitaDay
+NA: The interior of the house is amazing.
+NA: Everything is well cared for, the furniture is polished, the fabrics are rich and delicate, and the small decorative trinkets are all placed with purpose.
+NA: The house exudes zeal, care, and a certain pride.
+NA: Hipólita watches your reaction.
+HI: It's simple.
+NA: She says, almost too fast.
+HI: But... I do what I can.
+NA: You notice.
+PLAYER: It's not simple, it's yours....
+NA: She considers you for a moment, sensing you understand her somehow.
+NA: Soft footsteps approach.
+@char CELINA.neutral pos:{mid}
+NA: A young lady arrives in the background.
+NA: Discreet posture and attentive eyes.
+HI: This is Celina.
+NA: A small hand gesture.
+HI: She tends to the house with me.
+NA: Celina bows her head.
+@if gender="female"
+CELINA: Ma'am.
+@else
+CELINA: Sir.
+@endif
+PLAYER: My pleasure.
+NA: There something strange about the way Hipólita introduces her.
+NA: Not as someone inferior, but rather as someone close.
+NA: Celina notices your gaze.
+@char CELINA.smile
+NA: And answers with a short smile and a nod.
+@hide CELINA
+NA: You walk around the house.
+NA: Hipólita runs her finger over the furniture as she speaks.
+HI: The farm demands more than many assume... and offers less than they promise.
+@char HI.smile
+NA: A half smile shapes her lips.
+HI: Still, it stands firm.
+NA: She stops herself.
+NA: As if she had said more than she wanted.
+HI: Come.
+NA: This time, the invitation is quieter, more personal.
+NA: You pass by several doors as you keep walking.
+NA: When you reach the last one, Hipólita opens it to reveal a bedroom.
+NA: The bedroom is tidy and intimate, with a large bed to the middle, a chest for clothes, and a vanity with a jewelry box and perfume bottles.
+NA: Hipólita walks in as you approach somewhat reluctantly.
+PLAYER: (What am I doing in her bedroom????)
+NA: Hipólita goes to a small box, traditional and ornate.
+NA: She carefully opens it.
+NA: Inside it are some jewelry, old and delicate.
+NA: She reaches for something as you watch, some type of ornament.
+NA: Getting a better look you notice it's a bunch of bananas made of solid gold.
+HI: These are antique pieces.
+HI: They're my family's.
+PLAYER: A curious family heirloom.
+NA: She holds the pieces gently.
+HI: These say much...
+HI: Of who I'm expected to be.
+NA: A short silence, but the weight of her words doesn't go unnoticed.
+PLAYER: And who do you want to be?
+NA: The question slips out, blunter than you wanted.
+NA: Hipólita smiles, but the softness is gone.
+HI: That part...
+HI: No one bothered to teach me.
+NA: You notice then, not only pride but fear.
+PLAYER: (Fear of losing everything...)
+PLAYER: (...Or of never having a choice.)
+NA: Hipólita puts the item back gently, her gaze seemingly lost after your question.
+PLAYER: I meant no offense, I just struggle to understand the concepts in this place.
+NA: Hipólita nods slowly, she doesn't seem displeased.
+HI: You didn't offend me.
+HI: You only asked what few dare to.
+NA: The two of you leave the bedroom, you follow her through the house and the conversation continues down the hall.
+NA: Going through one of the rooms, you see a large harpsichord occupying the space.
+NA: Hipólita runs her fingers over the keys, without playing them.
+HI: There are things that seem decided before they even happen.
+NA: She speaks quietly.
+HI: Like the wedding.
+NA: A soft sigh.
+HI: Everyone treats it like a path with no return.
+NA: Finally, she plays a note.
+@sfx hapsichord
+NA: The sound echoes by itself in the room.
+HI: I am expected to just accept it... no question, no word, no delay.
+NA: She looks at you.
+HI: And I don't know if I can go through it anymore.
+HI: I've been hearing some things...
+NA: She lowers her voice even more.
+HI: About ideas... changes.
+NA: A quick glance at the door.
+HI: I dare not say them out loud...
+HI: But neither are they entirely strange to me.
+NA: She faces you.
+HI: However...
+NA: A pause.
+HI: I belong to a world that doesn't condone such inclinations.
+
+@choice "Encourage her ideas" goto:.scene3H-1
+@choice "Say it's dangerous" goto:.scene3H-2
+@stop
+
+# scene3H-1
+@set afetoHipolita+=1
+@char {PLAYER}2.determined
+PLAYER: Maybe that's exactly what you need, to question and resist.
+PLAYER: To think of what you would like to do and be able to choose, like Tiradentes is trying to do now.
+NA: Hipólita watches you intently.
+NA: As if the possibility were much too dangerous.
+HI: What if, in doing so, I lose all I have?
+PLAYER: Maybe that's the only way to finally choose something.
+NA: Silence descends upon you, but there's something new there.
+NA: A spark.
+HI: You speak as someone who approaches risk lightly.
+PLAYER: I didn't say it was simple, but it can be better than just accepting your fate.
+NA: A small smile graces her features.
+HI: Still, there is something in these words that unsettles me.
+HI: Maybe that's exactly why I wish to keep them.
+
+@goto .scene3H-3
+
+# scene3H-2
+PLAYER: Much more than it seems.
+NA: Hipólita lowers her gaze.
+NA: Contemplative.
+HI: Yes...
+HI: The danger shows itself clearly.
+@sfx hapsichord
+NA: She plays another key.
+HI: Perhaps this is why I never went beyond ideas.
+PLAYER: Maybe it's better this way.
+HI: There are boundaries imposed on us...
+HI: And others we learn not to cross.
+NA: The silence stretches between you.
+NA: Not uncomfortable, but not simple either.
+NA: There is something that must remain unspoken.
+
+# scene3H-3
+NA: Hipólita steps away, as if suddenly remembering where she is.
+HI: I believe... I've already taken too much of your time.
+NA: Her tone is gentle.
+NA: You nod.
+PLAYER: I don't mind.
+NA: The answer comes faster than it should.
+NA: And, for a second, you regret it.
+NA: But Hipólita only smiles, small and restrained.
+@char HI.sad
+HI: Still.... it's not advisable.
+NA: She lowers her gaze for a moment.
+@char HI.neutral
+NA: Then stares back at you.
+HI: If you perchance find yourself back in these roads...
+HI: I wouldn't be ungrateful of your visit.
+NA: It's not a direct invitation but neither is it casual.
+PLAYER: I'll remember that.
+NA: You return by the previous path
+NA: Reaching the entrance, you face each other.
+NA: One last lingering look.
+
+@hide HI
+@back bg_gardenDay
+@char {PLAYER}2 pos:{mid}
+@stopBgm fade:2 !wait
+NA: Then you turn away and leave the house.
+@sfx leaves
+NA: Your feet touch the grass and the sound of rustling leaves reach your ears again.
+@stopSfx fade:3 !wait
+@goSub .BlackScreen
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 !wait
+@bgm wander
+NA: The road feels quieter on the way back.
+PLAYER: (Was this a good idea?)
+NA: The village emerges ahead of you.
+NA: Full of life and movement, people, horses, merchants announcing their products.
+PLAYER: (Something feels different...)
+NA: Your steps continue steadily back toward the inn.
+NA: But something dwells in your mind.
+NA: The light weight of a meeting that shouldn't have been.
+; NA estalagem
+NA: As you walk through the village, the inn come into view before you.
+NA: Almost welcoming.
+@stopBgm fade:1 !wait
+@bgm respite
+@hide MainBackground
+@back bg_innDay pos:50,50 scale:1 time:0
+NA: As soon as you enter, you find Francisca sitting down mending some clothes.
+@char FR.neutral pos:{mid}
+FR: Well.
+NA: Francisca barely looks up.
+FR: You were gone for hours...
+@char FR.smile
+FR: And you return with a face like that.
+NA: A smirk.
+FR: Where have you been?
+@char {PLAYER}2.neutral pos:{leftmid} !wait
+@char FR pos:{rightmid}
+PLAYER: I...
+PLAYER: Ran into... a friend.
+NA: Her finger halt their movement slowly as she faces you.
+FR: “Friend”.
+FR: Quite a useful word.
+FR: And who might this friend be?
+NA: You hesitate, a second longer than you should.
+PLAYER: Hipólita.
+NA: The silence lasts exactly half a second.
+@char FR.smile
+FR: The bride?
+NA: She has a sarcastic smile.
+PLAYER: It wasn't like that...
+FR: Hm.
+NA: She crosses her arms.
+FR: It always starts this way.
+PLAYER: It was just friendly conversation, she has a lovely garden.
+FR: Conversation, you say.
+FR: And of all people in this village...
+FR: You chose to befriend exactly the lady about to be wed.
+FR: Tell me something.
+FR: Is there no creature single enough to earn your favor?
+NA: You open your mouth to answer.
+NA: And you close it.
+PLAYER: I talk to Tiradentes and Alvarenga...
+@char FR.thinking
+FR: The alferes... always has a look of someone who thinks too much.
+NA: You almost choke in your own spit.
+FR: Doctor Alvarenga...
+NA: She raises an eyebrow.
+FR: Although this one is likewise taken.
+FR: Which, apparently, does not discourage you.
+PLAYER: Francisca!
+FR: Now, don't be mad.
+FR: Just trying to understand your type.
+FR: Committed, unavailable and prone to trouble.
+FR: Very specific.
+PLAYER: It's not like that...
+FR: Naturally not.
+NA: You freeze for a moment.
+NA: She chuckles.
+FR: Vila Rica is like that.
+FR: It all starts in gardens... and rarely does it end there.
+PLAYER: You like scaring people, don't you?
+FR: I don't scare. I merely observe
+NA: She approaches.
+FR: She is promised not to just any man. Francisco Lopes is a colonel.
+NA: The tone shifts.
+FR: Be careful.
+NA: A short silence.
+PLAYER: I know, but it's just the beginning of a friendship.
+FR: You know...
+NA: She tilts her head.
+FR: ...Yet you still go.
+@char {PLAYER}2.smile
+NA: A half smile escapes you.
+NA: She's right, you know it can be dangerous and improper for the time, but you fear you can't help it.
+@goSub .BlackScreen
+@back bg_innAfternoon
+NA: The rest of the day goes by much slower.
+NA: You try to help Francisca with the chores, sweeping, carrying jars, and seeming useful.
+NA: But you end up being put behind the counter to help the other guests to the inn.
+@char {PLAYER}2 pos:{leftmid}
+@char FR pos:{rightmid}
+FR: At least sitting down you'll do less damage.
+PLAYER: That was mean.
+FR: It was accurate.
+@hide FR
+NA: The inn busies throughout the day.
+NA: Muleteers covered in dust, merchants in a hurry.
+NA: An old man who complains before he even sits down.
+NA: And travelers that wrap each spoken sentence in formalities.
+NA: You try to talk to them and they don't seem to understand very well, some being rude, others polite.
+
+; Conversa com os hóspedes
+GUEST1: Good woman... kindly fetch me broth and bread.
+NA: You smile on instinct.
+PLAYER: Sure thing, boss.
+NA: The man frowns and lifts an eyebrow.
+GUEST1: Boss?
+PLAYER: I mean... sir.
+GUEST2: Could you lead me to accomodations with the finest view?
+PLAYER: We have a premium room upstairs.
+NA: The guest blinks, lost.
+GUEST2: Prem... what?
+PLAYER: The best room.
+GUEST2: Ah.
+GUEST2: Then speak as a christian.
+NA: A younger man orders a drink.
+PLAYER: Be right there.
+GUEST3: I'll be right where?
+PLAYER: No.
+PLAYER: The drink will be right there.
+GUEST3: Then bring it before I grow old.
+@char FR pos:{rightmid}
+@char {PLAYER}2 pos:{leftmid}
+NA: At a certain point, Francisca walks by you holding a tray.
+FR: If you say “premium” again, I'll charge more.
+PLAYER: I'm adapting.
+FR: Me too.
+FR: To shame.
+NA: When the inn isn't as busy and you have less chores, Francisca places the account book before you.
+FR: If you're not suited for speaking, maybe you are for numbers.
+NA: You take a seat, quill and ink in front of thick pages.
+@hideChars
+NA: While you jot down notes in the account book, the quill glides in your fingers, but your thoughts are far away.
+@back bg_innNight
+NA: When night falls, fatigue weights heavily on your shoulders.
+@hide MainBackground
+@back bg_innNight.Crossfade pos:90,50 scale:2 time:0 !wait
+NA: You return to your quarters, changing into your "pajamas" and climbing into bed after a while.
+NA: You stare at the ceiling longer than you'd like. Even though your body is tired, your mind is wide awake.
+@hide MainBackground
+@wait 1
+@back bg_innDay.Crossfade pos:90,50 scale:2 time:0 !wait
+
+; CAP 3 -
+
+NA: You wake again, shifting in bed and bunching up the sheets beneath you.
+
+NA: You're certain you heard a rooster sing.
+
+NA: This time it doesn't feel so strange.
+
+PLAYER: (...Ok.)
+
+PLAYER: (I'm still here.)
+
+PLAYER: (If I do things right will I get to go back?)
+
+NA: The village sounds outside are familiar, almost comfortable.
+
+NA: You get up and take care of your hygiene.
+
+NA: You clean yourself with the water basin in the corner of the room and move on to the hardest part.
+
+NA: The clove and herbs still taste terrible, but it doesn't surprise you anymore.
+
+PLAYER: (I'm getting  used to it...)
+
+NA: Which might be weirder than everything else.
+
+NA: Descending the stairs you meet Francisca already awake and making breakfast.
+@char FR.neutral pos:{mid}
+FR: Good morning.
+
+FR: Did you sleep well?
+@char FR.smile
+NA: A small smile.
+
+FR: Or did you have good dreams?
+@char FR pos:{rightmid}
+@char {PLAYER}2.neutral pos:{leftmid}
+PLAYER: I slept well.
+
+NA: You reply, approaching and grabbing a cup of coffee.
+
+FR: Hm.
+
+NA: She watches you closely.
+
+FR: Then...
+
+FR: Meeting any betrothed women today?
+
+NA: You choke a little.
+
+PLAYER: What?!
+
+FR: Don't get too excited.
+
+NA: An amused smile.
+
+FR: I'm just asking.
+
+PLAYER: It's not like that!
+
+FR: Naturally not.
+
+NA: She props her elbow on the counter.
+
+FR: It's the garden you like.
+
+NA: A pause.
+
+NA: You stare at her.
+
+PLAYER: There's the garden... and a good friend's company, I think.
+
+PLAYER: Hipólita is an intelligent woman and I don't know many people here, beyond her and Alvarenga.
+
+PLAYER: What else would I do all day besides helping here?
+@char FR.thinking
+NA: Francisca lifts an eyebrow.
+
+FR: Ah, yes.
+
+FR: Charity and good company.
+@char FR.smile
+NA: A soft smirk.
+
+FR: They always start this way.
+
+PLAYER: It's not what it looks like.
+
+FR: It never is.
+
+NA: She leans over the counter.
+
+FR: You have curious taste.
+
+FR: A fondness for danger.
+
+PLAYER: I don't choose like that.
+
+FR: No?
+
+NA: A chuckle.
+
+FR: Because it sound like that's exactly how you choose.
+
+NA: A short silence.
+
+FR: Just don't come back later and say you weren't warned.
+
+PLAYER: I can handle myself.
+
+FR: It's what they all say until they can't.
+
+NA: She steps away, going back to her affairs.
+
+FR: Go, before the garden calls to you again.
+@hide FR
+NA: You sigh.
+@hideChars
+NA: And leave when you finish your coffee.
+@hide MainBackground
+@stopBgm fade:2 !wait
+@bgm wander
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 !wait
+NA: It's the same road, the same dirt and trees.
+
+NA: Your pace slows the closer you get to the house.
+@goSub .BlackScreen
+@back bg_gardenDay
+
+PLAYER: (I shouldn't... be here)
+
+NA: You stop and look at the house.
+
+NA: And see the quiet garden.
+
+PLAYER: (I should leave.)
+
+NA: You start to turn away-
+
+CELINA: Leaving already?
+
+NA: The voice comes from behind you.
+
+NA: You turn around, surprised.
+@char CELINA.neutral pos:{mid}
+NA: Celina stands there, watching you.
+@char CELINA pos:{rightmid}
+@char {PLAYER}2.surprise pos:{leftmid}
+PLAYER: I was.... just passing by.
+
+NA: She leans her head to the side.
+
+CELINA: Passing by... the same road, yet again?
+@char CELINA.smile
+NA: A soft smile.
+
+PLAYER: I didn't want to bother.
+
+CELINA: You don't.
+
+NA: A small step in your direction.
+
+CELINA: On the contrary.
+
+PLAYER: What do you mean?
+
+NA: Celina hesitates for a moment.
+
+NA: As if deciding how much to say.
+
+CELINA: My lady...
+
+CELINA: Has been spending many days in silence.
+
+NA: Her tone is careful.
+
+CELINA: But with you, she seems...
+
+CELINA: Lighter.
+
+NA: That catches you off guard.
+
+PLAYER: I don't know if I should...
+
+CELINA: You must.
+
+NA: She softly interrupts you.
+
+CELINA: At least... today.
+
+NA: A short silence as you consider what you just heard.
+
+CELINA: Come.
+@hide CELINA
+@stopBgm fade:2 !wait
+NA: Before you can answer, she's already turned away expecting you to follow.
+@bgm hipolita
+@back bg_hipolitaDay
+NA: The house is silent, more than the day before.
+
+NA: Celina guides you to the living room.
+@char HI.neutral pos:{mid}
+NA: The harpsichord is there and so is Hipólita.
+
+NA: She's seated and seems deep in thought.
+@char HI.smile
+NA: Her expression shifts when she notices your presence.
+
+HI: You're back...
+
+NA: There's surprise in her voice.
+
+NA: And something else she can't hide that well this time around.
+@char HI pos:{leftmid}
+@char {PLAYER}2 pos:{rightmid}
+PLAYER: I hope I'm not bothering you.
+
+HI: You're not.
+
+NA: She stands up.
+
+HI: Not at all.
+
+NA: She quickly glances at Celina.
+
+NA: As if there was an understanding, Celina retreats from the room.
+
+NA: You approach and she gestures at the couch.
+
+NA: The two of you sit down near the harpsichord.
+
+PLAYER: You mentioned the other day not having chosen your path.
+
+PLAYER: But having the opportunity to study.
+
+NA: Hipólita hesitates.
+
+HI: I did, briefly.
+
+HI: My father took me with him in some of his travels.
+
+HI: There... I could learn more than I was allowed in here.
+
+NA: She smiles softly.
+
+HI: Reading, music and some languages.
+
+NA: Her gaze grows distant for a moment.
+
+HI: Those were... different times.
+
+PLAYER: I studied too, I went to university...
+
+NA: You hesitate at your choice of words.
+
+PLAYER: Something like an academy.
+
+NA: Hipólita watches you with genuine curiosity.
+
+HI: Then you know another world.
+
+PLAYER: A little.
+
+HI: That explains...
+
+NA: She pauses.
+
+PLAYER: Explains what?
+
+HI: The way you see things.
+
+NA: A comfortable silence settles between you.
+@stopBgm fade:1 !wait
+NA: But then, as you watch Hipólita run her fingers over the keys.
+
+NA: Strong and heavy footsteps echo and sound like they're getting closer.
+@bgm tension
+NA: The door opens with no warning.
+
+NO: Hipólita.
+
+NA: The voice is cutting, cold and controlled.
+
+NA: He enters and his gaze falls directly on you.
+
+NO: I see we have company.
+
+NA: His tone is not welcoming.
+
+NA: Hipólita tenses up next to the harpsichord.
+
+NA: Her fingers lightly close over her skirt.
+
+HI: We were just...
+
+NO: I didn't ask.
+
+NA: The air shifts entirely.
+
+@if gender="male"
+
+NA: He turns his gaze to you, long and disquieting.
+
+NO: You're bold.
+
+NO: Being alone with a promised woman.
+
+NA: He takes a step forward, approaching you.
+
+NO: In my house.
+
+@endif
+
+@if gender="female"
+
+NA: The fiancé's gaze falls on you coldly.
+
+NA: More curious than aggressive, but still distrusting.
+
+NO: I don't recall authorizing visitors.
+
+NO: Let alone... strangers.
+
+@endif
+
+HI: It's not what it looks like.
+
+NA: Her tone is firm.
+
+HI: It was just a...
+
+NA: A short smile.
+
+NO: “Just”.
+
+NA: He walks around the room, slow and controlled.
+
+NO: Should I be concerned?
+
+NA: Hipólita stands up and speaks firmly.
+
+HI: No.
+
+NA: She answers too quickly.
+
+NO: Curious, because I am.
+
+HI: You see issues where there's none.
+
+NO: And you see freedom where there's none.
+
+NA: The air around them is tense.
+
+NA: But there's something domestic there.
+
+NO: I leave for a few hours and I already meet-
+
+NA: He gestures in your direction.
+
+NO: News.
+
+HI: You're not my warden.
+
+NO: Not yet.
+
+NA: A small smile.
+
+NO: But I have ambitions.
+
+NA: A silence as you wonder if you should do something.
+
+; Escolha
+
+@choice "Defend her" goto:.scene4H-1
+
+@choice "Let her face him alone" goto:.scene4H-2
+
+@stop
+
+
+
+
+# scene4H-1
+@set afetoHipolita+=1
+
+NA: You stand up and try to look tough.
+
+PLAYER: With all due respect—
+
+NA: They both look at you at the same time.
+
+PLAYER: (Terrible idea.)
+
+PLAYER: There's no reason for this, nothing wrong was happening here.
+
+NA: The fiancé lifts an eyebrow.
+
+NO: Ah.
+
+NO: We have a guardian.
+
+@if gender="female"
+
+NO: Besides guest... you're also a lawyer.
+
+@endif
+
+@if gender="male"
+
+NO: Not just bold... you're a charmer too.
+
+@endif
+@char HI.shy
+HI: I don't need protection.
+
+NA: Hipólita cuts you off, but there's a blush to her cheeks.
+
+PLAYER: Still...
+
+NO: Still, I believe I understand.
+
+NA: He steps closer.
+
+NO: Since you speak for her.
+
+NO: Soon you'll start making choices for her too.
+
+NA: He comes even closer and there's something dark in his eyes.
+@char HI.determined
+HI: Enough.
+
+NA: Her tone halts you both.
+
+HI: You are not judge of this house, and I am not your property.
+
+NA: The groom takes a deep breath, holding something back.
+
+@goto .scene4H-1end
+
+
+
+
+
+NA: You stay silent, watching them both.
+
+NA: Hipólita steps forward.
+
+HI: Stop looking for reasons where there's none.
+
+HI: And you neither have the right to question every step I take.
+
+NO: I'm your fiancé.
+
+HI: You don't own me.
+
+NA: They stare at each other in a heavy silence.
+@if gender="male"
+NO: Still, do you expect me to ignore him?
+@else
+NO: Still, do you expect me to ignore her?
+@endif
+NA: He points at you.
+
+HI: Not ignore, but have moderation.
+
+NA: She smiles softly.
+
+HI: Or would you like to supervise the garden too?
+
+NA: A small, almost comical, silence.
+
+NO: If I have to.
+
+HI: Then start with the rose bushes, they're less dangerous than guests.
+
+NA: You hold back your laughter.
+
+NA: The groom notices and that seems to make things worse.
+
+# scene4H-1end
+NA: The silence barely holds itself and there's tension in the air.
+
+NA: Until you hear a voice coming from outside.
+
+VOICE: My, my...
+
+NA: The voice reaches you before the person.
+
+NA: Light, fun, and dangerous.
+
+NA: The door opens unceremoniously.
+@char BA.smile pos:{mid}
+NA: Bárbara arrives, in her long dress and hair, a smile on her lips.
+
+BA: I hope I'm not disturbing...
+
+NA: Bárbara enters.
+
+NA: She quickly glances over the room.
+
+NA: With a smile that says everything.
+
+BA: But, as your neighbor, I believe I deserve peace and quiet.
+
+NA: The groom scowls.
+
+NO: This doesn't concern you.
+
+BA: Oh, but it does, now.
+
+NA: She crosses her arms.
+
+BA: Raised voices travel through walls quite easily.
+
+BA: And I admit, it... attracts attention.
+
+NA: Her gaze moves over you, slow and judging.
+
+BA: Particularly when my husband returns...
+
+NA: Hipólita tenses.
+
+NA: Bárbara's eyes glide toward her.
+
+HI: Bárbara...
+
+BA: Imagine the embarrassment.
+
+NA: She then looks at you and smirks.
+
+BA: Still... I must admit.
+
+BA: This scene is worth the disturbance.
+
+NA: She comes closer.
+
+BA: I must say... you have interesting tastes, Hipólita.
+
+NA: Hipólita blushes softly.
+
+NO: You're crossing a line.
+
+NA: She tilts her head to the side.
+
+BA: I assumed those were already made... flexible.
+
+NA: A low chuckle.
+
+BA: Well, I only describe what I see.
+
+BA: An absent fiancé and an unexpected visit...
+
+HI: There is nothing beyond a simple conversation here.
+
+BA: Naturally.
+
+NA: A vague nod.
+
+BA: It's always just a conversation.
+
+NA: She turns her gaze toward you.
+
+BA: And you...
+
+BA: Are very... brave.
+
+NA: The tension in the room is unbearable, but oddly entertaining.
+
+NA: You censure those thoughts, but being in the middle of a domestic dispute almost reminds you of your neighbors back home.
+
+; ESCOLHA
+
+@choice "Support Hipólita against Bárbara" goto:.scene5H-1
+
+@choice "Agree with Bárbara" goto:.scene5H-2
+
+@stop
+
+
+# scene5H-1
+
+@set afetoHipolita+=1
+
+
+PLAYER: There's no reason for these insinuations.
+
+PLAYER: We were just talking, as friends.
+
+NA: Bárbara lifts an eyebrow.
+
+BA: “Friends”.
+
+NA: A slow smile takes shape.
+
+BA: It pleases me, this union of goals.
+
+BA: Solidarity, always so... touching.
+
+HI: Bárbara, please have compassion and stop.
+
+BA: I'll leave soon, there's no need to get restless.
+
+NA: She raises her hands in fake surrender.
+
+BA: I have no intention of usurping your spotlight.
+
+NA: But, before leaving, she stops and stares directly at you.
+
+BA: Have caution, dear.
+
+NA: She glances at Hipólita.
+
+BA: Not every garden keeps their secrets for long.
+
+NA: Hipólita closes her eyes for a moment.
+
+@goto .scene5H-1end
+
+
+
+# scene5H-2
+
+PLAYER: I know that.... the situation may feel odd.
+
+NA: The silence is heavy.
+@char HI.surprise
+NA: Hipólita whips her face toward you, surprised and a little hurt.
+
+BA: Ah.
+
+NA: A pleased smile.
+
+BA: Honesty. Such a rare virtue.
+
+NO: Finally, someone with common sense.
+
+NA: You immediately regret it.
+
+HI: That wasn't necessary.
+
+NA: She sounds restrained, but distant.
+
+BA: Oh, don't be harsh.
+
+BA: At least someone here understands the picture.
+
+NA: The air feels even heavier.
+
+
+# scene5H-1end
+NA: The fiancé takes a deep breath and decides.
+
+NO: Enough.
+
+NA: He points at the door.
+
+NO: I believe your presence here has exceeded its adequacy.
+
+NA: You look at Hipólita.
+
+NA: For a brief moment her eyes meet yours.
+
+NA: There are a thousand things there that must remain unspoken.
+
+HI: ...Maybe that's the most prudent.
+
+NA: Her voice is quiet.
+@hide BA
+@char {PLAYER}2 pos:{mid}
+NA: You begin moving away and, when you pass by Hipólita, your clothes brush slightly and she whispers at you.
+
+NA: Barely noticeable.
+
+HI: Tonight.
+
+HI: At the garden.
+
+PLAYER: (A request or a risk.)
+@hideChars
+@back bg_gardenDay
+NA: You then step away and find yourself outside.
+@sfx doorSlam
+@stopBgm fade:3 !wait
+NA: The door is slammed behind you.
+
+NA: And the muffled argument continues inside.
+
+PLAYER: (...That went worse than I expected.)
+@hide MainBackground
+@back bg_gardenDay.Crossfade pos:65,10 scale:3.0 time:0 !wait
+@bgm wander
+NA: You take a few steps away from the house.
+
+NA: But you don't go far.
+@char {PLAYER}2 pos:{mid}
+PLAYER: (Tonight... at the garden.)
+
+NA: The idea clings to your mind, stubborn.
+
+PLAYER: Going back to the inn would be reckless.
+
+PLAYER: Questions, stares, and I don't know if I would have the nerve to come back after.
+
+NA: You stop on the path and look around.
+
+NA: The trees, tall and old.
+
+PLAYER: (...Can I still do it?)
+@char {PLAYER}2.smile
+NA: A half smile.
+
+PLAYER: (Let's find out.)
+
+NA: You grab one of the branches and brace your foot against the trunk.
+
+NA: You push up and climb, with some difficulty.
+
+NA: Clambering up the tree until you come to a stop at a taller branch and taking a seat where it's thicker and firmer.
+
+NA: You rest your back against the tree and listen to the leaves rustling above your head.
+
+PLAYER: (The view isn't half bad.)
+@back bg_gardenAfternoon
+NA: The day drags on, slow and peaceful.
+
+NA: From above, the world feels distant.
+
+NA: Wind travels between the leaves and the smell of earth is constant.
+
+NA: The sun starts to lower in the sky and you watch as sunset approaches.
+
+PLAYER: (I really am waiting...)
+
+NA: You let out a low chuckle, but you stay put.
+@hide MainBackground time:3 !wait
+NA: Light starts to dim little by little and you end up napping.
+@back bg_gardenNight
+NA: When you open your eyes again, night has already fallen.
+
+NA: You move slowly.
+@char {PLAYER}2.surprise
+PLAYER: (I can't believe I slept up here, I could have splattered on the ground like an omelet.)
+@char {PLAYER}2.neutral
+NA: Then you carefully climb down the tree.
+
+NA: Reaching the ground you shake off some twigs and leaves from your clothes.
+@stopBgm fade:2 !wait
+NA: You take a deep breath and make your way back to the farm.
+@hide MainBackground
+@goSub .BlackScreen
+@back bg_gardenNight pos:50,50 scale:1 time:0
+
+NA: As you approach the house looks different with the lights off, and the garden is silent at night.
+
+NA: You proceed carefully, avoiding stepping on loose leaves and twigs so you make less noise.
+
+NA: Then a hand pulls you, fast and sturdy.
+@char {PLAYER}2.surprise pos:{mid}
+PLAYER: HEY!
+@char {PLAYER}2.surprise pos:{leftmid}
+@char HI.determined pos:{rightmid}
+HI: Quiet.
+@bgm hipolita
+NA: Her voice is hushed.
+
+NA: Your body reacted before your mind and only then did you realize it was her.
+
+NA: Hipólita leads you a few steps to a bench hidden between the bushes.
+
+NA: You two take a seat, closer than you should.
+
+NA: For a while, no one speaks.
+
+NA: Only the sounds of the night and your breathing fill the space.
+
+NA: When sitting down, your hand rested splayed on the bench next to your body, Hipólita did the same.
+
+NA: Your fingers brush hers slightly.
+
+NA: Almost accidently, but neither moves away.
+
+PLAYER: How... was it?
+
+NA: You keep your voice low.
+
+PLAYER: With your fiancé?
+
+NA: Hipólita sighs.
+
+HI: As usual.
+
+NA: A humorless smile.
+
+HI: Just enough to not turn into a scandal, not enough to have peace.
+
+NA: A silence as she studies her own hands.
+
+HI: Do you suppose, perhaps...
+
+HI: That someone can be free in this situation?
+
+PLAYER: Which situation?
+
+NA: She hesitates.
+
+NA: As if there was danger in choosing the right words.
+
+HI: I inherited assets from my father. Land and names.
+
+HI: But what worth is any of it, being a woman?
+
+NA: Her voice gets even quieter.
+
+HI: I am not allowed to manage what is mine.
+
+HI: Nor to fully decide my destiny.
+
+PLAYER: That's awful and unfair, it wouldn't be like that in my time..
+
+PLAYER: I mean...
+
+NA: Her fingers clench lightly.
+
+NA: Yours still nearby.
+
+HI: I need a man.
+
+HI: To manage, to represent.
+
+HI: To... validate my existence.
+
+NA: A heavy silence, the words hit you like a punch.
+
+HI: My marriage isn't a choice.
+
+HI: It's a condition.
+
+HI: Without it I become... Inconvenient.
+
+HI: Unacceptable.
+
+NA: She turns her gaze toward you.
+
+HI: Invisible.
+
+PLAYER: Not that it changes anything, but I see you.
+
+PLAYER: I enjoy your company and listening to what you have to say.
+
+NA: A shy smile graces her lips.
+
+NA: The moment stretches, intimate and comfortable.
+
+NA: Your fingers brush hers again, this time intentionally.
+
+NA: Time passes without either of you noticing.
+
+HI: You must go.
+
+NA: She seems reluctant to say so.
+
+HI: Before someone notices.
+
+PLAYER: What about you?
+
+HI: I'll stay.
+
+NA: A small smile.
+
+HI: Like always.
+
+NA: You feel a weight as you stand up and you turn to her, still seated.
+@hide HI
+@char {PLAYER}2 pos:{mid}
+NA: Your gaze lingers, until you turn away and leave the way you came in.
+@goSub .BlackScreen
+@back bg_squareDay.Crossfade pos:-65,90 scale:3.0 time:0 !wait
+@stopBgm fade:2 !wait
+NA: Returning down the road, the village is quiet and all lights are off.
+@bgm wander
+NA: As you approach the inn it is dark and very silent.
+@char {PLAYER}2 pos:{mid}
+PLAYER: (Everyone must be asleep...)
+
+NA: You go around the inn, avoiding the main entrance.
+
+NA: You didn't want to make noise as to not wake anyone, so you peek at the window.
+
+PLAYER: (Right, my second bad idea of the day.)
+
+PLAYER: (I really am acting like someone's secret lover.)
+
+NA: You climb some boxes and a fence on the back.
+
+NA: Carefully trying to reach the second story roof.
+
+NA: A little less elegantly than you'd like.
+
+NA: But you manage, it's a little more slippery than it seemed from the ground.
+
+NA: You approach one of the windows carefully.
+
+NA: You climb inside, not quite in your room but the hallway.
+@stopBgm fade:1 !wait
+@hide MainBackground
+@back bg_innNight pos:50,50 scale:1 time:0
+PLAYER: (A miscalculation.)
+
+NA: Trying not to make any noise you approach your bedroom door.
+
+NA: Inside it is dark and quiet.
+
+NA: But you're thankful for managing to return safely after the day you had.
+
+PLAYER: (...This is getting dangerous.)
+
+PLAYER: (Still... I would do it again.)
+@bgm respite
+@goSub .BlackScreen
+; Cap 4 - Noite dos Inconfidentes
+@back bg_innDay
+NA: You rise earlier than normal that morning.
+
+NA: The light coming in through the window is still soft.
+
+NA: The village is barely awake.
+
+NA: You take care of your hygiene, but you're so restless that you almost spill the entire basin washing up and almost choke on the cloves this time.
+@char {PLAYER}2.sad pos:{mid}
+PLAYER: (What a delightful morning...)
+
+NA: After tidying up your own mess and getting dressed, you go downstairs.
+
+NA: On the ground floor you meet Francisca already awake, but only just started to fix breakfast.
+
+NA: She's carefully grinding the coffee beans on a pestle.
+@char {PLAYER}2.neutral pos:{leftmid}
+@char FR.surprise pos:{rightmid}
+FR: My...
+
+NA: She looks up, surprised.
+
+FR: Fell off the bed, did you?
+PLAYER: Something like that...
+@char FR.neutral
+FR: Curious.
+
+NA: She wipes her hands on her apron.
+
+FR: Because I didn't hear you come in last night.
+
+NA: A short silence as your eyes go wide.
+
+FR: And I usually hear everything.
+
+NA: She takes another step.
+@char FR.smile
+FR: Even so... there was some noise in the hallway.
+
+NA: A small smile.
+
+FR: Something like... a window.
+
+NA: You gulp.
+
+PLAYER: Must have been the wind.
+
+FR: The wind.
+
+NA: She repeats, relishing it.
+
+FR: Some unusual talents on that wind.
+
+FR: Opening windows and retreating to someone else's chambers.
+
+NA: She lets out a chuckle.
+
+FR: I respect it.
+
+FR: You should introduce it to me one day.
+
+NA: You avert your eyes.
+
+PLAYER: I don't know what you mean.
+
+FR: Of course not.
+
+NA: Smiling, she gets back to grinding the coffee.
+
+FR: And then?
+
+FR: How did you meeting with the.... betrothed lady go?
+
+NA: You hesitate, pondering how much to share.
+
+PLAYER: It was... intense.
+
+FR: I imagine so.
+
+NA: An instant smile.
+
+PLAYER: Her fiancé showed up while we talked.
+@char FR.thinking
+NA: Francisca slows to a stop.
+
+FR: Of course he did.
+
+FR: That was the missing component.
+
+PLAYER: Let's just say he wasn't a fan of seeing me there with her.
+@char FR.surprise
+FR: What an outrage.
+
+NA: She brings her hand to her chest, dramatic.
+
+FR: A man can't even enter his own home and he'll find a stranger talking with his promised.
+
+FR: Where will we end up?
+
+FR: The scandal.
+@char FR.happy
+NA: She lets out a laugh.
+
+PLAYER: Bárbara showed up too.
+@char FR.thinking
+NA: She scowls and lifts an eyebrow, confused.
+
+FR: Bárbara?
+
+FR: So you befriended her too?
+
+PLAYER: It's not quite friendship, but...
+
+FR: Hm.
+
+FR: Another committed woman.
+
+NA: She crosses her arms.
+
+FR: You're turning into a real scourge to the Vila Rica marriages.
+
+NA: You awkwardly laugh and your cheeks burn.
+
+PLAYER: It's not my intention.
+
+FR: It never is.
+
+NA: She leans slightly.
+
+FR: Still, you see how things are turning out.
+
+NA: Before the silence can embarrass you even more.
+
+NA: You hear a deep voice, velvety and familiar.
+
+VOICE: I hope I don't come at an inappropriate time.
+
+NA: The two of you turn at once.
+
+NA: And soon stay there quietly staring.
+@char AL.neutral pos:{mid}
+NA: Alvarenga stands at the door.
+
+NA: Elegant and observant as always.
+
+NA: As if he already noticed more than he should.
+
+AL: I see the day caught you early.
+
+FR: Some earlier than others.
+
+NA: Francisca answers casually.
+
+AL: It's better like this.
+
+NA: A brief wave.
+
+NA: He turns his gaze to you.
+
+AL: I was looking for you.
+@char {PLAYER}2.surprise
+NA: Surprised, your eyes widen.
+
+AL: We're having a meeting tonight.
+
+AL: At Lady Hipólita's.
+@char {PLAYER}2.shy
+NA: Your heart skips a little.
+
+AL: We're discussing... certain ideas.
+
+NA: A soft smile.
+
+AL: And I believe the alferes would appreciate your presence.
+
+NA: The name isn't spoken, but it's understood.
+
+NA: Francisca watches the scene in silence, but interested.
+
+PLAYER: I'll be there.
+
+NA: Alvarenga nods.
+
+AL: I'm glad.
+
+AL: I won't hold you any longer.
+
+NA: A half smile.
+
+AL: You both seemed very amused.
+
+FR: We were judging winds.
+@char AL.happy
+AL: Incredibly useful business.
+@hide AL
+NA: He nods goodbye and leaves.
+
+NA: You blink, still surprised with the visit.
+
+NA: Francisca notices your condition.
+
+FR: Good lord.
+
+FR: You look like you saw a ghost.
+
+PLAYER: I just didn't expect to see him here.
+
+FR: No?
+@char FR.smile
+NA: Her mouth curves in a mischievous smile.
+
+NA: Francisca keeps staring at you with her arms crossed.
+
+FR: If you keep blushing this much you'll save me much firewood.
+@char {PLAYER}2.embarrass
+PLAYER: I'm not blushing.
+
+FR: You look like an open pomegranate.
+
+NA: You avert your eyes.
+
+FR: And now you lost your speech.
+
+FR: Deplorable state.
+
+NA: The silence lasts exactly one second.
+
+FR: Why.
+
+FR: Engaged lady, married neighbor, and now a meeting at the same lady's house.
+
+NA: A slow smile emerges.
+@char FR.smile
+FR: You really are committed.
+
+PLAYER: I had no idea and I didn't start anything.
+
+FR: No.
+
+FR: But you're certainly in the middle of things.
+
+NA: A chuckle escapes her.
+
+FR: Go, eat something.
+
+FR: You'll need strength for tonight.
+@hide FR
+@char {PLAYER}2.neutral pos:{mid}
+NA: She returns to working on the coffee, still laughing at you.
+
+NA: After grinding the beans to a powder, she strains them.
+
+NA: It's strong but tasty, not even back in the city did you have a coffee this good.
+
+NA: After eating you approach Francisca.
+@char {PLAYER}2.neutral pos:{leftmid}
+PLAYER: Do you need any help today?
+@char FR pos:{rightmid}
+NA: Francisca studies you for a moment.
+
+FR: I might need help.
+
+FR: Now, if I want it... I'm still considering it.
+
+NA: She sighs theatrically.
+
+FR: But since you insist... I'll teach you to mend clothes.
+
+PLAYER: Sewing?
+
+FR: Don't be scared.
+
+FR: A needle hurts less than some of your choices.
+
+@if gender="female"
+
+PLAYER: Do I have to learn because I'm a woman?
+
+NA: Francisca raises an eyebrow.
+
+FR: No.
+
+FR: You have to learn because you're a living creature.
+
+FR: Clothes tear, buttons fall off, seams come undone.
+
+FR: Depending on others for every crooked line is miserable.
+
+FR: You learn to be functional, implying otherwise is for idle people.
+
+PLAYER: You're right.
+
+NA: You're surprised how a woman from this time can have such strong beliefs and with her world view.
+
+@endif
+
+@if gender="male"
+
+
+NA: Francisca smirks.
+
+FR: Ah.
+
+FR: The big man can't learn to fix his own pants?
+
+PLAYER: It's not that, it's just....
+
+FR: Shame. I believed you were braver.
+
+FR: If you face jealous fiancés and married women...
+
+FR: A needle won't triumph over you.
+
+@endif
+
+NA: She sits you down at the table.
+
+NA: Fabric, thread and needle shoved in your direction.
+
+FR: First, you thread the needle.
+
+NA: You try and miss.
+
+NA: You try again and miss even more than before.
+
+FR: Admirable.
+
+FR: Hand in hand with disaster.
+@char {PLAYER}2.embarrass
+NA: After a humiliating fight between you and the needle, the thread finally goes through.
+@char {PLAYER}2.happy
+PLAYER: I did it.
+
+FR: Don't get proud too soon.
+@char {PLAYER}2.sad
+FR: You still need everything else.
+
+NA: Hours go by between crooked stitches, pricked fingers and Francisca's muffled laughs.
+
+PLAYER: How did you learn all this?
+
+NA: She keeps folding a rag before answering.
+@char FR.neutral
+FR: Because there was a time when, if I didn't... I'd get a beating.
+
+NA: She doesn't raise her voice and she doesn't have you, you feel something squeeze inside you.
+
+FR: Cooking, cleaning, sewing, serving.
+
+FR: Smiling when ordered. Silencing when convenient
+
+PLAYER: I'm sorry, I didn't mean....
+
+NA: She shakes her head, as if this was just another part of her life.
+
+FR: Then I learned other crafts.
+
+FR: Trading, negotiating, managing.
+
+FR: These pay more.
+@char FR.smile
+NA: A half smile returns.
+
+PLAYER: And that's how you acquired the inn?
+@char FR.neutral
+FR: That's how I acquired myself.
+
+NA: She stares at you.
+
+FR: The inn came after.
+
+PLAYER: Is this why you're not against the meeting with Tiradentes and the others?
+
+FR: The alferes speaks as a man who wants to change the world.
+
+FR: Sometimes that suffices, and sometimes that kills.
+
+NA: She goes back to work.
+
+FR: But I don't deny his valor nor his resolve.
+
+FR: Of these virtues, the alferes has plenty.
+
+FR: Maybe in excess.
+
+PLAYER: You're right at that, when he talks about changing people's reality this includes people like....
+@char FR.thinking
+NA: She arches her eyebrow watching your next words.
+
+PLAYER: People who don't have a chance or are judged for things like the color of their skin and placed in inferior positions.
+
+PLAYER: That just shouldn't happen.
+
+NA: She nods.
+
+FR: You speak dangerous words so naturally.
+
+PLAYER: I only speak my mind.
+
+FR: Maybe that's why you listen to the alferes with such regard.
+
+FR: You recognize the same impatience in him.
+
+PLAYER: Maybe.
+
+FR: Or maybe you like difficult men.
+
+PLAYER: Francisca.
+@char FR.smile
+NA: A chuckle escapes her.
+
+FR: There.
+
+FR: We're back to safe grounds.
+@back bg_innAfternoon
+NA: The rest of the day rushes by among smaller chores.
+
+NA: Mending clothes under her unforgiving supervision is one of them.
+@char FR.determined
+FR: That's crooked.
+@char {PLAYER}2.embarrass
+PLAYER: No, it's not.
+
+FR: It is.
+@char {PLAYER}2.determined
+PLAYER: You can't even see it.
+
+FR: I can see it from Lisboa to the Porto.
+
+NA: You undo it and start over, the day keeps going between tasks and chats with Francisca.
+
+NA: You feel good in her company, or maybe it's the town.
+
+NA: For the first time in a while, you feel a sense of belonging and a gentle peace.
+@hideChars
+@back bg_innNight
+NA: When night falls, you start to get ready to the meeting at Hipólita's house.
+
+NA: You wash your face and get changed. And inhale a deep breath to prepare for the night ahead of you.
+@char FR.smile pos:{mid}
+NA: Francisca stops by your room, standing near the door.
+
+FR: Go.
+
+FR: And see that today you ruin only half the marriages in the village.
+@goSub .BlackScreen
+@stopBgm fade:2 !wait
+Noite dos Inconfidentes
+
+NA: The path to Hipólita's was peaceful and quiet, when you approach you notice the lights and muffled voices.
+@back bg_hipolitaNight
+NA: Going inside everyone's faces turn toward you, some curious and others simply calculating.
+
+NA: You see Tiradentes in the middle, Joaquim sits relaxed in a chair. Hipólita, her fiancé, and Célio to the corner.
+@char TI pos:{mid}
+NA: Tiradentes was mid speech when you arrive.
+
+TI: If we wait for permission from the Crown to be free, we'll die obedient.
+@char TI pos:{leftmid}
+@char JO pos:{rightmid}
+JO: And if we run recklessly we'll die hanged.
+@hideChars
+@char {PLAYER}2 pos:{leftmid}
+@char HI pos:{rightmid}
+NA: Hipólita's fiancé is the first to stand up when seeing you.
+
+NO: What on earth does this mean?
+
+NA: His voice cuts through the room and everyone stands to attention.
+
+NO: What are you doing here?
+
+NA: He looks from you to Hipólita.
+
+NO: In my house yesterday.
+
+NO: And today... here again?
+
+NA: Hipólita stiffens.
+
+HI: It's not your house.
+
+HI: It's ours.
+
+NA: Her jaw locks in place.
+
+PLAYER: I was invited.
+
+NO: By whom?
+@hideChars
+@char TI.neutral pos:{mid}
+TI: By me.
+
+NA: Tiradentes speaks up before you take a breath.
+
+NA: The room turns to him.
+
+TI: If this answer suits you.
+
+NO: I did not address you, alferes.
+
+NA: The title used as correction, a reminder of hierarchy.
+
+TI: And I didn't ask for permission, colonel.
+
+NA: His counter is calm.
+
+NA: No raised voices.
+
+NA: They exchange a quick glance.
+
+NA: There is no real friction between them.
+
+NA: There is history, old conversations, favors exchanged.
+
+NA: And debates repeated over wine tables.
+
+NA: Francisco knows that Tiradentes won't fold easily.
+
+NA: And everyone there knows that few would dare speak to him this way and not pay the price.
+
+NA: But Tiradentes isn't just anybody, there's something in him that the whole room recognizes.
+
+NA: Respect earned without a badge.
+
+NO: You continue to confuse honesty with insolence.
+
+TI: And you continue to confuse command with reason.
+
+NA: A murmur goes around the room.
+@char TI pos:{leftmid}
+@char AL pos:{rightmid}
+AL: We started early tonight.
+
+NA: Alvarenga comments as he walks in. Garments perfectly aligned and a confident look in his eyes.
+@char BA pos:{mid}
+NA: Bárbara follows him closely, just as elegantly dressed and a proud smile.
+@hide TI
+@char JO pos:{leftmid}
+JO: Now the group is complete.
+
+JO: Come, doctor.
+
+JO: The alferes wishes to conquer empires before dessert.
+@char AL.smile
+AL: You always greet me kindly.
+@char BA.surprise
+BA: While I'm not greeted at all.
+
+NA: She feigns surprise.
+@hideChars
+@char {PLAYER}2.surprise pos:{mid}
+PLAYER: (Bárbara...is Alvarenga's wife?)
+
+NA: You blink twice, much too slow.
+
+NA: Then a third time, to be sure.
+
+PLAYER: (They're both attractive, but their personalities seem too opposite to be together and married.)
+
+NA: Suddenly a lot makes sense.
+
+NO: This is a serious meeting.
+
+NO: Not an open house.
+@hideChars
+@char TI pos:{rightmid} !wait
+@char JO pos:{leftmid}
+TI: And you're right, colonel.
+
+TI: But since the doors are open...
+
+TI: Let's make better use of it, rather than creating more unease.
+
+NA: Joaquim muffles a laugh on his lips.
+
+JO: I'm with the alferes.
+
+JO: Keep your outrage for the Crown or your mirrors.
+
+NO: You've all lost your minds.
+@char HI pos:{mid}
+HI: Maybe we're just tired of you.
+
+NA: The air in the room gets heavy, you could cut the tension between them with a knife.
+@hide HI
+NA: But Tiradentes takes advantage of the momentum.
+
+TI: Since we're gathered let's talk about what matters.
+
+TI: The Crown increases taxes.
+
+TI: Squeezes gold when it's already scarce.
+
+TI: And treats this land as a mine with no people.
+
+JO: We agree on that.
+
+JO: What we don't agree on is everything else.
+
+TI: We're lacking courage.
+
+JO: We're lacking a plan.
+
+TI: We'll have men with us.
+
+TI: Soldiers, guards, people tired of submitting.
+
+JO: Will we?
+
+JO: Or do you daydream again?
+
+TI: You've always favored doubt.
+
+JO: You've always favored improvising.
+
+TI: If we wait for the perfect moment we'll die waiting.
+
+JO: If we rush with no strategy, we'll die.
+
+TI: Are you a coward?
+
+NA: Silence.
+
+JO: No.
+
+JO: But I begin to suspect you are a fool.
+
+NA: The room splits between those who pretend not to hear them, and those who seem to anticipate a conflict between the two.
+@char AL.determined pos:{mid}
+AL: Enough.
+
+NA: Alvarenga's voice is quiet but powerful, everybody listens to him.
+
+AL: You're grown men.
+
+AL: And you yell like an old couple at the market.
+
+NA: Hipólita, Célio and Bárbara try to hold back their laughter.
+
+NA: While Tiradentes and Joaquim stare at each other, frustrated.
+@hideChars
+@char BA pos:{mid}
+BA: Since you gentlemen measure courage by volume, perhaps you'd like to listen to those who can rarely be loud.
+
+NA: Bárbara crosses the room as if she owned it.
+
+BA: You speak of freedom.
+
+BA: And how many women have any choice?
+
+NA: The men look at her, intrigued.
+@char BA pos:{leftmid}
+@char HI.determined pos:{rightmid}
+HI: Very few.
+
+NA: Hipólita answers, resolute.
+
+HI: Some of us inherit assets we cannot manage.
+
+HI: Others inherit names we cannot use. Almost all inherit silence.
+
+BA: And husbands.
+
+NA: Adds Bárbara.
+
+BA: Let's not forget that prize.
+
+NO: Madam!
+
+BA: I'm not your madam, thank the Lord.
+
+NA: Barely concealed laughs escape the men.
+
+HI: You speak of a new freedom.
+
+HI: Tell me, alferes. In your republic could women own what is theirs?
+
+HI: Sign contracts? Refuse marriage?
+@char JO pos:{mid}
+JO: A better question than half this night.
+
+NA: Joaquim taunts.
+@hide JO
+@char TI pos:{mid}
+NA: Tiradentes hesitates for a moment.
+
+NA: His gaze stays on Hipólita's fiancé, as if considering whether to speak.
+
+NA: The silence is short.
+
+NA: But enough for Hipólita to notice.
+
+NA: And enough for some to understand he made up his mind.
+
+TI: Miss Hipólita is right.
+
+TI: There are movements that fail by disregarding the hands that sustain it.
+
+TI: Not all bravery comes from a sword on your belt.
+
+TI: There will be justice for all.
+@hide TI
+HI: “All” tends to exclude many.
+
+BA: Especially when written by men.
+@char AL pos:{mid}
+AL: Ladies...
+@char BA.determined
+BA: Don't silence us now, doctor.
+
+NA: Bárbara raises her hand in his direction.
+
+BA: Your turn to speak is almost ceaseless.
+@char AL.smile
+NA: Alvarenga smiles, defeated by the precision of the blow.
+@hide AL
+@char TI.determined pos:{mid}
+TI: If we achieve independence we can remedy such things.
+@hide TI
+HI: Later? It's always later.
+
+HI: First their freedom.
+
+HI: Then, maybe, ours.
+
+BA: If we wait for an invitation, we'll die in the foyer.
+
+NA: The room feels different. The men no longer dominate and everyone is watching the two women. 
+
+NO: Hipólita already said too much.
+
+NA: The groom stand up and her face changes.
+@char HI.angry
+HI: No.
+
+HI: For the first time I have spoken without your permission.
+@char BA.smile
+BA: And it suits you very well.
+
+NO: Lady Bárbara, mind your own house.
+
+BA: Mine is in order.
+
+NA: She looks around.
+
+BA: I can't say the same for this one.
+
+NA: A chorus of "oh"s echo around the room.
+@char HI.neutral
+HI: You have great taste for other people's doors.
+@char BA.neutral
+BA: And you have great taste for guests.
+@char HI.thinking
+HI: Better guests than surveillance.
+@char BA.thinking
+BA: Better surveillance than boredom.
+@char HI.determined
+HI: If God has given you sparkle, keep it farther from people's eyes.
+@char BA.smile
+BA: If He has given you beauty, employ it more joyfully.
+@char JO.surprise pos:{mid}
+NA: Joaquim clutches his chest dramatically.
+
+JO: I was hurt by extension.
+@hideChars
+@char AL.determined pos:{mid}
+AL: Enough.
+
+AL: We already had a revolution, a duel, and a wedding ceremony.
+
+AL: Enough material for one night.
+@char TI pos:{leftmid}
+TI: We're not done yet.
+@char JO pos:{rightmid}
+JO: Yes, we are.
+
+JO: We've strayed from our plan for a good twenty minutes now.
+@hideChars
+@char BA.neutral pos:{leftmid} !wait
+@char HI.neutral pos:{rightmid}
+BA: I would say, rather, that it only started to improve then.
+
+HI: For the first time I agree with you.
+
+BA: Common sense suits you.
+
+NA: Bárbara and Hipólita exchange glances.
+
+NA: Surprised by each other and themselves.
+
+NO: The meeting is over.
+
+NA: He declares, trying to regain a nonexistent control.
+@char TI.neutral pos:{mid}
+NA: In the confusion, Tiradentes searches your gaze.
+
+NA: So does Hipólita, and Bárbara seems to notice both.
+@hideChars
+@char {PLAYER}2 pos:{mid}
+PLAYER: (I really should've stayed sewing.)
+@hideChars
+@char HI pos:{mid}
+NA: As the conversation picks up again and the confusion subsides, Hipólita takes the center next to Tiradentes and speaks up again.
+
+HI: If you believe I do nothing... you're wrong.
+
+NA: Some faces turn to her.
+
+HI: Not all of us serve by wielding swords or raising our voices.
+
+HI: There are letters to be copied.
+
+HI: Notes that shouldn't be passed by male hands.
+
+HI: Papers best kept where no one suspects.
+
+NA: A short silence. The groom looks angry, while Célio, for some reason, seems proud.
+
+HI: And a house like this... can hide more than silverware.
+
+NA: Tiradentes watches her with renewed respect.
+@char TI pos:{leftmid}
+TI: Every cause thrives on discreet hands.
+@char JO pos:{rightmid}
+JO: Here's the first sensible suggestion of the night.
+@hide JO,TI
+NO: Enough.
+
+NA: The word is dry and assertive.
+
+NO: I will not allow my name in such imprudence.
+
+HI: Your name?
+
+NA: She stares at him.
+
+HI: I spoke of my own roof.
+
+NO: You spoke as one who forgets their place.
+
+HI: My place?
+
+NO: As future wife, lady of this house, not as conspirator.
+
+HI: Perhaps I will decide what I am.
+
+NO: You'll decide what suits you.
+
+NA: Hipólita's face hardens and she clenches her jaw.
+@char HI pos:{rightmid}
+@char BA pos:{leftmid}
+NA: Bárbara watches as one would a duel.
+
+BA: I have always admired men who fear paper and ink.
+
+BA: It reveals rare daintiness.
+
+NO: Be quiet.
+
+BA: No.
+
+BA: And see how simple it is to say it.
+
+NA: Alvarenga e Tiradentes exchange a glance, as if sharing a thought.
+
+NA: The groom pales, speechless at the audacity she shows in front of everyone.
+@char AL pos:{mid}
+AL: That's enough for tonight.
+
+AL: Before someone declares war in this room.
+
+NA: Hipólita walks away without asking permission, her movements quick
+
+HI: Forgive me.
+
+HI: I need air.
+@hide HI
+NA: She leaves, heading toward the garden.
+@hide AL
+@char CE.neutral pos:{rightmid}
+@char BA.thinking
+NA: You look around. Célio has an unreadable expression, Bárbara seems disappointed with the conclusion.
+
+NA: Meanwhile Tiradentes, Joaquim and Alvarenga approach Francisco, who seems infuriated, to talk.
+
+NA: You hesitate only a moment and decide you won't be missed.
+
+NA: Then you follow her, an action that doesn't go unnoticed by Bárbara and Célio's attentive eyes.
+@hideChars
+@goSub .BlackScreen
+@back bg_gardenNight
+NA: The garden is darker than last night.
+
+NA: You smell the damp earth and herbs.
+
+NA: The voices inside the house echo in the distance.
+
+NA: You approach and Hipólita is facing away from you, her arms crossed.
+
+NA: Taking deep breaths, as if struggling not to tremble.
+@char HI.sad pos:{rightmid} !wait
+@char {PLAYER}2.sad pos:{leftmid}
+PLAYER: Hipólita...
+
+NA: She doesn't immediately turn around.
+
+HI: Forgive the scene I caused.
+
+HI: I don't usually lose composure in front of an audience.
+
+PLAYER: You had reasons to be angry. With some respect, your fiancé is an ass.
+
+NA: She laughs humorlessly.
+
+HI: I've had years of reason.
+
+HI: And none of them did me much good.
+
+NA: When she finally turns, there is weariness in her eyes.
+
+HI: Tell me...
+
+HI: If I were free... I would choose.
+
+NA: She swallows the rest for a moment.
+
+HI: Do you believe I deserve this?
+
+@choice "Say Hipólita deserves to choose what she wants" goto:.scene6H-1
+
+@choice "Soften the blow and say things are as they are" goto:.scene6H-2
+
+@stop
+
+# scene6H-1
+@set afetoHipolita+=1
+
+@stopBgm fade:2 !wait
+@bgm hipolita
+PLAYER: You deserve so much more than this.
+
+NA: Your hands hover in the air, as if wanting to touch her face but you don't.
+
+PLAYER: You deserve to choose whatever you want.
+
+PLAYER: What to do, where to stay and with whom....
+
+NA: Hipólita stays still for a moment.
+
+NA: As if your words were strange or dangerous.
+
+NA: She stares at you and you see her eyes sparkle, holding back tears.
+
+HI: You're cruel.
+
+PLAYER: Cruel? Me?
+
+NA: You stare back at her, confused by such statement.
+
+HI: Yes.
+
+HI: Because you give me a taste of a world I may never have.
+
+NA: She slowly approaches and sits on the ground, looking up at the sky.
+
+NA: You approach cautiously wondering whether to sit down or not.
+
+NA: The garden suddenly feels silent.
+
+NA: Night covers the dirt paths and the herbs.
+
+NA: From afar you can still see the lights and shadows inside.
+
+NA: But out here there seems to be only the two of you, the scent of flowers, and the sound of insects.
+@goSub .BlackScreen
+@back CGH03_{gender}_01 id:CG time:0
+@unlock CG/CGH03_{gender}_1
+NA: You lean against the bench, sitting on the grass.
+
+NA: Side by side, just close enough to feel each other's warmth without touching.
+
+NA: Hipólita keeps her eyes fixed on the sky.
+
+NA: As if the stars could offer her an answer.
+
+NA: The space between you seems too small yet immense.
+
+NA: Without looking directly at you, her hand moves slowly across the grass.
+
+NA: Her fingers absentmindedly search for a leaf, a rock, anything to justify the gesture.
+@back CGH03_{gender}_02 id:CG
+NA: Instead they find yours.
+
+NA: The touch is light, almost accidental. Almost.
+
+NA: Neither backs away.
+
+NA: Your fingers stay intertwined, shy and quiet.
+
+NA: After a few moments, Hipólita sighs softly.
+
+NA: Then she moves closer to you, slowly.
+@back CGH03_{gender}_03 id:CG
+NA: She rests her head on your chest.
+
+NA: Her weight is soft and warm.
+
+NA: As your arms embrace her, you breathe her scent of flowers and soft spices.
+
+NA: You feel her hair brush against your clothes.
+
+NA: Her breathing, now calmer.
+
+NA: Together, you continue gazing at the sky.
+
+NA: The stars feel less distant than before.
+
+HI: If the world were kinder... maybe this would be enough.
+
+HI: Maybe this would be enough.
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@goSub .BlackScreen
+@back bg_gardenNight
+@goto .scene6H-3
+
+# scene6H-2
+
+PLAYER: Not everything can be changed.
+
+PLAYER: Some things are as they are, and perhaps it's safer to accept them.
+@char HI.neutral
+NA: Her face doesn't harden, it just seems colder.
+
+HI: Yes.
+
+HI: That's what everyone says.
+
+NA: She looks at the house in the distance.
+
+HI: My father said it, my fiancé repeats it...
+
+HI: The whole town agrees.
+
+NA: A small, sad smile.
+
+HI: You're just more eloquent.
+
+PLAYER: I just don't want you to suffer... waiting for...
+
+HI: And I just wanted, for once, not to be advised.
+
+NA: The silence between you weights heavily.
+
+HI: You should return.
+
+HI: Before they notice your absence.
+
+NA: You realize there's no place left to stay.
+
+NA: No useful words.
+@hideChars
+NA: Then you agree and nod goodbye.
+
+NA: And walk away alone through the garden.
+
+NA: As you approach the house, the voices pick back up.
+@char {PLAYER}2 pos:{mid}
+PLAYER: (Politics, plans, pride.)
+
+PLAYER: (Am I missing what really matters?)
+
+# scene6H-3
+; Depois de qualquer uma das escolhas.
+@goSub .BlackScreen
+@bgm volume:0.7
+NA: The argument at Hipólita's house still echoes in your head on your way out.
+@blur MainBackground
+@back bg_hipolitaNight
+NA: But before leaving, you had an idea.
+
+NA: Lit only by the dim light of a single candle, you grab a piece of paper and a quill.
+
+NA: And you write hastily, afraid someone will see the note.
+@char {PLAYER}2 pos:{mid}
+PLAYER: (If you wish for a moment to breathe, away from all this.)
+
+PLAYER: (Have breakfast together with me, tomorrow in the garden - yes, yours)
+
+PLAYER: (At sunrise.)
+
+NA: You carefully fold the note.
+
+NA: And before you lose courage, you find a discreet place to leave the note, where only she would find it.
+@goSub .BlackScreen
+@blur MainBackground power:0
+; Manhã do outro dia na estalagem
+@stopBgm fade:1 !wait
+@bgm respite volume:1
+@back bg_innDay
+NA: The sun has barely risen when you wake, you're restless but excited.
+
+NA: The house is still quiet.
+
+NA: Only the kitchen shows any sign of life.
+
+NA: Francisca already lights the fire by the time you come in.
+@char {PLAYER}2 pos:{leftmid} !wait
+@char FR.surprise pos:{rightmid}
+FR: Good heavens.
+
+PLAYER: Good morning, I need some things for breakfast.
+@char FR.thinking
+FR: Oh?
+
+NA: She crosses her arms.
+
+FR: This early?
+
+FR: And with that guilty face?
+@char {PLAYER}2.embarrass
+PLAYER: I don't have a guilty face.
+
+FR: You look like someone who's about to do something reckless.
+
+PLAYER: Maybe so...
+
+PLAYER: May I take bread... and fruits?
+
+FR: You may.
+
+FR: If you confess first.
+
+PLAYER: I have nothing to confess.
+
+FR: Then take cheese too, lying requires sustenance.
+
+NA: She hands you a small basket with the food.
+
+FR: Go.
+
+PLAYER: Thank you so much, you're the best.
+
+NA: She smiles at your words, you two have become true confidantes these past few days.
+
+FR: And don't step on other people's flowers this time.
+@goSub .BlackScreen
+; No jardim
+@stopBgm fade:1
+@back bg_gardenDay
+NA: When you reach the manor, everything is silent.
+
+NA: The garden still holds the fresh morning air, dewdrops glisten among the leaves and petals.
+@bgm hipolita
+@char HI.neutral pos:{mid}
+NA: Hipólita already awaits you by the hidden bench.
+@char HI.smile
+NA: Upon seeing you, she smiles genuinely.
+
+HI: So the note was yours.
+@char HI pos:{rightmid}
+@char {PLAYER}2.smile pos:{leftmid}
+PLAYER: Did you think it was another secret admirer?
+
+HI: If I had that many, I would sleep better.
+
+NA: You extend the basket toward her.
+
+PLAYER: I brought some things for breakfast.
+
+HI: You brought a feast.
+
+PLAYER: Francisca would say I brought evidence of a crime.
+
+NA: She laughs softly.
+
+NA: Sitting side by side, you share bread, fruits, and still warm coffee.
+
+NA: For a few moments, everything seem simple.
+
+HI: Last night was a disaster.
+@char {PLAYER}2.happy
+PLAYER: It was memorable, what scenes we had.
+@char HI.happy
+HI: Tiradentes and Joaquim almost declared war.
+
+PLAYER: They're like husband and wife.
+
+HI: Don't say that.
+
+NA: She laughs genuinely.
+
+HI: Now I can never unsee it.
+@char {PLAYER}2.smile
+PLAYER: Bárbara, however, seemed to be having fun.
+@char HI.smile
+HI: Bárbara always has fun when chaos belongs to others.
+
+PLAYER: I'm still surprised she's married to Alvarenga.
+@char HI.surprise
+HI: Ah?
+
+NA: She faces you.
+
+HI: And why does that surprise you?
+@char {PLAYER}2.thinking
+PLAYER: Sure, she's mysterious and has this air about her, but Alvarenga is more proper and handsome.
+
+NA: The silence lasts half a second.
+@char HI.smile
+HI: So he's handsome?
+@char {PLAYER}2.embarrass
+PLAYER: I didn't say that.
+
+HI: You said it quite clearly.
+
+PLAYER: I meant... elegant.
+
+HI: Naturally.
+
+NA: She raised her cup, hiding a smile.
+
+HI: And is the alferes elegant too?
+@char {PLAYER}2.thinking
+PLAYER: Now you're making fun of me.
+
+HI: A little.
+
+NA: Her jealousy isn't harsh, but rather curious. Playful, almost.
+
+HI: Should I worry about how many handsome men Vila Rica has?
+
+PLAYER: Only about one woman.
+
+NA: Hipólita lowers her gaze.
+
+NA: And truly smiles.
+
+HI: Ah.
+
+HI: So I still have the advantage.
+
+NA: Laughter between you is comfortable.
+
+NA: Then she looks at you with mischief.
+
+HI: Tell me.
+
+NA: She leans closer.
+
+HI: What about Francisca?
+
+HI: What does she think of me?
+
+PLAYER: That you're beautiful, dangerous, a bad influence, oh, and taken.
+
+HI: What a sensible woman.
+
+PLAYER: She also said I like trouble.
+
+HI: Was she wrong?
+@char {PLAYER}2.thinking
+PLAYER: You're not helping my case.
+
+HI: I don't always want to help you.
+
+NA: Hipólita stirs her coffee.
+
+HI: Francisca observes all.
+
+HI: Women like that scare foolish men.
+
+PLAYER: And Bárbara?
+
+NA: A playful glint crosses her eyes.
+
+HI: Bárbara observes all... and even comments out loud.
+
+PLAYER: She seems to enjoy teasing.
+
+HI: She does.
+
+HI: Especially when she can get away with it.
+
+PLAYER: And do you like her?
+
+NA: Hipólita ponders a moment.
+
+HI: In small doses.
+
+HI: Like strong medicine or expensive poison.
+
+NA: You speak of how Joaquim would probably fight even a mirror, how Alvarenga seems to know more than he lets on.
+
+PLAYER: Are you gossiping with me?
+
+HI: I am.
+
+HI: And I enjoy it very much.
+
+NA: And of how, for an entire morning, the world almost seems bearable.
+
+NA: When the sun is higher, you stand up.
+
+PLAYER: I must go, it's getting late and if someone sees us...
+
+HI: I know.
+
+NA: She lingers a moment before letting go of your hand.
+
+HI: Write to me again.
+
+PLAYER: If you answer me...
+@hide {PLAYER}2
+NA: She sighs as you walk away.
+@char HI.neutral pos:{mid}
+@stopBgm fade:2 !wait
+NA: Hipólita then gathers things from breakfast and goes back in the house.
+@back bg_hipolitaDay
+@sfx doorSlam
+@bgm tension
+NA: But then the office door slams shut.
+
+NA: The sound echoes through the entire house.
+
+NA: Hipólita stops in the hallway before even entering.
+
+NA: On the table, open and crumpled, is the note.
+
+NA: In the groom's hands.
+
+NO: What is the meaning of this?
+
+NA: His voice is low, which makes it worse.
+
+HI: It means you can read.
+
+NA: He slowly raises his gaze.
+
+NO: Do you still have the energy for jokes?
+@char HI.determined
+HI: Do you still have the energy to rummage through my things?
+
+NO: Your things?
+
+NO: You are increasingly mistaken.
+
+NO: Soon everything in this house will be under my name.
+
+HI: "Soon" isn't today.
+
+NA: He throws the paper on the table.
+
+NO: Breakfast in the garden? Hidden notes?
+
+NO: Rendezvous at the break of dawn? Have you lost your mind?
+
+HI: Perhaps I have found it.
+
+NO: Don't provoke me.
+
+HI: Then don't treat me like a servant under surveillance.
+
+NO: I treat you like a promised woman.
+
+HI: As promised possession.
+
+NA: He clenches his jaw tightly.
+
+NO: All this time I've given you respect.
+
+HI: Respect?
+
+NA: She laughs, short and bitter.
+
+HI: Do you call controlling my footsteps "respect"?
+
+HI: Picking my visitors? Counting my words?
+
+NO: I call preserving your name respect.
+
+HI: My name?
+
+HI: The same one you wish to attach to yours as a deed?
+
+NA: He steps forward.
+
+NO: You've been influenced.
+
+HI: By whom?
+
+NO: By those people, by dangerous ideas.
+
+NO: And by strangers who insert themselves where they shouldn't.
+
+NA: He speaks with contempt.
+
+HI: Say it already.
+
+HI: This is jealousy.
+
+NA: The silence is fraught between them.
+
+NO: I will not allow a mockery to be made of myself.
+
+HI: Then behave less like one.
+
+NO: Hipólita.
+
+NA: The name sounds like a threat.
+
+HI: Don't raise your voice at me.
+
+NO: I will if I have to.
+
+HI: Try it.
+
+NA: For a moment, neither backs down.
+
+NO: While you're under this roof...
+
+HI: My roof.
+
+NO: Our future roof.
+
+HI: Your dream.
+
+NO: You will not see that person again.
+
+HI: I'll see whom I please.
+
+NO: You won't.
+
+HI: I will.
+
+NA: He closes his hand over the note.
+
+NO: This ends now.
+
+NA: He tears the paper in half, then in four pieces and drops it on the ground.
+@char HI.neutral
+NA: Hipólita watches the pieces.
+
+NA: When she speaks, she sounds too calm.
+
+HI: You tear paper with great bravery.
+
+HI: Try facing something living one day.
+
+NA: His face pales in outrage.
+
+NO: From today on, you will not leave the house unattended.
+
+HI: From today on?
+
+HI: So you finally admit my imprisonment.
+
+NO: I admit prudence.
+
+HI: I admit pity.
+
+NA: Without asking for permission or lowering her head, she moves away from him.
+
+NA: When she crosses the door, her hands tremble.
+
+NA: Only when she's alone in the hallway does she lean against the wall and closes her eyes.
+
+NA: For the first time, she seems to not know what to do.
+@goSub .BlackScreen
+; Um tempo depois
+@stopBgm fade:3 !wait
+@back bg_marketDay
+NA: Hours later, at the market, you walk next to Francisca among stalls and voices.
+
+NA: Piles of fruit, fabrics hanging in the wind, and the smell of earth, leather and spices.
+@bgm hipolita
+NA: Then you see her.
+
+NA: Hipólita.
+@char HI pos:{mid}
+NA: Between two stalls, calmly choosing something.
+
+NA: Your heart races before the rest of your body.
+
+NA: You approach slowly, already rehearsing a smile.
+
+NA: Thinking about what to say.
+
+NA: Thinking if you should say "good morning" or something better.
+
+NA: Hipólita sees you too and there is no doubt about that.
+
+NA: Her gaze meets yours for a brief moment.
+@stopBgm fade:1 !wait
+NA: And she moves on.
+@hide HI
+NA: She passes by you without a single word.
+
+NA: Not even a smile, as if she didn't even know you.
+
+NA: You stop in the middle of the road.
+
+PLAYER: (...Something happened.)
+
+PLAYER: (And it wasn't good.)
+
+NA: Francisca, beside you, follows the entire scene in a respectful silence of almost two seconds.
+@char FR.thinking pos:{rightmid} !wait
+@char {PLAYER}2.neutral pos:{leftmid}
+FR: Impressive.
+
+FR: You managed to displease the betrothed in record time.
+
+PLAYER: I don't know what happened.
+
+FR: Hm.
+
+FR: That's what they all say afterwards.
+
+NA: She crosses her arms, watching Hipólita walk away.
+
+FR: Was there an early husband?
+
+FR: Some foolish phrase said with confidence?
+
+PLAYER: She's not even married.
+
+FR: Minor detail.
+
+FR: The danger is still real.
+
+PLAYER: I'm serious.
+
+FR: So am I.
+
+FR: If a woman ignores you like that in a public square...
+
+FR: She's either furious... or she's being watched.
+
+NA: You watch Hipólita from a distance.
+
+PLAYER: So it's not about me?
+
+FR: Oh, it could very much be about you.
+
+FR: Just perhaps not only you.
+
+NA: Francisca picks an apple from the stall, examines it and returns it.
+
+FR: Either way... you did something.
+@char {PLAYER}2.thinking
+PLAYER: That helps a lot.
+@char FR.smile
+FR: I try to be useful within my skillset.
+@char {PLAYER}2.smile
+NA: Despite everything, a smile escapes you.
+
+NA: Small and nervous.
+
+NA: Francisca smirks.
+
+FR: Come.
+
+NA: You continue walking through the stalls and shopping for fruit.
+@goSub .BlackScreen
+; CAP 5
+@back bg_innDay
+@stopBgm fade:1 !wait
+
+NA: Morning's heavy when it rises.
+@bgm tension
+NA: Even before the sun is fully out you can hear horses, blunt orders and doors being slammed open.
+
+NA: Vila Rica awakens noisy and bustling.
+
+NA: You wake up restless and frightened from the loud noises.
+
+NA: Then you hear Francisca's voice from the hallway window.
+@char FR.determined pos:{rightmid} !wait
+@char {PLAYER}2.surprise pos:{leftmid}
+FR: Crown guards.
+
+FR: And they're not here for coffee.
+
+NA: Your stomach churns and you hurry out of bed, tripping over the chair but staying next to it.
+@char {PLAYER}2.determined
+PLAYER: Hipólita's house...
+
+NA: Francisca stares at you for a couple seconds, understanding your worried face.
+
+FR: Go.
+
+FR: And take prudence with you, if you meet her along the way.
+@hideChars
+NA: You go back in your room and get dressed as fast as you can.
+
+NA: On your way there, going through the town you see the actions of the crown guards, ransacked houses, papers, and people being interrogated.
+;Na fazenda de Hipólita
+@back bg_gardenDay
+NA: When you reach the manor, the gate is wide open.
+
+NA: The house servants are huddled quietly outside.
+
+NA: Crates scattered on the ground, armed men come and go as if they owned the place.
+@char CELINA.sad pos:{mid}
+NA: You see Celina's pale face, a crumpled apron and restless hands.
+@char CELINA.surprise
+NA: Her eyes widen when she sees you.
+
+CELINA: You...
+@char CELINA.determined
+CELINA: You shouldn't be here.
+@char CELINA pos:{leftmid}
+@char {PLAYER}2.determined pos:{rightmid}
+PLAYER: What happened?
+
+NA: She looks around before answering.
+
+CELINA: What always happens when powerful men get scared.
+
+CELINA: They came early, armed, and they came to take.
+
+PLAYER: What of Hipólita?
+@char CELINA.sad
+NA: At the question, her eyes gleam in distress.
+
+CELINA: She's holding on as best as she can.
+
+CELINA: Her body is steady.
+
+CELINA: Her heart... I can't say.
+
+PLAYER: Can I see her?
+
+CELINA: If the guards ignore you.
+
+CELINA: Today, ignoring seems to be the only kindness they've shown.
+@char {PLAYER}2.surprise !wait
+@char CELINA.surprise !wait
+@shake Camera !wait
+@sfx crash
+NA: A loud crash echoes inside the house.
+@back bg_hipolitaDayDestroyed
+NA: You watch Hipólita's fiancé being led downstairs with his hands tied.
+
+NA: He looks terrified, as if he disbelieved his own fate.
+
+NO: This is absurd!
+
+NO: I am a colonel! Uniformed man of duty!
+
+GUARD: Even greater shame.
+
+GUARD: A high ranked uniformed man, involved in the alferes's delusions.
+
+NO: I know men in Lisbon!
+
+GUARD: You'll know them from further away now.
+
+NA: He searches for someone with his eyes.
+
+NA: Maybe for Hipólita or for support, but finds neither.
+
+NA: Two guards carry trunks.
+
+NA: Another collect papers, ledgers, stamps and contracts.
+
+NA: A fourth tear the paintings off the walls.
+
+NA: On a silver platter, family jewels are dumped carelessly.
+
+NA: Chains, rings, brooches.
+
+NA: Then you see it.
+
+NA: The banana bunches.
+
+NA: The old ornament that Hipólita showed you in almost reverent hands.
+
+NA: Symbol of blood, heritage, and duty.
+
+NA: A guard throws them in a bag along with coins.
+@char {PLAYER}2.sad
+PLAYER: No...
+
+NA: An officer unrolls a parchment and reads it out loud.
+
+OFICIAL: By order of the Portuguese Crown, all assets in this house are confiscated until further notice.
+
+OFICIAL: Due to actions and suspicions that fall upon the owner of this property.
+
+NA: The paper is handed to a trembling servant.
+
+NA: Celina stares at the document as if it were mud itself.
+
+CELINA: Kindness would be to leave a roof and peace.
+
+CELINA: But those cost more.
+
+PLAYER: What suspicions?
+
+CELINA: The same that apply to everything.
+
+CELINA: Rebellion, debt... example.
+
+PLAYER: And Hipólita?
+
+CELINA: She went to the garden.
+
+CELINA: Said she'd rather watch the flowers die in silence, at least.
+
+NA: Celina takes a step closer.
+@char CELINA.determined
+CELINA: Go to her.
+
+CELINA: Today there are few she wishes to see.
+
+CELINA: I believe you are one of them.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+@back bg_gardenDay
+NA: You circle the house carefully, away from the commotion.
+
+NA: The garden remains unchanged, the roses in bloom and the herbs perfume the surroundings.
+@bgm hipolita
+NA: Then, you find her where she would usually look the most alive.
+@char HI.sad pos:{mid}
+NA: Hipólita sits on the bench hidden among flowerbeds.
+
+NA: Hands resting on her lap, her dress still impeccable.
+
+NA: Silent tears stream down her face.
+
+NA: No sobs or gestures.
+
+NA: The kind of crying that is already tired of asking for help.
+@char HI.sad pos:{rightmid} !wait
+@char {PLAYER}2 pos:{leftmid}
+PLAYER: Hipólita...
+
+NA: She raises her eyes at the sound of your voice.
+
+NA: Her eyes are red and tired.
+
+NA: Beautiful still.
+
+HI: They came early.
+
+HI: Like diligent rats.
+
+PLAYER: I came as soon as I heard.
+
+HI: I see.
+
+NA: She tries to smile, but can't.
+
+PLAYER: I'm sorry.
+
+HI: Everyone's sorry when there's nothing left to stop.
+
+NA: The distant sound of furniture being dragged echoes from the house.
+
+NA: Hipólita closes her eyes for a moment.
+
+HI: This isn't about gold, or silverware.
+
+NA: Her voice falters only once.
+
+HI: It's about what they took from me.
+
+PLAYER: And what did they take?
+
+NA: She looks around the garden.
+
+HI: Choice, name, time.
+
+HI: What little I still considered mine.
+
+NA: She wipes a tear, frustrated.
+
+HI: Even this angers me.
+
+HI: Crying in front of me.
+
+NA: Her hand lands on the damp earth next to the bench.
+
+HI: They even took the banana bunches... didn't even know what they meant.
+
+NA: You carefully sit next to her.
+
+NA: Not speaking or trying to fix things.
+
+NA: After a moment, her fingers find yours.
+
+NA: Weak and cold.
+
+NA: In need of something that won't be wrenched away from her.
+
+NA: You intertwine your fingers to hers and stroke her skin with your thumb.
+
+HI: Tell me...
+
+HI: When they're done taking everything from someone...
+
+HI: ...What's left?
+
+NA: The garden awaits your answer along her.
+
+@choice "Encourage her to react politically" goto:.scene7H-1
+
+@choice "Stand by her in silence" goto:.scene7H-2
+
+@stop
+
+
+
+# scene7H-1
+
+@set afetoHipolita+=1
+
+PLAYER: Then don't hand them their victory.
+
+PLAYER: If they took your possessions, don't surrender your will to them.
+
+PLAYER: You can still fight back.
+
+PLAYER: You can choose what to do from now on, I believe in you.
+
+NA: Hipólita remains motionless.
+
+NA: Then she takes a deep breath.
+
+HI: You always speak as if the world can be mended.
+
+PLAYER: Perhaps it can.
+@char HI.smile
+HI: Perhaps I wish to believe that when I listen to you.
+
+NA: She rises slowly.
+
+NA: And straightens her shoulders.
+
+NA: The crying is still there, but more restrained now.
+
+HI: Very well.
+@char HI.determined
+HI: If they want to ruin me, they'll have to work much harder.
+
+HI: I don't intend to make it easy.
+
+NA: An old gleam returns to her eyes.
+
+NA: Not peace, but some kind of strength.
+
+@goto .scene7H-3
+
+# scene7H-2
+
+NA: You don't offer advice, promises, or a single kind word.
+
+NA: You just move even closer and squeeze her hand.
+
+NA: Close enough for her to know you're there.
+
+NA: The silence between you isn't heavy.
+
+NA: A few moments later, Hipólita leans slightly.
+
+NA: Her shoulder touches yours and she rests there.
+
+HI: Everyone always has instructions.
+
+HI: What I should do.
+
+HI: How I should suffer, when to be silent.
+
+NA: A weary sigh.
+
+HI: Thank you for saying nothing.
+# scene7H-3
+; Depois das escolhas
+
+NA: After a while she brings her hand to her neckline.
+
+NA: She pulls out a thin gold chain hidden in the fabric.
+
+NA: Attached to it is a small oval piece.
+
+NA: A locket, worn by time but you can tell it is well taken care of.
+
+HI: They couldn't find this.
+
+NA: She opens it.
+
+NA: Inside, a small picture of a serious man with kind eyes.
+
+HI: My father.
+
+HI: He was the only man who looked at me as a heiress, not an ornament.
+
+NA: She closes the locket and puts it in your hand.
+
+PLAYER: Hipólita...
+
+PLAYER: I can't do this.....
+
+HI: You can.
+
+HI: You must.
+
+HI: If I leave it here, they'll take it tomorrow... and if I keep it on me, they might snatch it today.
+
+NA: Her finger close your hand over the piece.
+
+NA: Warm despite the tremble.
+
+HI: Keep it for me.
+
+HI: Until I have something of mine again.
+
+NA: The gold weights little, but the request does not.
+
+NA: You look at her and nod.
+
+PLAYER: I will.
+
+NA: For the first time since you got here, she smiles.
+
+NA: It's a small, fragile thing, but it's real.
+
+HI: So I still have something left.
+@goSub .BlackScreen
+@stopBgm fade:3 !wait
+@back bg_squareAfternoon.Crossfade pos:-65,90 scale:3.0 time:0 !wait
+NA: The sun already sets when you return to the inn.
+
+NA: The street activity seems distant.
+
+NA: Everything seems distant.
+
+;No lado de fora da estalagem
+@bgm respite
+NA: Sitting on the bench outside, you twirl the locket between your fingers.
+
+NA: The gold reflects the light of dusk.
+
+NA: Small, delicate, and heavy with meaning.
+
+NA: The door to the inn creaks behind you.
+
+NA: Francisca emerges drying her hands on the apron.
+@char {PLAYER}2 pos:{leftmid} !wait
+@char FR pos:{rightmid}
+FR: That face never suggests prudence.
+
+NA: She sits next to you, not asking for permission.
+
+FR: And that necklace never came from a good decision.
+
+PLAYER: Hipólita gave it to me.
+
+NA: Francisca arches her eyebrows.
+
+FR: The betrothed?
+
+FR: You don't say.
+
+PLAYER: Her fiancé was arrested on account of the revolution, they took almost everything.
+
+PLAYER: She was... devastated.
+
+NA: Francisca studies the locket in your hands.
+
+FR: And so are you.
+
+PLAYER: I like her....
+
+FR: I see you have a very defined type.
+
+PLAYER: A type?
+
+FR: Yes.
+
+FR: A betrothed, persecuted, surrounded by tragedy lady.
+
+FR: And older men, equally unavailable.
+
+FR: What an unheard of surprise.
+
+NA: You widen your eyes.
+
+PLAYER: Are you going to judge me?
+
+FR: Judge you?
+
+NA: She laughs quietly.
+
+FR: Never.
+
+FR: I was young once.
+
+FR: In my days I also had a taste for well-presented imprudences.
+
+NA: She crosses her arms, playful.
+
+PLAYER: It's not like that.
+
+FR: Of course not.
+
+FR: I'm just kidding.
+
+NA: Her tone softens.
+@char FR.smile
+FR: Liking someone isn't a crime.
+
+FR: It just tends to come with a high price.
+
+NA: She looks at the empty street.
+
+FR: If you truly like her...
+
+FR: Don't run like you're chasing a fire.
+
+FR: Wait for the smoke to clear.
+
+PLAYER: What if I wait too long?
+
+FR: Then you'll see if it was love or just haste.
+
+NA: She nudges your shoulder and you let out a playful smile.
+
+FR: And keep that necklace safe.
+
+FR: There are memories that save entire days.
+@hideChars
+; Passagem de tempo
+
+NA: The days go by slowly. Against what you truly wanted, you decided to follow Francisca's advice.
+
+NA: Especially since there's really nothing you can do.
+
+NA: Vila Rica remains restless with debt upon debt.
+
+NA: After the revolution was exposed, the Crown is not kind, insisting on showing their power and making an example of those involved.
+
+NA: Between arrests, names whispered on street corners, and houses under surveillance.
+
+NA: You think of her more than you admit.
+
+NA: Of the garden, of the touch of her hands every time you feel the weight of the locket against your chest.
+@goSub .BlackScreen
+; O reencontro
+@stopBgm fade:1
+NA: On a clear morning, you make a decision.
+
+NA: As you walk you notice the village is calmer. Fewer guards, less noise, more silence.
+@back bg_gardenDay
+@bgm hipolita
+NA: When you see the manor, Hipólita is in the open field near the garden.
+@char HI.neutral pos:{mid}
+NA: Distracted, watching over the earth and flowers.
+@char HI.smile pos:{rightmid}
+@char {PLAYER}2.smile pos:{leftmid}
+NA: When she sees you, she smiles in subdued surprise.
+
+HI: I thought you would come sooner.
+
+PLAYER: I thought about coming every day.
+
+HI: You're lucky you didn't.
+
+NA: She approaches.
+@char HI.determined
+NA: There's resolve in her now.
+
+HI: I need to tell you something.
+
+PLAYER: Tell me.
+
+HI: I got an offer from relatives in Rio de Janeiro.
+
+HI: They want to take me there.
+
+HI: Away from scandals, away from this house.
+
+HI: Away from anything that reminds me of prison.
+
+NA: She holds your gaze.
+
+HI: And I don't know if I should go.
+
+NA: You face her with a sadness in your eyes, several words and thoughts go through your mind.
+
+NA: But you choose what you think is right, even if it's not what will make you happy.
+
+@if afetoHipolita>5
+
+@goto .scene8H-1
+
+@else
+
+@goto .scene8H-2
+
+@endif
+
+; (Final Bom)
+
+# scene8H-1
+
+PLAYER: Think about yourself.
+
+PLAYER: Not about what others want, expect, or will say about you.
+
+PLAYER: You're an amazing, strong, and brave woman.
+
+PLAYER: You deserve happiness and to choose something that makes you enjoy living.
+@char HI.surprise
+NA: Hipólita remains motionless.
+
+NA: Her eyes sparkle in contained emotion.
+
+HI: No one has ever told me that without ulterior motives.
+
+PLAYER: Now someone has.
+@char HI.happy
+NA: She laughs through tears.
+@char HI.neutral
+HI: If I break off the engagement...
+
+HI: ...I'll lose alliances, reputation, invitations.
+
+PLAYER: And you'll gain mornings of your own to do whatever you want.
+
+PLAYER: The right to open a door without asking permission.
+
+PLAYER: And the freedom to smile when you want.
+
+NA: Her eyes well up with tears.
+
+HI: You're cruel.
+@char {PLAYER}2.surprise
+PLAYER: You're calling me cruel again?
+
+HI: Yes.
+
+HI: Because you make me want... and you're dangerously convincing.
+
+NA: She takes a step closer to you.
+
+HI: What if I decide to stay?
+
+PLAYER: Then stay, some people will like that decision...
+
+HI: And if decide to choose you?
+
+NA: Your heart races and your eyes sparkle at the idea.
+
+PLAYER: Then I'm not responsible for what I do next.
+@char HI.happy
+NA: Hipólita laughs, free and beautiful.
+@goSub .BlackScreen
+@back CGH04_{gender}_01 id:CG time:0
+@unlock CG/CGH04_{gender}_1
+NA: You pull her close.
+
+NA: You wrap your arms around her waist.
+
+NA: She barely had time to protest.
+
+NA: Hipólita rests her forehead against yours.
+
+HI: What shall we do now?
+
+PLAYER: Something scandalous.
+
+HI: Such as?
+
+PLAYER: Being happy.
+
+NA: You hold her tight, you face on her neck, buried in the scent of flowers and herbs you thought about so much these past days.
+
+NA: Hipólita's feet still touch the ground.
+
+NA: She holds onto to your shoulders, squeezing as if to make sure you're really there.
+@back CGH04_{gender}_02 id:CG
+NA: With a push you hold her waist tightly and lift her from the ground.
+
+NA: Her dress twirls in the air.
+
+NA: She clings to you between laughter and surprise.
+
+HI: You're mad!
+
+PLAYER: A little.
+
+NA: Your faces are much closer now, so close you feel her warm breath against yours.
+
+NA: Your eyes drift down to her lips and back to her eyes again.
+NA: She laughs shyly and nods in silent agreement.
+@back CGH04_{gender}_03 id:CG
+NA: Hipólita buries her finger into your hair and pulls you close.
+
+NA: Your lips brush against hers gently, in a lingering kiss.
+
+NA: You feel the softness of her lips against yours.
+
+NA: Then you capture her lips, deepening the kiss. Her mouth is hot.
+
+NA: Your tongue slowly brushes against hers, exploring each corner of her mouth, savoring her sweet taste.
+
+NA: You feel her fingers grip your hair, a moan echoes from her throat, muffled by the kiss.
+
+NA: A long, hot kiss, hungry for lost time.
+
+NA: When you pull away, you both breathe awkwardly.
+
+NA: Hipólita sighs and you give her a quick kiss to the lips and then her forehead.
+
+NA: An almost protective kiss, then you pull away slightly.
+@back CGH04_{gender}_02 id:CG
+NA: She gazes at you, loving and certain.
+
+HI: Very well.
+
+HI: I believe I'll stay.
+
+NA: You laugh deep within your throat. You couldn't stop smiling and neither could she.
+
+NA: You spun her again in the air, trying to really savor the moment.
+
+NA: It was the beginning of something and, around the farm, you finally felt like you belong to someone.
+
+; FIM!
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@goto .GameEnd
+
+; (Final Ruin)
+# scene8H-2
+@goSub .BlackScreen
+@stopBgm fade:1
+@back bg_gardenAfternoon
+NA: A few days later, you return to Hipólita's house.
+
+NA: As you walk, you notice the silence and distrust that hangs over the village.
+@bgm sad
+NA: The farm gate is no longer wide open.
+
+NA: There are no guards, no shouting.
+
+NA: Only the silence of those who cleaned the damage much too quickly.
+@char HI.neutral pos:{mid}
+NA: Hipólita stands near the garden, watching the flowers sway in the wind.
+
+NA: Dressed with elegant simplicity.
+
+NA: Serene on the outside, but seems distant on the inside.
+
+HI: You came.
+@char HI pos:{rightmid}
+@char {PLAYER}2 pos:{leftmid}
+PLAYER: I was always going to come.
+
+NA: She holds your gaze a moment longer.
+
+HI: I need to tell you what happened.
+
+NA: You sit on the stone bench between the flowerbeds.
+
+NA: The leaves slowly dance to the wind.
+
+HI: Part of the inheritance has been returned.
+
+PLAYER: Returned?
+
+HI: Yes.
+
+HI: The assets were under my name through my father.
+
+HI: Without formal conviction, and some influential relatives calling in old favors...
+
+HI: The Crown decided to return what they deemed convenient.
+
+NA: A short smile.
+
+HI: Justice tends to be quite efficient when it serves convenience.
+
+PLAYER: So you're finally free?
+
+NA: She lowers her gaze.
+
+HI: Not entirely.
+
+HI: My fiancé was released.
+
+PLAYER: How?
+
+HI: Because another man carried the burden for everyone.
+
+NA: She raises her face.
+
+HI: Tiradentes took the blame alone.
+
+NA: The name hangs heavily among you.
+
+HI: And with one guilty enough, the others became less urgent.
+
+PLAYER: So Tiradentes will take all the blame and your fiancé is free, that's... great...
+
+HI: Now he wants to move the wedding forward.
+
+HI: Says the house needs order and my name needs protection.
+
+HI: Says many things begin with it and end with it.
+
+NA: She takes a deep breath and you see sadness in her eyes.
+
+NA: Your chest tightens, you feel a sharp pain as if you took a blow to the stomach.
+
+PLAYER: Maybe it's best to accept it.
+
+PLAYER: You've already lost so much, maybe protecting what's left is better.
+
+NA: Hipólita goes very quiet.
+
+NA: Her silence is worse than tears.
+
+HI: Yes.
+
+HI: Protect, always protect.
+
+NA: She stands up slowly and stares at you.
+
+NA: She seems disappointed, as if she expected something she knew wouldn't happen.
+
+HI: I appreciate your honesty.
+
+NA: Her tone is polite, but distant.
+
+NA: You stay seated, cursing your actions and words that led you here.
+@hideChars
+NA: As you watch her slowly walk inside the house.
+@goSub .BlackScreen
+;NA estalagem
+@back bg_innDay
+NA: Days later you're at the inn, dejected and weary, helping Francisca with cleaning.
+
+NA: When someone delivers a formal invitation.
+
+NA: Francisca receives it and notices the thick paper, the ornate lettering.
+
+NA: She approaches you and hands you the invitation with a heavy look.
+@char {PLAYER}2.neutral pos:{leftmid} !wait
+@char FR.neutral pos:{rightmid}
+PLAYER: What's this?
+
+FR: Refined cruelty.
+
+NA: Francisca mumbles handing you the envelope.
+
+FR: They delivered this with great pomp.
+
+FR: The courier seems to enjoy the task.
+
+NA: You take the envelope and break the seal.
+
+NA: Elegant lettering announce the wedding of Lady Hipólita and Francisco Lopes.
+
+NA: Your name is handwritten at the end, added deliberately.
+
+FR: How graceful.
+
+FR: Inviting who you lost.
+
+PLAYER: Maybe I shouldn't go.
+
+FR: Maybe not.
+
+PLAYER: But what choice do I have?
+
+NA: Francisca looks at you in disbelief as if the answer was obvious, but she states it.
+
+FR: And yet, you'll go.
+
+NA: She knows you too well.
+@goSub .BlackScreen
+;O casamento
+@stopBgm fade:1
+
+NA: The church is full and a scent of flowers and silk fills the air.
+
+NA: Most people from Vila Rica are there, members of the elite and some people you know.
+
+NA: People watch curiously, but smile as protocol dictates.
+
+NA: A soft song begins as Hipólita walks up to the altar.
+@back CGH05_01 id:CG time:0
+@unlock CG/CGH05_1
+NA: She's beautiful as expected, long white dress, her hair styled and beautiful flowers in her hands.
+
+NA: But her expression isn't happy, eyes downcast and apathetic.
+
+NA: Meanwhile her fiancé waits beside the officiant, satisfied, chest puffed out and a triumphant smile.
+
+NA: You have the feeling he glances at you a few times.
+@back CGH05_02 id:CG
+NA: When she reaches the altar, their hands meet.
+
+NA: She rests hers, cold and indifferent, while he squeezes possessively.
+@back CGH05_03 id:CG
+NA: Before the final vows, Hipólita looks up.
+
+NA: Her eyes find you among the guests.
+
+NA: Silent tears glisten in her eyes and you feel something break inside you right there.
+
+NA: The groom, unaware, smiles smugly.
+@back CGH05_04 id:CG
+NA: When the vows are exchange and he kisses her before everyone, the church applauds.
+
+NA: But you can't. You feel the tears well up around your eyes, your hands shake and it feels like you can't breathe.
+
+NA: Hipólita closes her eyes.
+
+NA: Not from passion, but the absence of it.
+@back CGH05_02 id:CG
+NA: As the two leave together hand in hand, the church bells ring and people celebrate, wishing happiness to the new couple.
+
+NA: You leave slowly, your eyes follow the procession toward the carriage, and when you look at Hipólita again...
+
+NA: That look never felt so much like a silent farewell.
+;@back cg_black.Crossfade id:CG !wait
+@hide CG
+@goto .GameEnd
+; FIM!
+
+# BlackScreen
+@hideChars !wait
+@hidePrinter time:1 !wait
+@hide MainBackground
+@hide CG !wait
+@back bg_black pos:50,50 scale:1 time:0
+; @stopBgm fade:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:1.5 wait!
+@return
+
+# GameEnd
+@stopBgm fade:1
+@hideChars !wait
+@hide CG !wait
+@hidePrinter time:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:0.5 wait!
+@showUI TitleUI
+@stop

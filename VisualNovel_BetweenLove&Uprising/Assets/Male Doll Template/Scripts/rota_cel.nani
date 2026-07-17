@@ -1,0 +1,6905 @@
+@back bg_innDay
+NA: You wake up suddenly, maybe it was the distant sound of a rooster crowing or the light coming through the crack in the window.
+
+NA: For a second you believe everything is back to normal.
+
+NA: Your room, your cell phone, and your busy life.
+
+NA: Then you see the wooden ceiling, the walls, and the complete absence of any electrical outlets.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: Oh no.
+
+PLAYER: Still here.
+
+NA: You cover your face with your hands, wiping your eyes as if that would wake you from that dream.
+
+PLAYER: This can't be real.
+
+NA: Unfortunately, it seems quite real.
+
+NA: The smell of firewood wafts from the kitchen, someone is chatting downstairs, and a cart passes by on the street.
+
+NA: Everything remains exactly as it was yesterday, including you.
+
+NA: You shift slightly in bed, the fabric itches a little against your skin, until you slowly sit up and stare at the room.
+
+NA: After some makeshift hygiene and a long internal discussion about how people managed to live without modern plumbing...
+
+NA: You go downstairs.
+@char {PLAYER}2 pos:{leftmid}
+@char FR.neutral pos:{rightmid}
+NA: A woman is organizing some mugs behind the counter.
+
+NA: She looks up.
+@char FR.smile
+FR: Oh.
+
+NA: An amused smile.
+
+FR: You survived.
+
+PLAYER: Barely.
+@char FR.neutral
+FR: That's what everyone says before breakfast.
+
+NA: You stare at Francisca and she stares at you.
+
+PLAYER: This will be a long day.
+
+FR: It really will.
+
+FR: My name is Francisca, and yours?
+
+
+
+
+
+
+
+
+
+
+
+PLAYER: My name is {name}.
+
+FR: Pleasure.
+
+NA: You look around and see coffee, cornbread, bread, cheese, and some fruit. She hands you a piece of bread.
+
+FR: Eat.
+
+FR: You'll think better with a full stomach.
+
+PLAYER: Does that work?
+
+FR: No.
+@char FR.thinking
+NA: A short pause as she seems to think about her words.
+
+FR: But at least you'll complain less.
+@char FR.neutral
+NA: After breakfast, you observe the activity in the inn and how Francisca works and takes care of things. You try to help her, not that it works...
+
+NA: Francisca suggests that perhaps a certain woman from the village knows what to do with someone as lost as you.
+
+PLAYER: That doesn't sound like a compliment.
+
+FR: It wasn't.
+@char {PLAYER}2.surprise
+@char FR.thinking
+NA: You dramatically bring your hand to your chest, pretending to be offended, and she looks at you and rolls her eyes.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+@back bg_squareDay
+@bgm wander
+NA: You leave the inn and, outside, Vila Rica is bustling. You hear voices, the sounds of carts, and see soldiers walking through the city.
+
+NA: After a few streets, you are moving away from the city again, seeing the dirt ground and the surrounding trees.
+@back bg_gardenDay
+NA: Until the farm appears, along with the beautiful garden from the previous day.
+
+NA: You approach, thinking carefully about what you will say to Hipólita this time.
+
+NA: You take a deep breath and knock on the door, and a few seconds later it opens.
+@char HI.neutral pos:{rightmid}
+HI: Well.
+@char HI.thinking
+NA: Hipólita raises an eyebrow.
+
+HI: You survived another day.
+@char {PLAYER}2.neutral pos:{leftmid}
+PLAYER: Barely.
+@char HI.smile
+HI: What a shame.
+
+NA: With a smile on her lips, she doesn't seem serious.
+
+PLAYER: Thanks for your concern.
+
+HI: Always at your service.
+@char {PLAYER}2.smile
+NA: You smile.
+
+NA: You're starting to understand when she's joking, or at least you hope she is.
+@stopBgm fade:4 !wait
+HI: Come in.
+@goSub .BlackScreen
+@back CGC02_01 id:CG time:0
+@unlock CG/CGC02_1
+@bgm cel
+NA: You walk through the entrance and almost bump into someone in the hallway.
+
+NA: The other person takes a step back immediately.
+
+NA: Like someone more used to saying sorry than hearing it.
+
+???: Oh.
+
+???: I'm sorry.
+
+PLAYER: No, it was my fault.
+
+NA: The person holds some fabrics in their arms, looking distracted.
+
+NA: As if thinking about three different things at the same time.
+
+NA: For a moment, they look away, seemingly lost in thought.
+@back CGC02_02 id:CG
+NA: Then they finally pay attention to you.
+@back CGC02_03 id:CG
+NA: And smile.
+
+NA: A simple, warm smile.
+
+???: So you're the person everyone's talking about.
+
+PLAYER: Everyone?
+
+NA: You raise an eyebrow in doubt.
+
+???: Some.
+
+NA: A brief pause.
+
+???: But it sounds more dramatic to say all.
+@goSub .BlackScreen
+@back bg_hipolitaDay
+@char HI.smile pos:{rightmid} !wait
+@char {PLAYER}2.surprise pos:{leftmid} !wait
+@char CELINA.smile pos:{mid}
+HI: This is Celina.
+@char {PLAYER}2.neutral
+NA: Hipólita approaches.
+
+HI: Trustworthy like few people in this village.
+@char CELINA.embarrass
+CELINA: Hipólita.
+
+NA: Celina seems embarrassed.
+
+CELINA: That way I'll seem interesting.
+@char HI.neutral
+HI: And aren't you?
+@char CELINA.neutral
+CELINA: Not particularly.
+
+HI: I disagree.
+@char CELINA.smile
+NA: Celina's smile grows, small and shy, but it seems sincere.
+
+NA: And for the first time since you arrived, you feel someone is looking at you without curiosity or judgment.
+
+NA: Just seeing you, as a person.
+@hide HI
+NA: When Hipólita disappears upstairs to fetch some documents...
+@char CELINA.neutral pos:{rightmid}
+NA: You end up alone in the room.
+
+NA: Or almost.
+
+NA: Celina stays busy tidying up some things, but every now and then you notice her eyes discreetly returning to you.
+
+NA: Like someone watching a rare bird or trying to solve a riddle.
+
+NA: Shortly after, she leaves and returns carrying a pitcher and a glass.
+@char CELINA.smile
+CELINA: I imagine you're thirsty.
+
+NA: She places the glass before you with a gentle smile.
+
+PLAYER: Thank you.
+
+NA: When your fingers touch for an instant...
+
+NA: A strange sensation washes over you, brief and difficult to explain, like a memory that refuses to surface.
+
+@choice "Accept but ask" goto:.scene3C-1
+
+@choice "Accept and thank for the water" goto:.scene3C-2
+
+@stop
+
+@goto .scene3C-1
+
+@set afetoCel+=1
+
+#scene3C-1
+
+PLAYER: Can I ask you something?
+
+CELINA: Of course.
+@char {PLAYER}2.thinking
+PLAYER: Have we met somewhere before?
+@char CELINA.surprise
+NA: For a second, just a second.
+
+NA: Celina seems surprised.
+@char CELINA.neutral
+CELINA: I don't think so.
+
+PLAYER: Are you sure?
+
+CELINA: Absolutely.
+
+NA: She lowers her gaze to the glass.
+
+CELINA: I don't really leave Vila Rica much.
+
+NA: A short pause.
+@char CELINA.shy
+CELINA: And I would certainly remember someone like you.
+
+NA: The comment seems innocent, but a slight blush appears on her cheeks.
+
+NA: Internally, she seems strangely happy that you noticed, even if she can't explain why.
+
+@goto .scene3C-2end
+
+#scene3C-2
+
+PLAYER: Thank you.
+@char CELINA.neutral
+CELINA: You're welcome.
+
+PLAYER: You saved my life.
+
+CELINA: It's just water.
+
+PLAYER: Still.
+@char CELINA.smile
+NA: Celina smiles.
+
+CELINA: Then I'm glad I could help.
+
+NA: She seems to like the simplicity of the answer.
+
+NA: As if she's not used to receiving thanks for small things.
+#scene3C-2end
+;Depois das escolhas
+@char CELINA.neutral
+NA: After a few moments of comfortable silence, you end up striking up a conversation.
+
+PLAYER: So...how long have you worked for Hipólita?
+@char CELINA.smile
+CELINA: A few years.
+
+NA: Her smile softens immediately.
+
+CELINA: Longer than I should admit.
+
+PLAYER: Do you like it here?
+
+CELINA: Very much.
+
+NA: The answer comes without hesitation.
+
+CELINA: Hipólita may seem stern, but she has a better heart than she lets others see.
+
+PLAYER: I noticed something similar.
+
+CELINA: Few people do.
+
+NA: Celina seems genuinely pleased with that.
+
+PLAYER: And how did you end up here?
+@char CELINA.thinking
+NA: She thinks for a few seconds, choosing her words carefully.
+
+CELINA: Let's just say I haven't always found places where I fit in.
+
+NA: The comment seems simple, but there's more to it than that.
+
+PLAYER: And you found it here?
+@char CELINA.smile
+CELINA: ...
+
+NA: She smiles, looking a little melancholic.
+
+CELINA: Hipólita never demanded that I be different.
+
+CELINA: That's rarer than it seems.
+
+PLAYER: I see.
+
+NA: You don't fully understand, but you realize that it's important to her.
+@char CELINA.neutral
+CELINA: I'm grateful for that.
+
+CELINA: Very grateful.
+
+NA: For the first time since the beginning of the conversation, you realize that Celina's loyalty to Hipólita doesn't just come from work.
+
+NA: It comes from someone who has finally found a place where she's been accepted.
+
+NA: And for some reason, hearing that, that strange feeling of familiarity returns.
+
+NA: As if a part of you already knew this.
+@char HI.neutral pos:{mid}
+NA: Shortly after, Hipólita returns holding some papers.
+
+HI: Sorry for the delay.
+
+HI: Some people insist on creating problems just to keep me busy.
+
+PLAYER: I can imagine who they are.
+
+HI: If you guess correctly, you'll win absolutely nothing.
+
+PLAYER: That seems fair.
+
+NA: The conversation continues, Hipólita explains some things about Vila Rica.
+
+NA: About the city, its inhabitants, about who deserves trust and who definitely doesn't.
+
+NA: You pay attention, or at least try to.
+
+
+NA: Because at some moments your attention ends up being diverted.
+
+NA: Celina crosses the room carrying folded clothes.
+
+NA: Later she appears carrying a tray.
+
+NA: Then she appears again organizing some books.
+
+NA: Always busy and discreet.
+
+NA: But somehow you keep noticing her presence.
+
+NA: And that's strange, because normally I wouldn't pay so much attention.
+@char HI.thinking
+HI: Are you listening?
+@char {PLAYER}2.surprise
+PLAYER: What?
+@char HI.neutral
+HI: Exactly.
+
+NA: Hipólita sighs.
+@char {PLAYER}2.neutral
+PLAYER: Sorry.
+
+HI: At least you admit it.
+
+NA: Time passes and eventually the conversation comes to an end.
+@char HI.smile
+HI: It was a pleasure to have you back.
+@char {PLAYER}2.smile
+PLAYER: Thank you for having me.
+
+HI: Try not to cause any trouble until our next conversation.
+@char {PLAYER}2.neutral
+PLAYER: I promise nothing.
+
+HI: I'm afraid that's the right answer.
+@char HI.neutral
+NA: You head towards the door and then notice Celina standing on the other side of the room.
+
+NA: Watching you, as if she wanted to say something.
+
+@choice "Hold her gaze" goto:.scene4C-1
+
+@choice "Avert your gaze" goto:.scene4C-2
+
+@stop
+
+
+#scene4C-1
+@set afetoCel+=1
+
+
+@char CELINA.surprise
+NA: You hold her gaze.
+@char CELINA.smile
+NA: Celina seems surprised for a moment and then smiles shyly.
+
+NA: Like someone happy to have been noticed.
+
+CELINA: See you soon.
+
+PLAYER: See you soon.
+
+NA: You nod and for some reason it seems important.
+
+@goto .scene4C-2end
+
+#scene4C-2
+
+NA: You look away first as soon as you notice.
+
+NA: You don't know exactly why.
+
+NA: Maybe out of embarrassment or the strange feeling she provokes.
+
+NA: When you look back, Celina is already busy with another task.
+
+NA: But for a moment you think you saw a slight disappointment on her face.
+#scene4C-2end
+;Depois das escolhas
+@stopBgm fade:3 !wait
+@goSub .BlackScreen
+@back bg_squareDay
+@bgm wander
+NA: Shortly after, you leave Hipólita's house.
+@back bg_squareAfternoon
+NA: The sun is already slowly setting over Vila Rica, the streets remain busy.
+
+NA: But more calmly than during the morning.
+
+NA: You are still thinking about the conversation when you see someone approaching down the street.
+@char {PLAYER}2.neutral pos:{leftmid} !wait
+@char AL.smile pos:{rightmid}
+AL: Well.
+
+NA: The man smiles upon recognizing you.
+
+AL: I see you're still in one piece.
+@char {PLAYER}2.smile
+PLAYER: For now.
+
+AL: Excellent news.
+
+NA: Alvarenga stops in front of you.
+
+AL: And how was the visit?
+
+PLAYER: Better than I expected, I talked to Hipólita.
+@char AL.neutral
+AL: So you really survived.
+@char {PLAYER}2.neutral
+PLAYER: Is she really that scary?
+@char AL.smile
+AL: Only to those who deserve it.
+
+NA: A playful smile appears on his face.
+
+AL: Hipólita is a good woman.
+
+AL: Proud… sometimes stubborn, but a good woman.
+@char {PLAYER}2.smile
+PLAYER:  I noticed that.
+
+AL: I'm glad.
+
+NA: He seems genuinely pleased.
+
+NA: Like someone who likes to see his friends getting along.
+
+AL: And the inn?
+
+AL: Are they taking good care of you?
+
+PLAYER: Francisca threatens my physical integrity daily.
+
+AL: So you're being very well taken care of.
+
+PLAYER: I figured.
+@char AL.happy
+NA: Alvarenga laughs.
+@char AL.smile
+AL: Well.
+
+AL: I won't take up any more of your time.
+
+NA: He adjusts his jacket.
+
+AL: I just wanted to know how you were.
+
+PLAYER: Thank you.
+
+AL: You're welcome.
+
+NA: He gives a small bow.
+
+AL: Have a good night.
+
+PLAYER: The same to you, sir.
+@hide AL
+NA: You go your separate ways and you continue to the inn.
+@char {PLAYER}2.embarrass
+PLAYER: ("Sir"?)
+PLAYER: ("Sir" is complicated.)
+@stopBgm fade:1 !wait
+@back bg_innNight
+@char {PLAYER}2.neutral
+@char FR.thinking pos:{rightmid}
+@bgm respite
+NA: Upon entering, you find Francisca leaning against the counter.
+
+NA: Looking like someone who clearly saw something.
+
+FR: Well.
+
+PLAYER: No.
+
+FR: I didn't even ask anything.
+
+PLAYER: But you were going to.
+
+FR: I was.
+
+NA: She crosses her arms.
+
+FR: What did the doctor want?
+
+PLAYER: Just to know how I was.
+
+FR: Hm.
+
+NA: The sound makes it clear she doesn't believe the conversation was so simple.
+
+PLAYER: That's all.
+@char FR.neutral
+FR: Of course.
+
+PLAYER: Francisca.
+
+FR: I believe you.
+
+NA: A short pause.
+
+FR: Almost.
+
+PLAYER: You do this on purpose.
+@char FR.smile
+FR: Frequently.
+
+NA: She smiles.
+
+FR: Now go upstairs, it's getting late.
+
+PLAYER: Good night.
+
+FR: Good night, and don't fall down the stairs.
+@hideChars
+NA: You go up to your room and change your clothes.
+
+NA: You throw yourself onto the bed and close your eyes, thinking about the day you had.
+
+NA: But sleep doesn't come.
+
+NA: Because something keeps bothering you.
+
+NA: It's not Hipólita, it's not Francisca, and it's not even that conversation with Alvarenga.
+
+NA: It's Celina.
+
+NA: Her smile, her voice, and the way she looks at you.
+
+NA: That strange feeling of familiarity.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: Where...
+
+NA: You stare at the ceiling.
+
+PLAYER: Where do I know you from?
+
+NA: No answer comes.
+
+NA: Just the same persistent feeling.
+
+NA: Like a forgotten memory.
+
+NA: And it's with this thought that sleep finally finds you.
+
+NA: Or perhaps you find only more questions.
+@goSub .BlackScreen
+;O dia seguinte
+@back bg_innDay
+NA: The next day comes accompanied by the smell of freshly baked bread.
+
+NA: And someone knocking on your door with no decorum.
+
+NA: You open your eyes trying to process what's happening until you hear a voice at the door.
+
+FR: If you're dead, let me know.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: I'm thinking about it.
+
+FR: Think about it later, the bread is getting cold.
+
+NA: You lazily toss and turn in bed, days in Vila Rica start early and you went to bed a little late last night.
+
+NA: Until you get up to do your hygiene routine, and the cold water sends a shiver down your spine.
+@char {PLAYER}2.sad
+PLAYER: I just wanted a shower and some skincare…
+
+NA: You clean up, get dressed, and then leave the room.
+
+NA: Shortly after, you go down to the kitchen.
+@char {PLAYER}2.neutral pos:{leftmid} !wait
+@char FR.neutral pos:{rightmid}
+NA: Francisca has been up for hours.
+
+NA: Some pots are steaming, a kettle sings over the fire.
+
+NA: And a pile of dishes seems to defy the laws of nature.
+@char {PLAYER}2.surprise
+PLAYER: Is all this just for breakfast?
+
+FR: No.
+
+FR: It's also for lunch.
+@char {PLAYER}2.neutral
+PLAYER: This doesn't seem healthy.
+
+FR: Neither does living in 1788.
+
+NA: You can't argue with that.
+
+NA: You sit down, sipping some coffee and eating the cornbread, which is indeed better warm.
+
+PLAYER: ( Damn Francisca when she's right.)
+
+NA: After the meal, Francisca places a basket in front of you.
+
+PLAYER: I'm always scared when someone hands me a basket.
+
+FR: Good.
+
+FR: That means you've learned something.
+
+PLAYER: What is it this time?
+
+FR: We need to sort herbs.
+
+FR: And before you ask...they're not magic.
+
+PLAYER: Damn.
+
+PLAYER: I was expecting magic herbs…
+
+NA: You sit near the kitchen.
+
+NA: Francisca starts sorting dried leaves.
+
+NA: You try to copy her, with questionable results.
+
+FR: Not that one.
+
+PLAYER: How do you know?
+
+FR: Because that's rosemary.
+
+PLAYER: And?
+
+FR: We're picking mint.
+
+PLAYER: They're both green.
+@char FR.happy
+FR: For God's sake.
+
+NA: Her laughter echoes through the kitchen.
+@char FR.smile
+NA: And for the first time you realize how alive the inn seems.
+
+NA: People come and go, travelers order food, and someone complains about the price.
+
+NA: A muleteer leaves a sack of flour, another forgets a hat.
+
+NA: Francisca seems to know everyone.
+
+PLAYER: How do you manage all this?
+@char FR.neutral
+NA: Francisca shrugs.
+
+FR: I don't do it alone.
+
+PLAYER: But it's a lot.
+
+FR: It is.
+
+NA: A short pause.
+
+FR: But I've had worse work.
+
+NA: Her tone isn't sad or bitter, just honest.
+
+PLAYER: Do you like it here?
+
+FR: I do.
+
+NA: She looks at the kitchen, the tables, and the people.
+
+FR: It took me a long time to have a place that was mine.
+
+FR: Now I don't intend to give it to anyone.
+
+NA: The subject naturally changes.
+
+PLAYER: I met Celina yesterday.
+@char FR.smile
+NA: Francisca immediately looks up.
+
+FR: You did?
+
+PLAYER: She seems like a good person.
+
+FR: Very much so.
+
+NA: She continues separating the herbs.
+
+FR: Polite, hardworking, and patient.
+
+PLAYER: This sounds like a prepared list.
+@char FR.neutral
+FR: Because I've had to defend her a few times.
+@char {PLAYER}2.thinking
+PLAYER: Why?
+
+NA: Francisca takes a little longer to answer.
+
+FR: Because some people like to put others in boxes.
+
+NA: She shakes her head as if thinking about certain situations.
+
+FR: And they get nervous when they can't.
+
+PLAYER: I don't understand.
+
+FR: You don't need to.
+@char FR.smile
+NA: She smiles.
+
+FR: At least not yet.
+
+PLAYER: You're doing that again.
+
+FR: What?
+
+PLAYER: Talking as if you know something I don't.
+
+FR: Because I do.
+
+PLAYER: Francisca.
+@char FR.neutral
+FR: It's not my secret to tell.
+
+NA: She lightly taps your hand with a wooden spoon.
+
+FR: Now stop distracting me and separate these herbs properly.
+
+PLAYER: Was that a threat?
+
+FR: It was a promise.
+@char {PLAYER}2.neutral
+NA: You spend some more time working.
+
+NA: Talking about strange clients, town gossip, and the absurd difficulty of living without electricity.
+
+FR: I'll just say one thing.
+
+FR: If there's anyone loyal to Lady Hipólita in this village...
+
+FR: It's Celina.
+
+NA: The answer seems sincere.
+
+PLAYER: You like her.
+
+FR: Of course.
+
+PLAYER: But you're hiding something.
+
+FR: Also yes.
+
+PLAYER: Francisca.
+@char FR.smile
+FR: I'm not hiding anything from you.
+
+NA: A playful smile.
+
+FR: I'm hiding it for you.
+
+PLAYER: That doesn't make sense.
+
+FR: It makes perfect sense.
+
+NA: And she's clearly amused by your confusion.
+@goSub .BlackScreen
+NA: Later.
+@stopBgm fade:2 !wait
+@back bg_squareDay
+@bgm wander
+NA: With no urgent tasks, you decide to walk around the city.
+
+NA: The streets are busy, but less chaotic than in previous days.
+
+NA: Your feet carry you without much thought.
+@back bg_overlookDay
+NA: Climbing, higher and higher to the old overlook.
+
+NA: The place is almost empty.
+
+NA: The wind blows between the stones and then you see someone.
+
+NA: A solitary figure dancing.
+
+NA: A red fabric swirls in the air.
+
+NA: Following every movement, like a living flame.
+
+NA: For a moment you don't even recognize who it is.
+
+NA: Because the person seems completely different, free and light.
+
+NA: Without the reservations they usually show.
+
+NA: Then she spins and you finally realize.
+@stopBgm fade:1 !wait
+@char {PLAYER}2.neutral pos:{leftmid} !wait
+@char CELINA.smile pos:{rightmid}
+@bgm cel
+PLAYER: Celina?
+@char CELINA.surprise
+NA: The red cloth slips from her hands and the dance stops immediately.
+
+NA: As if she'd been caught in a secret.
+
+NA: She's startled.
+
+CELINA: Oh!
+@char CELINA.smile
+NA: Then she recognizes you and smiles.
+
+CELINA: I was starting to think nobody could find this place.
+
+PLAYER: I thought it was an overlook.
+
+CELINA: It is.
+
+NA: A short pause.
+
+CELINA: But usually people prefer other places.
+@char {PLAYER}2.smile
+PLAYER: I didn't know you danced.
+
+NA: You say, approaching her.
+
+CELINA: I don't.
+
+NA: She twirls the scarf.
+
+CELINA: I just like the wind.
+
+PLAYER: That sounds exactly like dancing.
+
+CELINA: Then maybe it is.
+
+NA: Her smile widens.
+
+NA: Celina watches the horizon for a few seconds.
+
+CELINA: I like it here.
+
+PLAYER: Why?
+
+CELINA: Because here nobody expects anything from me.
+
+NA: She runs her fingers over the red fabric.
+
+CELINA: Here I can be anything I want.
+
+CELINA: And nothing like what they expect.
+
+NA: You don't fully understand what she means.
+
+NA: But you realize it's important.
+
+NA: Celina then extends the scarf towards you.
+
+CELINA: Hold it.
+@char {PLAYER}2.surprise
+PLAYER: What?
+
+CELINA: The scarf.
+
+NA: You accept it and your fingers almost touch.
+
+@choice "Can I try dancing too?" goto:.scene5C-1
+
+@choice "This all seems too much" goto:.scene5C-2
+
+@stop
+
+
+#scene5C-1
+@set afetoCel+=1
+
+
+
+NA: Her eyes light up immediately.
+
+CELINA: Really?
+@char {PLAYER}2.neutral
+PLAYER: It'll probably be a disaster.
+@char CELINA.happy
+CELINA: Even better.
+
+NA: For the first time you see her truly laugh, without reservations or shyness.
+@char {PLAYER}2.determined
+NA: You pick up the scarf and try to dance, remembering the dance classes you had in school.
+
+NA: A few minutes later you discover it really is a disaster.
+
+PLAYER: Am I doing this right?
+
+CELINA: No.
+@char {PLAYER}2.surprise
+PLAYER: I noticed, it looks like I'm mistreating this cloth.
+
+CELINA: But it doesn't matter.
+@char CELINA.smile
+NA: She gently adjusts your position.
+
+CELINA: It doesn't need to be perfect.
+
+PLAYER: And what does it need to be?
+
+CELINA: Honest.
+@char {PLAYER}2.smile
+NA: The wind moves the scarf between you.
+@char CELINA.neutral
+CELINA: People spend their whole lives trying to appear to be something.
+
+NA: She looks to the horizon.
+
+CELINA: It's exhausting.
+
+PLAYER: You speak from experience?
+@char CELINA.smile
+NA: Celina smiles.
+
+CELINA: Maybe.
+
+@goto .scene5C-2end
+
+#scene5C-2
+@char CELINA.neutral
+NA: Celina is silent for a few seconds.
+
+CELINA: Perhaps.
+
+NA: She watches the scarf in your hands.
+
+CELINA: But some people spend so much time pretending...
+
+CELINA: That a few minutes of freedom seem like a luxury.
+@char {PLAYER}2.neutral
+PLAYER: Sorry… I didn't mean to offend.
+@char CELINA.smile
+CELINA: I know.
+
+NA: She smiles, looking a little hurt.
+
+CELINA: I just think not everyone realizes the weight they carry.
+#scene5C-2end
+;Depois das escolhas.
+
+NA: You try to continue the conversation, but a question comes to mind again.
+@char {PLAYER}2.neutral
+PLAYER: Can I ask you something strange again?
+
+CELINA: Certainly.
+
+PLAYER: I have a feeling I know you.
+@char CELINA.neutral
+NA: Her smile falters, just for a moment.
+
+PLAYER: I can't explain it.
+
+PLAYER: But your voice, your face, or something.
+
+NA: Celina's averts her gaze to the horizon.
+
+CELINA: I think I would remember.
+
+PLAYER: Are you sure?
+
+CELINA: Absolutely.
+
+NA: The answer comes too quickly, and seems too prepared.
+
+NA: And that makes you even more suspicious.
+
+NA: To change the subject, you end up mentioning someone else.
+
+PLAYER: Speaking like that, you remind me of someone I met.
+
+CELINA: Someone you met?
+
+PLAYER: Yes, Célio at the theater the other day.
+
+NA: The name immediately catches her attention.
+
+CELINA: And what did you think of him?
+
+NA: The question comes quickly, too curious to seem casual.
+
+PLAYER: I found him charismatic, confident, and talented...
+@char CELINA.smile
+CELINA: Hmm.
+
+NA: She stares at you with a smile on her face.
+
+PLAYER: Why are you looking at me like that?
+
+NA: Celina tries to hide a smile, without success.
+
+CELINA: Nothing.
+
+PLAYER: Celina.
+
+CELINA: I'm just listening.
+
+PLAYER: You seem very interested.
+
+CELINA: Maybe I am.
+@char {PLAYER}2.surprise
+NA: A short pause, and you look up in surprise.
+
+CELINA: So you liked him?
+@char {PLAYER}2.neutral
+PLAYER: "Like" is a strong word.
+
+CELINA: But it's not a no.
+
+PLAYER: You ask too many questions.
+
+CELINA: And you answer them all.
+@char {PLAYER}2.smile
+NA: She's clearly having fun, much more than she should.
+
+NA: And for some reason... so are you.
+
+NA: The wind continues to play with the red scarf between you.
+
+NA: The conversation has lost all formality and taken unexpected turns.
+
+CELINA: So.
+
+NA: Celina rests her chin on her hand.
+@char CELINA.neutral
+CELINA: You've already met a good part of the village.
+
+PLAYER: Is that a fancy way of saying I've gotten myself into trouble?
+@char CELINA.smile
+CELINA: Perhaps.
+
+NA: A playful smile.
+
+CELINA: What did you think of them?
+
+PLAYER: Them who, creature?
+
+CELINA: The men.
+
+NA: She gestures vaguely.
+
+CELINA: The more spoken about.
+
+PLAYER: Ah...
+
+NA: You rest your fingers on your chin, thinking.
+
+PLAYER: Tiradentes is easy to notice.
+
+
+CELINA: Yes.
+
+PLAYER: He has ideas for ten different lives.
+@char CELINA.happy
+CELINA: And energy for twenty.
+@char {PLAYER}2.happy
+NA: You laugh.
+@char {PLAYER}2.smile
+PLAYER: Alvarenga seems the opposite.
+@char CELINA.smile
+CELINA: How so?
+
+PLAYER: Calm, polite, the kind who thinks before speaking.
+
+NA: Celina agrees.
+
+CELINA: That's true.
+
+PLAYER: He was also the first person to help me when I arrived.
+
+NA: Celina observes your expression, as if mentally noting something down.
+@char CELINA.neutral
+CELINA: And Joaquim?
+
+NA: You notice a subtle change, not fear but caution.
+
+NA: Not fear.
+
+PLAYER: It's complicated.
+
+CELINA: Complicated is usually an interesting word.
+
+PLAYER: He's intelligent and charismatic.
+
+NA: A short pause.
+@char {PLAYER}2.thinking
+PLAYER: But he strikes me as the type of person who would sell his own shadow if he received a good offer.
+@char CELINA.happy
+NA: Celina lets out a short laugh.
+
+CELINA: That was surprisingly specific.
+@char {PLAYER}2.surprise
+PLAYER: I'm not wrong.
+@char CELINA.smile
+CELINA: You're not.
+
+NA: Silence lasts a few seconds.
+@char CELINA.neutral
+CELINA: And are they handsome?
+@char {PLAYER}2.surprise
+PLAYER: What?
+
+CELINA: The men.
+
+NA: She seems completely serious, which only makes the question more dangerous.
+
+PLAYER: That was a very direct question.
+
+CELINA: And you still haven't answered.
+@char {PLAYER}2.thinking
+PLAYER: Tiradentes has his charm.
+
+PLAYER: Alvarenga is very handsome.
+
+PLAYER: Joaquim too, and unfortunately he knows it.
+@char CELINA.happy
+NA: Celina laughs.
+@char CELINA.neutral
+CELINA: And which one is the most handsome?
+@char {PLAYER}2.neutral
+PLAYER: None.
+
+NA: The answer comes before you even think about it.
+@char CELINA.thinking
+CELINA: None?
+
+PLAYER: Not exactly.
+@char {PLAYER}2.embarrass
+NA: You stop, because you almost kept going.
+@char CELINA.smile
+CELINA: Not exactly?
+
+NA: Her smile widens.
+
+CELINA: Now I'm curious.
+
+PLAYER: You shouldn't be.
+
+CELINA: Yes, I should.
+@char {PLAYER}2.neutral
+PLAYER: I refuse to elaborate.
+
+CELINA: Coward..
+@char {PLAYER}2.embarrass
+PLAYER: Probably.
+
+NA: Celina clearly wants to keep provoking, but lets it go.
+
+CELINA: So you've already judged the men of the village.
+@char {PLAYER}2.surprise
+PLAYER: It wasn't exactly a judgment.
+@char {PLAYER}2.neutral
+CELINA: It was almost that.
+
+NA: Celina rests her face in her hand.
+
+CELINA: What about the women?
+
+PLAYER: Now who's asking dangerous questions?
+
+CELINA: Maybe I like them.
+
+NA: Her smile is too innocent to be trusted.
+
+PLAYER: Hipólita is beautiful.
+@char CELINA.sad
+CELINA: She'll be unbearable if she hears that.
+@char {PLAYER}2.smile
+PLAYER: I imagine so.
+@char CELINA.neutral
+CELINA: And she's engaged.
+@char {PLAYER}2.neutral
+PLAYER: I know.
+
+NA: You shrug.
+
+PLAYER: Those things aren't mutually exclusive.
+@char CELINA.smile
+CELINA: Fair enough.
+
+NA: Celina seems amused by the answer.
+
+CELINA: And Bárbara?
+
+NA: You take a little longer to answer.
+
+PLAYER: Bárbara is also pretty.
+
+CELINA: Just pretty?
+
+PLAYER: No.
+
+NA: You think about the few interactions you've had with her.
+
+PLAYER: She seems...interesting.
+
+CELINA: Interesting.
+
+PLAYER: Very interesting.
+
+NA: Celina's smile widens immediately.
+
+CELINA: Oh.
+
+PLAYER: What?
+
+CELINA: Nothing.
+
+PLAYER: Celina.
+
+CELINA: I'm just watching.
+
+NA: She's clearly having fun at your expense.
+
+CELINA: But she's taken.
+
+PLAYER: Ah.
+@char CELINA.thinking
+NA: Celina raises an eyebrow.
+
+CELINA: So that still exists in your conscience.
+@char {PLAYER}2.surprise
+PLAYER: Of course it does.
+@char CELINA.neutral
+CELINA: I'm relieved.
+
+PLAYER: I'm not planning on stealing anyone.
+
+CELINA: That's good.
+
+NA: The comment comes across lightly.
+
+NA: But there's something curious about the way she's looking at you, as if she's trying to understand you.
+
+CELINA: So Hipólita is beautiful and Bárbara is interesting.
+
+CELINA: Alvarenga is handsome and Joaquim is handsome.
+
+NA: She starts counting on her fingers.
+@char {PLAYER}2.embarrass
+PLAYER: Stop immediately.
+
+CELINA: I'm just organizing the information.
+
+PLAYER: Don't organize.
+@char CELINA.smile
+CELINA: Too late.
+
+NA: She smiles victoriously.
+@char {PLAYER}2.neutral
+PLAYER: And for the record...you weren't on that list.
+
+NA: The words slip out before you can think.
+@char CELINA.surprise
+NA: Celina blinks, surprised.
+
+CELINA: No?
+@char {PLAYER}2.embarrass
+PLAYER: No! I mean yes, but no…
+
+NA: Now it's your turn to regret your own mouth.
+@char {PLAYER}2.shy
+PLAYER: I meant…
+
+NA: You have no idea what you meant.
+@char CELINA.shy
+NA: For the first time since you met, Celina blushes slightly.
+
+CELINA: I see.
+@char CELINA.smile
+NA: Her smile becomes smaller, softer.
+
+CELINA: I think I understand.
+@back bg_overlookAfternoon
+NA: The sky is already getting dark.
+@char {PLAYER}2.neutral
+NA: The first lights are beginning to appear in Vila Rica.
+
+CELINA: It's getting late.
+
+PLAYER: Already?
+
+CELINA: Already.
+
+NA: She gets up, shaking some dust off her clothes.
+
+CELINA: You should go back too.
+
+PLAYER: Why?
+@char CELINA.neutral
+CELINA: Because the Crown soldiers have been circulating more than usual.
+
+NA: Her smile disappears for a moment.
+
+CELINA: And they don't always ask pleasant questions.
+
+@if gender="female"
+
+PLAYER: You seem worried.
+
+CELINA: Perhaps.
+
+NA: Celina hesitates as if choosing her words.
+
+CELINA: A woman alone at night often attracts unwanted attention.
+
+NA: She looks away.
+
+CELINA: And some of that attention can be dangerous.
+
+PLAYER: You speak from experience?
+
+NA: A beat.
+
+CELINA: I've lived in this city for a long time.
+
+NA: Her tone speaks louder than her words.
+@char CELINA.smile
+CELINA: Just be careful.
+
+NA: A gentle smile returns.
+
+CELINA: The world is often harsher on us than it should be.
+
+@endif
+
+@if gender="male"
+@char {PLAYER}2.neutral
+PLAYER: I can walk you home.
+@char CELINA.surprise
+NA: Celina seems genuinely surprised.
+@char CELINA.smile
+CELINA: That's kind of you.
+
+NA: She smiles, but shakes her head.
+
+CELINA: It wouldn't be wise.
+
+PLAYER: Because of the soldiers?
+
+CELINA: That, too.
+
+CELINA: But mainly because of the people.
+
+PLAYER: The people?
+@char CELINA.thinking
+CELINA: A woman seen alone at night with a man...
+
+NA: She raises an eyebrow.
+
+CELINA: That could fuel half the gossip in Vila Rica.
+
+PLAYER: That sounds exhausting.
+@char CELINA.smile
+CELINA: It is.
+
+NA: A playful smile.
+
+CELINA: On the other hand...
+
+NA: She's watching you.
+
+CELINA: I'm a little envious of the freedom you have.
+
+PLAYER: Freedom?
+
+CELINA: Being able to walk around without everyone deciding what that means.
+
+
+NA: There's something sincere in that answer.
+
+NA: Something that seems to come from much deeper than the conversation suggests.
+
+@endif
+@char CELINA.neutral
+NA: Celina picks up the red scarf again.
+
+NA: The fabric dances between her fingers for a few moments.
+
+NA: Then she stops and looks at you.
+
+NA: As if making a decision.
+
+CELINA: Can I ask you something?
+
+PLAYER: Of course.
+
+CELINA: Would you like to keep it?
+
+NA: She extends the red scarf toward you.
+
+NA: The gesture seems simple, but there's something strangely personal about it.
+
+@choice "Accept the scarf" goto:.scene6C-1
+
+@choice "Refuse the scarf" goto:.scene6C-2
+
+@stop
+
+
+#scene6C-1
+@set afetoCel+=1
+
+
+
+NA: You hold the fabric carefully.
+
+PLAYER: Are you sure?
+@char CELINA.smile
+CELINA: I am.
+
+NA: A small smile appears on her lips.
+
+CELINA: Keep it.
+
+PLAYER: Why?
+
+NA: Celina watches the horizon.
+
+CELINA: Sometimes...
+
+NA: The wind moves some strands of her hair.
+
+CELINA: Sometimes we need to remember who we were.
+
+CELINA: When on one was looking.
+
+NA: You don't fully understand the meaning, but you realize it exists and that it's important to her.
+
+NA: More important than a simple piece of fabric should be.
+
+@goto .scene6C-2end
+
+#scene6C-2
+
+PLAYER: That's kind of you… but I think you should keep it.
+@char CELINA.smile
+NA: Celina watches the fabric for a few seconds and then smiles.
+
+CELINA: Fair enough.
+
+NA: She folds the handkerchief carefully, as if guarding something precious.
+
+CELINA: Some memories truly belong to their owner.
+
+PLAYER: Exactly.
+
+NA: For some reason she seems satisfied with the answer.
+#scene6C-2end
+;Depois das escolhas
+@back bg_overlookNight
+NA: The sky is already completely dark, and the lights of Vila Rica shine in the distance.
+@char CELINA.neutral
+CELINA: I must go.
+@char {PLAYER}2.neutral
+PLAYER: Me too.
+
+NA: For a moment, neither of you move, as if you're postponing the farewell.
+
+CELINA: Good night.
+@char {PLAYER}2.smile
+PLAYER: Good night, Celina.
+@char CELINA.smile
+NA: She smiles, that sweet smile that seems to have become familiar too quickly.
+@hide CELINA
+NA: Then she walks away, descending the path to the lookout point.
+
+NA: Gradually disappearing into the darkness.
+
+NA: And you keep watching, until she disappears completely from sight.
+
+NA: Only then do you realize you're smiling.
+@stopBgm fade:4 !wait
+@goSub .BlackScreen
+
+NA: The walk back to the inn seems shorter.
+
+NA: Perhaps because your thoughts are occupied.
+@back bg_innNight
+@bgm respite
+@char {PLAYER}2.neutral pos:{leftmid} !wait
+@char FR.neutral pos:{rightmid}
+NA: When you enter through the main door, Francisca immediately looks up from the counter.
+
+FR: Well.
+
+NA: She crosses her arms.
+
+FR: And where have you been?
+
+PLAYER: Taking a walk.
+@char FR.smile
+FR: That's a lie.
+@char {PLAYER}2.surprise
+PLAYER: How do you know?
+
+FR: Because that's exactly the answer someone gives when they don't want to answer.
+@char {PLAYER}2.neutral
+NA: You sigh.
+
+PLAYER: I was at the overlook.
+
+NA: Her smile widens.
+
+FR: Alone?
+
+PLAYER: No.
+
+FR: Oh.
+
+NA: Her smile widens even more.
+
+PLAYER: I was talking to Celina.
+@char FR.surprise
+NA: Francisca blinks.
+
+FR: With whom?
+
+PLAYER: Celina.
+
+FR: At the overlook?
+
+PLAYER: Yes.
+
+FR: At night?
+
+PLAYER: Yes.
+@char FR.smile
+NA: Francisca rests her face in her hand.
+
+FR: Interesting.
+
+PLAYER: Don't start.
+
+FR: I didn't start anything.
+
+FR: What were you doing?
+
+PLAYER: Talking.
+
+FR: Just talking?
+
+PLAYER: Just talking.
+
+FR: Hmm.
+
+NA: Her tone makes it clear she doesn't completely believe it.
+
+PLAYER: She's nice.
+
+FR: "Nice".
+
+PLAYER: Yes.
+
+PLAYER: Like a friend?
+@char FR.thinking
+FR: "Like a friend".
+
+NA: Francisca raises an eyebrow.
+
+FR: And couldn't you like your friends?
+@char {PLAYER}2.surprise
+PLAYER: What?
+
+FR: I'm asking.
+
+PLAYER: Francisca!
+@char FR.smile
+FR: What?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NA: Her smile returns.
+
+FR: I'm not judging.
+
+
+
+
+
+FR: Actually, I'm finding it all very interesting.
+@char {PLAYER}2.neutral
+PLAYER: Francisca.
+
+FR: I'm just observing.
+@char {PLAYER}2.shy
+NA: You feel your face heat up.
+
+PLAYER: Good night.
+
+FR: Good night.
+@hideChars
+NA: She's still smiling when you go upstairs.
+
+NA: In the room, you close the door.
+
+NA: And finally, you're alone.
+
+NA: The moonlight streams through the window, illuminating the small room.
+
+NA: You approach the window, lost in thought.
+
+NA: It's strange, you've only known Celina for such a short time.
+
+NA: And yet, talking to her seems easy and natural.
+
+NA: As if you didn't need to measure every word or be careful with every thought.
+
+NA: Something rare, especially for you.
+
+NA: As you watch the distant lights of Vila Rica, you realize something.
+
+NA: You look forward to seeing her again.
+
+NA: And that might be more dangerous than it should be.
+@goSub .BlackScreen
+;Cap 4 - Noite dos Inconfidentes
+@back bg_innDay
+NA: For the first time since arriving in Vila Rica...
+
+NA: You wake up on your own.
+
+NA: Without Francisca knocking on the door, chores, or threats involving pots and pans.
+
+NA: Which should have been a good sign.
+
+NA: But when you open your eyes, the sun is already high.
+
+NA: You feel the heat against your skin, not the light morning breeze.
+@char {PLAYER}2.surprise pos:{mid}
+PLAYER: Oh no.
+
+PLAYER: I must have overslept…
+@char {PLAYER}2.neutral
+NA: You get up hurriedly, grab your clothes and try to get dressed quickly, accidentally spilling the water from the basin while improvising your hygiene routine.
+
+PLAYER: Great, the day has already started well…
+@char {PLAYER}2.neutral pos:{leftmid}
+@char FR.neutral pos:{rightmid}
+NA: As you go downstairs you find Francisca organizing some bills near the counter.
+
+NA: She looks up at you.
+@char FR.smile
+FR: Well.
+
+NA: A dangerous smile.
+
+FR: I see the evening of conversation was fruitful.
+
+PLAYER: Don't start.
+
+FR: I haven't even started.
+
+NA: You look around and see that it really is late.
+
+PLAYER: Why didn't you wake me up?
+@char FR.neutral
+FR: Because you came back late.
+
+PLAYER: It wasn't that late.
+
+FR: Yes, it was.
+
+NA: Francisca points a spoon in your direction.
+
+FR: And you seemed very busy.
+
+PLAYER: I was sleeping.
+
+FR: Now you were... before I don't know.
+@char {PLAYER}2.surprise
+PLAYER: Francisca!
+
+FR: What?
+@char {PLAYER}2.neutral
+NA: You sit down to eat.
+
+NA: The smell of freshly baked bread and something cooked in the pan practically forces you to forget the argument.
+
+FR: So.
+
+PLAYER: No.
+
+FR: So.
+
+PLAYER: No.
+
+FR: So.
+
+PLAYER: Francisca.
+
+FR: What did you talk about?
+
+PLAYER: A little bit of everything.
+
+FR: That's the answer of someone hiding something.
+
+PLAYER: I'm not.
+
+NA: You take a piece of bread and feel a taste similar to pão de queijo invade you.
+
+PLAYER: It was just easy talking to her.
+
+NA: Francisca watches you for a few seconds.
+
+FR: Easy?
+
+PLAYER: Yes.
+
+FR: Hm.
+
+PLAYER: What?
+
+FR: Nothing.
+
+PLAYER: We talked about the city, the theater, and the… people.
+
+FR: The people?
+
+PLAYER: She asked who I thought was beautiful.
+@char FR.happy
+NA: Francisca almost chokes with laughter.
+
+FR: And you answered?
+
+PLAYER: Yes.
+
+FR: My goodness.
+
+PLAYER: What?
+@char FR.smile
+FR: Nothing.
+
+FR: Continue.
+
+PLAYER: I said Hipólita was pretty.
+
+FR: Fair enough.
+
+PLAYER: And that Bárbara was too.
+
+FR: Even fairer.
+
+PLAYER: She also asked who was the most handsome.
+
+FR: And?
+
+PLAYER: I said none of them.
+
+
+FR: And?
+
+PLAYER: And I almost said something else.
+@char FR.neutral
+NA: Francisca puts her hands to her face.
+
+FR: You're worse than I imagined.
+@char {PLAYER}2.surprise
+PLAYER: What did I do?
+
+FR: Nothing.
+
+FR: That's the problem.
+
+PLAYER: I also made the mistake of saying I wasn't putting her on the list…
+
+PLAYER: Which made it seem like I thought she was ugly, but that wasn't it…
+
+NA: You gesture while you speak, you seem a little agitated about it.
+
+FR: …
+
+NA: Francisca stares at you with an expression you can't tell if it's disbelief or pity.
+
+PLAYER: What?
+
+FR: You have less talent for courting someone than a drunken goat.
+
+PLAYER: I wasn't courting anyone.
+
+FR: Exactly.
+
+NA: You roll your eyes.
+
+PLAYER: And the men?
+@char FR.thinking
+FR: What about the men?
+
+PLAYER: Who I would find the most handsome of them.
+@char FR.smile
+FR: Ah.
+
+PLAYER: She asked.
+
+NA: Her smile returns, dangerously.
+
+PLAYER: I was going to say it's Alva…
+
+@char AL.neutral pos:{mid}
+AL: Pardon the interruption.
+@char {PLAYER}2.embarrass
+NA: You almost choke on the piece of bread in your mouth.
+
+NA: Alvarenga just entered the inn, with a kind expression and his clothes perfectly aligned.
+
+AL: I hope I'm not interrupting.
+
+PLAYER: No!
+
+NA: The answer comes out too quickly.
+
+NA: Francisca lowers her head immediately.
+@char FR.happy
+NA: Trying to hide a laugh, unsuccessfully.
+
+AL: I see I woke someone.
+
+PLAYER: Maybe.
+@char AL.smile
+AL: Then I apologize.
+@char FR.neutral
+NA: His smile is gentle as always.
+
+AL: Actually, I came at the alferes's request.
+@char {PLAYER}2.neutral
+PLAYER: Tiradentes?
+
+AL: The one and only.
+
+AL: There will be a meeting at Lady Hipólita's house tonight.
+
+NA: A short pause.
+
+AL: And he insisted that I come and invite you personally.
+
+PLAYER: Me?
+
+AL: You.
+
+PLAYER: Why?
+
+AL: Because the alferes seems to have enjoyed your presence.
+@char AL.neutral
+NA: Alvarenga sighs.
+
+AL: Don't ask me why, I don't understand either.
+
+PLAYER: Who's going?
+
+AL: Tiradentes, Hipólita, maybe Joaquim, me…
+
+NA: He thinks for a moment.
+
+AL: And I believe Célio too.
+@char {PLAYER}2.smile
+PLAYER: Célio? Interesting.
+@char FR.thinking
+NA: You end up smiling when you learn it, which doesn't go unnoticed by Alvarenga or Francisca.
+@char {PLAYER}2.neutral
+NA: You cry inside when you realize what you've just done and try to appear indifferent.
+
+PLAYER: Oh.
+
+AL: Oh?
+
+PLAYER: Nothing.
+@char AL.thinking
+NA: Alvarenga raises an eyebrow.
+
+AL: Well then.
+
+AL: I hope to see you there.
+
+PLAYER: I will be there.
+@char AL.neutral
+AL: Excellent.
+@hide AL
+NA: He gives a small bow and says goodbye.
+
+NA: When the door closes, you slowly sink into your chair.
+@char {PLAYER}2.embarrass
+PLAYER: I think he heard.
+
+FR: Heard what?
+
+PLAYER: The conversation.
+
+FR: Which part?
+
+PLAYER: The part about handsome men.
+@char FR.happy
+NA: Francisca finally bursts into laughter.
+
+FR: Oh.
+
+NA: She wipes her eyes.
+
+FR: About the men it's obvious.
+
+PLAYER: What?
+@char FR.smile
+FR: That you think the doctor is the most handsome.
+
+PLAYER: No, I don't... I mean...
+
+FR: Of course.
+
+NA: She mimics your voice.
+
+FR: "No, I don't"
+
+PLAYER: Francisca, please.
+
+FR: You blush every time he appears.
+
+PLAYER: That's not true.
+
+FR: It's exactly true.
+
+NA: You give up arguing because you both know she's right.
+
+FR: And what about the actor?
+@char {PLAYER}2.surprise
+PLAYER: Célio?
+
+FR: Yes.
+
+FR: You seem curiously excited to hear his name.
+@char {PLAYER}2.smile
+PLAYER: I like him.
+@char FR.thinking
+NA: Francisca raises an eyebrow.
+
+PLAYER: He's funny, confident, and very charismatic.
+
+FR: Hmm.
+@char {PLAYER}2.neutral
+PLAYER: What?
+@char FR.neutral
+FR: Nothing.
+
+PLAYER: Francisca, you have that look on your face…
+
+FR: I'm just finding it curious.
+
+PLAYER: Curious how?
+
+FR: You have very specific tastes.
+
+PLAYER: I don't.
+
+FR: Yes, you do.
+@char FR.smile
+NA: A smile appears on her face.
+
+NA: The kind that means she knows something.
+
+FR: But maybe you haven't noticed yet.
+
+PLAYER: Noticed what?
+
+FR: Nothing.
+
+NA: She gets up immediately.
+
+FR: Finish eating.
+
+FR: You still have a few hours before the meeting.
+@hide FR
+NA: She leaves, and you're alone in the room.
+
+NA: And with the strange feeling that Francisca just laughed at some joke...
+
+NA: That only she understood.
+
+
+NA: The rest of the day passes without major events.
+
+NA: Which in Vila Rica is already an event in itself.
+
+NA: Francisca takes advantage of your presence to put you to work.
+
+PLAYER: I thought today would be a day of rest.
+@char FR.neutral
+FR: And I thought gold grew on trees.
+
+NA: She hands you a cloth.
+
+FR: Neither of us will get what we want.
+
+NA: For much of the afternoon you organize the inn's rooms.
+
+NA: You change sheets, make beds, fetch water, and collect an impressive amount of items forgotten by the guests.
+
+PLAYER: Who forgets a boot?
+
+FR: More people than you imagine.
+
+PLAYER: Just one boot?
+
+FR: Just one.
+
+PLAYER: How?
+
+FR: I never found out.
+
+NA: Later you go through the kitchen.
+
+NA: Francisca checks the stock.
+
+NA: She counts sacks of flour, checks herbs, notes debts, and receives deliveries.
+
+NA: You begin to suspect she's working for three.
+
+PLAYER: How do you manage all that alone??
+
+NA: Francisca keeps writing.
+
+FR: I don't.
+
+PLAYER: But you're doing exactly that.
+
+FR: No.
+
+NA: She points to the employees, customers, and suppliers coming and going.
+
+FR: I can because nobody builds anything alone.
+
+NA: The answer lingers in your mind for a while.
+
+NA: Work continues.
+
+NA: And as the hours pass, conversation becomes more relaxed.
+
+PLAYER: Can I ask you something?
+
+FR: You already asked.
+
+PLAYER: You know what I mean.
+
+FR: Unfortunately.
+
+PLAYER: You don't seem to judge anyone.
+@char FR.thinking
+NA: Francisca raises an eyebrow.
+
+FR: That's because you haven't heard me talk about politicians yet.
+
+PLAYER: I'm serious.
+
+NA: She takes a moment to answer.
+@char FR.neutral
+FR: When I was younger...
+
+NA: Her voice loses some of its usual humor.
+
+FR: Many people had already decided who I was before they even knew me.
+
+NA: You remain silent.
+
+FR: They decided what I could do.
+
+FR: Where I could go, what I could say... and who I could be.
+
+NA: A short pause.
+
+FR: All because they looked at my skin.
+
+NA: Francisca rests her arms on the table.
+
+FR: After living like that…
+
+NA: She shakes her head.
+
+FR: It becomes difficult to want to do the same to others.
+
+PLAYER: So that's why?
+
+FR: Partly.
+
+NA: She smiles, small and sincere.
+
+FR: When you spend part of your whole life hearing that you shouldn't exist in a certain way…
+
+NA: A beat.
+
+FR: You quickly learn that people are much more complicated than the labels they're given.
+
+
+PLAYER: Even when they like people they shouldn't?
+
+NA: Francisca looks directly at you.
+
+FR: "Shouldn't" according to whom?
+
+PLAYER: According to society.
+
+FR: Oh.
+
+NA: She rolls her eyes.
+
+FR: The same society that finds it perfectly reasonable to sell people?
+
+PLAYER: When you put it that way...
+
+FR:It's because that way usually works.
+@char {PLAYER}2.happy !wait
+@char FR.happy
+NA: You both laugh.
+@char FR.neutral
+FR: Listen.
+@char {PLAYER}2.neutral
+NA: She puts away some papers.
+
+FR: There's a lot in this world I don't understand.
+
+FR: A lot indeed.
+
+FR: But if a person finds someone who makes them happy...
+
+NA: A short pause.
+
+FR: That's already more than most people achieve.
+
+PLAYER: So you don't care?
+
+FR: I only care if the person is a pest.
+
+PLAYER: That's fair.
+@char FR.smile
+FR: Very.
+
+NA: The smile slowly returns.
+
+FR: Besides...
+
+NA: She watches you for a moment.
+
+FR: You still don't have enough skill to worry me.
+
+PLAYER: What?
+
+FR: At courting someone.
+@char {PLAYER}2.surprise
+PLAYER: First, I'm not trying to court anyone, and second, a little more respect for myself.
+@char FR.happy
+FR: I'm just being honest.
+
+NA: She laughs while you protest.
+@char FR.neutral
+@char {PLAYER}2.neutral
+NA: The rest of the afternoon passes between small tasks, conversations, laughter, and stories of strange guests.
+
+PLAYER: I can't believe an inn attracts so many odd people.
+@char FR.thinking
+FR: Well.
+
+NA: Francisca raises an eyebrow.
+
+FR: You're coming from a mistaken premise.
+
+PLAYER: Which one?
+
+FR: That it's the guests who seek out the inn.
+
+FR: Actually, it's the eccentricities of the world that end up at my door.
+
+PLAYER: Which was the strangest?
+
+FR: Hard to say.
+
+NA: She rests her chin on her hand.
+
+FR: There was a fellow who claimed to talk to his horse.
+
+PLAYER: Talk?
+
+FR: At length.
+
+PLAYER: And the horse answered?
+
+FR: According to him, yes.
+
+PLAYER: And according to you?
+@char FR.neutral
+FR: In my opinion, the animal showed more sense than its owner.
+@char {PLAYER}2.happy
+NA: You laugh.
+@char {PLAYER}2.smile
+FR: I also received a priest once.
+@char {PLAYER}2.neutral
+PLAYER: That sounds dangerous.
+
+FR: It was.
+
+PLAYER: What happened?
+
+FR: He spent three whole days censuring other people's sins.
+
+PLAYER: Sounds like something a priest would do.
+
+FR: It would be.
+
+FR: If it weren't for the fact that he escaped through the window with a merchant's wife.
+@char {PLAYER}2.surprise
+PLAYER: Francisca!
+
+FR: What?
+
+NA: She shrugs.
+
+FR: I'm not the one who jumped the window.
+
+PLAYER: And the merchant?
+
+FR: He spent two days looking for both of them.
+
+PLAYER: Did he find them?
+@char FR.neutral
+FR: No.
+
+PLAYER: So they ended happily ever after.
+
+FR: The priest maybe.
+
+FR: The merchant certainly didn't.
+@char {PLAYER}2.happy
+NA: You almost choked with laughter.
+@char {PLAYER}2.smile
+PLAYER: Anything else?
+
+FR: I have a whole collection.
+
+FR: A certain lady insisted on keeping six chickens in her room.
+
+PLAYER: Why?
+
+FR: Because she didn't trust them alone.
+@char {PLAYER}2.neutral
+PLAYER: The chickens?
+
+FR: The chickens.
+
+PLAYER: ...
+
+FR: I spent two nights listening to one of them announce to the world each egg it produced.
+
+PLAYER: I think you make up half of those stories.
+
+FR: I wish it were that simple.
+
+NA: She crosses her arms.
+
+FR: The truth, my dear, is that Vila Rica makes a daily effort to surpass any invention of mine.
+
+FR: And unfortunately, it usually succeeds.
+@back bg_innAfternoon
+NA: When you realize it, the sky is already darkening.
+
+FR: Well then.
+
+NA: Francisca crosses her arms.
+
+FR: It's time.
+
+PLAYER: Time for what?
+
+FR: For the meeting.
+
+NA: She points at you.
+
+FR: And go change your clothes.
+
+PLAYER: This outfit is fine.
+
+FR: No, it isn't.
+
+PLAYER: Yes, it is.
+
+FR: You look like someone who lost a fight against a sack of flour.
+
+PLAYER: I did lose a fight against a sack of flour.
+
+FR: And it won easily.
+@hide FR
+NA: You go to your room to clean up and tidy your clothes.
+
+NA: A few minutes later you return looking more presentable.
+@char FR.neutral pos:{rightmid}
+FR: Better.
+
+PLAYER: It was just a matter of changing my coat.
+
+FR: Miracles do happen.
+@char {PLAYER}2.smile
+NA: You roll your eyes, but can't hide your smile.
+
+FR: Good luck.
+
+PLAYER: Will I need it?
+
+FR: Always.
+
+NA: You leave the inn.
+@stopBgm fade:1 !wait
+@goSub .BlackScreen
+@back bg_squareNight
+@bgm wander
+NA: And walk through the lantern lit streets, as night has fallen on Vila Rica.
+
+NA: Small flames flicker in front of the houses, some windows remain lit, and voices escape from taverns.
+
+NA: You pass through the market and see merchants closing their deals, slaves carrying the last barrels of the day, and Crown soldiers patrolling the cobblestone streets.
+
+NA: For a moment you slow down.
+
+NA: There's something beautiful about the city at night.
+
+NA: As you move forward, the streets become emptier.
+
+NA: The movement diminishes and the sounds of the city become more distant.
+
+NA: You continue and see the beaten earth ground, the trees emerging, and then you see it.
+@back bg_gardenNight
+NA: Hipólita's estate, the mansion, and the beautiful garden surrounding it.
+
+NA: You cross the gate and follow the stone path.
+
+NA: And approach the main entrance.
+@stopBgm fade:2 !wait
+@back bg_hipolitaNight
+@char HI.neutral pos:{rightmid} !wait
+@char {PLAYER}2.neutral pos:{leftmid}
+HI: You've arrived.
+
+PLAYER: It seems so.
+
+HI: There's still time to escape.
+
+PLAYER: Tempting.
+
+HI: I know.
+@bgm inconfidentes
+NA: Before you can say anything else, someone enters right behind you.
+@char CE.smile pos:{mid}
+NA: And you immediately recognize Célio.
+
+NA: The theater clothes are more discreet this time, but the smile remains the same.
+
+CE: Good evening.
+@char {PLAYER}2.smile
+PLAYER: Good evening.
+
+HI: Ah.
+
+NA: Hipólita gestures towards him.
+
+HI: This is Célio.
+
+HI: One of the messengers we use when we need to exchange information without drawing attention.
+
+PLAYER: We've already met.
+
+NA: Célio seems pleased to hear that.
+
+CE: I'm glad you remembered.
+
+PLAYER: It was hard to forget.
+
+NA: For some reason, that makes him smile.
+
+NA: Gradually everyone takes their seats.
+
+NA: And for a few minutes the meeting seems relatively normal.
+
+NA: Then Tiradentes opens his mouth.
+@hideChars
+@char TI.neutral pos:{rightmid}
+TI: We need more support.
+
+TI: Mainly military.
+@char JO.neutral pos:{leftmid}
+NA: Joaquim sighs immediately, like someone who has heard that many times before.
+
+JO: Naturally.
+
+JO: Because nothing inspires confidence like a plan based on hope.
+
+TI: It's not hope, it's strategy.
+
+JO: You call it strategy.
+@char JO.smile
+JO: I call it prayer.
+
+NA: The atmosphere changes instantly, Tiradentes seems annoyed, and Joaquim is clearly enjoying it.
+@char TI.determined
+TI: At least I'm doing something.
+
+JO: Yes.
+
+JO: Speeches, lots of speeches.
+
+TI: And what do you do besides complain?
+
+JO: I survive.
+
+JO: Which already puts me ahead of some revolutionaries.
+
+NA: The discussion escalates quickly.
+@char HI.neutral pos:{mid}
+HI: Enough.
+
+NA: Nobody listens.
+
+TI: At least I risk something for this country.
+
+JO: And I risk something by not trusting fools.
+
+HI: I said enough.
+
+JO: See?
+
+NA: Joaquim opens his arms.
+
+JO: That's exactly what I'm talking about.
+
+JO: We have a noblewoman playing at conspiracy, an alferes wanting to save the world, and a bunch of dreamers.
+
+
+
+NA: His eyes sweep over Hipólita.
+
+JO: A bride about to create a scandal.
+@char HI.determined
+HI: Careful.
+
+JO: Or what?
+@hide HI
+@char CE.determined pos:{mid}
+NA: His gaze then turns to Célio.
+
+JO: And an actor, because that's clearly what we needed.
+
+JO: More theater.
+
+NA: You notice that affects Célio differently.
+
+NA: His smile disappears.
+
+NA: His fingers tighten on his own sleeve.
+
+NA: As if trying not to react.
+
+TI: Leave him out of it.
+
+JO: Why?
+
+JO: Does he even know what role he's playing?
+
+NA: The silence that follows is strange.
+@char CE.sad
+NA: Célio lowers his gaze.
+
+NA: As if you've seen that expression before.
+
+;NA: Como se já tivesse visto aquela expressão antes.
+
+NA: Somewhere or on someone.
+
+NA: But before you can think better, the door opens.
+@hideChars
+NA: And everyone faces the entrance.
+@char AL.neutral pos:{mid}
+AL: I hope I'm not late.
+
+NA: Alvarenga enters, his usual confident and polite demeanor.
+@char BA.neutral pos:{rightmid}
+NA: But he's not alone, you see Bárbara right behind him and he has one hand on her back.
+
+BA: Technically you are, but not enough to matter.
+
+NA: Walking naturally beside him, like someone accustomed to that position.
+@char {PLAYER}2.neutral pos:{leftmid}
+PLAYER: ...
+
+NA: You look at the two of them and then do a double take.
+
+PLAYER: ...
+
+NA: Then you see Bárbara's ring on her ring finger and Alvarenga's wedding ring and finally understand.
+@char {PLAYER}2.surprise
+PLAYER: You're married?
+@char BA.smile
+NA: Bárbara smiles.
+
+BA: That's usually the reaction.
+
+AL: For some years.
+
+NA: You remain silent.
+
+NA: Because suddenly several previous conversations make much more sense.
+
+NA: Much more sense.
+@hide BA
+@char JO.neutral pos:{rightmid}
+JO: Ah.
+
+NA: Joaquim watches your expression.
+
+JO: Someone just found out.
+
+PLAYER: Nobody told me.
+@char JO.smile
+JO: Because half the fun is precisely in that.
+
+NA: His smile reappears, sharp.
+
+JO: See?
+
+JO: We have a passionate poet, a dangerous merchant, a dreamer alferes, a bride, and a sensitive actor.
+
+
+
+NA: His gaze sweeps across the room.
+
+JO: And I should entrust the future of the colony to these people.
+@char AL.neutral pos:{mid}
+AL: Joaquim.
+
+JO: What?
+
+AL: You're being unpleasant.
+
+JO: I'm being honest.
+
+NA: The atmosphere worsens again, voices overlap.
+
+
+NA: Tiradentes responds, Hipólita retorts, Bárbara provokes and Joaquim provokes even more.
+
+
+
+NA: And for a few moments everything turns into chaos.
+@hide TI,AL,JO
+NA: That's when you feel someone touch your arm, discreetly.
+@stopBgm fade:1 !wait
+@bgm cel
+@char CE.neutral pos:{rightmid}
+NA: Célio.
+
+NA: He seems a little tired, more than before.
+
+CE: Can I ask you a favor?
+
+PLAYER: Sure.
+
+CE: Let's get out of here for a moment.
+
+PLAYER: What?
+
+NA: He glances at the argument.
+
+CE: Before someone throws a chair.
+
+NA: Short pause.
+
+CE: Or a person.
+
+NA: Despite the attempt at joking, his voice trembles.
+
+NA: And you notice.
+
+NA: Célio doesn't just want to escape the argument.
+
+NA: He needs to get out of there.
+
+NA: For some reason you still don't understand.
+
+@choice "Listen to Célio and leave with him" goto:.scene7C-1
+
+@choice "Leave to be alone" goto:.scene7C-2
+
+@stop
+
+
+
+
+
+#scene7C-1
+@set afetoCel+=1
+
+NA: You look around the room.
+
+NA: Tiradentes and Joaquim continue arguing.
+
+NA: Hipólita seems seconds away from committing a crime.
+
+NA: Bárbara is having too much fun, and Alvarenga seems to be reconsidering all his life choices.
+
+PLAYER: You know what?
+
+PLAYER: Let's go.
+@char CE.smile
+NA: The relief on Célio's face is immediate, small but visible.
+
+CE: Thank you.
+
+NA: Without waiting for you to change your mind, he opens the door and leaves quickly.
+
+@goto .scene7C-2end
+
+#scene7C-2
+
+PLAYER: I think I'll go out alone for a moment.
+@char CE.surprise
+CE: No.
+
+PLAYER: No?
+
+NA: For the first time since meeting him, the answer comes quickly, almost desperately.
+
+PLAYER: Célio...
+
+CE: Please.
+@char CE.sad
+NA: He takes a deep breath, trying to regain his composure.
+
+CE: Just...
+
+NA: A beat.
+
+CE: Just don't leave me alone right now.
+
+NA: The request catches you off guard.
+
+NA: Because it doesn't seem like manipulation or an excuse.
+
+NA: He looks like someone about to drown.
+
+PLAYER: ...
+
+NA: You sigh.
+
+PLAYER: Okay. Let's go.
+
+
+@char CE.neutral
+NA: His relief is immediate.
+#scene7C-2end
+;Depois das escolhas
+@back bg_gardenNight
+NA: And you leave the house together.
+@char CE.neutral
+NA: The door closes behind you, muffling the shouts from the meeting.
+
+NA: The silence outside seems almost strange after that.
+
+PLAYER: Better.
+
+CE: Much better.
+
+NA: But despite the joke, he remains nervous.
+
+NA: Fidgeting with his hands, avoiding your gaze, and taking several deep breaths.
+
+PLAYER: Célio, are you okay?
+
+NA: He closes his eyes, as if gathering courage.
+
+CE: I can't stand lying to you anymore.
+@char {PLAYER}2.surprise
+PLAYER: Lying?
+
+NA: You raise your eyebrows, not understanding what he's saying.
+
+CE: Yes.
+
+NA: Silence lasts a few seconds.
+
+CE: I'm not just Célio.
+@char {PLAYER}2.neutral
+PLAYER: Okay...
+
+CE: Nor just Celina.
+@char {PLAYER}2.surprise
+NA: Your heart races and you open your mouth slightly surprised.
+
+PLAYER: What?
+
+CE: Celina and Célio.
+
+NA: He shakes his head, seeming to think about what to say.
+
+CE: They're clothes, they're roles… they're masks.
+
+;NA: A voz dele falha um pouco.
+
+NA: Their voice falters slightly.
+
+
+CE: I'm just Cel.
+
+PLAYER: ...
+
+PLAYER: Cel?
+
+CE: Yes.
+
+PLAYER: But that means...
+
+CE: That neither of those people is really me.
+@char CE.smile
+NA: He smiles sadly.
+
+CE: And at the same time, both are.
+
+PLAYER: I'm confused or…
+
+CE: I know.
+@char CE.neutral
+NA: For the first time, he looks directly at you.
+
+CE: But I needed you to know… because I care about you.
+
+NA: A short pause, and he sighs as if a weight has been lifted from his shoulders.
+
+CE: And I was tired of being two different people around someone important to me.
+
+@choice "Say everything is fine" goto:.scene8C-1
+
+@choice "React poorly and say you don't understand" goto:.scene8C-2
+
+@stop
+
+
+
+#scene8C-1
+@set afetoCel+=1
+
+
+NA: You take a few seconds to organize your thoughts.
+
+PLAYER: So that's why.
+
+CE: Why what?
+
+PLAYER: I was sure I knew you two.
+@char CE.surprise
+NA: Cel is surprised.
+@char {PLAYER}2.neutral
+PLAYER: Now it seems obvious.
+
+NA: Silence.
+
+PLAYER: I'll admit something.
+@char CE.smile
+CE: What?
+
+PLAYER: I'm a little upset.
+@char CE.neutral
+NA: His smile slowly fades.
+@char CE.sad
+CE: I knew it.
+
+PLAYER: Not for the reason you're thinking.
+@char CE.neutral
+PLAYER: Because I thought Celina was my friend.
+
+NA: Cel lowers their gaze.
+
+PLAYER: And because I was starting to like Célio.
+
+NA: Silence is absolute.
+
+PLAYER: So learning you're the same person is… complicated.
+
+CE: I'm sorry.
+
+NA: The answer comes immediately.
+
+CE: I never meant to deceive you.
+@char {PLAYER}2.smile
+PLAYER: I know.
+
+PLAYER: I just wanted to understand.
+@char CE.smile
+NA: For the first time since they left the house, they seem to breathe normally.
+
+PLAYER: What should I call you?
+@char CE.neutral
+CEL: Cel.
+
+PLAYER: Just Cel?
+@char CE.smile
+CEL: Just Cel.
+
+NA: A small smile.
+
+CEL: I don't really care about "he" or "she".
+
+CEL: I never have.
+
+PLAYER: And Cel?
+
+CEL: Cel feels like mine.
+
+NA: His eyes sparkle.
+
+CEL: For the first time.
+
+NA: You smile and nod.
+
+PLAYER: Then Cel it is.
+@char CE.happy
+NA: For the first time that night, Cel seems genuinely happy.
+@goSub .BlackScreen
+@back bg_hipolitaNight
+;Depois da Reunião - Se o player reagiu bem
+
+NA: The meeting ends much later than it should.
+
+NA: Tiradentes keeps arguing as he leaves, and Joaquim is still complaining on his way out.
+
+NA: And Hipólita threatens to throw them both out of her house next time.
+
+NA: Gradually the room empties.
+@char HI.neutral pos:{rightmid} !wait
+@char {PLAYER}2.neutral pos:{leftmid}
+HI: Could you help me?
+
+NA: She looks at the state of the furniture.
+
+HI: It looks like a storm passed through here.
+
+PLAYER: A storm called Joaquim and Tiradentes…
+
+HI: Exactly.
+
+NA: You start collecting some chairs.
+
+NA: Then you notice someone standing in the hallway.
+@char CE.neutral pos:{mid}
+NA: Cel is leaning against the door.
+
+NA: When your eyes meet, he makes a small gesture.
+
+NA: Asking you to come closer.
+
+PLAYER: I'll be right back.
+@char HI.smile
+HI: Hmm.
+
+NA: Hipólita's smile makes it clear she understood more than she should have.
+@hide HI
+@char CE pos:{rightmid}
+NA: You walk down the hallway and Cel looks tired, very tired.
+
+NA: But for the first time since you met, they also seems light.
+
+CEL: I'm still getting used to it.
+
+PLAYER: To what?
+@char CE.smile
+CEL: Not hiding this from you.
+
+NA: The smile is small, but genuine.
+@char {PLAYER}2.smile
+PLAYER: I'm glad you told me.
+@char CE.happy
+NA: Cel lowers their eyes, clearly happy to hear that.
+
+CEL: Me too.
+@char CE.smile
+NA: The silence between you two isn't uncomfortable.
+@char CE.neutral
+CEL: Can I ask one more thing?
+
+PLAYER: Of course.
+
+CEL: Meet me tomorrow.
+
+PLAYER: Where?
+@char CE.smile
+CEL: At the theater.
+
+NA: A smile appears.
+
+CEL: But this time I don't want you to meet Célio or Celina.
+
+NA: They take a step closer.
+
+CEL: I want you to meet just Cel.
+
+NA: And there's so much hope in their eyes that for a moment you can't answer.
+
+PLAYER: I'll be there.
+@char CE.happy
+NA: The smile that appears on their face seems to light up the whole hallway.
+
+CEL: Thank you.
+
+NA: Cel seems genuinely happy.
+
+@goto .scene8C-2end
+
+#scene8C-2
+@char {PLAYER}2.neutral
+NA: You try to organize your thoughts.
+@char CE.neutral
+NA: But the more you think, the less you understand.
+
+PLAYER: No.
+
+CE: ...
+
+PLAYER: You lied to me and that doesn't make sense.
+@char CE.sad
+NA: His face loses color.
+
+PLAYER: Are you Célio or Celina?
+
+CEL: Neither…
+
+PLAYER: You can't be both at the same time.
+
+NA: The silence is immediate and painful.
+
+CEL: I see.
+
+NA: But his voice says exactly the opposite.
+
+PLAYER:  I'm not trying to be cruel.
+
+PLAYER: It's just... confusing.
+@char CE.neutral
+CEL: For you.
+
+NA: A beat.
+
+CEL: It was for me too... for a long time.
+
+PLAYER: So why don't you just choose?
+
+NA: The question slips out and you immediately regret it.
+@char CE.sad
+NA: Because you see his expression change.
+
+NA: Like someone who's heard it many times before.
+
+CEL: Because I've spent my whole life trying.
+
+NA: The voice comes out low and almost trembling.
+
+CEL: And it never worked.
+
+NA: Cel smiles, but there's no happiness in that smile.
+
+CEL: Thank you for being honest.
+
+PLAYER: Cel...
+
+CEL: No.
+
+NA: He shakes his head.
+
+CEL: It's okay.
+
+NA: But clearly it's not.
+
+NA: For the first time since you met him, Cel seems distant.
+
+NA: As if a door has just closed between you two.
+
+NA: And you don't know if you'll be able to open it again.
+@goSub .BlackScreen
+;Depois da Reunião - Se o player reagiu mal
+@back bg_hipolitaNight
+NA: The meeting ends much later than it should.
+
+NA: And despite the conversations and farewells, something heavy remains inside you.
+
+NA: Hipólita asks for help organizing the room, and you accept.
+
+NA: While moving some chairs, you notice someone standing in the hallway.
+
+NA: Cel is standing leaning against the wall.
+
+NA: They hesitate before gesturing for you to come closer.
+@char {PLAYER}2.neutral pos:{leftmid}
+PLAYER: I'll be right back.
+@char HI.neutral pos:{rightmid}
+HI: Sure.
+
+NA: Hipólita seems to notice the strange atmosphere, but doesn't comment.
+@hide HI
+@char CE.neutral pos:{rightmid}
+NA: You walk down the hallway, and Cel looks exhausted.
+
+NA: Like someone who spent the whole night fighting something invisible.
+
+CEL: Thank you for coming.
+
+PLAYER: Cel...
+
+CEL: No.
+
+NA: They shake their head.
+
+CEL: I didn't come to argue.
+
+NA: Silence lasts a few seconds.
+
+CEL: I just wanted to say one thing.
+
+NA: They take a deep breath.
+
+CEL: I spent a good part of my life trying to be something other people understood.
+
+CEL: Daughter, son, woman, man, actress or actor.
+@char CE.smile
+NA: A sad smile.
+
+CEL: None of them quite fit.
+
+CEL: And maybe I expected too much from you.
+
+PLAYER: I just didn't understand.
+@char CE.neutral
+CEL: I know.
+
+NA: The answer comes without anger, which makes it all the worse.
+
+CEL: But I'd like you to try.
+
+NA: For the first time they seem truly vulnerable.
+
+CEL: Because I like talking to you… more than I should.
+
+NA: Their eyes meet yours.
+
+CEL: So…
+
+CEL: Meet me tomorrow.
+
+PLAYER: Why?
+
+CEL: Because maybe it's easier to show than to explain.
+@char CE.smile
+NA: A weary smile.
+
+CEL: And because I still have hope that you'll understand me.
+
+NA: That sentence hits you unexpectedly.
+
+NA: Because despite the hurt, Cel is still trying.
+
+CEL: At the theater tomorrow.
+
+NA: They take a small step back.
+
+CEL: If you want to come.
+
+NA: And although they try to seem indifferent, you see the hope there, small and fragile.
+
+NA: Like a candle trying not to go out.
+#scene8C-2end
+;Depois das cenas
+@stopBgm fade:1 !wait
+@goSub .BlackScreen
+@back bg_squareNight
+@bgm wander
+NA: The way back to the inn seems longer that night.
+
+NA: Not because of the distance, but because your head is full.
+
+NA: You think about the meeting, the argument, Joaquim offending half of Vila Rica.
+
+NA: And especially about Cel.
+
+NA: So that was it.
+
+NA: The strange feeling, the familiarity, the glances and the similarities.
+@stopBgm fade:2 !wait
+NA: You were right all along, or almost.
+@bgm respite
+@back bg_innNight
+NA: When you arrive at the inn you find a familiar figure waiting.
+@char FR.neutral pos:{rightmid}
+NA: Francisca is sitting behind the counter, with her arms crossed.
+
+NA: Like a judge about to begin a trial.
+
+FR: Finally.
+@char {PLAYER}2.neutral pos:{leftmid}
+PLAYER: Still awake?
+
+FR: Naturally.
+
+PLAYER: Why?
+
+FR: Because someone needed to find out what happened.
+
+PLAYER: Gossip.
+
+FR: Investigator.
+
+NA: You sit down.
+
+FR: So, how was it?
+
+PLAYER: Chaotic.
+
+FR: As always.
+
+PLAYER: Tiradentes and Joaquim started arguing.
+
+FR: Again?
+
+PLAYER: Again.
+
+PLAYER: I think they fight for sport.
+
+FR: Hm.
+
+NA: Francisca thinks for a moment.
+
+FR: They act like an old married couple.
+
+PLAYER: Francisca!
+
+FR: Am I wrong?
+
+PLAYER: ...
+
+PLAYER: Unfortunately not.
+
+NA: She seems pleased with herself.
+
+PLAYER: I also learned something else.
+
+FR: Hmm?
+
+PLAYER: Alvarenga and Bárbara are married.
+
+FR: Wow.
+
+NA: She dramatically places her hand on her chest.
+
+FR: What a grand revelation.
+
+PLAYER: Francisca.
+
+FR: What?
+
+PLAYER: You knew.
+
+FR: Naturally.
+
+PLAYER: For how long?
+
+FR: Years.
+
+PLAYER: YEARS?
+@char {PLAYER}2.surprise
+FR: More or less.
+
+PLAYER: Why doesn't anyone tell me anything?
+
+FR: Because sometimes it's funny to watch.
+@char {PLAYER}2.neutral
+PLAYER: You're awful.
+
+FR: Thank you.
+
+NA: You sigh.
+
+NA: But there's something else, something bigger.
+
+NA: Francisca notices immediately.
+
+FR: Oh.
+
+NA: She tilts her head.
+
+FR: What's going on in there?
+
+PLAYER: Where?
+
+FR: In your head.
+
+NA: You hesitate.
+
+NA: Maybe you shouldn't tell, but you end up telling.
+
+PLAYER: Célio is Celina.
+
+FR: ...
+
+PLAYER: Actually, it's just Cel.
+
+
+NA: Francisca puts her hand to her mouth.
+
+FR: You don't say.
+
+PLAYER: Francisca, you're teasing me now.
+
+FR: I'm shocked.
+
+PLAYER: FRANCISCA.
+@char FR.happy
+NA: She can't hold back her laughter anymore.
+
+FR: Forgive me.
+
+PLAYER: You knew.
+@char FR.smile
+FR: I knew.
+
+NA: You realize what she just said.
+@char {PLAYER}2.surprise
+PLAYER: YOU KNEW.
+
+FR: I have eyes.
+
+PLAYER: Why doesn't anyone tell me anything in this city?
+@char FR.neutral
+FR: Because it wasn't my secret to tell.
+@char {PLAYER}2.neutral
+NA: The humor fades a little.
+
+FR: Listen.
+
+FR: Things like that can be dangerous.
+
+PLAYER: Dangerous?
+
+FR: Very.
+
+NA: She rests her arms on the table.
+
+FR: We're talking about Vila Rica, not a fairy tale.
+
+FR: There's the Church, there are the moralists.
+
+FR: There are people who love to point fingers at everything they consider different.
+
+NA: Her smile disappears.
+
+FR: Wrong secrets can cost a life.
+
+PLAYER: ...
+
+FR: Or freedom.
+
+NA: You think of Cel.
+
+NA: And for the first time you understand a little of the fear you saw in their eyes.
+
+PLAYER:  So how do you know?
+
+FR: Because someone told me.
+
+PLAYER: Who?
+
+FR: No.
+
+PLAYER: Francisca
+
+FR: No.
+
+PLAYER: Please.
+
+FR: Still no.
+
+NA: You make a face, and she's clearly amused.
+
+PLAYER: Everyone knows things except me.
+
+FR: Correct.
+
+PLAYER: That's not fair.
+@char FR.smile
+FR: Also correct.
+
+NA: Francisca smiles.
+@char FR.neutral
+FR: But listen.
+
+FR: Maybe I don't understand everything.
+
+NA: She chooses her words carefully.
+
+FR: But I don't need to understand everything either.
+
+PLAYER: Fair enough...
+
+FR: If Cel found a way to exist in this world…
+
+FR: Who am I to say it's wrong?
+
+NA: She shrugs.
+
+FR: I spent a good part of my life listening to people explain to me why my existence was a problem.
+
+FR: I have no interest in doing the same to others.
+
+NA: You remain silent.
+
+FR: Besides.
+
+NA: The smile returns.
+
+FR: It seems they like you very much.
+
+PLAYER: Francisca.
+
+FR: What?
+
+PLAYER: That doesn't help.
+
+FR: It was never my intention.
+
+NA: A lie, a blatant lie.
+
+PLAYER: I'm still trying to understand all this.
+
+FR: Then you'll understand tomorrow.
+
+PLAYER: What?
+
+FR: Sleep.
+
+NA: She points to the stairs.
+
+FR: Go to your room.
+
+PLAYER: I'm not sleepy.
+
+FR: Yes, you are.
+
+PLAYER: I'm not.
+
+FR: You're sulking.
+
+PLAYER: It's different.
+
+NA: You cross your arms.
+
+NA: Which unfortunately proves her point.
+
+FR: See?
+
+PLAYER: Good night, Francisca.
+
+FR: Good night.
+
+FR: And stop making that face.
+
+PLAYER: What face?
+
+FR: The face of someone who discovered that half the village was hiding secrets.
+
+PLAYER: Because half the village was hiding secrets.
+
+FR: Welcome to Vila Rica.
+@hideChars
+NA: Grumbling, you go up to your room.
+
+NA: Lying alone in bed, you stare at the ceiling.
+
+NA: And think about the meeting and Cel, the revelation and the invitation.
+
+NA: About the hopeful smile he tried to hide.
+
+NA: And failed miserably.
+
+NA: For the first time in a long time, you can't decide if you're nervous, curious, or anxious.
+
+NA: Maybe a little of all three.
+
+NA: And with that thought, the night finally leads you to sleep.
+@goSub .BlackScreen
+;Cap 5 -
+@back bg_innDay
+NA: The next morning you wake up earlier than you'd like.
+
+NA: After washing and trying to organize your thoughts, you go down to the inn's living room.
+
+NA: Francisca is already up, doing the inn's chores.
+
+NA: You grab just a piece of bread and head for the door.
+
+FR: That's all?
+
+PLAYER: That's all.
+
+FR: You're still sulking.
+
+PLAYER: I'm not.
+
+FR: Hmm.
+
+NA: She studies your face and the enormous pout you have.
+
+FR: Yes, you are.
+
+PLAYER: I'm not.
+
+FR: Well then, you should let your face know, because it hasn't received the news.
+
+NA: You roll your eyes.
+
+FR: Where are you going?
+
+PLAYER: To meet Cel.
+@char FR.smile
+NA: A smile immediately appears.
+
+FR: Well.
+
+FR: Naturally.
+
+PLAYER: Francisca.
+
+FR: What is it?
+
+PLAYER: Nothing.
+
+FR: Sure.
+
+NA: She rests her chin on her hand.
+
+FR: It's just your growing appreciation for the dramatic arts.
+
+PLAYER: Of course, exactly that.
+
+FR: Nothing related to the actor.
+
+PLAYER: Goodbye, Francisca.
+
+FR: Have fun.
+@goSub .BlackScreen
+@stopBgm fade:2 !wait
+NA: You leave before she can make the situation worse.
+@back bg_marketDay
+NA: The morning air is pleasant.
+@char {PLAYER}2.neutral pos:{leftmid}
+@char CE.neutral pos:{rightmid}
+NA: And it doesn't take long to find Cel waiting near the market.
+
+NA: In Célio's clothes and with that confident air.
+@char CE.smile
+CEL: Good morning.
+
+PLAYER: Good morning.
+
+CEL: You still seem confused.
+
+PLAYER: Maybe a little.
+
+CEL: Fair enough.
+
+NA: You start walking through the city fair.
+
+NA: The atmosphere is still calm.
+
+NA: Merchants opening their doors, artisans starting their work, and women carrying baskets.
+
+NA: At one point, a girl drops some flowers she was carrying.
+
+NA: Before you can even react, Cel is already kneeling down to help pick them up.
+
+CHILD: Thank you.
+
+CEL: You're welcome.
+
+NA: The girl walks away smiling.
+
+PLAYER: Do you like children?
+
+CEL: I like kind people.
+
+NA: A short pause, they tilts their head.
+
+CEL: Children usually are.
+
+CEL: Until adults ruin it.
+
+NA: You continue walking.
+
+PLAYER: And what are your dreams?
+
+CEL: Dreams?
+
+PLAYER: Yes.
+
+NA: Cel seems to think seriously.
+
+CEL: A small house.
+
+PLAYER: Just that?
+
+CEL: A garden, few problems… people I love.
+
+NA: He smiles.
+
+CEL: That seems enough.
+
+PLAYER: It seems simple.
+
+CEL: The best dreams usually are.
+
+NA: The silence that follows is comfortable.
+
+NA: As always happens when you're with them.
+@char CE.neutral
+CEL: Can I ask you something?
+
+PLAYER: Sure.
+
+CEL: Yesterday.
+
+NA: They watch you sideways.
+
+CEL: You seemed very surprised when you found out that Alvarenga and Bárbara are married.
+
+PLAYER: …
+
+CEL: Hmm.
+
+PLAYER: I didn't even answer.
+@char CE.smile
+CEL: You didn't need to.
+
+NA: His smile widens.
+
+CEL: I got it.
+
+PLAYER: Got what?
+
+
+CEL: That you think Alvarenga is the most handsome.
+@char {PLAYER}2.surprise
+PLAYER: CEL!
+
+CEL: What?
+
+PLAYER: You're saying that too loudly.
+
+CEL: No I didn't
+
+PLAYER: You did.
+
+CEL: Besides.
+
+NA: He crosses his arms.
+
+CEL: You have good taste.
+@char {PLAYER}2.neutral
+PLAYER: I'm not going to continue this conversation.
+
+CEL: Naturally.
+
+NA: A few seconds of silence.
+
+CEL: So why wasn't Celina on the list?
+@char {PLAYER}2.embarrass
+PLAYER: What?
+
+CEL: Hmm?
+
+PLAYER: Next topic.
+@char CE.happy
+NA: Cel starts laughing.
+
+CEL: Interesting... very interesting.
+
+PLAYER: It's not.
+
+CEL: If you say so.
+@char {PLAYER}2.shy
+NA: You feel your face heat up.
+
+NA: And that only makes Cel laugh more.
+@char {PLAYER}2.neutral
+PLAYER: Can I ask a question?
+
+CEL: Sure.
+
+PLAYER: Why doesn't Joaquim seem to like you very much?
+
+NA: The smile fades a little.
+
+NA: Cel immediately puts his hand to his face.
+
+CEL: Ah.
+
+PLAYER: That "ah" worries me.
+
+CEL: Rightly so.
+
+NA: He seems genuinely embarrassed.
+
+CEL: Do you remember the theater?
+
+PLAYER: Yes.
+
+CEL: And the puppet?
+
+PLAYER: The one with the grumpy man?
+
+CEL: That's the one.
+
+NA: Cel looks to the sky, as if searching for strength.
+
+CEL: Didn't it seem familiar?
+
+PLAYER: Now that you mention it…
+
+NA: You think for a few seconds.
+
+PLAYER: The clothes, the mustache, and the way he complains.
+
+NA: You stop walking.
+
+PLAYER: Wait.
+
+PLAYER: Was that Joaquim?
+
+NA: Cel points at you.
+
+CEL: Exactly.
+@char {PLAYER}2.surprise
+PLAYER: CEL!
+
+CEL: I know.
+
+PLAYER: You made a puppet of the man.
+
+CEL: Technically several.
+
+PLAYER: SEVERAL?
+
+CEL: The audience really liked it.
+
+NA: You bring your hand to your face.
+
+PLAYER: Does he know?
+
+CEL: Now he does.
+
+PLAYER: How did he find out?
+
+CEL: Because someone told him.
+
+PLAYER: Who?
+
+CEL: I don't know.
+
+NA: A brief pause, he seems to consider whether to speak.
+
+CEL: But I suspect it was Bárbara.
+
+PLAYER: Why?
+
+CEL: Because she was laughing.
+
+PLAYER: That doesn't prove anything.
+
+CEL: It proves quite a lot when it comes to Bárbara.
+
+NA: You can't argue against that.
+
+PLAYER: And what happened?
+
+CEL: Joaquim attended a performance.
+
+PLAYER: Oh no.
+
+CEL: Oh yes.
+
+NA: Cel seems to relive the trauma.
+
+CEL: It took a few minutes.
+
+CEL: Then he realized.
+
+PLAYER: And?
+
+CEL: He stood up.
+
+PLAYER: And?
+
+CEL: He called me a theatrical parasite.
+
+PLAYER: Theatrical parasite?
+
+CEL: That was the exact term.
+
+PLAYER: Creative.
+
+CEL: I thought the same thing.
+
+PLAYER: And then?
+
+CEL: He said I turned respectable men into caricatures.
+
+PLAYER: Which is exactly what you did.
+
+CEL: Correct.
+
+PLAYER: Cel.
+
+CEL: What?
+
+PLAYER: I'm on his side on this one.
+
+CEL: Traitor.
+@char {PLAYER}2.happy !wait
+@char CE.happy
+NA: You two laugh.
+@char {PLAYER}2.smile
+@char CE.smile
+NA: But then his smile fades a little.
+@char CE.neutral
+CEL: The truth is... I don't think it's just that.
+@char {PLAYER}2.neutral
+PLAYER: No?
+
+CEL: No.
+
+NA: They play with the tip of his sleeve.
+
+CEL: Joaquim likes things well-defined, well-organized...
+
+CEL: He understands the world in a certain way, and I don't quite fit into it.
+
+PLAYER: So it's a bit of both.
+
+CEL: Yes.
+
+CEL: But the puppet certainly didn't help.
+
+PLAYER: Not at all.
+@char CE.smile
+CEL: Not at all.
+
+NA: For a moment you imagine Joaquim discovering he's become a theater character.
+@char {PLAYER}2.happy
+@char CE.happy
+NA: And you end up laughing again.
+@char CE.smile
+CEL: Just between us...
+@char {PLAYER}2.smile
+PLAYER: Hm?
+
+CEL: The puppet looks exactly like him.
+@char {PLAYER}2.surprise
+PLAYER: CEL!
+
+CEL: What?
+@char {PLAYER}2.smile
+PLAYER: It really does.
+
+NA: You two keep walking.
+@char {PLAYER}2.neutral
+NA: But one question keeps bothering you.
+
+PLAYER: I still don't understand one thing.
+
+CEL: Just one?
+
+PLAYER: Why exactly did you make a puppet of Joaquim?
+
+CEL: Because Tiradentes would be too much trouble.
+
+PLAYER: What?
+
+CEL: The hair.
+
+PLAYER: Cel, that's not what…
+
+CEL: I'm serious.
+
+PLAYER: No, you're not.
+@char CE.sad
+CEL: Fine.
+
+NA: He sighs dramatically.
+@char CE.neutral
+NA: Cel is silent for a few seconds.
+
+CEL: For the same reason you're speechless around Alvarenga.
+
+PLAYER: ...
+@char {PLAYER}2.surprise
+PLAYER: What?
+
+CEL: Joaquim is very handsome.
+
+NA: You're surprised by the revelation.
+
+CEL: What?
+@char {PLAYER}2.shy
+NA: You feel your face heat up.
+
+PLAYER: You made a puppet of a man because you thought he was handsome?
+
+CEL: Have you ever heard of artistic inspiration?
+@char {PLAYER}2.neutral
+PLAYER: I don't think that's how it works.
+@char CE.smile
+CEL: It works for me.
+
+NA: They smile.
+
+CEL: Besides, the mustache helps.
+
+PLAYER: The mustache?
+
+CEL: It's an excellent mustache.
+
+PLAYER: Indeed, but I still don't believe this story.
+
+CEL: I believe it.
+@char {PLAYER}2.happy
+NA: You try not to laugh, but fail miserably.
+@char {PLAYER}2.smile
+PLAYER: So you like men?
+
+CEL: Sometimes.
+
+PLAYER: And women?
+
+CEL: Also yes.
+
+PLAYER: ...
+
+PLAYER: That's why you asked about what I think about Alv…
+
+NA: Cel tries to maintain his composure and speaks.
+
+CEL: Well.
+
+CEL: Naturally.
+
+PLAYER: Naturally?
+
+CEL: You say that as if it were an unusual observation.
+@char CE.thinking
+PLAYER: Isn't it?
+
+CEL: No.
+
+NA: He crosses his arms, thoughtful.
+
+CEL: Doctor Alvarenga is not a man to be thrown away.
+@char {PLAYER}2.surprise
+PLAYER: Cel!
+
+CEL: What?
+
+CEL: I'm just being honest.
+
+CEL: He's polite, kind, and cultured.
+
+CEL: He's good-looking, has a good voice, and knows how to listen when others speak.
+@char {PLAYER}2.thinking
+PLAYER: You thought about this a lot, huh…
+
+CEL: Everyone in this village thought about it a lot.
+
+PLAYER: Everyone?
+
+CEL: At least those who have eyes.
+@char {PLAYER}2.happy
+NA: You end up laughing.
+
+CEL: Besides…
+
+NA: He tilts his head.
+
+CEL: The years have done him a favor.
+@char {PLAYER}2.neutral
+PLAYER: That was very specific.
+
+CEL: Was it?
+
+PLAYER: Very much so.
+
+CEL: Well, I stand by my opinion.
+
+CEL: There are men who grow old.
+
+CEL: And there are men who acquire distinction.
+
+CEL: Alvarenga belongs to the second group.
+
+PLAYER: I'll pretend you didn't say that.
+
+CEL: Pretending doesn't change the facts.
+
+NA: They shrug as if they had commented on the weather.
+
+CEL: Although I admit...
+
+PLAYER: Hmm?
+
+CEL: Bárbara would probably stab me for this conversation.
+
+PLAYER: Probably.
+
+PLAYER: And rightly so.
+@char {PLAYER}2.happy !wait
+@char CE.happy
+NA: You exchange a look and end up laughing together.
+@char CE.smile
+CEL: But just between us... I believe I'm not the only person in this city who appreciates both men and women.
+@char {PLAYER}2.smile
+PLAYER: I thought I was the only one.
+@char CE.surprise
+NA: Cel stops walking.
+
+CEL: The only one?
+@char {PLAYER}2.shy
+PLAYER: To like both.
+@char CE.smile
+NA: His smile slowly appears, almost affectionate.
+
+CEL: Oh.
+
+CEL: So now there are two of us.
+@char {PLAYER}2.smile
+PLAYER: It seems so.
+
+CEL: That explains a lot.
+
+PLAYER: Explains what?
+
+CEL: Your fascination with Alvarenga.
+@char {PLAYER}2.thinking
+PLAYER: It's not a fascination, just an innocent crush…
+
+CEL: And with Hipólita, or Bárbara, Tiradentes, Joaquim…
+@char {PLAYER}2.embarrass
+PLAYER: CEL.
+
+CEL: And with half of this city, apparently.
+
+PLAYER: It's not half the city.
+
+CEL: That's good.
+
+CEL: Because then I won't have so much competition either.
+@char {PLAYER}2.thinking
+NA: It takes you a few seconds to understand.
+@char {PLAYER}2.surprise
+NA: When you do...
+
+PLAYER: Wait.
+@char CE.happy
+NA: Cel is already walking again, with a smile too innocent to be genuine.
+
+CEL: Let's go.
+
+CEL: We still have the whole day ahead of us.
+
+NA: And not for the first time since you arrived in Vila Rica...
+
+NA: You find yourself thinking that talking to Cel is dangerously easy.
+
+NA: Because he always seems to know exactly what to say to leave you speechless.
+
+NA: The day goes by faster than you'd like.
+@char {PLAYER}2.happy !wait
+@char CE.happy
+NA: Conversations turn into laughter.
+
+@char {PLAYER}2.smile !wait
+@char CE.smile
+NA: Laughter turns into comfortable silence.
+@back bg_marketAfternoon
+NA: And when you realize it... the sun is already disappearing behind the mountains.
+
+CEL: It seems I've stolen your whole day.
+
+PLAYER: Maybe.
+
+CEL: Do you regret it?
+
+PLAYER: No.
+
+NA: Cel smiles.
+
+CEL: Then I have one last request.
+
+PLAYER: Another one?
+
+CEL: I promise it's the last one.
+
+PLAYER: Okay.
+
+CEL: Come with me to the theater.
+
+@choice "Accept and go to the theater" goto:.scene9C-1
+
+@choice "Say it's late and go back home" goto:.scene9C-2
+
+@stop
+
+
+#scene9C-1
+@set afetoCel+=1
+
+
+
+NA: Curiosity wins.
+
+PLAYER: Okay.
+
+NA: Cel's smile appears immediately.
+
+CEL: Great.
+@back bg_theater
+NA: The theater is empty when you arrive.
+
+NA: There's no applause, no audience, no musicians.
+
+NA: Just candles illuminating the stage and the two of you.
+
+PLAYER: It's strange with no one there.
+
+CEL: I like it.
+
+CEL: People believe that artists live to be seen.
+
+CEL: Sometimes we just want to exist.
+
+NA: Cel goes up stage.
+
+NA: And for a few moments he seems completely different.
+
+NA: Lighter and freer.
+
+CEL: Can I show you something?
+
+PLAYER: Of course.
+@char CE.sad
+NA: Then they begin to recite.
+
+NA: Not to a crowd or an audience, just to you.
+
+NA: Their voice echoes through the empty theater.
+
+NA: And for a few minutes you forget to breathe.
+@char CE.neutral
+NA: When it ends, the silence seems longer than before.
+
+PLAYER: That was very beautiful.
+@char CE.smile
+NA: Cel lowers their eyes, clearly happy.
+
+CEL: Thank you.
+
+NA: They sit on the edge of the stage.
+@char CE.sad
+CEL: When I was a child I thought there was something wrong with me.
+
+NA: They sigh, seeming to return to that time.
+
+CEL: Then I thought I needed to choose.
+
+CEL: To be one thing or another.
+
+CEL: But I never could.
+@char CE.smile
+NA: They smile.
+
+CEL: And on stage I learned something curious.
+
+PLAYER: What?
+
+CEL: That I could be everything.
+
+CEL: Or nothing.
+
+CEL: Depending on the story.
+@char CE.neutral
+NA: The smile fades slightly.
+
+CEL: But I'm still afraid.
+
+PLAYER: Of what?
+
+CEL: That one day someone will look at me… and see only a mistake.
+
+NA: Your heart tightens.
+
+PLAYER: I don't see that.
+@char CE.surprise
+NA: Cel looks up.
+
+NA: And for a moment the world seems too small.
+
+NA: There's something different in that look.
+
+NA: Something that makes you strangely nervous.
+@char CE.smile
+CEL: I'm glad.
+
+NA: The silence that follows isn't uncomfortable.
+
+NA: On the contrary, it's almost intimate.
+
+PLAYER: I should go.
+
+NA: Cel seems disappointed for a second, but smiles.
+
+CEL: Yes.
+
+CEL: Before Francisca sends a patrol after you.
+
+PLAYER: She would.
+
+CEL: I know.
+
+NA: And you leave the theater together.
+
+@goto .scene9C-2end
+
+#scene9C-2
+
+PLAYER: It's getting late.
+
+PLAYER: I think it's best to go back.
+@char CE.sad
+NA: For a moment Cel seems disappointed, but then smiles.
+@char CE.smile
+CEL: Fair enough.
+
+CEL: I don't want Francisca to blame me for your disappearance.
+
+PLAYER: She would.
+
+CEL: Naturally.
+
+NA: You say goodbye.
+
+NA: And you go alone to the inn.
+#scene9C-2end
+;Depois das cenas
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+@back bg_innNight
+@bgm respite
+NA: When you finally arrive at the inn, everything is dark and silent.
+
+NA: You try to slip in quietly, and you succeed.
+
+NA: Then you realize you're hungry.
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: Just a piece of bread or cornbread...
+
+NA: A great idea in theory.
+
+NA: You search around blindly and find the bread.
+@shake !wait
+@sfx clank
+@char {PLAYER}2.surprise
+NA: But you end up knocking over absolutely everything else.
+
+NA: Pots, spoons, something metallic, and maybe half the kitchen.
+
+PLAYER: Ouch.
+@char {PLAYER}2.surprise pos:{leftmid}
+@char FR.angry pos:{rightmid}
+FR: THIEF!
+
+NA: Something flies toward you.
+
+PLAYER: OW!
+
+NA: A wet rag hits you on the head.
+
+PLAYER: Francisca!
+@char FR.surprise
+FR: ...
+
+FR: Creature?
+
+PLAYER: Who else would it be?
+
+FR: Well.
+
+FR: I didn't know.
+
+PLAYER: Were you trying to kill me?
+@char FR.neutral
+FR: With a dish towel.
+
+PLAYER: It hurt, you know.
+
+FR: So it worked.
+
+NA: Francisca lights a candle and finds you covered in flour.
+
+NA: Which makes everything worse.
+
+FR: Good heavens.
+@char FR.surprise
+FR: You look like a ghost.
+@char {PLAYER}2.neutral
+PLAYER: Thanks, that was my dream.
+@char FR.neutral
+FR: It was a compliment.
+
+PLAYER: It wasn't.
+@char FR.happy
+FR: Yes, it was.
+@char {PLAYER}2.happy
+NA: She starts laughing, and unfortunately, so do you.
+@char FR.smile
+FR: So?
+
+FR: Where have you been?
+@char {PLAYER}2.smile
+PLAYER: With Cel.
+
+NA: Her smile instantly widens.
+@char {PLAYER}2.neutral
+PLAYER: No.
+
+FR: I didn't even say anything.
+
+PLAYER: But you were going to.
+
+FR: Maybe.
+
+NA: She rests her chin on her hand.
+
+FR: So, was it a good night?
+@char {PLAYER}2.smile
+NA: You think of Cel, the conversation, and their smile.
+
+PLAYER: It was.
+
+NA: Francisca studies your face for a few seconds.
+
+FR: Hmm.
+@char {PLAYER}2.neutral
+PLAYER: What?
+@char FR.neutral
+FR: Nothing.
+
+FR: Absolutely nothing.
+
+NA: Which means the exact opposite.
+
+FR: Go to sleep.
+
+FR: Before you decide to raid my kitchen again.
+
+PLAYER: It was an accident.
+
+FR: It was a disaster.
+@hideChars
+NA: Still grumbling, you head upstairs, taking bites of your piece of bread.
+
+NA: And, for the first time in many days, you fall asleep smiling.
+@stopBgm fade:2 !wait
+;Cap 6 -
+@goSub .BlackScreen
+@back bg_theater
+@bgm cel
+NA: The next day, you return to the theater.
+@char CE.neutral pos:{rightmid}
+NA: This time, there is no rehearsal or audience, just Cel waiting for you.
+
+NA: They seem restless, more so than usual.
+
+@char {PLAYER}2.neutral pos:{leftmid}
+NA: You sit in one of the theater seats, and Cel stops in front of you.
+
+CEL: Can I ask you something?
+
+PLAYER: Of course.
+
+NA: Cel hesitates.
+
+CEL: Do you like me better as Celina... or as Célio?
+
+NA: For a moment, the theater seems too quiet.
+
+@choice "I like you. In all your forms." goto:.scene10C-1
+
+@choice "I prefer Célio" goto:.scene10C-2
+
+@choice "I prefer Celina" goto:.scene10C-3
+
+@stop
+
+
+
+#scene10C-1
+@set afetoCel+=1
+
+
+NA: Cel remains motionless.
+
+NA: As if waiting for what comes next.
+
+PLAYER: Celina, Célio and Cel.
+
+PLAYER: They are parts of who you are.
+@char CE.surprise
+PLAYER: But none of them alone is you.
+
+NA: Their eyes well up, not with sadness, but relief.
+
+CEL: You are the first person to answer that way.
+
+PLAYER: Really?
+
+CEL: Most people choose a side.
+
+NA: You stand up and take a step toward Cel, they look different.
+@char CE.happy
+CEL: You chose me.
+@goSub .BlackScreen
+;CG
+@back CGC03_{gender}_01 id:CG time:0
+@unlock CG/CGC03_{gender}_1
+NA: Before you can answer, Cel hugs you tightly.
+
+NA: As if holding something precious.
+
+NA: For a second, you’re surprised, but then you hug them back.
+
+NA: Your arms wrap carefully around Cel, and you rest your head near their neck.
+
+NA: You catch the scent of sweet candles and perfumed fabric. It’s unusual, but pleasant.
+
+NA: You press their body a little closer to yours.
+
+NA: And for the first time since you met, they look completely at peace.
+@back CGC03_{gender}_02 id:CG
+NA: You look at each other and laugh, a bit flustered, but happy.
+
+PLAYER: Are you crying?
+
+CEL: No.
+
+PLAYER: Liar.
+
+CEL: Maybe a little.
+
+NA: You lock eyes, standing far too close.
+
+NA: Close enough to make your heart race.
+@back CGC03_{gender}_03 id:CG
+NA: Gently, Cel leans in and plants a soft kiss on your cheek.
+
+NA: You turn bright red, but close your eyes, savoring the moment.
+
+CEL: Now I'm the one at a loss for words.
+
+NA: And for the first time, you see them genuinely flustered.
+
+NA: Which might just be the most adorable thing you've ever seen.
+
+NA: And then you pull apart.
+
+@goto .scene10C-3end
+
+#scene10C-2
+@stopBgm fade:2 !wait
+PLAYER: I prefer Célio.
+@char CE.sad
+NA: The silence drags on, and Cel doesn't answer immediately.
+@bgm sad
+NA: They seem tired.
+
+NA: Tired of trying to make you understand.
+
+CEL: I see.
+
+PLAYER: I didn't mean...
+
+CEL: No.
+
+CEL: You didn't.
+
+NA: There is no anger in their voice.
+
+CEL: It’s just that I had hoped for something different.
+@char {PLAYER}2.sad
+PLAYER: Cel...
+
+CEL: I’ve spent my whole life watching people make choices.
+
+CEL: Some people like Celina.
+
+CEL: Others like Célio.
+
+CEL: Very few like me.
+
+NA: You feel a tightness in your chest.
+
+CEL: I thought you understood.
+
+NA: They smile, a sad smile.
+
+CEL: But I suppose I was unfair.
+
+CEL: It isn't easy to understand something you were never allowed to know.
+
+PLAYER: Wait.
+
+CEL: Goodbye.
+@hide CE
+NA: And this time, they really leave.
+
+NA: There is no argument, no tears, and no second chance.
+
+NA: Just the feeling that something important has slipped through your fingers.
+@hideChars
+NA: When you leave the theater, the city seems different, smaller and colder.
+
+NA: In the following days, you try to find them.
+
+NA: At the theater, at the lookout, or at Hipólita’s house.
+
+NA: But Cel has vanished.
+
+NA: Perhaps they left with a theater troupe or went to another town.
+
+NA: Or perhaps they simply decided never to seek you out again.
+
+NA: You never find out.
+
+NA: And little by little, Vila Rica loses its color.
+
+NA: Francisca notices, Hipólita notices, and even Alvarenga notices.
+
+NA: But no one can restore something you broke yourself.
+
+NA: Months later, you leave Minas, taking only one question with you.
+
+PLAYER: What if I had answered differently?
+
+@goto .GameEnd
+
+#scene10C-3
+@stopBgm fade:2 !wait
+@bgm sad
+@char CE.sad
+CEL: So, you like the woman I invented to survive.
+
+CEL: Not the person I actually am.
+
+NA: For the first time, you see genuine disappointment in their eyes.
+
+CEL: Thank you for being honest.
+
+NA: Cel seems to be looking at a point behind you.
+
+NA: As if sorting out their own thoughts.
+
+CEL: I see.
+
+PLAYER: I didn't mean anything bad by it.
+
+CEL: I know.
+
+CEL: I really do know.
+@char CE.smile
+NA: They offer a polite, gentle smile.
+
+NA: Exactly the smile they use when they want to hide something.
+
+CEL: Can I ask you something?
+
+PLAYER: Of course.
+
+CEL: What do you like about her?
+
+PLAYER: She’s sweet, kind, easy to talk to, and...
+
+CEL: And...
+
+NA: You hesitate.
+
+PLAYER: She seems simpler to understand.
+@char CE.neutral
+NA: The smile fades, completely, this time.
+@char CE.sad
+NA: Cel lowers their eyes.
+
+CEL: Simpler.
+
+CEL: More convenient.
+
+PLAYER: Cel, I didn't mean it like that...
+
+CEL: No.
+
+CEL: It’s fine.
+
+NA: But it clearly isn't.
+
+CEL: Do you know the worst part?
+
+NA: There is no anger in their voice, only sadness.
+
+CEL: I spent my whole life listening to people tell me who I should be.
+
+CEL: How I should speak.
+
+CEL: How I should dress.
+
+CEL: How I should exist.
+
+NA: They take a deep breath.
+
+CEL: And for a moment...
+
+CEL: I thought it would be different with you.
+
+PLAYER: But it is different.
+@char CE.neutral
+CEL: Is it?
+
+NA: Their gaze meets yours.
+
+CEL: Because you just told me which part of me you prefer.
+
+NA: You find no answer.
+
+CEL: You didn't choose me.
+
+CEL: You chose the version that pleased you most.
+
+NA: Silence hangs heavy between you.
+@char CE.sad
+CEL: And I can't do that again.
+
+PLAYER: Cel...
+
+CEL: No.
+
+NA: They take a step back, as if distance was needed.
+
+CEL: I spent years trying to piece all those parts together.
+
+CEL: I won't break them again.
+
+PLAYER: I didn't mean to...
+
+CEL: I know.
+
+CEL: But it still hurts.
+
+NA: They smile, sad and weary.
+
+NA: Like someone who has finally given up on waiting.
+
+CEL: Goodbye.
+
+PLAYER: Cel.
+@hide CE
+NA: And this time, they don't look back.
+@hideChars
+
+NA: You leave the theater alone.
+
+NA: The air in Vila Rica feels colder and heavier.
+
+NA: Life goes on, but something has changed.
+
+NA: You keep running into Hipólita, seeing Francisca, and hearing rumors about the Inconfidência.
+
+NA: But you avoid the theater.
+
+NA: Because you know who is there.
+
+NA: And you know you are no longer welcome.
+
+NA: Months later, when the crisis finally erupts, Cel disappears.
+
+NA: Some say they ran away, while others say they left with a theater troupe.
+
+NA: The truth is, no one knows and neither do you.
+
+NA: And that is the part that hurts the most.
+
+NA: Because for the first time since arriving in Vila Rica, there is a question that will never be answered.
+
+NA: Who Cel could have been by your side...
+
+NA: If you had loved the whole person.
+
+NA: And in that moment, you realize it too late.
+
+NA: There was no right answer between Celina and Célio.
+
+NA: Because the answer was always Cel.
+@goto .GameEnd
+#scene10C-3end
+;Depois das Escolhas
+@goSub .BlackScreen
+@stopBgm fade:2 !wait
+@back bg_innNight
+NA: You head back to the inn.
+@bgm respite
+NA: And there’s a problem the whole way there.
+@char {PLAYER}2.happy pos:{leftmid}
+NA: Your face.
+
+NA: More specifically, the idiotic grin that refuses to go away.
+@char {PLAYER}2.smile
+@char FR.neutral pos:{rightmid}
+NA: You walk through the door, and Francisca looks up.
+
+NA: And she notices immediately.
+
+FR: Good Lord.
+
+PLAYER: What?
+
+FR: That look on your face.
+
+PLAYER: What look?
+
+FR: The look of someone who’s lost their mind.
+
+PLAYER: I haven't.
+
+FR: Hm.
+
+NA: She rests her elbow on the counter.
+
+FR: So, was there a kiss?
+@char {PLAYER}2.embarrass
+PLAYER: What?!
+
+FR: I asked if there was a kiss.
+
+PLAYER: No!
+
+FR: Not yet?
+
+PLAYER: Francisca!
+
+FR: What?
+
+PLAYER: Nothing happened.
+
+FR: Then why do you have that look on your face?
+@char {PLAYER}2.shy
+NA: You hesitate.
+
+PLAYER: Because... we hugged, and there was a kiss on the cheek.
+
+NA: Francisca waits.
+
+PLAYER: And because certain things are better when they happen at the right time.
+
+FR: ...
+
+PLAYER: Kisses, hugs, and... things like that.
+
+PLAYER: When you like someone.
+
+PLAYER: When it happens... it’ll be special.
+@char FR.thinking
+NA: Francisca stares at you, she looks confused.
+
+PLAYER: What?
+
+FR: Creature.
+
+PLAYER: Yeah?
+
+FR: You are very strange.
+@char {PLAYER}2.neutral
+PLAYER: Thanks.
+
+FR: That wasn't a compliment.
+@char {PLAYER}2.happy
+NA: You laugh.
+
+NA: And for the first time, she doesn't seem to have a ready answer.
+
+FR: Hm.
+
+FR: Perhaps your little theatrical fling is doing you good.
+@char {PLAYER}2.surprise
+PLAYER: That's not…
+@char FR.smile
+FR: Good night.
+@hide FR
+NA: Francisca disappears before you can finish the sentence.
+
+NA: Which was likely intentional.
+@hideChars
+NA: And for the first time in a long while, you sleep happily.
+@goSub .BlackScreen
+@back bg_innDay
+NA: A few days pass.
+
+NA: But the city's atmosphere changes.
+
+NA: Soldiers appear more frequently, conversations cease when strangers approach.
+
+NA: Doors are starting to close earlier, and even Francisca seems worried.
+
+NA: One morning, she calls out to you while arranging some merchandise.
+@char FR.neutral pos:{rightmid}
+FR: Creature.
+@char {PLAYER}2.neutral pos:{leftmid}
+PLAYER: Yes?
+
+FR: That little fling of yours is here.
+@stopBgm fade:1 !wait
+PLAYER: Francisca, I already told you that Cel isn't...
+@bgm cel
+FR: Literally standing in the doorway.
+@hide FR
+@char CELINA.smile pos:{rightmid}
+NA: You turn around and find Cel, dressed as Celina.
+
+
+
+NA: The simple dress, the hair tied back, and the familiar smile.
+
+NA: But something is wrong.
+
+NA: Their eyes look worried.
+
+CEL: We need to talk.
+@back bg_marketDay
+NA: You move away from the inn.
+
+NA: And walk through the streets.
+@char CELINA.determined
+CEL: I think we’ve been betrayed.
+@char {PLAYER}2.surprise
+PLAYER: What?
+
+CEL: Soldiers were at Hipólita’s house.
+
+CEL: They questioned Lady Bárbara, too.
+
+NA: Your stomach sinks.
+@char {PLAYER}2.neutral
+PLAYER: And Tiradentes?
+
+NA: Cel hesitates.
+
+CEL: I’ve heard rumors.
+
+CEL: Nothing good.
+
+NA: Silence hangs heavy between you.
+
+NA: For the first time, the revolution stops feeling like a distant conversation and starts to feel real.
+
+CEL: Meet me at the theater tonight.
+
+PLAYER: Cel...
+
+CEL: Please.
+@hideChars
+NA: You agree, and you part ways.
+@back bg_theater
+NA: Later, as the sun disappears.
+
+NA: You head to the theater.
+
+NA: The building is unusually busy.
+@char {PLAYER}2.neutral pos:{mid}
+NA: Some actors are talking amongst themselves.
+
+ACTOR: So, it’s you.
+@char {PLAYER}2.surprise
+PLAYER: Me?
+
+ACTOR: Yes.
+
+NA: The man points toward the wings.
+
+ACTOR: Talk some sense into that creature.
+
+PLAYER: Cel?
+
+ACTOR: Who else?
+
+ACTOR: He’s planning something that’s going to end up getting us killed.
+@char {PLAYER}2.neutral
+NA: Another actor sighs.
+
+ACTOR2: Or turning us into heroes.
+
+ACTOR: I’d rather stay alive.
+@char {PLAYER}2.neutral pos:{leftmid}
+@char CE.smile pos:{rightmid}
+NA: Before you can ask anything else, Cel appears.
+
+CEL: Don’t listen to them.
+
+ACTOR: DO LISTEN TO US.
+
+CEL: They’re exaggerating.
+
+ACTOR: We aren’t.
+
+NA: Cel pulls you by the arm.
+
+CEL: Come.
+
+NA: And leads you to the empty stage.
+
+NA: The candles light only part of the theater; the rest remains shrouded in shadows.
+
+NA: For a few seconds they say nothing, only observes the stage.
+@char CE.neutral
+CEL: I'm not a soldier.
+@char {PLAYER}2.thinking
+PLAYER: (Obviously.)
+
+CEL: I'm not a politician.
+
+CEL: I'm not a revolutionary like the alferes.
+
+NA: They sigh wearily.
+
+CEL: And I certainly am not rich like Bárbara.
+
+PLAYER: Cel...
+
+CEL: But I need to do something.
+
+NA: They slowly step onto the stage.
+
+CEL: I’ve spent my whole life using stories.
+
+CEL: To survive.
+
+CEL: To exist.
+
+CEL: Maybe now they can serve a greater purpose.
+
+PLAYER: What do you intend to do?
+@char CE.smile
+NA: A spark returns to their eyes.
+
+CEL: A play.
+@char {PLAYER}2.surprise
+PLAYER: A play?
+
+CEL: A moral fable.
+@char {PLAYER}2.neutral
+PLAYER: Cel.
+
+CEL: No one will be named.
+
+PLAYER: Cel, even you don't believe that.
+
+CEL: No names will be mentioned.
+
+PLAYER: Do you hear yourself?
+
+CEL: Technically.
+
+PLAYER: Cel...
+@char CE.happy
+NA: He finally laughs.
+
+CEL: Alright.
+
+CEL: Maybe a few people will recognize themselves.
+
+NA: You cross your arms.
+
+PLAYER: That’s dangerous.
+@char CE.smile
+CEL: I know.
+
+PLAYER: They could arrest you.
+
+CEL: I know.
+
+PLAYER: Then why?
+@char CE.neutral
+NA: The smile fades.
+
+CEL: Because I’m afraid.
+@char CE.determined
+CEL: And I’m tired of letting fear decide who I am.
+
+NA: The theater falls silent.
+
+NA: And in that moment, you understand.
+
+NA: It’s not about politics or the revolution.
+
+NA: It’s about Cel finally deciding to exist without asking the world for permission.
+@char CE.smile
+CEL: So...
+
+NA: They smile at you.
+
+CEL: Will you help me?
+
+NA: And you think that perhaps the most dangerous weapon in that city isn’t a musket, but a stage.
+
+@choice "Support the play" goto:.scene11C-1
+
+@choice "Try to stop it" goto:.scene11C-2
+
+@stop
+
+
+#scene11C-1
+@set afetoCel+=1
+
+
+@char CE.happy
+NA: You notice the sparkle in Cel’s eyes.
+
+NA: The same sparkle that appears when talking about the theater.
+
+PLAYER: I still think it’s a terrible idea.
+@char CE.smile
+CEL: Excellent start.
+
+PLAYER: It’s extremely dangerous.
+
+CEL: Even better.
+
+PLAYER: And it’ll probably end in disaster.
+
+CEL: You’re convincing me.
+
+NA: You sigh.
+
+PLAYER: But if you insist on doing this...
+@char {PLAYER}2.smile
+PLAYER: Then let me help you.
+@char CE.surprise
+NA: For a moment, Cel seems unable to believe it.
+
+CEL: Really?
+
+PLAYER: Really.
+@char CE.happy
+NA: The smile that spreads across their face could light up the entire theater.
+
+CEL: Then you are even crazier than I imagined.
+@char {PLAYER}2.thinking
+PLAYER: That doesn't answer my question.
+@char CE.surprise
+CEL: What question?
+
+PLAYER: Do you have a secret death wish?
+
+CEL: What?
+
+PLAYER: Or a desire for unnecessary danger.
+@char CE.neutral
+CEL: Maybe a little.
+@char {PLAYER}2.neutral
+PLAYER: Cel.
+@char CE.smile
+CEL: I'm kidding.
+
+CEL: I think.
+@char {PLAYER}2.sad
+PLAYER: CEEEL.
+@char CE.happy
+NA: They start laughing, and you realize you’ve lost the argument.
+@goSub .BlackScreen
+;Passagens de tempo e cenas
+@back bg_theater
+NA: Over the next few days, the theater becomes part of your routine.
+
+NA: In the morning, you help Francisca at the inn, and in the afternoon, you meet Cel.
+
+NA: And at nightfall, the theater comes to life.
+
+NA: Actors come and go, costumes fill the chairs, and pages of script cover the tables.
+
+NA: And amidst the chaos, Cel exists.
+
+NA: Sometimes as Celina, and other times as Célio.
+
+NA: And for the first time, you can see both without finding it strange.
+
+NA: As parts of the same person.
+
+;Cena com Celina
+@char {PLAYER}2.neutral pos:{leftmid} !wait
+@char CELINA.neutral pos:{rightmid}
+NA: One afternoon, you find Celina sitting on the stage.
+
+NA: A simple dress, a needle in her hand.
+
+NA: Surrounded by fabric.
+
+CEL: Don't look at me like that.
+
+PLAYER: Like what?
+
+CEL: Like someone about to sew their own finger.
+
+PLAYER: Because you look like you're about to sew your own finger.
+
+CEL: Lack of confidence.
+@char CELINA.surprise
+NA: Three seconds later, they prick themselves.
+
+CEL: Ouch.
+@char {PLAYER}2.happy
+PLAYER: I told you so.
+@char CELINA.happy
+NA: You both end up laughing.
+@char {PLAYER}2.smile
+NA: And for hours, you work side by side.
+@char CELINA.smile
+NA: Sewing, talking, and sharing silences.
+
+NA: At one point, they start reciting verses while they work.
+
+NA: Gentle, sweet poems.
+
+NA: You could listen to them for hours.
+@hideChars
+;Cena com Célio
+@char CE.determined
+NA: The next day, you run into Célio.
+
+NA: And they seem like a completely different person.
+
+CEL: No. No. No.
+
+CEL: If you walk through that door like a grieving widow, no one will believe in your outrage.
+
+ACTOR: But I am a widow.
+
+CEL: Not in that scene.
+
+ACTOR: Ah.
+
+CEL: Again.
+
+NA: You watch, hiding a smile.
+
+NA: Célio paces the stage.
+
+NA: They correct postures, lines, and gestures.
+
+NA: And everyone listens.
+
+NA: There is a confidence in them you had never seen before.
+@char CE pos:{rightmid}
+@char {PLAYER}2.smile pos:{leftmid}
+PLAYER: You like bossing people around.
+@char CE.smile
+CEL: Immensely so.
+
+PLAYER: I can tell.
+
+CEL: It’s the best part of theater.
+@hideChars
+;Cena
+
+NA: A few days later.
+
+NA: Rehearsal ends, and the actors leave.
+
+NA: Only the two of you remain.
+@char {PLAYER}2.neutral pos:{leftmid} !wait
+@char CE.neutral pos:{rightmid}
+NA: Cel is holding something covered by a cloth.
+
+CEL: I want to show you something.
+
+NA: They remove the fabric, revealing a cape.
+
+NA: One half is light, the other dark.
+
+NA: Two different colors stitched together.
+@char {PLAYER}2.smile
+PLAYER: It's beautiful.
+
+CEL: It's the main costume.
+
+NA: They run their fingers over the fabric.
+
+CEL: The play is about someone torn between who they are...
+
+CEL: And who they're expected to be.
+
+NA: They pause to think.
+@char CE.thinking
+CEL: Maybe I was a bit too obvious.
+
+PLAYER: A bit?
+
+CEL: A lot?
+
+PLAYER: A lot.
+@char CE.smile
+NA: Cel smiles.
+
+CEL: I still like it, though.
+
+CEL: Because neither half exists without the other.
+
+NA: You look at the cape, then at Cel.
+
+NA: Finally understanding.
+
+NA: There is no Celina or Célio.
+
+NA: There is only Cel.
+
+NA: And everything that makes them.
+
+NA: For the first time, you think they realize they've been understood, too.
+
+@goto .scene11C-2end
+
+#scene11C-2
+@char {PLAYER}2.neutral
+PLAYER: I still think this is a terrible idea.
+@char CE.neutral
+NA: Cel sighs.
+
+CEL: I know.
+
+PLAYER: And I’m going to keep thinking that.
+
+CEL: I know that, too.
+
+PLAYER: Then don't do it.
+@char CE.smile
+NA: Their smile is sad.
+
+CEL: If I could choose not to do it...
+
+CEL: I wouldn't have started.
+
+PLAYER: Cel, you aren't thinking straight.
+
+CEL: I've spent my whole life hiding parts of myself.
+
+CEL: I don't want to hide my voice, too.
+
+NA: You can't find an answer.
+
+CEL: I understand your concerns.
+
+CEL: Truly.
+@char CE.determined
+CEL: But I have to try.
+
+CEL: Even if I fail.
+
+CEL: Even if no one listens.
+
+CEL: I need to know I tried.
+
+NA: They step closer and rest their hand against yours.
+@char CE.neutral
+CEL: I’m not asking for your help.
+
+CEL: But I am asking for one thing.
+
+PLAYER: What?
+
+CEL: When the night of the performance comes...
+
+CEL: Be here.
+@char CE.smile
+CEL: Even if it’s just to tell me later that it was a terrible idea.
+
+NA: Their smile returns.
+
+CEL: I’d like you to be there.
+
+NA: And, for the first time, you realize.
+
+NA: The play isn't just about politics anymore, it's about Cel.
+
+NA: And about finding the courage to exist in front of everyone.
+@hideChars
+#scene11C-2end
+;Noite de Estreia
+@hideChars
+NA: Opening night has finally arrived.
+
+NA: For days, you’ve heard actors complaining, seamstresses complaining, and Cel complaining.
+
+NA: Mostly Cel complaining.
+
+NA: And now, there’s no time left to change anything.
+
+NA: The theater is packed, more crowded than you imagined.
+
+NA: Residents of Vila Rica occupy practically every seat.
+
+NA: Some came out of curiosity, others for the show.
+
+NA: And some clearly came to gossip.
+@char FR.neutral pos:{leftmid} !wait
+@char {PLAYER}2.neutral pos:{rightmid}
+NA: Francisca is next to you, watching everything.
+
+FR: So many people.
+
+PLAYER: Yes.
+
+FR: It looks like a public execution.
+@char {PLAYER}2.surprise
+PLAYER: Francisca!
+
+FR: What?
+
+FR: There are plenty of people at public executions, too.
+@char {PLAYER}2.neutral
+PLAYER: That doesn't help.
+
+FR: That was never my intention.
+
+NA: You sigh.
+@hideChars
+NA: While waiting for the performance to begin, you recognize a few faces.
+@char HI.neutral pos:{mid}
+NA: Hipólita is there, sitting next to her fiancé.
+
+NA: She looks elegant as ever, but more tired.
+
+NA: There is worry in her eyes.
+@hideChars
+@char BA.neutral pos:{leftmid} !wait
+@char AL.neutral pos:{rightmid}
+NA: Further ahead, you see Bárbara with Alvarenga by her side. They are holding hands, and she seems to be looking at him genuinely.
+
+NA: And for the first time, he looks truly dejected.
+
+NA: He still maintains his poise and elegance, but there is a weight on his shoulders.
+@hideChars
+@char FR.neutral pos:{leftmid} !wait
+@char {PLAYER}2.neutral pos:{rightmid}
+PLAYER: He seems different.
+
+NA: Francisca follows your gaze.
+
+FR: Because he is.
+
+PLAYER: What happened?
+
+FR: Nothing yet.
+
+FR: But it will.
+
+NA: She lowers her voice.
+
+FR: They say the Crown has already decided who will pay for this whole affair.
+
+PLAYER: Alvarenga?
+
+FR: Perhaps.
+
+FR: Perhaps others, a certain alferes...
+
+FR: But no one is expecting anything good.
+
+NA: The silence hangs heavy, because everyone knows what this means.
+
+NA: Tiradentes has already been arrested and is still awaiting sentencing.
+
+NA: For the first time, the revolution seems to have reached its end.
+
+NA: Then a man enters the theater, well-dressed and serious.
+
+NA: With the sort of expression that suggests he dislikes everything.
+
+FR: Oh.
+
+PLAYER: What?
+
+FR: Trouble.
+
+PLAYER: Who is he?
+
+FR: A Crown inspector.
+
+NA: Your stomach sinks, as if you’d taken a hard blow.
+
+PLAYER: What is he doing here?
+
+FR: Officially?
+
+FR: Checking the play's morality.
+
+PLAYER: And unofficially?
+
+FR: Checking for anything that could land someone in jail.
+
+PLAYER: Excellent.
+
+FR: Don't make that face.
+
+PLAYER: What face?
+
+FR: The look of someone who just realized their little theatrical fling might have caused a problem.
+
+PLAYER: He isn't my…
+
+FR: Yes.
+
+FR: Naturally.
+
+NA: Before you can answer, the lights dim.
+
+NA: And the performance begins.
+
+@hideChars
+NA: The set is simple.
+
+NA: Painted trees, an exaggeratedly golden throne.
+
+NA: And a crown so large it looks ridiculous.
+
+NA: Some people start to laugh, while others pretend not to get the joke.
+
+;No palco
+
+COELHO: Your Majesty!
+
+COELHO: The animals wish to know how much they must hand over this month.
+
+LION: How much do you have?
+
+COELHO: Ten coins.
+
+LION: Then I want eleven.
+
+NA: Laughter ripples through the hall.
+@char BA.smile pos:{rightmid}
+NA: You see Bárbara cover her mouth to hide a smile.
+@char AL.smile pos:{leftmid}
+NA: Alvarenga seems to be bravely fighting back a laugh.
+
+BA: At least this king is honest.
+@char AL.surprise
+AL: Bárbara...
+
+BA: What?
+
+BA: I didn't say which king.
+@char AL.sad
+NA: Alvarenga sighs.
+@char AL.smile
+NA: But the corner of his mouth betrays that he is amused.
+@hideChars
+@char JO.determined pos:{rightmid}
+NA: A few rows ahead, Joaquim crosses his arms.
+
+JO: Is this theater or a street fair?
+@char HI.determined pos:{leftmid}
+HI: If you're bothered, the door is still where it’s always been.
+@char JO.neutral
+JO: And you remain insufferable.
+@char HI.neutral
+NA: Hipólita closes her eyes.
+
+NA: Like someone praying for patience.
+@hideChars
+;No palco
+
+BURRO: Your Majesty.
+
+BURRO: There are no crops left.
+
+BURRO: There are no coins left.
+
+BURRO: There are no tools left.
+
+BURRO: What else do you wish to take?
+
+LION: Your silence.
+
+NA: This time, no one laughs immediately.
+
+NA: The hall grows quieter.
+
+NA: Even Alvarenga loses his smile, and you notice a few furtive glances.
+
+NA: Because everyone has understood the message.
+
+NA: And everyone knows they shouldn't have.
+
+;Mais tarde
+
+NA: A new character enters the stage.
+@goSub .BlackScreen
+;CG
+@back CGC04_01 id:CG time:0
+@unlock CG/CGC04_1
+NA: A swallow played by Cel.
+
+NA: And the moment they step onto the stage...
+
+NA: You forget the rest of the play for a few seconds.
+
+NA: For when Cel appears in their two-toned costume, they simply shine before you.
+
+NA: They seem so light and real.
+
+ANDORINHA: I’ve spent my life flying.
+
+ANDORINHA: And everywhere I went, I found people trying to decide who others should be.
+
+ANDORINHA: How to speak.
+
+ANDORINHA: How to dress.
+
+ANDORINHA: How to live.
+
+NA: Cel’s voice echoes through the theater.
+
+NA: And for a moment, you have the strange sensation that they're not just talking about the play.
+
+NA: They're talking about themselves.
+
+NA: And perhaps about you, too.
+
+;Cena final
+
+LION: I am the king.
+
+BURRO: Perhaps.
+
+BURRO: But we are still ourselves.
+
+NA: The audience is completely silent now.
+
+NA: Not a cough or a whisper.
+
+NA: Just absolute attention.
+
+NA: Cel walks to the front of the stage.
+
+NA: The lamplight shines only on them.
+
+ANDORINHA: A gilded cage is still a cage.
+
+NA: You see Hipólita hold her breath.
+
+NA: Even Bárbara stops smiling.
+
+NA: Because that line cut dangerously close to reality.
+
+ANDORINHA: And a whole life spent pretending to be someone else...
+
+NA: A dramatic pause.
+@back CGC04_02 id:CG
+NA: Their eyes sweep across the audience and, for an instant, seem to meet yours.
+
+ANDORINHA: ...Is no life at all.
+
+NA: Silence, one second.
+
+NA: Two.
+
+NA: Three.
+
+NA: Then someone starts to clap.
+
+NA: Then another.
+
+NA: Then yet another.
+@back CGC04_03 id:CG
+NA: Until the whole theater stands.
+
+NA: Applause, whistles, and cheers.
+
+NA: You see Hipólita smiling and clapping enthusiastically.
+
+NA: Bárbara clapping without a care for discretion.
+
+BA: If they’re going to arrest us, at least the ticket was worth it.
+
+AL: Bárbara.
+
+BA: I haven't said whose arrest yet.
+
+NA: She gets a weary look from Alvarenga, but this time he ends up laughing.
+
+NA: And then you notice a single person standing motionless.
+
+NA: The Crown inspector.
+
+NA: No applause, no expression.
+
+NA: Just watching the stage.
+
+NA: Watching Cel.
+
+NA: Like someone who has just made a decision.
+
+NA: He stands up and leaves.
+
+NA: Without saying a single word.
+
+NA: And suddenly...
+
+NA: The play's success seems much less comforting.
+
+NA: Because everyone understood the same thing.
+
+NA: The audience loved it.
+
+NA: The Crown understood it too.
+@hide CG
+@goSub .BlackScreen
+@back bg_theater
+@char FR.neutral pos:{leftmid} !wait
+@char {PLAYER}2.neutral pos:{rightmid}
+
+
+
+NA: The silence he leaves behind is worse than any complaint.
+
+FR: That wasn't good.
+
+PLAYER: Not at all.
+@hideChars
+NA: The applause continues, but now you can no longer enjoy it.
+
+NA: Because you know, and Cel realized it too.
+
+NA: And that’s exactly the problem.
+@char {PLAYER}2.neutral pos:{leftmid} !wait
+@char CE.sad pos:{rightmid}
+NA: After the performance, you find them backstage.
+
+NA: For the first time that night, they looks scared.
+
+NA: Truly scared.
+
+CEL: It was beautiful, wasn't it?
+
+PLAYER: It was.
+
+CEL: They liked it.
+
+PLAYER: They did.
+@char CE.smile
+NA: Their smile lasts only a few seconds.
+@char CE.sad
+CEL: ...
+
+CEL: He didn't like it.
+
+PLAYER: No, not at all.
+
+NA: Cel looks at the door where the inspector left, then at you.
+
+CEL: They’re going to come after me.
+
+NA: It’s not a question, it’s fear. Real fear.
+
+CEL: Won't they?
+
+NA: And strangely, Cel looks small.
+
+NA: Just a scared person trying to be brave.
+@char FR.neutral pos:{mid}
+NA: Before you can answer, a familiar voice comes from behind you.
+
+FR: The play was excellent.
+
+NA: Francisca appears, holding a piece of cornbread she apparently swiped from somewhere.
+@char {PLAYER}2.thinking
+PLAYER: Francisca?
+
+FR: What?
+
+FR: Theater makes me hungry.
+@char CE.neutral
+NA: She points at Cel.
+
+FR: But I must say...
+
+FR: Your actor has completely lost his mind.
+
+CEL: Thank you.
+
+FR: That wasn't a compliment.
+@char CE.smile
+NA: Cel smiles for the first time since the performance ended.
+
+FR: And you.
+
+NA: She points at you.
+
+FR: You ought to knock some sense into him.
+
+PLAYER: It's not like we're dating.
+
+FR: Naturally.
+
+PLAYER: We're not.
+
+FR: What’s striking isn't that you deny the relationship.
+
+FR: It’s that you deny the obvious.
+@char {PLAYER}2.thinking
+PLAYER: What’s so obvious?
+
+FR: That you caught the creature's heart months ago.
+@char CE.embarrass
+@char {PLAYER}2.shy
+NA: Cel’s face turns red, and so does yours.
+
+CEL: Francisca.
+
+FR: Yes?
+
+CEL: Please.
+
+NA: She nods.
+
+FR: Now go talk.
+
+FR: I’m too old to watch two young people courting each other like characters in a bad play.
+@hide FR
+NA: And with that, she steps away, leaving the two of you alone.
+@char CE.neutral
+@char {PLAYER}2.neutral
+NA: And strangely, the fear seems a little less intense.
+
+NA: Before you can even think, Cel takes your hand.
+
+CEL: Come.
+@char {PLAYER}2.surprise
+PLAYER: Where to?
+
+CEL: Before Francisca comes back.
+
+PLAYER: She just left.
+@char CE.smile
+CEL: Exactly.
+
+NA: They pull you backstage.
+
+NA: The crossover behind the stage is filled with costumes, boxes, candles, and nervous actors.
+
+ACTOR: The performance was magnificent.
+
+ACTOR2: Magnificent?
+
+ACTOR: Yes.
+
+ACTOR2: It was also our death sentence.
+
+ACTOR3: At least we’ll die as artists.
+
+ACTOR2: I’d rather die a baker.
+
+ACTOR: Too late for that.
+
+NA: Cel walks past them without even slowing down.
+
+CEL: Ignore them.
+
+PLAYER: They look worried.
+
+CEL: That’s because they’re smart.
+@char {PLAYER}2.thinking
+PLAYER: That doesn’t reassure me.
+
+CEL: Me neither.
+@char {PLAYER}2.neutral
+NA: You finally arrive at a small dressing room.
+
+NA: Cel closes the door and immediately starts removing part of the costume.
+@char {PLAYER}2.embarrass
+PLAYER: ...
+
+NA: You turn around so quickly that you almost stumble.
+@char CE.thinking
+CEL: What was that?
+
+PLAYER: Nothing.
+
+CEL: Nothing?
+
+PLAYER: I'm being polite.
+@char CE.happy
+NA: Cel laughs.
+
+CEL: Really.
+
+CEL: I didn't know you were so shy.
+
+PLAYER: I'm not shy.
+
+CEL: Naturally.
+
+NA: They keep laughing.
+
+CEL: If it's any consolation...
+@char CE.smile
+CEL: I don't usually tease people so easily.
+@char {PLAYER}2.neutral
+PLAYER: That's a lie.
+
+CEL: Alright.
+
+CEL: I usually do, yes.
+
+NA: You roll your eyes.
+
+PLAYER: Just get this over with.
+
+CEL: So impatient.
+
+NA: A few moments later, they finally finish changing out of the most elaborate part of the costume.
+
+NA: And sits on a table.
+
+PLAYER: Can I ask something?
+
+CEL: Sure.
+
+PLAYER: How did Francisca know?
+@char CE.neutral
+CEL: Know what?
+
+PLAYER: About you.
+
+PLAYER: Celina, Célio and Cel.
+@char CE.smile
+NA: Their smile softens.
+
+CEL: Ah.
+
+CEL: Francisca.
+
+NA: They rest a hand on their chin.
+
+CEL: Actually, she was the one who helped me when I arrived in Vila Rica.
+@char {PLAYER}2.surprise
+PLAYER: Really?
+
+CEL: Really.
+
+CEL: I wasn't lucky enough to be found by Alvarenga.
+
+NA: Cel looks at you.
+
+CEL: Or to spark such immediate interest.
+@char {PLAYER}2.thinking
+PLAYER: I’m starting not to like this conversation.
+
+CEL: Because you know I’m right.
+
+PLAYER: It’s not my fault Alvarenga helped me.
+
+CEL: Of course not.
+
+CEL: But I’m still a bit offended.
+
+PLAYER: Cel.
+
+CEL: I’m kidding.
+
+NA: He’s clearly not just kidding.
+
+PLAYER: You aren’t.
+
+CEL: Maybe just a little.
+@char {PLAYER}2.happy !wait
+@char CE.happy
+NA: You both end up laughing.
+@char CE.smile
+CEL: But yes.
+@char {PLAYER}2.neutral
+CEL: I spent some time living at the inn.
+
+CEL: Francisca took me in when I had nowhere else to go.
+
+NA: Their smile turns more nostalgic.
+
+CEL: It was good.
+
+CEL: But when I met Hipólita...
+
+NA: They search for the right words.
+
+CEL: It was different.
+
+CEL: The bond you share with Francisca...
+
+CEL: ...is the one I had with Hipólita.
+
+CEL: Like an older sister, or something close to that.
+
+PLAYER: Did she always know?
+
+CEL: Always.
+
+NA: They confirm without hesitation.
+
+CEL: She met Celina.
+
+CEL: Then she met Célio.
+
+CEL: And she never demanded explanations.
+
+NA: They sigh, relieved.
+
+CEL: She just asked if I was okay.
+
+PLAYER: That’s all?
+
+CEL: That’s all.
+
+CEL: For Hipólita, that was always enough.
+
+NA: Silence lasts a few seconds.
+
+CEL: She was the one who encouraged me to join the theater.
+
+CEL: She was the one who protected me when the gossip started.
+
+CEL: And she was the one who convinced her own fiancé that I posed no threat whatsoever.
+@char {PLAYER}2.surprise
+PLAYER: Her own fiancé?
+
+CEL: Well.
+
+CEL: Picture the situation.
+
+CEL: Someone coming and going from the house.
+
+CEL: Some days as a woman, other days as a man.
+
+CEL: I could understand the confusion.
+
+PLAYER: So he was jealous.
+@char CE.thinking
+NA: Cel raises an eyebrow.
+
+CEL: You say that after spending months watching Alvarenga?
+@char {PLAYER}2.surprise
+PLAYER: The nerve of you, I haven't...
+@char CE.neutral
+CEL: Half the village is jealous of him.
+
+PLAYER: CEL.
+
+CEL: What?
+
+CEL: He’s a very handsome man.
+@char {PLAYER}2.neutral
+PLAYER: I’m not going to entertain this conversation.
+@char CE.smile
+CEL: Too late.
+
+NA: He smiles, but the smile is fleeting.
+@char CE.neutral
+CEL: I owe Hipólita so much.
+
+CEL: More than I can explain.
+
+CEL: If she asked me for anything... I’d do it.
+
+CEL: My loyalty to her knows no bounds.
+
+NA: From the way they speak, you believe them completely.
+
+NA: There is silence following everything they said. they seem calmer, yet tired.
+
+NA: Then Cel simply slides off the table and sits on the floor.
+
+PLAYER: Are you okay?
+@char CE.smile
+CEL: No.
+@char {PLAYER}2.happy
+NA: They answer so quickly that you laugh.
+@char {PLAYER}2.smile
+CEL: But I’m doing better.
+
+NA: You sit beside them, your shoulders brush against theirs.
+
+NA: The theater on the other side of the wall is still filled with voices.
+
+NA: But here it feels distant, as if it were just the two of you.
+
+NA: Slowly, and without saying a word.
+
+NA: Cel reaches for your hand and interlaces their fingers with yours.
+
+NA: Neither of you comments or pulls away.
+
+NA: You simply remain there.
+
+NA: Sitting on the floor of an empty theater, holding hands.
+
+NA: As if that moment could last forever.
+
+NA: But nothing lasts forever.
+
+NA: Not applause, not plays, nor the sense of safety you pretended to have that night.
+@stopBgm fade:3 !wait
+@goSub .BlackScreen
+NA: Reality arrives the next morning.
+
+NA: And it arrives early.
+@bgm tension
+@back bg_innDay
+NA: You wake up to the sound of horses, many horses.
+
+NA: And even before opening the window, you know something is wrong.
+
+NA: The streets of Vila Rica seem different, quieter and tense.
+
+NA: People whisper on street corners, doors remain shut, and soldiers patrol the town in unusual numbers.
+
+NA: Your stomach sinks.
+
+NA: Because you’ve seen that look before.
+
+NA: It is the look of a town awaiting tragedy.
+@sfx knock
+NA: You’ve barely finish your coffee when someone pounds hard on the inn’s door.
+@char FR.surprise pos:{rightmid} !wait
+@char {PLAYER}2.surprise pos:{leftmid}
+FR: Good heavens.
+
+NA: Even Francisca looks surprised and tense.
+
+PLAYER: Who is it?
+@char FR.neutral
+FR: Judging by how gentle that was?
+
+FR: A soldier or a tax collector.
+@char {PLAYER}2.neutral
+NA: Francisca cautiously opens the door.
+@char HI.determined pos:{mid}
+NA: It’s neither, it’s Hipólita.
+@char {PLAYER}2.surprise
+NA: And she looks pale, paler than you’ve ever seen her.
+
+HI: I need you.
+
+NA: There are no greetings or formalities.
+
+NA: Just urgency.
+
+PLAYER: What happened?
+
+NA: Hipólita takes a deep breath.
+
+HI: The Crown has made a move.
+
+NA: Your heart races.
+
+HI: The theater was shut down this morning.
+
+PLAYER: What?
+
+HI: They sealed the doors.
+
+HI: They seized documents and interrogated the actors.
+
+NA: A beat.
+
+HI: And they asked questions about a play.
+@char {PLAYER}2.neutral
+NA: You feel your blood run cold.
+
+PLAYER: Cel.
+
+
+
+NA: Silence speaks for her
+
+HI: They came to my place too
+
+PLAYER: The farm?
+
+HI: Before dawn.
+
+HI: They banged on my door, demanding information.
+
+NA: Hipólita clenches her fingers against the fabric of her dress.
+
+NA: Clearly trying to stay calm.
+
+HI: They were looking for...
+
+NA: She sounds almost incredulous as she repeats it.
+
+HI: "...the subversive playwright."
+@char {PLAYER}2.thinking
+PLAYER: That sounds ridiculous.
+
+HI: I agree.
+
+HI: Unfortunately, the soldiers seemed to believe it too.
+
+NA: She looks at you, serious.
+
+HI: I need you to find him.
+@char {PLAYER}2.determined
+PLAYER: Do you know where he is?
+
+HI: I have a hunch.
+
+NA: She looks toward the city.
+
+HI: But if I go...
+
+HI: They might follow me.
+
+NA: Then she grabs your arm.
+
+HI: Please.
+
+HI: Find Cel before they do.
+
+NA: You don't waste any time.
+@goSub .BlackScreen
+@back bg_marketDay.LineReveal params:0,1,0,1
+@back bg_overlookDay.LineReveal params:0,1,0,1
+@back bg_squareDay.LineReveal params:0,1,0,1
+NA: You rush through the streets of Vila Rica, almost running.
+
+NA: You pass the market, the lookout point, the church, and the shuttered houses.
+
+NA: At every corner, there seem to be more soldiers.
+
+NA: More suspicious glances and more fear.
+
+NA: When you finally catch sight of the theater, your heart sinks.
+
+NA: The doors are sealed, an official Crown tape stretches across the entrance.
+
+NA: There are signs of forced entry, and the silence of the place is worse than any scream. 
+@char {PLAYER}2.neutral pos:{mid}
+PLAYER: (Yesterday it was full of life, and today it feels like a tomb.)
+
+NA: You go around the building and find a side entrance.
+
+NA: And step inside.
+@back bg_theater
+NA: The interior is devastated.
+
+NA: Scattered papers, overturned chairs, and torn costumes.
+
+NA: Someone clearly searched for something or wanted to leave a warning.
+
+PLAYER: Cel?
+
+NA: No answer.
+
+PLAYER: Cel!
+
+NA: Only silence.
+
+NA: Then you hear a noise backstage.
+@char {PLAYER}2.neutral pos:{leftmid}
+@char CE.sad pos:{rightmid}
+NA: You run over and find them.
+
+NA: Huddled among dismantled sets.
+
+NA: Like a child trying to hide from the world.
+
+NA: The main costume is in their hands.
+
+NA: The cape, half-light and half-dark.
+
+NA: Now torn in two.
+
+NA: As if someone had made a point of destroying it.
+
+NA: Cel stares at the fabric, unaware of your presence.
+
+PLAYER: Cel.
+@char CE.surprise
+NA: They jump.
+
+NA: Almost knocking everything over around him.
+
+CEL: Good heavens!
+
+NA: Their hand immediately flies to his chest.
+
+CEL: Don't do that.
+
+PLAYER: Hipólita sent me.
+@char CE.smile
+NA: Relief washes over him, just for an instant.
+@char CE.neutral
+NA: And vanishes again.
+
+CEL: So she knows.
+
+PLAYER: She does.
+
+PLAYER: She’s worried.
+@char CE.sad
+NA: Cel looks at the ruined stage.
+
+NA: Then at the torn costume.
+
+CEL: They destroyed everything.
+
+NA: Their voice falters.
+
+CEL: They didn't even wait a day.
+
+CEL: A single day.
+
+NA: You step closer, and for the first time, Cel looks truly frightened.
+
+NA: Not for themselves, but because they have finally realized the magnitude of the enemy they provoked.
+
+CEL: Do you think they’ll come to arrest me?
+
+Player: …
+
+NA: You consider what to say.
+
+NA: Outside, the distant sound of horses echoes through the streets of Vila Rica.
+
+NA: And neither of you likes the answer to that question.
+
+@if (afetoCel>5)
+
+@goto .scene12C-1
+ ; Final bom
+@else
+
+@goto .scene12C-2 
+; Final ruim
+@endif
+
+
+
+#scene12C-1
+
+NA: You watch Cel holding the remnants of the costume.
+
+NA: The cape, now torn.
+
+NA: As if the Crown itself had tried to tear away who they were.
+@char CE.sad
+CEL: Perhaps I should have kept quiet.
+@char {PLAYER}2.determined
+PLAYER: No.
+
+CEL: Perhaps I should have been more prudent.
+
+PLAYER: Cel.
+
+CEL: Perhaps…
+@stopBgm fade:2 !wait
+PLAYER: Cel, stop it.
+@bgm cel
+NA: They finally look up.
+
+PLAYER: They’re going to come after you.
+
+CEL: I know.
+
+PLAYER: No.
+
+PLAYER: I don't think you quite grasp it yet.
+
+PLAYER: They really are coming.
+
+PLAYER: Not tomorrow, or next week.
+
+PLAYER: Today.
+
+NA: A heavy silence follows.
+
+PLAYER: Tiradentes will be martyr enough for all of us.
+
+PLAYER: I don't want that to happen to you, too.
+
+NA: Cel clutches the torn fabric.
+
+CEL: So what do I do?
+
+PLAYER: Run away.
+
+CEL: ...
+
+PLAYER: Now.
+
+CEL: Where to?
+
+NA: You hesitate, because the answer seems absurd.
+
+PLAYER: With me.
+@char CE.neutral
+NA: Cel blinks.
+
+CEL: With you?
+
+PLAYER: With me.
+@char CE.thinking
+CEL: This isn't a fairy tale.
+@char {PLAYER}2.neutral
+PLAYER: No.
+
+PLAYER: It’s more like a tragedy.
+
+PLAYER: Maybe Shakespeare would have written something like this.
+@char CE.thinking
+CEL: Who?
+
+PLAYER: Never mind.
+
+PLAYER: The point is, we need to get out of here.
+@char CE.happy
+NA: For the first time since entering that theater, Cel laughs.
+
+CEL: I think you’re the strangest person I’ve ever met.
+
+PLAYER: I’ve been told that before.
+@char CE.smile
+CEL: I wonder by whom.
+
+PLAYER: Francisca.
+
+CEL: Naturally.
+
+NA: And for an instant, only for an instant, the fear vanishes.
+@goSub .BlackScreen
+@back bg_gardenNight
+@char HI.neutral pos:{leftmid} !wait
+@char CE.neutral pos:{rightmid}
+NA: That same night, you meet Hipólita.
+
+NA: She already knows, of course she does.
+
+HI: So, you’ve made a decision.
+
+CEL: We have.
+
+NA: Hipólita closes her eyes.
+
+NA: Like someone trying not to show too much emotion.
+
+HI: It’s the right decision.
+
+CEL: It doesn't feel like it.
+
+HI: The best ones rarely do.
+@char CE.smile
+NA: Cel smiles, but their eyes are welling up with tears.
+
+CEL: I don't like goodbyes.
+@char HI.smile
+HI: Neither do I.
+@char HI.smile pos:{mid}
+NA: Then Hipólita hugs them tightly.
+
+NA: Without elegance or any formality.
+
+NA: Just a genuine hug.
+
+NA: Between two people who survived together.
+
+NA: Who shared secrets, fears, laughter, and years of friendship.
+
+HI: Promise you'll keep writing?
+
+CEL: I promise.
+
+HI: Even if no one reads it.
+
+CEL: Especially if no one reads it.
+@char HI.happy
+NA: Hipólita laughs through her tears.
+
+HI: You're a fool.
+@char CE.happy
+CEL: I learned from the best.
+
+NA: As they part ways, neither can hide how much they’ll miss the other.
+
+NA: But they don't try to.
+
+NA: Because some people deserve to know they are loved.
+@hideChars
+NA: Hipólita arranges documents, money, and a wagon.
+
+NA: A new chance, really.
+
+NA: Before leaving town, there’s one more person you need to see.
+@back bg_innNight
+NA: The inn is quiet, as if even the walls know something is coming to an end.
+@char FR.neutral pos:{rightmid}
+NA: You find Francisca behind the counter.
+
+NA: Sorting through some accounts, or pretending to.
+@char {PLAYER}2.neutral pos:{leftmid}
+NA: Because she clearly notices your presence before even looking.
+
+FR: You’re walking very quietly.
+@char {PLAYER}2.smile
+PLAYER: I was trying not to be a bother.
+
+FR: Terrible idea.
+@char FR.smile
+FR: I’ve always preferred noisy guests.
+
+NA: You smile, and she does too.
+@char FR.neutral
+NA: But the smile fades all too quickly.
+
+FR: So it’s true.
+@char {PLAYER}2.neutral
+PLAYER: Hipólita told you?
+
+FR: She didn't have to.
+
+FR: I have eyes.
+
+PLAYER: Ah, always with the "eyes" argument.
+
+FR: And the look on your face when you walked through that door is the look of someone about to do something crazy.
+@char {PLAYER}2.happy
+PLAYER: I’ve done plenty already.
+@char FR.happy
+FR: And survived every one of them.
+
+NA: You laugh, and so does Francisca.
+@char {PLAYER}2.smile !wait
+@char FR.smile
+NA: But silence soon returns.
+
+FR: When?
+
+PLAYER: Tonight.
+
+NA: She nods slowly, like someone who already knew the answer.
+
+FR: Good.
+
+FR: You’d best run while you still can.
+
+PLAYER: You don't seem very sad.
+
+FR: Because someone in this conversation needs to sound sensible.
+@char FR.neutral
+NA: A brief pause, and she sighs heavily.
+
+FR: Besides, if I start crying, I’ll never stop.
+@char {PLAYER}2.neutral
+PLAYER: Francisca.
+
+FR: Don’t look at me like that.
+
+FR: I am a respectable woman.
+@char {PLAYER}2.happy
+PLAYER: You barged into my room with a broom because I knocked over a pot.
+@char FR.happy
+FR: And I’d do it again.
+
+NA: You laugh.
+
+NA: And for a moment, it feels like just another ordinary night, like so many others.
+@char FR.neutral
+FR: Listen.
+@char {PLAYER}2.neutral
+NA: For the first time, her voice turns serious.
+
+FR: The world is big.
+
+FR: Much bigger than Vila Rica.
+
+FR: Much bigger than Minas.
+
+FR: And far greater than what others expect of us.
+
+NA: She crosses her arms.
+
+FR: Don't let anyone decide who you should be.
+
+FR: There are already too many people trying to do that.
+
+NA: You gulp.
+
+PLAYER: I'll try.
+
+FR: No.
+
+FR: Do it.
+
+FR: Attempts are for Tiradentes.
+
+FR: You are going to survive.
+@char {PLAYER}2.happy
+NA: The comment drew an involuntary laugh.
+@char {PLAYER}2.neutral
+PLAYER: That was terrible.
+
+FR: And yet, it worked.
+
+NA: She steps closer and places something in your hands.
+
+NA: A small cloth bundle.
+
+PLAYER: What is this?
+
+FR: Food.
+@char {PLAYER}2.surprise
+PLAYER: Francisca, I can't.
+
+FR: Don't argue.
+
+FR: No one makes good decisions when they're hungry.
+@char {PLAYER}2.smile
+PLAYER: I'm going to miss you.
+@char FR.sad
+NA: For the first time, she looks truly shaken.
+
+FR: ...
+
+FR: I know.
+
+NA: The reply is barely a whisper.
+
+FR: I’ll miss you, too.
+
+NA: Silence lasts for a few seconds.
+@char FR.neutral
+NA: Then Francisca sighs.
+
+FR: The inn will be much quieter.
+@char {PLAYER}2.thinking
+PLAYER: That sounds like a plus.
+
+FR: No.
+
+FR: It’ll be horribly boring.
+@char {PLAYER}2.smile pos:{mid}
+NA: You step forward and hug her, without thinking.
+@char FR.surprise
+NA: Simply because you want to.
+@char FR.smile
+NA: For a moment, Francisca looks surprised, but then she hugs you back.
+
+NA: A tight hug—like an older sister trying not to show emotion.
+
+FR: If someone robs you on the road...
+
+FR: Don't come back complaining.
+@char {PLAYER}2.neutral
+PLAYER: Francisca.
+
+FR: I'm being affectionate.
+
+PLAYER: That’s not affection.
+
+FR: It’s the most you’re going to get.
+@char {PLAYER}2.smile pos:{leftmid}
+NA: When you finally step back, you’re both smiling.
+
+NA: Even with teary eyes.
+
+FR: Go on, then.
+
+FR: Before I do something embarrassing.
+
+PLAYER: Like cry?
+@char FR.neutral
+FR: Like charging you for all the meals you never paid for.
+
+PLAYER: I did pay.
+
+FR: Liar.
+@char {PLAYER}2.happy
+NA: You laugh and step through the inn’s doorway for the last time.
+@hide {PLAYER}2
+NA: Carrying a bag of food and a few memories with you.
+
+NA: And the certainty that, no matter where your journey ends...
+
+NA: ...There will always be a woman in Vila Rica complaining about your existence.
+
+FR: And write to me now and then!
+
+NA: Her voice echoes behind you.
+
+FR: Or I’ll come back to fetch you myself!
+@hideChars
+@back bg_squareNight
+NA: You don’t look back.
+
+NA: Because you know that if you do, you might not be able to leave.
+
+NA: And some goodbyes are easier when we carry a smile with us.
+
+NA: Just before dawn.
+@goSub .BlackScreen
+@back bg_overlookNight pos:-25,0 scale:2 time:0
+NA: You leave Vila Rica quietly.
+
+NA: While the town still sleeps.
+
+NA: The theater slowly fades away behind you.
+
+NA: The streets, the church, and the inn.
+;CG
+NA: Everything growing smaller, increasingly distant.
+@back bg_overlookAfternoon
+NA: Until the sun begins to rise and golden light washes over the road.
+@goSub .BlackScreen
+@back CGC05_{gender}_01 id:CG time:0
+@unlock CG/CGC05_{gender}_1
+NA: For the first time since setting out, Cel seems to truly breathe.
+
+NA: As if a massive weight had been lifted from their shoulders.
+
+NA: No dress, no character, no mask.
+
+NA: Just simple clothes, a shirt and comfortable overalls.
+
+CEL: It’s strange.
+
+PLAYER: What?
+
+CEL: Not needing to pretend.
+
+NA: They smile.
+
+CEL: I didn't think it would be so light.
+
+NA: The wind plays with their hair.
+
+NA: And for the first time, they seem exactly like who they’re meant to be.
+
+NA: Not Célio or Celina. Just Cel, free.
+
+
+
+NA: They move a little closer and hold your hand.
+
+NA: Their fingers naturally interlacing with yours.
+
+CEL: Thank you.
+
+PLAYER: For what?
+
+CEL: For seeing me.
+
+NA: You don't answer, you just smile.
+
+NA: Because you understand exactly what they mean.
+@back CGC05_{gender}_02 id:CG
+NA: Cel raises their hand and gently touches your face.
+
+NA: You feel their fingers against your cheek, a soft touch.
+
+NA: As if trying to make sure you’re really there.
+
+NA: You both laugh.
+
+NA: A silly, almost shy smile.
+
+NA: Almost too happy.
+
+NA: And then, without haste or urgency.
+
+NA: Just affection and love.
+
+NA: Cel slowly leans toward you.
+
+NA: Once again, you catch the scent of sweet candles and perfume.
+@back CGC05_{gender}_03 id:CG
+NA: Their lips met yours. Soft, tender, and sweet.
+
+NA: Cel’s lips are soft, their hands resting against your face, caressing your cheek.
+
+NA: They deepen the kiss, their tongue slide over your lips, and you taste their sweetness.
+
+NA: They pull away, planting a final, light kiss on your lips.
+
+NA: Like a promise or a beginning.
+
+NA: Like two people who had finally found a place where they could truly exist.
+
+;"O Palco é Nosso"
+
+NA: Some stories end with heroes, others end with martyrs.
+
+NA: Yours ends in a much rarer way.
+
+NA: With freedom.
+
+NA: And with the chance to write the next act together.
+
+@goto .GameEnd
+;badend
+#scene12C-2
+@stopBgm fade:2 !wait
+@bgm sad
+NA: You shake your head.
+@char {PLAYER}2.sad
+PLAYER: No.
+
+PLAYER: There has to be another way out.
+@char CE.sad
+CEL: Maybe.
+
+PLAYER: We’ll find one.
+
+CEL: Maybe.
+
+PLAYER: Cel.
+
+PLAYER: I'm serious.
+@char CE.smile
+CEL: So am I.
+
+NA: A weary smile.
+
+CEL: I’ve spent my whole life hiding who I am.
+@char CE.sad
+CEL: Maybe I’m tired of it.
+
+PLAYER: Don’t say that.
+
+CEL: I’m not talking about dying.
+
+CEL: I’m talking about stopping the run.
+
+NA: You try to argue, insist, or find a solution.
+
+NA: But while you search for answers, time keeps moving forward.
+
+NA: And so does the Crown.
+
+;Um tempo depois - mesmo dia
+
+NA: Soldiers occupy the streets.
+
+NA: Homes are searched, friends vanish, names are jotted down.
+
+NA: Questions are asked, and answers are torn from people.
+
+NA: When you finally realize there is no way out...
+
+NA: It’s too late, far too late.
+
+NA: The building is surrounded, soldiers are everywhere.
+@char CE.neutral pos:{mid}
+NA: Curious onlookers watch from a distance, and at the center of it all is Cel, being taken prisoner by the Crown's soldiers.
+
+NA: Alone, making no attempt to flee or hide.
+
+NA: Wearing their play costume, the split-colored cape.
+
+NA: Hastily stitched back together after being torn.
+
+NA: As a final statement, a final act of defiance.
+@char CE pos:{rightmid}
+@char {PLAYER}2.surprise pos:{leftmid}
+PLAYER: CEL!
+
+NA: They turn their head and spot you in the crowd.
+
+NA: For an instant, just a single instant.
+@char CE.smile
+NA: They smile.
+
+NA: A small, sad smile.
+
+CEL: It’s okay.
+
+PLAYER: It’s not!
+@char CE.sad
+CEL: I know.
+@hide CE
+NA: The soldiers shove them forward roughly.
+@char {PLAYER}2 pos:{mid}
+PLAYER: CEL!
+
+NA: You try to step forward, but someone holds you back.
+@char {PLAYER}2.sad
+NA: And all you can do is watch.
+
+NA: Watch as they disappear down the street.
+
+NA: Without looking back again, without fear or shame.
+
+NA: Simply being who they were.
+
+NA: For the first time and the last.
+@stopBgm fade:2 !wait
+@goSub .BlackScreen
+;Epílogo
+@bgm backInTime
+NA: Many years later...
+
+NA: You still remember.
+@back bg_squareAfternoon
+NA: That theater, that city, and those people.
+
+NA: Some names survived.
+
+NA: Others did not.
+
+NA: There was a time when an alferes tried to start a revolution.
+
+NA: A man with a curious name.
+
+NA: Tiradentes.
+
+NA: The movement failed, but he became a martyr.
+
+NA: His name spanned centuries.
+
+NA: It was remembered, studied, and turned into a symbol.
+
+NA: Other comrades were imprisoned, exiled.
+
+NA: Sent to distant lands.
+
+NA: Some survived, others slowly faded from memory.
+
+NA: But no fate seemed as cruel as the one that awaited a simple artist.
+
+NA: A person who never desired revolutions.
+
+NA: Nor glory or power.
+
+NA: Just the freedom to exist.
+
+NA: Just the right to be.
+
+NA: Celina, Célio... Cel.
+
+NA: None of the names remained in the books.
+
+NA: No record tells their story.
+
+NA: No public square bears their name.
+
+NA: No statue was erected.
+
+NA: As if they had never existed.
+
+NA: As if the world had decided to forget them.
+
+NA: And perhaps it would have succeeded, had you forgotten them too.
+
+NA: But you didn't.
+
+NA: Because you can still see them.
+
+NA: In your memories.
+
+NA: Sitting backstage, dancing alone at the overlook, laughing at their own jokes.
+@back bg_theater2
+NA: Holding your hand on the floor of an empty theater.
+
+NA: And sometimes...
+
+NA: When memory plays tricks on you...
+
+NA: You imagine they're still there.
+
+NA: Waiting for the next performance to begin.
+
+NA: Behind the curtains.
+
+NA: With a nervous smile.
+
+NA: Ready to step onto the stage.
+
+NA: But the stage remains empty.
+
+NA: Dust dances in the light streaming through the gaps in the roof.
+
+NA: And in the middle of that abandoned theater...
+
+NA: Lies an old cape, split down the middle.
+
+NA: Half light, half dark.
+
+NA: Silent and still.
+
+NA: Waiting for someone who will never return.
+
+NA: "<i>Some people go down in history.</i>"
+
+NA: "<i>Others vanish from it.</i>"
+
+NA: "<i>And some just wanted to be free.</i>"
+@goto .GameEnd
+
+
+# BlackScreen
+@hideChars !wait
+@hidePrinter time:1 !wait
+@hide MainBackground
+@hide CG !wait
+@back bg_black pos:50,50 scale:1 time:0
+; @stopBgm fade:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:1.5 wait!
+@return
+
+# GameEnd
+@stopBgm fade:1
+@hideChars !wait
+@hide CG !wait
+@hidePrinter time:1 !wait
+@back bg_black.Crossfade pos:50,50 scale:1 time:0.5 wait!
+@showUI TitleUI
+@stop

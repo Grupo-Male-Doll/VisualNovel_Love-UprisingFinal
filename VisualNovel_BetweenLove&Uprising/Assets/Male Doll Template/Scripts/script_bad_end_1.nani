@@ -1,0 +1,74 @@
+
+#Bad_End
+
+NA: You swallow hard, unsure of what to say.
+NA: The Viscount watches you for a long moment.
+NA: His eyes are cold. Calculating.
+@char VI.determined look:forward pos:{mid},0
+VI: Tell me… under whose protection do you stand in Vila Rica?
+NA: He repeats the question, heavier this time.
+NA: It hangs in the air simple. Direct.
+NA: But your mind suddenly feels empty.
+PLAYER: I…
+NA: You hesitate.
+NA: No name comes to your lips. No protection. No ties.
+NA: The silence stretches beyond what is acceptable.
+NA: The Viscount tilts his head slightly.
+@char VI.surprise look:forward pos:{mid},0
+VI: No one?
+NA: A faint smile touches his lips without warmth.
+@char VI.determined look:forward pos:{mid},0
+VI: Curious…
+VI: A soul without patron… without declared home… without a name to sustain it.
+NA: His gaze hardens.
+VI: And yet, you move among people… of interest.
+NA: He makes a subtle gesture with his hand. Two guards step toward you.
+PLAYER: I just
+VI: Yes, yes.
+VI: I imagine you will claim mere curiosity.
+NA: He takes a slow step forward.
+VI: But in times such as these… curiosity tends to be costly.
+NA: The guards are already at your side.
+@char AL.determined look:right pos:{leftmid},0
+AL: My Lord Viscount
+NA: Alvarenga intervenes, stepping forward.
+AL: I believe there has been a misunderstanding.
+NA: Before he can continue, the metallic sound of blades partially drawn cuts through the air.
+NA: The guards shift position a clear warning.
+@char TIR.angryl look:left pos:{rightmid},0
+TI: They are not
+NA: Tiradentes tries to step forward.
+NA: One of the guards raises his blade toward him.
+GUARD: One more step, and I shall consider it an affront to the Crown, alferes.
+NA: The movement forces him to stop.
+NA: But his eyes remain fixed on you.
+@char JOA.determined  look:right pos:{leftmid},0
+JO: This is excessive…
+NA: Joaquim speaks, clearly irritated.
+JO: To arrest someone for not knowing how to answer
+VI: For not being able to answer.
+NA: The Viscount cuts him off without raising his voice.
+VI: There is a difference.
+NA: Silence settles once more.
+VI: In the Crown’s lands, no one is no one by chance.
+NA: A small gesture of his hand.
+VI: Take them.
+PLAYER: Wait
+NA: A firm hand grabs your arm. Cold iron shackles snap around your wrist.
+
+NA: The sound is sharp.
+NA: Tiradentes takes an instinctive step forward. The guards advance again, he is forced to stop.
+NA: But he does not look away from you.
+NA: There is something in his eyes anger… and helplessness.
+NA: Alvarenga’s expression hardens, clearly calculating how far he can go.
+NA: Joaquim only watches, jaw tense.
+NA: The Viscount… does not react.
+NA: He simply observes.
+NA: As if everything had already been decided long before the question.
+NA: The square of Vila Rica continues to live around you.
+NA: People pass. Conversations carry on.
+NA: The world does not stop.
+NA: But for you, everything changes.
+NA: Now, you belong to another story…
+NA: One that rarely ends well.
+@stop
