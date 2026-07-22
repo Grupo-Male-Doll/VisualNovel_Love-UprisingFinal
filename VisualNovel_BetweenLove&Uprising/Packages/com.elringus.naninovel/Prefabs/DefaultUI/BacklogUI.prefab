@@ -331,16 +331,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  lazyInitialize: 0
   hideOnLoad: 1
   hideInThumbnail: 0
   saveVisibilityState: 0
   blockInputWhenVisible: 1
+  allowedInputs: []
+  disableBlockedInputFeatures: 1
   adaptToInputMode: 1
-  allowedSamplers: []
   modalUI: 1
   modalGroup: 
   buttonControls: {fileID: 6306036017367971747}
-  controlsLegend: {fileID: 789246420887814298}
+  keyboardControls: {fileID: 0}
+  gamepadControls: {fileID: 0}
   fontChangeConfiguration:
   - Object: {fileID: 6306036015961478139}
     IncludeChildren: 1
@@ -939,10 +942,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5975c9748a52c8d43b34c8d7c428cacd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Elringus.Naninovel.Runtime::Naninovel.PlayScript
-  scriptPath: 
   scriptText: '@sfx confirm wait:false'
+  gotoScript: 
+  gotoLabel: 
   playOnAwake: 0
-  disableWaitInput: 0
+  completeOnContinue: 2
+  disableAwaitInput: 1
+  disableAutoPlay: 0
+  disableSkip: 0
 --- !u!1 &6306036017474415827
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,6 +1717,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1895303094750221741, guid: caa66599cd25d68499790b50d75953b1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895303094750221741, guid: caa66599cd25d68499790b50d75953b1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895303094750221741, guid: caa66599cd25d68499790b50d75953b1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895303094750221741, guid: caa66599cd25d68499790b50d75953b1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895303094750221741, guid: caa66599cd25d68499790b50d75953b1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2155025603479635893, guid: caa66599cd25d68499790b50d75953b1, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1901,10 +1928,10 @@ PrefabInstance:
     - target: {fileID: 6624393163621901245, guid: caa66599cd25d68499790b50d75953b1, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 1022526158354752718, guid: d478df17238d9c445ae2f4bb3a1931e6, type: 2}
+      objectReference: {fileID: -8572479452236383033, guid: 5a5da223be1edb84887b02e14312351e, type: 2}
     - target: {fileID: 6624393163621901245, guid: caa66599cd25d68499790b50d75953b1, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4287149787
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6624393163621901245, guid: caa66599cd25d68499790b50d75953b1, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -2027,11 +2054,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa66599cd25d68499790b50d75953b1, type: 3}
---- !u!1 &789246420887814298 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4258884513197513876, guid: caa66599cd25d68499790b50d75953b1, type: 3}
-  m_PrefabInstance: {fileID: 3596528468974148622}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5207241270897319013 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8767023921634345067, guid: caa66599cd25d68499790b50d75953b1, type: 3}

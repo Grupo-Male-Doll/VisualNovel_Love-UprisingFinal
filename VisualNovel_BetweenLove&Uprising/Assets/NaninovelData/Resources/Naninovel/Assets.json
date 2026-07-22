@@ -2011,6 +2011,12 @@
             "group": ""
         },
         {
+            "guid": "c203e47c514c63b41838ee7df4ed72e0",
+            "prefix": "Scripts",
+            "path": "Scenario/Entry",
+            "group": ""
+        },
+        {
             "guid": "d899bf6df906e1d42b347a84a590a87a",
             "prefix": "Scripts",
             "path": "Scenario/Title",
