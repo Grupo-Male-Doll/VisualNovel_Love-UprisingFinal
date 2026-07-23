@@ -1,0 +1,9788 @@
+; English <en> to Portuguese (Brazil) <pt-BR> localization document for 'Male Doll Template/Scripts/rota_hipolita' Naninovel scenario script
+
+# ~798d7452
+; > NA: |#~798d7452|
+; The morning light enters through the window cracks and reaches your eyes.
+
+
+# ~27474961
+; > NA: |#~27474961|
+; You blink a couple times, adjusting to the brightness, and stir in bed.
+
+
+# ~8a0f15c6
+; > NA: |#~8a0f15c6|
+; Your gaze lingers on the ceiling and you startle, sitting up abruptly.
+
+
+# ~52efe152
+; > NA: |#~52efe152|
+; This room and the warm air against your skin feel odd to you.
+
+
+# ~49a8989e
+; > PLAYER: |#~49a8989e|
+; Damn, I'm still here..... then this is all real.
+
+
+# ~625f97b9
+; > PLAYER: |#~625f97b9|
+; How did I manage this? Am I delirious?
+
+
+# ~1bb6bc5d
+; > NA: |#~1bb6bc5d|
+; Thoughts and ideas wander your mind, but you can't stay in bed all day.
+
+
+# ~415fd0a0
+; > NA: |#~415fd0a0|
+; The bed creaks softly when you get up.
+
+
+# ~27fa4075
+; > NA: |#~27fa4075|
+; Outside, Vila Rica already rises. You hear voices and footsteps.
+
+
+# ~a201cf96
+; > NA: |#~a201cf96|
+; Standing up, you grab your clothes and get dressed.
+
+
+# ~73ba5536
+; > NA: |#~73ba5536|
+; You go down the stairs to the inn.
+
+
+# ~fcfc2462
+; > NA: |#~fcfc2462|
+; The smell of fresh coffee and warm bread fills the room.
+
+
+# ~5bfdcbe3
+; > NA: |#~5bfdcbe3|
+; Behind the counter, a woman watches you intently.
+
+
+# ~8de24651
+; > NA: |#~8de24651|
+; Unlike yesterday, she takes the initiative.
+
+
+# ~72e5b0d
+; > FR: |#~72e5b0d|
+; Good morning.
+
+
+# ~bdbdbebe
+; > NA: |#~bdbdbebe|
+; Her tone is firm, but not hostile.
+
+
+# ~dad13b60
+; > FR: |#~dad13b60|
+; We haven't had the pleasure of properly introducing ourselves.
+
+
+# ~93c4b163
+; > NA: |#~93c4b163|
+; She sets the rag on the counter, wiping her hands.
+
+
+# ~d1da5a01
+; > PLAYER: |#~d1da5a01|
+; Francisca.
+
+
+# ~3829acff
+; > NA: |#~3829acff|
+; A soft smile.
+
+
+# ~93c69a1d
+; > FR: |#~93c69a1d|
+; And you...?
+
+
+# ~1d2eed84
+; > PLAYER: {name}|#~1d2eed84|
+; .
+
+
+# ~cf18e68e
+; > NA: |#~cf18e68e|
+; She repeats it quietly.
+
+
+# ~c6ccbb68
+; > FR: |#~c6ccbb68|
+; Hm.
+
+
+# ~e487cd42
+; > NA: |#~e487cd42|
+; You approach, still somewhat lost.
+
+
+# ~47d22f6b
+; > PLAYER: |#~47d22f6b|
+; Is there... somewhere I can freshen up?
+
+
+# ~9ed057a
+; > NA: |#~9ed057a|
+; Francisca chuckles.
+
+
+# ~3b50c0f2
+; > HI: |#~3b50c0f2|
+; Yes.
+
+
+# ~d63f3e4d
+; > FR: |#~d63f3e4d|
+; But it might not be how you hope.
+
+
+# ~165245d
+; > NA: |#~165245d|
+; She turns away and goes into the pantry.
+
+
+# ~673d675b
+; > NA: |#~673d675b|
+; Not long after, she lays some items on the counter.
+
+
+# ~d7401841
+; > NA: |#~d7401841|
+; Leaves, cloves, and a small amount of powder.
+
+
+# ~8963427f
+; > NA: |#~8963427f|
+; Your head tilts to the side as you consider the items.
+
+
+# ~fc8eac36
+; > PLAYER: |#~fc8eac36|
+; ...is this food?
+
+
+# ~a2a5571d
+; > BA: |#~a2a5571d|
+; No.
+
+
+# ~1b9cb438
+; > NA: |#~1b9cb438|
+; She holds back laughter.
+
+
+# ~23fa8025
+; > FR: |#~23fa8025|
+; It's for cleaning your mouth.
+
+
+# ~32b771c9
+; > NA: |#~32b771c9|
+; You hesitate.
+
+
+# ~8acc173f
+; > PLAYER: |#~8acc173f|
+; Are you serious?
+
+
+# ~4b1b9d36
+; > FR: |#~4b1b9d36|
+; Very.
+
+
+# ~6c55f2cc
+; > NA: |#~6c55f2cc|
+; She crosses her arms.
+
+
+# ~6bf1ccec
+; > FR: |#~6bf1ccec|
+; Or do you intend to talk to half the world with sleepy breath?
+
+
+# ~b3b92353
+; > NA: |#~b3b92353|
+; You grab one of the cloves, still unsure.
+
+
+# ~d6dd22e5
+; > NA: |#~d6dd22e5|
+; The taste is immediate. Strong and spicy.
+
+
+# ~86d31de6
+; > NA: |#~86d31de6|
+; Your eyes almost close.
+
+
+# ~cfa3d051
+; > PLAYER: |#~cfa3d051|
+; This burns.
+
+
+# ~674bbc13
+; > FR: |#~674bbc13|
+; It cleans.
+
+
+# ~bf375839
+; > NA: |#~bf375839|
+; She shrugs.
+
+
+# ~8fa84f40
+; > FR: |#~8fa84f40|
+; Not everything that serves a purpose is pleasant.
+
+
+# ~fc53afa1
+; > NA: |#~fc53afa1|
+; You keep going, though against your will.
+
+
+# ~301f8d17
+; > PLAYER: |#~301f8d17|
+; (I would give anything for a toothbrush right now...)
+
+
+# ~7600c3bc
+; > FR: |#~7600c3bc|
+; With time, you get used to it.
+
+
+# ~2b41aa2
+; > NA: |#~2b41aa2|
+; She watches you for a moment.
+
+
+# ~c28ff0
+; > FR: |#~c28ff0|
+; Or at least one learns to pretend so.
+
+
+# ~9a2449ac
+; > NA: |#~9a2449ac|
+; When you're done, she shoves a plate in your direction.
+
+
+# ~2040640c
+; > FR: |#~2040640c|
+; Now that's more like it.
+
+
+# ~f001cfd7
+; > FR: |#~f001cfd7|
+; Eat.
+
+
+# ~30c7daf7
+; > NA: |#~30c7daf7|
+; The bread is still warm as you take a piece.
+
+
+# ~5788cb64
+; > NA: |#~5788cb64|
+; Its texture is soft on the inside, slightly gooey.
+
+
+# ~38361273
+; > NA: |#~38361273|
+; The taste surprises you.
+
+
+# ~8bc00974
+; > PLAYER: |#~8bc00974|
+; (...This...)
+
+
+# ~dbbc0755
+; > PLAYER: |#~dbbc0755|
+; (Almost tastes like pão de queijo.)
+
+
+# ~acc1047d
+; > NA: |#~acc1047d|
+; Coffee comes next, strong and bitter.
+
+
+# ~34f6b101
+; > PLAYER: |#~34f6b101|
+; (Would it be too much to ask for sweetener?)
+
+
+# ~f7b49603
+; > FR: |#~f7b49603|
+; So...
+
+
+# ~549a4053
+; > NA: |#~549a4053|
+; She leans on the counter, studying you with more interest now.
+
+
+# ~e2da10cc
+; > FR: |#~e2da10cc|
+; Since you survived the clove...
+
+
+# ~76b3793e
+; > FR: |#~76b3793e|
+; ...we can have a conversation.
+
+
+# ~5d28bf44
+; > FR: |#~5d28bf44|
+; Doctor Alvarenga.
+
+
+# ~2ec17e5f
+; > PLAYER: |#~2ec17e5f|
+; (Here we go.)
+
+
+# ~cc52d16
+; > FR: |#~cc52d16|
+; Friend of yours?
+
+
+# ~d0b3afab
+; > PLAYER: |#~d0b3afab|
+; Sort of.
+
+
+# ~afbfff7d
+; > PLAYER: |#~afbfff7d|
+; I met him by chance.
+
+
+# ~e53bf3cf
+; > FR: |#~e53bf3cf|
+; By chance...
+
+
+# ~a4dc8ddc
+; > NA: |#~a4dc8ddc|
+; She holds a smirk on her lips.
+
+
+# ~148d9f8f
+; > FR: |#~148d9f8f|
+; This village has been full of earnest chances.
+
+
+# ~59f681c1
+; > PLAYER: |#~59f681c1|
+; Agreed, I heard of a few...
+
+
+# ~c02766ca
+; > NA: |#~c02766ca|
+; She tilts her head slightly.
+
+
+# ~5054a109
+; > PLAYER: |#~5054a109|
+; I heard of Hipólita...
+
+
+# ~8e5069f2
+; > NA: |#~8e5069f2|
+; Francisca makes a small “hm”.
+
+
+# ~efad5894
+; > FR: |#~efad5894|
+; You heard, of course.
+
+
+# ~d4626bdc
+; > NA: |#~d4626bdc|
+; She approaches a little more.
+
+
+# ~44e20e70
+; > FR: |#~44e20e70|
+; Well, I also heard: She's engaged.
+
+
+# ~e689727
+; > NA: |#~e689727|
+; A short silence between you.
+
+
+# ~60cb7208
+; > NA: |#~60cb7208|
+; Her eyes gleam in a taunt.
+
+
+# ~a0872c
+; > FR: |#~a0872c|
+; And not to just any man.
+
+
+# ~a041150e
+; > NA: |#~a041150e|
+; She steps back, grabbing a rag.
+
+
+# ~6e9c3c07
+; > FR: |#~6e9c3c07|
+; Vila Rica may seem small... but commitments here are grand.
+
+
+# ~278b0914
+; > NA: |#~278b0914|
+; She looks at you again.
+
+
+# ~ec951ac6
+; > FR: |#~ec951ac6|
+; Heed, then, where you go.
+
+
+# ~687e1732
+; > NA: |#~687e1732|
+; A half smile.
+
+
+# ~6f341096
+; > FR: |#~6f341096|
+; Or with whom.
+
+
+# ~674146dd
+; > PLAYER: |#~674146dd|
+; (Great.)
+
+
+# ~5fb7f9a8
+; > PLAYER: |#~5fb7f9a8|
+; (I barely got here and I'm already in the middle of a relationship.)
+
+
+# ~d44d26bf
+; > FR: |#~d44d26bf|
+; Now that you are fed like a person...
+
+
+# ~fffc76e1
+; > NA: |#~fffc76e1|
+; Francisca's voice pulls you from your delusions.
+
+
+# ~d8b9c5a1
+; > NA: |#~d8b9c5a1|
+; She throws a rag in your direction.
+
+
+# ~ab6b4b64
+; > FR: |#~ab6b4b64|
+; You can help as one.
+
+
+# ~86c557f0
+; > PLAYER: |#~86c557f0|
+; Me?
+
+
+# ~a05f7e02
+; > FR: |#~a05f7e02|
+; I see no one else available.
+
+
+# ~a795c23d
+; > FR: |#~a795c23d|
+; Unless you'd rather go back to the cloves?
+
+
+# ~c2aa7e3
+; > PLAYER: |#~c2aa7e3|
+; ...I'll help.
+
+
+# ~116b359f
+; > NA: |#~116b359f|
+; The task isn't complicated.
+
+
+# ~744dd8bd
+; > NA: |#~744dd8bd|
+; It's just cleaning and organizing the inn entrance.
+
+
+# ~6999cbb2
+; > NA: |#~6999cbb2|
+; You help her organize items and watch her clean.
+
+
+# ~ea3b2ce5
+; > PLAYER: |#~ea3b2ce5|
+; (Too bad bleach wasn't invented yet... could I do it??
+
+
+# ~fcaed08
+; > NA: |#~fcaed08|
+; But time passes faster than you expected.
+
+
+# ~9c47dcb2
+; > NA: |#~9c47dcb2|
+; And somehow this simple service is pleasant.
+
+
+# ~cc97d6a1
+; > FR: |#~cc97d6a1|
+; That's enough.
+
+
+# ~a26d26fe
+; > NA: |#~a26d26fe|
+; Francisca takes the rag from your hands.
+
+
+# ~d00b89c6
+; > FR: |#~d00b89c6|
+; Before I have start paying you for it.
+
+
+# ~254c730
+; > PLAYER: |#~254c730|
+; Tempting.
+
+
+# ~e55675d7
+; > FR: |#~e55675d7|
+; Don't push it.
+
+
+# ~620c7e1a
+; > NA: |#~620c7e1a|
+; But there is humor there.
+
+
+# ~e9d62b4e
+; > NA: |#~e9d62b4e|
+; You turn toward the door, open it and leave the inn.
+
+
+# ~d7148ae
+; > NA: |#~d7148ae|
+; The sun is higher in the sky, you realize that yesterday you hadn't really noticed the path and houses around.
+
+
+# ~e843ca3d
+; > NA: |#~e843ca3d|
+; You start walking in slow steps, the road stretches ahead of you.
+
+
+# ~140bf5ec
+; > NA: |#~140bf5ec|
+; On your walk, you start recognizing the road and some of the trees.
+
+
+# ~b7f66a32
+; > NA: |#~b7f66a32|
+; The path feels all too familiar.
+
+
+# ~25e2122a
+; > PLAYER: |#~25e2122a|
+; (I shouldn't...)
+
+
+# ~daa856e1
+; > NA: |#~daa856e1|
+; Your feet keep going.
+
+
+# ~7017043d
+; > PLAYER: |#~7017043d|
+; (Going back there makes no sense.)
+
+
+# ~5bbd99cc
+; > NA: |#~5bbd99cc|
+; But there is something on your mind: a face and a memory.
+
+
+# ~151615e1
+; > NA: |#~151615e1|
+; And when you realize it, you're already on the same path as before.
+
+
+# ~fdbf4232
+; > NA: |#~fdbf4232|
+; The manor comes to view amidst the vegetation, followed by the beautiful green garden beside it.
+
+
+# ~9b90dfd9
+; > NA: |#~9b90dfd9|
+; When you see her a smile spread across your lips and your cheeks flush slightly.
+
+
+# ~1c54cd91
+; > NA: |#~1c54cd91|
+; In the garden carefully harvesting herbs, Hipólita has a serious but tired expression.
+
+
+# ~50f4158d
+; > NA: |#~50f4158d|
+; Like someone who carries more than they should.
+
+
+# ~4fe1081b
+; > NA: |#~4fe1081b|
+; And then-
+
+
+# ~893b5f6f
+; > NA: |#~893b5f6f|
+; She looks up and sees you.
+
+
+# ~e477d179
+; > NA: |#~e477d179|
+; You exchange a knowing glance for a few seconds and an affectionate expression shapes her face.
+
+
+# ~94a078e
+; > NA: |#~94a078e|
+; The smile seems immediate.
+
+
+# ~ac0e2fd4
+; > HI: |#~ac0e2fd4|
+; Well...
+
+
+# ~a1a4061b
+; > HI: |#~a1a4061b|
+; I didn't expect to see you again.
+
+
+# ~9b43461d
+; > NA: |#~9b43461d|
+; You approach slowly.
+
+
+# ~35e42fc
+; > NA: |#~35e42fc|
+; Your heart beats faster than it should.
+
+
+# ~a63dad3d
+; > NA: |#~a63dad3d|
+; Your eyes fall upon the flowers in the garden.
+
+
+# ~511ceca6
+; > NA: |#~511ceca6|
+; Before you can think about it, you glance at the flowers and pick one.
+
+
+# ~bc7afa7e
+; > NA: |#~bc7afa7e|
+; Holding it between your finger and plucking it from the earth, you offer it to her.
+
+
+# ~c2628755
+; > NA: |#~c2628755|
+; A simple gesture.
+
+
+# ~1b662218
+; > NA: |#~1b662218|
+; For a second, you consider backing out.
+
+
+# ~dca3340
+; > NA: |#~dca3340|
+; But it's too late, her eyes wander over yours and then to the flower.
+
+
+# ~c6e97326
+; > NA: |#~c6e97326|
+; She accepts it with a genuine smile on her lips.
+
+
+# ~32931c5c
+; > NA: |#~32931c5c|
+; Her fingers brush against yours, delicate and warm.
+
+
+# ~b3819d56
+; > NA: |#~b3819d56|
+; Her smile shifts, softer now.
+
+
+# ~9f63fa3b
+; > PLAYER: |#~9f63fa3b|
+; A flower for a smile from a beautiful lady.
+
+
+# ~84c50dc0
+; > NA: |#~84c50dc0|
+; Hipólita seems to consider your words.
+
+
+# ~498f4fd7
+; > PLAYER: |#~498f4fd7|
+; (“A flower for a smile" what's your problem?)
+
+
+# ~379a5dd
+; > PLAYER: |#~379a5dd|
+; Sorry.....
+
+
+# ~1e0bc7a3
+; > NA: |#~1e0bc7a3|
+; You approach.
+
+
+# ~ee9b3347
+; > NA: |#~ee9b3347|
+; Observing the care in which she chooses each leaf.
+
+
+# ~11ad14f5
+; > NA: |#~11ad14f5|
+; Hipólita watches you for a moment, her eyes tracing your face.
+
+
+# ~8187ebd1
+; > NA: |#~8187ebd1|
+; As if she deciphered something, a subtle smile emerges.
+
+
+# ~8dd3c38d
+; > NA: |#~8dd3c38d|
+; She then chooses a flower, picks it, and offers it to you.
+
+
+# ~e6fd486f
+; > NA: |#~e6fd486f|
+; Not a single word.
+
+
+# ~2f2cc5e9
+; > NA: |#~2f2cc5e9|
+; It's a kind gesture.
+
+
+# ~2ed00fe9
+; > NA: |#~2ed00fe9|
+; You lift your hand to your chest in surprise.
+
+
+# ~394b8f72
+; > PLAYER: |#~394b8f72|
+; For me?
+
+
+# ~2cbc5ce0
+; > NA: |#~2cbc5ce0|
+; She nods, her smile wider.
+
+
+# ~4d063151
+; > NA: |#~4d063151|
+; When you take the flower, her fingers brush yours.
+
+
+# ~df40cc02
+; > NA: |#~df40cc02|
+; A soft touch, that lingers a second longer than it should.
+
+
+# ~d599559f
+; > NA: |#~d599559f|
+; Her smile deepens.
+
+
+# ~78727ab9
+; > NA: |#~78727ab9|
+; She then turns around, taking slow steps toward the garden.
+
+
+# ~9957e363
+; > NA: |#~9957e363|
+; The garden feels livelier, the sound of birds and trees fill the air.
+
+
+# ~1db45050
+; > HI: |#~1db45050|
+; I was just handling simple things.
+
+
+# ~adf07fb3
+; > NA: |#~adf07fb3|
+; You glance at the herbs in her hands.
+
+
+# ~a97a9fce
+; > HI: |#~a97a9fce|
+; Sometimes... that's all we have left.
+
+
+# ~d4296f35
+; > NA: |#~d4296f35|
+; But her gaze returns to you.
+
+
+# ~74cc9ad
+; > NA: |#~74cc9ad|
+; There's a brief silence, but while she looks at you something dangerous seems to surface.
+
+
+# ~417b7d38
+; > NA: |#~417b7d38|
+; Her eyes study you as if she had something to say.
+
+
+# ~73fab711
+; > HI: |#~73fab711|
+; Would you like to come in?
+
+
+# ~f1db46e2
+; > NA: |#~f1db46e2|
+; The invite is sudden, seemingly impulsive.
+
+
+# ~d4cf3ca3
+; > NA: |#~d4cf3ca3|
+; As if she hadn't planned to say it.
+
+
+# ~9236291d
+; > NA: |#~9236291d|
+; Then you remember: The fiancé, the house and all this implies.
+
+
+# ~bb34e5fe
+; > PLAYER: |#~bb34e5fe|
+; (This isn't a good idea...)
+
+
+# ~8edeacd1
+; > PLAYER: |#~8edeacd1|
+; (And yet...)
+
+
+# ~179618ce
+; > NA: |#~179618ce|
+; You don't reply right away.
+
+
+# ~e239552d
+; > Escolha:
+; > @choice "|#~e239552d|" goto:.scene2H-1
+; Decline
+
+
+# ~2873220
+; > @choice "|#~2873220|" goto:.scene2H-2
+; Accept
+
+
+# ~dd78d422
+; > NA: |#~dd78d422|
+; For a moment, you picture.
+
+
+# ~3118900f
+; > NA: |#~3118900f|
+; The interior of the house, the proximity, and what it would be like.
+
+
+# ~84faa947
+; > PLAYER: |#~84faa947|
+; (No...)
+
+
+# ~bb228af8
+; > PLAYER: |#~bb228af8|
+; (This is not a good idea.)
+
+
+# ~cb5b38c0
+; > PLAYER: |#~cb5b38c0|
+; I don't think this is... appropriate.
+
+
+# ~da4e4644
+; > NA: |#~da4e4644|
+; Silence comes quickly.
+
+
+# ~b4ca76d1
+; > NA: |#~b4ca76d1|
+; Not heavy, but understanding.
+
+
+# ~986fed7f
+; > NA: |#~986fed7f|
+; Hipólita holds your gaze for a moment.
+
+
+# ~b24437a9
+; > NA: |#~b24437a9|
+; As if she already expected such answer.
+
+
+# ~93abd2a0
+; > HI: |#~93abd2a0|
+; You are prudent.
+
+
+# ~81a3b2d8
+; > HI: |#~81a3b2d8|
+; It's a rare quality.
+
+
+# ~b0ff3dcd
+; > NA: |#~b0ff3dcd|
+; But there's something there, a hint of disappointment.
+
+
+# ~73699239
+; > NA: |#~73699239|
+; So subtle it almost goes unnoticed.
+
+
+# ~d644f4a7
+; > PLAYER: |#~d644f4a7|
+; I don't want to cause trouble.
+
+
+# ~8f5be320
+; > HI: |#~8f5be320|
+; Nor I.
+
+
+# ~f5ba3371
+; > NA: |#~f5ba3371|
+; She answers, almost a whisper.
+
+
+# ~7290975f
+; > PLAYER: |#~7290975f|
+; Still...
+
+
+# ~56c7eee2
+; > NA: |#~56c7eee2|
+; She adjusts the herbs in her hands.
+
+
+# ~93307ee5
+; > HI: |#~93307ee5|
+; If you perhaps come by again...
+
+
+# ~5267c128
+; > HI: |#~5267c128|
+; Your company wouldn't be unwelcome.
+
+
+# ~68f89db8
+; > PLAYER: |#~68f89db8|
+; I... will remember that.
+
+
+# ~293233f9
+; > NA: |#~293233f9|
+; Your eyes meet once more.
+
+
+# ~31e37b5f
+; > NA: |#~31e37b5f|
+; And stay, one second longer.
+
+
+# ~8e46a1d3
+; > NA: |#~8e46a1d3|
+; So you walk away. Before you change your mind.
+
+
+# ~24022559
+; > NA: |#~24022559|
+; You walk the way back, the road feels much longer now.
+
+
+# ~d7107e48
+; > NA: |#~d7107e48|
+; The sun heavier.
+
+
+# ~76c75899
+; > PLAYER: |#~76c75899|
+; (I did the right thing.)
+
+
+# ~2e4c0c50
+; > PLAYER: |#~2e4c0c50|
+; (I did, didn't I?)
+
+
+# ~f78993e6
+; > NA: |#~f78993e6|
+; You slow your pace to a stop, studying the path.
+
+
+# ~5e9e78a4
+; > NA: |#~5e9e78a4|
+; The dirt, the little plants growing among stones.
+
+
+# ~e85f9be6
+; > NA: |#~e85f9be6|
+; Without much thought, you crouch.
+
+
+# ~a333864b
+; > NA: |#~a333864b|
+; Your fingers graze a simple herb by the roadside.
+
+
+# ~b02aa29f
+; > NA: |#~b02aa29f|
+; Its scent drifts soft and fresh.
+
+
+# ~463a1757
+; > PLAYER: |#~463a1757|
+; (She would know what this is called)
+
+
+# ~9e8710
+; > NA: |#~9e8710|
+; A small smile emerges, involuntary.
+
+
+# ~f16a212d
+; > NA: |#~f16a212d|
+; You twirl the herb between your fingers, thoughtful.
+
+
+# ~56de2557
+; > PLAYER: |#~56de2557|
+; (Should I have gone in?)
+
+
+# ~a8e27b5d
+; > NA: |#~a8e27b5d|
+; A gush of wind ruffles your hair and you stand up.
+
+
+# ~c64e43bb
+; > NA: |#~c64e43bb|
+; Following the path to the inn.
+
+
+# ~434c631b
+; > PLAYER: |#~434c631b|
+; ...yes.
+
+
+# ~abb9250d
+; > NA: |#~abb9250d|
+; The answer comes out both louder and quieter than you anticipated.
+
+
+# ~3f417d7a
+; > NA: |#~3f417d7a|
+; But it's enough.
+
+
+# ~970eeff2
+; > NA: |#~970eeff2|
+; Hipólita opens the door and you go inside.
+
+
+# ~34ff9882
+; > NA: |#~34ff9882|
+; The interior of the house is amazing.
+
+
+# ~100d0f00
+; > NA: |#~100d0f00|
+; Everything is well cared for, the furniture is polished, the fabrics are rich and delicate, and the small decorative trinkets are all placed with purpose.
+
+
+# ~3e7b2b3a
+; > NA: |#~3e7b2b3a|
+; The house exudes zeal, care, and a certain pride.
+
+
+# ~78544e3b
+; > NA: |#~78544e3b|
+; Hipólita watches your reaction.
+
+
+# ~7b3ae53c
+; > HI: |#~7b3ae53c|
+; It's simple.
+
+
+# ~72e0848b
+; > NA: |#~72e0848b|
+; She says, almost too fast.
+
+
+# ~96f10aa8
+; > HI: |#~96f10aa8|
+; But... I do what I can.
+
+
+# ~d33d755c
+; > NA: |#~d33d755c|
+; You notice.
+
+
+# ~2e88ead2
+; > PLAYER: |#~2e88ead2|
+; It's not simple, it's yours....
+
+
+# ~bf4265a9
+; > NA: |#~bf4265a9|
+; She considers you for a moment, sensing you understand her somehow.
+
+
+# ~2b0f4263
+; > NA: |#~2b0f4263|
+; Soft footsteps approach.
+
+
+# ~69a6ee0e
+; > NA: |#~69a6ee0e|
+; A young lady arrives in the background.
+
+
+# ~736eaebb
+; > NA: |#~736eaebb|
+; Discreet posture and attentive eyes.
+
+
+# ~ac9f2796
+; > HI: |#~ac9f2796|
+; This is Celina.
+
+
+# ~64de607d
+; > NA: |#~64de607d|
+; A small hand gesture.
+
+
+# ~7937d7d4
+; > HI: |#~7937d7d4|
+; She tends to the house with me.
+
+
+# ~311f5e2f
+; > NA: |#~311f5e2f|
+; Celina bows her head.
+
+
+# ~fa6e8419
+; > CELINA: |#~fa6e8419|
+; Ma'am.
+
+
+# ~bb35713d
+; > CELINA: |#~bb35713d|
+; Sir.
+
+
+# ~ec36c8a2
+; > PLAYER: |#~ec36c8a2|
+; My pleasure.
+
+
+# ~88e36fce
+; > NA: |#~88e36fce|
+; There something strange about the way Hipólita introduces her.
+
+
+# ~5570348c
+; > NA: |#~5570348c|
+; Not as someone inferior, but rather as someone close.
+
+
+# ~aef38f4d
+; > NA: |#~aef38f4d|
+; Celina notices your gaze.
+
+
+# ~8d13f1e6
+; > NA: |#~8d13f1e6|
+; And answers with a short smile and a nod.
+
+
+# ~65622ed9
+; > NA: |#~65622ed9|
+; You walk around the house.
+
+
+# ~977e75fd
+; > NA: |#~977e75fd|
+; Hipólita runs her finger over the furniture as she speaks.
+
+
+# ~e4064bb0
+; > HI: |#~e4064bb0|
+; The farm demands more than many assume... and offers less than they promise.
+
+
+# ~48d1da03
+; > NA: |#~48d1da03|
+; A half smile shapes her lips.
+
+
+# ~e3a984c1
+; > HI: |#~e3a984c1|
+; Still, it stands firm.
+
+
+# ~6040eaff
+; > NA: |#~6040eaff|
+; She stops herself.
+
+
+# ~3303916c
+; > NA: |#~3303916c|
+; As if she had said more than she wanted.
+
+
+# ~e5fa8018
+; > FR: |#~e5fa8018|
+; Come.
+
+
+# ~c5df28fa
+; > NA: |#~c5df28fa|
+; This time, the invitation is quieter, more personal.
+
+
+# ~71fc14f4
+; > NA: |#~71fc14f4|
+; You pass by several doors as you keep walking.
+
+
+# ~6e536ae5
+; > NA: |#~6e536ae5|
+; When you reach the last one, Hipólita opens it to reveal a bedroom.
+
+
+# ~8df433ba
+; > NA: |#~8df433ba|
+; The bedroom is tidy and intimate, with a large bed to the middle, a chest for clothes, and a vanity with a jewelry box and perfume bottles.
+
+
+# ~7a5ed2e6
+; > NA: |#~7a5ed2e6|
+; Hipólita walks in as you approach somewhat reluctantly.
+
+
+# ~13e4c474
+; > PLAYER: |#~13e4c474|
+; (What am I doing in her bedroom????)
+
+
+# ~70fc07b4
+; > NA: |#~70fc07b4|
+; Hipólita goes to a small box, traditional and ornate.
+
+
+# ~9fb44b20
+; > NA: |#~9fb44b20|
+; She carefully opens it.
+
+
+# ~406b8511
+; > NA: |#~406b8511|
+; Inside it are some jewelry, old and delicate.
+
+
+# ~a6f9b3b6
+; > NA: |#~a6f9b3b6|
+; She reaches for something as you watch, some type of ornament.
+
+
+# ~ce388c96
+; > NA: |#~ce388c96|
+; Getting a better look you notice it's a bunch of bananas made of solid gold.
+
+
+# ~be6e3947
+; > HI: |#~be6e3947|
+; These are antique pieces.
+
+
+# ~6e81e079
+; > HI: |#~6e81e079|
+; They're my family's.
+
+
+# ~2c5b485
+; > PLAYER: |#~2c5b485|
+; A curious family heirloom.
+
+
+# ~4882e5dd
+; > NA: |#~4882e5dd|
+; She holds the pieces gently.
+
+
+# ~354b924f
+; > HI: |#~354b924f|
+; These say much...
+
+
+# ~e57a7dfc
+; > HI: |#~e57a7dfc|
+; Of who I'm expected to be.
+
+
+# ~b823cf47
+; > NA: |#~b823cf47|
+; A short silence, but the weight of her words doesn't go unnoticed.
+
+
+# ~671f92dc
+; > PLAYER: |#~671f92dc|
+; And who do you want to be?
+
+
+# ~c6610355
+; > NA: |#~c6610355|
+; The question slips out, blunter than you wanted.
+
+
+# ~f7963891
+; > NA: |#~f7963891|
+; Hipólita smiles, but the softness is gone.
+
+
+# ~67034ab3
+; > HI: |#~67034ab3|
+; That part...
+
+
+# ~aca6a990
+; > HI: |#~aca6a990|
+; No one bothered to teach me.
+
+
+# ~3b53dc5e
+; > NA: |#~3b53dc5e|
+; You notice then, not only pride but fear.
+
+
+# ~30f36c30
+; > PLAYER: |#~30f36c30|
+; (Fear of losing everything...)
+
+
+# ~280449fb
+; > PLAYER: |#~280449fb|
+; (...Or of never having a choice.)
+
+
+# ~47c197d8
+; > NA: |#~47c197d8|
+; Hipólita puts the item back gently, her gaze seemingly lost after your question.
+
+
+# ~ba975537
+; > PLAYER: |#~ba975537|
+; I meant no offense, I just struggle to understand the concepts in this place.
+
+
+# ~4ae3bb72
+; > NA: |#~4ae3bb72|
+; Hipólita nods slowly, she doesn't seem displeased.
+
+
+# ~b26c5ea6
+; > HI: |#~b26c5ea6|
+; You didn't offend me.
+
+
+# ~16add56e
+; > HI: |#~16add56e|
+; You only asked what few dare to.
+
+
+# ~322a24c0
+; > NA: |#~322a24c0|
+; The two of you leave the bedroom, you follow her through the house and the conversation continues down the hall.
+
+
+# ~17c05e45
+; > NA: |#~17c05e45|
+; Going through one of the rooms, you see a large harpsichord occupying the space.
+
+
+# ~c845c693
+; > NA: |#~c845c693|
+; Hipólita runs her fingers over the keys, without playing them.
+
+
+# ~71f37d26
+; > HI: |#~71f37d26|
+; There are things that seem decided before they even happen.
+
+
+# ~da77d628
+; > NA: |#~da77d628|
+; She speaks quietly.
+
+
+# ~f2a481ae
+; > HI: |#~f2a481ae|
+; Like the wedding.
+
+
+# ~c969de9f
+; > NA: |#~c969de9f|
+; A soft sigh.
+
+
+# ~9f9989bd
+; > HI: |#~9f9989bd|
+; Everyone treats it like a path with no return.
+
+
+# ~3e6107ea
+; > NA: |#~3e6107ea|
+; Finally, she plays a note.
+
+
+# ~1fc9c4f1
+; > NA: |#~1fc9c4f1|
+; The sound echoes by itself in the room.
+
+
+# ~8a3e25b6
+; > HI: |#~8a3e25b6|
+; I am expected to just accept it... no question, no word, no delay.
+
+
+# ~820c525e
+; > NA: |#~820c525e|
+; She looks at you.
+
+
+# ~934db836
+; > HI: |#~934db836|
+; And I don't know if I can go through it anymore.
+
+
+# ~47e91781
+; > HI: |#~47e91781|
+; I've been hearing some things...
+
+
+# ~419d2460
+; > NA: |#~419d2460|
+; She lowers her voice even more.
+
+
+# ~15f0db0d
+; > HI: |#~15f0db0d|
+; About ideas... changes.
+
+
+# ~8a294b66
+; > NA: |#~8a294b66|
+; A quick glance at the door.
+
+
+# ~82b01989
+; > HI: |#~82b01989|
+; I dare not say them out loud...
+
+
+# ~fd10bb61
+; > HI: |#~fd10bb61|
+; But neither are they entirely strange to me.
+
+
+# ~e645dfca
+; > NA: |#~e645dfca|
+; She faces you.
+
+
+# ~4b01f6af
+; > HI: |#~4b01f6af|
+; However...
+
+
+# ~567fd537
+; > NA: |#~567fd537|
+; A pause.
+
+
+# ~140aae1c
+; > HI: |#~140aae1c|
+; I belong to a world that doesn't condone such inclinations.
+
+
+# ~d6d960fa
+; > @choice "|#~d6d960fa|" goto:.scene3H-1
+; Encourage her ideas
+
+
+# ~fac3398f
+; > @choice "|#~fac3398f|" goto:.scene3H-2
+; Say it's dangerous
+
+
+# ~2952b1f0
+; > PLAYER: |#~2952b1f0|
+; Maybe that's exactly what you need, to question and resist.
+
+
+# ~cec40d58
+; > PLAYER: |#~cec40d58|
+; To think of what you would like to do and be able to choose, like Tiradentes is trying to do now.
+
+
+# ~eeb40732
+; > NA: |#~eeb40732|
+; Hipólita watches you intently.
+
+
+# ~14324cb9
+; > NA: |#~14324cb9|
+; As if the possibility were much too dangerous.
+
+
+# ~e58ab13d
+; > HI: |#~e58ab13d|
+; What if, in doing so, I lose all I have?
+
+
+# ~76bed16
+; > PLAYER: |#~76bed16|
+; Maybe that's the only way to finally choose something.
+
+
+# ~6f90e4d6
+; > NA: |#~6f90e4d6|
+; Silence descends upon you, but there's something new there.
+
+
+# ~b75d59f7
+; > NA: |#~b75d59f7|
+; A spark.
+
+
+# ~940f25b
+; > HI: |#~940f25b|
+; You speak as someone who approaches risk lightly.
+
+
+# ~9844cfcf
+; > PLAYER: |#~9844cfcf|
+; I didn't say it was simple, but it can be better than just accepting your fate.
+
+
+# ~686c93d0
+; > NA: |#~686c93d0|
+; A small smile graces her features.
+
+
+# ~a24911ba
+; > HI: |#~a24911ba|
+; Still, there is something in these words that unsettles me.
+
+
+# ~dcbe994f
+; > HI: |#~dcbe994f|
+; Maybe that's exactly why I wish to keep them.
+
+
+# ~3c783446
+; > PLAYER: |#~3c783446|
+; Much more than it seems.
+
+
+# ~de783d
+; > NA: |#~de783d|
+; Hipólita lowers her gaze.
+
+
+# ~8a0f7a44
+; > NA: |#~8a0f7a44|
+; Contemplative.
+
+
+# ~f3b097f8
+; > HI: |#~f3b097f8|
+; Yes...
+
+
+# ~e476c1c8
+; > HI: |#~e476c1c8|
+; The danger shows itself clearly.
+
+
+# ~f747bbd5
+; > NA: |#~f747bbd5|
+; She plays another key.
+
+
+# ~cd360a3f
+; > HI: |#~cd360a3f|
+; Perhaps this is why I never went beyond ideas.
+
+
+# ~e348318e
+; > PLAYER: |#~e348318e|
+; Maybe it's better this way.
+
+
+# ~bd9be1a1
+; > HI: |#~bd9be1a1|
+; There are boundaries imposed on us...
+
+
+# ~d045c9a5
+; > HI: |#~d045c9a5|
+; And others we learn not to cross.
+
+
+# ~beb9f778
+; > NA: |#~beb9f778|
+; The silence stretches between you.
+
+
+# ~539b5f34
+; > NA: |#~539b5f34|
+; Not uncomfortable, but not simple either.
+
+
+# ~f8a65d42
+; > NA: |#~f8a65d42|
+; There is something that must remain unspoken.
+
+
+# ~740b9a2
+; > NA: |#~740b9a2|
+; Hipólita steps away, as if suddenly remembering where she is.
+
+
+# ~bd9d3230
+; > HI: |#~bd9d3230|
+; I believe... I've already taken too much of your time.
+
+
+# ~2d6df55e
+; > NA: |#~2d6df55e|
+; Her tone is gentle.
+
+
+# ~4dda0974
+; > NA: |#~4dda0974|
+; You nod.
+
+
+# ~31a1b07f
+; > PLAYER: |#~31a1b07f|
+; I don't mind.
+
+
+# ~ab11b00e
+; > NA: |#~ab11b00e|
+; The answer comes faster than it should.
+
+
+# ~6d7c468e
+; > NA: |#~6d7c468e|
+; And, for a second, you regret it.
+
+
+# ~5f88fbe4
+; > NA: |#~5f88fbe4|
+; But Hipólita only smiles, small and restrained.
+
+
+# ~fb3bd021
+; > HI: |#~fb3bd021|
+; Still.... it's not advisable.
+
+
+# ~6ec65eb9
+; > NA: |#~6ec65eb9|
+; She lowers her gaze for a moment.
+
+
+# ~7ef011cf
+; > NA: |#~7ef011cf|
+; Then stares back at you.
+
+
+# ~bc9a908e
+; > HI: |#~bc9a908e|
+; If you perchance find yourself back in these roads...
+
+
+# ~741bc2e0
+; > HI: |#~741bc2e0|
+; I wouldn't be ungrateful of your visit.
+
+
+# ~f2263f9d
+; > NA: |#~f2263f9d|
+; It's not a direct invitation but neither is it casual.
+
+
+# ~e90adf0f
+; > PLAYER: |#~e90adf0f|
+; I'll remember that.
+
+
+# ~5250b0dc
+; > NA: |#~5250b0dc|
+; You return by the previous path
+
+
+# ~4d4889b5
+; > NA: |#~4d4889b5|
+; Reaching the entrance, you face each other.
+
+
+# ~a4a2e698
+; > NA: |#~a4a2e698|
+; One last lingering look.
+
+
+# ~2f17dfb5
+; > NA: |#~2f17dfb5|
+; Then you turn away and leave the house.
+
+
+# ~f8d4d8b0
+; > NA: |#~f8d4d8b0|
+; Your feet touch the grass and the sound of rustling leaves reach your ears again.
+
+
+# ~61322da4
+; > NA: |#~61322da4|
+; The road feels quieter on the way back.
+
+
+# ~ae86bb1e
+; > PLAYER: |#~ae86bb1e|
+; (Was this a good idea?)
+
+
+# ~d99dc7e7
+; > NA: |#~d99dc7e7|
+; The village emerges ahead of you.
+
+
+# ~acc9c32
+; > NA: |#~acc9c32|
+; Full of life and movement, people, horses, merchants announcing their products.
+
+
+# ~5a451a26
+; > PLAYER: |#~5a451a26|
+; (Something feels different...)
+
+
+# ~349d869f
+; > NA: |#~349d869f|
+; Your steps continue steadily back toward the inn.
+
+
+# ~d605b596
+; > NA: |#~d605b596|
+; But something dwells in your mind.
+
+
+# ~d742e31d
+; > NA: |#~d742e31d|
+; The light weight of a meeting that shouldn't have been.
+
+
+# ~9f551708
+; > NA estalagem
+; > NA: |#~9f551708|
+; As you walk through the village, the inn come into view before you.
+
+
+# ~b3e5805c
+; > NA: |#~b3e5805c|
+; Almost welcoming.
+
+
+# ~f15428a
+; > NA: |#~f15428a|
+; As soon as you enter, you find Francisca sitting down mending some clothes.
+
+
+# ~1f6e61bc
+; > FR: |#~1f6e61bc|
+; Well.
+
+
+# ~49ae4539
+; > NA: |#~49ae4539|
+; Francisca barely looks up.
+
+
+# ~4fe2a0a9
+; > FR: |#~4fe2a0a9|
+; You were gone for hours...
+
+
+# ~b5e32091
+; > FR: |#~b5e32091|
+; And you return with a face like that.
+
+
+# ~bb505657
+; > NA: |#~bb505657|
+; A smirk.
+
+
+# ~95bdd170
+; > FR: |#~95bdd170|
+; Where have you been?
+
+
+# ~810db146
+; > PLAYER: |#~810db146|
+; I...
+
+
+# ~7abe282c
+; > PLAYER: |#~7abe282c|
+; Ran into... a friend.
+
+
+# ~d99b5a40
+; > NA: |#~d99b5a40|
+; Her finger halt their movement slowly as she faces you.
+
+
+# ~2a90f8fd
+; > FR: |#~2a90f8fd|
+; “Friend”.
+
+
+# ~2d9ff9ca
+; > FR: |#~2d9ff9ca|
+; Quite a useful word.
+
+
+# ~723cf46d
+; > FR: |#~723cf46d|
+; And who might this friend be?
+
+
+# ~46229e42
+; > NA: |#~46229e42|
+; You hesitate, a second longer than you should.
+
+
+# ~40fac247
+; > NA: |#~40fac247|
+; Hipólita.
+
+
+# ~e6f26617
+; > NA: |#~e6f26617|
+; The silence lasts exactly half a second.
+
+
+# ~8f237ba8
+; > FR: |#~8f237ba8|
+; The bride?
+
+
+# ~e1e3852b
+; > NA: |#~e1e3852b|
+; She has a sarcastic smile.
+
+
+# ~ccd22306
+; > PLAYER: |#~ccd22306|
+; It wasn't like that...
+
+
+# ~208c99bf
+; > FR: |#~208c99bf|
+; It always starts this way.
+
+
+# ~a2ad221a
+; > PLAYER: |#~a2ad221a|
+; It was just friendly conversation, she has a lovely garden.
+
+
+# ~f54c8a48
+; > FR: |#~f54c8a48|
+; Conversation, you say.
+
+
+# ~435af907
+; > FR: |#~435af907|
+; And of all people in this village...
+
+
+# ~1c278c4f
+; > FR: |#~1c278c4f|
+; You chose to befriend exactly the lady about to be wed.
+
+
+# ~7cf96b3e
+; > FR: |#~7cf96b3e|
+; Tell me something.
+
+
+# ~2b565a0
+; > FR: |#~2b565a0|
+; Is there no creature single enough to earn your favor?
+
+
+# ~30c8a4ed
+; > NA: |#~30c8a4ed|
+; You open your mouth to answer.
+
+
+# ~84efa085
+; > NA: |#~84efa085|
+; And you close it.
+
+
+# ~daeb86d7
+; > PLAYER: |#~daeb86d7|
+; I talk to Tiradentes and Alvarenga...
+
+
+# ~b903cd3e
+; > FR: |#~b903cd3e|
+; The alferes... always has a look of someone who thinks too much.
+
+
+# ~6638da48
+; > NA: |#~6638da48|
+; You almost choke in your own spit.
+
+
+# ~6d47df00
+; > FR: |#~6d47df00|
+; Doctor Alvarenga...
+
+
+# ~6c81caba
+; > NA: |#~6c81caba|
+; She raises an eyebrow.
+
+
+# ~3e55b7e2
+; > FR: |#~3e55b7e2|
+; Although this one is likewise taken.
+
+
+# ~ba23d9e1
+; > FR: |#~ba23d9e1|
+; Which, apparently, does not discourage you.
+
+
+# ~51d4758b
+; > PLAYER: |#~51d4758b|
+; Francisca!
+
+
+# ~b662e230
+; > FR: |#~b662e230|
+; Now, don't be mad.
+
+
+# ~bf73bf78
+; > FR: |#~bf73bf78|
+; Just trying to understand your type.
+
+
+# ~1d5cad9f
+; > FR: |#~1d5cad9f|
+; Committed, unavailable and prone to trouble.
+
+
+# ~1cef460a
+; > FR: |#~1cef460a|
+; Very specific.
+
+
+# ~94f043fc
+; > PLAYER: |#~94f043fc|
+; It's not like that...
+
+
+# ~f3c7bae9
+; > FR: |#~f3c7bae9|
+; Naturally not.
+
+
+# ~f67b2365
+; > NA: |#~f67b2365|
+; You freeze for a moment.
+
+
+# ~e11eeb90
+; > NA: |#~e11eeb90|
+; She chuckles.
+
+
+# ~386551fd
+; > FR: |#~386551fd|
+; Vila Rica is like that.
+
+
+# ~5b945b6c
+; > FR: |#~5b945b6c|
+; It all starts in gardens... and rarely does it end there.
+
+
+# ~3dac321e
+; > PLAYER: |#~3dac321e|
+; You like scaring people, don't you?
+
+
+# ~2bc3d354
+; > FR: |#~2bc3d354|
+; I don't scare. I merely observe
+
+
+# ~f48f8c2d
+; > NA: |#~f48f8c2d|
+; She approaches.
+
+
+# ~60a0c8bf
+; > FR: |#~60a0c8bf|
+; She is promised not to just any man. Francisco Lopes is a colonel.
+
+
+# ~dcda2536
+; > NA: |#~dcda2536|
+; The tone shifts.
+
+
+# ~79c009d4
+; > FR: |#~79c009d4|
+; Be careful.
+
+
+# ~223f0f3
+; > NA: |#~223f0f3|
+; A short silence.
+
+
+# ~dd6ea0e4
+; > PLAYER: |#~dd6ea0e4|
+; I know, but it's just the beginning of a friendship.
+
+
+# ~e9ab47c3
+; > FR: |#~e9ab47c3|
+; You know...
+
+
+# ~e74cba2a
+; > NA: |#~e74cba2a|
+; She tilts her head.
+
+
+# ~26de108a
+; > FR: |#~26de108a|
+; ...Yet you still go.
+
+
+# ~fe1ac177
+; > NA: |#~fe1ac177|
+; A half smile escapes you.
+
+
+# ~3b4f0fb
+; > NA: |#~3b4f0fb|
+; She's right, you know it can be dangerous and improper for the time, but you fear you can't help it.
+
+
+# ~e4aef441
+; > NA: |#~e4aef441|
+; The rest of the day goes by much slower.
+
+
+# ~df810a8b
+; > NA: |#~df810a8b|
+; You try to help Francisca with the chores, sweeping, carrying jars, and seeming useful.
+
+
+# ~be02111d
+; > NA: |#~be02111d|
+; But you end up being put behind the counter to help the other guests to the inn.
+
+
+# ~ffbdb4b7
+; > FR: |#~ffbdb4b7|
+; At least sitting down you'll do less damage.
+
+
+# ~eabd4e88
+; > PLAYER: |#~eabd4e88|
+; That was mean.
+
+
+# ~f460993b
+; > FR: |#~f460993b|
+; It was accurate.
+
+
+# ~8a0070a2
+; > NA: |#~8a0070a2|
+; The inn busies throughout the day.
+
+
+# ~b7160194
+; > NA: |#~b7160194|
+; Muleteers covered in dust, merchants in a hurry.
+
+
+# ~790eb109
+; > NA: |#~790eb109|
+; An old man who complains before he even sits down.
+
+
+# ~f6058c
+; > NA: |#~f6058c|
+; And travelers that wrap each spoken sentence in formalities.
+
+
+# ~b20c7f62
+; > NA: |#~b20c7f62|
+; You try to talk to them and they don't seem to understand very well, some being rude, others polite.
+
+
+# ~5969388a
+; > Conversa com os hóspedes
+; > GUEST1: |#~5969388a|
+; Good woman... kindly fetch me broth and bread.
+
+
+# ~5545f368
+; > NA: |#~5545f368|
+; You smile on instinct.
+
+
+# ~267b88af
+; > PLAYER: |#~267b88af|
+; Sure thing, boss.
+
+
+# ~79bc5d05
+; > NA: |#~79bc5d05|
+; The man frowns and lifts an eyebrow.
+
+
+# ~71a36288
+; > GUEST1: |#~71a36288|
+; Boss?
+
+
+# ~1ddcd714
+; > PLAYER: |#~1ddcd714|
+; I mean... sir.
+
+
+# ~50a467cb
+; > GUEST2: |#~50a467cb|
+; Could you lead me to accomodations with the finest view?
+
+
+# ~5caccf32
+; > PLAYER: |#~5caccf32|
+; We have a premium room upstairs.
+
+
+# ~fbf6cb51
+; > NA: |#~fbf6cb51|
+; The guest blinks, lost.
+
+
+# ~3da9ee5d
+; > GUEST2: |#~3da9ee5d|
+; Prem... what?
+
+
+# ~8cdde853
+; > PLAYER: |#~8cdde853|
+; The best room.
+
+
+# ~12cde1c5
+; > HI: |#~12cde1c5|
+; Ah.
+
+
+# ~4fb74151
+; > GUEST2: |#~4fb74151|
+; Then speak as a christian.
+
+
+# ~41fa01ef
+; > NA: |#~41fa01ef|
+; A younger man orders a drink.
+
+
+# ~e37c0f81
+; > PLAYER: |#~e37c0f81|
+; Be right there.
+
+
+# ~4466de3f
+; > GUEST3: |#~4466de3f|
+; I'll be right where?
+
+
+# ~20a5c3b0
+; > PLAYER: |#~20a5c3b0|
+; The drink will be right there.
+
+
+# ~27a139e
+; > GUEST3: |#~27a139e|
+; Then bring it before I grow old.
+
+
+# ~21413216
+; > NA: |#~21413216|
+; At a certain point, Francisca walks by you holding a tray.
+
+
+# ~8cad8135
+; > FR: |#~8cad8135|
+; If you say “premium” again, I'll charge more.
+
+
+# ~309203dd
+; > PLAYER: |#~309203dd|
+; I'm adapting.
+
+
+# ~7fb31017
+; > FR: |#~7fb31017|
+; Me too.
+
+
+# ~929d22c5
+; > FR: |#~929d22c5|
+; To shame.
+
+
+# ~56f4cd46
+; > NA: |#~56f4cd46|
+; When the inn isn't as busy and you have less chores, Francisca places the account book before you.
+
+
+# ~83795d0b
+; > FR: |#~83795d0b|
+; If you're not suited for speaking, maybe you are for numbers.
+
+
+# ~6fd6fdd2
+; > NA: |#~6fd6fdd2|
+; You take a seat, quill and ink in front of thick pages.
+
+
+# ~5ad41476
+; > NA: |#~5ad41476|
+; While you jot down notes in the account book, the quill glides in your fingers, but your thoughts are far away.
+
+
+# ~674848d0
+; > NA: |#~674848d0|
+; When night falls, fatigue weights heavily on your shoulders.
+
+
+# ~14bdee57
+; > NA: |#~14bdee57|
+; You return to your quarters, changing into your "pajamas" and climbing into bed after a while.
+
+
+# ~6dba8c0b
+; > NA: |#~6dba8c0b|
+; You stare at the ceiling longer than you'd like. Even though your body is tired, your mind is wide awake.
+
+
+# ~d03a730d
+; > NA: |#~d03a730d|
+; You wake again, shifting in bed and bunching up the sheets beneath you.
+
+
+# ~5025241
+; > NA: |#~5025241|
+; You're certain you heard a rooster sing.
+
+
+# ~d432716a
+; > NA: |#~d432716a|
+; This time it doesn't feel so strange.
+
+
+# ~b6214a3f
+; > PLAYER: |#~b6214a3f|
+; (...Ok.)
+
+
+# ~c962ace6
+; > PLAYER: |#~c962ace6|
+; (I'm still here.)
+
+
+# ~7800f7e1
+; > PLAYER: |#~7800f7e1|
+; (If I do things right will I get to go back?)
+
+
+# ~2450e933
+; > NA: |#~2450e933|
+; The village sounds outside are familiar, almost comfortable.
+
+
+# ~df2c64c8
+; > NA: |#~df2c64c8|
+; You get up and take care of your hygiene.
+
+
+# ~d5ffe0b5
+; > NA: |#~d5ffe0b5|
+; You clean yourself with the water basin in the corner of the room and move on to the hardest part.
+
+
+# ~91ad066f
+; > NA: |#~91ad066f|
+; The clove and herbs still taste terrible, but it doesn't surprise you anymore.
+
+
+# ~6b8e47a1
+; > PLAYER: |#~6b8e47a1|
+; (I'm getting  used to it...)
+
+
+# ~bff187a3
+; > NA: |#~bff187a3|
+; Which might be weirder than everything else.
+
+
+# ~21faf5c2
+; > NA: |#~21faf5c2|
+; Descending the stairs you meet Francisca already awake and making breakfast.
+
+
+# ~5e6312e
+; > FR: |#~5e6312e|
+; Did you sleep well?
+
+
+# ~f2dc99b0
+; > NA: |#~f2dc99b0|
+; A small smile.
+
+
+# ~33191336
+; > FR: |#~33191336|
+; Or did you have good dreams?
+
+
+# ~a1cb9ee7
+; > PLAYER: |#~a1cb9ee7|
+; I slept well.
+
+
+# ~2e7655ab
+; > NA: |#~2e7655ab|
+; You reply, approaching and grabbing a cup of coffee.
+
+
+# ~5831c5e7
+; > NA: |#~5831c5e7|
+; She watches you closely.
+
+
+# ~b6989a2b
+; > FR: |#~b6989a2b|
+; Then...
+
+
+# ~69d53cc
+; > FR: |#~69d53cc|
+; Meeting any betrothed women today?
+
+
+# ~a638f53c
+; > NA: |#~a638f53c|
+; You choke a little.
+
+
+# ~76bbe45
+; > PLAYER: |#~76bbe45|
+; What?!
+
+
+# ~580426f1
+; > FR: |#~580426f1|
+; Don't get too excited.
+
+
+# ~1e31a4bc
+; > NA: |#~1e31a4bc|
+; An amused smile.
+
+
+# ~13c3d74c
+; > FR: |#~13c3d74c|
+; I'm just asking.
+
+
+# ~9fd1eea5
+; > PLAYER: |#~9fd1eea5|
+; It's not like that!
+
+
+# ~9db906cc
+; > NA: |#~9db906cc|
+; She props her elbow on the counter.
+
+
+# ~4bb73e47
+; > FR: |#~4bb73e47|
+; It's the garden you like.
+
+
+# ~22c12fda
+; > NA: |#~22c12fda|
+; You stare at her.
+
+
+# ~32921282
+; > PLAYER: |#~32921282|
+; There's the garden... and a good friend's company, I think.
+
+
+# ~52a04682
+; > PLAYER: |#~52a04682|
+; Hipólita is an intelligent woman and I don't know many people here, beyond her and Alvarenga.
+
+
+# ~7733aa6
+; > PLAYER: |#~7733aa6|
+; What else would I do all day besides helping here?
+
+
+# ~8674d67c
+; > NA: |#~8674d67c|
+; Francisca lifts an eyebrow.
+
+
+# ~332bbc6e
+; > FR: |#~332bbc6e|
+; Ah, yes.
+
+
+# ~29cdf850
+; > FR: |#~29cdf850|
+; Charity and good company.
+
+
+# ~aeb6c22b
+; > NA: |#~aeb6c22b|
+; A soft smirk.
+
+
+# ~7d8ab1fe
+; > FR: |#~7d8ab1fe|
+; They always start this way.
+
+
+# ~32360f18
+; > HI: |#~32360f18|
+; It's not what it looks like.
+
+
+# ~aeb5499
+; > FR: |#~aeb5499|
+; It never is.
+
+
+# ~406ef324
+; > NA: |#~406ef324|
+; She leans over the counter.
+
+
+# ~6c231dd5
+; > FR: |#~6c231dd5|
+; You have curious taste.
+
+
+# ~1d7cab38
+; > FR: |#~1d7cab38|
+; A fondness for danger.
+
+
+# ~9325850d
+; > PLAYER: |#~9325850d|
+; I don't choose like that.
+
+
+# ~837c7a9c
+; > FR: |#~837c7a9c|
+; No?
+
+
+# ~1ddb2320
+; > NA: |#~1ddb2320|
+; A chuckle.
+
+
+# ~b43de2f
+; > FR: |#~b43de2f|
+; Because it sound like that's exactly how you choose.
+
+
+# ~ec9dee78
+; > FR: |#~ec9dee78|
+; Just don't come back later and say you weren't warned.
+
+
+# ~be56a042
+; > PLAYER: |#~be56a042|
+; I can handle myself.
+
+
+# ~cc9aabfd
+; > FR: |#~cc9aabfd|
+; It's what they all say until they can't.
+
+
+# ~fe7f82cd
+; > NA: |#~fe7f82cd|
+; She steps away, going back to her affairs.
+
+
+# ~5a31099f
+; > FR: |#~5a31099f|
+; Go, before the garden calls to you again.
+
+
+# ~73468f7a
+; > NA: |#~73468f7a|
+; You sigh.
+
+
+# ~f9a66903
+; > NA: |#~f9a66903|
+; And leave when you finish your coffee.
+
+
+# ~dc0042bf
+; > NA: |#~dc0042bf|
+; It's the same road, the same dirt and trees.
+
+
+# ~2a9cb322
+; > NA: |#~2a9cb322|
+; Your pace slows the closer you get to the house.
+
+
+# ~1c4f51e
+; > PLAYER: |#~1c4f51e|
+; (I shouldn't... be here)
+
+
+# ~6615dbd4
+; > NA: |#~6615dbd4|
+; You stop and look at the house.
+
+
+# ~258930e4
+; > NA: |#~258930e4|
+; And see the quiet garden.
+
+
+# ~ae9adb47
+; > PLAYER: |#~ae9adb47|
+; (I should leave.)
+
+
+# ~69e36a04
+; > NA: |#~69e36a04|
+; You start to turn away-
+
+
+# ~88e016ac
+; > CELINA: |#~88e016ac|
+; Leaving already?
+
+
+# ~ed95e576
+; > NA: |#~ed95e576|
+; The voice comes from behind you.
+
+
+# ~a928c011
+; > NA: |#~a928c011|
+; You turn around, surprised.
+
+
+# ~6bd67491
+; > NA: |#~6bd67491|
+; Celina stands there, watching you.
+
+
+# ~d9bb8b12
+; > PLAYER: |#~d9bb8b12|
+; I was.... just passing by.
+
+
+# ~f17861d9
+; > NA: |#~f17861d9|
+; She leans her head to the side.
+
+
+# ~91fa39d1
+; > CELINA: |#~91fa39d1|
+; Passing by... the same road, yet again?
+
+
+# ~9cf117f9
+; > PLAYER: |#~9cf117f9|
+; I didn't want to bother.
+
+
+# ~6657fd18
+; > CELINA: |#~6657fd18|
+; You don't.
+
+
+# ~edaffb9
+; > NA: |#~edaffb9|
+; A small step in your direction.
+
+
+# ~314e32db
+; > CELINA: |#~314e32db|
+; On the contrary.
+
+
+# ~b968561c
+; > PLAYER: |#~b968561c|
+; What do you mean?
+
+
+# ~d52ad20a
+; > NA: |#~d52ad20a|
+; Celina hesitates for a moment.
+
+
+# ~ba8689c7
+; > NA: |#~ba8689c7|
+; As if deciding how much to say.
+
+
+# ~2fd7df1
+; > CELINA: |#~2fd7df1|
+; My lady...
+
+
+# ~b519f7d5
+; > CELINA: |#~b519f7d5|
+; Has been spending many days in silence.
+
+
+# ~a9cc979f
+; > NA: |#~a9cc979f|
+; Her tone is careful.
+
+
+# ~b25ee82d
+; > CELINA: |#~b25ee82d|
+; But with you, she seems...
+
+
+# ~39afd9eb
+; > CELINA: |#~39afd9eb|
+; Lighter.
+
+
+# ~b406041a
+; > NA: |#~b406041a|
+; That catches you off guard.
+
+
+# ~c128f045
+; > PLAYER: |#~c128f045|
+; I don't know if I should...
+
+
+# ~9601606e
+; > HI: |#~9601606e|
+; You must.
+
+
+# ~eb0db544
+; > NA: |#~eb0db544|
+; She softly interrupts you.
+
+
+# ~aa7a3277
+; > CELINA: |#~aa7a3277|
+; At least... today.
+
+
+# ~e15c9e4
+; > NA: |#~e15c9e4|
+; A short silence as you consider what you just heard.
+
+
+# ~7ae5f45a
+; > NA: |#~7ae5f45a|
+; Before you can answer, she's already turned away expecting you to follow.
+
+
+# ~8a17bff4
+; > NA: |#~8a17bff4|
+; The house is silent, more than the day before.
+
+
+# ~4ad52796
+; > NA: |#~4ad52796|
+; Celina guides you to the living room.
+
+
+# ~5f0a76fb
+; > NA: |#~5f0a76fb|
+; The harpsichord is there and so is Hipólita.
+
+
+# ~5145c424
+; > NA: |#~5145c424|
+; She's seated and seems deep in thought.
+
+
+# ~56043327
+; > NA: |#~56043327|
+; Her expression shifts when she notices your presence.
+
+
+# ~bd6c7c88
+; > HI: |#~bd6c7c88|
+; You're back...
+
+
+# ~24ad7188
+; > NA: |#~24ad7188|
+; There's surprise in her voice.
+
+
+# ~2f999a7
+; > NA: |#~2f999a7|
+; And something else she can't hide that well this time around.
+
+
+# ~fbf02c4
+; > PLAYER: |#~fbf02c4|
+; I hope I'm not bothering you.
+
+
+# ~bd2767a2
+; > HI: |#~bd2767a2|
+; You're not.
+
+
+# ~87aa2684
+; > NA: |#~87aa2684|
+; She stands up.
+
+
+# ~39c0ebde
+; > HI: |#~39c0ebde|
+; Not at all.
+
+
+# ~50874af5
+; > NA: |#~50874af5|
+; She quickly glances at Celina.
+
+
+# ~41e7c30b
+; > NA: |#~41e7c30b|
+; As if there was an understanding, Celina retreats from the room.
+
+
+# ~f9d87b7a
+; > NA: |#~f9d87b7a|
+; You approach and she gestures at the couch.
+
+
+# ~bbb301ce
+; > NA: |#~bbb301ce|
+; The two of you sit down near the harpsichord.
+
+
+# ~9ee9c52c
+; > PLAYER: |#~9ee9c52c|
+; You mentioned the other day not having chosen your path.
+
+
+# ~38e645e
+; > PLAYER: |#~38e645e|
+; But having the opportunity to study.
+
+
+# ~92f218f3
+; > NA: |#~92f218f3|
+; Hipólita hesitates.
+
+
+# ~83394cbd
+; > HI: |#~83394cbd|
+; I did, briefly.
+
+
+# ~c69047d6
+; > HI: |#~c69047d6|
+; My father took me with him in some of his travels.
+
+
+# ~d8613498
+; > HI: |#~d8613498|
+; There... I could learn more than I was allowed in here.
+
+
+# ~62864189
+; > NA: |#~62864189|
+; She smiles softly.
+
+
+# ~ecb5af49
+; > HI: |#~ecb5af49|
+; Reading, music and some languages.
+
+
+# ~9763fd19
+; > NA: |#~9763fd19|
+; Her gaze grows distant for a moment.
+
+
+# ~3453e59
+; > HI: |#~3453e59|
+; Those were... different times.
+
+
+# ~94858c01
+; > PLAYER: |#~94858c01|
+; I studied too, I went to university...
+
+
+# ~e01b7b75
+; > NA: |#~e01b7b75|
+; You hesitate at your choice of words.
+
+
+# ~a3ff4275
+; > PLAYER: |#~a3ff4275|
+; Something like an academy.
+
+
+# ~a6f56ab0
+; > NA: |#~a6f56ab0|
+; Hipólita watches you with genuine curiosity.
+
+
+# ~41c787f3
+; > HI: |#~41c787f3|
+; Then you know another world.
+
+
+# ~7bd0b55e
+; > PLAYER: |#~7bd0b55e|
+; A little.
+
+
+# ~7a249a2a
+; > HI: |#~7a249a2a|
+; That explains...
+
+
+# ~af066e3e
+; > NA: |#~af066e3e|
+; She pauses.
+
+
+# ~5b4809b2
+; > PLAYER: |#~5b4809b2|
+; Explains what?
+
+
+# ~d1116009
+; > HI: |#~d1116009|
+; The way you see things.
+
+
+# ~117343c7
+; > NA: |#~117343c7|
+; A comfortable silence settles between you.
+
+
+# ~451dae41
+; > NA: |#~451dae41|
+; But then, as you watch Hipólita run her fingers over the keys.
+
+
+# ~175b7d64
+; > NA: |#~175b7d64|
+; Strong and heavy footsteps echo and sound like they're getting closer.
+
+
+# ~40915807
+; > NA: |#~40915807|
+; The door opens with no warning.
+
+
+# ~14f9aacf
+; > NA: |#~14f9aacf|
+; The voice is cutting, cold and controlled.
+
+
+# ~87f8cfaa
+; > NA: |#~87f8cfaa|
+; He enters and his gaze falls directly on you.
+
+
+# ~c5b6783d
+; > NO: |#~c5b6783d|
+; I see we have company.
+
+
+# ~dfd9dde6
+; > NA: |#~dfd9dde6|
+; His tone is not welcoming.
+
+
+# ~cef1382b
+; > NA: |#~cef1382b|
+; Hipólita tenses up next to the harpsichord.
+
+
+# ~b5b1e9e8
+; > NA: |#~b5b1e9e8|
+; Her fingers lightly close over her skirt.
+
+
+# ~3f49e3fb
+; > HI: |#~3f49e3fb|
+; We were just...
+
+
+# ~14dd3774
+; > NO: |#~14dd3774|
+; I didn't ask.
+
+
+# ~6ed6ac4d
+; > NA: |#~6ed6ac4d|
+; The air shifts entirely.
+
+
+# ~36d8ffbc
+; > NA: |#~36d8ffbc|
+; He turns his gaze to you, long and disquieting.
+
+
+# ~c8bea06
+; > NO: |#~c8bea06|
+; You're bold.
+
+
+# ~15a78a0e
+; > NO: |#~15a78a0e|
+; Being alone with a promised woman.
+
+
+# ~25e42de1
+; > NA: |#~25e42de1|
+; He takes a step forward, approaching you.
+
+
+# ~8b97145f
+; > NO: |#~8b97145f|
+; In my house.
+
+
+# ~e26dab74
+; > NA: |#~e26dab74|
+; The fiancé's gaze falls on you coldly.
+
+
+# ~e11ed0f8
+; > NA: |#~e11ed0f8|
+; More curious than aggressive, but still distrusting.
+
+
+# ~52970f72
+; > NO: |#~52970f72|
+; I don't recall authorizing visitors.
+
+
+# ~dda1cb0f
+; > NO: |#~dda1cb0f|
+; Let alone... strangers.
+
+
+# ~f92338d9
+; > NA: |#~f92338d9|
+; Her tone is firm.
+
+
+# ~caccf79b
+; > HI: |#~caccf79b|
+; It was just a...
+
+
+# ~fa00d5d6
+; > NA: |#~fa00d5d6|
+; A short smile.
+
+
+# ~77b4cfe4
+; > NO: |#~77b4cfe4|
+; “Just”.
+
+
+# ~9b15fa16
+; > NA: |#~9b15fa16|
+; He walks around the room, slow and controlled.
+
+
+# ~e78506ae
+; > NO: |#~e78506ae|
+; Should I be concerned?
+
+
+# ~782d01a
+; > NA: |#~782d01a|
+; Hipólita stands up and speaks firmly.
+
+
+# ~a9f4c808
+; > NA: |#~a9f4c808|
+; She answers too quickly.
+
+
+# ~f4db7e8f
+; > NO: |#~f4db7e8f|
+; Curious, because I am.
+
+
+# ~1dc27368
+; > HI: |#~1dc27368|
+; You see issues where there's none.
+
+
+# ~3fd89bfb
+; > NO: |#~3fd89bfb|
+; And you see freedom where there's none.
+
+
+# ~4a4ff5a4
+; > NA: |#~4a4ff5a4|
+; The air around them is tense.
+
+
+# ~8ddd68d7
+; > NA: |#~8ddd68d7|
+; But there's something domestic there.
+
+
+# ~fc266029
+; > NO: |#~fc266029|
+; I leave for a few hours and I already meet-
+
+
+# ~693f69bf
+; > NA: |#~693f69bf|
+; He gestures in your direction.
+
+
+# ~dbda3946
+; > NO: |#~dbda3946|
+; News.
+
+
+# ~be112310
+; > HI: |#~be112310|
+; You're not my warden.
+
+
+# ~f5f33716
+; > NO: |#~f5f33716|
+; Not yet.
+
+
+# ~f9c0670c
+; > NO: |#~f9c0670c|
+; But I have ambitions.
+
+
+# ~42a91d18
+; > NA: |#~42a91d18|
+; A silence as you wonder if you should do something.
+
+
+# ~f3fa455d
+; > @choice "|#~f3fa455d|" goto:.scene4H-1
+; Defend her
+
+
+# ~c7b581d9
+; > @choice "|#~c7b581d9|" goto:.scene4H-2
+; Let her face him alone
+
+
+# ~b6c94697
+; > NA: |#~b6c94697|
+; You stand up and try to look tough.
+
+
+# ~c3cfc363
+; > PLAYER: |#~c3cfc363|
+; With all due respect—
+
+
+# ~e9d55f6a
+; > NA: |#~e9d55f6a|
+; They both look at you at the same time.
+
+
+# ~2c9ec535
+; > PLAYER: |#~2c9ec535|
+; (Terrible idea.)
+
+
+# ~d5e91fb6
+; > PLAYER: |#~d5e91fb6|
+; There's no reason for this, nothing wrong was happening here.
+
+
+# ~a36a0689
+; > NA: |#~a36a0689|
+; The fiancé lifts an eyebrow.
+
+
+# ~a01b6df4
+; > NO: |#~a01b6df4|
+; We have a guardian.
+
+
+# ~b879363e
+; > NO: |#~b879363e|
+; Besides guest... you're also a lawyer.
+
+
+# ~1db68dcd
+; > NO: |#~1db68dcd|
+; Not just bold... you're a charmer too.
+
+
+# ~6f6cad12
+; > HI: |#~6f6cad12|
+; I don't need protection.
+
+
+# ~375d9a83
+; > NA: |#~375d9a83|
+; Hipólita cuts you off, but there's a blush to her cheeks.
+
+
+# ~1da5e367
+; > NO: |#~1da5e367|
+; Still, I believe I understand.
+
+
+# ~3206c945
+; > NA: |#~3206c945|
+; He steps closer.
+
+
+# ~c9f66995
+; > NO: |#~c9f66995|
+; Since you speak for her.
+
+
+# ~469df7d2
+; > NO: |#~469df7d2|
+; Soon you'll start making choices for her too.
+
+
+# ~936434d
+; > NA: |#~936434d|
+; He comes even closer and there's something dark in his eyes.
+
+
+# ~9b9208a9
+; > NO: |#~9b9208a9|
+; Enough.
+
+
+# ~66b92cb4
+; > NA: |#~66b92cb4|
+; Her tone halts you both.
+
+
+# ~7a60dbd7
+; > HI: |#~7a60dbd7|
+; You are not judge of this house, and I am not your property.
+
+
+# ~ab9cb164
+; > NA: |#~ab9cb164|
+; The groom takes a deep breath, holding something back.
+
+
+# ~d832a897
+; > NA: |#~d832a897|
+; You stay silent, watching them both.
+
+
+# ~1b4f1509
+; > NA: |#~1b4f1509|
+; Hipólita steps forward.
+
+
+# ~c1926032
+; > HI: |#~c1926032|
+; Stop looking for reasons where there's none.
+
+
+# ~322d1984
+; > HI: |#~322d1984|
+; And you neither have the right to question every step I take.
+
+
+# ~b11228a6
+; > NO: |#~b11228a6|
+; I'm your fiancé.
+
+
+# ~daa2e373
+; > HI: |#~daa2e373|
+; You don't own me.
+
+
+# ~4e750e7e
+; > NA: |#~4e750e7e|
+; They stare at each other in a heavy silence.
+
+
+# ~1b2258af
+; > NO: |#~1b2258af|
+; Still, do you expect me to ignore him?
+
+
+# ~9d34d4d0
+; > NO: |#~9d34d4d0|
+; Still, do you expect me to ignore her?
+
+
+# ~17a13480
+; > NA: |#~17a13480|
+; He points at you.
+
+
+# ~10276cf1
+; > HI: |#~10276cf1|
+; Not ignore, but have moderation.
+
+
+# ~d46214b6
+; > HI: |#~d46214b6|
+; Or would you like to supervise the garden too?
+
+
+# ~45a776e5
+; > NA: |#~45a776e5|
+; A small, almost comical, silence.
+
+
+# ~f60105e7
+; > NO: |#~f60105e7|
+; If I have to.
+
+
+# ~31649da1
+; > HI: |#~31649da1|
+; Then start with the rose bushes, they're less dangerous than guests.
+
+
+# ~c45e2ed2
+; > NA: |#~c45e2ed2|
+; You hold back your laughter.
+
+
+# ~cbd761f8
+; > NA: |#~cbd761f8|
+; The groom notices and that seems to make things worse.
+
+
+# ~b6a204d
+; > NA: |#~b6a204d|
+; The silence barely holds itself and there's tension in the air.
+
+
+# ~53be5d11
+; > NA: |#~53be5d11|
+; Until you hear a voice coming from outside.
+
+
+# ~b86a0e36
+; > VOICE: |#~b86a0e36|
+; My, my...
+
+
+# ~9984358a
+; > NA: |#~9984358a|
+; The voice reaches you before the person.
+
+
+# ~7fa5a6d4
+; > NA: |#~7fa5a6d4|
+; Light, fun, and dangerous.
+
+
+# ~691dfc4d
+; > NA: |#~691dfc4d|
+; The door opens unceremoniously.
+
+
+# ~3d3f3c9
+; > NA: |#~3d3f3c9|
+; Bárbara arrives, in her long dress and hair, a smile on her lips.
+
+
+# ~e72e780a
+; > BA: |#~e72e780a|
+; I hope I'm not disturbing...
+
+
+# ~99bb1e4
+; > NA: |#~99bb1e4|
+; Bárbara enters.
+
+
+# ~f6e9d1d7
+; > NA: |#~f6e9d1d7|
+; She quickly glances over the room.
+
+
+# ~6496b07a
+; > NA: |#~6496b07a|
+; With a smile that says everything.
+
+
+# ~7bb7a6f
+; > BA: |#~7bb7a6f|
+; But, as your neighbor, I believe I deserve peace and quiet.
+
+
+# ~8fcf5fb2
+; > NA: |#~8fcf5fb2|
+; The groom scowls.
+
+
+# ~7d01454b
+; > NO: |#~7d01454b|
+; This doesn't concern you.
+
+
+# ~2bfa4d33
+; > BA: |#~2bfa4d33|
+; Oh, but it does, now.
+
+
+# ~f23b07c
+; > BA: |#~f23b07c|
+; Raised voices travel through walls quite easily.
+
+
+# ~120bdecd
+; > BA: |#~120bdecd|
+; And I admit, it... attracts attention.
+
+
+# ~69e09f92
+; > NA: |#~69e09f92|
+; Her gaze moves over you, slow and judging.
+
+
+# ~628a5c9d
+; > BA: |#~628a5c9d|
+; Particularly when my husband returns...
+
+
+# ~45eddc60
+; > NA: |#~45eddc60|
+; Hipólita tenses.
+
+
+# ~e71b5882
+; > NA: |#~e71b5882|
+; Bárbara's eyes glide toward her.
+
+
+# ~67eb00d4
+; > HI: |#~67eb00d4|
+; Bárbara...
+
+
+# ~23561eb9
+; > BA: |#~23561eb9|
+; Imagine the embarrassment.
+
+
+# ~e4119a15
+; > NA: |#~e4119a15|
+; She then looks at you and smirks.
+
+
+# ~3b7208c8
+; > BA: |#~3b7208c8|
+; Still... I must admit.
+
+
+# ~346e2cc9
+; > BA: |#~346e2cc9|
+; This scene is worth the disturbance.
+
+
+# ~c03090f3
+; > NA: |#~c03090f3|
+; She comes closer.
+
+
+# ~b13b1780
+; > BA: |#~b13b1780|
+; I must say... you have interesting tastes, Hipólita.
+
+
+# ~2d486c38
+; > NA: |#~2d486c38|
+; Hipólita blushes softly.
+
+
+# ~bda59753
+; > NO: |#~bda59753|
+; You're crossing a line.
+
+
+# ~f637ae5f
+; > NA: |#~f637ae5f|
+; She tilts her head to the side.
+
+
+# ~4fad8b6b
+; > BA: |#~4fad8b6b|
+; I assumed those were already made... flexible.
+
+
+# ~82318e2e
+; > NA: |#~82318e2e|
+; A low chuckle.
+
+
+# ~e322cbfb
+; > BA: |#~e322cbfb|
+; Well, I only describe what I see.
+
+
+# ~c401d31f
+; > BA: |#~c401d31f|
+; An absent fiancé and an unexpected visit...
+
+
+# ~7540af04
+; > HI: |#~7540af04|
+; There is nothing beyond a simple conversation here.
+
+
+# ~9c93ccbc
+; > HI: |#~9c93ccbc|
+; Naturally.
+
+
+# ~74f56087
+; > NA: |#~74f56087|
+; A vague nod.
+
+
+# ~55441d69
+; > BA: |#~55441d69|
+; It's always just a conversation.
+
+
+# ~3e1655e5
+; > NA: |#~3e1655e5|
+; She turns her gaze toward you.
+
+
+# ~29224692
+; > BA: |#~29224692|
+; And you...
+
+
+# ~390e3a7d
+; > BA: |#~390e3a7d|
+; Are very... brave.
+
+
+# ~5eb9634e
+; > NA: |#~5eb9634e|
+; The tension in the room is unbearable, but oddly entertaining.
+
+
+# ~2c4e5861
+; > NA: |#~2c4e5861|
+; You censure those thoughts, but being in the middle of a domestic dispute almost reminds you of your neighbors back home.
+
+
+# ~8a6ad9f0
+; > @choice "|#~8a6ad9f0|" goto:.scene5H-1
+; Support Hipólita against Bárbara
+
+
+# ~b39f5db
+; > @choice "|#~b39f5db|" goto:.scene5H-2
+; Agree with Bárbara
+
+
+# ~1b8e1b0
+; > PLAYER: |#~1b8e1b0|
+; There's no reason for these insinuations.
+
+
+# ~f824844c
+; > PLAYER: |#~f824844c|
+; We were just talking, as friends.
+
+
+# ~b38f99ac
+; > NA: |#~b38f99ac|
+; Bárbara lifts an eyebrow.
+
+
+# ~d6406ec
+; > BA: |#~d6406ec|
+; “Friends”.
+
+
+# ~29e938f6
+; > NA: |#~29e938f6|
+; A slow smile takes shape.
+
+
+# ~7f673647
+; > BA: |#~7f673647|
+; It pleases me, this union of goals.
+
+
+# ~58133d35
+; > BA: |#~58133d35|
+; Solidarity, always so... touching.
+
+
+# ~4db7487a
+; > HI: |#~4db7487a|
+; Bárbara, please have compassion and stop.
+
+
+# ~277ee644
+; > BA: |#~277ee644|
+; I'll leave soon, there's no need to get restless.
+
+
+# ~ce038da3
+; > NA: |#~ce038da3|
+; She raises her hands in fake surrender.
+
+
+# ~688ac41c
+; > BA: |#~688ac41c|
+; I have no intention of usurping your spotlight.
+
+
+# ~33a1cbb4
+; > NA: |#~33a1cbb4|
+; But, before leaving, she stops and stares directly at you.
+
+
+# ~204f6cc4
+; > BA: |#~204f6cc4|
+; Have caution, dear.
+
+
+# ~995da4ed
+; > NA: |#~995da4ed|
+; She glances at Hipólita.
+
+
+# ~c9cea1c
+; > BA: |#~c9cea1c|
+; Not every garden keeps their secrets for long.
+
+
+# ~679cd32c
+; > NA: |#~679cd32c|
+; Hipólita closes her eyes for a moment.
+
+
+# ~4ec750f9
+; > PLAYER: |#~4ec750f9|
+; I know that.... the situation may feel odd.
+
+
+# ~8f5c54d3
+; > NA: |#~8f5c54d3|
+; The silence is heavy.
+
+
+# ~b112d618
+; > NA: |#~b112d618|
+; Hipólita whips her face toward you, surprised and a little hurt.
+
+
+# ~6e6ffc90
+; > NA: |#~6e6ffc90|
+; A pleased smile.
+
+
+# ~d90ebdb7
+; > BA: |#~d90ebdb7|
+; Honesty. Such a rare virtue.
+
+
+# ~d2f26f14
+; > NO: |#~d2f26f14|
+; Finally, someone with common sense.
+
+
+# ~9a8479de
+; > NA: |#~9a8479de|
+; You immediately regret it.
+
+
+# ~3fb3fd59
+; > HI: |#~3fb3fd59|
+; That wasn't necessary.
+
+
+# ~dbd10a5c
+; > NA: |#~dbd10a5c|
+; She sounds restrained, but distant.
+
+
+# ~25e666ee
+; > BA: |#~25e666ee|
+; Oh, don't be harsh.
+
+
+# ~76658d5a
+; > BA: |#~76658d5a|
+; At least someone here understands the picture.
+
+
+# ~db9efaf5
+; > NA: |#~db9efaf5|
+; The air feels even heavier.
+
+
+# ~14c05cd7
+; > NA: |#~14c05cd7|
+; The fiancé takes a deep breath and decides.
+
+
+# ~8a110966
+; > NA: |#~8a110966|
+; He points at the door.
+
+
+# ~8613d5a5
+; > NO: |#~8613d5a5|
+; I believe your presence here has exceeded its adequacy.
+
+
+# ~dc14f164
+; > NA: |#~dc14f164|
+; You look at Hipólita.
+
+
+# ~f9c39776
+; > NA: |#~f9c39776|
+; For a brief moment her eyes meet yours.
+
+
+# ~748866a3
+; > NA: |#~748866a3|
+; There are a thousand things there that must remain unspoken.
+
+
+# ~d4455350
+; > HI: |#~d4455350|
+; ...Maybe that's the most prudent.
+
+
+# ~e8b76483
+; > NA: |#~e8b76483|
+; Her voice is quiet.
+
+
+# ~13f8bb7
+; > NA: |#~13f8bb7|
+; You begin moving away and, when you pass by Hipólita, your clothes brush slightly and she whispers at you.
+
+
+# ~decbfbec
+; > NA: |#~decbfbec|
+; Barely noticeable.
+
+
+# ~2855e6fa
+; > HI: |#~2855e6fa|
+; Tonight.
+
+
+# ~1b0a5ad3
+; > HI: |#~1b0a5ad3|
+; At the garden.
+
+
+# ~cde28b3a
+; > PLAYER: |#~cde28b3a|
+; (A request or a risk.)
+
+
+# ~9336d755
+; > NA: |#~9336d755|
+; You then step away and find yourself outside.
+
+
+# ~ae1a45f7
+; > NA: |#~ae1a45f7|
+; The door is slammed behind you.
+
+
+# ~f4ecb669
+; > NA: |#~f4ecb669|
+; And the muffled argument continues inside.
+
+
+# ~240633da
+; > PLAYER: |#~240633da|
+; (...That went worse than I expected.)
+
+
+# ~6ff2ba15
+; > NA: |#~6ff2ba15|
+; You take a few steps away from the house.
+
+
+# ~e923ec6e
+; > NA: |#~e923ec6e|
+; But you don't go far.
+
+
+# ~436b7447
+; > PLAYER: |#~436b7447|
+; (Tonight... at the garden.)
+
+
+# ~ef3272b1
+; > NA: |#~ef3272b1|
+; The idea clings to your mind, stubborn.
+
+
+# ~99a7f0d
+; > PLAYER: |#~99a7f0d|
+; Going back to the inn would be reckless.
+
+
+# ~c65eb3cc
+; > PLAYER: |#~c65eb3cc|
+; Questions, stares, and I don't know if I would have the nerve to come back after.
+
+
+# ~32be74ba
+; > NA: |#~32be74ba|
+; You stop on the path and look around.
+
+
+# ~4c802cee
+; > NA: |#~4c802cee|
+; The trees, tall and old.
+
+
+# ~c400aa98
+; > PLAYER: |#~c400aa98|
+; (...Can I still do it?)
+
+
+# ~b09fadb9
+; > PLAYER: |#~b09fadb9|
+; (Let's find out.)
+
+
+# ~11dbcafc
+; > NA: |#~11dbcafc|
+; You grab one of the branches and brace your foot against the trunk.
+
+
+# ~4deb989
+; > NA: |#~4deb989|
+; You push up and climb, with some difficulty.
+
+
+# ~9e3fed42
+; > NA: |#~9e3fed42|
+; Clambering up the tree until you come to a stop at a taller branch and taking a seat where it's thicker and firmer.
+
+
+# ~bcfb91
+; > NA: |#~bcfb91|
+; You rest your back against the tree and listen to the leaves rustling above your head.
+
+
+# ~612eebb1
+; > PLAYER: |#~612eebb1|
+; (The view isn't half bad.)
+
+
+# ~64effc09
+; > NA: |#~64effc09|
+; The day drags on, slow and peaceful.
+
+
+# ~25fd7ec4
+; > NA: |#~25fd7ec4|
+; From above, the world feels distant.
+
+
+# ~715d106c
+; > NA: |#~715d106c|
+; Wind travels between the leaves and the smell of earth is constant.
+
+
+# ~a192d3fa
+; > NA: |#~a192d3fa|
+; The sun starts to lower in the sky and you watch as sunset approaches.
+
+
+# ~2fccccf
+; > PLAYER: |#~2fccccf|
+; (I really am waiting...)
+
+
+# ~aa8d9ca
+; > NA: |#~aa8d9ca|
+; You let out a low chuckle, but you stay put.
+
+
+# ~159deb8
+; > NA: |#~159deb8|
+; Light starts to dim little by little and you end up napping.
+
+
+# ~10c3a9d6
+; > NA: |#~10c3a9d6|
+; When you open your eyes again, night has already fallen.
+
+
+# ~15692324
+; > NA: |#~15692324|
+; You move slowly.
+
+
+# ~115d0979
+; > PLAYER: |#~115d0979|
+; (I can't believe I slept up here, I could have splattered on the ground like an omelet.)
+
+
+# ~df8590c5
+; > NA: |#~df8590c5|
+; Then you carefully climb down the tree.
+
+
+# ~6ea51618
+; > NA: |#~6ea51618|
+; Reaching the ground you shake off some twigs and leaves from your clothes.
+
+
+# ~92b97a
+; > NA: |#~92b97a|
+; You take a deep breath and make your way back to the farm.
+
+
+# ~eff352c1
+; > NA: |#~eff352c1|
+; As you approach the house looks different with the lights off, and the garden is silent at night.
+
+
+# ~d60e72e7
+; > NA: |#~d60e72e7|
+; You proceed carefully, avoiding stepping on loose leaves and twigs so you make less noise.
+
+
+# ~46865c1b
+; > NA: |#~46865c1b|
+; Then a hand pulls you, fast and sturdy.
+
+
+# ~7825f9c5
+; > PLAYER: |#~7825f9c5|
+; HEY!
+
+
+# ~2464b0b1
+; > HI: |#~2464b0b1|
+; Quiet.
+
+
+# ~89cda81b
+; > NA: |#~89cda81b|
+; Her voice is hushed.
+
+
+# ~af6f3a2a
+; > NA: |#~af6f3a2a|
+; Your body reacted before your mind and only then did you realize it was her.
+
+
+# ~22614908
+; > NA: |#~22614908|
+; Hipólita leads you a few steps to a bench hidden between the bushes.
+
+
+# ~31fc336
+; > NA: |#~31fc336|
+; You two take a seat, closer than you should.
+
+
+# ~366be5bc
+; > NA: |#~366be5bc|
+; For a while, no one speaks.
+
+
+# ~6a6ff2d7
+; > NA: |#~6a6ff2d7|
+; Only the sounds of the night and your breathing fill the space.
+
+
+# ~441c604d
+; > NA: |#~441c604d|
+; When sitting down, your hand rested splayed on the bench next to your body, Hipólita did the same.
+
+
+# ~599cf154
+; > NA: |#~599cf154|
+; Your fingers brush hers slightly.
+
+
+# ~fcd6ab57
+; > NA: |#~fcd6ab57|
+; Almost accidently, but neither moves away.
+
+
+# ~b4f94c4c
+; > PLAYER: |#~b4f94c4c|
+; How... was it?
+
+
+# ~8e9ddccc
+; > NA: |#~8e9ddccc|
+; You keep your voice low.
+
+
+# ~63aa6508
+; > PLAYER: |#~63aa6508|
+; With your fiancé?
+
+
+# ~16665dc
+; > NA: |#~16665dc|
+; Hipólita sighs.
+
+
+# ~6c17dfae
+; > HI: |#~6c17dfae|
+; As usual.
+
+
+# ~6d30fee8
+; > NA: |#~6d30fee8|
+; A humorless smile.
+
+
+# ~2e37ae5a
+; > HI: |#~2e37ae5a|
+; Just enough to not turn into a scandal, not enough to have peace.
+
+
+# ~4c0f60b5
+; > NA: |#~4c0f60b5|
+; A silence as she studies her own hands.
+
+
+# ~50bbdcc6
+; > HI: |#~50bbdcc6|
+; Do you suppose, perhaps...
+
+
+# ~b35c9fe5
+; > HI: |#~b35c9fe5|
+; That someone can be free in this situation?
+
+
+# ~ac318091
+; > PLAYER: |#~ac318091|
+; Which situation?
+
+
+# ~1cadbe9a
+; > NA: |#~1cadbe9a|
+; She hesitates.
+
+
+# ~fa498b
+; > NA: |#~fa498b|
+; As if there was danger in choosing the right words.
+
+
+# ~fc2d0a5e
+; > HI: |#~fc2d0a5e|
+; I inherited assets from my father. Land and names.
+
+
+# ~42845de8
+; > HI: |#~42845de8|
+; But what worth is any of it, being a woman?
+
+
+# ~762a8c67
+; > NA: |#~762a8c67|
+; Her voice gets even quieter.
+
+
+# ~c2d8376d
+; > HI: |#~c2d8376d|
+; I am not allowed to manage what is mine.
+
+
+# ~9bb6b028
+; > HI: |#~9bb6b028|
+; Nor to fully decide my destiny.
+
+
+# ~2c673530
+; > PLAYER: |#~2c673530|
+; That's awful and unfair, it wouldn't be like that in my time..
+
+
+# ~c5098d4
+; > PLAYER: |#~c5098d4|
+; I mean...
+
+
+# ~b0090bc5
+; > NA: |#~b0090bc5|
+; Her fingers clench lightly.
+
+
+# ~547e0ab8
+; > NA: |#~547e0ab8|
+; Yours still nearby.
+
+
+# ~8c02e552
+; > HI: |#~8c02e552|
+; I need a man.
+
+
+# ~2ba027fb
+; > HI: |#~2ba027fb|
+; To manage, to represent.
+
+
+# ~dfbf2f75
+; > HI: |#~dfbf2f75|
+; To... validate my existence.
+
+
+# ~9aacc344
+; > NA: |#~9aacc344|
+; A heavy silence, the words hit you like a punch.
+
+
+# ~97f352a9
+; > HI: |#~97f352a9|
+; My marriage isn't a choice.
+
+
+# ~fe9b61
+; > HI: |#~fe9b61|
+; It's a condition.
+
+
+# ~2456a172
+; > HI: |#~2456a172|
+; Without it I become... Inconvenient.
+
+
+# ~8811244f
+; > HI: |#~8811244f|
+; Unacceptable.
+
+
+# ~4c3b1c81
+; > HI: |#~4c3b1c81|
+; Invisible.
+
+
+# ~e2a1aa12
+; > PLAYER: |#~e2a1aa12|
+; Not that it changes anything, but I see you.
+
+
+# ~26d4dd25
+; > PLAYER: |#~26d4dd25|
+; I enjoy your company and listening to what you have to say.
+
+
+# ~6a94bcf8
+; > NA: |#~6a94bcf8|
+; A shy smile graces her lips.
+
+
+# ~6e454f96
+; > NA: |#~6e454f96|
+; The moment stretches, intimate and comfortable.
+
+
+# ~22798d78
+; > NA: |#~22798d78|
+; Your fingers brush hers again, this time intentionally.
+
+
+# ~237effae
+; > NA: |#~237effae|
+; Time passes without either of you noticing.
+
+
+# ~50e6384d
+; > HI: |#~50e6384d|
+; You must go.
+
+
+# ~d43f2356
+; > NA: |#~d43f2356|
+; She seems reluctant to say so.
+
+
+# ~82b4e870
+; > HI: |#~82b4e870|
+; Before someone notices.
+
+
+# ~62ce79e2
+; > PLAYER: |#~62ce79e2|
+; What about you?
+
+
+# ~339324cf
+; > HI: |#~339324cf|
+; I'll stay.
+
+
+# ~327c7479
+; > HI: |#~327c7479|
+; Like always.
+
+
+# ~22b308af
+; > NA: |#~22b308af|
+; You feel a weight as you stand up and you turn to her, still seated.
+
+
+# ~cc89aa3b
+; > NA: |#~cc89aa3b|
+; Your gaze lingers, until you turn away and leave the way you came in.
+
+
+# ~45015d83
+; > NA: |#~45015d83|
+; Returning down the road, the village is quiet and all lights are off.
+
+
+# ~81d19ef5
+; > NA: |#~81d19ef5|
+; As you approach the inn it is dark and very silent.
+
+
+# ~918e992c
+; > PLAYER: |#~918e992c|
+; (Everyone must be asleep...)
+
+
+# ~d2de26be
+; > NA: |#~d2de26be|
+; You go around the inn, avoiding the main entrance.
+
+
+# ~24f469c
+; > NA: |#~24f469c|
+; You didn't want to make noise as to not wake anyone, so you peek at the window.
+
+
+# ~68bc822f
+; > PLAYER: |#~68bc822f|
+; (Right, my second bad idea of the day.)
+
+
+# ~33cbfbcb
+; > PLAYER: |#~33cbfbcb|
+; (I really am acting like someone's secret lover.)
+
+
+# ~156a751d
+; > NA: |#~156a751d|
+; You climb some boxes and a fence on the back.
+
+
+# ~26f62beb
+; > NA: |#~26f62beb|
+; Carefully trying to reach the second story roof.
+
+
+# ~8adcef66
+; > NA: |#~8adcef66|
+; A little less elegantly than you'd like.
+
+
+# ~34eca5c8
+; > NA: |#~34eca5c8|
+; But you manage, it's a little more slippery than it seemed from the ground.
+
+
+# ~1987b48b
+; > NA: |#~1987b48b|
+; You approach one of the windows carefully.
+
+
+# ~19d48657
+; > NA: |#~19d48657|
+; You climb inside, not quite in your room but the hallway.
+
+
+# ~27fe2f61
+; > PLAYER: |#~27fe2f61|
+; (A miscalculation.)
+
+
+# ~23a9fc72
+; > NA: |#~23a9fc72|
+; Trying not to make any noise you approach your bedroom door.
+
+
+# ~c7bf0d35
+; > NA: |#~c7bf0d35|
+; Inside it is dark and quiet.
+
+
+# ~de99ca7c
+; > NA: |#~de99ca7c|
+; But you're thankful for managing to return safely after the day you had.
+
+
+# ~a727efdf
+; > PLAYER: |#~a727efdf|
+; (...This is getting dangerous.)
+
+
+# ~6f637d3a
+; > PLAYER: |#~6f637d3a|
+; (Still... I would do it again.)
+
+
+# ~1b22ec72
+; > NA: |#~1b22ec72|
+; You rise earlier than normal that morning.
+
+
+# ~b5b7f349
+; > NA: |#~b5b7f349|
+; The light coming in through the window is still soft.
+
+
+# ~b7ad936f
+; > NA: |#~b7ad936f|
+; The village is barely awake.
+
+
+# ~9d2a2ea8
+; > NA: |#~9d2a2ea8|
+; You take care of your hygiene, but you're so restless that you almost spill the entire basin washing up and almost choke on the cloves this time.
+
+
+# ~8eadbfc8
+; > PLAYER: |#~8eadbfc8|
+; (What a delightful morning...)
+
+
+# ~48dc8524
+; > NA: |#~48dc8524|
+; After tidying up your own mess and getting dressed, you go downstairs.
+
+
+# ~9ce3f16b
+; > NA: |#~9ce3f16b|
+; On the ground floor you meet Francisca already awake, but only just started to fix breakfast.
+
+
+# ~770153b8
+; > NA: |#~770153b8|
+; She's carefully grinding the coffee beans on a pestle.
+
+
+# ~5b8550e3
+; > FR: |#~5b8550e3|
+; My...
+
+
+# ~4fc8ad6a
+; > NA: |#~4fc8ad6a|
+; She looks up, surprised.
+
+
+# ~b1897444
+; > FR: |#~b1897444|
+; Fell off the bed, did you?
+
+
+# ~d11012c2
+; > PLAYER: |#~d11012c2|
+; Something like that...
+
+
+# ~fb477a2d
+; > FR: |#~fb477a2d|
+; Curious.
+
+
+# ~9e72249d
+; > NA: |#~9e72249d|
+; She wipes her hands on her apron.
+
+
+# ~592a1ccc
+; > FR: |#~592a1ccc|
+; Because I didn't hear you come in last night.
+
+
+# ~ef3ee875
+; > NA: |#~ef3ee875|
+; A short silence as your eyes go wide.
+
+
+# ~8593dcb
+; > FR: |#~8593dcb|
+; And I usually hear everything.
+
+
+# ~cfa53be4
+; > NA: |#~cfa53be4|
+; She takes another step.
+
+
+# ~325658ad
+; > FR: |#~325658ad|
+; Even so... there was some noise in the hallway.
+
+
+# ~96497db9
+; > FR: |#~96497db9|
+; Something like... a window.
+
+
+# ~ea597ff7
+; > NA: |#~ea597ff7|
+; You gulp.
+
+
+# ~28276c1a
+; > PLAYER: |#~28276c1a|
+; Must have been the wind.
+
+
+# ~5e6e5dbd
+; > FR: |#~5e6e5dbd|
+; The wind.
+
+
+# ~7ff56c0b
+; > NA: |#~7ff56c0b|
+; She repeats, relishing it.
+
+
+# ~e55696c8
+; > FR: |#~e55696c8|
+; Some unusual talents on that wind.
+
+
+# ~1ad97491
+; > FR: |#~1ad97491|
+; Opening windows and retreating to someone else's chambers.
+
+
+# ~6d87bddb
+; > NA: |#~6d87bddb|
+; She lets out a chuckle.
+
+
+# ~6b6b3cf4
+; > FR: |#~6b6b3cf4|
+; I respect it.
+
+
+# ~d6bf3fd6
+; > FR: |#~d6bf3fd6|
+; You should introduce it to me one day.
+
+
+# ~42163c39
+; > NA: |#~42163c39|
+; You avert your eyes.
+
+
+# ~2b51b2a6
+; > PLAYER: |#~2b51b2a6|
+; I don't know what you mean.
+
+
+# ~c3bf3cf3
+; > FR: |#~c3bf3cf3|
+; Of course not.
+
+
+# ~38c1eaf4
+; > NA: |#~38c1eaf4|
+; Smiling, she gets back to grinding the coffee.
+
+
+# ~cd7378de
+; > FR: |#~cd7378de|
+; And then?
+
+
+# ~a777fd27
+; > FR: |#~a777fd27|
+; How did you meeting with the.... betrothed lady go?
+
+
+# ~80cd41f4
+; > NA: |#~80cd41f4|
+; You hesitate, pondering how much to share.
+
+
+# ~1b69890b
+; > PLAYER: |#~1b69890b|
+; It was... intense.
+
+
+# ~b9dc76dc
+; > FR: |#~b9dc76dc|
+; I imagine so.
+
+
+# ~418d9018
+; > NA: |#~418d9018|
+; An instant smile.
+
+
+# ~dadfe8f6
+; > PLAYER: |#~dadfe8f6|
+; Her fiancé showed up while we talked.
+
+
+# ~a9ed9e4c
+; > NA: |#~a9ed9e4c|
+; Francisca slows to a stop.
+
+
+# ~6084adf
+; > FR: |#~6084adf|
+; Of course he did.
+
+
+# ~2e265aba
+; > FR: |#~2e265aba|
+; That was the missing component.
+
+
+# ~41645af1
+; > PLAYER: |#~41645af1|
+; Let's just say he wasn't a fan of seeing me there with her.
+
+
+# ~d75273c2
+; > FR: |#~d75273c2|
+; What an outrage.
+
+
+# ~95be9670
+; > NA: |#~95be9670|
+; She brings her hand to her chest, dramatic.
+
+
+# ~5fb3ad9f
+; > FR: |#~5fb3ad9f|
+; A man can't even enter his own home and he'll find a stranger talking with his promised.
+
+
+# ~7de71de6
+; > FR: |#~7de71de6|
+; Where will we end up?
+
+
+# ~6fda4e44
+; > FR: |#~6fda4e44|
+; The scandal.
+
+
+# ~8d0f0490
+; > NA: |#~8d0f0490|
+; She lets out a laugh.
+
+
+# ~bca6e989
+; > PLAYER: |#~bca6e989|
+; Bárbara showed up too.
+
+
+# ~8c08d6ac
+; > NA: |#~8c08d6ac|
+; She scowls and lifts an eyebrow, confused.
+
+
+# ~df760f10
+; > FR: |#~df760f10|
+; Bárbara?
+
+
+# ~617a551a
+; > FR: |#~617a551a|
+; So you befriended her too?
+
+
+# ~555b79ce
+; > PLAYER: |#~555b79ce|
+; It's not quite friendship, but...
+
+
+# ~7abee7c2
+; > FR: |#~7abee7c2|
+; Another committed woman.
+
+
+# ~a4b63554
+; > FR: |#~a4b63554|
+; You're turning into a real scourge to the Vila Rica marriages.
+
+
+# ~4e9cad8a
+; > NA: |#~4e9cad8a|
+; You awkwardly laugh and your cheeks burn.
+
+
+# ~c1acfa10
+; > PLAYER: |#~c1acfa10|
+; It's not my intention.
+
+
+# ~fa28975
+; > NA: |#~fa28975|
+; She leans slightly.
+
+
+# ~5a092607
+; > FR: |#~5a092607|
+; Still, you see how things are turning out.
+
+
+# ~73ba9af6
+; > NA: |#~73ba9af6|
+; Before the silence can embarrass you even more.
+
+
+# ~a263c030
+; > NA: |#~a263c030|
+; You hear a deep voice, velvety and familiar.
+
+
+# ~f887878c
+; > VOICE: |#~f887878c|
+; I hope I don't come at an inappropriate time.
+
+
+# ~d0069836
+; > NA: |#~d0069836|
+; The two of you turn at once.
+
+
+# ~cb010714
+; > NA: |#~cb010714|
+; And soon stay there quietly staring.
+
+
+# ~a99331a8
+; > NA: |#~a99331a8|
+; Alvarenga stands at the door.
+
+
+# ~551e9d14
+; > NA: |#~551e9d14|
+; Elegant and observant as always.
+
+
+# ~180256eb
+; > NA: |#~180256eb|
+; As if he already noticed more than he should.
+
+
+# ~c82e4460
+; > AL: |#~c82e4460|
+; I see the day caught you early.
+
+
+# ~e3ac0020
+; > FR: |#~e3ac0020|
+; Some earlier than others.
+
+
+# ~57e41d8c
+; > NA: |#~57e41d8c|
+; Francisca answers casually.
+
+
+# ~dbe359b4
+; > AL: |#~dbe359b4|
+; It's better like this.
+
+
+# ~2d5dd845
+; > NA: |#~2d5dd845|
+; A brief wave.
+
+
+# ~12423c89
+; > NA: |#~12423c89|
+; He turns his gaze to you.
+
+
+# ~d474528e
+; > AL: |#~d474528e|
+; I was looking for you.
+
+
+# ~c9ed46ce
+; > NA: |#~c9ed46ce|
+; Surprised, your eyes widen.
+
+
+# ~64ca2bb1
+; > AL: |#~64ca2bb1|
+; We're having a meeting tonight.
+
+
+# ~31e512d4
+; > AL: |#~31e512d4|
+; At Lady Hipólita's.
+
+
+# ~cd064518
+; > NA: |#~cd064518|
+; Your heart skips a little.
+
+
+# ~a4e7717a
+; > AL: |#~a4e7717a|
+; We're discussing... certain ideas.
+
+
+# ~175fe689
+; > AL: |#~175fe689|
+; And I believe the alferes would appreciate your presence.
+
+
+# ~16bfae2
+; > NA: |#~16bfae2|
+; The name isn't spoken, but it's understood.
+
+
+# ~fb4adce5
+; > NA: |#~fb4adce5|
+; Francisca watches the scene in silence, but interested.
+
+
+# ~93297ff2
+; > PLAYER: |#~93297ff2|
+; I'll be there.
+
+
+# ~e9835a3c
+; > NA: |#~e9835a3c|
+; Alvarenga nods.
+
+
+# ~4ecd129d
+; > AL: |#~4ecd129d|
+; I'm glad.
+
+
+# ~3a4f6b5a
+; > AL: |#~3a4f6b5a|
+; I won't hold you any longer.
+
+
+# ~99d4ace6
+; > AL: |#~99d4ace6|
+; You both seemed very amused.
+
+
+# ~7d2c6f09
+; > FR: |#~7d2c6f09|
+; We were judging winds.
+
+
+# ~b0c6895d
+; > AL: |#~b0c6895d|
+; Incredibly useful business.
+
+
+# ~50a344ac
+; > NA: |#~50a344ac|
+; He nods goodbye and leaves.
+
+
+# ~ec869356
+; > NA: |#~ec869356|
+; You blink, still surprised with the visit.
+
+
+# ~348887ea
+; > NA: |#~348887ea|
+; Francisca notices your condition.
+
+
+# ~619d8fb2
+; > FR: |#~619d8fb2|
+; Good lord.
+
+
+# ~28be5a89
+; > FR: |#~28be5a89|
+; You look like you saw a ghost.
+
+
+# ~5e3a3dca
+; > PLAYER: |#~5e3a3dca|
+; I just didn't expect to see him here.
+
+
+# ~5a5e41e3
+; > NA: |#~5a5e41e3|
+; Her mouth curves in a mischievous smile.
+
+
+# ~6bc533bb
+; > NA: |#~6bc533bb|
+; Francisca keeps staring at you with her arms crossed.
+
+
+# ~18579fa8
+; > FR: |#~18579fa8|
+; If you keep blushing this much you'll save me much firewood.
+
+
+# ~21317b36
+; > PLAYER: |#~21317b36|
+; I'm not blushing.
+
+
+# ~4849eaa3
+; > FR: |#~4849eaa3|
+; You look like an open pomegranate.
+
+
+# ~8cec24f8
+; > FR: |#~8cec24f8|
+; And now you lost your speech.
+
+
+# ~ca573de8
+; > FR: |#~ca573de8|
+; Deplorable state.
+
+
+# ~c5f0d825
+; > NA: |#~c5f0d825|
+; The silence lasts exactly one second.
+
+
+# ~d0361d01
+; > FR: |#~d0361d01|
+; Why.
+
+
+# ~b99109e7
+; > FR: |#~b99109e7|
+; Engaged lady, married neighbor, and now a meeting at the same lady's house.
+
+
+# ~b82427c
+; > NA: |#~b82427c|
+; A slow smile emerges.
+
+
+# ~21d03c0a
+; > FR: |#~21d03c0a|
+; You really are committed.
+
+
+# ~2a3d4aa
+; > PLAYER: |#~2a3d4aa|
+; I had no idea and I didn't start anything.
+
+
+# ~a2d9e5e8
+; > FR: |#~a2d9e5e8|
+; But you're certainly in the middle of things.
+
+
+# ~4e3f6e98
+; > NA: |#~4e3f6e98|
+; A chuckle escapes her.
+
+
+# ~2acd10d2
+; > FR: |#~2acd10d2|
+; Go, eat something.
+
+
+# ~d1467d68
+; > FR: |#~d1467d68|
+; You'll need strength for tonight.
+
+
+# ~a7c0f4e6
+; > NA: |#~a7c0f4e6|
+; She returns to working on the coffee, still laughing at you.
+
+
+# ~c23662a8
+; > NA: |#~c23662a8|
+; After grinding the beans to a powder, she strains them.
+
+
+# ~f8aed812
+; > NA: |#~f8aed812|
+; It's strong but tasty, not even back in the city did you have a coffee this good.
+
+
+# ~13e0036b
+; > NA: |#~13e0036b|
+; After eating you approach Francisca.
+
+
+# ~341d6857
+; > PLAYER: |#~341d6857|
+; Do you need any help today?
+
+
+# ~2313c213
+; > NA: |#~2313c213|
+; Francisca studies you for a moment.
+
+
+# ~b3822b33
+; > FR: |#~b3822b33|
+; I might need help.
+
+
+# ~c274c701
+; > FR: |#~c274c701|
+; Now, if I want it... I'm still considering it.
+
+
+# ~63571a72
+; > NA: |#~63571a72|
+; She sighs theatrically.
+
+
+# ~d080369a
+; > FR: |#~d080369a|
+; But since you insist... I'll teach you to mend clothes.
+
+
+# ~705decc3
+; > PLAYER: |#~705decc3|
+; Sewing?
+
+
+# ~72dfe637
+; > FR: |#~72dfe637|
+; Don't be scared.
+
+
+# ~11d8205f
+; > FR: |#~11d8205f|
+; A needle hurts less than some of your choices.
+
+
+# ~16baf9d4
+; > PLAYER: |#~16baf9d4|
+; Do I have to learn because I'm a woman?
+
+
+# ~69318bb0
+; > NA: |#~69318bb0|
+; Francisca raises an eyebrow.
+
+
+# ~17d50ac
+; > FR: |#~17d50ac|
+; You have to learn because you're a living creature.
+
+
+# ~a489f923
+; > FR: |#~a489f923|
+; Clothes tear, buttons fall off, seams come undone.
+
+
+# ~1f138a1d
+; > FR: |#~1f138a1d|
+; Depending on others for every crooked line is miserable.
+
+
+# ~3688cd38
+; > FR: |#~3688cd38|
+; You learn to be functional, implying otherwise is for idle people.
+
+
+# ~acf52b8
+; > PLAYER: |#~acf52b8|
+; You're right.
+
+
+# ~266a9965
+; > NA: |#~266a9965|
+; You're surprised how a woman from this time can have such strong beliefs and with her world view.
+
+
+# ~5e352ca8
+; > NA: |#~5e352ca8|
+; Francisca smirks.
+
+
+# ~4494a13d
+; > FR: |#~4494a13d|
+; The big man can't learn to fix his own pants?
+
+
+# ~9e7f27fb
+; > PLAYER: |#~9e7f27fb|
+; It's not that, it's just....
+
+
+# ~c717d4d1
+; > FR: |#~c717d4d1|
+; Shame. I believed you were braver.
+
+
+# ~cc725ff
+; > FR: |#~cc725ff|
+; If you face jealous fiancés and married women...
+
+
+# ~fc628293
+; > FR: |#~fc628293|
+; A needle won't triumph over you.
+
+
+# ~a99465a
+; > NA: |#~a99465a|
+; She sits you down at the table.
+
+
+# ~200179cc
+; > NA: |#~200179cc|
+; Fabric, thread and needle shoved in your direction.
+
+
+# ~4610d9d
+; > FR: |#~4610d9d|
+; First, you thread the needle.
+
+
+# ~2723f5f3
+; > NA: |#~2723f5f3|
+; You try and miss.
+
+
+# ~aa2be09b
+; > NA: |#~aa2be09b|
+; You try again and miss even more than before.
+
+
+# ~e65b044a
+; > FR: |#~e65b044a|
+; Admirable.
+
+
+# ~7467e1b5
+; > FR: |#~7467e1b5|
+; Hand in hand with disaster.
+
+
+# ~efc8f6a6
+; > NA: |#~efc8f6a6|
+; After a humiliating fight between you and the needle, the thread finally goes through.
+
+
+# ~10de78db
+; > PLAYER: |#~10de78db|
+; I did it.
+
+
+# ~9c186196
+; > FR: |#~9c186196|
+; Don't get proud too soon.
+
+
+# ~adbda9bc
+; > FR: |#~adbda9bc|
+; You still need everything else.
+
+
+# ~6ca82fd3
+; > NA: |#~6ca82fd3|
+; Hours go by between crooked stitches, pricked fingers and Francisca's muffled laughs.
+
+
+# ~36b5b330
+; > PLAYER: |#~36b5b330|
+; How did you learn all this?
+
+
+# ~4049d7c8
+; > NA: |#~4049d7c8|
+; She keeps folding a rag before answering.
+
+
+# ~90fac930
+; > FR: |#~90fac930|
+; Because there was a time when, if I didn't... I'd get a beating.
+
+
+# ~d2433846
+; > NA: |#~d2433846|
+; She doesn't raise her voice and she doesn't have you, you feel something squeeze inside you.
+
+
+# ~2deba343
+; > FR: |#~2deba343|
+; Cooking, cleaning, sewing, serving.
+
+
+# ~df456cc4
+; > FR: |#~df456cc4|
+; Smiling when ordered. Silencing when convenient
+
+
+# ~1be1b9dc
+; > PLAYER: |#~1be1b9dc|
+; I'm sorry, I didn't mean....
+
+
+# ~faaca9e4
+; > NA: |#~faaca9e4|
+; She shakes her head, as if this was just another part of her life.
+
+
+# ~3e56419b
+; > FR: |#~3e56419b|
+; Then I learned other crafts.
+
+
+# ~489f8f99
+; > FR: |#~489f8f99|
+; Trading, negotiating, managing.
+
+
+# ~1be169d1
+; > FR: |#~1be169d1|
+; These pay more.
+
+
+# ~c73087a5
+; > NA: |#~c73087a5|
+; A half smile returns.
+
+
+# ~1d950f1
+; > PLAYER: |#~1d950f1|
+; And that's how you acquired the inn?
+
+
+# ~9a8c84d0
+; > FR: |#~9a8c84d0|
+; That's how I acquired myself.
+
+
+# ~232d8a64
+; > NA: |#~232d8a64|
+; She stares at you.
+
+
+# ~e2a7b7d3
+; > FR: |#~e2a7b7d3|
+; The inn came after.
+
+
+# ~ade23d0f
+; > PLAYER: |#~ade23d0f|
+; Is this why you're not against the meeting with Tiradentes and the others?
+
+
+# ~62e66b13
+; > FR: |#~62e66b13|
+; The alferes speaks as a man who wants to change the world.
+
+
+# ~ba5be6f6
+; > FR: |#~ba5be6f6|
+; Sometimes that suffices, and sometimes that kills.
+
+
+# ~d19ed1c9
+; > NA: |#~d19ed1c9|
+; She goes back to work.
+
+
+# ~2b114fc9
+; > FR: |#~2b114fc9|
+; But I don't deny his valor nor his resolve.
+
+
+# ~d11d8da5
+; > FR: |#~d11d8da5|
+; Of these virtues, the alferes has plenty.
+
+
+# ~954c5019
+; > FR: |#~954c5019|
+; Maybe in excess.
+
+
+# ~6623e9b4
+; > PLAYER: |#~6623e9b4|
+; You're right at that, when he talks about changing people's reality this includes people like....
+
+
+# ~d14ff4c0
+; > NA: |#~d14ff4c0|
+; She arches her eyebrow watching your next words.
+
+
+# ~9ddf72cf
+; > PLAYER: |#~9ddf72cf|
+; People who don't have a chance or are judged for things like the color of their skin and placed in inferior positions.
+
+
+# ~a7ee5fd9
+; > PLAYER: |#~a7ee5fd9|
+; That just shouldn't happen.
+
+
+# ~f050b872
+; > NA: |#~f050b872|
+; She nods.
+
+
+# ~e54b560f
+; > FR: |#~e54b560f|
+; You speak dangerous words so naturally.
+
+
+# ~1bc8671d
+; > PLAYER: |#~1bc8671d|
+; I only speak my mind.
+
+
+# ~f36dc152
+; > FR: |#~f36dc152|
+; Maybe that's why you listen to the alferes with such regard.
+
+
+# ~b7fda6e
+; > FR: |#~b7fda6e|
+; You recognize the same impatience in him.
+
+
+# ~b6ed9f4d
+; > PLAYER: |#~b6ed9f4d|
+; Maybe.
+
+
+# ~ff472139
+; > FR: |#~ff472139|
+; Or maybe you like difficult men.
+
+
+# ~c4309c04
+; > FR: |#~c4309c04|
+; There.
+
+
+# ~49601a1
+; > FR: |#~49601a1|
+; We're back to safe grounds.
+
+
+# ~d93dc8f7
+; > NA: |#~d93dc8f7|
+; The rest of the day rushes by among smaller chores.
+
+
+# ~94734118
+; > NA: |#~94734118|
+; Mending clothes under her unforgiving supervision is one of them.
+
+
+# ~17779006
+; > FR: |#~17779006|
+; That's crooked.
+
+
+# ~cb60b915
+; > PLAYER: |#~cb60b915|
+; No, it's not.
+
+
+# ~96fc2ffe
+; > FR: |#~96fc2ffe|
+; It is.
+
+
+# ~af4ccf0
+; > PLAYER: |#~af4ccf0|
+; You can't even see it.
+
+
+# ~a0cd135f
+; > FR: |#~a0cd135f|
+; I can see it from Lisboa to the Porto.
+
+
+# ~8f139481
+; > NA: |#~8f139481|
+; You undo it and start over, the day keeps going between tasks and chats with Francisca.
+
+
+# ~cb151feb
+; > NA: |#~cb151feb|
+; You feel good in her company, or maybe it's the town.
+
+
+# ~461f6c2b
+; > NA: |#~461f6c2b|
+; For the first time in a while, you feel a sense of belonging and a gentle peace.
+
+
+# ~d7b0d1b
+; > NA: |#~d7b0d1b|
+; When night falls, you start to get ready to the meeting at Hipólita's house.
+
+
+# ~870b2df
+; > NA: |#~870b2df|
+; You wash your face and get changed. And inhale a deep breath to prepare for the night ahead of you.
+
+
+# ~275a2639
+; > NA: |#~275a2639|
+; Francisca stops by your room, standing near the door.
+
+
+# ~94d09dae
+; > FR: |#~94d09dae|
+; Go.
+
+
+# ~94b4bf9e
+; > FR: |#~94b4bf9e|
+; And see that today you ruin only half the marriages in the village.
+
+
+# ~b4550d9b
+; Noite dos Inconfidentes
+
+
+# ~5d315c5d
+; > NA: |#~5d315c5d|
+; The path to Hipólita's was peaceful and quiet, when you approach you notice the lights and muffled voices.
+
+
+# ~8ad783a7
+; > NA: |#~8ad783a7|
+; Going inside everyone's faces turn toward you, some curious and others simply calculating.
+
+
+# ~88af8f5f
+; > NA: |#~88af8f5f|
+; You see Tiradentes in the middle, Joaquim sits relaxed in a chair. Hipólita, her fiancé, and Célio to the corner.
+
+
+# ~71c0c6a0
+; > NA: |#~71c0c6a0|
+; Tiradentes was mid speech when you arrive.
+
+
+# ~64985b23
+; > TI: |#~64985b23|
+; If we wait for permission from the Crown to be free, we'll die obedient.
+
+
+# ~9f2f0ad4
+; > JO: |#~9f2f0ad4|
+; And if we run recklessly we'll die hanged.
+
+
+# ~f3c3e9b7
+; > NA: |#~f3c3e9b7|
+; Hipólita's fiancé is the first to stand up when seeing you.
+
+
+# ~66d00d2b
+; > NO: |#~66d00d2b|
+; What on earth does this mean?
+
+
+# ~34b74532
+; > NA: |#~34b74532|
+; His voice cuts through the room and everyone stands to attention.
+
+
+# ~ec88f260
+; > NO: |#~ec88f260|
+; What are you doing here?
+
+
+# ~ecfc8f82
+; > NA: |#~ecfc8f82|
+; He looks from you to Hipólita.
+
+
+# ~78819e3
+; > NO: |#~78819e3|
+; In my house yesterday.
+
+
+# ~1e24abf0
+; > NO: |#~1e24abf0|
+; And today... here again?
+
+
+# ~4a24ed06
+; > NA: |#~4a24ed06|
+; Hipólita stiffens.
+
+
+# ~3c2aaf42
+; > HI: |#~3c2aaf42|
+; It's not your house.
+
+
+# ~1e2a5630
+; > HI: |#~1e2a5630|
+; It's ours.
+
+
+# ~f1a37424
+; > NA: |#~f1a37424|
+; Her jaw locks in place.
+
+
+# ~10524e9a
+; > PLAYER: |#~10524e9a|
+; I was invited.
+
+
+# ~16e72500
+; > HI: |#~16e72500|
+; By whom?
+
+
+# ~68abe23c
+; > TI: |#~68abe23c|
+; By me.
+
+
+# ~27b41ba3
+; > NA: |#~27b41ba3|
+; Tiradentes speaks up before you take a breath.
+
+
+# ~a2d23acb
+; > NA: |#~a2d23acb|
+; The room turns to him.
+
+
+# ~95202d3
+; > TI: |#~95202d3|
+; If this answer suits you.
+
+
+# ~75053804
+; > NO: |#~75053804|
+; I did not address you, alferes.
+
+
+# ~943c3567
+; > NA: |#~943c3567|
+; The title used as correction, a reminder of hierarchy.
+
+
+# ~8b8badbd
+; > TI: |#~8b8badbd|
+; And I didn't ask for permission, colonel.
+
+
+# ~6c79609c
+; > NA: |#~6c79609c|
+; His counter is calm.
+
+
+# ~c634e937
+; > NA: |#~c634e937|
+; No raised voices.
+
+
+# ~12a65ac0
+; > NA: |#~12a65ac0|
+; They exchange a quick glance.
+
+
+# ~2c4d9920
+; > NA: |#~2c4d9920|
+; There is no real friction between them.
+
+
+# ~d8e1a7dd
+; > NA: |#~d8e1a7dd|
+; There is history, old conversations, favors exchanged.
+
+
+# ~83a48f74
+; > NA: |#~83a48f74|
+; And debates repeated over wine tables.
+
+
+# ~8e29b5c5
+; > NA: |#~8e29b5c5|
+; Francisco knows that Tiradentes won't fold easily.
+
+
+# ~2465c9f4
+; > NA: |#~2465c9f4|
+; And everyone there knows that few would dare speak to him this way and not pay the price.
+
+
+# ~3add8c20
+; > NA: |#~3add8c20|
+; But Tiradentes isn't just anybody, there's something in him that the whole room recognizes.
+
+
+# ~2859ebbb
+; > NA: |#~2859ebbb|
+; Respect earned without a badge.
+
+
+# ~c0947711
+; > NO: |#~c0947711|
+; You continue to confuse honesty with insolence.
+
+
+# ~bb738cbe
+; > TI: |#~bb738cbe|
+; And you continue to confuse command with reason.
+
+
+# ~f07d9cfd
+; > NA: |#~f07d9cfd|
+; A murmur goes around the room.
+
+
+# ~cc7942e3
+; > AL: |#~cc7942e3|
+; We started early tonight.
+
+
+# ~355ee6cb
+; > NA: |#~355ee6cb|
+; Alvarenga comments as he walks in. Garments perfectly aligned and a confident look in his eyes.
+
+
+# ~49dbdcbc
+; > NA: |#~49dbdcbc|
+; Bárbara follows him closely, just as elegantly dressed and a proud smile.
+
+
+# ~19a0c560
+; > JO: |#~19a0c560|
+; Now the group is complete.
+
+
+# ~2d13437
+; > JO: |#~2d13437|
+; Come, doctor.
+
+
+# ~c3b402b2
+; > JO: |#~c3b402b2|
+; The alferes wishes to conquer empires before dessert.
+
+
+# ~d99d5a13
+; > AL: |#~d99d5a13|
+; You always greet me kindly.
+
+
+# ~5b675b62
+; > BA: |#~5b675b62|
+; While I'm not greeted at all.
+
+
+# ~56d980e7
+; > NA: |#~56d980e7|
+; She feigns surprise.
+
+
+# ~7c97727
+; > PLAYER: |#~7c97727|
+; (Bárbara...is Alvarenga's wife?)
+
+
+# ~8fb9cadb
+; > NA: |#~8fb9cadb|
+; You blink twice, much too slow.
+
+
+# ~b4364ee5
+; > NA: |#~b4364ee5|
+; Then a third time, to be sure.
+
+
+# ~c2d745c4
+; > PLAYER: |#~c2d745c4|
+; (They're both attractive, but their personalities seem too opposite to be together and married.)
+
+
+# ~7185ed54
+; > NA: |#~7185ed54|
+; Suddenly a lot makes sense.
+
+
+# ~58f15219
+; > NO: |#~58f15219|
+; This is a serious meeting.
+
+
+# ~254f3efd
+; > NO: |#~254f3efd|
+; Not an open house.
+
+
+# ~31633f6d
+; > TI: |#~31633f6d|
+; And you're right, colonel.
+
+
+# ~38bbff67
+; > TI: |#~38bbff67|
+; But since the doors are open...
+
+
+# ~807b7981
+; > TI: |#~807b7981|
+; Let's make better use of it, rather than creating more unease.
+
+
+# ~6c688b7e
+; > NA: |#~6c688b7e|
+; Joaquim muffles a laugh on his lips.
+
+
+# ~1a550395
+; > JO: |#~1a550395|
+; I'm with the alferes.
+
+
+# ~c1f85a5e
+; > JO: |#~c1f85a5e|
+; Keep your outrage for the Crown or your mirrors.
+
+
+# ~1c1b2851
+; > NO: |#~1c1b2851|
+; You've all lost your minds.
+
+
+# ~d3aad89c
+; > HI: |#~d3aad89c|
+; Maybe we're just tired of you.
+
+
+# ~c81528d
+; > NA: |#~c81528d|
+; The air in the room gets heavy, you could cut the tension between them with a knife.
+
+
+# ~236b1ea0
+; > NA: |#~236b1ea0|
+; But Tiradentes takes advantage of the momentum.
+
+
+# ~6ff9d7
+; > TI: |#~6ff9d7|
+; Since we're gathered let's talk about what matters.
+
+
+# ~2c3033ff
+; > TI: |#~2c3033ff|
+; The Crown increases taxes.
+
+
+# ~70630766
+; > TI: |#~70630766|
+; Squeezes gold when it's already scarce.
+
+
+# ~5482cb1f
+; > TI: |#~5482cb1f|
+; And treats this land as a mine with no people.
+
+
+# ~f533c8ee
+; > JO: |#~f533c8ee|
+; We agree on that.
+
+
+# ~9e3d8c50
+; > JO: |#~9e3d8c50|
+; What we don't agree on is everything else.
+
+
+# ~75dfb19d
+; > TI: |#~75dfb19d|
+; We're lacking courage.
+
+
+# ~13d4eb07
+; > JO: |#~13d4eb07|
+; We're lacking a plan.
+
+
+# ~b3895040
+; > TI: |#~b3895040|
+; We'll have men with us.
+
+
+# ~6300fea0
+; > TI: |#~6300fea0|
+; Soldiers, guards, people tired of submitting.
+
+
+# ~aeb7c79f
+; > JO: |#~aeb7c79f|
+; Will we?
+
+
+# ~c530e
+; > JO: |#~c530e|
+; Or do you daydream again?
+
+
+# ~61f68b27
+; > TI: |#~61f68b27|
+; You've always favored doubt.
+
+
+# ~eb43034c
+; > JO: |#~eb43034c|
+; You've always favored improvising.
+
+
+# ~81bd2bdd
+; > TI: |#~81bd2bdd|
+; If we wait for the perfect moment we'll die waiting.
+
+
+# ~eddac526
+; > JO: |#~eddac526|
+; If we rush with no strategy, we'll die.
+
+
+# ~b75c1d00
+; > TI: |#~b75c1d00|
+; Are you a coward?
+
+
+# ~865d1349
+; > NA: |#~865d1349|
+; Silence.
+
+
+# ~4b99ef43
+; > JO: |#~4b99ef43|
+; But I begin to suspect you are a fool.
+
+
+# ~e1562e9f
+; > NA: |#~e1562e9f|
+; The room splits between those who pretend not to hear them, and those who seem to anticipate a conflict between the two.
+
+
+# ~51bc0c61
+; > NA: |#~51bc0c61|
+; Alvarenga's voice is quiet but powerful, everybody listens to him.
+
+
+# ~c3b32cde
+; > AL: |#~c3b32cde|
+; You're grown men.
+
+
+# ~63ead843
+; > AL: |#~63ead843|
+; And you yell like an old couple at the market.
+
+
+# ~df1c1b7b
+; > NA: |#~df1c1b7b|
+; Hipólita, Célio and Bárbara try to hold back their laughter.
+
+
+# ~a6bc93cb
+; > NA: |#~a6bc93cb|
+; While Tiradentes and Joaquim stare at each other, frustrated.
+
+
+# ~82a7624b
+; > BA: |#~82a7624b|
+; Since you gentlemen measure courage by volume, perhaps you'd like to listen to those who can rarely be loud.
+
+
+# ~4965ae9e
+; > NA: |#~4965ae9e|
+; Bárbara crosses the room as if she owned it.
+
+
+# ~41a09534
+; > BA: |#~41a09534|
+; You speak of freedom.
+
+
+# ~eaa0f675
+; > BA: |#~eaa0f675|
+; And how many women have any choice?
+
+
+# ~c827b75b
+; > NA: |#~c827b75b|
+; The men look at her, intrigued.
+
+
+# ~eeffc440
+; > HI: |#~eeffc440|
+; Very few.
+
+
+# ~3e267a4a
+; > NA: |#~3e267a4a|
+; Hipólita answers, resolute.
+
+
+# ~73a1d1a6
+; > HI: |#~73a1d1a6|
+; Some of us inherit assets we cannot manage.
+
+
+# ~2a693e0
+; > HI: |#~2a693e0|
+; Others inherit names we cannot use. Almost all inherit silence.
+
+
+# ~13ca586
+; > BA: |#~13ca586|
+; And husbands.
+
+
+# ~6a50420c
+; > NA: |#~6a50420c|
+; Adds Bárbara.
+
+
+# ~ef4addf7
+; > BA: |#~ef4addf7|
+; Let's not forget that prize.
+
+
+# ~545c40ed
+; > NO: |#~545c40ed|
+; Madam!
+
+
+# ~36a2053c
+; > BA: |#~36a2053c|
+; I'm not your madam, thank the Lord.
+
+
+# ~82c16d75
+; > NA: |#~82c16d75|
+; Barely concealed laughs escape the men.
+
+
+# ~d936093f
+; > HI: |#~d936093f|
+; You speak of a new freedom.
+
+
+# ~d66cb357
+; > HI: |#~d66cb357|
+; Tell me, alferes. In your republic could women own what is theirs?
+
+
+# ~e76e63af
+; > HI: |#~e76e63af|
+; Sign contracts? Refuse marriage?
+
+
+# ~3e2f712e
+; > JO: |#~3e2f712e|
+; A better question than half this night.
+
+
+# ~b44b3126
+; > NA: |#~b44b3126|
+; Joaquim taunts.
+
+
+# ~ed175773
+; > NA: |#~ed175773|
+; Tiradentes hesitates for a moment.
+
+
+# ~4412d92e
+; > NA: |#~4412d92e|
+; His gaze stays on Hipólita's fiancé, as if considering whether to speak.
+
+
+# ~36ab27d
+; > NA: |#~36ab27d|
+; The silence is short.
+
+
+# ~7821f599
+; > NA: |#~7821f599|
+; But enough for Hipólita to notice.
+
+
+# ~12e40a15
+; > NA: |#~12e40a15|
+; And enough for some to understand he made up his mind.
+
+
+# ~f35f7ce2
+; > TI: |#~f35f7ce2|
+; Miss Hipólita is right.
+
+
+# ~3d6f3f8f
+; > TI: |#~3d6f3f8f|
+; There are movements that fail by disregarding the hands that sustain it.
+
+
+# ~1291a0f5
+; > TI: |#~1291a0f5|
+; Not all bravery comes from a sword on your belt.
+
+
+# ~57b0a3c9
+; > TI: |#~57b0a3c9|
+; There will be justice for all.
+
+
+# ~9ae883b7
+; > HI: |#~9ae883b7|
+; “All” tends to exclude many.
+
+
+# ~83bc36ee
+; > BA: |#~83bc36ee|
+; Especially when written by men.
+
+
+# ~d6377bcb
+; > AL: |#~d6377bcb|
+; Ladies...
+
+
+# ~a9536d63
+; > BA: |#~a9536d63|
+; Don't silence us now, doctor.
+
+
+# ~1e3da076
+; > NA: |#~1e3da076|
+; Bárbara raises her hand in his direction.
+
+
+# ~2a0d04a7
+; > BA: |#~2a0d04a7|
+; Your turn to speak is almost ceaseless.
+
+
+# ~35436cc6
+; > NA: |#~35436cc6|
+; Alvarenga smiles, defeated by the precision of the blow.
+
+
+# ~1341e788
+; > TI: |#~1341e788|
+; If we achieve independence we can remedy such things.
+
+
+# ~1ec0e7d
+; > HI: |#~1ec0e7d|
+; Later? It's always later.
+
+
+# ~bfa272a9
+; > HI: |#~bfa272a9|
+; First their freedom.
+
+
+# ~eaef80c5
+; > HI: |#~eaef80c5|
+; Then, maybe, ours.
+
+
+# ~4ef2f882
+; > BA: |#~4ef2f882|
+; If we wait for an invitation, we'll die in the foyer.
+
+
+# ~9d844dfe
+; > NA: |#~9d844dfe|
+; The room feels different. The men no longer dominate and everyone is watching the two women.
+
+
+# ~81cc010b
+; > NO: |#~81cc010b|
+; Hipólita already said too much.
+
+
+# ~55e9b9ec
+; > NA: |#~55e9b9ec|
+; The groom stand up and her face changes.
+
+
+# ~745b79f3
+; > HI: |#~745b79f3|
+; For the first time I have spoken without your permission.
+
+
+# ~c63ecd7
+; > BA: |#~c63ecd7|
+; And it suits you very well.
+
+
+# ~cd0aca9c
+; > NO: |#~cd0aca9c|
+; Lady Bárbara, mind your own house.
+
+
+# ~d3e77f1b
+; > BA: |#~d3e77f1b|
+; Mine is in order.
+
+
+# ~df1ad819
+; > NA: |#~df1ad819|
+; She looks around.
+
+
+# ~fc980657
+; > BA: |#~fc980657|
+; I can't say the same for this one.
+
+
+# ~331e556
+; > NA: |#~331e556|
+; A chorus of "oh"s echo around the room.
+
+
+# ~1c4badf0
+; > HI: |#~1c4badf0|
+; You have great taste for other people's doors.
+
+
+# ~3c3805b3
+; > BA: |#~3c3805b3|
+; And you have great taste for guests.
+
+
+# ~267715f2
+; > HI: |#~267715f2|
+; Better guests than surveillance.
+
+
+# ~a28abf58
+; > BA: |#~a28abf58|
+; Better surveillance than boredom.
+
+
+# ~115419f8
+; > HI: |#~115419f8|
+; If God has given you sparkle, keep it farther from people's eyes.
+
+
+# ~a0536ca6
+; > BA: |#~a0536ca6|
+; If He has given you beauty, employ it more joyfully.
+
+
+# ~68b82010
+; > NA: |#~68b82010|
+; Joaquim clutches his chest dramatically.
+
+
+# ~1ee079f
+; > JO: |#~1ee079f|
+; I was hurt by extension.
+
+
+# ~5ef16ffd
+; > AL: |#~5ef16ffd|
+; We already had a revolution, a duel, and a wedding ceremony.
+
+
+# ~8e9e6da0
+; > AL: |#~8e9e6da0|
+; Enough material for one night.
+
+
+# ~697177d7
+; > TI: |#~697177d7|
+; We're not done yet.
+
+
+# ~3158948b
+; > JO: |#~3158948b|
+; Yes, we are.
+
+
+# ~c52139bd
+; > JO: |#~c52139bd|
+; We've strayed from our plan for a good twenty minutes now.
+
+
+# ~3580b340
+; > BA: |#~3580b340|
+; I would say, rather, that it only started to improve then.
+
+
+# ~33b10e36
+; > HI: |#~33b10e36|
+; For the first time I agree with you.
+
+
+# ~c73e82f1
+; > BA: |#~c73e82f1|
+; Common sense suits you.
+
+
+# ~a2e19d86
+; > NA: |#~a2e19d86|
+; Bárbara and Hipólita exchange glances.
+
+
+# ~9bc1e1d7
+; > NA: |#~9bc1e1d7|
+; Surprised by each other and themselves.
+
+
+# ~f9245d57
+; > NO: |#~f9245d57|
+; The meeting is over.
+
+
+# ~2848d129
+; > NA: |#~2848d129|
+; He declares, trying to regain a nonexistent control.
+
+
+# ~8edb3086
+; > NA: |#~8edb3086|
+; In the confusion, Tiradentes searches your gaze.
+
+
+# ~91dee6f0
+; > NA: |#~91dee6f0|
+; So does Hipólita, and Bárbara seems to notice both.
+
+
+# ~6a0cc466
+; > PLAYER: |#~6a0cc466|
+; (I really should've stayed sewing.)
+
+
+# ~e4184390
+; > NA: |#~e4184390|
+; As the conversation picks up again and the confusion subsides, Hipólita takes the center next to Tiradentes and speaks up again.
+
+
+# ~47656bd9
+; > HI: |#~47656bd9|
+; If you believe I do nothing... you're wrong.
+
+
+# ~5a6e8ab0
+; > NA: |#~5a6e8ab0|
+; Some faces turn to her.
+
+
+# ~5020e0ef
+; > HI: |#~5020e0ef|
+; Not all of us serve by wielding swords or raising our voices.
+
+
+# ~2375f11e
+; > HI: |#~2375f11e|
+; There are letters to be copied.
+
+
+# ~bd56048e
+; > HI: |#~bd56048e|
+; Notes that shouldn't be passed by male hands.
+
+
+# ~e0a2f6a0
+; > HI: |#~e0a2f6a0|
+; Papers best kept where no one suspects.
+
+
+# ~1499af0f
+; > NA: |#~1499af0f|
+; A short silence. The groom looks angry, while Célio, for some reason, seems proud.
+
+
+# ~9bd2136e
+; > HI: |#~9bd2136e|
+; And a house like this... can hide more than silverware.
+
+
+# ~1d24f303
+; > NA: |#~1d24f303|
+; Tiradentes watches her with renewed respect.
+
+
+# ~303f758f
+; > TI: |#~303f758f|
+; Every cause thrives on discreet hands.
+
+
+# ~21cdf554
+; > JO: |#~21cdf554|
+; Here's the first sensible suggestion of the night.
+
+
+# ~9538ab68
+; > NA: |#~9538ab68|
+; The word is dry and assertive.
+
+
+# ~4aa07e96
+; > NO: |#~4aa07e96|
+; I will not allow my name in such imprudence.
+
+
+# ~72289fb6
+; > HI: |#~72289fb6|
+; Your name?
+
+
+# ~9ff49103
+; > NA: |#~9ff49103|
+; She stares at him.
+
+
+# ~b9f97b8
+; > HI: |#~b9f97b8|
+; I spoke of my own roof.
+
+
+# ~453dc8c4
+; > NO: |#~453dc8c4|
+; You spoke as one who forgets their place.
+
+
+# ~7c89bdd0
+; > HI: |#~7c89bdd0|
+; My place?
+
+
+# ~10c1070f
+; > NO: |#~10c1070f|
+; As future wife, lady of this house, not as conspirator.
+
+
+# ~67531550
+; > HI: |#~67531550|
+; Perhaps I will decide what I am.
+
+
+# ~19302c1d
+; > NO: |#~19302c1d|
+; You'll decide what suits you.
+
+
+# ~df6e49ca
+; > NA: |#~df6e49ca|
+; Hipólita's face hardens and she clenches her jaw.
+
+
+# ~a644351
+; > NA: |#~a644351|
+; Bárbara watches as one would a duel.
+
+
+# ~f967deb9
+; > BA: |#~f967deb9|
+; I have always admired men who fear paper and ink.
+
+
+# ~dbf23603
+; > BA: |#~dbf23603|
+; It reveals rare daintiness.
+
+
+# ~8b5a8bfd
+; > NO: |#~8b5a8bfd|
+; Be quiet.
+
+
+# ~6a99232e
+; > BA: |#~6a99232e|
+; And see how simple it is to say it.
+
+
+# ~b5849ad2
+; > NA: |#~b5849ad2|
+; Alvarenga e Tiradentes exchange a glance, as if sharing a thought.
+
+
+# ~6647c510
+; > NA: |#~6647c510|
+; The groom pales, speechless at the audacity she shows in front of everyone.
+
+
+# ~ce804de4
+; > AL: |#~ce804de4|
+; That's enough for tonight.
+
+
+# ~452aca
+; > AL: |#~452aca|
+; Before someone declares war in this room.
+
+
+# ~f3b536d7
+; > NA: |#~f3b536d7|
+; Hipólita walks away without asking permission, her movements quick
+
+
+# ~b76b90f4
+; > HI: |#~b76b90f4|
+; Forgive me.
+
+
+# ~1e70154
+; > HI: |#~1e70154|
+; I need air.
+
+
+# ~5f6231a6
+; > NA: |#~5f6231a6|
+; She leaves, heading toward the garden.
+
+
+# ~535ffd02
+; > NA: |#~535ffd02|
+; You look around. Célio has an unreadable expression, Bárbara seems disappointed with the conclusion.
+
+
+# ~413b2b51
+; > NA: |#~413b2b51|
+; Meanwhile Tiradentes, Joaquim and Alvarenga approach Francisco, who seems infuriated, to talk.
+
+
+# ~182cae90
+; > NA: |#~182cae90|
+; You hesitate only a moment and decide you won't be missed.
+
+
+# ~fe33b2e3
+; > NA: |#~fe33b2e3|
+; Then you follow her, an action that doesn't go unnoticed by Bárbara and Célio's attentive eyes.
+
+
+# ~f6127880
+; > NA: |#~f6127880|
+; The garden is darker than last night.
+
+
+# ~65e1a533
+; > NA: |#~65e1a533|
+; You smell the damp earth and herbs.
+
+
+# ~daf594cb
+; > NA: |#~daf594cb|
+; The voices inside the house echo in the distance.
+
+
+# ~a0e9c8f5
+; > NA: |#~a0e9c8f5|
+; You approach and Hipólita is facing away from you, her arms crossed.
+
+
+# ~c3f76bf6
+; > NA: |#~c3f76bf6|
+; Taking deep breaths, as if struggling not to tremble.
+
+
+# ~58b28ab5
+; > PLAYER: |#~58b28ab5|
+; Hipólita...
+
+
+# ~ac3ff4c7
+; > NA: |#~ac3ff4c7|
+; She doesn't immediately turn around.
+
+
+# ~adb47c03
+; > HI: |#~adb47c03|
+; Forgive the scene I caused.
+
+
+# ~e49cdc48
+; > HI: |#~e49cdc48|
+; I don't usually lose composure in front of an audience.
+
+
+# ~8e8bc0b8
+; > PLAYER: |#~8e8bc0b8|
+; You had reasons to be angry. With some respect, your fiancé is an ass.
+
+
+# ~7372d3cf
+; > NA: |#~7372d3cf|
+; She laughs humorlessly.
+
+
+# ~aa5ba1bf
+; > HI: |#~aa5ba1bf|
+; I've had years of reason.
+
+
+# ~a5644683
+; > HI: |#~a5644683|
+; And none of them did me much good.
+
+
+# ~36ec149a
+; > NA: |#~36ec149a|
+; When she finally turns, there is weariness in her eyes.
+
+
+# ~60fac3db
+; > HI: |#~60fac3db|
+; Tell me...
+
+
+# ~1cc6a49
+; > HI: |#~1cc6a49|
+; If I were free... I would choose.
+
+
+# ~85b44184
+; > NA: |#~85b44184|
+; She swallows the rest for a moment.
+
+
+# ~3aedd691
+; > HI: |#~3aedd691|
+; Do you believe I deserve this?
+
+
+# ~e6da7a01
+; > @choice "|#~e6da7a01|" goto:.scene6H-1
+; Say Hipólita deserves to choose what she wants
+
+
+# ~db2816c2
+; > @choice "|#~db2816c2|" goto:.scene6H-2
+; Soften the blow and say things are as they are
+
+
+# ~85705e3e
+; > PLAYER: |#~85705e3e|
+; You deserve so much more than this.
+
+
+# ~bece42bf
+; > NA: |#~bece42bf|
+; Your hands hover in the air, as if wanting to touch her face but you don't.
+
+
+# ~bb74fe70
+; > PLAYER: |#~bb74fe70|
+; You deserve to choose whatever you want.
+
+
+# ~d13a40c3
+; > PLAYER: |#~d13a40c3|
+; What to do, where to stay and with whom....
+
+
+# ~ef0e3292
+; > NA: |#~ef0e3292|
+; Hipólita stays still for a moment.
+
+
+# ~ba4bb49a
+; > NA: |#~ba4bb49a|
+; As if your words were strange or dangerous.
+
+
+# ~79278e13
+; > NA: |#~79278e13|
+; She stares at you and you see her eyes sparkle, holding back tears.
+
+
+# ~44e64704
+; > HI: |#~44e64704|
+; You're cruel.
+
+
+# ~d2b4e99d
+; > PLAYER: |#~d2b4e99d|
+; Cruel? Me?
+
+
+# ~2202d783
+; > NA: |#~2202d783|
+; You stare back at her, confused by such statement.
+
+
+# ~bf86e590
+; > HI: |#~bf86e590|
+; Because you give me a taste of a world I may never have.
+
+
+# ~7501311d
+; > NA: |#~7501311d|
+; She slowly approaches and sits on the ground, looking up at the sky.
+
+
+# ~c5f72b15
+; > NA: |#~c5f72b15|
+; You approach cautiously wondering whether to sit down or not.
+
+
+# ~26d79d7d
+; > NA: |#~26d79d7d|
+; The garden suddenly feels silent.
+
+
+# ~cb2e1b6a
+; > NA: |#~cb2e1b6a|
+; Night covers the dirt paths and the herbs.
+
+
+# ~e1a55e98
+; > NA: |#~e1a55e98|
+; From afar you can still see the lights and shadows inside.
+
+
+# ~4fe38f38
+; > NA: |#~4fe38f38|
+; But out here there seems to be only the two of you, the scent of flowers, and the sound of insects.
+
+
+# ~503b572a
+; > NA: |#~503b572a|
+; You lean against the bench, sitting on the grass.
+
+
+# ~e748ae1f
+; > NA: |#~e748ae1f|
+; Side by side, just close enough to feel each other's warmth without touching.
+
+
+# ~6cdfe125
+; > NA: |#~6cdfe125|
+; Hipólita keeps her eyes fixed on the sky.
+
+
+# ~2fe663d9
+; > NA: |#~2fe663d9|
+; As if the stars could offer her an answer.
+
+
+# ~13503a6f
+; > NA: |#~13503a6f|
+; The space between you seems too small yet immense.
+
+
+# ~888bfbfd
+; > NA: |#~888bfbfd|
+; Without looking directly at you, her hand moves slowly across the grass.
+
+
+# ~fbf9e05b
+; > NA: |#~fbf9e05b|
+; Her fingers absentmindedly search for a leaf, a rock, anything to justify the gesture.
+
+
+# ~10d9e71
+; > NA: |#~10d9e71|
+; Instead they find yours.
+
+
+# ~e83dbb19
+; > NA: |#~e83dbb19|
+; The touch is light, almost accidental. Almost.
+
+
+# ~2efae882
+; > NA: |#~2efae882|
+; Neither backs away.
+
+
+# ~11a2e9db
+; > NA: |#~11a2e9db|
+; Your fingers stay intertwined, shy and quiet.
+
+
+# ~31f4d28f
+; > NA: |#~31f4d28f|
+; After a few moments, Hipólita sighs softly.
+
+
+# ~90b80154
+; > NA: |#~90b80154|
+; Then she moves closer to you, slowly.
+
+
+# ~6c4d3b07
+; > NA: |#~6c4d3b07|
+; She rests her head on your chest.
+
+
+# ~197e531
+; > NA: |#~197e531|
+; Her weight is soft and warm.
+
+
+# ~9ea79e77
+; > NA: |#~9ea79e77|
+; As your arms embrace her, you breathe her scent of flowers and soft spices.
+
+
+# ~64b8b673
+; > NA: |#~64b8b673|
+; You feel her hair brush against your clothes.
+
+
+# ~1c5c0786
+; > NA: |#~1c5c0786|
+; Her breathing, now calmer.
+
+
+# ~9c6a9a54
+; > NA: |#~9c6a9a54|
+; Together, you continue gazing at the sky.
+
+
+# ~95e129d2
+; > NA: |#~95e129d2|
+; The stars feel less distant than before.
+
+
+# ~18856bb0
+; > HI: |#~18856bb0|
+; If the world were kinder... maybe this would be enough.
+
+
+# ~4bc05f
+; > HI: |#~4bc05f|
+; Maybe this would be enough.
+
+
+# ~2f68ee40
+; > PLAYER: |#~2f68ee40|
+; Not everything can be changed.
+
+
+# ~8d01170b
+; > PLAYER: |#~8d01170b|
+; Some things are as they are, and perhaps it's safer to accept them.
+
+
+# ~f2468711
+; > NA: |#~f2468711|
+; Her face doesn't harden, it just seems colder.
+
+
+# ~80bd84c3
+; > HI: |#~80bd84c3|
+; That's what everyone says.
+
+
+# ~c22a138a
+; > NA: |#~c22a138a|
+; She looks at the house in the distance.
+
+
+# ~7b958971
+; > HI: |#~7b958971|
+; My father said it, my fiancé repeats it...
+
+
+# ~22254b88
+; > HI: |#~22254b88|
+; The whole town agrees.
+
+
+# ~65738675
+; > NA: |#~65738675|
+; A small, sad smile.
+
+
+# ~12b9fca6
+; > HI: |#~12b9fca6|
+; You're just more eloquent.
+
+
+# ~58670a86
+; > PLAYER: |#~58670a86|
+; I just don't want you to suffer... waiting for...
+
+
+# ~fad7bb13
+; > HI: |#~fad7bb13|
+; And I just wanted, for once, not to be advised.
+
+
+# ~6bfbf8b1
+; > NA: |#~6bfbf8b1|
+; The silence between you weights heavily.
+
+
+# ~cd7ffb84
+; > HI: |#~cd7ffb84|
+; You should return.
+
+
+# ~ff62ef13
+; > HI: |#~ff62ef13|
+; Before they notice your absence.
+
+
+# ~c5b98ce5
+; > NA: |#~c5b98ce5|
+; You realize there's no place left to stay.
+
+
+# ~1344dd6
+; > NA: |#~1344dd6|
+; No useful words.
+
+
+# ~c2ea9b50
+; > NA: |#~c2ea9b50|
+; Then you agree and nod goodbye.
+
+
+# ~a2d6b312
+; > NA: |#~a2d6b312|
+; And walk away alone through the garden.
+
+
+# ~96bbe77
+; > NA: |#~96bbe77|
+; As you approach the house, the voices pick back up.
+
+
+# ~713299a7
+; > PLAYER: |#~713299a7|
+; (Politics, plans, pride.)
+
+
+# ~77807d67
+; > PLAYER: |#~77807d67|
+; (Am I missing what really matters?)
+
+
+# ~912b9c6c
+; > NA: |#~912b9c6c|
+; The argument at Hipólita's house still echoes in your head on your way out.
+
+
+# ~107b7287
+; > NA: |#~107b7287|
+; But before leaving, you had an idea.
+
+
+# ~9fe5eeaf
+; > NA: |#~9fe5eeaf|
+; Lit only by the dim light of a single candle, you grab a piece of paper and a quill.
+
+
+# ~5fc54dde
+; > NA: |#~5fc54dde|
+; And you write hastily, afraid someone will see the note.
+
+
+# ~bfdf8f27
+; > PLAYER: |#~bfdf8f27|
+; (If you wish for a moment to breathe, away from all this.)
+
+
+# ~530ddfaf
+; > PLAYER: |#~530ddfaf|
+; (Have breakfast together with me, tomorrow in the garden - yes, yours)
+
+
+# ~24089cf7
+; > PLAYER: |#~24089cf7|
+; (At sunrise.)
+
+
+# ~2f0ab05
+; > NA: |#~2f0ab05|
+; You carefully fold the note.
+
+
+# ~c959bc2f
+; > NA: |#~c959bc2f|
+; And before you lose courage, you find a discreet place to leave the note, where only she would find it.
+
+
+# ~cc8cc23d
+; > NA: |#~cc8cc23d|
+; The sun has barely risen when you wake, you're restless but excited.
+
+
+# ~e5c82f7c
+; > NA: |#~e5c82f7c|
+; The house is still quiet.
+
+
+# ~5e549cf4
+; > NA: |#~5e549cf4|
+; Only the kitchen shows any sign of life.
+
+
+# ~81d39cdc
+; > NA: |#~81d39cdc|
+; Francisca already lights the fire by the time you come in.
+
+
+# ~ed3b47e0
+; > FR: |#~ed3b47e0|
+; Good heavens.
+
+
+# ~2e704635
+; > PLAYER: |#~2e704635|
+; Good morning, I need some things for breakfast.
+
+
+# ~91f47fd4
+; > FR: |#~91f47fd4|
+; Oh?
+
+
+# ~10d763f
+; > FR: |#~10d763f|
+; This early?
+
+
+# ~9a896279
+; > FR: |#~9a896279|
+; And with that guilty face?
+
+
+# ~ce3391ff
+; > PLAYER: |#~ce3391ff|
+; I don't have a guilty face.
+
+
+# ~9b3f7dc7
+; > FR: |#~9b3f7dc7|
+; You look like someone who's about to do something reckless.
+
+
+# ~a0ab3583
+; > PLAYER: |#~a0ab3583|
+; Maybe so...
+
+
+# ~a4f4a2f7
+; > PLAYER: |#~a4f4a2f7|
+; May I take bread... and fruits?
+
+
+# ~aaecff17
+; > FR: |#~aaecff17|
+; You may.
+
+
+# ~4ee69dab
+; > FR: |#~4ee69dab|
+; If you confess first.
+
+
+# ~e98e9a5c
+; > PLAYER: |#~e98e9a5c|
+; I have nothing to confess.
+
+
+# ~fce73380
+; > FR: |#~fce73380|
+; Then take cheese too, lying requires sustenance.
+
+
+# ~434692a2
+; > NA: |#~434692a2|
+; She hands you a small basket with the food.
+
+
+# ~e2f03135
+; > PLAYER: |#~e2f03135|
+; Thank you so much, you're the best.
+
+
+# ~51304de9
+; > NA: |#~51304de9|
+; She smiles at your words, you two have become true confidantes these past few days.
+
+
+# ~fea1da5e
+; > FR: |#~fea1da5e|
+; And don't step on other people's flowers this time.
+
+
+# ~80c308c9
+; > NA: |#~80c308c9|
+; When you reach the manor, everything is silent.
+
+
+# ~67008452
+; > NA: |#~67008452|
+; The garden still holds the fresh morning air, dewdrops glisten among the leaves and petals.
+
+
+# ~79702b7a
+; > NA: |#~79702b7a|
+; Hipólita already awaits you by the hidden bench.
+
+
+# ~ba934811
+; > NA: |#~ba934811|
+; Upon seeing you, she smiles genuinely.
+
+
+# ~b21cd685
+; > HI: |#~b21cd685|
+; So the note was yours.
+
+
+# ~58e1ee9b
+; > PLAYER: |#~58e1ee9b|
+; Did you think it was another secret admirer?
+
+
+# ~f6883c81
+; > HI: |#~f6883c81|
+; If I had that many, I would sleep better.
+
+
+# ~731c49d0
+; > NA: |#~731c49d0|
+; You extend the basket toward her.
+
+
+# ~5e4faa53
+; > PLAYER: |#~5e4faa53|
+; I brought some things for breakfast.
+
+
+# ~68e45592
+; > HI: |#~68e45592|
+; You brought a feast.
+
+
+# ~e1c6de49
+; > PLAYER: |#~e1c6de49|
+; Francisca would say I brought evidence of a crime.
+
+
+# ~fedb5eb7
+; > NA: |#~fedb5eb7|
+; She laughs softly.
+
+
+# ~aad6c22
+; > NA: |#~aad6c22|
+; Sitting side by side, you share bread, fruits, and still warm coffee.
+
+
+# ~1794c315
+; > NA: |#~1794c315|
+; For a few moments, everything seem simple.
+
+
+# ~18f5cb1b
+; > HI: |#~18f5cb1b|
+; Last night was a disaster.
+
+
+# ~10e3014a
+; > PLAYER: |#~10e3014a|
+; It was memorable, what scenes we had.
+
+
+# ~d1402935
+; > HI: |#~d1402935|
+; Tiradentes and Joaquim almost declared war.
+
+
+# ~ca71222e
+; > PLAYER: |#~ca71222e|
+; They're like husband and wife.
+
+
+# ~1921b06
+; > HI: |#~1921b06|
+; Don't say that.
+
+
+# ~182475a9
+; > NA: |#~182475a9|
+; She laughs genuinely.
+
+
+# ~a89f2f70
+; > HI: |#~a89f2f70|
+; Now I can never unsee it.
+
+
+# ~e03e3437
+; > PLAYER: |#~e03e3437|
+; Bárbara, however, seemed to be having fun.
+
+
+# ~9fff24dd
+; > HI: |#~9fff24dd|
+; Bárbara always has fun when chaos belongs to others.
+
+
+# ~f24f8f71
+; > PLAYER: |#~f24f8f71|
+; I'm still surprised she's married to Alvarenga.
+
+
+# ~7393f043
+; > HI: |#~7393f043|
+; Ah?
+
+
+# ~465a6dce
+; > HI: |#~465a6dce|
+; And why does that surprise you?
+
+
+# ~872c3a44
+; > PLAYER: |#~872c3a44|
+; Sure, she's mysterious and has this air about her, but Alvarenga is more proper and handsome.
+
+
+# ~6453e650
+; > NA: |#~6453e650|
+; The silence lasts half a second.
+
+
+# ~bc815571
+; > HI: |#~bc815571|
+; So he's handsome?
+
+
+# ~d6879456
+; > PLAYER: |#~d6879456|
+; I didn't say that.
+
+
+# ~f2d6107f
+; > HI: |#~f2d6107f|
+; You said it quite clearly.
+
+
+# ~a5d19128
+; > PLAYER: |#~a5d19128|
+; I meant... elegant.
+
+
+# ~64275791
+; > NA: |#~64275791|
+; She raised her cup, hiding a smile.
+
+
+# ~3c09313
+; > HI: |#~3c09313|
+; And is the alferes elegant too?
+
+
+# ~44c7418
+; > PLAYER: |#~44c7418|
+; Now you're making fun of me.
+
+
+# ~13ddd169
+; > NA: |#~13ddd169|
+; Her jealousy isn't harsh, but rather curious. Playful, almost.
+
+
+# ~4e78edf2
+; > HI: |#~4e78edf2|
+; Should I worry about how many handsome men Vila Rica has?
+
+
+# ~c62e5d97
+; > PLAYER: |#~c62e5d97|
+; Only about one woman.
+
+
+# ~e6745157
+; > NA: |#~e6745157|
+; And truly smiles.
+
+
+# ~3268a835
+; > HI: |#~3268a835|
+; So I still have the advantage.
+
+
+# ~bb83bbbc
+; > NA: |#~bb83bbbc|
+; Laughter between you is comfortable.
+
+
+# ~4a96d554
+; > NA: |#~4a96d554|
+; Then she looks at you with mischief.
+
+
+# ~7645d442
+; > PLAYER: |#~7645d442|
+; Tell me.
+
+
+# ~899a0a0e
+; > NA: |#~899a0a0e|
+; She leans closer.
+
+
+# ~5d6958a9
+; > HI: |#~5d6958a9|
+; What about Francisca?
+
+
+# ~7d318753
+; > HI: |#~7d318753|
+; What does she think of me?
+
+
+# ~cb53d832
+; > PLAYER: |#~cb53d832|
+; That you're beautiful, dangerous, a bad influence, oh, and taken.
+
+
+# ~97140982
+; > HI: |#~97140982|
+; What a sensible woman.
+
+
+# ~5789d234
+; > PLAYER: |#~5789d234|
+; She also said I like trouble.
+
+
+# ~167184ca
+; > HI: |#~167184ca|
+; Was she wrong?
+
+
+# ~b81367d4
+; > PLAYER: |#~b81367d4|
+; You're not helping my case.
+
+
+# ~1ad4154f
+; > HI: |#~1ad4154f|
+; I don't always want to help you.
+
+
+# ~29c705d0
+; > NA: |#~29c705d0|
+; Hipólita stirs her coffee.
+
+
+# ~3f073625
+; > HI: |#~3f073625|
+; Francisca observes all.
+
+
+# ~708d1b62
+; > HI: |#~708d1b62|
+; Women like that scare foolish men.
+
+
+# ~e28f181e
+; > PLAYER: |#~e28f181e|
+; And Bárbara?
+
+
+# ~c6a56e54
+; > NA: |#~c6a56e54|
+; A playful glint crosses her eyes.
+
+
+# ~ea86a275
+; > HI: |#~ea86a275|
+; Bárbara observes all... and even comments out loud.
+
+
+# ~6b60c131
+; > PLAYER: |#~6b60c131|
+; She seems to enjoy teasing.
+
+
+# ~92a0b1af
+; > HI: |#~92a0b1af|
+; She does.
+
+
+# ~a68e81b7
+; > HI: |#~a68e81b7|
+; Especially when she can get away with it.
+
+
+# ~b1968549
+; > PLAYER: |#~b1968549|
+; And do you like her?
+
+
+# ~bfbfd43d
+; > NA: |#~bfbfd43d|
+; Hipólita ponders a moment.
+
+
+# ~be6730e5
+; > HI: |#~be6730e5|
+; In small doses.
+
+
+# ~ff2722da
+; > HI: |#~ff2722da|
+; Like strong medicine or expensive poison.
+
+
+# ~48971563
+; > NA: |#~48971563|
+; You speak of how Joaquim would probably fight even a mirror, how Alvarenga seems to know more than he lets on.
+
+
+# ~904b216d
+; > PLAYER: |#~904b216d|
+; Are you gossiping with me?
+
+
+# ~b12b3059
+; > HI: |#~b12b3059|
+; I am.
+
+
+# ~f0e3af13
+; > HI: |#~f0e3af13|
+; And I enjoy it very much.
+
+
+# ~b210d6d2
+; > NA: |#~b210d6d2|
+; And of how, for an entire morning, the world almost seems bearable.
+
+
+# ~3af24eb6
+; > NA: |#~3af24eb6|
+; When the sun is higher, you stand up.
+
+
+# ~117b8082
+; > PLAYER: |#~117b8082|
+; I must go, it's getting late and if someone sees us...
+
+
+# ~c3b687b3
+; > HI: |#~c3b687b3|
+; I know.
+
+
+# ~cc6ca17d
+; > NA: |#~cc6ca17d|
+; She lingers a moment before letting go of your hand.
+
+
+# ~dad3b6ee
+; > HI: |#~dad3b6ee|
+; Write to me again.
+
+
+# ~f31b6b4b
+; > PLAYER: |#~f31b6b4b|
+; If you answer me...
+
+
+# ~d2143bdc
+; > NA: |#~d2143bdc|
+; She sighs as you walk away.
+
+
+# ~22f11961
+; > NA: |#~22f11961|
+; Hipólita then gathers things from breakfast and goes back in the house.
+
+
+# ~a78258e7
+; > NA: |#~a78258e7|
+; But then the office door slams shut.
+
+
+# ~345b4a89
+; > NA: |#~345b4a89|
+; The sound echoes through the entire house.
+
+
+# ~f9fd87dc
+; > NA: |#~f9fd87dc|
+; Hipólita stops in the hallway before even entering.
+
+
+# ~2c281643
+; > NA: |#~2c281643|
+; On the table, open and crumpled, is the note.
+
+
+# ~8232e1b
+; > NA: |#~8232e1b|
+; In the groom's hands.
+
+
+# ~3cf78510
+; > NO: |#~3cf78510|
+; What is the meaning of this?
+
+
+# ~b767d00b
+; > NA: |#~b767d00b|
+; His voice is low, which makes it worse.
+
+
+# ~329dd54c
+; > HI: |#~329dd54c|
+; It means you can read.
+
+
+# ~5d150a1f
+; > NA: |#~5d150a1f|
+; He slowly raises his gaze.
+
+
+# ~5944cd06
+; > NO: |#~5944cd06|
+; Do you still have the energy for jokes?
+
+
+# ~1deaa0f4
+; > HI: |#~1deaa0f4|
+; Do you still have the energy to rummage through my things?
+
+
+# ~6ade251f
+; > NO: |#~6ade251f|
+; Your things?
+
+
+# ~d8ea51b1
+; > NO: |#~d8ea51b1|
+; You are increasingly mistaken.
+
+
+# ~67feb582
+; > NO: |#~67feb582|
+; Soon everything in this house will be under my name.
+
+
+# ~e8fefdbf
+; > HI: |#~e8fefdbf|
+; "Soon" isn't today.
+
+
+# ~93f8f935
+; > NA: |#~93f8f935|
+; He throws the paper on the table.
+
+
+# ~6a39d4d8
+; > NO: |#~6a39d4d8|
+; Breakfast in the garden? Hidden notes?
+
+
+# ~59370188
+; > NO: |#~59370188|
+; Rendezvous at the break of dawn? Have you lost your mind?
+
+
+# ~ee548bc5
+; > HI: |#~ee548bc5|
+; Perhaps I have found it.
+
+
+# ~5035b660
+; > NO: |#~5035b660|
+; Don't provoke me.
+
+
+# ~265c984b
+; > HI: |#~265c984b|
+; Then don't treat me like a servant under surveillance.
+
+
+# ~bc12069
+; > NO: |#~bc12069|
+; I treat you like a promised woman.
+
+
+# ~206c331
+; > HI: |#~206c331|
+; As promised possession.
+
+
+# ~eb9114e8
+; > NA: |#~eb9114e8|
+; He clenches his jaw tightly.
+
+
+# ~37a0fc40
+; > NO: |#~37a0fc40|
+; All this time I've given you respect.
+
+
+# ~d975d8c
+; > HI: |#~d975d8c|
+; Respect?
+
+
+# ~35977f13
+; > NA: |#~35977f13|
+; She laughs, short and bitter.
+
+
+# ~b6ca601f
+; > HI: |#~b6ca601f|
+; Do you call controlling my footsteps "respect"?
+
+
+# ~decded7c
+; > HI: |#~decded7c|
+; Picking my visitors? Counting my words?
+
+
+# ~c0ea84bd
+; > NO: |#~c0ea84bd|
+; I call preserving your name respect.
+
+
+# ~d7fdb677
+; > HI: |#~d7fdb677|
+; My name?
+
+
+# ~ceb22b68
+; > HI: |#~ceb22b68|
+; The same one you wish to attach to yours as a deed?
+
+
+# ~ea7416fb
+; > NA: |#~ea7416fb|
+; He steps forward.
+
+
+# ~80bdb597
+; > NO: |#~80bdb597|
+; You've been influenced.
+
+
+# ~2c9a0b00
+; > NO: |#~2c9a0b00|
+; By those people, by dangerous ideas.
+
+
+# ~ac1ccaf7
+; > NO: |#~ac1ccaf7|
+; And by strangers who insert themselves where they shouldn't.
+
+
+# ~68b181
+; > NA: |#~68b181|
+; He speaks with contempt.
+
+
+# ~782ce2bd
+; > HI: |#~782ce2bd|
+; Say it already.
+
+
+# ~ffe5ad13
+; > HI: |#~ffe5ad13|
+; This is jealousy.
+
+
+# ~b613f2c5
+; > NA: |#~b613f2c5|
+; The silence is fraught between them.
+
+
+# ~b60795b1
+; > NO: |#~b60795b1|
+; I will not allow a mockery to be made of myself.
+
+
+# ~93914a30
+; > HI: |#~93914a30|
+; Then behave less like one.
+
+
+# ~2e99b9dd
+; > NA: |#~2e99b9dd|
+; The name sounds like a threat.
+
+
+# ~a208d285
+; > HI: |#~a208d285|
+; Don't raise your voice at me.
+
+
+# ~250a238
+; > NO: |#~250a238|
+; I will if I have to.
+
+
+# ~fc911c5c
+; > HI: |#~fc911c5c|
+; Try it.
+
+
+# ~c10a9ea6
+; > NA: |#~c10a9ea6|
+; For a moment, neither backs down.
+
+
+# ~40685816
+; > NO: |#~40685816|
+; While you're under this roof...
+
+
+# ~384ed87f
+; > HI: |#~384ed87f|
+; My roof.
+
+
+# ~f9231c76
+; > NO: |#~f9231c76|
+; Our future roof.
+
+
+# ~9dc5283
+; > HI: |#~9dc5283|
+; Your dream.
+
+
+# ~cabee2cf
+; > NO: |#~cabee2cf|
+; You will not see that person again.
+
+
+# ~b1922bad
+; > HI: |#~b1922bad|
+; I'll see whom I please.
+
+
+# ~a9988ffb
+; > NO: |#~a9988ffb|
+; You won't.
+
+
+# ~c5d5365f
+; > PLAYER: |#~c5d5365f|
+; I will.
+
+
+# ~647157ae
+; > NA: |#~647157ae|
+; He closes his hand over the note.
+
+
+# ~620df8d7
+; > NO: |#~620df8d7|
+; This ends now.
+
+
+# ~5ab86546
+; > NA: |#~5ab86546|
+; He tears the paper in half, then in four pieces and drops it on the ground.
+
+
+# ~c9eef1a9
+; > NA: |#~c9eef1a9|
+; Hipólita watches the pieces.
+
+
+# ~6400adb
+; > NA: |#~6400adb|
+; When she speaks, she sounds too calm.
+
+
+# ~d992f81b
+; > HI: |#~d992f81b|
+; You tear paper with great bravery.
+
+
+# ~42b0a998
+; > HI: |#~42b0a998|
+; Try facing something living one day.
+
+
+# ~6c7ee19
+; > NA: |#~6c7ee19|
+; His face pales in outrage.
+
+
+# ~7b23047
+; > NO: |#~7b23047|
+; From today on, you will not leave the house unattended.
+
+
+# ~465b347d
+; > HI: |#~465b347d|
+; From today on?
+
+
+# ~952eb607
+; > HI: |#~952eb607|
+; So you finally admit my imprisonment.
+
+
+# ~8b3d5813
+; > NO: |#~8b3d5813|
+; I admit prudence.
+
+
+# ~7591b489
+; > HI: |#~7591b489|
+; I admit pity.
+
+
+# ~61317d34
+; > NA: |#~61317d34|
+; Without asking for permission or lowering her head, she moves away from him.
+
+
+# ~56318f2e
+; > NA: |#~56318f2e|
+; When she crosses the door, her hands tremble.
+
+
+# ~25a031cd
+; > NA: |#~25a031cd|
+; Only when she's alone in the hallway does she lean against the wall and closes her eyes.
+
+
+# ~f6be718c
+; > NA: |#~f6be718c|
+; For the first time, she seems to not know what to do.
+
+
+# ~cfe4e652
+; > NA: |#~cfe4e652|
+; Hours later, at the market, you walk next to Francisca among stalls and voices.
+
+
+# ~4678c9af
+; > NA: |#~4678c9af|
+; Piles of fruit, fabrics hanging in the wind, and the smell of earth, leather and spices.
+
+
+# ~24c58999
+; > NA: |#~24c58999|
+; Then you see her.
+
+
+# ~d56420e1
+; > NA: |#~d56420e1|
+; Between two stalls, calmly choosing something.
+
+
+# ~619a3d66
+; > NA: |#~619a3d66|
+; Your heart races before the rest of your body.
+
+
+# ~998f3f63
+; > NA: |#~998f3f63|
+; You approach slowly, already rehearsing a smile.
+
+
+# ~924dbe2c
+; > NA: |#~924dbe2c|
+; Thinking about what to say.
+
+
+# ~25c87d8d
+; > NA: |#~25c87d8d|
+; Thinking if you should say "good morning" or something better.
+
+
+# ~3032b707
+; > NA: |#~3032b707|
+; Hipólita sees you too and there is no doubt about that.
+
+
+# ~fa0d1fea
+; > NA: |#~fa0d1fea|
+; Her gaze meets yours for a brief moment.
+
+
+# ~dcc1d72e
+; > NA: |#~dcc1d72e|
+; And she moves on.
+
+
+# ~67bb21ec
+; > NA: |#~67bb21ec|
+; She passes by you without a single word.
+
+
+# ~53ce543a
+; > NA: |#~53ce543a|
+; Not even a smile, as if she didn't even know you.
+
+
+# ~4683ca31
+; > NA: |#~4683ca31|
+; You stop in the middle of the road.
+
+
+# ~d24710f1
+; > PLAYER: |#~d24710f1|
+; (...Something happened.)
+
+
+# ~2428eb32
+; > PLAYER: |#~2428eb32|
+; (And it wasn't good.)
+
+
+# ~c4c33eee
+; > NA: |#~c4c33eee|
+; Francisca, beside you, follows the entire scene in a respectful silence of almost two seconds.
+
+
+# ~2519874e
+; > FR: |#~2519874e|
+; Impressive.
+
+
+# ~27defdc
+; > FR: |#~27defdc|
+; You managed to displease the betrothed in record time.
+
+
+# ~227cfee7
+; > PLAYER: |#~227cfee7|
+; I don't know what happened.
+
+
+# ~7b2da521
+; > FR: |#~7b2da521|
+; That's what they all say afterwards.
+
+
+# ~75723c11
+; > NA: |#~75723c11|
+; She crosses her arms, watching Hipólita walk away.
+
+
+# ~ae07d7f3
+; > FR: |#~ae07d7f3|
+; Was there an early husband?
+
+
+# ~a0e736b3
+; > FR: |#~a0e736b3|
+; Some foolish phrase said with confidence?
+
+
+# ~140176b5
+; > PLAYER: |#~140176b5|
+; She's not even married.
+
+
+# ~55c6cdb4
+; > FR: |#~55c6cdb4|
+; Minor detail.
+
+
+# ~8dd58685
+; > FR: |#~8dd58685|
+; The danger is still real.
+
+
+# ~ea646eb0
+; > PLAYER: |#~ea646eb0|
+; I'm serious.
+
+
+# ~28c182dd
+; > FR: |#~28c182dd|
+; So am I.
+
+
+# ~3cdf96ba
+; > FR: |#~3cdf96ba|
+; If a woman ignores you like that in a public square...
+
+
+# ~d70ce43c
+; > FR: |#~d70ce43c|
+; She's either furious... or she's being watched.
+
+
+# ~9c038810
+; > NA: |#~9c038810|
+; You watch Hipólita from a distance.
+
+
+# ~d3635549
+; > PLAYER: |#~d3635549|
+; So it's not about me?
+
+
+# ~3f51a767
+; > FR: |#~3f51a767|
+; Oh, it could very much be about you.
+
+
+# ~bda48949
+; > FR: |#~bda48949|
+; Just perhaps not only you.
+
+
+# ~b4132259
+; > NA: |#~b4132259|
+; Francisca picks an apple from the stall, examines it and returns it.
+
+
+# ~499c3835
+; > FR: |#~499c3835|
+; Either way... you did something.
+
+
+# ~70701d2e
+; > PLAYER: |#~70701d2e|
+; That helps a lot.
+
+
+# ~d0fda5c0
+; > FR: |#~d0fda5c0|
+; I try to be useful within my skillset.
+
+
+# ~3b28278f
+; > NA: |#~3b28278f|
+; Despite everything, a smile escapes you.
+
+
+# ~ef6a9b43
+; > NA: |#~ef6a9b43|
+; Small and nervous.
+
+
+# ~6ea852a3
+; > NA: |#~6ea852a3|
+; You continue walking through the stalls and shopping for fruit.
+
+
+# ~3202c861
+; > NA: |#~3202c861|
+; Morning's heavy when it rises.
+
+
+# ~8fae4a6c
+; > NA: |#~8fae4a6c|
+; Even before the sun is fully out you can hear horses, blunt orders and doors being slammed open.
+
+
+# ~43aba856
+; > NA: |#~43aba856|
+; Vila Rica awakens noisy and bustling.
+
+
+# ~a89d7091
+; > NA: |#~a89d7091|
+; You wake up restless and frightened from the loud noises.
+
+
+# ~7f5ff2b5
+; > NA: |#~7f5ff2b5|
+; Then you hear Francisca's voice from the hallway window.
+
+
+# ~5ac723de
+; > FR: |#~5ac723de|
+; Crown guards.
+
+
+# ~6fd54698
+; > FR: |#~6fd54698|
+; And they're not here for coffee.
+
+
+# ~4fc3e13d
+; > NA: |#~4fc3e13d|
+; Your stomach churns and you hurry out of bed, tripping over the chair but staying next to it.
+
+
+# ~ac80a867
+; > PLAYER: |#~ac80a867|
+; Hipólita's house...
+
+
+# ~f0569966
+; > NA: |#~f0569966|
+; Francisca stares at you for a couple seconds, understanding your worried face.
+
+
+# ~f95a550c
+; > FR: |#~f95a550c|
+; And take prudence with you, if you meet her along the way.
+
+
+# ~58d2c76e
+; > NA: |#~58d2c76e|
+; You go back in your room and get dressed as fast as you can.
+
+
+# ~55fa3c53
+; > NA: |#~55fa3c53|
+; On your way there, going through the town you see the actions of the crown guards, ransacked houses, papers, and people being interrogated.
+
+
+# ~efc36812
+; > NA: |#~efc36812|
+; When you reach the manor, the gate is wide open.
+
+
+# ~2b67eca
+; > NA: |#~2b67eca|
+; The house servants are huddled quietly outside.
+
+
+# ~33337ddd
+; > NA: |#~33337ddd|
+; Crates scattered on the ground, armed men come and go as if they owned the place.
+
+
+# ~46121936
+; > NA: |#~46121936|
+; You see Celina's pale face, a crumpled apron and restless hands.
+
+
+# ~691216f4
+; > NA: |#~691216f4|
+; Her eyes widen when she sees you.
+
+
+# ~68d88096
+; > CELINA: |#~68d88096|
+; You...
+
+
+# ~8ba74df7
+; > CELINA: |#~8ba74df7|
+; You shouldn't be here.
+
+
+# ~5fa27478
+; > PLAYER: |#~5fa27478|
+; What happened?
+
+
+# ~b782e95
+; > NA: |#~b782e95|
+; She looks around before answering.
+
+
+# ~a244ec27
+; > CELINA: |#~a244ec27|
+; What always happens when powerful men get scared.
+
+
+# ~dac8498b
+; > CELINA: |#~dac8498b|
+; They came early, armed, and they came to take.
+
+
+# ~99460f4e
+; > PLAYER: |#~99460f4e|
+; What of Hipólita?
+
+
+# ~f1e4c965
+; > NA: |#~f1e4c965|
+; At the question, her eyes gleam in distress.
+
+
+# ~36e6b376
+; > CELINA: |#~36e6b376|
+; She's holding on as best as she can.
+
+
+# ~9faac3fb
+; > CELINA: |#~9faac3fb|
+; Her body is steady.
+
+
+# ~8443b888
+; > CELINA: |#~8443b888|
+; Her heart... I can't say.
+
+
+# ~c23e384c
+; > PLAYER: |#~c23e384c|
+; Can I see her?
+
+
+# ~dc31fe00
+; > CELINA: |#~dc31fe00|
+; If the guards ignore you.
+
+
+# ~79041401
+; > CELINA: |#~79041401|
+; Today, ignoring seems to be the only kindness they've shown.
+
+
+# ~9d97e58a
+; > NA: |#~9d97e58a|
+; A loud crash echoes inside the house.
+
+
+# ~39a74db3
+; > NA: |#~39a74db3|
+; You watch Hipólita's fiancé being led downstairs with his hands tied.
+
+
+# ~47d92caa
+; > NA: |#~47d92caa|
+; He looks terrified, as if he disbelieved his own fate.
+
+
+# ~655db12c
+; > NO: |#~655db12c|
+; This is absurd!
+
+
+# ~652d74a9
+; > NO: |#~652d74a9|
+; I am a colonel! Uniformed man of duty!
+
+
+# ~b4086e97
+; > GUARD: |#~b4086e97|
+; Even greater shame.
+
+
+# ~bf69cde1
+; > GUARD: |#~bf69cde1|
+; A high ranked uniformed man, involved in the alferes's delusions.
+
+
+# ~2b1eb9e6
+; > NO: |#~2b1eb9e6|
+; I know men in Lisbon!
+
+
+# ~50fc82ed
+; > GUARD: |#~50fc82ed|
+; You'll know them from further away now.
+
+
+# ~84b2ffc0
+; > NA: |#~84b2ffc0|
+; He searches for someone with his eyes.
+
+
+# ~ca88ee5e
+; > NA: |#~ca88ee5e|
+; Maybe for Hipólita or for support, but finds neither.
+
+
+# ~897caf62
+; > NA: |#~897caf62|
+; Two guards carry trunks.
+
+
+# ~36a98173
+; > NA: |#~36a98173|
+; Another collect papers, ledgers, stamps and contracts.
+
+
+# ~8af1863f
+; > NA: |#~8af1863f|
+; A fourth tear the paintings off the walls.
+
+
+# ~20ec326e
+; > NA: |#~20ec326e|
+; On a silver platter, family jewels are dumped carelessly.
+
+
+# ~938202d
+; > NA: |#~938202d|
+; Chains, rings, brooches.
+
+
+# ~9c816499
+; > NA: |#~9c816499|
+; Then you see it.
+
+
+# ~5d1b788
+; > NA: |#~5d1b788|
+; The banana bunches.
+
+
+# ~57e3b10
+; > NA: |#~57e3b10|
+; The old ornament that Hipólita showed you in almost reverent hands.
+
+
+# ~19b1ee40
+; > NA: |#~19b1ee40|
+; Symbol of blood, heritage, and duty.
+
+
+# ~b89512af
+; > NA: |#~b89512af|
+; A guard throws them in a bag along with coins.
+
+
+# ~715a2405
+; > PLAYER: |#~715a2405|
+; No...
+
+
+# ~74a290a1
+; > NA: |#~74a290a1|
+; An officer unrolls a parchment and reads it out loud.
+
+
+# ~4f186698
+; > OFICIAL: |#~4f186698|
+; By order of the Portuguese Crown, all assets in this house are confiscated until further notice.
+
+
+# ~24ecc183
+; > OFICIAL: |#~24ecc183|
+; Due to actions and suspicions that fall upon the owner of this property.
+
+
+# ~1ad65b43
+; > NA: |#~1ad65b43|
+; The paper is handed to a trembling servant.
+
+
+# ~5b20900f
+; > NA: |#~5b20900f|
+; Celina stares at the document as if it were mud itself.
+
+
+# ~9a3124e0
+; > CELINA: |#~9a3124e0|
+; Kindness would be to leave a roof and peace.
+
+
+# ~f01aa3df
+; > CELINA: |#~f01aa3df|
+; But those cost more.
+
+
+# ~115d62ea
+; > PLAYER: |#~115d62ea|
+; What suspicions?
+
+
+# ~dafa68f3
+; > CELINA: |#~dafa68f3|
+; The same that apply to everything.
+
+
+# ~f823aa4
+; > CELINA: |#~f823aa4|
+; Rebellion, debt... example.
+
+
+# ~9f822fb7
+; > PLAYER: |#~9f822fb7|
+; And Hipólita?
+
+
+# ~1f73e33
+; > CELINA: |#~1f73e33|
+; She went to the garden.
+
+
+# ~860c9e87
+; > CELINA: |#~860c9e87|
+; Said she'd rather watch the flowers die in silence, at least.
+
+
+# ~8fa1dbce
+; > NA: |#~8fa1dbce|
+; Celina takes a step closer.
+
+
+# ~da71c5a6
+; > CELINA: |#~da71c5a6|
+; Go to her.
+
+
+# ~83a49335
+; > CELINA: |#~83a49335|
+; Today there are few she wishes to see.
+
+
+# ~c013063e
+; > CELINA: |#~c013063e|
+; I believe you are one of them.
+
+
+# ~39e6dee4
+; > NA: |#~39e6dee4|
+; You circle the house carefully, away from the commotion.
+
+
+# ~663b704d
+; > NA: |#~663b704d|
+; The garden remains unchanged, the roses in bloom and the herbs perfume the surroundings.
+
+
+# ~43e371b4
+; > NA: |#~43e371b4|
+; Then, you find her where she would usually look the most alive.
+
+
+# ~74b7f4d0
+; > NA: |#~74b7f4d0|
+; Hipólita sits on the bench hidden among flowerbeds.
+
+
+# ~b6b6416e
+; > NA: |#~b6b6416e|
+; Hands resting on her lap, her dress still impeccable.
+
+
+# ~1adab28
+; > NA: |#~1adab28|
+; Silent tears stream down her face.
+
+
+# ~c6664bda
+; > NA: |#~c6664bda|
+; No sobs or gestures.
+
+
+# ~9a070666
+; > NA: |#~9a070666|
+; The kind of crying that is already tired of asking for help.
+
+
+# ~135d410d
+; > NA: |#~135d410d|
+; She raises her eyes at the sound of your voice.
+
+
+# ~a3a011fb
+; > NA: |#~a3a011fb|
+; Her eyes are red and tired.
+
+
+# ~b2275dcb
+; > NA: |#~b2275dcb|
+; Beautiful still.
+
+
+# ~d439c2e2
+; > HI: |#~d439c2e2|
+; They came early.
+
+
+# ~d7430890
+; > HI: |#~d7430890|
+; Like diligent rats.
+
+
+# ~19f9741
+; > PLAYER: |#~19f9741|
+; I came as soon as I heard.
+
+
+# ~66cacf97
+; > HI: |#~66cacf97|
+; I see.
+
+
+# ~70a683a2
+; > NA: |#~70a683a2|
+; She tries to smile, but can't.
+
+
+# ~a4451bd6
+; > PLAYER: |#~a4451bd6|
+; I'm sorry.
+
+
+# ~8b57a99
+; > HI: |#~8b57a99|
+; Everyone's sorry when there's nothing left to stop.
+
+
+# ~b549ef3a
+; > NA: |#~b549ef3a|
+; The distant sound of furniture being dragged echoes from the house.
+
+
+# ~54004cbd
+; > HI: |#~54004cbd|
+; This isn't about gold, or silverware.
+
+
+# ~f715fe92
+; > NA: |#~f715fe92|
+; Her voice falters only once.
+
+
+# ~277b7b33
+; > HI: |#~277b7b33|
+; It's about what they took from me.
+
+
+# ~13af0788
+; > PLAYER: |#~13af0788|
+; And what did they take?
+
+
+# ~36a4e57
+; > NA: |#~36a4e57|
+; She looks around the garden.
+
+
+# ~4013bcf
+; > HI: |#~4013bcf|
+; Choice, name, time.
+
+
+# ~e79a1b22
+; > HI: |#~e79a1b22|
+; What little I still considered mine.
+
+
+# ~313647d5
+; > NA: |#~313647d5|
+; She wipes a tear, frustrated.
+
+
+# ~e29b3ea2
+; > HI: |#~e29b3ea2|
+; Even this angers me.
+
+
+# ~f7bbd6c4
+; > HI: |#~f7bbd6c4|
+; Crying in front of me.
+
+
+# ~75d0e775
+; > NA: |#~75d0e775|
+; Her hand lands on the damp earth next to the bench.
+
+
+# ~d044ebd2
+; > HI: |#~d044ebd2|
+; They even took the banana bunches... didn't even know what they meant.
+
+
+# ~260d6109
+; > NA: |#~260d6109|
+; You carefully sit next to her.
+
+
+# ~6a860766
+; > NA: |#~6a860766|
+; Not speaking or trying to fix things.
+
+
+# ~28583509
+; > NA: |#~28583509|
+; After a moment, her fingers find yours.
+
+
+# ~801aa652
+; > NA: |#~801aa652|
+; Weak and cold.
+
+
+# ~fac7e8fc
+; > NA: |#~fac7e8fc|
+; In need of something that won't be wrenched away from her.
+
+
+# ~3776fdfc
+; > NA: |#~3776fdfc|
+; You intertwine your fingers to hers and stroke her skin with your thumb.
+
+
+# ~5c60a1e6
+; > HI: |#~5c60a1e6|
+; When they're done taking everything from someone...
+
+
+# ~6003810e
+; > HI: |#~6003810e|
+; ...What's left?
+
+
+# ~fe1881da
+; > NA: |#~fe1881da|
+; The garden awaits your answer along her.
+
+
+# ~a159f6fa
+; > @choice "|#~a159f6fa|" goto:.scene7H-1
+; Encourage her to react politically
+
+
+# ~b02abf1c
+; > @choice "|#~b02abf1c|" goto:.scene7H-2
+; Stand by her in silence
+
+
+# ~4f53c6d7
+; > PLAYER: |#~4f53c6d7|
+; Then don't hand them their victory.
+
+
+# ~b65fcc47
+; > PLAYER: |#~b65fcc47|
+; If they took your possessions, don't surrender your will to them.
+
+
+# ~407e6bb
+; > PLAYER: |#~407e6bb|
+; You can still fight back.
+
+
+# ~c6efe728
+; > PLAYER: |#~c6efe728|
+; You can choose what to do from now on, I believe in you.
+
+
+# ~b6f38dd1
+; > NA: |#~b6f38dd1|
+; Hipólita remains motionless.
+
+
+# ~3a2e9ef1
+; > NA: |#~3a2e9ef1|
+; Then she takes a deep breath.
+
+
+# ~46fe3ff
+; > HI: |#~46fe3ff|
+; You always speak as if the world can be mended.
+
+
+# ~dac86fd
+; > PLAYER: |#~dac86fd|
+; Perhaps it can.
+
+
+# ~d7b3bf2b
+; > HI: |#~d7b3bf2b|
+; Perhaps I wish to believe that when I listen to you.
+
+
+# ~dfe86633
+; > NA: |#~dfe86633|
+; She rises slowly.
+
+
+# ~39001f2b
+; > NA: |#~39001f2b|
+; And straightens her shoulders.
+
+
+# ~bd71425b
+; > NA: |#~bd71425b|
+; The crying is still there, but more restrained now.
+
+
+# ~b6d5b577
+; > HI: |#~b6d5b577|
+; Very well.
+
+
+# ~8f21c6b3
+; > HI: |#~8f21c6b3|
+; If they want to ruin me, they'll have to work much harder.
+
+
+# ~de8d08b8
+; > HI: |#~de8d08b8|
+; I don't intend to make it easy.
+
+
+# ~b909c840
+; > NA: |#~b909c840|
+; An old gleam returns to her eyes.
+
+
+# ~8d574a10
+; > NA: |#~8d574a10|
+; Not peace, but some kind of strength.
+
+
+# ~54d9a6b3
+; > NA: |#~54d9a6b3|
+; You don't offer advice, promises, or a single kind word.
+
+
+# ~637c1ccc
+; > NA: |#~637c1ccc|
+; You just move even closer and squeeze her hand.
+
+
+# ~bf37c47d
+; > NA: |#~bf37c47d|
+; Close enough for her to know you're there.
+
+
+# ~86d8a64a
+; > NA: |#~86d8a64a|
+; The silence between you isn't heavy.
+
+
+# ~98b1de5f
+; > NA: |#~98b1de5f|
+; A few moments later, Hipólita leans slightly.
+
+
+# ~ea0dda3
+; > NA: |#~ea0dda3|
+; Her shoulder touches yours and she rests there.
+
+
+# ~df99ff40
+; > HI: |#~df99ff40|
+; Everyone always has instructions.
+
+
+# ~ba8936c2
+; > HI: |#~ba8936c2|
+; What I should do.
+
+
+# ~a5f155d3
+; > HI: |#~a5f155d3|
+; How I should suffer, when to be silent.
+
+
+# ~27b7a4a
+; > NA: |#~27b7a4a|
+; A weary sigh.
+
+
+# ~101054f5
+; > HI: |#~101054f5|
+; Thank you for saying nothing.
+
+
+# ~3c37c97d
+; > NA: |#~3c37c97d|
+; After a while she brings her hand to her neckline.
+
+
+# ~2f92d0ac
+; > NA: |#~2f92d0ac|
+; She pulls out a thin gold chain hidden in the fabric.
+
+
+# ~fc64dcff
+; > NA: |#~fc64dcff|
+; Attached to it is a small oval piece.
+
+
+# ~66a74867
+; > NA: |#~66a74867|
+; A locket, worn by time but you can tell it is well taken care of.
+
+
+# ~30699e14
+; > HI: |#~30699e14|
+; They couldn't find this.
+
+
+# ~3f94bb8e
+; > NA: |#~3f94bb8e|
+; She opens it.
+
+
+# ~e9288e33
+; > NA: |#~e9288e33|
+; Inside, a small picture of a serious man with kind eyes.
+
+
+# ~6110e8b2
+; > HI: |#~6110e8b2|
+; My father.
+
+
+# ~df705f6e
+; > HI: |#~df705f6e|
+; He was the only man who looked at me as a heiress, not an ornament.
+
+
+# ~70343d8f
+; > NA: |#~70343d8f|
+; She closes the locket and puts it in your hand.
+
+
+# ~f88a535b
+; > PLAYER: |#~f88a535b|
+; I can't do this.....
+
+
+# ~4fd516a4
+; > HI: |#~4fd516a4|
+; You can.
+
+
+# ~e5fbc9d3
+; > HI: |#~e5fbc9d3|
+; If I leave it here, they'll take it tomorrow... and if I keep it on me, they might snatch it today.
+
+
+# ~801b24df
+; > NA: |#~801b24df|
+; Her finger close your hand over the piece.
+
+
+# ~6257eed7
+; > NA: |#~6257eed7|
+; Warm despite the tremble.
+
+
+# ~4336f1e1
+; > HI: |#~4336f1e1|
+; Keep it for me.
+
+
+# ~ec51fbaf
+; > HI: |#~ec51fbaf|
+; Until I have something of mine again.
+
+
+# ~20d50984
+; > NA: |#~20d50984|
+; The gold weights little, but the request does not.
+
+
+# ~2a4406f
+; > NA: |#~2a4406f|
+; You look at her and nod.
+
+
+# ~56294972
+; > NA: |#~56294972|
+; For the first time since you got here, she smiles.
+
+
+# ~b94a115a
+; > NA: |#~b94a115a|
+; It's a small, fragile thing, but it's real.
+
+
+# ~d21db142
+; > HI: |#~d21db142|
+; So I still have something left.
+
+
+# ~e260246c
+; > NA: |#~e260246c|
+; The sun already sets when you return to the inn.
+
+
+# ~a14b363f
+; > NA: |#~a14b363f|
+; The street activity seems distant.
+
+
+# ~a0fcde7a
+; > NA: |#~a0fcde7a|
+; Everything seems distant.
+
+
+# ~d4189cf9
+; > NA: |#~d4189cf9|
+; Sitting on the bench outside, you twirl the locket between your fingers.
+
+
+# ~4d2dd8b7
+; > NA: |#~4d2dd8b7|
+; The gold reflects the light of dusk.
+
+
+# ~80562818
+; > NA: |#~80562818|
+; Small, delicate, and heavy with meaning.
+
+
+# ~cf96e587
+; > NA: |#~cf96e587|
+; The door to the inn creaks behind you.
+
+
+# ~993f8b5d
+; > NA: |#~993f8b5d|
+; Francisca emerges drying her hands on the apron.
+
+
+# ~61dc2f51
+; > FR: |#~61dc2f51|
+; That face never suggests prudence.
+
+
+# ~1658f49
+; > NA: |#~1658f49|
+; She sits next to you, not asking for permission.
+
+
+# ~1548e966
+; > FR: |#~1548e966|
+; And that necklace never came from a good decision.
+
+
+# ~bc6e822
+; > PLAYER: |#~bc6e822|
+; Hipólita gave it to me.
+
+
+# ~597bb6f8
+; > NA: |#~597bb6f8|
+; Francisca arches her eyebrows.
+
+
+# ~cb09569d
+; > FR: |#~cb09569d|
+; The betrothed?
+
+
+# ~24e9baa2
+; > FR: |#~24e9baa2|
+; You don't say.
+
+
+# ~3ebeee6d
+; > PLAYER: |#~3ebeee6d|
+; Her fiancé was arrested on account of the revolution, they took almost everything.
+
+
+# ~2317b71f
+; > PLAYER: |#~2317b71f|
+; She was... devastated.
+
+
+# ~5baf729c
+; > NA: |#~5baf729c|
+; Francisca studies the locket in your hands.
+
+
+# ~5e9ecf92
+; > FR: |#~5e9ecf92|
+; And so are you.
+
+
+# ~e8140fa9
+; > PLAYER: |#~e8140fa9|
+; I like her....
+
+
+# ~790e8dca
+; > FR: |#~790e8dca|
+; I see you have a very defined type.
+
+
+# ~76a97fd3
+; > PLAYER: |#~76a97fd3|
+; A type?
+
+
+# ~a89d86e4
+; > FR: |#~a89d86e4|
+; A betrothed, persecuted, surrounded by tragedy lady.
+
+
+# ~d44ae046
+; > FR: |#~d44ae046|
+; And older men, equally unavailable.
+
+
+# ~f3dcb8f7
+; > FR: |#~f3dcb8f7|
+; What an unheard of surprise.
+
+
+# ~d4fb470f
+; > NA: |#~d4fb470f|
+; You widen your eyes.
+
+
+# ~37cc8135
+; > PLAYER: |#~37cc8135|
+; Are you going to judge me?
+
+
+# ~892fdf6
+; > FR: |#~892fdf6|
+; Judge you?
+
+
+# ~c6d65a0
+; > NA: |#~c6d65a0|
+; She laughs quietly.
+
+
+# ~b865d040
+; > FR: |#~b865d040|
+; Never.
+
+
+# ~58a75b43
+; > FR: |#~58a75b43|
+; I was young once.
+
+
+# ~fa181699
+; > FR: |#~fa181699|
+; In my days I also had a taste for well-presented imprudences.
+
+
+# ~613ca05d
+; > NA: |#~613ca05d|
+; She crosses her arms, playful.
+
+
+# ~4541729e
+; > PLAYER: |#~4541729e|
+; It's not like that.
+
+
+# ~aec778bf
+; > FR: |#~aec778bf|
+; I'm just kidding.
+
+
+# ~1c3c0c9e
+; > NA: |#~1c3c0c9e|
+; Her tone softens.
+
+
+# ~d62b2526
+; > FR: |#~d62b2526|
+; Liking someone isn't a crime.
+
+
+# ~1df1ed22
+; > FR: |#~1df1ed22|
+; It just tends to come with a high price.
+
+
+# ~2fcea01
+; > NA: |#~2fcea01|
+; She looks at the empty street.
+
+
+# ~82ca4f2d
+; > FR: |#~82ca4f2d|
+; If you truly like her...
+
+
+# ~4bf18083
+; > FR: |#~4bf18083|
+; Don't run like you're chasing a fire.
+
+
+# ~5f48923
+; > FR: |#~5f48923|
+; Wait for the smoke to clear.
+
+
+# ~57b4ec58
+; > PLAYER: |#~57b4ec58|
+; What if I wait too long?
+
+
+# ~bbc42f74
+; > FR: |#~bbc42f74|
+; Then you'll see if it was love or just haste.
+
+
+# ~216f0e0b
+; > NA: |#~216f0e0b|
+; She nudges your shoulder and you let out a playful smile.
+
+
+# ~5cae8296
+; > FR: |#~5cae8296|
+; And keep that necklace safe.
+
+
+# ~6a72616f
+; > FR: |#~6a72616f|
+; There are memories that save entire days.
+
+
+# ~a2bffe0b
+; > NA: |#~a2bffe0b|
+; The days go by slowly. Against what you truly wanted, you decided to follow Francisca's advice.
+
+
+# ~e098a85d
+; > NA: |#~e098a85d|
+; Especially since there's really nothing you can do.
+
+
+# ~2a31b209
+; > NA: |#~2a31b209|
+; Vila Rica remains restless with debt upon debt.
+
+
+# ~59280d5b
+; > NA: |#~59280d5b|
+; After the revolution was exposed, the Crown is not kind, insisting on showing their power and making an example of those involved.
+
+
+# ~975a52a
+; > NA: |#~975a52a|
+; Between arrests, names whispered on street corners, and houses under surveillance.
+
+
+# ~d7cc6bb2
+; > NA: |#~d7cc6bb2|
+; You think of her more than you admit.
+
+
+# ~6eb392df
+; > NA: |#~6eb392df|
+; Of the garden, of the touch of her hands every time you feel the weight of the locket against your chest.
+
+
+# ~3a8dea99
+; > NA: |#~3a8dea99|
+; On a clear morning, you make a decision.
+
+
+# ~c8b4914c
+; > NA: |#~c8b4914c|
+; As you walk you notice the village is calmer. Fewer guards, less noise, more silence.
+
+
+# ~d5accba2
+; > NA: |#~d5accba2|
+; When you see the manor, Hipólita is in the open field near the garden.
+
+
+# ~5ddb2e6
+; > NA: |#~5ddb2e6|
+; Distracted, watching over the earth and flowers.
+
+
+# ~531300e0
+; > NA: |#~531300e0|
+; When she sees you, she smiles in subdued surprise.
+
+
+# ~844d20d0
+; > HI: |#~844d20d0|
+; I thought you would come sooner.
+
+
+# ~144db2f0
+; > PLAYER: |#~144db2f0|
+; I thought about coming every day.
+
+
+# ~1e59d822
+; > HI: |#~1e59d822|
+; You're lucky you didn't.
+
+
+# ~e8d7d85f
+; > NA: |#~e8d7d85f|
+; There's resolve in her now.
+
+
+# ~4910f73d
+; > HI: |#~4910f73d|
+; I need to tell you something.
+
+
+# ~bcfc1787
+; > HI: |#~bcfc1787|
+; I got an offer from relatives in Rio de Janeiro.
+
+
+# ~17e0f7c2
+; > HI: |#~17e0f7c2|
+; They want to take me there.
+
+
+# ~a8bba405
+; > HI: |#~a8bba405|
+; Away from scandals, away from this house.
+
+
+# ~ddffaa5
+; > HI: |#~ddffaa5|
+; Away from anything that reminds me of prison.
+
+
+# ~cb41b2d1
+; > NA: |#~cb41b2d1|
+; She holds your gaze.
+
+
+# ~7f2069c5
+; > HI: |#~7f2069c5|
+; And I don't know if I should go.
+
+
+# ~7e0e4ef
+; > NA: |#~7e0e4ef|
+; You face her with a sadness in your eyes, several words and thoughts go through your mind.
+
+
+# ~892ccd98
+; > NA: |#~892ccd98|
+; But you choose what you think is right, even if it's not what will make you happy.
+
+
+# ~62e18ae6
+; > PLAYER: |#~62e18ae6|
+; Think about yourself.
+
+
+# ~6c2e42b7
+; > PLAYER: |#~6c2e42b7|
+; Not about what others want, expect, or will say about you.
+
+
+# ~9c51c328
+; > PLAYER: |#~9c51c328|
+; You're an amazing, strong, and brave woman.
+
+
+# ~7f770f73
+; > PLAYER: |#~7f770f73|
+; You deserve happiness and to choose something that makes you enjoy living.
+
+
+# ~5779a693
+; > NA: |#~5779a693|
+; Her eyes sparkle in contained emotion.
+
+
+# ~21904803
+; > HI: |#~21904803|
+; No one has ever told me that without ulterior motives.
+
+
+# ~9ac3fc7e
+; > PLAYER: |#~9ac3fc7e|
+; Now someone has.
+
+
+# ~b5035ac
+; > NA: |#~b5035ac|
+; She laughs through tears.
+
+
+# ~c011d6f1
+; > HI: |#~c011d6f1|
+; If I break off the engagement...
+
+
+# ~d935ccb1
+; > HI: |#~d935ccb1|
+; ...I'll lose alliances, reputation, invitations.
+
+
+# ~b91bf2ca
+; > PLAYER: |#~b91bf2ca|
+; And you'll gain mornings of your own to do whatever you want.
+
+
+# ~25e19f48
+; > PLAYER: |#~25e19f48|
+; The right to open a door without asking permission.
+
+
+# ~249bfe0d
+; > PLAYER: |#~249bfe0d|
+; And the freedom to smile when you want.
+
+
+# ~a8ea4c70
+; > NA: |#~a8ea4c70|
+; Her eyes well up with tears.
+
+
+# ~20f1dee6
+; > PLAYER: |#~20f1dee6|
+; You're calling me cruel again?
+
+
+# ~14f254fe
+; > HI: |#~14f254fe|
+; Because you make me want... and you're dangerously convincing.
+
+
+# ~8225d652
+; > NA: |#~8225d652|
+; She takes a step closer to you.
+
+
+# ~7c62fa94
+; > HI: |#~7c62fa94|
+; What if I decide to stay?
+
+
+# ~864a64f2
+; > PLAYER: |#~864a64f2|
+; Then stay, some people will like that decision...
+
+
+# ~15faa153
+; > HI: |#~15faa153|
+; And if decide to choose you?
+
+
+# ~7f420ce8
+; > NA: |#~7f420ce8|
+; Your heart races and your eyes sparkle at the idea.
+
+
+# ~97861b52
+; > PLAYER: |#~97861b52|
+; Then I'm not responsible for what I do next.
+
+
+# ~db406901
+; > NA: |#~db406901|
+; Hipólita laughs, free and beautiful.
+
+
+# ~37ecfe7d
+; > NA: |#~37ecfe7d|
+; You pull her close.
+
+
+# ~f3ef2c0c
+; > NA: |#~f3ef2c0c|
+; You wrap your arms around her waist.
+
+
+# ~91462328
+; > NA: |#~91462328|
+; She barely had time to protest.
+
+
+# ~b6de5ce9
+; > NA: |#~b6de5ce9|
+; Hipólita rests her forehead against yours.
+
+
+# ~923aaba4
+; > HI: |#~923aaba4|
+; What shall we do now?
+
+
+# ~706a6b71
+; > PLAYER: |#~706a6b71|
+; Something scandalous.
+
+
+# ~cc7e0c5
+; > HI: |#~cc7e0c5|
+; Such as?
+
+
+# ~a995936f
+; > PLAYER: |#~a995936f|
+; Being happy.
+
+
+# ~210ae775
+; > NA: |#~210ae775|
+; You hold her tight, you face on her neck, buried in the scent of flowers and herbs you thought about so much these past days.
+
+
+# ~ad38e9e2
+; > NA: |#~ad38e9e2|
+; Hipólita's feet still touch the ground.
+
+
+# ~e6454711
+; > NA: |#~e6454711|
+; She holds onto to your shoulders, squeezing as if to make sure you're really there.
+
+
+# ~36384a15
+; > NA: |#~36384a15|
+; With a push you hold her waist tightly and lift her from the ground.
+
+
+# ~4cbb4a22
+; > NA: |#~4cbb4a22|
+; Her dress twirls in the air.
+
+
+# ~7cf9deff
+; > NA: |#~7cf9deff|
+; She clings to you between laughter and surprise.
+
+
+# ~35dd2dbb
+; > HI: |#~35dd2dbb|
+; You're mad!
+
+
+# ~5f3ae6e6
+; > NA: |#~5f3ae6e6|
+; Your faces are much closer now, so close you feel her warm breath against yours.
+
+
+# ~d4b56614
+; > NA: |#~d4b56614|
+; Your eyes drift down to her lips and back to her eyes again.
+
+
+# ~bc8cd4c8
+; > NA: |#~bc8cd4c8|
+; She laughs shyly and nods in silent agreement.
+
+
+# ~e8ca8b93
+; > NA: |#~e8ca8b93|
+; Hipólita buries her finger into your hair and pulls you close.
+
+
+# ~3f78353d
+; > NA: |#~3f78353d|
+; Your lips brush against hers gently, in a lingering kiss.
+
+
+# ~6798af95
+; > NA: |#~6798af95|
+; You feel the softness of her lips against yours.
+
+
+# ~9d8f0347
+; > NA: |#~9d8f0347|
+; Then you capture her lips, deepening the kiss. Her mouth is hot.
+
+
+# ~c5dd86ac
+; > NA: |#~c5dd86ac|
+; Your tongue slowly brushes against hers, exploring each corner of her mouth, savoring her sweet taste.
+
+
+# ~3f5f0e49
+; > NA: |#~3f5f0e49|
+; You feel her fingers grip your hair, a moan echoes from her throat, muffled by the kiss.
+
+
+# ~8dc672d9
+; > NA: |#~8dc672d9|
+; A long, hot kiss, hungry for lost time.
+
+
+# ~6af8ac99
+; > NA: |#~6af8ac99|
+; When you pull away, you both breathe awkwardly.
+
+
+# ~babf27f9
+; > NA: |#~babf27f9|
+; Hipólita sighs and you give her a quick kiss to the lips and then her forehead.
+
+
+# ~a6b743dc
+; > NA: |#~a6b743dc|
+; An almost protective kiss, then you pull away slightly.
+
+
+# ~84fbe901
+; > NA: |#~84fbe901|
+; She gazes at you, loving and certain.
+
+
+# ~2b32ec3
+; > HI: |#~2b32ec3|
+; I believe I'll stay.
+
+
+# ~67ee1dcd
+; > NA: |#~67ee1dcd|
+; You laugh deep within your throat. You couldn't stop smiling and neither could she.
+
+
+# ~3604b96
+; > NA: |#~3604b96|
+; You spun her again in the air, trying to really savor the moment.
+
+
+# ~cd49afc5
+; > NA: |#~cd49afc5|
+; It was the beginning of something and, around the farm, you finally felt like you belong to someone.
+
+
+# ~28606655
+; > NA: |#~28606655|
+; A few days later, you return to Hipólita's house.
+
+
+# ~688b5b25
+; > NA: |#~688b5b25|
+; As you walk, you notice the silence and distrust that hangs over the village.
+
+
+# ~c708f107
+; > NA: |#~c708f107|
+; The farm gate is no longer wide open.
+
+
+# ~3a9b4353
+; > NA: |#~3a9b4353|
+; There are no guards, no shouting.
+
+
+# ~4ca16656
+; > NA: |#~4ca16656|
+; Only the silence of those who cleaned the damage much too quickly.
+
+
+# ~556eeddc
+; > NA: |#~556eeddc|
+; Hipólita stands near the garden, watching the flowers sway in the wind.
+
+
+# ~30ae502
+; > NA: |#~30ae502|
+; Dressed with elegant simplicity.
+
+
+# ~99a2930c
+; > NA: |#~99a2930c|
+; Serene on the outside, but seems distant on the inside.
+
+
+# ~92b2cc72
+; > HI: |#~92b2cc72|
+; You came.
+
+
+# ~8cec7c8d
+; > PLAYER: |#~8cec7c8d|
+; I was always going to come.
+
+
+# ~49e1973c
+; > NA: |#~49e1973c|
+; She holds your gaze a moment longer.
+
+
+# ~8a1d9068
+; > HI: |#~8a1d9068|
+; I need to tell you what happened.
+
+
+# ~27e50955
+; > NA: |#~27e50955|
+; You sit on the stone bench between the flowerbeds.
+
+
+# ~2d3be1f0
+; > NA: |#~2d3be1f0|
+; The leaves slowly dance to the wind.
+
+
+# ~165a089d
+; > HI: |#~165a089d|
+; Part of the inheritance has been returned.
+
+
+# ~99eb3a84
+; > PLAYER: |#~99eb3a84|
+; Returned?
+
+
+# ~ec8941e3
+; > HI: |#~ec8941e3|
+; The assets were under my name through my father.
+
+
+# ~55a15a8c
+; > HI: |#~55a15a8c|
+; Without formal conviction, and some influential relatives calling in old favors...
+
+
+# ~9abe8b83
+; > HI: |#~9abe8b83|
+; The Crown decided to return what they deemed convenient.
+
+
+# ~9031fcca
+; > HI: |#~9031fcca|
+; Justice tends to be quite efficient when it serves convenience.
+
+
+# ~5714c21a
+; > PLAYER: |#~5714c21a|
+; So you're finally free?
+
+
+# ~1b04837b
+; > NA: |#~1b04837b|
+; She lowers her gaze.
+
+
+# ~ff6a7719
+; > HI: |#~ff6a7719|
+; Not entirely.
+
+
+# ~9b6535ce
+; > HI: |#~9b6535ce|
+; My fiancé was released.
+
+
+# ~229966cc
+; > PLAYER: |#~229966cc|
+; How?
+
+
+# ~c939fdb8
+; > HI: |#~c939fdb8|
+; Because another man carried the burden for everyone.
+
+
+# ~19db5e5a
+; > NA: |#~19db5e5a|
+; She raises her face.
+
+
+# ~fd5a825e
+; > HI: |#~fd5a825e|
+; Tiradentes took the blame alone.
+
+
+# ~a42be1df
+; > NA: |#~a42be1df|
+; The name hangs heavily among you.
+
+
+# ~797af001
+; > HI: |#~797af001|
+; And with one guilty enough, the others became less urgent.
+
+
+# ~29641a0e
+; > PLAYER: |#~29641a0e|
+; So Tiradentes will take all the blame and your fiancé is free, that's... great...
+
+
+# ~64695afe
+; > HI: |#~64695afe|
+; Now he wants to move the wedding forward.
+
+
+# ~ec0a00fa
+; > HI: |#~ec0a00fa|
+; Says the house needs order and my name needs protection.
+
+
+# ~2e0252dc
+; > HI: |#~2e0252dc|
+; Says many things begin with it and end with it.
+
+
+# ~d7f4d40f
+; > NA: |#~d7f4d40f|
+; She takes a deep breath and you see sadness in her eyes.
+
+
+# ~83f1f4ff
+; > NA: |#~83f1f4ff|
+; Your chest tightens, you feel a sharp pain as if you took a blow to the stomach.
+
+
+# ~f7bdd03
+; > PLAYER: |#~f7bdd03|
+; Maybe it's best to accept it.
+
+
+# ~5dbe4029
+; > PLAYER: |#~5dbe4029|
+; You've already lost so much, maybe protecting what's left is better.
+
+
+# ~219edc42
+; > NA: |#~219edc42|
+; Hipólita goes very quiet.
+
+
+# ~93622cca
+; > NA: |#~93622cca|
+; Her silence is worse than tears.
+
+
+# ~d9fb4bed
+; > HI: |#~d9fb4bed|
+; Protect, always protect.
+
+
+# ~6d1d5e21
+; > NA: |#~6d1d5e21|
+; She stands up slowly and stares at you.
+
+
+# ~9c5823d5
+; > NA: |#~9c5823d5|
+; She seems disappointed, as if she expected something she knew wouldn't happen.
+
+
+# ~ce4fbb03
+; > HI: |#~ce4fbb03|
+; I appreciate your honesty.
+
+
+# ~5856f8
+; > NA: |#~5856f8|
+; Her tone is polite, but distant.
+
+
+# ~ed12ef4e
+; > NA: |#~ed12ef4e|
+; You stay seated, cursing your actions and words that led you here.
+
+
+# ~d80610d8
+; > NA: |#~d80610d8|
+; As you watch her slowly walk inside the house.
+
+
+# ~f115c508
+; > NA: |#~f115c508|
+; Days later you're at the inn, dejected and weary, helping Francisca with cleaning.
+
+
+# ~2dc4f47e
+; > NA: |#~2dc4f47e|
+; When someone delivers a formal invitation.
+
+
+# ~c6d945dc
+; > NA: |#~c6d945dc|
+; Francisca receives it and notices the thick paper, the ornate lettering.
+
+
+# ~fa073f34
+; > NA: |#~fa073f34|
+; She approaches you and hands you the invitation with a heavy look.
+
+
+# ~3848a7f
+; > PLAYER: |#~3848a7f|
+; What's this?
+
+
+# ~ec800400
+; > FR: |#~ec800400|
+; Refined cruelty.
+
+
+# ~f10f9ba2
+; > NA: |#~f10f9ba2|
+; Francisca mumbles handing you the envelope.
+
+
+# ~6a647504
+; > FR: |#~6a647504|
+; They delivered this with great pomp.
+
+
+# ~87b7e882
+; > FR: |#~87b7e882|
+; The courier seems to enjoy the task.
+
+
+# ~77a7b4bb
+; > NA: |#~77a7b4bb|
+; You take the envelope and break the seal.
+
+
+# ~94331385
+; > NA: |#~94331385|
+; Elegant lettering announce the wedding of Lady Hipólita and Francisco Lopes.
+
+
+# ~2072926
+; > NA: |#~2072926|
+; Your name is handwritten at the end, added deliberately.
+
+
+# ~ddc35c93
+; > FR: |#~ddc35c93|
+; How graceful.
+
+
+# ~688430e2
+; > FR: |#~688430e2|
+; Inviting who you lost.
+
+
+# ~aba3762d
+; > PLAYER: |#~aba3762d|
+; Maybe I shouldn't go.
+
+
+# ~1e6c9bb
+; > FR: |#~1e6c9bb|
+; Maybe not.
+
+
+# ~c921fc47
+; > PLAYER: |#~c921fc47|
+; But what choice do I have?
+
+
+# ~820c9a54
+; > NA: |#~820c9a54|
+; Francisca looks at you in disbelief as if the answer was obvious, but she states it.
+
+
+# ~93e30eb8
+; > FR: |#~93e30eb8|
+; And yet, you'll go.
+
+
+# ~261d683c
+; > NA: |#~261d683c|
+; She knows you too well.
+
+
+# ~b7c2b191
+; > NA: |#~b7c2b191|
+; The church is full and a scent of flowers and silk fills the air.
+
+
+# ~ae7af862
+; > NA: |#~ae7af862|
+; Most people from Vila Rica are there, members of the elite and some people you know.
+
+
+# ~3b82c1fb
+; > NA: |#~3b82c1fb|
+; People watch curiously, but smile as protocol dictates.
+
+
+# ~19c94e86
+; > NA: |#~19c94e86|
+; A soft song begins as Hipólita walks up to the altar.
+
+
+# ~c1590a35
+; > NA: |#~c1590a35|
+; She's beautiful as expected, long white dress, her hair styled and beautiful flowers in her hands.
+
+
+# ~f6013c7b
+; > NA: |#~f6013c7b|
+; But her expression isn't happy, eyes downcast and apathetic.
+
+
+# ~1314ea8
+; > NA: |#~1314ea8|
+; Meanwhile her fiancé waits beside the officiant, satisfied, chest puffed out and a triumphant smile.
+
+
+# ~7858aeb7
+; > NA: |#~7858aeb7|
+; You have the feeling he glances at you a few times.
+
+
+# ~5fe27f95
+; > NA: |#~5fe27f95|
+; When she reaches the altar, their hands meet.
+
+
+# ~4eac5adf
+; > NA: |#~4eac5adf|
+; She rests hers, cold and indifferent, while he squeezes possessively.
+
+
+# ~a67465f3
+; > NA: |#~a67465f3|
+; Before the final vows, Hipólita looks up.
+
+
+# ~4cc5466d
+; > NA: |#~4cc5466d|
+; Her eyes find you among the guests.
+
+
+# ~6b6b6f13
+; > NA: |#~6b6b6f13|
+; Silent tears glisten in her eyes and you feel something break inside you right there.
+
+
+# ~e43c8422
+; > NA: |#~e43c8422|
+; The groom, unaware, smiles smugly.
+
+
+# ~d225fd14
+; > NA: |#~d225fd14|
+; When the vows are exchange and he kisses her before everyone, the church applauds.
+
+
+# ~655efe01
+; > NA: |#~655efe01|
+; But you can't. You feel the tears well up around your eyes, your hands shake and it feels like you can't breathe.
+
+
+# ~288a203
+; > NA: |#~288a203|
+; Hipólita closes her eyes.
+
+
+# ~c53f0b15
+; > NA: |#~c53f0b15|
+; Not from passion, but the absence of it.
+
+
+# ~2b779e8
+; > NA: |#~2b779e8|
+; As the two leave together hand in hand, the church bells ring and people celebrate, wishing happiness to the new couple.
+
+
+# ~4a14d663
+; > NA: |#~4a14d663|
+; You leave slowly, your eyes follow the procession toward the carriage, and when you look at Hipólita again...
+
+
+# ~7cdde0a9
+; > NA: |#~7cdde0a9|
+; That look never felt so much like a silent farewell.
+

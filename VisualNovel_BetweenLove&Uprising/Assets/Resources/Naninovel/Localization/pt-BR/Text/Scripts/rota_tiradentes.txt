@@ -1,0 +1,10117 @@
+; English <en> to Portuguese (Brazil) <pt-BR> localization document for 'Male Doll Template/Scripts/rota_tiradentes' Naninovel scenario script
+
+# ~34119f58
+; > NA: |#~34119f58|
+; You wake slowly, shifting in bed, the air already warm.
+
+
+# ~8344373a
+; > NA: |#~8344373a|
+; The morning sun is rising, bringing heat with it.
+
+
+# ~13f12852
+; > NA: |#~13f12852|
+; Your eyes blink up at the low ceiling. Dark wooden beams stretch overhead, and the scent of clean cloth and old smoke seeps into everything, filling the space around you.
+
+
+# ~80be94e0
+; > NA: |#~80be94e0|
+; For a moment, you don’t understand where you are. You sit up abruptly.
+
+
+# ~d216e4ec
+; > PLAYER: |#~d216e4ec|
+; …no.
+
+
+# ~e21e461a
+; > NA: |#~e21e461a|
+; You run your hands over your face, trying to fully wake up.
+
+
+# ~c450a16e
+; > PLAYER: |#~c450a16e|
+; It was a dream… it has to be.
+
+
+# ~c9c463b1
+; > NA: |#~c9c463b1|
+; But your clothes are neatly folded over a chair that isn’t yours. Your sneakers, stained with red dirt, sit beside it.
+
+
+# ~340fecf6
+; > NA: |#~340fecf6|
+; There’s no sound of cars, no distant chatter carried through walls, no electricity humming in the background.
+
+
+# ~87d6d074
+; > NA: |#~87d6d074|
+; Reality settles in, piece by piece.
+
+
+# ~6544b772
+; > PLAYER: |#~6544b772|
+; I’m still here…
+
+
+# ~26c748a2
+; > NA: |#~26c748a2|
+; You look around, uneasy.
+
+
+# ~d107392
+; > NA: |#~d107392|
+; No bathroom. No sink. Nothing you’d recognize as basic comfort.
+
+
+# ~8a23bb26
+; > PLAYER: |#~8a23bb26|
+; How do people even live like this…?
+
+
+# ~72f2deaf
+; > NA: |#~72f2deaf|
+; You run your hands through your hair.
+
+
+# ~87760453
+; > PLAYER: |#~87760453|
+; I at least need to wash my face… honestly, a shower would be amazing right now.
+
+
+# ~ab2ad471
+; > NA: |#~ab2ad471|
+; After a moment of hesitation, you stand.
+
+
+# ~d13f0da7
+; > NA: |#~d13f0da7|
+; Your clothes still carry dust from the day before.
+
+
+# ~c6cc125a
+; > NA: |#~c6cc125a|
+; You put them on anyway.
+
+
+# ~3d799417
+; > NA: |#~3d799417|
+; Then head downstairs.
+
+
+# ~1f0fa2f8
+; > NA: |#~1f0fa2f8|
+; The inn’s common room is simple, but welcoming.
+
+
+# ~b349156a
+; > NA: |#~b349156a|
+; A woman stands by the counter, organizing clay containers.
+
+
+# ~5b7d4bfb
+; > NA: |#~5b7d4bfb|
+; She looks up as you approach. Her eyes are attentive, but not unfriendly.
+
+
+# ~4276251d
+; > FR: |#~4276251d|
+; Well now… awake already.
+
+
+# ~e9c23887
+; > NA: |#~e9c23887|
+; She studies you with curiosity.
+
+
+# ~5e6312e
+; > FR: |#~5e6312e|
+; Did you sleep well?
+
+
+# ~66c66520
+; > PLAYER: |#~66c66520|
+; Better than I expected.
+
+
+# ~ff4af8b3
+; > NA: |#~ff4af8b3|
+; She nods, satisfied.
+
+
+# ~130e391f
+; > FR: |#~130e391f|
+; I am Francisca. This house is mine.
+
+
+# ~f8d1ac84
+; > FR: |#~f8d1ac84|
+; And for now… it is yours as well.
+
+
+# ~219b026
+; > PLAYER: |#~219b026|
+; Thank you… for letting me stay.
+
+
+# ~fdfdce3a
+; > NA: |#~fdfdce3a|
+; She shrugs lightly.
+
+
+# ~f454ee60
+; > FR: |#~f454ee60|
+; Every soul needs shelter at some point.
+
+
+# ~3deafc17
+; > NA: |#~3deafc17|
+; Her gaze lingers on your hands, your face, your clothes.
+
+
+# ~be6988a2
+; > FR: |#~be6988a2|
+; There is water out back, if you wish to wash.
+
+
+# ~1f6f0595
+; > FR: |#~1f6f0595|
+; It is no luxury… but it will do.
+
+
+# ~894cdcd7
+; > NA: |#~894cdcd7|
+; You smile without meaning to, as if your prayers had just been answered.
+
+
+# ~d319fed
+; > PLAYER: |#~d319fed|
+; That already helps a lot.
+
+
+# ~ec0e8b9b
+; > NA: |#~ec0e8b9b|
+; You head to the back in quick steps.
+
+
+# ~a1fb5158
+; > NA: |#~a1fb5158|
+; There, a large basin of water waits.
+
+
+# ~d52d02b2
+; > NA: |#~d52d02b2|
+; You dip your hands in, your body reacting instantly to the cold.
+
+
+# ~7f95cf52
+; > PLAYER: |#~7f95cf52|
+; Whoa!
+
+
+# ~d04545fa
+; > NA: |#~d04545fa|
+; You do your best to clean up.
+
+
+# ~8904c233
+; > NA: |#~8904c233|
+; No toothbrush. No modern soap. Just a jug and a few cloths.
+
+
+# ~342fd1ae
+; > NA: |#~342fd1ae|
+; After a while, you return to the kitchen.
+
+
+# ~1e0830e0
+; > NA: |#~1e0830e0|
+; Your skin is cold, your clothes slightly damp, your hair still wet.
+
+
+# ~44075fac
+; > NA: |#~44075fac|
+; On the table, there’s simple food.
+
+
+# ~c17eeb45
+; > NA: |#~c17eeb45|
+; Thick bread, broa, fruit… and a mug of something warm.
+
+
+# ~657b0385
+; > NA: |#~657b0385|
+; Francisca notices your gaze.
+
+
+# ~77425763
+; > PLAYER: |#~77425763|
+; This looks great.
+
+
+# ~6c2503cf
+; > NA: |#~6c2503cf|
+; You sit, take a bite of the bread and pause.
+
+
+# ~56e3a3c3
+; > NA: |#~56e3a3c3|
+; It tastes like pão de queijo.
+
+
+# ~28f44bdc
+; > NA: |#~28f44bdc|
+; A soft, involuntary sound of pleasure slips past your lips.
+
+
+# ~d36c0681
+; > PLAYER: |#~d36c0681|
+; It’s been a while since I had something like this.
+
+
+# ~9cb206c4
+; > NA: |#~9cb206c4|
+; Francisca watches with a faint smile.
+
+
+# ~cafdc2ac
+; > FR: |#~cafdc2ac|
+; Hunger improves any table.
+
+
+# ~725695e7
+; > NA: |#~725695e7|
+; She studies you more carefully now.
+
+
+# ~b1c0b98c
+; > FR: |#~b1c0b98c|
+; Doctor Alvarenga brought you here.
+
+
+# ~2e738dbc
+; > PLAYER: |#~2e738dbc|
+; He did.
+
+
+# ~715775a
+; > FR: |#~715775a|
+; He is a man of good nature.
+
+
+# ~e0ce3c48
+; > NA: |#~e0ce3c48|
+; She hesitates, choosing her words.
+
+
+# ~dc90b877
+; > FR: |#~dc90b877|
+; Though his ideas… tend to bring him danger.
+
+
+# ~d82d5a6b
+; > NA: |#~d82d5a6b|
+; You pause, watching her for a moment, weighing whether to speak.
+
+
+# ~4ce5b644
+; > PLAYER: |#~4ce5b644|
+; Are you talking about his ideas of change… or revolution?
+
+
+# ~5bca9507
+; > NA: |#~5bca9507|
+; She takes a slight step back.
+
+
+# ~228a18a2
+; > FR: |#~228a18a2|
+; Some words are best spoken softly.
+
+
+# ~cb35eac9
+; > PLAYER: |#~cb35eac9|
+; But aren’t those the very ideas that allow you to be free?
+
+
+# ~480f8f20
+; > NA: |#~480f8f20|
+; She looks at you not with anger, but with caution.
+
+
+# ~6dcbb51a
+; > FR: |#~6dcbb51a|
+; Freedom… is a large word.
+
+
+# ~adfab8e3
+; > FR: |#~adfab8e3|
+; And far too costly.
+
+
+# ~cfb50cdb
+; > NA: |#~cfb50cdb|
+; She looks away.
+
+
+# ~2598c88e
+; > NA: |#~2598c88e|
+; You realize you’ve pushed too far.
+
+
+# ~3d3dabe9
+; > PLAYER: |#~3d3dabe9|
+; Sorry. I didn’t mean to offend you or...
+
+
+# ~625d30a1
+; > NA: |#~625d30a1|
+; She raises a hand, gently stopping you.
+
+
+# ~1032a48e
+; > FR: |#~1032a48e|
+; You owe me no apology.
+
+
+# ~567fd537
+; > NA: |#~567fd537|
+; A pause.
+
+
+# ~237f94a6
+; > FR: |#~237f94a6|
+; Only caution.
+
+
+# ~33884d65
+; > FR: |#~33884d65|
+; Vila Rica listens more than it seems.
+
+
+# ~97b12947
+; > NA: |#~97b12947|
+; After breakfast, you step out of the inn.
+
+
+# ~bc079d1a
+; > NA: |#~bc079d1a|
+; The morning sun already warms the street. The air is clean, though tinged with dust and the distant scent of earth and animals.
+
+
+# ~f481be1b
+; > NA: |#~f481be1b|
+; For a moment, you simply stand there, observing… breathing.
+
+
+# ~536e4d65
+; > PLAYER: |#~536e4d65|
+; Who would’ve thought no pollution would make the air this clean…
+
+
+# ~c750e058
+; > PLAYER: |#~c750e058|
+; This is real…
+
+
+# ~2e144f16
+; > NA: |#~2e144f16|
+; No cars. No wires. Nothing that belongs to your time.
+
+
+# ~6677d5e6
+; > NA: |#~6677d5e6|
+; You take a few steps, but Francisca calls out to you.
+
+
+# ~1f94bee4
+; > FR: |#~1f94bee4|
+; Wait a moment.
+
+
+# ~b0edc619
+; > NA: |#~b0edc619|
+; She stands at the doorway, holding a small bucket.
+
+
+# ~420a50e3
+; > FR: |#~420a50e3|
+; If you are to stay in this house… it is only proper that you help sustain it.
+
+
+# ~6733a299
+; > NA: |#~6733a299|
+; Her tone isn’t harsh, just direct.
+
+
+# ~c0625ac1
+; > FR: |#~c0625ac1|
+; Take this to the well and bring it back filled with water.
+
+
+# ~b210fc2c
+; > PLAYER: |#~b210fc2c|
+; Sure. I can do that.
+
+
+# ~ab2c1140
+; > NA: |#~ab2c1140|
+; She hands you the bucket, and you follow her instructions.
+
+
+# ~5f1c8058
+; > NA: |#~5f1c8058|
+; The task is simple. The rope feels rough against your hands.
+
+
+# ~c8da306b
+; > NA: |#~c8da306b|
+; When you return, Francisca nods in approval.
+
+
+# ~4cc9cc97
+; > FR: |#~4cc9cc97|
+; You learn quickly. That will serve you well.
+
+
+# ~d58f35b6
+; > NA: |#~d58f35b6|
+; Moments later, you leave the inn once again.
+
+
+# ~1bd447c0
+; > PLAYER: |#~1bd447c0|
+; This isn’t a dream…
+
+
+# ~965e8256
+; > PLAYER: |#~965e8256|
+; So I need to stop acting like it is.
+
+
+# ~fffae4e5
+; > NA: |#~fffae4e5|
+; You think of someone who might be able to help.
+
+
+# ~12d1b3ec
+; > PLAYER: |#~12d1b3ec|
+; Alvarenga… he was the only one who tried to protect me.
+
+
+# ~19bafa68
+; > NA: |#~19bafa68|
+; With long strides, you start walking.
+
+
+# ~175ccc17
+; > PLAYER: |#~175ccc17|
+; Maybe he knows what to do.
+
+
+# ~262c7edf
+; > NA: |#~262c7edf|
+; The streets of Vila Rica open before you. Stone houses, wooden doors, the distant sounds of labor.
+
+
+# ~d9345108
+; > NA: |#~d9345108|
+; Your feet carry you away from the center. You’re not entirely sure where you’re going, but you try to retrace the path from the day before.
+
+
+# ~5e737ae5
+; > NA: |#~5e737ae5|
+; Until the city begins to fall behind, and the open land stretches out ahead.
+
+
+# ~302776b9
+; > NA: |#~302776b9|
+; Dry earth. Low vegetation. Silence.
+
+
+# ~b33a47ea
+; > NA: |#~b33a47ea|
+; And then you see him.
+
+
+# ~446b3b92
+; > NA: |#~446b3b92|
+; Tiradentes sits on a cut log. An axe rests against his leg.
+
+
+# ~7ba383c3
+; > NA: |#~7ba383c3|
+; His shirt is open at the collar, revealing pale skin and the line of his chest. The sleeves are rolled up, exposing strong arms marked by labor.
+
+
+# ~367961f6
+; > NA: |#~367961f6|
+; Sunlight casts shadows across his skin. Veins stand subtly along his hands as he grips the axe.
+
+
+# ~bb6d6f27
+; > NA: |#~bb6d6f27|
+; He does not look like a hero, only a man. Strong. Present. Alive.
+
+
+# ~72d017b0
+; > NA: |#~72d017b0|
+; You stare a moment too long without realizing it.
+
+
+# ~c83aa041
+; > PLAYER: |#~c83aa041|
+; (…my God.)
+
+
+# ~83f66a04
+; > NA: |#~83f66a04|
+; Heat rises to your face.
+
+
+# ~3a9a0ca1
+; > PLAYER: |#~3a9a0ca1|
+; (He looks even more beautiful now than he did yesterday…)
+
+
+# ~5556900a
+; > NA: |#~5556900a|
+; As if sensing your gaze, he lifts his head.
+
+
+# ~3987c4a
+; > NA: |#~3987c4a|
+; His eyes meet yours. One brow arches, curious.
+
+
+# ~b96753a6
+; > NA: |#~b96753a6|
+; You immediately look away, flustered.
+
+
+# ~2646aa98
+; > NA: |#~2646aa98|
+; But it’s too late. He rises slowly.
+
+
+# ~22843982
+; > TI: |#~22843982|
+; It is not common to see strangers in these parts so early.
+
+
+# ~6ed256c1
+; > NA: |#~6ed256c1|
+; His voice is calm.
+
+
+# ~3206c945
+; > NA: |#~3206c945|
+; He steps closer.
+
+
+# ~e6b53dab
+; > TI: |#~e6b53dab|
+; Have you lost your way… or are you searching for something?
+
+
+# ~110e13b
+; > NA: |#~110e13b|
+; You hesitate before answering.
+
+
+# ~6085f126
+; > PLAYER: |#~6085f126|
+; I… I was looking for Alvarenga…
+
+
+# ~2cf6e6de
+; > PLAYER: |#~2cf6e6de|
+; Tiradentes.
+
+
+# ~9a11d22b
+; > NA: |#~9a11d22b|
+; The name lingers in the air.
+
+
+# ~c69ffae4
+; > NA: |#~c69ffae4|
+; He tilts his head slightly, intrigued.
+
+
+# ~3d6bc2e
+; > PLAYER: |#~3d6bc2e|
+; Tiradentes…
+
+
+# ~c74e8bb
+; > NA: |#~c74e8bb|
+; A small smile appears.
+
+
+# ~625cb20d
+; > NA: |#~625cb20d|
+; He seems interested, not offended.
+
+
+# ~fb477a2d
+; > TI: |#~fb477a2d|
+; Curious.
+
+
+# ~2c56c86c
+; > NA: |#~2c56c86c|
+; He studies you more closely.
+
+
+# ~dedc9952
+; > TI: |#~dedc9952|
+; Everyone calls me alferes.
+
+
+# ~84f7832b
+; > TI: |#~84f7832b|
+; Why do you not?
+
+
+# ~d9af5324
+; > PLAYER: |#~d9af5324|
+; Because that’s how I know you.
+
+
+# ~86e307b7
+; > NA: |#~86e307b7|
+; You realize what you’ve said and quickly correct yourself.
+
+
+# ~82663b61
+; > PLAYER: |#~82663b61|
+; But I can call you alferes, if you prefer.
+
+
+# ~5cd731e5
+; > NA: |#~5cd731e5|
+; Tiradentes watches you in silence… then smiles.
+
+
+# ~a2a5571d
+; > PLAYER: |#~a2a5571d|
+; No.
+
+
+# ~8ac37456
+; > TI: |#~8ac37456|
+; There is something different in the way you say it.
+
+
+# ~4422cf41
+; > NA: |#~4422cf41|
+; He steps closer, not invasive, but close enough.
+
+
+# ~ca89af29
+; > TI: |#~ca89af29|
+; Tiradentes… it sounds almost like a new name, in your voice.
+
+
+# ~a4949308
+; > TI: |#~a4949308|
+; But tell me… Alvarenga.
+
+
+# ~1fd2f76d
+; > PLAYER: |#~1fd2f76d|
+; He helped me yesterday, so I thought…
+
+
+# ~529be3fc
+; > NA: |#~529be3fc|
+; He nods slowly.
+
+
+# ~1873b37e
+; > TI: |#~1873b37e|
+; A man of great wit… and a greater heart.
+
+
+# ~e6c4d7ed
+; > NA: |#~e6c4d7ed|
+; Then he adds, naturally
+
+
+# ~cb4506e2
+; > TI: |#~cb4506e2|
+; And a married man.
+
+
+# ~338e15fa
+; > NA: |#~338e15fa|
+; You blink, caught off guard.
+
+
+# ~c3b687b3
+; > TI: |#~c3b687b3|
+; I know.
+
+
+# ~f5ce43ac
+; > NA: |#~f5ce43ac|
+; Without thinking, you add.
+
+
+# ~292a2ef5
+; > PLAYER: |#~292a2ef5|
+; I mean...of course I know. He’s, well… handsome. Of course he’d have someone.
+
+
+# ~25179412
+; > NA: |#~25179412|
+; The silence that follows feels almost physical.
+
+
+# ~bdb53be2
+; > NA: |#~bdb53be2|
+; Tiradentes slowly raises an eyebrow.
+
+
+# ~1d674a1c
+; > TI: |#~1d674a1c|
+; Handsome?
+
+
+# ~89a3ec4d
+; > NA: |#~89a3ec4d|
+; There is no anger in his voice, only curiosity.
+
+
+# ~86dd3994
+; > TI: |#~86dd3994|
+; Indeed… he is said to be a man of good appearance.
+
+
+# ~9a733975
+; > NA: |#~9a733975|
+; He crosses his arms, thoughtful.
+
+
+# ~257d42ab
+; > TI: |#~257d42ab|
+; Though the years have granted him a certain maturity…
+
+
+# ~741e68a2
+; > TI: |#~741e68a2|
+; He is no longer a youth. Which, for some, seems to increase his appeal.
+
+
+# ~1e330f1d
+; > NA: |#~1e330f1d|
+; There’s something subtle in that remark.
+
+
+# ~c193b75a
+; > PLAYER: |#~c193b75a|
+; Age doesn’t mean anything.
+
+
+# ~b5dbe901
+; > NA: |#~b5dbe901|
+; You answer too quickly.
+
+
+# ~cf0a9406
+; > PLAYER: |#~cf0a9406|
+; I mean… sometimes it makes things better.
+
+
+# ~324d04dd
+; > NA: |#~324d04dd|
+; You realize what you just implied.
+
+
+# ~f3392c15
+; > NA: |#~f3392c15|
+; Tiradentes tilts his head slightly.
+
+
+# ~78508805
+; > TI: |#~78508805|
+; Better…?
+
+
+# ~53be9a35
+; > NA: |#~53be9a35|
+; He suppresses a smile.
+
+
+# ~55bd5df1
+; > TI: |#~55bd5df1|
+; It seems you are well acquainted with the virtues of maturity.
+
+
+# ~30cc6e68
+; > NA: |#~30cc6e68|
+; Your face immediately heats up.
+
+
+# ~8ad38797
+; > PLAYER: |#~8ad38797|
+; That’s not what I meant. I mean, it is, but not like that…
+
+
+# ~6868813d
+; > PLAYER: |#~6868813d|
+; I just meant he seems… respectable.
+
+
+# ~2c7ad355
+; > NA: |#~2c7ad355|
+; Tiradentes watches you for another moment. Then exhales softly, almost a restrained laugh.
+
+
+# ~410c6cc7
+; > TI: |#~410c6cc7|
+; Do not trouble yourself.
+
+
+# ~56556f58
+; > TI: |#~56556f58|
+; You are not the first to notice his qualities… nor will you be the last.
+
+
+# ~5519705f
+; > NA: |#~5519705f|
+; There is something strange in that moment.
+
+
+# ~41e7e2e4
+; > NA: |#~41e7e2e4|
+; He rests a hand on the handle of the axe.
+
+
+# ~51933075
+; > TI: |#~51933075|
+; Alvarenga and I share… more than friendship.
+
+
+# ~f6ef4fe0
+; > NA: |#~f6ef4fe0|
+; He pauses.
+
+
+# ~45016db6
+; > NA: |#~45016db6|
+; And you fail to contain a childish little laugh at the implication that flashes through your mind.
+
+
+# ~9438bc8e
+; > PLAYER: |#~9438bc8e|
+; Hmm…
+
+
+# ~473d414e
+; > TI: |#~473d414e|
+; We share ideas.
+
+
+# ~6dca18df
+; > PLAYER: |#~6dca18df|
+; Oh…
+
+
+# ~f0577bc7
+; > NA: |#~f0577bc7|
+; Tiradentes’ eyes return to you. Firm. Attentive.
+
+
+# ~57c20416
+; > TI: |#~57c20416|
+; Ideas not all understand… ideas not all approve of.
+
+
+# ~72a084e9
+; > NA: |#~72a084e9|
+; He tilts his head slightly.
+
+
+# ~d8fbba0c
+; > TI: |#~d8fbba0c|
+; And you?
+
+
+# ~2f679b36
+; > PLAYER: |#~2f679b36|
+; Me what?
+
+
+# ~e0a4b02
+; > TI: |#~e0a4b02|
+; You speak as one who has come from afar.
+
+
+# ~18013c0c
+; > TI: |#~18013c0c|
+; Tell me… what do you think of this world?
+
+
+# ~bad21a4d
+; > NA: |#~bad21a4d|
+; The question is not casual.
+
+
+# ~28356094
+; > TI: |#~28356094|
+; You saw the square.
+
+
+# ~b9dcd09b
+; > TI: |#~b9dcd09b|
+; You saw the men who work… and those who merely collect the fruits.
+
+
+# ~3b50c0f2
+; > TI: |#~3b50c0f2|
+; Yes.
+
+
+# ~5cb201de
+; > TI: |#~5cb201de|
+; Speak frankly. Does it seem just to you?
+
+
+# ~ea9bb24e
+; > @choice "|#~ea9bb24e|" goto:.scene2T-1
+; No, I would change the way they treat the people
+
+
+# ~6b020e00
+; > @choice "|#~6b020e00|" goto:.scene2T-2
+; It may not be just, but the world is this way
+
+
+# ~868afdf
+; > NA: |#~868afdf|
+; You hold his gaze.
+
+
+# ~4dd0db3c
+; > PLAYER: |#~4dd0db3c|
+; I would change how they treat the people.
+
+
+# ~588e4153
+; > PLAYER: |#~588e4153|
+; It is not right.
+
+
+# ~4508bae3
+; > NA: |#~4508bae3|
+; The silence that follows is not heavy.
+
+
+# ~5e7e7e27
+; > NA: |#~5e7e7e27|
+; Tiradentes smiles. But it is not an ordinary smile.
+
+
+# ~effe9a8d
+; > NA: |#~effe9a8d|
+; He seems almost relieved.
+
+
+# ~52b7c65e
+; > TI: |#~52b7c65e|
+; So soon… and you already see it.
+
+
+# ~efa666c5
+; > NA: |#~efa666c5|
+; He exhales a brief, satisfied breath through his nose.
+
+
+# ~d3bd29c6
+; > TI: |#~d3bd29c6|
+; Rare it is to find someone who sees beyond their own convenience.
+
+
+# ~c3c0b793
+; > NA: |#~c3c0b793|
+; He relaxes his shoulders.
+
+
+# ~1cc219aa
+; > TI: |#~1cc219aa|
+; Many feel the weight.
+
+
+# ~3e9039b2
+; > TI: |#~3e9039b2|
+; Few dare to name it.
+
+
+# ~e52f912f
+; > NA: |#~e52f912f|
+; He steps a little closer, more open now.
+
+
+# ~24c31386
+; > TI: |#~24c31386|
+; Tell me… what would you do if you could change it?
+
+
+# ~270c912
+; > TI: |#~270c912|
+; Vila Rica lacks men and women who think.
+
+
+# ~e33059db
+; > TI: |#~e33059db|
+; Not just those who obey.
+
+
+# ~92b1f76
+; > NA: |#~92b1f76|
+; For the first time, he seems to speak as an equal.
+
+
+# ~2c7375e6
+; > NA: |#~2c7375e6|
+; You smile.
+
+
+# ~789e363
+; > PLAYER: |#~789e363|
+; Is this an invitation?
+
+
+# ~5a0f4123
+; > NA: |#~5a0f4123|
+; He seems to consider your question, as if weighing something.
+
+
+# ~ef4b0fff
+; > PLAYER: |#~ef4b0fff|
+; It’s just authority fulfilling its role.
+
+
+# ~d30b4ddd
+; > NA: |#~d30b4ddd|
+; Tiradentes’ jaw tightens slightly.
+
+
+# ~885386dd
+; > TI: |#~885386dd|
+; Fulfilling a role…
+
+
+# ~21952037
+; > NA: |#~21952037|
+; He takes a deep breath.
+
+
+# ~15ed9073
+; > TI: |#~15ed9073|
+; The executioner does the same.
+
+
+# ~9efff81d
+; > NA: |#~9efff81d|
+; His tone does not rise. But it chills.
+
+
+# ~6d6a70cf
+; > TI: |#~6d6a70cf|
+; Yet blood still flows.
+
+
+# ~775b557f
+; > NA: |#~775b557f|
+; Silence, and he stares at you for a long moment.
+
+
+# ~10df7fb4
+; > @choice "|#~10df7fb4|" goto:.scene2T-3A
+; Rules and order exist for a reason.
+
+
+# ~a076678a
+; > @choice "|#~a076678a|" goto:.scene2T-3B
+; It’s not about agreeing, just avoiding the consequences.
+
+
+# ~68c7b2f1
+; > TI: |#~68c7b2f1|
+; Order…
+
+
+# ~62a35c04
+; > TI: |#~62a35c04|
+; That is what they always call it, before naming it justice.
+
+
+# ~b3cd387a
+; > NA: |#~b3cd387a|
+; A faint, almost ironic breath escapes him.
+
+
+# ~ee552e95
+; > TI: |#~ee552e95|
+; Well-crafted words… meant to keep everything exactly as it is.
+
+
+# ~786411ed
+; > NA: |#~786411ed|
+; His gaze lingers on you for a moment longer.
+
+
+# ~7088ab57
+; > TI: |#~7088ab57|
+; Prudence, then.
+
+
+# ~558c8b28
+; > TI: |#~558c8b28|
+; A virtue… when it does not paralyze us.
+
+
+# ~8cf54d67
+; > NA: |#~8cf54d67|
+; He tilts his head slightly, thoughtful.
+
+
+# ~2b1dfbe6
+; > TI: |#~2b1dfbe6|
+; Many call it caution…
+
+
+# ~2e38b414
+; > TI: |#~2e38b414|
+; When, deep down, it is only well-dressed fear.
+
+
+# ~cfbcbdbc
+; > NA: |#~cfbcbdbc|
+; His tone is not accusatory, only curious.
+
+
+# ~478274e5
+; > NA: |#~478274e5|
+; Tiradentes remains silent for a moment.
+
+
+# ~7bd6b7
+; > NA: |#~7bd6b7|
+; His gaze is firm and attentive, as one trying to see beyond words.
+
+
+# ~29210897
+; > NA: |#~29210897|
+; Then, gradually, his expression softens.
+
+
+# ~110d67b5
+; > TI: |#~110d67b5|
+; Perhaps you do not yet know this land well enough.
+
+
+# ~9af52905
+; > NA: |#~9af52905|
+; He shifts his weight to one leg, more at ease.
+
+
+# ~ec1b8e13
+; > TI: |#~ec1b8e13|
+; Vila Rica teaches… even by force.
+
+
+# ~efea838e
+; > NA: |#~efea838e|
+; There is no harshness in his voice now.
+
+
+# ~b3fc863d
+; > NA: |#~b3fc863d|
+; But neither full trust.
+
+
+# ~ce2fd215
+; > TI: |#~ce2fd215|
+; Many arrive here seeing only gold.
+
+
+# ~d17d8c1c
+; > TI: |#~d17d8c1c|
+; They take time to perceive the cost.
+
+
+# ~240dd23
+; > NA: |#~240dd23|
+; A brief pause.
+
+
+# ~a5d70864
+; > TI: |#~a5d70864|
+; I do not blame you for not seeing it entirely yet.
+
+
+# ~8e643651
+; > TI: |#~8e643651|
+; Each awakens in their own time.
+
+
+# ~13da72dc
+; > NA: |#~13da72dc|
+; He releases the axe handle and wipes his hands on the cloth at his belt.
+
+
+# ~f8587602
+; > TI: |#~f8587602|
+; I have some matters that cannot wait.
+
+
+# ~e5274aba
+; > NA: |#~e5274aba|
+; He gestures vaguely toward the city.
+
+
+# ~79f7dd7
+; > TI: |#~79f7dd7|
+; Vila Rica does not govern itself… even if many pretend it does.
+
+
+# ~f6fa6f85
+; > NA: |#~f6fa6f85|
+; Then he turns his eyes to you.
+
+
+# ~74f0eee0
+; > TI: |#~74f0eee0|
+; If you wish to understand this land better…
+
+
+# ~b1b4f38d
+; > TI: |#~b1b4f38d|
+; My home will be open to you.
+
+
+# ~114ff520
+; > NA: |#~114ff520|
+; His tone is not formal, merely sincere.
+
+
+# ~859ddf6a
+; > TI: |#~859ddf6a|
+; Come when it pleases you.
+
+
+# ~528416a1
+; > TI: |#~528416a1|
+; You will be welcomed.
+
+
+# ~9fa60a7c
+; > NA: |#~9fa60a7c|
+; He does not insist.
+
+
+# ~4e77ea27
+; > NA: |#~4e77ea27|
+; There is something in the way he speaks that makes the invitation feel weighty.
+
+
+# ~1fb4f5ff
+; > NA: |#~1fb4f5ff|
+; He steps back.
+
+
+# ~72898576
+; > TI: |#~72898576|
+; Until soon.
+
+
+# ~fe4843ba
+; > NA: |#~fe4843ba|
+; And then he walks away.
+
+
+# ~178d47ec
+; > NA: |#~178d47ec|
+; Leaving you alone with the wind, the sun, and too many questions.
+
+
+# ~2a2a5659
+; > NA: |#~2a2a5659|
+; For the first time since arriving in Vila Rica…
+
+
+# ~381e1c11
+; > NA: |#~381e1c11|
+; You feel you are not merely an intruder… but someone being observed.
+
+
+# ~a50355e1
+; > NA: |#~a50355e1|
+; The way back seems shorter than before.
+
+
+# ~97602fc4
+; > NA: |#~97602fc4|
+; Or perhaps it is just your mind, too distant to notice.
+
+
+# ~52292a6f
+; > NA: |#~52292a6f|
+; The sun is lowering on the horizon, painting Vila Rica in warm, golden tones.
+
+
+# ~e712957b
+; > NA: |#~e712957b|
+; But it is not the heat that makes your chest feel tight.
+
+
+# ~1a9ce563
+; > NA: |#~1a9ce563|
+; Something new… that you do not yet know how to name.
+
+
+# ~20c398ac
+; > NA: |#~20c398ac|
+; The inn appears ahead.
+
+
+# ~eb60145f
+; > NA: |#~eb60145f|
+; Open windows release the scent of food and aged wood.
+
+
+# ~49e3f743
+; > NA: |#~49e3f743|
+; As you enter, Francisca is behind the counter, arranging some coins.
+
+
+# ~d1aac847
+; > NA: |#~d1aac847|
+; She looks up at the sound of your footsteps.
+
+
+# ~7a89237a
+; > NA: |#~7a89237a|
+; She watches you more closely than usual.
+
+
+# ~e65e2f57
+; > FR: |#~e65e2f57|
+; You’ve returned.
+
+
+# ~3bf31ae6
+; > PLAYER: |#~3bf31ae6|
+; I have.
+
+
+# ~c02766ca
+; > NA: |#~c02766ca|
+; She tilts her head slightly.
+
+
+# ~7a43506d
+; > FR: |#~7a43506d|
+; I can see that.
+
+
+# ~571a7790
+; > NA: |#~571a7790|
+; A pause. A faint smile touches the corner of her lips.
+
+
+# ~d842a8aa
+; > FR: |#~d842a8aa|
+; And you did not return the same.
+
+
+# ~2fa873b4
+; > NA: |#~2fa873b4|
+; You raise an eyebrow.
+
+
+# ~b968561c
+; > PLAYER: |#~b968561c|
+; What do you mean?
+
+
+# ~7b54bd3e
+; > NA: |#~7b54bd3e|
+; She wipes her hands on her apron, still watching you.
+
+
+# ~7a415e73
+; > FR: |#~7a415e73|
+; Some return from the streets weary. Others, relieved.
+
+
+# ~fece9b73
+; > NA: |#~fece9b73|
+; Her smile grows, subtle but knowing.
+
+
+# ~eb7ff14a
+; > FR: |#~eb7ff14a|
+; You returned… lit.
+
+
+# ~4e4d5e4e
+; > NA: |#~4e4d5e4e|
+; Heat rushes to your face.
+
+
+# ~9b01ba1a
+; > PLAYER: |#~9b01ba1a|
+; I am not lit.
+
+
+# ~6c81caba
+; > NA: |#~6c81caba|
+; She raises an eyebrow.
+
+
+# ~837c7a9c
+; > FR: |#~837c7a9c|
+; No?
+
+
+# ~865d1349
+; > NA: |#~865d1349|
+; Silence.
+
+
+# ~8d651b8
+; > NA: |#~8d651b8|
+; You look away too late.
+
+
+# ~1ac1d162
+; > NA: |#~1ac1d162|
+; She lets out a soft laugh.
+
+
+# ~6cd16002
+; > FR: |#~6cd16002|
+; Vila Rica has that gift.
+
+
+# ~2bd31100
+; > FR: |#~2bd31100|
+; At times, it weighs on us… at others, it awakens us.
+
+
+# ~b2cbdbf6
+; > NA: |#~b2cbdbf6|
+; You take a breath, trying to sound casual.
+
+
+# ~3d0beba1
+; > PLAYER: |#~3d0beba1|
+; I ran into Tiradentes.
+
+
+# ~768a5002
+; > NA: |#~768a5002|
+; She freezes completely.
+
+
+# ~28feb516
+; > GUARD: |#~28feb516|
+; The alferes…
+
+
+# ~f192d672
+; > NA: |#~f192d672|
+; She repeats the title with respect.
+
+
+# ~53b4a95d
+; > NA: |#~53b4a95d|
+; Now she studies you more carefully.
+
+
+# ~2e85a81d
+; > FR: |#~2e85a81d|
+; And what did you think of him?
+
+
+# ~32b771c9
+; > NA: |#~32b771c9|
+; You hesitate.
+
+
+# ~2d67e85c
+; > NA: |#~2d67e85c|
+; Images flicker through your mind the sunlight on his skin, his smile, the quiet intensity of his gaze.
+
+
+# ~ed8b0b6a
+; > PLAYER: |#~ed8b0b6a|
+; He’s… different.
+
+
+# ~95716cc
+; > NA: |#~95716cc|
+; Francisca nods slowly.
+
+
+# ~bec78170
+; > FR: |#~bec78170|
+; He is a man of his word… and of danger.
+
+
+# ~e8ad158d
+; > NA: |#~e8ad158d|
+; She resumes sorting the coins.
+
+
+# ~b1a6b148
+; > FR: |#~b1a6b148|
+; Some call him mad. Others, just.
+
+
+# ~43a0176d
+; > NA: |#~43a0176d|
+; She looks back at you.
+
+
+# ~f9504aa0
+; > FR: |#~f9504aa0|
+; And some choose to follow him.
+
+
+# ~41c63ff9
+; > NA: |#~41c63ff9|
+; You don’t answer because you don’t know.
+
+
+# ~b2f2f688
+; > NA: |#~b2f2f688|
+; She does not press. She simply smiles, gently.
+
+
+# ~ccfea36
+; > FR: |#~ccfea36|
+; Go get some rest.
+
+
+# ~7b84978f
+; > FR: |#~7b84978f|
+; The body must follow the heart… wherever it has decided to go.
+
+
+# ~2440511c
+; > NA: |#~2440511c|
+; Your face warms again.
+
+
+# ~b2a9d34f
+; > NA: |#~b2a9d34f|
+; You head upstairs before she can see it.
+
+
+# ~683e7557
+; > NA: |#~683e7557|
+; Waking up here is no longer a shock. Not like before.
+
+
+# ~4557b4b4
+; > NA: |#~4557b4b4|
+; For a moment, you simply stare at the wooden ceiling, darkened by time and the smoke of candles and oil lamps.
+
+
+# ~15f39986
+; > PLAYER: |#~15f39986|
+; (I’m still here.)
+
+
+# ~984e5336
+; > NA: |#~984e5336|
+; There is no doubt now. No panic. Just a quiet realization.
+
+
+# ~4822251f
+; > PLAYER: |#~4822251f|
+; (This is my new life. In Vila Rica.)
+
+
+# ~3fec07f7
+; > NA: |#~3fec07f7|
+; The morning air slips in through the small window, cool against your skin. Outside, the town is already in motion hurried, wheels creaking over stone, hushed voices carrying the weight of another day.
+
+
+# ~a199e120
+; > NA: |#~a199e120|
+; You sit at the edge of the bed and run a hand over your face.
+
+
+# ~9996107d
+; > NA: |#~9996107d|
+; No time to hesitate. Today, you have a reason to go out.
+
+
+# ~e9c497b1
+; > NA: |#~e9c497b1|
+; You wash your face with the cold water from the basin. The shock is brief, but enough to fully wake you.
+
+
+# ~adfebc7f
+; > NA: |#~adfebc7f|
+; The dust of the night fades away. You adjust your clothes with a care you are still learning, trying to look like someone who belongs to this time.
+
+
+# ~2f55403b
+; > NA: |#~2f55403b|
+; As you walk down the inn’s stairs, the smell of coffee and warm bread fills the air.
+
+
+# ~72e5b0d
+; > FR: |#~72e5b0d|
+; Good morning.
+
+
+# ~4b34a050
+; > NA: |#~4b34a050|
+; Francisca looks up as she sees you. A subtle smile forms, but there is something more behind it.
+
+
+# ~1b5e5469
+; > FR: |#~1b5e5469|
+; Did you sleep better tonight?
+
+
+# ~cfd4a6fa
+; > PLAYER: |#~cfd4a6fa|
+; I did. Better than I thought I would.
+
+
+# ~1d157bed
+; > NA: |#~1d157bed|
+; She rests the cloth on the counter, tilting her head slightly.
+
+
+# ~4eb76eb5
+; > FR: |#~4eb76eb5|
+; This house tends to calm those who arrive troubled.
+
+
+# ~7f2f3859
+; > FR: |#~7f2f3859|
+; Yesterday, you returned… different.
+
+
+# ~fc4a1090
+; > NA: |#~fc4a1090|
+; You try to hide it, but feel warmth rising to your face.
+
+
+# ~16374d87
+; > PLAYER: |#~16374d87|
+; I spoke with Tiradentes. He asked me to meet him again today.
+
+
+# ~c1b29752
+; > NA: |#~c1b29752|
+; You glance away for a moment.
+
+
+# ~4dbd0ded
+; > FR: |#~4dbd0ded|
+; Wow.
+
+
+# ~92aafa99
+; > NA: |#~92aafa99|
+; A small smile curls at the corner of her lips.
+
+
+# ~b509f4eb
+; > FR: |#~b509f4eb|
+; The alferes does tend to have that effect on people.
+
+
+# ~2981d586
+; > PLAYER: |#~2981d586|
+; What effect?
+
+
+# ~61818825
+; > FR: |#~61818825|
+; He makes one think.
+
+
+# ~2b75edea
+; > NA: |#~2b75edea|
+; She hands you a mug.
+
+
+# ~4e8a6d02
+; > FR: |#~4e8a6d02|
+; And sometimes… he makes one want to return.
+
+
+# ~1e11928c
+; > NA: |#~1e11928c|
+; The coffee is warm in your hands, and you try to change the subject.
+
+
+# ~78b6e604
+; > PLAYER: |#~78b6e604|
+; Is there anything I can help with today? Any work anything.
+
+
+# ~c23f3c1c
+; > NA: |#~c23f3c1c|
+; Francisca looks at you again. There is something almost too gentle in her refusal.
+
+
+# ~febcad92
+; > FR: |#~febcad92|
+; Not today. You’ve done enough for now.
+
+
+# ~45ac1d0c
+; > FR: |#~45ac1d0c|
+; There are other matters that require more of your attention this morning.
+
+
+# ~563787c6
+; > NA: |#~563787c6|
+; The way she says it leaves no doubt she knows exactly what she means.
+
+
+# ~7bb895fa
+; > FR: |#~7bb895fa|
+; Eat. If you’re going to see him, don’t keep him waiting.
+
+
+# ~b066946e
+; > FR: |#~b066946e|
+; No one finds what they seek on an empty stomach.
+
+
+# ~dd57022a
+; > NA: |#~dd57022a|
+; You nod and begin to eat. The bread is soft, with a faint cheesy flavor, and the coffee is strong.
+
+
+# ~8ffa17aa
+; > NA: |#~8ffa17aa|
+; But you barely taste it. Your thoughts are already elsewhere.
+
+
+# ~ec83d85d
+; > NA: |#~ec83d85d|
+; You finish quickly. You don’t want to waste time.
+
+
+# ~bc051a4e
+; > NA: |#~bc051a4e|
+; You close the inn door carefully behind you.
+
+
+# ~d156a71f
+; > NA: |#~d156a71f|
+; The morning air is fresh. The sun has not yet taken the sky, but its light already spreads across the hills and stone paths.
+
+
+# ~8df6ab0c
+; > NA: |#~8df6ab0c|
+; Your steps follow the same direction as yesterday.
+
+
+# ~8a31ae29
+; > PLAYER: |#~8a31ae29|
+; It’s still strange… all of it.
+
+
+# ~83b80c99
+; > PLAYER: |#~83b80c99|
+; This place… this life.
+
+
+# ~62fc88ac
+; > NA: |#~62fc88ac|
+; The house appears ahead, isolated, silent as before.
+
+
+# ~cfa4695
+; > NA: |#~cfa4695|
+; The door is open. Ajar, in fact.
+
+
+# ~97dd92d7
+; > NA: |#~97dd92d7|
+; You approach slowly. You peek inside.
+
+
+# ~7980eec9
+; > NA: |#~7980eec9|
+; Nothing. No sign of him outside.
+
+
+# ~9423f143
+; > NA: |#~9423f143|
+; You hesitate for a brief moment, then push the door and step in.
+
+
+# ~5e5007c
+; > NA: |#~5e5007c|
+; The interior is simple. Bare walls, a worn wooden table, papers scattered without much order.
+
+
+# ~32501666
+; > NA: |#~32501666|
+; Your eyes move across the objects: maps of the captaincy, dark ink markings, notes in the margins, calculations and names.
+
+
+# ~92a49146
+; > NA: |#~92a49146|
+; Among the papers, a small painting catches your attention. A portrait of a woman and a child, carefully made but worn by time.
+
+
+# ~dd2ba2d8
+; > NA: |#~dd2ba2d8|
+; You lean in slightly to observe it.
+
+
+# ~8653c335
+; > TI: |#~8653c335|
+; You arrived earlier than I expected.
+
+
+# ~5fadc5d6
+; > NA: |#~5fadc5d6|
+; The voice comes from behind you, calm.
+
+
+# ~c4783c84
+; > NA: |#~c4783c84|
+; You turn and there he is.
+
+
+# ~4036520b
+; > NA: |#~4036520b|
+; Leaning near the back door, watching you with a faint smile.
+
+
+# ~16880fc6
+; > TI: |#~16880fc6|
+; I am pleased to see you accepted my invitation.
+
+
+# ~ae340152
+; > NA: |#~ae340152|
+; Embarrassment still warms your face.
+
+
+# ~4ab9411
+; > PLAYER: |#~4ab9411|
+; (You shouldn’t be standing there… watching me go through your things.)
+
+
+# ~9cd47246
+; > NA: |#~9cd47246|
+; But he does not seem bothered.
+
+
+# ~4559545c
+; > TI: |#~4559545c|
+; Do not be embarrassed.
+
+
+# ~e1381bfa
+; > NA: |#~e1381bfa|
+; He approaches with unhurried steps.
+
+
+# ~5824cc64
+; > TI: |#~5824cc64|
+; This house lacks comfort… but it is rich in unrest.
+
+
+# ~5f12d739
+; > NA: |#~5f12d739|
+; There is tiredness on his face.
+
+
+# ~40a1c351
+; > NA: |#~40a1c351|
+; More visible now, in the morning light.
+
+
+# ~50ae24f2
+; > TI: |#~50ae24f2|
+; Since our meeting yesterday, much has weighed on my mind.
+
+
+# ~90e77082
+; > NA: |#~90e77082|
+; He looks at the papers on the table, touching one with the tip of his fingers.
+
+
+# ~c7b8ffea
+; > TI: |#~c7b8ffea|
+; For some time, I have carried certain thoughts… certain intentions…
+
+
+# ~cd4bc941
+; > NA: |#~cd4bc941|
+; He lifts his eyes to you.
+
+
+# ~5e786db7
+; > TI: |#~5e786db7|
+; And for some reason… I believe you are capable of understanding them.
+
+
+# ~e94f2703
+; > NA: |#~e94f2703|
+; He makes a subtle gesture, inviting you closer to the table.
+
+
+# ~81d0874a
+; > TI: |#~81d0874a|
+; Tell me… have you the resolve to hear the unrest of a man who can no longer live in peace under the yoke imposed upon us?
+
+
+# ~60528711
+; > NA: |#~60528711|
+; His voice is low, but firm.
+
+
+# ~9ca386ef
+; > @choice "|#~9ca386ef|" goto:.scene3T-1
+; Tell me what you have in mind.
+
+
+# ~7bca1e05
+; > @choice "|#~7bca1e05|" goto:.scene3T-2
+; Perhaps, but I worry about the consequences of your plans.
+
+
+# ~21dcd2a6
+; > NA: |#~21dcd2a6|
+; He holds your gaze for a moment. Then nods slightly.
+
+
+# ~b6d5b577
+; > TI: |#~b6d5b577|
+; Very well.
+
+
+# ~21832486
+; > NA: |#~21832486|
+; He opens one of the maps.
+
+
+# ~7125b733
+; > NA: |#~7125b733|
+; The lines are carefully marked villages, roads, circled points.
+
+
+# ~863061f2
+; > TI: |#~863061f2|
+; This land bleeds in silence.
+
+
+# ~3acc43f2
+; > NA: |#~3acc43f2|
+; His fingers trace the map.
+
+
+# ~8741efa3
+; > TI: |#~8741efa3|
+; The gold taken from here does not remain here. It is sent overseas, to sustain a Crown that knows nothing of our suffering.
+
+
+# ~5b4609d8
+; > TI: |#~5b4609d8|
+; And when there is no longer enough gold…
+
+
+# ~9076c365
+; > NA: |#~9076c365|
+; He tightens his grip slightly on the paper.
+
+
+# ~96890228
+; > TI: |#~96890228|
+; They devise new ways to drain us. Taxes, levies… the Derrama.
+
+
+# ~9d372c38
+; > NA: |#~9d372c38|
+; There is bitterness in his voice, but also something deeper.
+
+
+# ~5d829b1d
+; > TI: |#~5d829b1d|
+; We are not subjects. We are resources.
+
+
+# ~66d3a5a
+; > NA: |#~66d3a5a|
+; For a moment, he seems more tired than ever.
+
+
+# ~3c4bd304
+; > TI: |#~3c4bd304|
+; There are men who think as I do. Men who believe this land can be free. That it can govern itself.
+
+
+# ~4eae45fb
+; > NA: |#~4eae45fb|
+; He looks directly at you.
+
+
+# ~16079d60
+; > TI: |#~16079d60|
+; Not out of ambition, but out of dignity.
+
+
+# ~2bbfe2a5
+; > NA: |#~2bbfe2a5|
+; His eyes falter for a brief moment.
+
+
+# ~8dc991db
+; > TI: |#~8dc991db|
+; Yet… it is no light burden.
+
+
+# ~48b1dfcb
+; > NA: |#~48b1dfcb|
+; He runs a hand over his face, weary.
+
+
+# ~c5a680
+; > TI: |#~c5a680|
+; Sleep has been scarce.
+
+
+# ~7dcdcbce
+; > TI: |#~7dcdcbce|
+; There are nights when I close my eyes and see only what may go wrong.
+
+
+# ~a87dd12d
+; > PLAYER: |#~a87dd12d|
+; (I could give you a spoiler…)
+
+
+# ~89101f48
+; > NA: |#~89101f48|
+; He exhales softly almost a humorless laugh.
+
+
+# ~7bd9b4fc
+; > TI: |#~7bd9b4fc|
+; Failure would not condemn only me… but all those who dare to believe.
+
+
+# ~b12ba2fb
+; > PLAYER: |#~b12ba2fb|
+; (If you had access to my history books… you might disagree.)
+
+
+# ~2786d664
+; > NA: |#~2786d664|
+; He looks back at you.
+
+
+# ~8ec4be62
+; > TI: |#~8ec4be62|
+; Even so… there are moments when a single presence is enough to ease the burden.
+
+
+# ~7645d442
+; > TI: |#~7645d442|
+; Tell me.
+
+
+# ~73698e63
+; > NA: |#~73698e63|
+; His voice is softer now.
+
+
+# ~cb1c9d9b
+; > TI: |#~cb1c9d9b|
+; What do you think of all this?
+
+
+# ~e5e092cc
+; > NA: |#~e5e092cc|
+; Silence weighs after your words.
+
+
+# ~4c407a1d
+; > TI: |#~4c407a1d|
+; Consequences…
+
+
+# ~23dddc2e
+; > NA: |#~23dddc2e|
+; He repeats the word slowly, as if tasting it.
+
+
+# ~a8c76fab
+; > NA: |#~a8c76fab|
+; His expression shifts, subtly.
+
+
+# ~9b5cfb85
+; > TI: |#~9b5cfb85|
+; Prudence is a rare virtue in these times.
+
+
+# ~ccb941b6
+; > NA: |#~ccb941b6|
+; He walks to the window, glancing outside for a moment, making sure you are alone.
+
+
+# ~9ef7737
+; > NA: |#~9ef7737|
+; When he speaks again, his voice is measured.
+
+
+# ~a32850e9
+; > TI: |#~a32850e9|
+; Suppose… merely as an exercise of thought… that some men in this captaincy consider rising against the Crown’s abuses.
+
+
+# ~63488745
+; > NA: |#~63488745|
+; He does not say it as a confession.
+
+
+# ~8b65474b
+; > TI: |#~8b65474b|
+; Suppose such men have grown weary of the Derrama, of the royal fifth, and of constant humiliation.
+
+
+# ~5dd966ae
+; > TI: |#~5dd966ae|
+; And that they believe the time has come to govern this land according to their own interests.
+
+
+# ~160e192f
+; > NA: |#~160e192f|
+; He stops before you, carefully studying your expression.
+
+
+# ~eacb063a
+; > TI: |#~eacb063a|
+; What would you say of such men?
+
+
+# ~18c5b61b
+; > NA: |#~18c5b61b|
+; There is no lightness now.
+
+
+# ~ff3477fd
+; > TI: |#~ff3477fd|
+; Would you call them reckless? Traitors? Or courageous?
+
+
+# ~23970100
+; > TI: |#~23970100|
+; Because consequences… yes, they do exist.
+
+
+# ~80e91141
+; > PLAYER: |#~80e91141|
+; Have you truly considered what those consequences might be?
+
+
+# ~23116759
+; > NA: |#~23116759|
+; His voice lowers even further.
+
+
+# ~2db03e34
+; > TI: |#~2db03e34|
+; Imprisonment. Confiscation of property. A public example.
+
+
+# ~5ec57f58
+; > NA: |#~5ec57f58|
+; A brief flicker crosses his eyes something he has already imagined for himself.
+
+
+# ~be370759
+; > PLAYER: |#~be370759|
+; "A public example”… have you at least considered the possibility of your mission being suici...
+
+
+# ~306844a3
+; > NA: |#~306844a3|
+; You stop yourself.
+
+
+# ~4d3a023a
+; > TI: |#~4d3a023a|
+; And yet… there are consequences in doing nothing as well.
+
+
+# ~93f0800b
+; > NA: |#~93f0800b|
+; He crosses his arms.
+
+
+# ~2fc30544
+; > TI: |#~2fc30544|
+; To live forever under unjust taxes… to watch the people suffer and remain still.
+
+
+# ~679f135
+; > TI: |#~679f135|
+; So tell me.
+
+
+# ~6a5f7bf4
+; > NA: |#~6a5f7bf4|
+; His tone is almost calm.
+
+
+# ~aa8d7276
+; > TI: |#~aa8d7276|
+; Which consequence seems more dreadful to you?
+
+
+# ~894b81c6
+; > NA: |#~894b81c6|
+; You meet his gaze, thinking about what to say.
+
+
+# ~4f0e7fbe
+; > NA: |#~4f0e7fbe|
+; There is tension in the air, as if your answer carries weight.
+
+
+# ~d315de64
+; > NA: |#~d315de64|
+; Tiradentes does not look away.
+
+
+# ~3bf590ed
+; > NA: |#~3bf590ed|
+; The silence grows between you.
+
+
+# ~a7cfbfdd
+; > NA: |#~a7cfbfdd|
+; You take a breath, about to speak but your hand hits the edge of the table, knocking over a glass of water.
+
+
+# ~5dbb62ec
+; > NA: |#~5dbb62ec|
+; The sharp sound of glass shattering echoes far too loudly in the room, water spilling across the packed earth floor.
+
+
+# ~d3eeb7f3
+; > NA: |#~d3eeb7f3|
+; The fragments glint in the light from the window.
+
+
+# ~bd5265a
+; > NA: |#~bd5265a|
+; You startle at the noise.
+
+
+# ~bd4eb893
+; > PLAYER: |#~bd4eb893|
+; I…
+
+
+# ~bdf5dd6c
+; > NA: |#~bdf5dd6c|
+; The words die before they are born.
+
+
+# ~c9e8186b
+; > NA: |#~c9e8186b|
+; Tiradentes reacts at once, turning toward the door, alert to the outside.
+
+
+# ~7fa3c10a
+; > NA: |#~7fa3c10a|
+; Then he looks back at you.
+
+
+# ~dbe5aa70
+; > NA: |#~dbe5aa70|
+; And smiles, realizing it was only you who knocked the glass over.
+
+
+# ~2a64a00
+; > TI: |#~2a64a00|
+; I believe the water suffered more than you did.
+
+
+# ~2254cf69
+; > NA: |#~2254cf69|
+; He crouches without ceremony and begins gathering the larger shards.
+
+
+# ~485bcf25
+; > TI: |#~485bcf25|
+; In times like these, any sound feels like an accusation.
+
+
+# ~895fe337
+; > @choice "|#~895fe337|" goto:.scene3T-3
+; Apologize repeatedly
+
+
+# ~a4463225
+; > @choice "|#~a4463225|" goto:.scene3T-4
+; Try to clean it up
+
+
+# ~114db164
+; > PLAYER: |#~114db164|
+; Forgive me… I… I was careless…
+
+
+# ~6eede022
+; > PLAYER: |#~6eede022|
+; I didn’t mean to…
+
+
+# ~351d07fd
+; > PLAYER: |#~351d07fd|
+; I’m truly sorry…
+
+
+# ~2326e472
+; > NA: |#~2326e472|
+; Your voice grows quieter with each word.
+
+
+# ~74ecf4c7
+; > NA: |#~74ecf4c7|
+; You crouch as well, hurried, trying to gather the shards with trembling hands.
+
+
+# ~8db52737
+; > PLAYER: |#~8db52737|
+; I can clean it… I shouldn’t have touched anything…
+
+
+# ~be731690
+; > NA: |#~be731690|
+; Tiradentes lets out a soft breath through his nose, not irritation, almost a quiet laugh.
+
+
+# ~60ff5a5c
+; > TI: |#~60ff5a5c|
+; Careful.
+
+
+# ~bbb936c8
+; > NA: |#~bbb936c8|
+; He reaches out and gently stops you from touching a sharper shard.
+
+
+# ~e30fae78
+; > TI: |#~e30fae78|
+; I would not have you hurt over something so small.
+
+
+# ~d6321116
+; > NA: |#~d6321116|
+; There is something in the calm, careful way he says it.
+
+
+# ~e1edde7c
+; > NA: |#~e1edde7c|
+; He continues gathering the pieces.
+
+
+# ~1f4fb64e
+; > TI: |#~1f4fb64e|
+; When I was a child… I was as clumsy as a young colt.
+
+
+# ~620ebcdc
+; > NA: |#~620ebcdc|
+; A faint smile appears on his lips.
+
+
+# ~54d2ba9b
+; > TI: |#~54d2ba9b|
+; I would knock over jars, break bowls, make noise where silence was expected.
+
+
+# ~1199ff45
+; > TI: |#~1199ff45|
+; My mother scolded me often.
+
+
+# ~d7e8acd3
+; > NA: |#~d7e8acd3|
+; He lifts a small shard of glass, observing it.
+
+
+# ~4f384b5f
+; > TI: |#~4f384b5f|
+; This very house has witnessed some of those battles.
+
+
+# ~4b00a33e
+; > NA: |#~4b00a33e|
+; His smile grows slightly.
+
+
+# ~fe3612dc
+; > TI: |#~fe3612dc|
+; At the time, I cared as though the world had ended.
+
+
+# ~915b2de9
+; > NA: |#~915b2de9|
+; He sets the shard down with the others.
+
+
+# ~eff8897a
+; > TI: |#~eff8897a|
+; Now… not anymore.
+
+
+# ~ef63ebc
+; > NA: |#~ef63ebc|
+; He looks up at you.
+
+
+# ~5f27c49e
+; > TI: |#~5f27c49e|
+; Some things break. Others remain.
+
+
+# ~253b4792
+; > TI: |#~253b4792|
+; Solitude… I have long grown used to it.
+
+
+# ~da6ffe0b
+; > TI: |#~da6ffe0b|
+; It is a constant companion on the road… and even among many.
+
+
+# ~7a415095
+; > NA: |#~7a415095|
+; His eyes meet yours.
+
+
+# ~eb52c6cb
+; > TI: |#~eb52c6cb|
+; But since you arrived…
+
+
+# ~f3e71c63
+; > NA: |#~f3e71c63|
+; He stops, as if catching himself.
+
+
+# ~46a61594
+; > NA: |#~46a61594|
+; Your fingers brush as you both reach for the same shard.
+
+
+# ~b5ba7995
+; > NA: |#~b5ba7995|
+; The touch is brief.
+
+
+# ~7c5af73c
+; > TI: |#~7c5af73c|
+; …
+
+
+# ~a59dad87
+; > NA: |#~a59dad87|
+; A faint flush rises to his face.
+
+
+# ~b76b90f4
+; > TI: |#~b76b90f4|
+; Forgive me.
+
+
+# ~cb9bf390
+; > TI: |#~cb9bf390|
+; It is not my habit to speak so.
+
+
+# ~12c8a9fa
+; > NA: |#~12c8a9fa|
+; He takes a folded cloth from the table and opens it carefully.
+
+
+# ~3e7c2a3d
+; > NA: |#~3e7c2a3d|
+; He extends it toward you.
+
+
+# ~8a5da428
+; > NA: |#~8a5da428|
+; The sound of the glass still echoes in your ears.
+
+
+# ~fab197a8
+; > NA: |#~fab197a8|
+; Embarrassment rises quickly.
+
+
+# ~1900e336
+; > NA: |#~1900e336|
+; Before thinking, you crouch and begin gathering the fragments, a little too hastily.
+
+
+# ~d0f0c1b4
+; > PLAYER: |#~d0f0c1b4|
+; I can clean it… it was my fault…
+
+
+# ~a7414eed
+; > NA: |#~a7414eed|
+; Your fingers tremble slightly as you try to gather the pieces.
+
+
+# ~ae295a10
+; > NA: |#~ae295a10|
+; Tiradentes watches you for a moment.
+
+
+# ~491a51d6
+; > NA: |#~491a51d6|
+; He notices the silence and your embarrassment.
+
+
+# ~2e831f38
+; > NA: |#~2e831f38|
+; Then, calmly, he crouches beside you.
+
+
+# ~9695b0ef
+; > TI: |#~9695b0ef|
+; Do not rush.
+
+
+# ~3875897b
+; > TI: |#~3875897b|
+; It is only a glass. I have lost things of far greater value… and survived them all.
+
+
+# ~2060ccaf
+; > TI: |#~2060ccaf|
+; Here.
+
+
+# ~dd5d529d
+; > NA: |#~dd5d529d|
+; Your eyes meet his for a brief moment.
+
+
+# ~5d1ed755
+; > NA: |#~5d1ed755|
+; As he hands you the cloth, his hand rests over yours for a moment longer than necessary.
+
+
+# ~cb5f5be7
+; > NA: |#~cb5f5be7|
+; The contact is firm… and warm.
+
+
+# ~5ad65ce3
+; > NA: |#~5ad65ce3|
+; Time seems to pause between one moment and the next.
+
+
+# ~beabb54e
+; > NA: |#~beabb54e|
+; Tiradentes notices and looks away first.
+
+
+# ~5297e3fb
+; > NA: |#~5297e3fb|
+; His fingers pull away with restrained reluctance.
+
+
+# ~ff2dd548
+; > NA: |#~ff2dd548|
+; He stands, taking the shards of glass with him.
+
+
+# ~c44a63d7
+; > NA: |#~c44a63d7|
+; You remain there, aware that something now lingers in the air something neither of you seem willing to name.
+
+
+# ~210d5943
+; > NA: |#~210d5943|
+; Once everything is clean, you stand, thinking you stayed far too long and wishing you could disappear into the floor from sheer embarrassment.
+
+
+# ~fc0d17a8
+; > PLAYER: |#~fc0d17a8|
+; (First day he invites me over and I break a glass…)
+
+
+# ~ee0ca967
+; > PLAYER: |#~ee0ca967|
+; (At this rate, next time I’ll bring the whole house down and save time.)
+
+
+# ~f699e9f6
+; > NA: |#~f699e9f6|
+; Footsteps return. Tiradentes reappears, wiping his hands on a cloth.
+
+
+# ~768aa56d
+; > NA: |#~768aa56d|
+; He pauses when he notices your stiff posture, your discomfort obvious.
+
+
+# ~1d54aaf9
+; > TI: |#~1d54aaf9|
+; You look as though you are awaiting sentence.
+
+
+# ~88a76c6d
+; > NA: |#~88a76c6d|
+; There is a subtle glint of humor in his eyes.
+
+
+# ~8db88c17
+; > TI: |#~8db88c17|
+; I assure you, your punishment will not be the scaffold…
+
+
+# ~57ca61e8
+; > TI: |#~57ca61e8|
+; …At least not for a glass.
+
+
+# ~ef486a80
+; > NA: |#~ef486a80|
+; The corner of his mouth lifts slightly.
+
+
+# ~ae977bcf
+; > TI: |#~ae977bcf|
+; This house has survived worse.
+
+
+# ~a11e921
+; > TI: |#~a11e921|
+; Including its own owner.
+
+
+# ~18e90f6f
+; > NA: |#~18e90f6f|
+; He tilts his head, as if sharing a secret.
+
+
+# ~337d304a
+; > TI: |#~337d304a|
+; When I first came here, I broke a chair simply by sitting on it.
+
+
+# ~529402bc
+; > TI: |#~529402bc|
+; I spent the rest of the night on the floor, reflecting on my choices.
+
+
+# ~367fe03a
+; > NA: |#~367fe03a|
+; You let out a small smile.
+
+
+# ~498f96a2
+; > NA: |#~498f96a2|
+; He watches your reaction, clearly pleased to have eased the moment.
+
+
+# ~7e10f01a
+; > PLAYER: |#~7e10f01a|
+; I promise to spare the rest of your furniture.
+
+
+# ~c9319e1e
+; > TI: |#~c9319e1e|
+; A prudent promise.
+
+
+# ~5ac62f20
+; > NA: |#~5ac62f20|
+; The silence that follows is no longer heavy.
+
+
+# ~2553a225
+; > NA: |#~2553a225|
+; You hesitate, then gesture lightly toward the door.
+
+
+# ~49841eac
+; > PLAYER: |#~49841eac|
+; I don’t wish to take up more of your time.
+
+
+# ~fd563897
+; > NA: |#~fd563897|
+; He notices and nods.
+
+
+# ~188c6a61
+; > TI: |#~188c6a61|
+; In truth…
+
+
+# ~a505b1e9
+; > NA: |#~a505b1e9|
+; He chooses his words carefully.
+
+
+# ~8e317ecc
+; > TI: |#~8e317ecc|
+; There will be a small gathering tomorrow evening.
+
+
+# ~b95db4d5
+; > TI: |#~b95db4d5|
+; At the house of Hipólita Jacinta Teixeira de Melo.
+
+
+# ~795010a4
+; > NA: |#~795010a4|
+; He watches your reaction closely.
+
+
+# ~8832dbd8
+; > TI: |#~8832dbd8|
+; Trusted people… conversations not meant for daylight.
+
+
+# ~a5e1cb5e
+; > TI: |#~a5e1cb5e|
+; I believe your presence would be welcome.
+
+
+# ~6f1ba78a
+; > TI: |#~6f1ba78a|
+; Should you wish to attend.
+
+
+# ~5dfd8920
+; > PLAYER: |#~5dfd8920|
+; I’ll go!
+
+
+# ~35880d27
+; > NA: |#~35880d27|
+; The answer slips out before you can think.
+
+
+# ~5e6a8c4b
+; > NA: |#~5e6a8c4b|
+; For a brief moment, Tiradentes’ face brightens.
+
+
+# ~b50bbdf8
+; > TI: |#~b50bbdf8|
+; I am glad. Tomorrow evening.
+
+
+# ~56af5c60
+; > NA: |#~56af5c60|
+; He straightens, as if the invitation were merely another matter settled.
+
+
+# ~6c54dfeb
+; > NA: |#~6c54dfeb|
+; You take a small step toward the door.
+
+
+# ~d368e70e
+; > PLAYER: |#~d368e70e|
+; Then… until tomorrow.
+
+
+# ~afd932d0
+; > TI: |#~afd932d0|
+; Until tomorrow.
+
+
+# ~9c7e5eb8
+; > NA: |#~9c7e5eb8|
+; He extends his hand.
+
+
+# ~d4afab26
+; > NA: |#~d4afab26|
+; You look at his hand… then at him… then back at his hand.
+
+
+# ~fea9d58c
+; > NA: |#~fea9d58c|
+; And for some reason you do not understand, your arms decide to act before your reason does.
+
+
+# ~555925d9
+; > NA: |#~555925d9|
+; You step forward as if to embrace him.
+
+
+# ~85b01c0e
+; > NA: |#~85b01c0e|
+; At the same moment, he keeps his hand firmly extended for a handshake.
+
+
+# ~2cccc982
+; > NA: |#~2cccc982|
+; And the result is an awkward collision of intentions.
+
+
+# ~aa9855ae
+; > NA: |#~aa9855ae|
+; Your shoulder nearly meets his chest, his hand caught awkwardly between you for one second too long.
+
+
+# ~6b137e4f
+; > NA: |#~6b137e4f|
+; You both pull away at the same time.
+
+
+# ~b0fbf74d
+; > PLAYER: |#~b0fbf74d|
+; (What is wrong with my ridiculous brain?)
+
+
+# ~2c3e987c
+; > PLAYER: |#~2c3e987c|
+; (A handshake. It was just a handshake.)
+
+
+# ~6ec39aa0
+; > NA: |#~6ec39aa0|
+; Tiradentes clears his throat softly, regaining composure.
+
+
+# ~f1c9a080
+; > TI: |#~f1c9a080|
+; I believe… your farewells are more… enthusiastic than is customary here.
+
+
+# ~bd818822
+; > NA: |#~bd818822|
+; There is humor in his voice.
+
+
+# ~5374990f
+; > PLAYER: |#~5374990f|
+; It was… a miscalculation.
+
+
+# ~26420520
+; > NA: |#~26420520|
+; He finally takes your hand properly this time.
+
+
+# ~dae257f
+; > NA: |#~dae257f|
+; The handshake is firm and brief.
+
+
+# ~2b06134
+; > NA: |#~2b06134|
+; You nod quickly and turn even faster, leaving the house.
+
+
+# ~9bef2ea
+; > NA: |#~9bef2ea|
+; The air outside feels colder than before.
+
+
+# ~1538ec35
+; > NA: |#~1538ec35|
+; Your steps quicken along the same path as yesterday stones, turns, and shadows.
+
+
+# ~81f36354
+; > PLAYER: |#~81f36354|
+; (I survived a near conspiracy… and almost died because of a greeting.)
+
+
+# ~6626c2fe
+; > NA: |#~6626c2fe|
+; The inn appears ahead, but your heart remains restless.
+
+
+# ~3a055751
+; > NA: |#~3a055751|
+; The walk back feels shorter or perhaps your mind is too busy replaying every second of what just happened.
+
+
+# ~329047d4
+; > PLAYER: |#~329047d4|
+; (I almost hugged him… I almost didn’t hug him.)
+
+
+# ~b7955507
+; > PLAYER: |#~b7955507|
+; Who hugs someone who clearly went for a handshake first?
+
+
+# ~be02df6f
+; > NA: |#~be02df6f|
+; A woman passing by, holding a child’s hand, overhears you. She gives you a look and crosses to the other side of the street.
+
+
+# ~e2d63740
+; > PLAYER: |#~e2d63740|
+; Great. I’ve become the local lunatic.
+
+
+# ~1681334a
+; > NA: |#~1681334a|
+; The inn stands before you like a refuge…
+
+
+# ~c8e4fa92
+; > NA: |#~c8e4fa92|
+; The door creaks as you open it.
+
+
+# ~edd6a2e9
+; > FR: |#~edd6a2e9|
+; Well, well.
+
+
+# ~ed171f9b
+; > NA: |#~ed171f9b|
+; Francisca is already behind the counter, as if she had been expecting you.
+
+
+# ~65934881
+; > FR: |#~65934881|
+; Back so soon.
+
+
+# ~eea6bba5
+; > NA: |#~eea6bba5|
+; Her gaze is sharp.
+
+
+# ~8a4aa83d
+; > PLAYER: |#~8a4aa83d|
+; Not that soon.
+
+
+# ~c6ccbb68
+; > FR: |#~c6ccbb68|
+; Hm.
+
+
+# ~6c55f2cc
+; > NA: |#~6c55f2cc|
+; She crosses her arms.
+
+
+# ~8fee4668
+; > FR: |#~8fee4668|
+; Well then?
+
+
+# ~bcaa484c
+; > NA: |#~bcaa484c|
+; You freeze for a second.
+
+
+# ~cb66547
+; > PLAYER: |#~cb66547|
+; Well then… what?
+
+
+# ~e68349bd
+; > FR: |#~e68349bd|
+; The alferes.
+
+
+# ~7605972e
+; > PLAYER: |#~7605972e|
+; Right.
+
+
+# ~db450ad6
+; > FR: |#~db450ad6|
+; Did you see him?
+
+
+# ~2eab1128
+; > PLAYER: |#~2eab1128|
+; I did.
+
+
+# ~ab673347
+; > FR: |#~ab673347|
+; And?
+
+
+# ~60f87c7d
+; > PLAYER: |#~60f87c7d|
+; And… we talked.
+
+
+# ~a33c2286
+; > FR: |#~a33c2286|
+; I would imagine so.
+
+
+# ~78ee1c2b
+; > NA: |#~78ee1c2b|
+; She steps a little closer.
+
+
+# ~6fb27920
+; > FR: |#~6fb27920|
+; And nothing else happened?
+
+
+# ~e9d364d9
+; > NA: |#~e9d364d9|
+; Silence weighs.
+
+
+# ~b7f733be
+; > FR: |#~b7f733be|
+; Nothing worth mentioning?
+
+
+# ~b2a4a0c3
+; > PLAYER: |#~b2a4a0c3|
+; I broke a glass.
+
+
+# ~d286eccb
+; > NA: |#~d286eccb|
+; She blinks.
+
+
+# ~c8984b20
+; > FR: |#~c8984b20|
+; You broke a glass?
+
+
+# ~2c52c2e7
+; > FR: |#~2c52c2e7|
+; In his house?
+
+
+# ~456e9685
+; > FR: |#~456e9685|
+; On your second meeting?
+
+
+# ~5dde7353
+; > FR: |#~5dde7353|
+; Impressive efficiency.
+
+
+# ~73468f7a
+; > NA: |#~73468f7a|
+; You sigh.
+
+
+# ~7e6b0480
+; > PLAYER: |#~7e6b0480|
+; I also almost hugged him.
+
+
+# ~ee7e56c1
+; > NA: |#~ee7e56c1|
+; Francisca goes still for half a second.
+
+
+# ~faf3ef13
+; > FR: |#~faf3ef13|
+; Almost?
+
+
+# ~ee32ac7f
+; > NA: |#~ee32ac7f|
+; You close your eyes.
+
+
+# ~c9823834
+; > PLAYER: |#~c9823834|
+; I did. And he extended his hand for a handshake…
+
+
+# ~2e6a01a9
+; > NA: |#~2e6a01a9|
+; The silence lasts exactly as long as it needs to.
+
+
+# ~d59c0015
+; > NA: |#~d59c0015|
+; And then you hear her laugh, with genuine delight.
+
+
+# ~94016bce
+; > FR: |#~94016bce|
+; The alferes must be in a complete state of confusion.
+
+
+# ~1889e9be
+; > PLAYER: |#~1889e9be|
+; I am too.
+
+
+# ~9aee2795
+; > FR: |#~9aee2795|
+; That is good.
+
+
+# ~9a4e5b8f
+; > PLAYER: |#~9a4e5b8f|
+; Good?
+
+
+# ~b96f1d00
+; > FR: |#~b96f1d00|
+; It means you are still alive… and feeling.
+
+
+# ~517de13b
+; > NA: |#~517de13b|
+; She watches you now with a gentler gaze.
+
+
+# ~3f7ff5fb
+; > FR: |#~3f7ff5fb|
+; And him?
+
+
+# ~35d05d51
+; > PLAYER: |#~35d05d51|
+; He didn’t run. He let me hug him… though with his hand stuck between us.
+
+
+# ~76d0c3eb
+; > FR: |#~76d0c3eb|
+; Then he is a brave man
+
+
+# ~fb51460b
+; > PLAYER: |#~fb51460b|
+; Or very polite. It was strange… almost comical.
+
+
+# ~7031df85
+; > FR: |#~7031df85|
+; Or very interested.
+
+
+# ~d1da5a01
+; > PLAYER: |#~d1da5a01|
+; Francisca.
+
+
+# ~189e452f
+; > FR: |#~189e452f|
+; Yes?
+
+
+# ~79e24a5f
+; > PLAYER: |#~79e24a5f|
+; You’re not helping.
+
+
+# ~cc7e5b6f
+; > FR: |#~cc7e5b6f|
+; I am not helping. I am enjoying this.
+
+
+# ~d764147
+; > NA: |#~d764147|
+; She smiles, then turns and picks up a piece of dough from the nearby table.
+
+
+# ~e5fa8018
+; > TI: |#~e5fa8018|
+; Come.
+
+
+# ~e646b13c
+; > NA: |#~e646b13c|
+; She gestures with her head.
+
+
+# ~1c53b91d
+; > FR: |#~1c53b91d|
+; You have caused enough damage to glassware for one day.
+
+
+# ~2121bc2
+; > FR: |#~2121bc2|
+; Let us see if you are less dangerous with bread.
+
+
+# ~9ba66325
+; > PLAYER: |#~9ba66325|
+; I’m not sure that’s a good idea.
+
+
+# ~75849cb0
+; > FR: |#~75849cb0|
+; It is an excellent idea.
+
+
+# ~1c511140
+; > FR: |#~1c511140|
+; Come closer.
+
+
+# ~376fdf5a
+; > NA: |#~376fdf5a|
+; You approach carefully.
+
+
+# ~e2d148af
+; > FR: |#~e2d148af|
+; First, your hands.
+
+
+# ~d381cda4
+; > NA: |#~d381cda4|
+; She takes your hands and places them on the dough.
+
+
+# ~1c6a7022
+; > FR: |#~1c6a7022|
+; Bread requires patience… and care.
+
+
+# ~107916f9
+; > FR: |#~107916f9|
+; Two things you clearly need to practice.
+
+
+# ~50bb0a81
+; > PLAYER: |#~50bb0a81|
+; Am I being judged by dough?
+
+
+# ~7b5bac17
+; > FR: |#~7b5bac17|
+; And losing.
+
+
+# ~fedb5eb7
+; > NA: |#~fedb5eb7|
+; She laughs softly.
+
+
+# ~2897b956
+; > NA: |#~2897b956|
+; She continues guiding you through the steps mixing the corn starch and cheese.
+
+
+# ~a988ff0f
+; > NA: |#~a988ff0f|
+; At last, you understand why the bread tastes like pão de queijo.
+
+
+# ~cacbf643
+; > NA: |#~cacbf643|
+; The moment is calm.
+
+
+# ~a2e37996
+; > NA: |#~a2e37996|
+; Francisca had seemed like a stern woman at first, but she has become a true friend, though she shifts easily between teaching you to cook and asking far too many questions about your meeting with Tiradentes.
+
+
+# ~42df54b4
+; > NA: |#~42df54b4|
+; You feel a strange sensation… that perhaps you are exactly where you are meant to be.
+
+
+# ~67aee9ce
+; > NA: |#~67aee9ce|
+; The next morning, you wake later than usual, sunlight pouring into the room.
+
+
+# ~70ac1fce
+; > NA: |#~70ac1fce|
+; Your body seems reluctant to leave the sheets.
+
+
+# ~13acba64
+; > PLAYER: |#~13acba64|
+; (Did I oversleep… or just sleep better?)
+
+
+# ~81049178
+; > NA: |#~81049178|
+; Fragments of dreams still drift through your mind.
+
+
+# ~f75ee1d4
+; > NA: |#~f75ee1d4|
+; You sit up, running a hand over your face.
+
+
+# ~2082ef56
+; > PLAYER: |#~2082ef56|
+; (What a situation…)
+
+
+# ~7d96dbd7
+; > NA: |#~7d96dbd7|
+; After a few minutes, you get dressed and hurry downstairs.
+
+
+# ~160ea4e7
+; > NA: |#~160ea4e7|
+; The smell of fresh bread already fills the hall.
+
+
+# ~df8e7f26
+; > FR: |#~df8e7f26|
+; Finally awake.
+
+
+# ~21ea4618
+; > NA: |#~21ea4618|
+; Francisca lifts her eyes from the table where she works.
+
+
+# ~38f7dae4
+; > FR: |#~38f7dae4|
+; You slept longer today.
+
+
+# ~d20d2d9a
+; > FR: |#~d20d2d9a|
+; Pleasant dreams, I assume.
+
+
+# ~cf39aff1
+; > NA: |#~cf39aff1|
+; Her tone is casual. Her eyes are not.
+
+
+# ~9ac7badc
+; > PLAYER: |#~9ac7badc|
+; Perhaps.
+
+
+# ~df520fca
+; > NA: |#~df520fca|
+; A half-smile.
+
+
+# ~a01d011
+; > FR: |#~a01d011|
+; Dreams that make one lose track of time usually have a name.
+
+
+# ~5630930a
+; > PLAYER: |#~5630930a|
+; Francisca…
+
+
+# ~102fe56c
+; > FR: |#~102fe56c|
+; I am merely observing.
+
+
+# ~9e72249d
+; > NA: |#~9e72249d|
+; She wipes her hands on her apron.
+
+
+# ~2f004c9
+; > FR: |#~2f004c9|
+; Will you see him today?
+
+
+# ~5592fd18
+; > PLAYER: |#~5592fd18|
+; Only tonight.
+
+
+# ~12cde1c5
+; > JO: |#~12cde1c5|
+; Ah.
+
+
+# ~f1a7c468
+; > NA: |#~f1a7c468|
+; She seems to take note.
+
+
+# ~7e0dde13
+; > FR: |#~7e0dde13|
+; Night gatherings are rarely simple.
+
+
+# ~bbc1a830
+; > PLAYER: |#~bbc1a830|
+; It is just a meeting among friends… others will be there.
+
+
+# ~f504c39
+; > FR: |#~f504c39|
+; Of course… and who are these "friends”?
+
+
+# ~38e1136
+; > PLAYER: |#~38e1136|
+; Tiradentes. I think it is his gathering.
+
+
+# ~86b69ee4
+; > NA: |#~86b69ee4|
+; You try to sound casual.
+
+
+# ~7f2bec17
+; > PLAYER: |#~7f2bec17|
+; It will be at Hipólita’s house.
+
+
+# ~2b7739a0
+; > PLAYER: |#~2b7739a0|
+; And… perhaps Alvarenga…
+
+
+# ~848ba659
+; > NA: |#~848ba659|
+; Francisca slowly stops what she is doing.
+
+
+# ~753487d7
+; > FR: |#~753487d7|
+; Perhaps?
+
+
+# ~7daba1ef
+; > FR: |#~7daba1ef|
+; I hope so.
+
+
+# ~20d6132
+; > FR: |#~20d6132|
+; You hope?
+
+
+# ~88084058
+; > NA: |#~88084058|
+; Silence lingers for a second but you feel her gaze on you.
+
+
+# ~120e1258
+; > FR: |#~120e1258|
+; You are not certain who will attend… yet you hope a particular man will be there?
+
+
+# ~5ca1eed5
+; > PLAYER: |#~5ca1eed5|
+; I only said that-
+
+
+# ~4cbb7601
+; > FR: |#~4cbb7601|
+; That you hope.
+
+
+# ~bc0661b2
+; > FR: |#~bc0661b2|
+; Yesterday, you broke a glass in the alferes’ house.
+
+
+# ~7030246b
+; > FR: |#~7030246b|
+; Today, you hope for the presence of a poet-doctor.
+
+
+# ~27e751c2
+; > FR: |#~27e751c2|
+; Your devotion spreads with admirable generosity.
+
+
+# ~611998d6
+; > PLAYER: |#~611998d6|
+; It is not devotion!
+
+
+# ~25cd13cf
+; > PLAYER: |#~25cd13cf|
+; It is… intellectual curiosity.
+
+
+# ~f2688d13
+; > FR: |#~f2688d13|
+; The most dangerous kind.
+
+
+# ~573dd0f6
+; > NA: |#~573dd0f6|
+; She steps a little closer, clearly amused.
+
+
+# ~a2e82aef
+; > FR: |#~a2e82aef|
+; And tell me...
+
+
+# ~5a3a43de
+; > FR: |#~5a3a43de|
+; Does your intellectual curiosity always make you blush when you say his name?
+
+
+# ~e7b12e92
+; > PLAYER: |#~e7b12e92|
+; I am not blushing.
+
+
+# ~1556cd90
+; > FR: |#~1556cd90|
+; Then it must be the heat from the oven.
+
+
+# ~f2378ac7
+; > NA: |#~f2378ac7|
+; You turn your face away, trying to change the subject.
+
+
+# ~a25a0e56
+; > PLAYER: |#~a25a0e56|
+; Why did you call him doctor?
+
+
+# ~78237b55
+; > NA: |#~78237b55|
+; Francisca looks up, surprised by the question.
+
+
+# ~2fee6e99
+; > FR: |#~2fee6e99|
+; Because he is one.
+
+
+# ~cddb2bca
+; > PLAYER: |#~cddb2bca|
+; In what?
+
+
+# ~75ee88fe
+; > FR: |#~75ee88fe|
+; Law. Educated in Coimbra, he is a lawyer.
+
+
+# ~525a6b40
+; > NA: |#~525a6b40|
+; She returns to kneading the dough, as if mentioning something trivial.
+
+
+# ~4154912
+; > FR: |#~4154912|
+; And a poet.
+
+
+# ~10741b2d
+; > NA: |#~10741b2d|
+; You frown, intrigued.
+
+
+# ~4a7f61d0
+; > PLAYER: |#~4a7f61d0|
+; A poet?
+
+
+# ~3e7e0ed8
+; > FR: |#~3e7e0ed8|
+; A man of law by day… a man of verse when it suits him.
+
+
+# ~c2e34b61
+; > NA: |#~c2e34b61|
+; You feel something stir in your stomach.
+
+
+# ~3cb919e3
+; > PLAYER: |#~3cb919e3|
+; A lawyer and a poet.
+
+
+# ~37c0b9c3
+; > PLAYER: |#~37c0b9c3|
+; (A man who knows how to argue… and chooses his words well…)
+
+
+# ~6082f6f0
+; > PLAYER: |#~6082f6f0|
+; (He must know exactly where to place them.)
+
+
+# ~9999089f
+; > FR: |#~9999089f|
+; Here, people are known by what they do.
+
+
+# ~1221f5aa
+; > FR: |#~1221f5aa|
+; That is why we call the alferes "alferes”… and the doctor "doctor.”
+
+
+# ~176ebbce
+; > FR: |#~176ebbce|
+; Each is known by the trade they carry.
+
+
+# ~99105e00
+; > NA: |#~99105e00|
+; You nod slowly.
+
+
+# ~4d517ab4
+; > PLAYER: |#~4d517ab4|
+; (I thought we called Tiradentes "alferes” because it sounded attractive.)
+
+
+# ~29a6894a
+; > NA: |#~29a6894a|
+; You bite the inside of your cheek to keep from smiling to yourself.
+
+
+# ~b1836fe4
+; > FR: |#~b1836fe4|
+; Your mind is far from here.
+
+
+# ~e29d5c40
+; > PLAYER: |#~e29d5c40|
+; I am merely organizing information.
+
+
+# ~c650424d
+; > FR: |#~c650424d|
+; Is something wrong?
+
+
+# ~f6744cd1
+; > PLAYER: |#~f6744cd1|
+; Nothing.
+
+
+# ~ee8d57d5
+; > FR: |#~ee8d57d5|
+; Take care.
+
+
+# ~f1822255
+; > FR: |#~f1822255|
+; Revolutions are dangerous enough on their own.
+
+
+# ~e7f8a54a
+; > FR: |#~e7f8a54a|
+; Add poorly concealed passions… and they may become fatal.
+
+
+# ~b9d7c7d0
+; > PLAYER: |#~b9d7c7d0|
+; There is no passion.
+
+
+# ~c3bf3cf3
+; > FR: |#~c3bf3cf3|
+; Of course not.
+
+
+# ~a84d2dc9
+; > PLAYER: |#~a84d2dc9|
+; Can I help you with something today?
+
+
+# ~27cb51e5
+; > NA: |#~27cb51e5|
+; You change the subject. She raises an eyebrow.
+
+
+# ~cb7e37b2
+; > FR: |#~cb7e37b2|
+; Feeling guilty for sleeping in?
+
+
+# ~7bd0b55e
+; > PLAYER: |#~7bd0b55e|
+; A little.
+
+
+# ~bd3a7664
+; > FR: |#~bd3a7664|
+; Good.
+
+
+# ~73859e4a
+; > FR: |#~73859e4a|
+; Then you may carry the flour sacks.
+
+
+# ~e9d1c15f
+; > NA: |#~e9d1c15f|
+; Work begins.
+
+
+# ~b04bb0bf
+; > NA: |#~b04bb0bf|
+; As you organize supplies, the question escapes before you can shape it properly.
+
+
+# ~5e6b6e50
+; > PLAYER: |#~5e6b6e50|
+; Francisca… how did you manage all this?
+
+
+# ~5940a77b
+; > NA: |#~5940a77b|
+; She does not stop working.
+
+
+# ~9636fe44
+; > FR: |#~9636fe44|
+; This?
+
+
+# ~650d261d
+; > PLAYER: |#~650d261d|
+; The inn.
+
+
+# ~7db8c4be
+; > FR: |#~7db8c4be|
+; Work.
+
+
+# ~88258e
+; > PLAYER: |#~88258e|
+; I mean…
+
+
+# ~9c86da06
+; > NA: |#~9c86da06|
+; You hesitate. Too late.
+
+
+# ~e676146c
+; > PLAYER: |#~e676146c|
+; You are free. You own your business. You are independent.
+
+
+# ~baa8ca78
+; > NA: |#~baa8ca78|
+; She stops and looks up.
+
+
+# ~26fe1b85
+; > FR: |#~26fe1b85|
+; Is it my color that surprises you?
+
+
+# ~1b00c95d
+; > NA: |#~1b00c95d|
+; Her voice is firm, but not angry.
+
+
+# ~10887916
+; > PLAYER: |#~10887916|
+; That is not what I meant
+
+
+# ~496c8e5f
+; > FR: |#~496c8e5f|
+; But it is what you thought.
+
+
+# ~af85233a
+; > NA: |#~af85233a|
+; Not aggressive. Just direct.
+
+
+# ~d03188ba
+; > NA: |#~d03188ba|
+; She remains silent for a moment. You wonder if you have said something wrong.
+
+
+# ~a33778c7
+; > FR: |#~a33778c7|
+; I was once enslaved.
+
+
+# ~3a2d15dc
+; > NA: |#~3a2d15dc|
+; You look at her, startled.
+
+
+# ~ddae3d54
+; > FR: |#~ddae3d54|
+; I bought my freedom with years of labor every coin counted twice.
+
+
+# ~6846e8e8
+; > FR: |#~6846e8e8|
+; Every favor weighed. Every night poorly slept.
+
+
+# ~9fb4be08
+; > NA: |#~9fb4be08|
+; She returns to kneading the dough.
+
+
+# ~e8c23154
+; > FR: |#~e8c23154|
+; Freedom was not given to me. It was negotiated.
+
+
+# ~aa78cd79
+; > NA: |#~aa78cd79|
+; Embarrassment rises in you.
+
+
+# ~46f09765
+; > PLAYER: |#~46f09765|
+; I did not mean to offend.
+
+
+# ~80ff7dfe
+; > NA: |#~80ff7dfe|
+; She sighs.
+
+
+# ~fd488da
+; > FR: |#~fd488da|
+; And that is precisely why I sympathize with the alferes.
+
+
+# ~9c00d6d6
+; > NA: |#~9c00d6d6|
+; You look at her.
+
+
+# ~ba8bcf48
+; > FR: |#~ba8bcf48|
+; He speaks of a government where no one is born the property of another.
+
+
+# ~ba51806
+; > FR: |#~ba51806|
+; Where taxes do not crush only the same people… where freedom is not a privilege.
+
+
+# ~bf375839
+; > NA: |#~bf375839|
+; She shrugs.
+
+
+# ~e27ced8
+; > FR: |#~e27ced8|
+; Words are easy… but I favor men who at least dare to speak them.
+
+
+# ~48384109
+; > NA: |#~48384109|
+; You swallow.
+
+
+# ~aed036b8
+; > PLAYER: |#~aed036b8|
+; He truly believes in it.
+
+
+# ~a39f797e
+; > FR: |#~a39f797e|
+; Because belief is the first risk.
+
+
+# ~a3fff7b0
+; > NA: |#~a3fff7b0|
+; The work continues. You organize the pantry while Francisca finishes preparing the bread.
+
+
+# ~89a3a854
+; > NA: |#~89a3a854|
+; It is still afternoon.
+
+
+# ~347d53a9
+; > NA: |#~347d53a9|
+; Your mind fills with thoughts as you lie in the hammock outside the inn.
+
+
+# ~678cae1d
+; > NA: |#~678cae1d|
+; Life in Vila Rica is calm, not like your life in the city. No deadlines, no buses, no deliveries.
+
+
+# ~2f52ad31
+; > NA: |#~2f52ad31|
+; A book rests in your hands, one you have been trying to read for some time.
+
+
+# ~59e41978
+; > NA: |#~59e41978|
+; But it always makes you drowsy. The Portuguese is old… and difficult.
+
+
+# ~124437d2
+; > NA: |#~124437d2|
+; Your eyes grow heavy.
+
+
+# ~631890fe
+; > NA: |#~631890fe|
+; When you blink again, Francisca is standing near you and dusk has already fallen.
+
+
+# ~aaf3948d
+; > FR: |#~aaf3948d|
+; Prepare yourself for your "meeting among friends.”
+
+
+# ~e2ba39a0
+; > FR: |#~e2ba39a0|
+; See if tonight you learn something useful.
+
+
+# ~93906052
+; > FR: |#~93906052|
+; Be it about politics… or your own inclinations.
+
+
+# ~736a02af
+; > NA: |#~736a02af|
+; You stand and return inside, preparing for the night.
+
+
+# ~47402d23
+; > NA: |#~47402d23|
+; You climb the stairs, face warm, heart restless.
+
+
+# ~885dacb5
+; > NA: |#~885dacb5|
+; Night settles heavily over the village.
+
+
+# ~62814300
+; > NA: |#~62814300|
+; Hipólita’s house is lit by oil lamps, casting trembling shadows across the clay walls.
+
+
+# ~18149a24
+; > NA: |#~18149a24|
+; You take a breath before knocking.
+
+
+# ~5370036b
+; > NA: |#~5370036b|
+; The door opens discreetly.
+
+
+# ~9f9a51e3
+; > NA: |#~9f9a51e3|
+; The interior is simple but elegant in its own way.
+
+
+# ~73d688f8
+; > NA: |#~73d688f8|
+; Dark wooden furniture. A sturdy table at the center. Candles carefully placed. Books stacked in a corner.
+
+
+# ~b3c028f
+; > NA: |#~b3c028f|
+; The scent of warm wax and wine fills the air.
+
+
+# ~cd99b38b
+; > NA: |#~cd99b38b|
+; "Night gatherings are rarely simple.”
+
+
+# ~c6f6eb4c
+; > NA: |#~c6f6eb4c|
+; They are already there: Tiradentes, standing near the table.
+
+
+# ~d0ce2a6e
+; > NA: |#~d0ce2a6e|
+; Joaquim sits in a chair, chin resting on his hand. Hipólita watches calmly, beside her fiancé.
+
+
+# ~d6875baa
+; > NA: |#~d6875baa|
+; In the back, leaning against the wall is Célio.
+
+
+# ~3f8c76ea
+; > NA: |#~3f8c76ea|
+; Tiradentes looks up as you enter.
+
+
+# ~bb1d9872
+; > NA: |#~bb1d9872|
+; A flicker of recognition.
+
+
+# ~2331b59a
+; > TI: |#~2331b59a|
+; I am glad you came.
+
+
+# ~7b966214
+; > NA: |#~7b966214|
+; He offers a brief introduction.
+
+
+# ~160bc990
+; > TI: |#~160bc990|
+; We are among friends.
+
+
+# ~f2f5f403
+; > TI: |#~f2f5f403|
+; And among those who desire more than merely accepting the weight imposed upon us.
+
+
+# ~336c19de
+; > NA: |#~336c19de|
+; He places his hands on the table.
+
+
+# ~8848dcdb
+; > NA: |#~8848dcdb|
+; Candlelight casts shadows upward across his face.
+
+
+# ~c795e609
+; > TI: |#~c795e609|
+; We pay taxes that drain us… we live under decisions made across the ocean.
+
+
+# ~15bfd31
+; > TI: |#~15bfd31|
+; We are treated as an extension never as a nation.
+
+
+# ~ac0c14f1
+; > NA: |#~ac0c14f1|
+; Joaquim listens, chin resting on his fingers.
+
+
+# ~b4cae97b
+; > TI: |#~b4cae97b|
+; I dream of a time when this land is ours.
+
+
+# ~258d3244
+; > TI: |#~258d3244|
+; When we may say, with pride.
+
+
+# ~4ff362e9
+; > NA: |#~4ff362e9|
+; He draws a breath.
+
+
+# ~9186cbc6
+; > TI: |#~9186cbc6|
+; <i>Libertas quae sera tamen</i>.
+
+
+# ~2a141c47
+; > NA: |#~2a141c47|
+; The Latin echoes solemnly.
+
+
+# ~9088056e
+; > TI: |#~9088056e|
+; Freedom… even if it comes late.
+
+
+# ~57bd6dc9
+; > NA: |#~57bd6dc9|
+; Silence settles over the room.
+
+
+# ~991a914
+; > TI: |#~991a914|
+; But freedom is not born of desire alone.
+
+
+# ~534e687f
+; > TI: |#~534e687f|
+; It demands courage… and organization.
+
+
+# ~4f79508f
+; > NA: |#~4f79508f|
+; He begins to pace slowly.
+
+
+# ~fa8b4dea
+; > TI: |#~fa8b4dea|
+; And perhaps… a structure beyond words.
+
+
+# ~c5586097
+; > TI: |#~c5586097|
+; A form of preparation… military, if necessary.
+
+
+# ~36af63bc
+; > NA: |#~36af63bc|
+; The word lands heavily.
+
+
+# ~b96cfe20
+; > NA: |#~b96cfe20|
+; Some are startled. Others are doubtful.
+
+
+# ~c1afb551
+; > NA: |#~c1afb551|
+; Joaquim shifts in his seat.
+
+
+# ~eae70b64
+; > TI: |#~eae70b64|
+; I do not speak of reckless violence.
+
+
+# ~e656fef5
+; > TI: |#~e656fef5|
+; I speak of defense.
+
+
+# ~4ea8f1ea
+; > TI: |#~4ea8f1ea|
+; Of being ready, should we be denied what is just.
+
+
+# ~90b0b2e0
+; > JO: |#~90b0b2e0|
+; Have you lost your mind?
+
+
+# ~3e0c1b55
+; > NA: |#~3e0c1b55|
+; The interruption is sharp.
+
+
+# ~8679fd1
+; > NA: |#~8679fd1|
+; The room freezes.
+
+
+# ~41fb91db
+; > JO: |#~41fb91db|
+; Military?
+
+
+# ~ea035acc
+; > JO: |#~ea035acc|
+; You would face the Crown with a handful of idealists and rusted muskets?
+
+
+# ~31680089
+; > TI: |#~31680089|
+; I do not speak of immediate confrontation
+
+
+# ~734ceab8
+; > JO: |#~734ceab8|
+; That is exactly what you imply.
+
+
+# ~fc783ef6
+; > NA: |#~fc783ef6|
+; Tiradentes holds his gaze.
+
+
+# ~bd3b2843
+; > TI: |#~bd3b2843|
+; I speak of refusing eternal submission.
+
+
+# ~224a072b
+; > JO: |#~224a072b|
+; Submission or prudence?
+
+
+# ~640a7e9
+; > TI: |#~640a7e9|
+; Too much prudence becomes cowardice.
+
+
+# ~cbba0ad4
+; > JO: |#~cbba0ad4|
+; And too much recklessness becomes suicide.
+
+
+# ~2ff54fff
+; > NA: |#~2ff54fff|
+; The candle flames tremble.
+
+
+# ~1f990330
+; > TI: |#~1f990330|
+; Nothing changes if we accept fear as law.
+
+
+# ~84f55fb
+; > JO: |#~84f55fb|
+; And everything worsens if we mistake impulse for courage.
+
+
+# ~c31d2c4
+; > NA: |#~c31d2c4|
+; The air feels tighter now.
+
+
+# ~ef24d060
+; > NA: |#~ef24d060|
+; You watch them this tension was visible before, but here it is undeniable.
+
+
+# ~3fc27523
+; > NA: |#~3fc27523|
+; Hipólita observes in silence.
+
+
+# ~d7ba41ee
+; > TI: |#~d7ba41ee|
+; I do not propose marching tomorrow.
+
+
+# ~f700ead1
+; > TI: |#~f700ead1|
+; I propose preparation.
+
+
+# ~f19bc346
+; > JO: |#~f19bc346|
+; And when the Crown learns of it?
+
+
+# ~d2a658b5
+; > NA: |#~d2a658b5|
+; A look crosses the room.
+
+
+# ~88149069
+; > TI: |#~88149069|
+; If it learns, it will be because we never had freedom to begin with…
+
+
+# ~c9bf8e3
+; > TI: |#~c9bf8e3|
+; …or because someone spoke too freely.
+
+
+# ~8d2a52e9
+; > NA: |#~8d2a52e9|
+; The words are quiet, but they echo.
+
+
+# ~d1be05f
+; > NA: |#~d1be05f|
+; You feel the weight of it.
+
+
+# ~12f00929
+; > NA: |#~12f00929|
+; Tiradentes remains steady. Joaquim, clearly provoked.
+
+
+# ~716d3475
+; > NA: |#~716d3475|
+; The tension still vibrates when the door opens again.
+
+
+# ~c903ea31
+; > NA: |#~c903ea31|
+; Alvarenga enters like a man accustomed to being noticed.
+
+
+# ~9107b876
+; > NA: |#~9107b876|
+; Beside him elegant and composed Bárbara.
+
+
+# ~333d4a46
+; > NA: |#~333d4a46|
+; A murmur passes through the room.
+
+
+# ~163584ff
+; > NA: |#~163584ff|
+; You blink.
+
+
+# ~5c1e8b83
+; > PLAYER: |#~5c1e8b83|
+; (A lawyer… a poet… and married to Bárbara?)
+
+
+# ~387bf38a
+; > PLAYER: |#~387bf38a|
+; (That is like pairing the law and the outlaw.)
+
+
+# ~eba9ca5
+; > NA: |#~eba9ca5|
+; Alvarenga removes his gloves with measured calm.
+
+
+# ~cbb61fdd
+; > AL: |#~cbb61fdd|
+; Military force?
+
+
+# ~2db5ff8b
+; > NA: |#~2db5ff8b|
+; A brief glance toward Tiradentes.
+
+
+# ~85677484
+; > AL: |#~85677484|
+; I seem to have arrived at the interesting part.
+
+
+# ~116e9c89
+; > TI: |#~116e9c89|
+; We spoke of preparation.
+
+
+# ~805cc791
+; > TI: |#~805cc791|
+; Of organization… of not being caught unready.
+
+
+# ~8f0af281
+; > AL: |#~8f0af281|
+; Preparation is prudent, but to what extent?
+
+
+# ~8188cfe6
+; > NA: |#~8188cfe6|
+; Joaquim leans forward.
+
+
+# ~bd5bfa48
+; > JO: |#~bd5bfa48|
+; He intends to convert soldiers… or oppose them.
+
+
+# ~4c6479d8
+; > JO: |#~4c6479d8|
+; He has yet to decide which madness he prefers.
+
+
+# ~68b3dfc0
+; > TI: |#~68b3dfc0|
+; I said no such thing.
+
+
+# ~c1710249
+; > JO: |#~c1710249|
+; You implied it.
+
+
+# ~c8bb4d2f
+; > TI: |#~c8bb4d2f|
+; I spoke of alliances.
+
+
+# ~54e3b9b2
+; > JO: |#~54e3b9b2|
+; Alliances? With whom?
+
+
+# ~74ef0e64
+; > NA: |#~74ef0e64|
+; Joaquim spreads his arms, theatrical.
+
+
+# ~e021cc24
+; > JO: |#~e021cc24|
+; Whom do you intend to arm, alferes?
+
+
+# ~438e6f2f
+; > JO: |#~438e6f2f|
+; Hipólita? Bárbara?
+
+
+# ~74f50286
+; > JO: |#~74f50286|
+; Or perhaps the doctor wishes at last to play the role of a man and join the army?
+
+
+# ~1c1746fe
+; > NA: |#~1c1746fe|
+; Silence cuts sharply.
+
+
+# ~95533790
+; > NA: |#~95533790|
+; Bárbara lifts her chin offended, yet amused.
+
+
+# ~af2b1306
+; > AL: |#~af2b1306|
+; I was unaware courage was measured by uniform.
+
+
+# ~ffc27d08
+; > JO: |#~ffc27d08|
+; And I was unaware poetry could replace gunpowder.
+
+
+# ~9b9208a9
+; > TI: |#~9b9208a9|
+; Enough.
+
+
+# ~8d576624
+; > NA: |#~8d576624|
+; Tiradentes takes a breath.
+
+
+# ~2e7d95b0
+; > TI: |#~2e7d95b0|
+; We do not speak of handing muskets to anyone at random.
+
+
+# ~5662c292
+; > TI: |#~5662c292|
+; We speak of seeking support where it exists.
+
+
+# ~7c4f2a20
+; > TI: |#~7c4f2a20|
+; There are dissatisfied men even among the ranks.
+
+
+# ~d9667588
+; > JO: |#~d9667588|
+; And you believe they would risk their necks for an ideal?
+
+
+# ~daeed375
+; > TI: |#~daeed375|
+; For justice.
+
+
+# ~e96748c9
+; > JO: |#~e96748c9|
+; Justice does not pay wages.
+
+
+# ~807fac49
+; > NA: |#~807fac49|
+; Joaquim crosses his arms.
+
+
+# ~27743dbc
+; > JO: |#~27743dbc|
+; And do you not fear the Crown discovering this traffic in arms?
+
+
+# ~468993d4
+; > JO: |#~468993d4|
+; Or do you believe it sleeps?
+
+
+# ~2a593ed
+; > TI: |#~2a593ed|
+; Everything is risk.
+
+
+# ~ea074da2
+; > JO: |#~ea074da2|
+; Do you hear yourself?
+
+
+# ~6119038b
+; > JO: |#~6119038b|
+; I do.
+
+
+# ~30e3f4cb
+; > JO: |#~30e3f4cb|
+; Then why do you sound as though you do not understand what you are saying?
+
+
+# ~675f58a2
+; > TI: |#~675f58a2|
+; And why do you seem to understand everything and propose nothing?
+
+
+# ~d168a0db
+; > JO: |#~d168a0db|
+; Because I prefer to live.
+
+
+# ~ceb7a673
+; > TI: |#~ceb7a673|
+; And I prefer to live free.
+
+
+# ~d168e9d4
+; > JO: |#~d168e9d4|
+; Free and dead?
+
+
+# ~27f56a00
+; > TI: |#~27f56a00|
+; Submissive and comfortable?
+
+
+# ~88e3e4f3
+; > JO: |#~88e3e4f3|
+; Prudent!
+
+
+# ~c4f98fcf
+; > TI: |#~c4f98fcf|
+; Coward!
+
+
+# ~4361bdb7
+; > JO: |#~4361bdb7|
+; Reckless visionary!
+
+
+# ~37b21ffb
+; > TI: |#~37b21ffb|
+; Idle nobleman!
+
+
+# ~f3890b82
+; > JO: |#~f3890b82|
+; A fine man of the army you are!
+
+
+# ~dc35f31b
+; > TI: |#~dc35f31b|
+; Better than a fine man of parlors!
+
+
+# ~75e3f5d3
+; > JO: |#~75e3f5d3|
+; At least I know how to measure risk!
+
+
+# ~4da45d7d
+; > TI: |#~4da45d7d|
+; At least I understand the weight of honor!
+
+
+# ~e61403f3
+; > JO: |#~e61403f3|
+; Are you a fool?
+
+
+# ~9cfc2ee9
+; > NA: |#~9cfc2ee9|
+; The air in the room grows heavy, and some seem genuinely shocked.
+
+
+# ~b080dc43
+; > TI: |#~b080dc43|
+; How dare you?
+
+
+# ~12d04f9
+; > JO: |#~12d04f9|
+; I merely wondered whether you lack understanding.
+
+
+# ~32396141
+; > TI: |#~32396141|
+; I heard you perfectly well.
+
+
+# ~2f07bddd
+; > NA: |#~2f07bddd|
+; For a moment, they seem like two boys arguing over the bigger stick.
+
+
+# ~38e56945
+; > TI: |#~38e56945|
+; I propose a vote.
+
+
+# ~3d9419b4
+; > JO: |#~3d9419b4|
+; A vote?
+
+
+# ~5c7512b8
+; > JO: |#~5c7512b8|
+; It would not be fair.
+
+
+# ~33fb990a
+; > TI: |#~33fb990a|
+; Why not?
+
+
+# ~d119226d
+; > JO: |#~d119226d|
+; Because the doctor is your lapdog.
+
+
+# ~aa958445
+; > AL: |#~aa958445|
+; Pardon?
+
+
+# ~d5e88346
+; > JO: |#~d5e88346|
+; Do not take offense, doctor…
+
+
+# ~cfc087d5
+; > JO: |#~cfc087d5|
+; I merely observe that you follow him with admirable devotion.
+
+
+# ~8f1bce80
+; > NA: |#~8f1bce80|
+; Bárbara tilts her head, her smile sharp as a polished blade.
+
+
+# ~3ad73f61
+; > JO: |#~3ad73f61|
+; As for Dona Bárbara…
+
+
+# ~14a0812a
+; > JO: |#~14a0812a|
+; I believe she is here to grace us with her beauty… and, it seems, to share in our possible guilt.
+
+
+# ~aa6d9c1a
+; > NA: |#~aa6d9c1a|
+; Her smile does not fade only grows more dangerous.
+
+
+# ~880bba78
+; > JO: |#~880bba78|
+; Hipólita, on the other hand, is perhaps the only soul in this room possessed of good sense.
+
+
+# ~d292eead
+; > NA: |#~d292eead|
+; Hipólita raises an eyebrow, slightly impressed.
+
+
+# ~dd1de96a
+; > JO: |#~dd1de96a|
+; And that one over there…
+
+
+# ~2a32875e
+; > NA: |#~2a32875e|
+; He points to Célio at the back of the room.
+
+
+# ~b809e727
+; > JO: |#~b809e727|
+; I confess I do not know what service he provides to the cause, besides occupying a chair and consuming candlelight.
+
+
+# ~7a8467c8
+; > NA: |#~7a8467c8|
+; The air is already thick with provocation when Tiradentes steps forward.
+
+
+# ~b91cd4e4
+; > TI: |#~b91cd4e4|
+; Since you take such pleasure in judging everyone in this house…
+
+
+# ~73a9a30
+; > TI: |#~73a9a30|
+; Tell us, Joaquim…
+
+
+# ~d1675ff4
+; > TI: |#~d1675ff4|
+; What good do you bring to the cause, beyond a fine bearing and a readiness to offer opinions?
+
+
+# ~555aa1f0
+; > NA: |#~555aa1f0|
+; A murmur ripples through the room.
+
+
+# ~83c38934
+; > JO: |#~83c38934|
+; At least I am not the one who daydreams of imaginary barracks.
+
+
+# ~a728459c
+; > TI: |#~a728459c|
+; Better to dream of freedom than live counting fears.
+
+
+# ~212b746
+; > JO: |#~212b746|
+; And you, alferes?
+
+
+# ~3fde4330
+; > JO: |#~3fde4330|
+; Beyond being hot-headed… what are you?
+
+
+# ~4f052329
+; > TI: |#~4f052329|
+; And you, beyond cautious to the point of cowardice, what are you?
+
+
+# ~69ed2ef4
+; > JO: |#~69ed2ef4|
+; Coward?
+
+
+# ~64526282
+; > JO: |#~64526282|
+; You are senseless!
+
+
+# ~4758bf3a
+; > TI: |#~4758bf3a|
+; Resentful!
+
+
+# ~84af7ad4
+; > JO: |#~84af7ad4|
+; Fanatic!
+
+
+# ~f8b4bf5c
+; > TI: |#~f8b4bf5c|
+; Pampered nobleman!!
+
+
+# ~c82aacc1
+; > JO: |#~c82aacc1|
+; Toy soldier!
+
+
+# ~436236a5
+; > TI: |#~436236a5|
+; Silence!
+
+
+# ~ab58798d
+; > JO: |#~ab58798d|
+; You be silent!
+
+
+# ~cf5d17b3
+; > TI: |#~cf5d17b3|
+; Do not command me to be silent!
+
+
+# ~cb68b99b
+; > JO: |#~cb68b99b|
+; Then do not provoke me!
+
+
+# ~2b5e79ff
+; > NA: |#~2b5e79ff|
+; For a moment, they are two boys in men’s clothing, trading barbs as if in a schoolyard.
+
+
+# ~eaa2115c
+; > TI: |#~eaa2115c|
+; You speak much for one who risks nothing!
+
+
+# ~a4058cdd
+; > JO: |#~a4058cdd|
+; And you risk everyone with your recklessness!
+
+
+# ~b53512d
+; > NA: |#~b53512d|
+; Alvarenga’s voice is not loud, but it carries authority.
+
+
+# ~af12673b
+; > AL: |#~af12673b|
+; For God’s sake…
+
+
+# ~ed1ac51a
+; > AL: |#~ed1ac51a|
+; You are grown men, shouting like an old couple at the marketplace.
+
+
+# ~22dab87b
+; > NA: |#~22dab87b|
+; Silence falls abruptly.
+
+
+# ~6ac8d0b7
+; > NA: |#~6ac8d0b7|
+; Bárbara, hides a laugh behind her hand.
+
+
+# ~2a78208a
+; > NA: |#~2a78208a|
+; Hipólita closes her eyes briefly, as if thanking the heavens.
+
+
+# ~476f4283
+; > NA: |#~476f4283|
+; Célio watches with a faint, amused smile.
+
+
+# ~d9eb2cab
+; > AL: |#~d9eb2cab|
+; We are grown men… or at least we pretend to be.
+
+
+# ~54cf9db1
+; > NA: |#~54cf9db1|
+; He looks at Joaquim.
+
+
+# ~49c57f82
+; > AL: |#~49c57f82|
+; And, let us be honest… you do have a mustache.
+
+
+# ~1955b2e1
+; > NA: |#~1955b2e1|
+; A brief silence.
+
+
+# ~52224f62
+; > NA: |#~52224f62|
+; A few glances drift toward Joaquim’s face.
+
+
+# ~9bd576e8
+; > JO: |#~9bd576e8|
+; And a very well-kept one unlike certain poorly trimmed ideas in this room.
+
+
+# ~ac4a3509
+; > NA: |#~ac4a3509|
+; A few laughs escape.
+
+
+# ~7966b7b1
+; > JO: |#~7966b7b1|
+; Perhaps the mustache would suit the doctor better.
+
+
+# ~9ea86fb2
+; > NA: |#~9ea86fb2|
+; He gestures toward Alvarenga with feigned innocence.
+
+
+# ~60f36a7b
+; > JO: |#~60f36a7b|
+; Since, as I hear, there are those who find him… charming.
+
+
+# ~9d5b5cd3
+; > PLAYER: |#~9d5b5cd3|
+; (The audacity of this man…)
+
+
+# ~2c6d2193
+; > NA: |#~2c6d2193|
+; The remark hangs in the air like a well-aimed arrow.
+
+
+# ~ffbc45b
+; > NA: |#~ffbc45b|
+; Your heart gives a rather undignified leap.
+
+
+# ~e936ce2c
+; > NA: |#~e936ce2c|
+; The moment still lingers when Alvarenga raises a hand slightly, calling for composure without raising his voice.
+
+
+# ~6091967f
+; > AL: |#~6091967f|
+; Since we are speaking of mustaches and madness…
+
+
+# ~f53be51
+; > NA: |#~f53be51|
+; He takes a few slow steps, as if restoring order through presence alone.
+
+
+# ~e0db239e
+; > AL: |#~e0db239e|
+; Perhaps we should hear from someone who has not yet turned this room into a battlefield.
+
+
+# ~ceab1b30
+; > NA: |#~ceab1b30|
+; His eyes settle on you.
+
+
+# ~78826b3
+; > AL: |#~78826b3|
+; You seem to be a person of sound judgment.
+
+
+# ~8df6a5c6
+; > NA: |#~8df6a5c6|
+; Joaquim raises an eyebrow; Tiradentes does not look away.
+
+
+# ~2b9cef45
+; > AL: |#~2b9cef45|
+; Tell us, then…
+
+
+# ~7dffc802
+; > AL: |#~7dffc802|
+; Between the fervor of the alferes and Joaquim’s prudence… where does your inclination lie?
+
+
+# ~fe5b3be5
+; > @choice "|#~fe5b3be5|" goto:.scene4T-1
+; Support Tiradentes
+
+
+# ~550e3eb
+; > @choice "|#~550e3eb|" goto:.scene4T-2
+; Support Joaquim
+
+
+# ~57681e0f
+; > PLAYER: |#~57681e0f|
+; I believe that without courage, nothing is ever achieved. So, however mad it may sound, Tiradentes is right to suggest a plan… and the use of force.
+
+
+# ~ec2db30c
+; > NA: |#~ec2db30c|
+; A brief silence follows.
+
+
+# ~411dfcb9
+; > NA: |#~411dfcb9|
+; You wonder whether you chose wisely. He may be right, but the consequences still frighten you.
+
+
+# ~8685f6e3
+; > PLAYER: |#~8685f6e3|
+; Prudence is a virtue… but in excess, it achieves nothing.
+
+
+# ~70758c65
+; > NA: |#~70758c65|
+; Tiradentes’ eyes gleam faintly.
+
+
+# ~6b447388
+; > NA: |#~6b447388|
+; Joaquim folds his arms.
+
+
+# ~79662636
+; > JO: |#~79662636|
+; So you prefer fire to careful construction?
+
+
+# ~532d8b2b
+; > PLAYER: |#~532d8b2b|
+; Some things are worth the risk.
+
+
+# ~84ad948c
+; > NA: |#~84ad948c|
+; Hipólita watches you with renewed attention.
+
+
+# ~b1fd6bda
+; > NA: |#~b1fd6bda|
+; Bárbara smiles faintly to herself.
+
+
+# ~ad462345
+; > TI: |#~ad462345|
+; You see? Not all tremble at the word action.
+
+
+# ~de6dad5f
+; > JO: |#~de6dad5f|
+; Or perhaps they have yet to feel its weight.
+
+
+# ~c725c6f0
+; > NA: |#~c725c6f0|
+; The tension returns, but something has shifted.
+
+
+# ~d5634f92
+; > NA: |#~d5634f92|
+; You have chosen a side.
+
+
+# ~8be47aed
+; > NA: |#~8be47aed|
+; And Tiradentes does not hide his quiet satisfaction.
+
+
+# ~d087bc12
+; > NA: |#~d087bc12|
+; The discussion resumes plans, arguments, possibilities. At one point, Hipólita and Bárbara exchange a brief disagreement, though you pay it little mind.
+
+
+# ~639ab08a
+; > NA: |#~639ab08a|
+; Your attention lingers on Tiradentes on the way he speaks, the way he carries himself. He seems… pleased with you.
+
+
+# ~c4beffe5
+; > NA: |#~c4beffe5|
+; Eventually, you step outside, leaving the others to their debate.
+
+
+# ~3f4437e9
+; > NA: |#~3f4437e9|
+; Night has fully fallen as you step onto the veranda.
+
+
+# ~3178a103
+; > NA: |#~3178a103|
+; The cool air brushes your skin, a welcome contrast to the heat of the day.
+
+
+# ~fa54d48d
+; > NA: |#~fa54d48d|
+; You hear footsteps behind you and recognize them before a word is spoken.
+
+
+# ~224a2a37
+; > TI: |#~224a2a37|
+; May I keep you company for a moment?
+
+
+# ~d7334157
+; > NA: |#~d7334157|
+; He steps beside you, lingering in silence.
+
+
+# ~7f3832f2
+; > TI: |#~7f3832f2|
+; Inside… words weigh heavier than swords.
+
+
+# ~b877ced1
+; > NA: |#~b877ced1|
+; He lets out a soft breath.
+
+
+# ~6d9e2278
+; > TI: |#~6d9e2278|
+; Thank you… for standing by me. Even when I am surrounded by doubt.
+
+
+# ~2d023a41
+; > PLAYER: |#~2d023a41|
+; I worry about where your ideas may lead you.
+
+
+# ~9d1193aa
+; > NA: |#~9d1193aa|
+; He does not look at you, but a faint smile touches his lips.
+
+
+# ~dffba5f3
+; > TI: |#~dffba5f3|
+; Not everyone understands that freedom demands risk.
+
+
+# ~bed5ea10
+; > NA: |#~bed5ea10|
+; A brief smile. Tired, but sincere.
+
+
+# ~9aa33586
+; > TI: |#~9aa33586|
+; When you spoke… it seemed to me I was not fighting alone.
+
+
+# ~c63d8aae
+; > PLAYER: |#~c63d8aae|
+; Even with my doubts… I want to stand by your side.
+
+
+# ~1915d9ee
+; > NA: |#~1915d9ee|
+; Your voice is low.
+
+
+# ~e722828b
+; > TI: |#~e722828b|
+; Tell me… did you speak from conviction… or for my sake?
+
+
+# ~84a7989a
+; > PLAYER: |#~84a7989a|
+; Both… I believe in you.
+
+
+# ~312e06d8
+; > NA: |#~312e06d8|
+; His hand drifts toward yours, resting on the wooden railing.
+
+
+# ~84af8497
+; > NA: |#~84af8497|
+; Your fingers brush softly, but the touch lingers with quiet intimacy.
+
+
+# ~b202cf19
+; > NA: |#~b202cf19|
+; The silence stretches longer than it should.
+
+
+# ~b39c4a6f
+; > NA: |#~b39c4a6f|
+; He clears his throat, as though remembering the hour.
+
+
+# ~1037297f
+; > TI: |#~1037297f|
+; I should… see that you return safely.
+
+
+# ~3ec2074b
+; > NA: |#~3ec2074b|
+; He does not move.
+
+
+# ~f60f4fe3
+; > NA: |#~f60f4fe3|
+; He hesitates.
+
+
+# ~7e940fba
+; > TI: |#~7e940fba|
+; Good night.
+
+
+# ~e8ebde7b
+; > NA: |#~e8ebde7b|
+; The words come softly.
+
+
+# ~3ed69321
+; > NA: |#~3ed69321|
+; Yet he lingers a moment longer, watching you, as if reluctant to leave.
+
+
+# ~fdeaaf47
+; > NA: |#~fdeaaf47|
+; Tiradentes finally steps away, disappearing down the dirt road.
+
+
+# ~336f1b7c
+; > NA: |#~336f1b7c|
+; You decide it is late, you should return. The nights in Vila Rica are calm, your steps steady.
+
+
+# ~2307b962
+; > PLAYER: |#~2307b962|
+; (No bars, no crowds… no one trying to steal my phone in the middle of the night.)
+
+
+# ~e7450c1f
+; > PLAYER: |#~e7450c1f|
+; I believe every cause requires a cool head.
+
+
+# ~6083399c
+; > NA: |#~6083399c|
+; Tiradentes remains still.
+
+
+# ~cfa8c94a
+; > PLAYER: |#~cfa8c94a|
+; Courage is noble… but it can be very costly.
+
+
+# ~5ce305a8
+; > NA: |#~5ce305a8|
+; You know this may displease him, but you fear what may happen to him.
+
+
+# ~9bf3f325
+; > NA: |#~9bf3f325|
+; Joaquim tilts his chin slightly.
+
+
+# ~1fc90b28
+; > JO: |#~1fc90b28|
+; At last someone who does not mistake bravery for recklessness.
+
+
+# ~f23acf46
+; > TI: |#~f23acf46|
+; You call my plans reckless?
+
+
+# ~3e920c0b
+; > PLAYER: |#~3e920c0b|
+; No… only… dangerous.
+
+
+# ~911c6a12
+; > NA: |#~911c6a12|
+; Tiradentes’ gaze rests on you.
+
+
+# ~701f4a66
+; > NA: |#~701f4a66|
+; There is no anger, only something harder to read.
+
+
+# ~cbd329e2
+; > AL: |#~cbd329e2|
+; Prudence is not cowardice, alferes.
+
+
+# ~6307b1ac
+; > JO: |#~6307b1ac|
+; It is survival.
+
+
+# ~a3b54b8
+; > NA: |#~a3b54b8|
+; The room divides into uneasy silences.
+
+
+# ~1bb960b8
+; > NA: |#~1bb960b8|
+; You feel the weight of your choice.
+
+
+# ~180c81c
+; > NA: |#~180c81c|
+; Tiradentes looks away from you. He seems… disappointed.
+
+
+# ~815b167d
+; > NA: |#~815b167d|
+; The discussion resumes, though your attention drifts. At some point, Hipólita and Bárbara clash briefly, but you barely notice.
+
+
+# ~ab22f9de
+; > NA: |#~ab22f9de|
+; The tension becomes suffocating. You slip out unnoticed.
+
+
+# ~81ef7303
+; > NA: |#~81ef7303|
+; Night has fallen when you leave. The air is colder now.
+
+
+# ~9d1665b9
+; > NA: |#~9d1665b9|
+; You hear footsteps behind you and recognize the voice.
+
+
+# ~f4266f26
+; > TI: |#~f4266f26|
+; May I walk with you for a moment?
+
+
+# ~50de9cff
+; > PLAYER: |#~50de9cff|
+; Of course.
+
+
+# ~1d2675d3
+; > NA: |#~1d2675d3|
+; You walk along the dirt road. He keeps a slight distance.
+
+
+# ~ae34da39
+; > TI: |#~ae34da39|
+; Your choice… surprised me.
+
+
+# ~256b8be1
+; > NA: |#~256b8be1|
+; His voice is controlled, not harsh.
+
+
+# ~6cf4063d
+; > TI: |#~6cf4063d|
+; I did not expect it.
+
+
+# ~257beb86
+; > TI: |#~257beb86|
+; Still… I am glad you are here.
+
+
+# ~97a5a3ed
+; > PLAYER: |#~97a5a3ed|
+; I imagine you may be upset… but you must be careful, Tiradentes.
+
+
+# ~cd9ff4f0
+; > NA: |#~cd9ff4f0|
+; He forces a faint smile.
+
+
+# ~ab318eb6
+; > TI: |#~ab318eb6|
+; Perhaps I needed to hear your caution… even if it stings.
+
+
+# ~7305d6cc
+; > NA: |#~7305d6cc|
+; His jaw tightens briefly.
+
+
+# ~44b4a1a4
+; > TI: |#~44b4a1a4|
+; You do not think me a fool… do you?
+
+
+# ~2984cca7
+; > PLAYER: |#~2984cca7|
+; No! You are no fool, you are a man of courage, and very intelligent.
+
+
+# ~b800e7af
+; > NA: |#~b800e7af|
+; Warmth rises to your cheeks.
+
+
+# ~a7515cba
+; > PLAYER: |#~a7515cba|
+; But Joaquim is right… the Crown may act against you… against you.
+
+
+# ~3b1d8583
+; > TI: |#~3b1d8583|
+; Tell me… do you believe I fight out of vanity… or for justice?
+
+
+# ~5022d3b
+; > NA: |#~5022d3b|
+; There is something else beneath the question, something quieter.
+
+
+# ~c0f79543
+; > PLAYER: |#~c0f79543|
+; For justice… I think.
+
+
+# ~4033b0d9
+; > NA: |#~4033b0d9|
+; His gaze finally meets yours more at ease now.
+
+
+# ~905b8e72
+; > TI: |#~905b8e72|
+; I am relieved you do not take me for a man driven by empty pride.
+
+
+# ~338278f
+; > TI: |#~338278f|
+; As for Joaquim…
+
+
+# ~b9fe1f0d
+; > NA: |#~b9fe1f0d|
+; A slight tension in his jaw.
+
+
+# ~6dc4b78d
+; > TI: |#~6dc4b78d|
+; He is prudent. Excessively so, at times.
+
+
+# ~12da57a8
+; > NA: |#~12da57a8|
+; He exhales, almost amused.
+
+
+# ~c7282d58
+; > TI: |#~c7282d58|
+; But believe me… he is not the only one capable of caution.
+
+
+# ~8b83f46f
+; > TI: |#~8b83f46f|
+; The Crown may react yes. And perhaps with violence.
+
+
+# ~120726b9
+; > NA: |#~120726b9|
+; He steps a little closer, not enough to touch, but enough for you to feel his warmth.
+
+
+# ~61b38c66
+; > TI: |#~61b38c66|
+; But if I must face danger… I would rather do so with those who do not doubt my intentions.
+
+
+# ~4275e42
+; > NA: |#~4275e42|
+; He takes a breath, as if deciding something.
+
+
+# ~8efa00f5
+; > TI: |#~8efa00f5|
+; Do not let Joaquim’s fear draw you away from what you believe is right.
+
+
+# ~c5063d71
+; > NA: |#~c5063d71|
+; Silence settles between you.
+
+
+# ~3206f3be
+; > NA: |#~3206f3be|
+; He hesitates before parting as if he would rather stay.
+
+
+# ~eaa105cb
+; > TI: |#~eaa105cb|
+; I should allow you to return.
+
+
+# ~906bb971
+; > NA: |#~906bb971|
+; He inclines his head slightly.
+
+
+# ~d1bc505b
+; > PLAYER: |#~d1bc505b|
+; Good night, Tiradentes.
+
+
+# ~9d5b6ff8
+; > NA: |#~9d5b6ff8|
+; His eyes linger on yours for a long moment.
+
+
+# ~262a7e1e
+; > NA: |#~262a7e1e|
+; Then he turns away.
+
+
+# ~383413ee
+; > NA: |#~383413ee|
+; You continue down the road toward the inn.
+
+
+# ~cabca1ad
+; > NA: |#~cabca1ad|
+; The cold feels less sharp now, but the warmth in your cheeks lingers.
+
+
+# ~88dfc9e9
+; > NA: |#~88dfc9e9|
+; The path to Tiradentes’ house no longer feels unfamiliar.
+
+
+# ~53166885
+; > NA: |#~53166885|
+; The bends in the trail, the stones beneath your feet, the scent of sun-warmed earth… all of it is becoming familiar.
+
+
+# ~47689143
+; > NA: |#~47689143|
+; You did not exactly have a reason to come today.
+
+
+# ~7c0af7aa
+; > NA: |#~7c0af7aa|
+; The sun is still low when you arrive at the farm, and the morning air carries the scent of damp soil and crushed grass.
+
+
+# ~965174da
+; > NA: |#~965174da|
+; When the house appears between the trees, you notice something different.
+
+
+# ~ae07a17d
+; > NA: |#~ae07a17d|
+; The door stands open, yet the place seems empty.
+
+
+# ~3c92664
+; > NA: |#~3c92664|
+; You step a little closer.
+
+
+# ~1a5ef33e
+; > NA: |#~1a5ef33e|
+; The wind stirs a loose leaf across the porch floor.
+
+
+# ~bda91cfe
+; > PLAYER: |#~bda91cfe|
+; (Perhaps he is not here.)
+
+
+# ~23c1f64a
+; > NA: |#~23c1f64a|
+; You are already thinking of leaving when you hear footsteps behind you.
+
+
+# ~64deb49c
+; > ???: |#~64deb49c|
+; Are you looking for someone?
+
+
+# ~dce7d
+; > NA: |#~dce7d|
+; You turn quickly.
+
+
+# ~8e270cdb
+; > NA: |#~8e270cdb|
+; Tiradentes stands a few steps behind you, holding a horse by the reins.
+
+
+# ~cffdd515
+; > NA: |#~cffdd515|
+; He looks surprised.
+
+
+# ~e8af2a86
+; > TI: |#~e8af2a86|
+; Well now.
+
+
+# ~e8f18e26
+; > NA: |#~e8f18e26|
+; A slow smile spreads across his face.
+
+
+# ~c94b999d
+; > TI: |#~c94b999d|
+; I was not expecting a visitor.
+
+
+# ~b8cfdd20
+; > PLAYER: |#~b8cfdd20|
+; I… I was just passing by.
+
+
+# ~33cf9490
+; > NA: |#~33cf9490|
+; A weak excuse and one he clearly sees through.
+
+
+# ~fb8060f2
+; > NA: |#~fb8060f2|
+; He chooses not to comment.
+
+
+# ~3344b74b
+; > TI: |#~3344b74b|
+; Then chance has been most generous.
+
+
+# ~b4867764
+; > NA: |#~b4867764|
+; He ties the horse to the fence.
+
+
+# ~8dda728b
+; > TI: |#~8dda728b|
+; I have just returned from a patrol along the road.
+
+
+# ~8311b894
+; > NA: |#~8311b894|
+; He studies you with quiet curiosity.
+
+
+# ~bbcaed53
+; > TI: |#~bbcaed53|
+; Do you often wander to other people’s homes… or am I granted this particular honor?
+
+
+# ~26265001
+; > PLAYER: |#~26265001|
+; Perhaps a little of both.
+
+
+# ~4964858a
+; > NA: |#~4964858a|
+; He lets out a soft laugh.
+
+
+# ~611822b6
+; > TI: |#~611822b6|
+; In that case… do come in.
+
+
+# ~37e2e846
+; > DENTRO DA CASA
+; > NA: |#~37e2e846|
+; Tiradentes steps inside, and you follow.
+
+
+# ~7bd28e9b
+; > NA: |#~7bd28e9b|
+; You recognize the wooden table, scattered maps, loose papers, and a small open box resting on a bench.
+
+
+# ~4b93a4c0
+; > NA: |#~4b93a4c0|
+; Tiradentes notices your gaze.
+
+
+# ~39dfe949
+; > TI: |#~39dfe949|
+; I have been thinking too much of late.
+
+
+# ~21802b73
+; > NA: |#~21802b73|
+; He runs a hand through his hair, looking slightly tired.
+
+
+# ~170b7302
+; > TI: |#~170b7302|
+; And when I think too much… I recall things I learned in the ranks.
+
+
+# ~3e8f7586
+; > PLAYER: |#~3e8f7586|
+; In the army?
+
+
+# ~3f94060d
+; > TI: |#~3f94060d|
+; I served many years as a soldier.
+
+
+# ~8359216c
+; > PLAYER: |#~8359216c|
+; Ah, yes… that explains the alferes.
+
+
+# ~726213a9
+; > NA: |#~726213a9|
+; He opens the box more fully.
+
+
+# ~b7d8d291
+; > NA: |#~b7d8d291|
+; Inside are a few simple weapons.
+
+
+# ~b805aff6
+; > TI: |#~b805aff6|
+; If times take the turn I expect… we may all need to learn how to defend ourselves.
+
+
+# ~1bbfa58d
+; > NA: |#~1bbfa58d|
+; He lifts his gaze to you.
+
+
+# ~ef45aa41
+; > TI: |#~ef45aa41|
+; Even those not born for war.
+
+
+# ~d0f1b12a
+; > NA: |#~d0f1b12a|
+; A faint smile appears, and you raise an eyebrow.
+
+
+# ~ac941c67
+; > TI: |#~ac941c67|
+; Tell me… have you ever held a weapon before?
+
+
+# ~ed181ec5
+; > PLAYER: |#~ed181ec5|
+; Not exactly.
+
+
+# ~91a1c6f2
+; > TI: |#~91a1c6f2|
+; Then perhaps it is time you learned.
+
+
+# ~4dd850f5
+; > NA: |#~4dd850f5|
+; He takes from the box a sword and a dagger.
+
+
+# ~bd8cb09d
+; > TI: |#~bd8cb09d|
+; Each demands a different kind of courage.
+
+
+# ~5a504282
+; > NA: |#~5a504282|
+; His gaze meets yours.
+
+
+# ~409cca1b
+; > TI: |#~409cca1b|
+; Which would you like to try?
+
+
+# ~313d8c13
+; > @choice "|#~313d8c13|" goto:.scene5T-1
+; Learn to use a sword
+
+
+# ~1c22ca26
+; > @choice "|#~1c22ca26|" goto:.scene5T-2
+; Learn to use a dagger
+
+
+# ~8f36dfd
+; > NA: |#~8f36dfd|
+; You choose the sword.
+
+
+# ~d93a8537
+; > NA: |#~d93a8537|
+; Tiradentes nods at your decision and gestures for the two of you to step outside.
+
+
+# ~aea48995
+; > NA: |#~aea48995|
+; Outside, he rolls up the sleeves of his shirt and stands before you.
+
+
+# ~654bab37
+; > NA: |#~654bab37|
+; Tiradentes lifts the short sword, studying it for a moment.
+
+
+# ~7487eb0d
+; > NA: |#~7487eb0d|
+; Then he extends it toward you.
+
+
+# ~58c6f0ba
+; > TI: |#~58c6f0ba|
+; Let us begin.
+
+
+# ~70751ed8
+; > NA: |#~70751ed8|
+; You take the weapon hesitantly, the weight is greater than you expected.
+
+
+# ~52b506f5
+; > TI: |#~52b506f5|
+; It is not about strength.
+
+
+# ~14f5edcb
+; > NA: |#~14f5edcb|
+; He steps closer, slowly.
+
+
+# ~d42b666b
+; > TI: |#~d42b666b|
+; It is a matter of balance.
+
+
+# ~8770a9c5
+; > NA: |#~8770a9c5|
+; Tiradentes moves behind you too close.
+
+
+# ~16e81cc8
+; > NA: |#~16e81cc8|
+; The warmth of him seems to bridge the space between your bodies; you feel his breath against the back of your neck.
+
+
+# ~a4dcf6d2
+; > TI: |#~a4dcf6d2|
+; Like this.
+
+
+# ~80d780a7
+; > NA: |#~80d780a7|
+; His hands settle carefully at your waist, adjusting your posture.
+
+
+# ~9b43e249
+; > NA: |#~9b43e249|
+; Your heart immediately begins to race.
+
+
+# ~c534c602
+; > NA: |#~c534c602|
+; He turns you slightly, aligning your shoulders.
+
+
+# ~cc6f318c
+; > TI: |#~cc6f318c|
+; Keep your footing steady.
+
+
+# ~6091f047
+; > NA: |#~6091f047|
+; His voice is lower now, close to your ear.
+
+
+# ~dbdb5d5a
+; > NA: |#~dbdb5d5a|
+; You try to focus on the instructions, but it is not easy.
+
+
+# ~4b4a36c6
+; > NA: |#~4b4a36c6|
+; Tiradentes reaches for the hand holding the sword.
+
+
+# ~b067bc38
+; > NA: |#~b067bc38|
+; His fingers wrap around yours you feel his chest against your back, a shiver running through you.
+
+
+# ~872cf8d0
+; > TI: |#~872cf8d0|
+; Do not grip it so tightly.
+
+
+# ~c3153374
+; > TI: |#~c3153374|
+; The blade should answer your arm, not fight against it.
+
+
+# ~8bf23bf3
+; > NA: |#~8bf23bf3|
+; He guides the movement slowly.
+
+
+# ~9d3643fa
+; > NA: |#~9d3643fa|
+; The sword cuts through the air in a simple arc.
+
+
+# ~39b7535f
+; > NA: |#~39b7535f|
+; His arm passes around you to correct the angle.
+
+
+# ~e42835f8
+; > NA: |#~e42835f8|
+; You feel his breath near your neck again.
+
+
+# ~c4309c04
+; > TI: |#~c4309c04|
+; There.
+
+
+# ~67eacdb
+; > NA: |#~67eacdb|
+; The word comes out almost like a murmur.
+
+
+# ~e549af0d
+; > NA: |#~e549af0d|
+; You repeat the motion.
+
+
+# ~de1677b6
+; > NA: |#~de1677b6|
+; Once.
+
+
+# ~2e7e6436
+; > NA: |#~2e7e6436|
+; And again.
+
+
+# ~93d4575c
+; > NA: |#~93d4575c|
+; His hand remains at your waist to steady you.
+
+
+# ~7ab66e22
+; > NA: |#~7ab66e22|
+; His fingers tighten slightly, instinctively, when you lose your balance for a moment.
+
+
+# ~91adf5ec
+; > NA: |#~91adf5ec|
+; He lets out a quiet laugh.
+
+
+# ~9a0cd1ef
+; > TI: |#~9a0cd1ef|
+; I must admit…
+
+
+# ~83418ed6
+; > TI: |#~83418ed6|
+; I have never had a student threaten to defeat themselves before the enemy.
+
+
+# ~74f9ca43
+; > PLAYER: |#~74f9ca43|
+; I am learning.
+
+
+# ~8dc9076b
+; > NA: |#~8dc9076b|
+; You try to sound serious, but it does not quite work.
+
+
+# ~2b1f7953
+; > NA: |#~2b1f7953|
+; Tiradentes releases your waist… though a second later than he should.
+
+
+# ~786ce04
+; > NA: |#~786ce04|
+; When he steps back, the air suddenly feels colder.
+
+
+# ~540fe257
+; > NA: |#~540fe257|
+; He folds his arms, watching you.
+
+
+# ~88e44582
+; > TI: |#~88e44582|
+; Now try it on your own.
+
+
+# ~323e58c2
+; > NA: |#~323e58c2|
+; You raise the sword again.
+
+
+# ~c202ae9a
+; > NA: |#~c202ae9a|
+; But you notice he is still watching.
+
+
+# ~ca722b80
+; > NA: |#~ca722b80|
+; Not exactly the sword.
+
+
+# ~cfb2cfc5
+; > PLAYER: |#~cfb2cfc5|
+; (Is he going to keep looking at me like that…?)
+
+
+# ~b6de9e67
+; > NA: |#~b6de9e67|
+; Tiradentes takes the dagger from the box.
+
+
+# ~791f41d8
+; > NA: |#~791f41d8|
+; The blade is smaller than the sword, but somehow feels more… dangerous.
+
+
+# ~b309d6d7
+; > NA: |#~b309d6d7|
+; He gestures for the two of you to step outside.
+
+
+# ~478e2630
+; > NA: |#~478e2630|
+; Outside, he rolls up his sleeves and stands before you.
+
+
+# ~27fdf81f
+; > TI: |#~27fdf81f|
+; A dagger requires less strength.
+
+
+# ~3fa2532d
+; > NA: |#~3fa2532d|
+; He spins it lightly between his fingers, with practiced ease.
+
+
+# ~9c51e295
+; > TI: |#~9c51e295|
+; But it demands precision.
+
+
+# ~d282175
+; > NA: |#~d282175|
+; He steps closer facing you.
+
+
+# ~44d31277
+; > NA: |#~44d31277|
+; Close enough that you catch the faint scent of leather and wild herbs.
+
+
+# ~898209a5
+; > TI: |#~898209a5|
+; Hold it.
+
+
+# ~b533f31f
+; > NA: |#~b533f31f|
+; He places the dagger in your hand.
+
+
+# ~1fc8d12
+; > NA: |#~1fc8d12|
+; Your fingers close around it as he adjusts your grip, his hand enveloping yours.
+
+
+# ~797b5e24
+; > NA: |#~797b5e24|
+; His hands are warm.
+
+
+# ~ff88da77
+; > NA: |#~ff88da77|
+; He studies your stance for a moment. Then steps half a pace closer.
+
+
+# ~4d1b50f9
+; > NA: |#~4d1b50f9|
+; Now you are nearly pressed together.
+
+
+# ~84f36025
+; > NA: |#~84f36025|
+; There is barely any space left between you.
+
+
+# ~5fb0bb2
+; > TI: |#~5fb0bb2|
+; In close combat… strength does not decide the outcome.
+
+
+# ~ba771a48
+; > NA: |#~ba771a48|
+; He gently takes hold of your wrist.
+
+
+# ~e9fd3358
+; > NA: |#~e9fd3358|
+; The blade rises between you.
+
+
+# ~469ac380
+; > TI: |#~469ac380|
+; It is the one who knows where to strike.
+
+
+# ~bbfa53a9
+; > NA: |#~bbfa53a9|
+; He guides your hand slowly.
+
+
+# ~93323fc1
+; > NA: |#~93323fc1|
+; The tip of the dagger comes to rest lightly against his own chest.
+
+
+# ~72849544
+; > TI: |#~72849544|
+; The heart.
+
+
+# ~540913ad
+; > NA: |#~540913ad|
+; The contact is light, but you can feel the warmth of his body beneath the fabric of his shirt.
+
+
+# ~65d4bce4
+; > NA: |#~65d4bce4|
+; He moves your hand slightly lower.
+
+
+# ~5b263d5d
+; > NA: |#~5b263d5d|
+; The blade glides slowly over the cloth.
+
+
+# ~8811bc24
+; > TI: |#~8811bc24|
+; Here… the stomach.
+
+
+# ~f654eeff
+; > NA: |#~f654eeff|
+; The closeness makes it difficult to remember this is only a lesson.
+
+
+# ~c115c09b
+; > NA: |#~c115c09b|
+; His hand is still wrapped around yours.
+
+
+# ~2be5e40a
+; > NA: |#~2be5e40a|
+; He guides the movement once more toward his side.
+
+
+# ~81286324
+; > TI: |#~81286324|
+; Between the ribs.
+
+
+# ~92238e77
+; > PLAYER: |#~92238e77|
+; (Oh, he’s doing this…)
+
+
+# ~80c17b55
+; > NA: |#~80c17b55|
+; He stops.
+
+
+# ~63e6f040
+; > NA: |#~63e6f040|
+; Perhaps realizing too late just how close the two of you are.
+
+
+# ~bc7e90f4
+; > NA: |#~bc7e90f4|
+; Your gaze meets his.
+
+
+# ~2cc742ef
+; > PLAYER: |#~2cc742ef|
+; (God…)
+
+
+# ~c2e2b9d0
+; > NA: |#~c2e2b9d0|
+; For a moment, Tiradentes seems to forget what he was explaining.
+
+
+# ~d1895ded
+; > TI: |#~d1895ded|
+; The important thing…
+
+
+# ~6041b756
+; > NA: |#~6041b756|
+; His voice is lower than before.
+
+
+# ~ec5c4cc
+; > TI: |#~ec5c4cc|
+; …is to remain calm.
+
+
+# ~3da3ed75
+; > NA: |#~3da3ed75|
+; Yet his hand is still over yours.
+
+
+# ~6e7a4356
+; > NA: |#~6e7a4356|
+; And neither of you has stepped away.
+
+
+# ~411db083
+; > Conversa depois de qualquer escolha
+; > NA: |#~411db083|
+; The silence between you lingers a moment too long.
+
+
+# ~6f14fa7e
+; > NA: |#~6f14fa7e|
+; As if neither of you quite knows what to do next.
+
+
+# ~a1c74655
+; > NA: |#~a1c74655|
+; Tiradentes is the first to move.
+
+
+# ~eb7ac254
+; > TI: |#~eb7ac254|
+; I believe… that will be enough for today.
+
+
+# ~7f3d0953
+; > NA: |#~7f3d0953|
+; His voice sounds a little firmer now.
+
+
+# ~47a195b
+; > NA: |#~47a195b|
+; As though he is regaining his composure.
+
+
+# ~7831114f
+; > NA: |#~7831114f|
+; You lower the weapon.
+
+
+# ~af707b14
+; > NA: |#~af707b14|
+; Your heart is still beating faster than it should for a simple lesson.
+
+
+# ~b1e8fd82
+; > PLAYER: |#~b1e8fd82|
+; (That was just a lesson.)
+
+
+# ~e5570c60
+; > PLAYER: |#~e5570c60|
+; (…wasn’t it?)
+
+
+# ~a8b07ce6
+; > NA: |#~a8b07ce6|
+; Tiradentes runs a hand along the back of his neck, glancing toward the horizon for a moment.
+
+
+# ~2435e1d4
+; > NA: |#~2435e1d4|
+; Then he lets out a small sigh.
+
+
+# ~1343f60f
+; > PLAYER: |#~1343f60f|
+; Where to?
+
+
+# ~3ce93e7d
+; > NA: |#~3ce93e7d|
+; A faint smile touches the corner of his mouth.
+
+
+# ~3876e8b1
+; > TI: |#~3876e8b1|
+; There is a place nearby.
+
+
+# ~49f96228
+; > TI: |#~49f96228|
+; I go there… when I need to think.
+
+
+# ~e9093382
+; > NA: |#~e9093382|
+; You walk along a narrow trail that climbs the hillside.
+
+
+# ~5bb992f2
+; > NA: |#~5bb992f2|
+; The sun begins to set between the hills.
+
+
+# ~bf21b7e8
+; > NA: |#~bf21b7e8|
+; The training has left your arms tired and your legs heavy.
+
+
+# ~d2541fd2
+; > NA: |#~d2541fd2|
+; But Tiradentes seems used to the path.
+
+
+# ~1673393b
+; > NA: |#~1673393b|
+; At times, he slows his pace so you can keep up.
+
+
+# ~2142ab54
+; > PLAYER: |#~2142ab54|
+; (Did this man really bring me out here for a hike…?)
+
+
+# ~1ec3fdd
+; > NA: |#~1ec3fdd|
+; The sky slowly shifts in color, first orange, then a soft violet.
+
+
+# ~55ed365c
+; > NA: |#~55ed365c|
+; Until the first stars begin to appear.
+
+
+# ~d8bf6c3a
+; > NA: |#~d8bf6c3a|
+; When you reach the top, the whole village stretches out below.
+
+
+# ~c2d06b40
+; > NA: |#~c2d06b40|
+; A few scattered lights begin to glow among the houses.
+
+
+# ~36698604
+; > NA: |#~36698604|
+; Tiradentes stops near a low stone wall that separates the overlook from the taller brush beyond.
+
+
+# ~ac5cfd78
+; > NA: |#~ac5cfd78|
+; You sit there, still catching your breath.
+
+
+# ~fbc5f133
+; > NA: |#~fbc5f133|
+; The sky is now dark enough for the stars to show.
+
+
+# ~3accc02a
+; > NA: |#~3accc02a|
+; For a while, neither of you speaks.
+
+
+# ~d0ce4eae
+; > NA: |#~d0ce4eae|
+; Only the sound of wind and rustling leaves.
+
+
+# ~e82784e2
+; > PLAYER: |#~e82784e2|
+; It is beautiful here.
+
+
+# ~464eb335
+; > NA: |#~464eb335|
+; Tiradentes steps closer, slowly.
+
+
+# ~846832cc
+; > NA: |#~846832cc|
+; He rests his arms on the stone wall beside you, his gaze fixed on the horizon.
+
+
+# ~1446a4c
+; > TI: |#~1446a4c|
+; The view is better once night falls.
+
+
+# ~739fda4e
+; > NA: |#~739fda4e|
+; He tilts his head slightly toward the open expanse.
+
+
+# ~a4bc2c1b
+; > TI: |#~a4bc2c1b|
+; You know…
+
+
+# ~f378506
+; > NA: |#~f378506|
+; His voice is quieter than usual.
+
+
+# ~4f135cb9
+; > TI: |#~4f135cb9|
+; Sometimes I wonder what the world will be like… when all this is over.
+
+
+# ~286bca13
+; > PLAYER: |#~286bca13|
+; The revolution?
+
+
+# ~27228078
+; > NA: |#~27228078|
+; A faint smile appears.
+
+
+# ~6cda8a6a
+; > TI: |#~6cda8a6a|
+; If we are fortunate enough to call it that one day.
+
+
+# ~24c1a282
+; > NA: |#~24c1a282|
+; He runs a hand over his face, thoughtful.
+
+
+# ~80a39bf
+; > TI: |#~80a39bf|
+; People speak so much of freedom… of new laws… of a new nation.
+
+
+# ~b3322b20
+; > TI: |#~b3322b20|
+; But what I truly think of…
+
+
+# ~ae623ddb
+; > NA: |#~ae623ddb|
+; He pauses briefly.
+
+
+# ~d52312d7
+; > TI: |#~d52312d7|
+; …is a simple life.
+
+
+# ~3c4a130
+; > NA: |#~3c4a130|
+; He looks up at the sky.
+
+
+# ~1b459df0
+; > TI: |#~1b459df0|
+; A piece of land. A small house.
+
+
+# ~4c550352
+; > TI: |#~4c550352|
+; Horses… perhaps a few fruit trees.
+
+
+# ~583c57e0
+; > NA: |#~583c57e0|
+; His smile is almost shy now.
+
+
+# ~de9dfd0a
+; > TI: |#~de9dfd0a|
+; No soldiers. No absurd taxes.
+
+
+# ~774a4ba1
+; > TI: |#~774a4ba1|
+; Just… living.
+
+
+# ~1b7a4b66
+; > NA: |#~1b7a4b66|
+; The wind passes between you, and silence returns for a moment.
+
+
+# ~61eaa189
+; > TI: |#~61eaa189|
+; But there are days when I wonder if I will even live to see it.
+
+
+# ~5faad397
+; > NA: |#~5faad397|
+; He says it calmly, but something in his tone carries weight.
+
+
+# ~bc3aba77
+; > TI: |#~bc3aba77|
+; I have been thinking… quite a lot about death, of late.
+
+
+# ~52f03f93
+; > PLAYER: |#~52f03f93|
+; Do not say that, not even in jest.
+
+
+# ~a1b094b2
+; > TI: |#~a1b094b2|
+; It is not fear.
+
+
+# ~b7f137be
+; > NA: |#~b7f137be|
+; He shakes his head slightly.
+
+
+# ~96d9a866
+; > TI: |#~96d9a866|
+; It is only… awareness.
+
+
+# ~620e5dbf
+; > TI: |#~620e5dbf|
+; A man may die for many things. But to die without leaving anything behind…
+
+
+# ~1cc6a97
+; > NA: |#~1cc6a97|
+; He looks at his hands for a moment.
+
+
+# ~99e01b3f
+; > TI: |#~99e01b3f|
+; That seems far worse to me.
+
+
+# ~8527ab4c
+; > NA: |#~8527ab4c|
+; Tiradentes reaches into the inner pocket of his coat and takes out a carefully folded piece of paper.
+
+
+# ~8a338ff1
+; > NA: |#~8a338ff1|
+; The edges are slightly worn.
+
+
+# ~1b4523ba
+; > PLAYER: |#~1b4523ba|
+; What is it?
+
+
+# ~e8e301ed
+; > TI: |#~e8e301ed|
+; A letter.
+
+
+# ~f5a12b56
+; > NA: |#~f5a12b56|
+; He looks at it for a moment before answering.
+
+
+# ~7b2c9360
+; > TI: |#~7b2c9360|
+; From my mother.
+
+
+# ~cc494afe
+; > NA: |#~cc494afe|
+; He exhales slowly.
+
+
+# ~c7f23f1a
+; > TI: |#~c7f23f1a|
+; Things are becoming… delicate.
+
+
+# ~a7034167
+; > NA: |#~a7034167|
+; He finally meets your gaze.
+
+
+# ~fc0e1f4f
+; > TI: |#~fc0e1f4f|
+; The Crown is beginning to suspect.
+
+
+# ~b242dc91
+; > NA: |#~b242dc91|
+; The night feels quieter all of a sudden.
+
+
+# ~9672ed1c
+; > TI: |#~9672ed1c|
+; They do not know everything yet… but they can sense something stirring.
+
+
+# ~2843f85c
+; > NA: |#~2843f85c|
+; He holds the letter between his fingers.
+
+
+# ~3c106628
+; > TI: |#~3c106628|
+; If anything should happen to me… I want her to know I have no regrets.
+
+
+# ~ff56fc14
+; > NA: |#~ff56fc14|
+; He extends the paper toward you.
+
+
+# ~5d5f8f25
+; > TI: |#~5d5f8f25|
+; If all goes wrong… I want you to keep this.
+
+
+# ~b310f2ba
+; > NA: |#~b310f2ba|
+; The letter remains between you.
+
+
+# ~97cc7501
+; > NA: |#~97cc7501|
+; The gesture is simple, but its weight is anything but.
+
+
+# ~9119fa
+; > @choice "|#~9119fa|" goto:.scene6T-1
+; Accept the letter
+
+
+# ~3fd1e4e1
+; > @choice "|#~3fd1e4e1|" goto:.scene6T-2
+; Refuse the letter
+
+
+# ~6aaf55ac
+; > NA: |#~6aaf55ac|
+; You hesitate for a moment, then reach out your hand.
+
+
+# ~c42e7589
+; > PLAYER: |#~c42e7589|
+; I will keep it, but you will take it back later.
+
+
+# ~2019e273
+; > NA: |#~2019e273|
+; Your fingers brush against his as you take the letter.
+
+
+# ~c863ba6f
+; > NA: |#~c863ba6f|
+; The contact is brief… but enough to make your heart race.
+
+
+# ~30660a08
+; > NA: |#~30660a08|
+; Tiradentes lets out a breath that seemed long held.
+
+
+# ~b91aa44a
+; > TI: |#~b91aa44a|
+; Thank you.
+
+
+# ~e41179ad
+; > NA: |#~e41179ad|
+; The word is simple, but sincere.
+
+
+# ~e8bd3e79
+; > NA: |#~e8bd3e79|
+; He watches as you carefully fold the paper.
+
+
+# ~a9e2001
+; > TI: |#~a9e2001|
+; I did not think anyone… would understand.
+
+
+# ~d106ce21
+; > NA: |#~d106ce21|
+; He rests his arms against the stone wall again.
+
+
+# ~62e76f38
+; > TI: |#~62e76f38|
+; Many call me a dreamer… others, a madman.
+
+
+# ~9c136938
+; > NA: |#~9c136938|
+; A faint smile touches his lips.
+
+
+# ~c1e4190f
+; > TI: |#~c1e4190f|
+; But you…
+
+
+# ~733fbe24
+; > TI: |#~733fbe24|
+; You have a patience few possess with me.
+
+
+# ~78b2a21
+; > PLAYER: |#~78b2a21|
+; (You have no idea…)
+
+
+# ~d1b7789e
+; > NA: |#~d1b7789e|
+; He turns his face toward you.
+
+
+# ~14b044fe
+; > TI: |#~14b044fe|
+; And a quiet kind of courage, as well.
+
+
+# ~160236e
+; > NA: |#~160236e|
+; His gaze softens.
+
+
+# ~b751dac2
+; > TI: |#~b751dac2|
+; To know I can trust you with something like this…
+
+
+# ~ae53a78f
+; > NA: |#~ae53a78f|
+; He glances briefly at where you tucked the letter away.
+
+
+# ~46eb91c7
+; > TI: |#~46eb91c7|
+; …means more than you can imagine.
+
+
+# ~2fa01cb5
+; > NA: |#~2fa01cb5|
+; The night wind passes between you, and the stars seem more numerous now.
+
+
+# ~46980393
+; > TI: |#~46980393|
+; I hope I am not placing you in danger by doing this.
+
+
+# ~c5118a0
+; > PLAYER: |#~c5118a0|
+; I do not mind.
+
+
+# ~f62d4c0c
+; > NA: |#~f62d4c0c|
+; He watches you for a moment.
+
+
+# ~19aeb83d
+; > NA: |#~19aeb83d|
+; As if weighing your words.
+
+
+# ~b9d22689
+; > NA: |#~b9d22689|
+; Then he smiles, lighter this time.
+
+
+# ~692a69e8
+; > TI: |#~692a69e8|
+; Then I am all the more grateful.
+
+
+# ~9fa2c26e
+; > NA: |#~9fa2c26e|
+; The village glows faintly below, while the sky above seems endless.
+
+
+# ~f73ac913
+; > NA: |#~f73ac913|
+; You remain side by side at the stone wall.
+
+
+# ~c52beb6d
+; > NA: |#~c52beb6d|
+; For a moment, no words are needed.
+
+
+# ~489e12fd
+; > NA: |#~489e12fd|
+; Only the comfortable silence between two people who have shared something meaningful.
+
+
+# ~28215acc
+; > NA: |#~28215acc|
+; Tiradentes looks up at the sky.
+
+
+# ~4cc2e193
+; > TI: |#~4cc2e193|
+; Strange…
+
+
+# ~6c6b648e
+; > TI: |#~6c6b648e|
+; There are days when the future feels impossible.
+
+
+# ~445320ec
+; > NA: |#~445320ec|
+; He turns his gaze back to you.
+
+
+# ~d5059d05
+; > TI: |#~d5059d05|
+; And others when… everything seems a little more within reach.
+
+
+# ~9d3ef295
+; > NA: |#~9d3ef295|
+; Tiradentes keeps his eyes on you for a moment.
+
+
+# ~18fc1f76
+; > NA: |#~18fc1f76|
+; As though making a quiet decision.
+
+
+# ~95713ffe
+; > NA: |#~95713ffe|
+; The hesitation lasts only an instant.
+
+
+# ~28ffca4d
+; > NA: |#~28ffca4d|
+; He steps closer, so close you can catch the scent of leather and wild herbs.
+
+
+# ~30b4fa7d
+; > NA: |#~30b4fa7d|
+; The tips of his long fingers brush your cheek, and your heart races.
+
+
+# ~32be9dd2
+; > NA: |#~32be9dd2|
+; Your gaze flickers briefly to his lips and he notices. A faint flush rises to his cheeks.
+
+
+# ~33910c97
+; > NA: |#~33910c97|
+; Then Tiradentes shifts slightly.
+
+
+# ~62401b04
+; > NA: |#~62401b04|
+; Instead of your lips, his soft ones touch your cheek.
+
+
+# ~992fe140
+; > NA: |#~992fe140|
+; The kiss, though only on your cheek, is slow and gentle.
+
+
+# ~b57b5149
+; > NA: |#~b57b5149|
+; A shiver runs through your body at the touch, your skin warm beneath it.
+
+
+# ~e61cbabf
+; > NA: |#~e61cbabf|
+; You barely have time to react.
+
+
+# ~2ebd96bb
+; > NA: |#~2ebd96bb|
+; When he pulls away, your cheeks are still flushed.
+
+
+# ~1f5a07bc
+; > NA: |#~1f5a07bc|
+; Tiradentes looks slightly embarrassed.
+
+
+# ~b4faf946
+; > NA: |#~b4faf946|
+; A small smile tugs at the corner of his lips.
+
+
+# ~cd847ed8
+; > TI: |#~cd847ed8|
+; I believe the night… has made me bold.
+
+
+# ~22771c7f
+; > NA: |#~22771c7f|
+; But he does not step far away.
+
+
+# ~f5ea63d5
+; > NA: |#~f5ea63d5|
+; And for a moment, you remain there side by side, watching the stars.
+
+
+# ~cf220e78
+; > NA: |#~cf220e78|
+; Silence settles between you once more.
+
+
+# ~a8c13553
+; > NA: |#~a8c13553|
+; Tiradentes keeps his gaze on you for a moment.
+
+
+# ~8cc67ce1
+; > NA: |#~8cc67ce1|
+; As though weighing a silent decision.
+
+
+# ~aac76915
+; > NA: |#~aac76915|
+; Then he leans in slightly closer.
+
+
+# ~56d14bba
+; > NA: |#~56d14bba|
+; Close enough for you to catch the scent of leather and herbs.
+
+
+# ~a6da7c34
+; > NA: |#~a6da7c34|
+; The world seems to shrink around you.
+
+
+# ~5c6fed31
+; > NA: |#~5c6fed31|
+; His face is only inches from yours. His warm breath brushes against your skin, sending a shiver through you.
+
+
+# ~cf978aa3
+; > NA: |#~cf978aa3|
+; Something flickers in his eyes hesitation, perhaps.
+
+
+# ~5048bddc
+; > NA: |#~5048bddc|
+; As if he is still questioning whether this is right.
+
+
+# ~f9a5afad
+; > NA: |#~f9a5afad|
+; His hand rises slowly, long fingers brushing your cheek.
+
+
+# ~b9657e91
+; > NA: |#~b9657e91|
+; The gesture is hesitant like he is testing whether he is allowed.
+
+
+# ~faf4a714
+; > NA: |#~faf4a714|
+; His gaze drops to your lips, something bright in his eyes.
+
+
+# ~f6e3b836
+; > NA: |#~f6e3b836|
+; You are so close now it is impossible to ignore what is happening.
+
+
+# ~20bbec89
+; > NA: |#~20bbec89|
+; For a moment, it feels as though he might actually kiss you.
+
+
+# ~ee93721
+; > NA: |#~ee93721|
+; But Tiradentes restrains himself, drawing a slow breath.
+
+
+# ~f1cd608
+; > TI: |#~f1cd608|
+; Have you ever wanted something…
+
+
+# ~4e187343
+; > TI: |#~4e187343|
+; …that felt forbidden?
+
+
+# ~cf8b3bde
+; > NA: |#~cf8b3bde|
+; The question lingers between you.
+
+
+# ~c81c188d
+; > NA: |#~c81c188d|
+; The sky above remains filled with stars.
+
+
+# ~68046685
+; > NA: |#~68046685|
+; Yet in that moment, none of them feel as distant as before.
+
+
+# ~dab9974d
+; > NA: |#~dab9974d|
+; The paper trembles slightly in the night wind.
+
+
+# ~faf100c8
+; > NA: |#~faf100c8|
+; You look at him… then at the letter.
+
+
+# ~b1b914dd
+; > PLAYER: |#~b1b914dd|
+; I cannot accept this.
+
+
+# ~fa4a9428
+; > NA: |#~fa4a9428|
+; Tiradentes does not pull his hand away immediately.
+
+
+# ~317595c0
+; > NA: |#~317595c0|
+; His gaze lingers on you, as if trying to understand.
+
+
+# ~cc13bf29
+; > PLAYER: |#~cc13bf29|
+; Not because I do not want to help, but because… it will not be necessary.
+
+
+# ~97be5ce8
+; > NA: |#~97be5ce8|
+; The silence stretches between you—now uneasy.
+
+
+# ~870e9098
+; > TI: |#~870e9098|
+; Tell me…
+
+
+# ~ddc249dc
+; > NA: |#~ddc249dc|
+; He does not look at you.
+
+
+# ~be1d1d8
+; > TI: |#~be1d1d8|
+; Not necessary… why?
+
+
+# ~fffdcbda
+; > NA: |#~fffdcbda|
+; The question is quiet, but heavy.
+
+
+# ~d24839ec
+; > PLAYER: |#~d24839ec|
+; Because none of this has to happen.
+
+
+# ~6c29b27c
+; > PLAYER: |#~6c29b27c|
+; There is still time to stop.
+
+
+# ~6c117fdb
+; > NA: |#~6c117fdb|
+; Tiradentes slowly turns his face toward you.
+
+
+# ~ed091d45
+; > NA: |#~ed091d45|
+; His gaze hardens.
+
+
+# ~ea0e4107
+; > TI: |#~ea0e4107|
+; Stop?
+
+
+# ~a924e696
+; > TI: |#~a924e696|
+; After everything?
+
+
+# ~afe4c1a6
+; > PLAYER: |#~afe4c1a6|
+; Before it gets worse.
+
+
+# ~9c1320b8
+; > NA: |#~9c1320b8|
+; He steps toward you.
+
+
+# ~37a5e218
+; > TI: |#~37a5e218|
+; Worse for whom?
+
+
+# ~6d386e20
+; > NA: |#~6d386e20|
+; His tone shifts, no trace of softness now.
+
+
+# ~fba36a2d
+; > PLAYER: |#~fba36a2d|
+; For you… and for everyone.
+
+
+# ~32d828dd
+; > TI: |#~32d828dd|
+; For me…
+
+
+# ~46c679f3
+; > NA: |#~46c679f3|
+; He lets out a dry, humorless laugh.
+
+
+# ~4698ec5f
+; > TI: |#~4698ec5f|
+; Just yesterday, you seemed quite taken with my ideas.
+
+
+# ~114a964c
+; > TI: |#~114a964c|
+; Or was it only me?
+
+
+# ~b406041a
+; > NA: |#~b406041a|
+; That catches you off guard.
+
+
+# ~33f98660
+; > PLAYER: |#~33f98660|
+; Do not pretend you do not understand.
+
+
+# ~8581d559
+; > PLAYER: |#~8581d559|
+; I am still here, am I not?
+
+
+# ~88c4604c
+; > TI: |#~88c4604c|
+; You are.
+
+
+# ~ac614364
+; > TI: |#~ac614364|
+; But only until things become… inconvenient.
+
+
+# ~b87ea4a9
+; > PLAYER: |#~b87ea4a9|
+; Oh, of course.
+
+
+# ~b95cac7
+; > PLAYER: |#~b95cac7|
+; Because you are clearly very skilled at avoiding inconvenience.
+
+
+# ~62b0b8c6
+; > TI: |#~62b0b8c6|
+; Joaquim would be proud of that…
+
+
+# ~923201e5
+; > TI: |#~923201e5|
+; At least I do not run from such things.
+
+
+# ~484d10b9
+; > PLAYER: |#~484d10b9|
+; Do you not?
+
+
+# ~dfed4d16
+; > PLAYER: |#~dfed4d16|
+; Because it seems to me you are running straight into one.
+
+
+# ~2eee12ff
+; > TI: |#~2eee12ff|
+; Always so careful… so safe.
+
+
+# ~c7cbea81
+; > PLAYER: |#~c7cbea81|
+; Someone has to be.
+
+
+# ~6f643200
+; > PLAYER: |#~6f643200|
+; We already have one martyr in this conversation.
+
+
+# ~371e406
+; > NA: |#~371e406|
+; That hits, but he smiles.
+
+
+# ~c54335a0
+; > TI: |#~c54335a0|
+; Martyr?
+
+
+# ~f5f33716
+; > TI: |#~f5f33716|
+; Not yet.
+
+
+# ~4707e3d4
+; > TI: |#~4707e3d4|
+; Though I see you are already preparing my epitaph.
+
+
+# ~f20c1b41
+; > PLAYER: |#~f20c1b41|
+; I am just being realistic.
+
+
+# ~62e526ef
+; > TI: |#~62e526ef|
+; And I, apparently, a fool.
+
+
+# ~562a375d
+; > PLAYER: |#~562a375d|
+; I did not say that.
+
+
+# ~abbdaffd
+; > TI: |#~abbdaffd|
+; Not in so many words.
+
+
+# ~df94ef37
+; > NA: |#~df94ef37|
+; The tension rises.
+
+
+# ~ded48190
+; > NA: |#~ded48190|
+; His gaze darkens. You clench your fists.
+
+
+# ~d4135ae4
+; > PLAYER: |#~d4135ae4|
+; I am trying to stop you from destroying yourself.
+
+
+# ~9ab6c7ef
+; > TI: |#~9ab6c7ef|
+; And I am trying to do something that matters.
+
+
+# ~5b46b1ce
+; > PLAYER: |#~5b46b1ce|
+; Is it worth dying for?
+
+
+# ~89e60f7a
+; > TI: |#~89e60f7a|
+; You ask as one who has never considered dying for something.
+
+
+# ~cba9eeb3
+; > PLAYER: |#~cba9eeb3|
+; I just did not choose an idea for it.
+
+
+# ~f646c761
+; > NA: |#~f646c761|
+; Tiradentes’ jaw tightens.
+
+
+# ~9ec9881e
+; > TI: |#~9ec9881e|
+; Then perhaps that is where we differ.
+
+
+# ~281c1d07
+; > NA: |#~281c1d07|
+; He holds your gaze.
+
+
+# ~edcabcc7
+; > TI: |#~edcabcc7|
+; I have chosen.
+
+
+# ~ff8ff5bc
+; > NA: |#~ff8ff5bc|
+; You stand too close now.
+
+
+# ~16ba696e
+; > NA: |#~16ba696e|
+; Uneven breaths. Raw emotion.
+
+
+# ~53483cbc
+; > NA: |#~53483cbc|
+; As if the world around you has vanished.
+
+
+# ~6eac3680
+; > NA: |#~6eac3680|
+; That is why you do not hear the footsteps.
+
+
+# ~e37c3274
+; > NA: |#~e37c3274|
+; Nor see the lanterns emerging through the trees.
+
+
+# ~86888d19
+; > GUARD: |#~86888d19|
+; Well, well…
+
+
+# ~ade6349a
+; > GUARD: |#~ade6349a|
+; What a curious scene.
+
+
+# ~ed95e576
+; > NA: |#~ed95e576|
+; The voice comes from behind you.
+
+
+# ~1e0d869
+; > NA: |#~1e0d869|
+; You both step apart too quickly.
+
+
+# ~3cfad2df
+; > NA: |#~3cfad2df|
+; Soldiers surround the overlook, blades glinting in the dark.
+
+
+# ~f7f77b28
+; > GUARD: |#~f7f77b28|
+; In such fine company.
+
+
+# ~2d1beabc
+; > NA: |#~2d1beabc|
+; Low laughter.
+
+
+# ~6ecea21c
+; > NA: |#~6ecea21c|
+; Unpleasant.
+
+
+# ~a8555671
+; > GUARD: |#~a8555671|
+; A lady alone at night…
+
+
+# ~6c99e629
+; > GUARD: |#~6c99e629|
+; In the company of the alferes…
+
+
+# ~ad5c031b
+; > GUARD: |#~ad5c031b|
+; This will give people something to talk about.
+
+
+# ~398ab89a
+; > GUARD: |#~398ab89a|
+; Two men, hiding away…
+
+
+# ~9a6ebdfd
+; > GUARD: |#~9a6ebdfd|
+; What an interesting choice of company.
+
+
+# ~7944fee2
+; > NA: |#~7944fee2|
+; A mocking laugh echoes.
+
+
+# ~ae0568ee
+; > NA: |#~ae0568ee|
+; Tiradentes steps forward.
+
+
+# ~9930545e
+; > NA: |#~9930545e|
+; One guard restrains him roughly, another grabs you.
+
+
+# ~6df463bc
+; > PLAYER: |#~6df463bc|
+; Wait...
+
+
+# ~66ec677a
+; > NA: |#~66ec677a|
+; Cold iron locks around your wrists.
+
+
+# ~b2d49325
+; > GUARD: |#~b2d49325|
+; You will spend the night under watch.
+
+
+# ~b230a429
+; > GUARD: |#~b230a429|
+; Both of you.
+
+
+# ~95d01ba8
+; > NA: |#~95d01ba8|
+; Tiradentes tries to look at you.
+
+
+# ~d20829ba
+; > NA: |#~d20829ba|
+; But now there is distance and not only physical.
+
+
+# ~4d8063b8
+; > NA: |#~4d8063b8|
+; The words still linger between you.
+
+
+# ~6f311c46
+; > NA: |#~6f311c46|
+; Unsaid. Or said too late.
+
+
+# ~41fa01f9
+; > NA: |#~41fa01f9|
+; The overlook fades behind you.
+
+
+# ~4f96f92d
+; > Depois da escolha certa
+; > NA: |#~4f96f92d|
+; The night wind gently stirs the leaves around the overlook.
+
+
+# ~10f1f10f
+; > NA: |#~10f1f10f|
+; Below, the village seems peaceful.
+
+
+# ~5d2f8272
+; > NA: |#~5d2f8272|
+; Then a sound cuts through the quiet: footsteps.
+
+
+# ~26354aad
+; > NA: |#~26354aad|
+; More than one. And the metallic clink of something striking against leather.
+
+
+# ~15d57ddc
+; > NA: |#~15d57ddc|
+; Tiradentes straightens immediately.
+
+
+# ~3807aa2f
+; > NA: |#~3807aa2f|
+; His gaze shifts toward the trail leading up to the overlook and you hear voices.
+
+
+# ~b2bd1fc2
+; > VOICE: |#~b2bd1fc2|
+; This way. Check that path.
+
+
+# ~72fcf761
+; > NA: |#~72fcf761|
+; Tiradentes’ expression changes. The calm vanishes.
+
+
+# ~9a6b40d9
+; > TI: |#~9a6b40d9|
+; Guards.
+
+
+# ~9d6490e4
+; > NA: |#~9d6490e4|
+; He looks at you quickly
+
+
+# ~1ab804c0
+; > TI: |#~1ab804c0|
+; You must leave.
+
+
+# ~62ce79e2
+; > PLAYER: |#~62ce79e2|
+; What about you?
+
+
+# ~525ac0aa
+; > TI: |#~525ac0aa|
+; I know these paths better than they do.
+
+
+# ~4c55a0cc
+; > NA: |#~4c55a0cc|
+; He is already moving.
+
+
+# ~fb29fe93
+; > TI: |#~fb29fe93|
+; Take the trail behind the brush.
+
+
+# ~c05f409b
+; > TI: |#~c05f409b|
+; Do not go back by the main road.
+
+
+# ~dc7a61fd
+; > NA: |#~dc7a61fd|
+; The voices are closer now, and lights begin to flicker between the trees.
+
+
+# ~d60429f
+; > TI: |#~d60429f|
+; Go. Now.
+
+
+# ~8a8d7d34
+; > NA: |#~8a8d7d34|
+; For a brief instant, he hesitates.
+
+
+# ~37fb159d
+; > NA: |#~37fb159d|
+; As if he wants to say something more.
+
+
+# ~14b4d969
+; > NA: |#~14b4d969|
+; But there is no time.
+
+
+# ~fddefef0
+; > TI: |#~fddefef0|
+; Trust me.
+
+
+# ~6c092105
+; > NA: |#~6c092105|
+; Then Tiradentes steps back into the darkness between the trees.
+
+
+# ~93681b93
+; > NA: |#~93681b93|
+; Within seconds, he disappears into the night.
+
+
+# ~e2441b6c
+; > NA: |#~e2441b6c|
+; The guards’ voices continue climbing the trail.
+
+
+# ~36009a93
+; > NA: |#~36009a93|
+; And you have to decide quickly staying is no longer an option.
+
+
+# ~2df22310
+; > NA: |#~2df22310|
+; You make your way down the narrow trail behind the brush.
+
+
+# ~ee46ec00
+; > NA: |#~ee46ec00|
+; Branches scrape lightly against your clothes as you run through the dark.
+
+
+# ~d88d953e
+; > NA: |#~d88d953e|
+; Your heart is still pounding.
+
+
+# ~ff415573
+; > NA: |#~ff415573|
+; Up above, the guards’ voices echo across the overlook.
+
+
+# ~8183f2b2
+; > NA: |#~8183f2b2|
+; But with each step, they grow more distant.
+
+
+# ~5eb64b5c
+; > NA: |#~5eb64b5c|
+; The trail finally opens near the road. The village is quieter now.
+
+
+# ~24f3107
+; > NA: |#~24f3107|
+; A few windows are still lit, but most houses are already asleep.
+
+
+# ~ed1425f
+; > NA: |#~ed1425f|
+; You hurry back to the inn.
+
+
+# ~d388e181
+; > NA: |#~d388e181|
+; The door creaks softly as you step inside.
+
+
+# ~9c129b37
+; > NA: |#~9c129b37|
+; The common room is nearly empty.
+
+
+# ~8ede57ed
+; > NA: |#~8ede57ed|
+; Only a single lamp casts light over part of the counter.
+
+
+# ~ab5806bb
+; > NA: |#~ab5806bb|
+; And Francisca turns as she hears you enter.
+
+
+# ~268967fb
+; > FR: |#~268967fb|
+; Good heavens!
+
+
+# ~5dd732c0
+; > NA: |#~5dd732c0|
+; She presses a hand to her chest.
+
+
+# ~7e6380a8
+; > FR: |#~7e6380a8|
+; You nearly scared me to death!
+
+
+# ~db584f92
+; > PLAYER: |#~db584f92|
+; Sorry…
+
+
+# ~76c7ea45
+; > NA: |#~76c7ea45|
+; You lean against the door, your chest rising and falling as you try to catch your breath.
+
+
+# ~5fa27478
+; > FR: |#~5fa27478|
+; What happened?
+
+
+# ~4b33765f
+; > NA: |#~4b33765f|
+; Francisca steps closer, studying you carefully.
+
+
+# ~66f747cd
+; > PLAYER: |#~66f747cd|
+; I was with Tiradentes.
+
+
+# ~7314cafa
+; > FR: |#~7314cafa|
+; The alferes?
+
+
+# ~614edfbf
+; > PLAYER: |#~614edfbf|
+; We were at the overlook… talking…
+
+
+# ~5defca4d
+; > PLAYER: |#~5defca4d|
+; Then guards showed up.
+
+
+# ~736e194e
+; > NA: |#~736e194e|
+; Her expression changes immediately.
+
+
+# ~74e9ae58
+; > FR: |#~74e9ae58|
+; Guards?
+
+
+# ~6e716633
+; > PLAYER: |#~6e716633|
+; Yes. He told me to leave as quickly as possible.
+
+
+# ~d00ad3d1
+; > NA: |#~d00ad3d1|
+; You glance at the door for a moment.
+
+
+# ~b23682d9
+; > NA: |#~b23682d9|
+; As if expecting him to walk in.
+
+
+# ~6adf13f2
+; > PLAYER: |#~6adf13f2|
+; I do not know what happened after that.
+
+
+# ~b67372d1
+; > NA: |#~b67372d1|
+; Francisca crosses her arms, thoughtful.
+
+
+# ~e3d0b430
+; > NA: |#~e3d0b430|
+; Then her gaze returns to you.
+
+
+# ~a1faec9f
+; > NA: |#~a1faec9f|
+; A slow smile spreads across her face.
+
+
+# ~d3d27748
+; > FR: |#~d3d27748|
+; You were with the lieutenant… alone… at the overlook… this late at night?
+
+
+# ~e74cba2a
+; > NA: |#~e74cba2a|
+; She tilts her head.
+
+
+# ~d47d3d55
+; > FR: |#~d47d3d55|
+; And you are telling me you were merely… talking?
+
+
+# ~a82817f7
+; > NA: |#~a82817f7|
+; You feel your face grow warm.
+
+
+# ~b63d2dd0
+; > PLAYER: |#~b63d2dd0|
+; We just…
+
+
+# ~45d6a221
+; > PLAYER: |#~45d6a221|
+; Had… a moment.
+
+
+# ~3b6324ef
+; > NA: |#~3b6324ef|
+; Francisca breaks into a wide grin.
+
+
+# ~5ee3dbae
+; > FR: |#~5ee3dbae|
+; Oh, so there was a moment.
+
+
+# ~8726a65f
+; > NA: |#~8726a65f|
+; She chuckles softly.
+
+
+# ~8032b06b
+; > FR: |#~8032b06b|
+; Seems the alferes has been quite occupied these nights.
+
+
+# ~51d4758b
+; > PLAYER: |#~51d4758b|
+; Francisca!
+
+
+# ~6ce6b79d
+; > FR: |#~6ce6b79d|
+; All right, all right.
+
+
+# ~c1abc22d
+; > NA: |#~c1abc22d|
+; She raises her hands in mock surrender.
+
+
+# ~be04b235
+; > FR: |#~be04b235|
+; I will not tease you any further.
+
+
+# ~3b511200
+; > NA: |#~3b511200|
+; But the amused smile remains on her face.
+
+
+# ~e1f2037e
+; > FR: |#~e1f2037e|
+; Still… be careful.
+
+
+# ~29a54a4f
+; > FR: |#~29a54a4f|
+; These are dangerous times.
+
+
+# ~899731c8
+; > NA: |#~899731c8|
+; She glances briefly at the door as well.
+
+
+# ~5df11146
+; > FR: |#~5df11146|
+; I hope he knows how to stay hidden.
+
+
+# ~8f3bd3fe
+; > NA: |#~8f3bd3fe|
+; The comment lingers and you cannot help but worry about leaving him behind.
+
+
+# ~e254e9b8
+; > PLAYER: |#~e254e9b8|
+; So do I.
+
+
+# ~4667ed5d
+; > NA: |#~4667ed5d|
+; Francisca sighs.
+
+
+# ~db82a89f
+; > FR: |#~db82a89f|
+; No use standing here worrying yourself sick.
+
+
+# ~1d563c03
+; > NA: |#~1d563c03|
+; You climb the stairs slowly.
+
+
+# ~c20f57df
+; > NA: |#~c20f57df|
+; Each step creaks softly beneath your feet.
+
+
+# ~97b2b12d
+; > NA: |#~97b2b12d|
+; The room is dark when you enter, only faint moonlight filters through the window.
+
+
+# ~5805197a
+; > NA: |#~5805197a|
+; You lie down on the bed.
+
+
+# ~f4ed8365
+; > NA: |#~f4ed8365|
+; The mattress creaks slightly as you shift, but the exhaustion brings no rest.
+
+
+# ~330305eb
+; > NA: |#~330305eb|
+; Your thoughts return to the overlook.
+
+
+# ~1540e97
+; > NA: |#~1540e97|
+; To the star-filled sky and the moment that almost happened.
+
+
+# ~aac12079
+; > NA: |#~aac12079|
+; And then to the guards.
+
+
+# ~4940e626
+; > NA: |#~4940e626|
+; You turn to one side, then the other.
+
+
+# ~79b89ed2
+; > NA: |#~79b89ed2|
+; But sleep does not come.
+
+
+# ~23133344
+; > NA: |#~23133344|
+; Somewhere outside, the night goes on.
+
+
+# ~bae0420c
+; > NA: |#~bae0420c|
+; And you cannot stop wondering where Tiradentes is now.
+
+
+# ~173200ff
+; > NA: |#~173200ff|
+; Your vision blurs and everything goes dark.
+
+
+# ~a4295c91
+; > NA: |#~a4295c91|
+; First comes the sound: slow, heavy bells.
+
+
+# ~f005e044
+; > NA: |#~f005e044|
+; Then voices, many voices.
+
+
+# ~ec8fbdbd
+; > NA: |#~ec8fbdbd|
+; But none of them are whole.
+
+
+# ~710cdf3a
+; > NA: |#~710cdf3a|
+; Like distant echoes.
+
+
+# ~71e399a3
+; > NA: |#~71e399a3|
+; You see the square of Vila Rica.
+
+
+# ~b1b13bdd
+; > NA: |#~b1b13bdd|
+; But something is wrong, the people are blurred.
+
+
+# ~a348c9e4
+; > NA: |#~a348c9e4|
+; Like shadows.
+
+
+# ~a5c06836
+; > NA: |#~a5c06836|
+; Guards push through the crowd.
+
+
+# ~55ff5bb8
+; > NA: |#~55ff5bb8|
+; Chains rattle.
+
+
+# ~6a89d12a
+; > NA: |#~6a89d12a|
+; A man is being led away and you try to see his face.
+
+
+# ~54a3234c
+; > NA: |#~54a3234c|
+; For a moment, he has no face.
+
+
+# ~634df16c
+; > NA: |#~634df16c|
+; His hands are bound.
+
+
+# ~5c6ebda2
+; > NA: |#~5c6ebda2|
+; The crowd watches.
+
+
+# ~6ebb0994
+; > NA: |#~6ebb0994|
+; But no one steps forward.
+
+
+# ~e2d83519
+; > NA: |#~e2d83519|
+; Figures appear at the edge of the dream.
+
+
+# ~fd0d773b
+; > NA: |#~fd0d773b|
+; Familiar faces.
+
+
+# ~7a6db132
+; > NA: |#~7a6db132|
+; Distant.
+
+
+# ~14a780ad
+; > NA: |#~14a780ad|
+; As if being taken away.
+
+
+# ~f56bc12
+; > NA: |#~f56bc12|
+; Ships. The sea. Land fading into the horizon.
+
+
+# ~3d428781
+; > NA: |#~3d428781|
+; And then only one remains.
+
+
+# ~34a62839
+; > NA: |#~34a62839|
+; A long-haired man. Alone.
+
+
+# ~5ca9b375
+; > NA: |#~5ca9b375|
+; The square shifts. The sky darkens.
+
+
+# ~e462fbbc
+; > NA: |#~e462fbbc|
+; The gallows stand there now, where once there was only stone.
+
+
+# ~ee0ae4b5
+; > NA: |#~ee0ae4b5|
+; Rope. Wood. Wind.
+
+
+# ~ced96282
+; > PLAYER: |#~ced96282|
+; (No…)
+
+
+# ~ce8ca0a7
+; > NA: |#~ce8ca0a7|
+; The man looks toward the crowd.
+
+
+# ~94c6dd7a
+; > NA: |#~94c6dd7a|
+; For a moment…
+
+
+# ~e2da783b
+; > NA: |#~e2da783b|
+; It feels like he is looking directly at you.
+
+
+# ~84e8160f
+; > NA: |#~84e8160f|
+; As if he knows you are there.
+
+
+# ~5fecd42a
+; > NA: |#~5fecd42a|
+; As if he is asking something of you.
+
+
+# ~5320dbfc
+; > NA: |#~5320dbfc|
+; The bells ring again.
+
+
+# ~a73b30b4
+; > NA: |#~a73b30b4|
+; Louder.
+
+
+# ~c3bf4bc9
+; > NA: |#~c3bf4bc9|
+; Heavier.
+
+
+# ~89b187ed
+; > NA: |#~89b187ed|
+; And then.
+
+
+# ~e48d5ef0
+; > NA: |#~e48d5ef0|
+; A flash of white.
+
+
+# ~68958692
+; > NA: |#~68958692|
+; You wake drenched in sweat, your heart racing.
+
+
+# ~96380b94
+; > NA: |#~96380b94|
+; Your chest rises and falls unevenly as you gasp for air.
+
+
+# ~30916d63
+; > NA: |#~30916d63|
+; Your pupils are wide and a sharp ache pulses in your chest.
+
+
+# ~76bbe45
+; > PLAYER: |#~76bbe45|
+; What?!
+
+
+# ~1f7d375e
+; > PLAYER: |#~1f7d375e|
+; That was not a dream…
+
+
+# ~b8108ca0
+; > PLAYER: |#~b8108ca0|
+; It was a warning…
+
+
+# ~b8071597
+; > PLAYER: |#~b8071597|
+; What truly happened… I remember now…
+
+
+# ~93d68e81
+; > NA: |#~93d68e81|
+; A loud noise from the street snaps your attention.
+
+
+# ~3c90df66
+; > NA: |#~3c90df66|
+; Voices, many voices and doors slamming.
+
+
+# ~812c5988
+; > NA: |#~812c5988|
+; You rush to the window and see: people running, guards many of them.
+
+
+# ~6d76a687
+; > NA: |#~6d76a687|
+; They enter homes, come out carrying papers, chests, belongings.
+
+
+# ~3d73096c
+; > NA: |#~3d73096c|
+; A woman cries in a doorway. A man argues with two soldiers.
+
+
+# ~5a36726c
+; > NA: |#~5a36726c|
+; In another street, someone throws papers into a fire in haste.
+
+
+# ~52bddb38
+; > NA: |#~52bddb38|
+; Documents burn too quickly.
+
+
+# ~52837dc8
+; > NA: |#~52837dc8|
+; The smell of smoke rises into the morning air.
+
+
+# ~ce235433
+; > PLAYER: |#~ce235433|
+; (It has begun.)
+
+
+# ~3894db25
+; > NA: |#~3894db25|
+; One name crosses your mind before any other.
+
+
+# ~c486db70
+; > PLAYER: |#~c486db70|
+; (Tiradentes.)
+
+
+# ~b80f7484
+; > NA: |#~b80f7484|
+; You do not think, only splash water on your face, throw on your clothes, and rush out.
+
+
+# ~69fe4437
+; > NA: |#~69fe4437|
+; Outside the inn, you are not sure where to go so you follow the noise, the crowd.
+
+
+# ~3f177ea
+; > NA: |#~3f177ea|
+; The town square is crowded.
+
+
+# ~51dfa88d
+; > NA: |#~51dfa88d|
+; People whisper. Some avoid looking at the guards.
+
+
+# ~8772e52c
+; > NA: |#~8772e52c|
+; Others simply flee.
+
+
+# ~b32e97f
+; > NA: |#~b32e97f|
+; And then you bump into someone.
+
+
+# ~82774c3f
+; > TI: |#~82774c3f|
+; Careful!
+
+
+# ~6efd5382
+; > NA: |#~6efd5382|
+; You recognize the voice before you even look up.
+
+
+# ~2129de1
+; > NA: |#~2129de1|
+; He looks just as surprised as you.
+
+
+# ~ce2f2154
+; > TI: |#~ce2f2154|
+; I was just...
+
+
+# ~227816dc
+; > NA: |#~227816dc|
+; He cuts himself off.
+
+
+# ~89763a0c
+; > TI: |#~89763a0c|
+; I was worried about you.
+
+
+# ~43bf054c
+; > PLAYER: |#~43bf054c|
+; I was worried about you too. What happened yesterday? Are you all right?
+
+
+# ~791834e7
+; > NA: |#~791834e7|
+; For a moment, the chaos of the square fades.
+
+
+# ~d776997e
+; > NA: |#~d776997e|
+; Only the two of you remain.
+
+
+# ~c5808480
+; > NA: |#~c5808480|
+; But the noise quickly returns.
+
+
+# ~e67d252d
+; > TI: |#~e67d252d|
+; We need to leave…
+
+
+# ~7de7f1be
+; > NA: |#~7de7f1be|
+; He scans the surroundings carefully.
+
+
+# ~fe4d1fd8
+; > TI: |#~fe4d1fd8|
+; My house.
+
+
+# ~d7101bd4
+; > TI: |#~d7101bd4|
+; I need to see what remains.
+
+
+# ~ae4cbe67
+; > PLAYER: |#~ae4cbe67|
+; I am coming with you.
+
+
+# ~4fc38a1f
+; > PLAYER: |#~4fc38a1f|
+; No…
+
+
+# ~40ec72d2
+; > NA: |#~40ec72d2|
+; His eyes meet yours and he sees both fear and resolve.
+
+
+# ~4a23e0da
+; > NA: |#~4a23e0da|
+; He understands that nothing he says will change your mind.
+
+
+# ~e3d1b18d
+; > TI: |#~e3d1b18d|
+; …Very well.
+
+
+# ~751da172
+; > NA: |#~751da172|
+; You both hurry across the square.
+
+
+# ~1f699ebb
+; > NA: |#~1f699ebb|
+; And soon, you find the road leading out toward the countryside.
+
+
+# ~8ec9888f
+; > NA: |#~8ec9888f|
+; It feels quieter than the rest of the town and you find yourself wondering if anything truly happened here at all.
+
+
+# ~18cb58c9
+; > NA: |#~18cb58c9|
+; You do not know how long you have been walking, but soon you reach Tiradentes’ house.
+
+
+# ~1f2e70a7
+; > NA: |#~1f2e70a7|
+; Nothing seems out of place on the outside except for one detail that immediately draws your attention.
+
+
+# ~7017ee34
+; > NA: |#~7017ee34|
+; The door is open.
+
+
+# ~8a3fd942
+; > NA: |#~8a3fd942|
+; Not just ajar, left wide open.
+
+
+# ~61f6a220
+; > NA: |#~61f6a220|
+; Tiradentes steps inside first and stops in the middle of the room.
+
+
+# ~5ad3dfd1
+; > NA: |#~5ad3dfd1|
+; The place is wrecked.
+
+
+# ~8b409187
+; > NA: |#~8b409187|
+; Broken furniture, drawers pulled open, papers scattered across the floor.
+
+
+# ~cbfe0e2f
+; > NA: |#~cbfe0e2f|
+; Some torn. Others simply gone.
+
+
+# ~f834e6c0
+; > NA: |#~f834e6c0|
+; Maps trampled underfoot. Chairs overturned.
+
+
+# ~ea7bd4f1
+; > NA: |#~ea7bd4f1|
+; The silence feels heavier than the noise of the square.
+
+
+# ~f73bdd09
+; > NA: |#~f73bdd09|
+; Tiradentes takes a few slow steps.
+
+
+# ~706ae4e8
+; > NA: |#~706ae4e8|
+; As if each one costs him something.
+
+
+# ~b0635a55
+; > NA: |#~b0635a55|
+; He picks up a torn sheet of paper from the floor.
+
+
+# ~1e5035cd
+; > NA: |#~1e5035cd|
+; Looks at it.
+
+
+# ~a7ca803a
+; > NA: |#~a7ca803a|
+; His hands tremble slightly.
+
+
+# ~c4925795
+; > NA: |#~c4925795|
+; And then, he understands.
+
+
+# ~b3352b75
+; > NA: |#~b3352b75|
+; The paper slips from his fingers.
+
+
+# ~3de152b8
+; > NA: |#~3de152b8|
+; Tiradentes drops to his knees, the sound echoing through the room.
+
+
+# ~18f73cfd
+; > NA: |#~18f73cfd|
+; There is a faint shine in his eyes.
+
+
+# ~a6527cbe
+; > NA: |#~a6527cbe|
+; His voice comes out almost as a whisper.
+
+
+# ~e1e81b4f
+; > TI: |#~e1e81b4f|
+; We have been betrayed.
+
+
+# ~39c83614
+; > NA: |#~39c83614|
+; He closes his eyes for a moment.
+
+
+# ~1ca36fa9
+; > NA: |#~1ca36fa9|
+; As if trying to accept something impossible.
+
+
+# ~95e0afc1
+; > @choice "|#~95e0afc1|" goto:.scene7T-1
+; Support him and embrace him
+
+
+# ~db51924e
+; > @choice "|#~db51924e|" goto:.scene7T-2
+; Argue with him
+
+
+# ~28f2dc66
+; > NA: |#~28f2dc66|
+; You say nothing. You simply step closer.
+
+
+# ~59d32096
+; > NA: |#~59d32096|
+; And kneel beside him.
+
+
+# ~aed4e644
+; > NA: |#~aed4e644|
+; Your arms wrap around him before you can think twice.
+
+
+# ~f9438a6e
+; > NA: |#~f9438a6e|
+; Tiradentes goes still for a second.
+
+
+# ~2579721d
+; > NA: |#~2579721d|
+; As if he did not expect it.
+
+
+# ~e33852ee
+; > NA: |#~e33852ee|
+; Then he takes a deep breath.
+
+
+# ~2c660d6f
+; > NA: |#~2c660d6f|
+; And leans into the embrace, his arms tightening around you as his hands find yours.
+
+
+# ~6de75d41
+; > NA: |#~6de75d41|
+; You feel his breath against you uneven, heavy.
+
+
+# ~b2346d3f
+; > NA: |#~b2346d3f|
+; For a moment, you think he might be crying.
+
+
+# ~726a0129
+; > NA: |#~726a0129|
+; But instead, he simply holds onto your warmth.
+
+
+# ~53aec7d
+; > NA: |#~53aec7d|
+; His voice is low.
+
+
+# ~2e057bd0
+; > NA: |#~2e057bd0|
+; He runs a hand over his tired face.
+
+
+# ~51fa2eae
+; > TI: |#~51fa2eae|
+; For not leaving me alone now.
+
+
+# ~b067170d
+; > NA: |#~b067170d|
+; He looks at you.
+
+
+# ~3adf358
+; > NA: |#~3adf358|
+; There is exhaustion and fear.
+
+
+# ~9d5b111
+; > TI: |#~9d5b111|
+; I always knew it was dangerous.
+
+
+# ~a46c3515
+; > TI: |#~a46c3515|
+; And yet…
+
+
+# ~4ac78443
+; > TI: |#~4ac78443|
+; It helps to know someone stayed.
+
+
+# ~2f1f6688
+; > PLAYER: |#~2f1f6688|
+; I will not leave you alone, Tiradentes.
+
+
+# ~1eca97d7
+; > NA: |#~1eca97d7|
+; You cannot hold yourself back you start pacing.
+
+
+# ~efa748bf
+; > PLAYER: |#~efa748bf|
+; Everyone warned you.
+
+
+# ~81f23c67
+; > NA: |#~81f23c67|
+; The words slip out before you can stop them.
+
+
+# ~1b93a9d1
+; > PLAYER: |#~1b93a9d1|
+; Joaquim warned you. Others did too.
+
+
+# ~1929fcba
+; > PLAYER: |#~1929fcba|
+; It was dangerous.
+
+
+# ~d76f153b
+; > NA: |#~d76f153b|
+; Tiradentes slowly lifts his gaze.
+
+
+# ~c2f4eadd
+; > NA: |#~c2f4eadd|
+; You can see he is trying to hold back tears, but the shine in his eyes betrays him.
+
+
+# ~f37468e4
+; > NA: |#~f37468e4|
+; There is exhaustion there and something deeper.
+
+
+# ~73ac6000
+; > NA: |#~73ac6000|
+; When he speaks, his voice falters.
+
+
+# ~73dda5c
+; > NA: |#~73dda5c|
+; The answer comes firmer than you expected.
+
+
+# ~4e1cd5a0
+; > TI: |#~4e1cd5a0|
+; I always knew.
+
+
+# ~3ed434a5
+; > NA: |#~3ed434a5|
+; He rises slowly,like he is carrying the weight of the world on his shoulders.
+
+
+# ~b58ef909
+; > TI: |#~b58ef909|
+; But hearing it now…
+
+
+# ~6dadec80
+; > TI: |#~6dadec80|
+; Does not help much.
+
+
+# ~d094b77c
+; > NA: |#~d094b77c|
+; He runs a hand over his face, trying to steady himself.
+
+
+# ~bd1c1901
+; > TI: |#~bd1c1901|
+; Still…
+
+
+# ~54245661
+; > NA: |#~54245661|
+; He exhales.
+
+
+# ~19752577
+; > TI: |#~19752577|
+; Thank you for coming.
+
+
+# ~d37b9e66
+; > NA: |#~d37b9e66|
+; But the distance between you now feels a little wider.
+
+
+# ~94127d2
+; > NA: |#~94127d2|
+; The silence inside the house lasts only a few seconds.
+
+
+# ~a647b0a5
+; > NA: |#~a647b0a5|
+; Then a noise echoes from outside.
+
+
+# ~9b5a6ffb
+; > NA: |#~9b5a6ffb|
+; Many footsteps. Raised voices.
+
+
+# ~296e5192
+; > NA: |#~296e5192|
+; Soldiers.
+
+
+# ~e0afef52
+; > NA: |#~e0afef52|
+; Tiradentes lifts his head immediately.
+
+
+# ~50e32032
+; > NA: |#~50e32032|
+; He moves slowly.
+
+
+# ~dd0a1e32
+; > NA: |#~dd0a1e32|
+; His gaze shifts to the broken doorway.
+
+
+# ~46644675
+; > VOICE: |#~46644675|
+; Search everything!
+
+
+# ~ad2067fb
+; > VOICE: |#~ad2067fb|
+; He cannot be far!
+
+
+# ~a67c9de2
+; > NA: |#~a67c9de2|
+; The sound of boots approaches along the street.
+
+
+# ~67cc9e97
+; > NA: |#~67cc9e97|
+; Then another voice calm and cruel.
+
+
+# ~69e5a1f4
+; > VOICE: |#~69e5a1f4|
+; So this is where the great lieutenant chose to play at revolution?
+
+
+# ~2b47e791
+; > NA: |#~2b47e791|
+; Tiradentes goes still.
+
+
+# ~6912d28a
+; > NA: |#~6912d28a|
+; You recognize the name before it is even spoken.
+
+
+# ~184a95be
+; > NA: |#~184a95be|
+; The Viscount of Barbacena.
+
+
+# ~2c75b40
+; > VI: |#~2c75b40|
+; See how far your ideas have gone, alferes.
+
+
+# ~ac8a4653
+; > VI: |#~ac8a4653|
+; So far… and yet so useless.
+
+
+# ~82318e2e
+; > NA: |#~82318e2e|
+; A low chuckle.
+
+
+# ~9d726e2b
+; > VI: |#~9d726e2b|
+; The Crown does reward betrayal.
+
+
+# ~adcb8d3
+; > VI: |#~adcb8d3|
+; In your case… with a rope.
+
+
+# ~18294ad1
+; > NA: |#~18294ad1|
+; The metallic sound of swords.
+
+
+# ~9fba6e32
+; > SOLDIER: |#~9fba6e32|
+; Search the house!
+
+
+# ~b518e956
+; > NA: |#~b518e956|
+; Tiradentes looks at you.
+
+
+# ~f0703cf3
+; > NA: |#~f0703cf3|
+; For the first time since you arrived, he looks truly afraid.
+
+
+# ~ec1e34cf
+; > TI: |#~ec1e34cf|
+; Listen to me.
+
+
+# ~b36674fc
+; > NA: |#~b36674fc|
+; He grabs your hand tightly, gripping your wrist.
+
+
+# ~4fc0e70f
+; > TI: |#~4fc0e70f|
+; If they find you here with me…
+
+
+# ~e1a8ff21
+; > TI: |#~e1a8ff21|
+; They will think you are part of this. And they will show no mercy.
+
+
+# ~ef14ac66
+; > PLAYER: |#~ef14ac66|
+; But I am part of this.
+
+
+# ~7b33944b
+; > PLAYER: |#~7b33944b|
+; No!
+
+
+# ~81d47e40
+; > NA: |#~81d47e40|
+; His voice is firm.
+
+
+# ~aa9ec724
+; > TI: |#~aa9ec724|
+; Come with me. Now.
+
+
+# ~3f791477
+; > NA: |#~3f791477|
+; He pulls you by the hand.
+
+
+# ~3ce41278
+; > NA: |#~3ce41278|
+; Not toward the front door, but to the back of the house.
+
+
+# ~16030bed
+; > NA: |#~16030bed|
+; You cross the ruined kitchen.
+
+
+# ~d99a8b8
+; > NA: |#~d99a8b8|
+; An open cupboard. Broken cups. Pots scattered across the floor.
+
+
+# ~d7961e08
+; > NA: |#~d7961e08|
+; Tiradentes pushes open a small door.
+
+
+# ~6fe47f4a
+; > NA: |#~6fe47f4a|
+; A narrow passage reveals itself behind the house.
+
+
+# ~9e534fbd
+; > NA: |#~9e534fbd|
+; The vegetation is dense.
+
+
+# ~7be2f506
+; > NA: |#~7be2f506|
+; A nearly hidden path.
+
+
+# ~449654a0
+; > TI: |#~449654a0|
+; This way.
+
+
+# ~f49e0a26
+; > NA: |#~f49e0a26|
+; You step onto the trail.
+
+
+# ~c62aabb2
+; > NA: |#~c62aabb2|
+; Behind you the soldiers enter the house.
+
+
+# ~e9f78ab6
+; > SOLDIER: |#~e9f78ab6|
+; Here!
+
+
+# ~698c0c01
+; > GUARD: |#~698c0c01|
+; Check the back!
+
+
+# ~d07dd644
+; > NA: |#~d07dd644|
+; You feel your heartbeat in your throat.
+
+
+# ~f9c3dc48
+; > NA: |#~f9c3dc48|
+; Tiradentes does not let go of your hand.
+
+
+# ~53eaa075
+; > NA: |#~53eaa075|
+; You move down the trail in silence.
+
+
+# ~d534e250
+; > GUARD: |#~d534e250|
+; I heard something!
+
+
+# ~ed869fee
+; > NA: |#~ed869fee|
+; You both freeze.
+
+
+# ~be49d900
+; > NA: |#~be49d900|
+; Two soldiers appear among the trees above the path.
+
+
+# ~d4315c84
+; > NA: |#~d4315c84|
+; They are very close.
+
+
+# ~fd718a47
+; > NA: |#~fd718a47|
+; Tiradentes tightens his grip on your hand.
+
+
+# ~e52ba09b
+; > NA: |#~e52ba09b|
+; He whispers:
+
+
+# ~da9745f
+; > TI: |#~da9745f|
+; We must decide.
+
+
+# ~929a2596
+; > NA: |#~929a2596|
+; The soldiers are getting closer.
+
+
+# ~94842b85
+; > NA: |#~94842b85|
+; Voices echo through the woods.
+
+
+# ~e45ff39f
+; > GUARD: |#~e45ff39f|
+; They came through here!
+
+
+# ~1fdb4479
+; > NA: |#~1fdb4479|
+; Tiradentes looks ahead along the trail.
+
+
+# ~a50c6353
+; > NA: |#~a50c6353|
+; Then back toward the village.
+
+
+# ~cecfcfae
+; > NA: |#~cecfcfae|
+; His expression hardens.
+
+
+# ~45a45f17
+; > TI: |#~45a45f17|
+; Perhaps this is for the best.
+
+
+# ~71b34ac0
+; > PLAYER: |#~71b34ac0|
+; What?
+
+
+# ~d3f19209
+; > TI: |#~d3f19209|
+; If I surrender…
+
+
+# ~e4fd8bff
+; > TI: |#~e4fd8bff|
+; The others may have time to escape.
+
+
+# ~f6183efc
+; > NA: |#~f6183efc|
+; Your heart sinks.
+
+
+# ~847cdd8d
+; > TI: |#~847cdd8d|
+; It is the prudent course.
+
+
+# ~b5ca2670
+; > NA: |#~b5ca2670|
+; You grab his arm harder than you meant to.
+
+
+# ~61546644
+; > PLAYER: |#~61546644|
+; I will not let you do this.
+
+
+# ~f06c46d7
+; > TI: |#~f06c46d7|
+; This is not about choice.
+
+
+# ~28b018ef
+; > PLAYER: |#~28b018ef|
+; It is!
+
+
+# ~ac39c1e8
+; > NA: |#~ac39c1e8|
+; Your voice trembles.
+
+
+# ~fa9cd814
+; > PLAYER: |#~fa9cd814|
+; You speak of justice… of freedom…
+
+
+# ~924acb81
+; > PLAYER: |#~924acb81|
+; But what about you?
+
+
+# ~20fdedf8
+; > PLAYER: |#~20fdedf8|
+; Are you just going to surrender and die?
+
+
+# ~fe049c89
+; > NA: |#~fe049c89|
+; Tiradentes meets your gaze.
+
+
+# ~c4065873
+; > NA: |#~c4065873|
+; There is pain in his eyes.
+
+
+# ~2f15b775
+; > TI: |#~2f15b775|
+; If it is necessary.
+
+
+# ~9fdc3f9
+; > PLAYER: |#~9fdc3f9|
+; And me?
+
+
+# ~5ce122d6
+; > NA: |#~5ce122d6|
+; The question slips out before you can stop it.
+
+
+# ~e2f0adc6
+; > PLAYER: |#~e2f0adc6|
+; What happens to me?
+
+
+# ~9c2ee547
+; > PLAYER: |#~9c2ee547|
+; Because I do not want to watch you die.
+
+
+# ~9e3fc74c
+; > NA: |#~9e3fc74c|
+; Your voice falters. Tears begin to fall.
+
+
+# ~8c75856a
+; > PLAYER: |#~8c75856a|
+; I do not want to lose you.
+
+
+# ~1f0cb629
+; > NA: |#~1f0cb629|
+; Silence settles heavily between you.
+
+
+# ~1064df
+; > PLAYER: |#~1064df|
+; I like you.
+
+
+# ~ebb2c41d
+; > NA: |#~ebb2c41d|
+; The words finally come.
+
+
+# ~29976ff3
+; > PLAYER: |#~29976ff3|
+; Perhaps more than I should.
+
+
+# ~ecd10106
+; > PLAYER: |#~ecd10106|
+; And if there is any chance… even a small one…
+
+
+# ~c44ce91f
+; > PLAYER: |#~c44ce91f|
+; I want a simple life with you.
+
+
+# ~81f35211
+; > PLAYER: |#~81f35211|
+; Far from all of this.
+
+
+# ~4e4ae30a
+; > NA: |#~4e4ae30a|
+; As if the words take a moment to reach him.
+
+
+# ~81ef5e65
+; > NA: |#~81ef5e65|
+; His expression softens, something shifts.
+
+
+# ~3c44c100
+; > TI: |#~3c44c100|
+; I have spent my life fighting for a future I may never see.
+
+
+# ~28d0e2d0
+; > TI: |#~28d0e2d0|
+; And now someone asks me to live for it.
+
+
+# ~c4d3cd09
+; > NA: |#~c4d3cd09|
+; He exhales softly.
+
+
+# ~5312b6e
+; > TI: |#~5312b6e|
+; Damn it…
+
+
+# ~1631778c
+; > NA: |#~1631778c|
+; A tired smile appears on his face.
+
+
+# ~ee077c73
+; > TI: |#~ee077c73|
+; I did not expect it would be you to defeat me.
+
+
+# ~22fc95ee
+; > NA: |#~22fc95ee|
+; His hand gently touches your face.
+
+
+# ~7965f4af
+; > TI: |#~7965f4af|
+; I feel something for you as well.
+
+
+# ~e0500258
+; > NA: |#~e0500258|
+; He glances at the trail.
+
+
+# ~41ab9719
+; > NA: |#~41ab9719|
+; Then back at you.
+
+
+# ~71a38cde
+; > TI: |#~71a38cde|
+; Perhaps…
+
+
+# ~5062d730
+; > TI: |#~5062d730|
+; Perhaps there is still time for a simple life.
+
+
+# ~8795011
+; > NA: |#~8795011|
+; He takes your hand again.
+
+
+# ~f095bd4a
+; > TI: |#~f095bd4a|
+; Before I change my mind.
+
+
+# ~9dc09765
+; > NA: |#~9dc09765|
+; And this time, you both run.
+
+
+# ~fa6ebd28
+; > NA: |#~fa6ebd28|
+; Not from the fight… but toward survival.
+
+
+# ~f58eb244
+; > NA: |#~f58eb244|
+; The forest seems endless. Branches tear at your clothes.
+
+
+# ~b3d7be13
+; > NA: |#~b3d7be13|
+; Loose stones make every step uncertain, but you do not stop.
+
+
+# ~d0dc5e6e
+; > NA: |#~d0dc5e6e|
+; Tiradentes runs beside you.
+
+
+# ~4d593ba2
+; > NA: |#~4d593ba2|
+; At times he moves ahead, other times pulling your hand so you do not stumble.
+
+
+# ~497217b3
+; > NA: |#~497217b3|
+; Behind you, the sounds of the village slowly fade.
+
+
+# ~663d2477
+; > NA: |#~663d2477|
+; First the voices. Then the horses. Then the bells.
+
+
+# ~2ebf99a0
+; > NA: |#~2ebf99a0|
+; Until only the wind through the trees remains.
+
+
+# ~154229b9
+; > NA: |#~154229b9|
+; After a while, you feel the sea breeze against your skin, the scent of salt in the air.
+
+
+# ~f0a5e4e
+; > NA: |#~f0a5e4e|
+; A small harbor emerges through the morning mist.
+
+
+# ~e81a487f
+; > NA: |#~e81a487f|
+; A few ships sway gently on the dark waters.
+
+
+# ~ed459956
+; > NA: |#~ed459956|
+; A captain watches as the two of you approach.
+
+
+# ~344751c5
+; > NA: |#~344751c5|
+; He studies the situation in silence.
+
+
+# ~c8621b06
+; > CAPTAIN: |#~c8621b06|
+; You are running.
+
+
+# ~e0ff7840
+; > NA: |#~e0ff7840|
+; It is not a question.
+
+
+# ~c345320e
+; > NA: |#~c345320e|
+; Tiradentes takes a deep breath.
+
+
+# ~3fbcbbc1
+; > NA: |#~3fbcbbc1|
+; The captain glances toward the distant village.
+
+
+# ~fbf8ebc5
+; > NA: |#~fbf8ebc5|
+; Then back at both of you.
+
+
+# ~1683bd18
+; > CAPTAIN: |#~1683bd18|
+; Then get aboard.
+
+
+# ~18411e5d
+; > CAPTAIN: |#~18411e5d|
+; Before someone comes asking questions.
+
+
+# ~e79effb5
+; > NA: |#~e79effb5|
+; The wood creaks beneath your feet as you step onto the deck.
+
+
+# ~a5949ea1
+; > NA: |#~a5949ea1|
+; Ropes are pulled. Sails unfurl.
+
+
+# ~249785f9
+; > NA: |#~249785f9|
+; The ship begins to move. Slowly.
+
+
+# ~33e77d0d
+; > NA: |#~33e77d0d|
+; Vila Rica grows smaller behind you.
+
+
+# ~6092b21a
+; > NA: |#~6092b21a|
+; A lifetime left behind.
+
+
+# ~76acf5ae
+; > NA: |#~76acf5ae|
+; The sea wind turns colder.
+
+
+# ~663b5b0a
+; > NA: |#~663b5b0a|
+; You lean against the railing, watching the coastline fade.
+
+
+# ~7b18edf8
+; > NA: |#~7b18edf8|
+; For a moment, everything feels too quiet.
+
+
+# ~354c2e9b
+; > NA: |#~354c2e9b|
+; Then you feel someone step closer.
+
+
+# ~6909d319
+; > NA: |#~6909d319|
+; Tiradentes stops just behind you.
+
+
+# ~b4a67f79
+; > NA: |#~b4a67f79|
+; Close enough for you to feel the warmth of him… and the faint scent of herbs.
+
+
+# ~cebda726
+; > NA: |#~cebda726|
+; His breath brushes against your neck.
+
+
+# ~55e2f881
+; > NA: |#~55e2f881|
+; For a moment, he says nothing.
+
+
+# ~a1359b54
+; > NA: |#~a1359b54|
+; As if he too is watching the past disappear.
+
+
+# ~3b38ba17
+; > TI: |#~3b38ba17|
+; I never thought…
+
+
+# ~66b8708a
+; > TI: |#~66b8708a|
+; …I would leave that land like this.
+
+
+# ~12922bf3
+; > NA: |#~12922bf3|
+; But not regretful.
+
+
+# ~282692be
+; > NA: |#~282692be|
+; His arm slowly wraps around you, his hand resting at your waist strong, yet careful.
+
+
+# ~af1b6bf4
+; > NA: |#~af1b6bf4|
+; As if still testing whether he is allowed.
+
+
+# ~dd1d3bda
+; > NA: |#~dd1d3bda|
+; The wind moves through your hair as the ship advances.
+
+
+# ~35441344
+; > NA: |#~35441344|
+; He remains close behind you.
+
+
+# ~1f2dc179
+; > NA: |#~1f2dc179|
+; Your back pressed lightly against his chest, you can feel the steady firmness of him.
+
+
+# ~eeacfcb6
+; > NA: |#~eeacfcb6|
+; His hand rises slowly, fingers brushing your face.
+
+
+# ~1b4e9cda
+; > NA: |#~1b4e9cda|
+; Almost reverent.
+
+
+# ~b4b71601
+; > NA: |#~b4b71601|
+; As though he still cannot quite believe you are there with him.
+
+
+# ~9f89a495
+; > @char TI.neutral look:left pos:{mid}
+; > TI: |#~9f89a495|
+; It seems you truly stole me from the gallows.
+
+
+# ~bc2c1026
+; > NA: |#~bc2c1026|
+; You lean into his touch, savoring the warmth, the closeness between you.
+
+
+# ~b6207b07
+; > NA: |#~b6207b07|
+; His gaze drifts to your lips.
+
+
+# ~a169180
+; > NA: |#~a169180|
+; Then he leans in slowly, without hesitation this time.
+
+
+# ~989e1a33
+; > NA: |#~989e1a33|
+; His hand still cradles your face as he draws you closer.
+
+
+# ~dc02030a
+; > NA: |#~dc02030a|
+; Your lips brush against his.
+
+
+# ~bb68dab5
+; > NA: |#~bb68dab5|
+; The kiss begins soft, lingering, almost shy.
+
+
+# ~4a477d24
+; > NA: |#~4a477d24|
+; Then it deepens warm, unhurried.
+
+
+# ~1e8a3048
+; > NA: |#~1e8a3048|
+; He holds you closer, as though savoring the moment rather than rushing it.
+
+
+# ~c38f5b36
+; > NA: |#~c38f5b36|
+; There is something grounding in it.
+
+
+# ~3cb32af
+; > NA: |#~3cb32af|
+; The salt of the sea. The warmth of breath shared between you.
+
+
+# ~c5fe3864
+; > NA: |#~c5fe3864|
+; And everything that went unsaid for so long, finally finding its place.
+
+
+# ~575888c
+; > NA: |#~575888c|
+; His hand tightens slightly at your waist, pulling you closer.
+
+
+# ~202065d2
+; > NA: |#~202065d2|
+; The world seems to narrow, just the two of you, and the open sea ahead.
+
+
+# ~f0f62cf1
+; > NA: |#~f0f62cf1|
+; When he finally pulls away, his gaze lingers on yours.
+
+
+# ~1b33b5b6
+; > NA: |#~1b33b5b6|
+; His lips parted slightly, breath still uneven.
+
+
+# ~40cfc9a0
+; > NA: |#~40cfc9a0|
+; A crooked smile forms.
+
+
+# ~db5ab5f2
+; > TI: |#~db5ab5f2|
+; Perhaps that simple life still exists.
+
+
+# ~f4f13809
+; > NA: |#~f4f13809|
+; You smile genuine, unguarded.
+
+
+# ~99928b86
+; > PLAYER: |#~99928b86|
+; It is all I could ever want.
+
+
+# ~8a56085d
+; > NA: |#~8a56085d|
+; The ship sails onward.
+
+
+# ~991b2724
+; > NA: |#~991b2724|
+; You rest your head against his chest as he holds you from behind.
+
+
+# ~a2c0252d
+; > NA: |#~a2c0252d|
+; Together, you watch the horizon.
+
+
+# ~8dcc62c5
+; > NA: |#~8dcc62c5|
+; Carried toward a place where no one knows your names.
+
+
+# ~1ace887b
+; > NA: |#~1ace887b|
+; Where there are no chains.
+
+
+# ~c6e8bc65
+; > NA: |#~c6e8bc65|
+; No gallows.
+
+
+# ~e4cd1aab
+; > NA: |#~e4cd1aab|
+; Only the future.
+
+
+# ~322ff484
+; > NA: |#~322ff484|
+; Branches snap in the undergrowth.
+
+
+# ~86890158
+; > GUARD: |#~86890158|
+; Search the trail!
+
+
+# ~1c19ddcb
+; > NA: |#~1c19ddcb|
+; Tiradentes looks ahead, then back at you.
+
+
+# ~83553abb
+; > NA: |#~83553abb|
+; Something heavy passes through his gaze.
+
+
+# ~602832fd
+; > PLAYER: |#~602832fd|
+; If they find you…
+
+
+# ~efc44bf8
+; > PLAYER: |#~efc44bf8|
+; They will not stop with you.
+
+
+# ~508c5d9f
+; > PLAYER: |#~508c5d9f|
+; They will go after everyone.
+
+
+# ~db99125f
+; > NA: |#~db99125f|
+; Tiradentes says nothing.
+
+
+# ~49b4f326
+; > PLAYER: |#~49b4f326|
+; Maybe…
+
+
+# ~843ce0fb
+; > PLAYER: |#~843ce0fb|
+; Maybe if you surrender…
+
+
+# ~952e0da5
+; > TI: |#~952e0da5|
+; Then at least the others may have a chance.
+
+
+# ~1bf967b8
+; > PLAYER: |#~1bf967b8|
+; That is not what I meant…maybe they will spare you, or...
+
+
+# ~835e9148
+; > NA: |#~835e9148|
+; The wind passes through the trees.
+
+
+# ~5c31a6e8
+; > NA: |#~5c31a6e8|
+; He closes his eyes briefly.
+
+
+# ~6dbeabdd
+; > NA: |#~6dbeabdd|
+; When he opens them again, the decision is made.
+
+
+# ~e6edd962
+; > TI: |#~e6edd962|
+; I always knew this could happen.
+
+
+# ~34b24460
+; > NA: |#~34b24460|
+; His voice is strangely calm.
+
+
+# ~9045d2f2
+; > TI: |#~9045d2f2|
+; But I will not let them take you with me.
+
+
+# ~e2f4ec6b
+; > NA: |#~e2f4ec6b|
+; He grips your shoulders.
+
+
+# ~7aa0e4c1
+; > NA: |#~7aa0e4c1|
+; He pulls you off the trail into dense brush and damp earth.
+
+
+# ~df77624b
+; > TI: |#~df77624b|
+; Please.
+
+
+# ~e1af5aa5
+; > NA: |#~e1af5aa5|
+; For the first time, his voice falters.
+
+
+# ~35f23676
+; > TI: |#~35f23676|
+; I do not want you to die for my ideals.
+
+
+# ~dc451462
+; > NA: |#~dc451462|
+; His hand brushes your face thumb grazing your lips.
+
+
+# ~357e683f
+; > NA: |#~357e683f|
+; The gesture is quick. Warm.
+
+
+# ~6ce1dcd7
+; > NA: |#~6ce1dcd7|
+; Almost desperate.
+
+
+# ~6f72be26
+; > TI: |#~6f72be26|
+; If there is any justice in this world…
+
+
+# ~9e711022
+; > TI: |#~9e711022|
+; Perhaps one day we will meet again.
+
+
+# ~78c84d0c
+; > NA: |#~78c84d0c|
+; He steps back then disappears from the brush.
+
+
+# ~745f2d3d
+; > NA: |#~745f2d3d|
+; You watch, hidden.
+
+
+# ~7720f4ad
+; > NA: |#~7720f4ad|
+; Your heart pounding.
+
+
+# ~332e40e0
+; > NA: |#~332e40e0|
+; Soldiers emerge.
+
+
+# ~e48c7698
+; > GUARD: |#~e48c7698|
+; There!
+
+
+# ~92a1e82e
+; > NA: |#~92a1e82e|
+; Swords are raised.
+
+
+# ~f17bd123
+; > NA: |#~f17bd123|
+; Tiradentes does not resist. He raises his hands in surrender.
+
+
+# ~dcac4867
+; > NA: |#~dcac4867|
+; The Viscount of Barbacena appears right behind.
+
+
+# ~879b5ad0
+; > VI: |#~879b5ad0|
+; Well…
+
+
+# ~34752842
+; > VI: |#~34752842|
+; The great alferes.
+
+
+# ~88730674
+; > NA: |#~88730674|
+; His tone is almost amused.
+
+
+# ~d58e6ae
+; > VI: |#~d58e6ae|
+; So bold in your ideas.
+
+
+# ~168da3e3
+; > VI: |#~168da3e3|
+; And now, alone in the forest.
+
+
+# ~24041973
+; > NA: |#~24041973|
+; One of the soldiers grabs Tiradentes by the collar.
+
+
+# ~fe8483eb
+; > NA: |#~fe8483eb|
+; Another strikes him hard in the stomach.
+
+
+# ~e3e7a353
+; > NA: |#~e3e7a353|
+; The air rushes from his lungs, and he falls to his knees with a grunt of pain.
+
+
+# ~a96a348e
+; > GUARD: |#~a96a348e|
+; Traitor.
+
+
+# ~9e7eb3f4
+; > VI: |#~9e7eb3f4|
+; Take him.
+
+
+# ~6fc35b24
+; > VI: |#~6fc35b24|
+; The Crown will have great interest in your fate.
+
+
+# ~7bf18e35
+; > NA: |#~7bf18e35|
+; Chains are fastened around his wrists.
+
+
+# ~84f98362
+; > NA: |#~84f98362|
+; Before being led away, Tiradentes glances briefly at the forest.
+
+
+# ~d42cadda
+; > NA: |#~d42cadda|
+; Toward where you are hiding.
+
+
+# ~b0b2c90e
+; > NA: |#~b0b2c90e|
+; As if he knows you are still there.
+
+
+# ~da972519
+; > NA: |#~da972519|
+; Days pass, and Vila Rica changes.
+
+
+# ~f21a4314
+; > NA: |#~f21a4314|
+; Guards patrol every street.
+
+
+# ~18092fd0
+; > NA: |#~18092fd0|
+; Names are whispered, and some have vanished.
+
+
+# ~1ce03b64
+; > NA: |#~1ce03b64|
+; Of the Inconfidentes, only one was imprisoned, claiming sole guilt and responsibility.
+
+
+# ~2c02511
+; > NA: |#~2c02511|
+; Some allies were exiled, but the only one left in prison as an example is Tiradentes.
+
+
+# ~45c61be
+; > NA: |#~45c61be|
+; On a quiet night…
+
+
+# ~71eb1ceb
+; > NA: |#~71eb1ceb|
+; You manage to bribe a guard.
+
+
+# ~4b31c386
+; > GUARD: |#~4b31c386|
+; Five minutes.
+
+
+# ~8617ebed
+; > GUARD: |#~8617ebed|
+; No more than that.
+
+
+# ~c1cc6f43
+; > NA: |#~c1cc6f43|
+; You enter the prison and approach one of the last cells.
+
+
+# ~b2780c74
+; > NA: |#~b2780c74|
+; The cell is cold, the stone damp.
+
+
+# ~1e6bebb1
+; > NA: |#~1e6bebb1|
+; Chains are attached to the wall.
+
+
+# ~f304e6df
+; > NA: |#~f304e6df|
+; You approach, and Tiradentes is sitting there.
+
+
+# ~2e98769
+; > NA: |#~2e98769|
+; His head bowed.
+
+
+# ~91473386
+; > NA: |#~91473386|
+; As if the weight of the world is upon him.
+
+
+# ~1e2199c3
+; > NA: |#~1e2199c3|
+; He does not notice your presence immediately.
+
+
+# ~5fc7aace
+; > NA: |#~5fc7aace|
+; His head remains lowered.
+
+
+# ~79810172
+; > NA: |#~79810172|
+; The silence between you is heavy.
+
+
+# ~49443e50
+; > NA: |#~49443e50|
+; Slowly, he rises and leans against the bars, his gaze still down.
+
+
+# ~a96f6551
+; > NA: |#~a96f6551|
+; He looks thinner and more worn, his eyes swollen and deep-set.
+
+
+# ~79ac0f25
+; > @char {PLAYER}2.determined look:left pos:{leftmid}
+; > PLAYER: |#~79ac0f25|
+; I came to see you. Wanted to know how you were.
+
+
+# ~81dfd5eb
+; > NA: |#~81dfd5eb|
+; Tiradentes lets out a small sigh.
+
+
+# ~8c9a3cf
+; > @char TI.neutral look:left pos:{mid}
+; > TI: |#~8c9a3cf|
+; Like a man who already knows his destiny.
+
+
+# ~4952c38e
+; > NA: |#~4952c38e|
+; The words are spoken with far too much calm.
+
+
+# ~c9c1bf50
+; > @char {PLAYER}2.thinking look:left pos:{leftmid}
+; > PLAYER: |#~c9c1bf50|
+; Don’t say that.
+
+
+# ~b57cfd99
+; > PLAYER: |#~b57cfd99|
+; There might still be a way out.
+
+
+# ~5d95d23d
+; > NA: |#~5d95d23d|
+; He remains silent for a few seconds.
+
+
+# ~faa4e50f
+; > NA: |#~faa4e50f|
+; As if weighing his words.
+
+
+# ~e63f74d
+; > @char TI.sad look:left pos:{mid}
+; > TI: |#~e63f74d|
+; You have always been kind to me.
+
+
+# ~87021469
+; > TI: |#~87021469|
+; Even when I barely deserved it.
+
+
+# ~45507d86
+; > @char {PLAYER}2.determined look:left pos:{leftmid}
+; > PLAYER: |#~45507d86|
+; I did not come out of kindness.
+
+
+# ~f90cda25
+; > NA: |#~f90cda25|
+; Your voice comes out firmer than you expected.
+
+
+# ~55c06d50
+; > PLAYER: |#~55c06d50|
+; I came because I care about you.
+
+
+# ~5bfaca6e
+; > NA: |#~5bfaca6e|
+; For a moment, you think he will not respond.
+
+
+# ~606da4ac
+; > @char {PLAYER}2.sad look:left pos:{leftmid}
+; > PLAYER: |#~606da4ac|
+; I could not simply walk away.
+
+
+# ~7528dccc
+; > PLAYER: |#~7528dccc|
+; Not after everything.
+
+
+# ~495f3c68
+; > NA: |#~495f3c68|
+; Silence falls between you again.
+
+
+# ~48574ab
+; > NA: |#~48574ab|
+; Then slowly, he lifts his chin.
+
+
+# ~eceefa
+; > NA: |#~eceefa|
+; Tired and empty.
+
+
+# ~b0fc6ba5
+; > NA: |#~b0fc6ba5|
+; As if the future has vanished.
+
+
+# ~878e01c2
+; > PLAYER: |#~878e01c2|
+; Everything will be alright.
+
+
+# ~5914adfc
+; > PLAYER: |#~5914adfc|
+; We’ll find a way.
+
+
+# ~a7fc8e0c
+; > NA: |#~a7fc8e0c|
+; Tiradentes watches you in silence.
+
+
+# ~8ba2a7d2
+; > NA: |#~8ba2a7d2|
+; Then he shakes his head.
+
+
+# ~64dd08e8
+; > @char TI.determined look:left pos:{mid}
+; > TI: |#~64dd08e8|
+; No!!!
+
+
+# ~45a825d7
+; > TI: |#~45a825d7|
+; Do not wait for me.
+
+
+# ~f1586ddb
+; > NA: |#~f1586ddb|
+; He looks away.
+
+
+# ~5435f487
+; > TI: |#~5435f487|
+; Go. Live your life.
+
+
+# ~b3873e2f
+; > TI: |#~b3873e2f|
+; It is not worth waiting for a ghost.
+
+
+# ~ca47f53e
+; > NA: |#~ca47f53e|
+; He lowers his head again.
+
+
+# ~35228e00
+; > NA: |#~35228e00|
+; As you walk away from the cell, Tiradentes looks up one last time.
+
+
+# ~6025a2c
+; > NA: |#~6025a2c|
+; A few silent tears streak down his face.
+
+
+# ~82a7631b
+; > NA: |#~82a7631b|
+; But he does not call out to you.
+
+
+# ~14793e06
+; > NA: |#~14793e06|
+; He does not try to stop your departure.
+
+
+# ~850dbedd
+; > NA: |#~850dbedd|
+; He simply accepts that he is no longer a part of your life.
+

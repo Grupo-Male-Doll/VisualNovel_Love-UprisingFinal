@@ -1,0 +1,54 @@
+; English <en> to Portuguese (Brazil) <pt-BR> localization document for 'Male Doll Template/Scripts/Entry' Naninovel scenario script
+
+# ~2cabbece
+; > Print some text.
+; New game started.
+
+
+# ~27fb64c7
+; > Print text authored by Felix.
+; > Felix: |#~27fb64c7|
+; Hello there!
+
+
+# ~eefcce08
+; > Print text while changing the author appearance and don't wait CTC.
+; > Felix.Curious: |#~eefcce08|[>]
+; Have you already checked out the getting started guide?
+
+
+# ~eb00911d
+; > Show a choice.
+; > @choice "|#~eb00911d|"
+; Sure thing!
+
+
+# ~fd26ec88|~be8cf7c3
+; > Felix.Happy: |#~fd26ec88|[-]|#~be8cf7c3|
+; Awesome! In that case, you probably won't need this brief intro.| Feel free to remove it.
+
+
+# ~5ab9edcc
+; > @choice "|#~5ab9edcc|"
+; What's that?
+
+
+# ~7a963767|~e4d83c21
+; > Felix.Surprised: |#~7a963767|[-]|#~e4d83c21|
+; It's the essential guide that walks you through everything you need to get started with Naninovel.| You can find it at <b>naninovel.com/guide</b>.
+
+
+# ~8256afe6
+; > Felix.Persuasive: |#~8256afe6|
+; I highly recommend taking a look — it'll save you a lot of time.
+
+
+# ~cf612660
+; > Felix: |#~cf612660|
+; And if you prefer learning by example, you can import the 'Visual Novel' and 'Dialogue Mode' samples directly from Unity's Package Manager.
+
+
+# ~54f6894a|~b7e7b5fc
+; > Felix.Excited: |#~54f6894a|[-]|#~b7e7b5fc|
+; Anyway, I truly hope you'll find Naninovel helpful and enjoyable to use.| If you run into any issues or have questions, feel free to reach out to support at <b>naninovel.com/support</b>.
+

@@ -1,0 +1,316 @@
+; English <en> to Portuguese (Brazil) <pt-BR> localization document for 'Male Doll Template/Scripts/script_bad_end_1' Naninovel scenario script
+
+# ~fa320cb3
+; > NA: |#~fa320cb3|
+; You swallow hard, unsure of what to say.
+
+
+# ~f10c3895
+; > NA: |#~f10c3895|
+; The Viscount watches you for a long moment.
+
+
+# ~8dfe4090
+; > NA: |#~8dfe4090|
+; His eyes are cold. Calculating.
+
+
+# ~e74f6415
+; > VI: |#~e74f6415|
+; Tell me… under whose protection do you stand in Vila Rica?
+
+
+# ~8102a573
+; > NA: |#~8102a573|
+; He repeats the question, heavier this time.
+
+
+# ~9b99f834
+; > NA: |#~9b99f834|
+; It hangs in the air simple. Direct.
+
+
+# ~16394408
+; > NA: |#~16394408|
+; But your mind suddenly feels empty.
+
+
+# ~bd4eb893
+; > PLAYER: |#~bd4eb893|
+; I…
+
+
+# ~32b771c9
+; > NA: |#~32b771c9|
+; You hesitate.
+
+
+# ~cdac39b6
+; > NA: |#~cdac39b6|
+; No name comes to your lips. No protection. No ties.
+
+
+# ~b702c468
+; > NA: |#~b702c468|
+; The silence stretches beyond what is acceptable.
+
+
+# ~2562381f
+; > NA: |#~2562381f|
+; The Viscount tilts his head slightly.
+
+
+# ~61ddaa75
+; > VI: |#~61ddaa75|
+; No one?
+
+
+# ~c9c5fc00
+; > NA: |#~c9c5fc00|
+; A faint smile touches his lips without warmth.
+
+
+# ~aafdbe46
+; > VI: |#~aafdbe46|
+; Curious…
+
+
+# ~d0d572b3
+; > VI: |#~d0d572b3|
+; A soul without patron… without declared home… without a name to sustain it.
+
+
+# ~ed091d45
+; > NA: |#~ed091d45|
+; His gaze hardens.
+
+
+# ~4599927b
+; > VI: |#~4599927b|
+; And yet, you move among people… of interest.
+
+
+# ~5ca79607
+; > NA: |#~5ca79607|
+; He makes a subtle gesture with his hand. Two guards step toward you.
+
+
+# ~98179734
+; > PLAYER: |#~98179734|
+; I just
+
+
+# ~f9f3ab14
+; > VI: |#~f9f3ab14|
+; Yes, yes.
+
+
+# ~dcddfc21
+; > VI: |#~dcddfc21|
+; I imagine you will claim mere curiosity.
+
+
+# ~6c239222
+; > NA: |#~6c239222|
+; He takes a slow step forward.
+
+
+# ~7e6bceca
+; > VI: |#~7e6bceca|
+; But in times such as these… curiosity tends to be costly.
+
+
+# ~e7970b6b
+; > NA: |#~e7970b6b|
+; The guards are already at your side.
+
+
+# ~215aaac1
+; > AL: |#~215aaac1|
+; My Lord Viscount
+
+
+# ~bce3c41
+; > NA: |#~bce3c41|
+; Alvarenga intervenes, stepping forward.
+
+
+# ~dc296df3
+; > AL: |#~dc296df3|
+; I believe there has been a misunderstanding.
+
+
+# ~b105a514
+; > NA: |#~b105a514|
+; Before he can continue, the metallic sound of blades partially drawn cuts through the air.
+
+
+# ~33e319ca
+; > NA: |#~33e319ca|
+; The guards shift position a clear warning.
+
+
+# ~4da9190e
+; > TI: |#~4da9190e|
+; They are not
+
+
+# ~4abd9a6c
+; > NA: |#~4abd9a6c|
+; Tiradentes tries to step forward.
+
+
+# ~b3ff5a87
+; > NA: |#~b3ff5a87|
+; One of the guards raises his blade toward him.
+
+
+# ~ecc620eb
+; > GUARD: |#~ecc620eb|
+; One more step, and I shall consider it an affront to the Crown, alferes.
+
+
+# ~a1728db8
+; > NA: |#~a1728db8|
+; The movement forces him to stop.
+
+
+# ~2c1b1700
+; > NA: |#~2c1b1700|
+; But his eyes remain fixed on you.
+
+
+# ~ca6b4c20
+; > JO: |#~ca6b4c20|
+; This is excessive…
+
+
+# ~3eec4ae1
+; > NA: |#~3eec4ae1|
+; Joaquim speaks, clearly irritated.
+
+
+# ~cd2692b1
+; > JO: |#~cd2692b1|
+; To arrest someone for not knowing how to answer
+
+
+# ~a30f6d3e
+; > VI: |#~a30f6d3e|
+; For not being able to answer.
+
+
+# ~46a4fcf
+; > NA: |#~46a4fcf|
+; The Viscount cuts him off without raising his voice.
+
+
+# ~82657a26
+; > VI: |#~82657a26|
+; There is a difference.
+
+
+# ~d90a4da5
+; > NA: |#~d90a4da5|
+; Silence settles once more.
+
+
+# ~cb7285f9
+; > VI: |#~cb7285f9|
+; In the Crown’s lands, no one is no one by chance.
+
+
+# ~c4588253
+; > NA: |#~c4588253|
+; A small gesture of his hand.
+
+
+# ~d408f1e5
+; > VI: |#~d408f1e5|
+; Take them.
+
+
+# ~c3cc12ed
+; > PLAYER: |#~c3cc12ed|
+; Wait
+
+
+# ~5063d05e
+; > NA: |#~5063d05e|
+; A firm hand grabs your arm. Cold iron shackles snap around your wrist.
+
+
+# ~d9c388f8
+; > NA: |#~d9c388f8|
+; The sound is sharp.
+
+
+# ~4e9a2902
+; > NA: |#~4e9a2902|
+; Tiradentes takes an instinctive step forward. The guards advance again, he is forced to stop.
+
+
+# ~f44d1d7d
+; > NA: |#~f44d1d7d|
+; But he does not look away from you.
+
+
+# ~9456f97a
+; > NA: |#~9456f97a|
+; There is something in his eyes anger… and helplessness.
+
+
+# ~fcf0d118
+; > NA: |#~fcf0d118|
+; Alvarenga’s expression hardens, clearly calculating how far he can go.
+
+
+# ~2e2c313f
+; > NA: |#~2e2c313f|
+; Joaquim only watches, jaw tense.
+
+
+# ~93ad5a5
+; > NA: |#~93ad5a5|
+; The Viscount… does not react.
+
+
+# ~61959e9f
+; > NA: |#~61959e9f|
+; He simply observes.
+
+
+# ~ef9e652c
+; > NA: |#~ef9e652c|
+; As if everything had already been decided long before the question.
+
+
+# ~88e8a80f
+; > NA: |#~88e8a80f|
+; The square of Vila Rica continues to live around you.
+
+
+# ~f2cc4a8c
+; > NA: |#~f2cc4a8c|
+; People pass. Conversations carry on.
+
+
+# ~40359b2c
+; > NA: |#~40359b2c|
+; The world does not stop.
+
+
+# ~8551c92c
+; > NA: |#~8551c92c|
+; But for you, everything changes.
+
+
+# ~d53f918c
+; > NA: |#~d53f918c|
+; Now, you belong to another story…
+
+
+# ~bae6430b
+; > NA: |#~bae6430b|
+; One that rarely ends well.
+

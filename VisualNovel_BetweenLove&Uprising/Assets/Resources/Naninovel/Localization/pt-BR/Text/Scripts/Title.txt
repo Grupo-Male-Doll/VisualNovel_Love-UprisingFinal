@@ -1,0 +1,1 @@
+; English <en> to Portuguese (Brazil) <pt-BR> localization document for 'Male Doll Template/Scripts/Title' Naninovel scenario script

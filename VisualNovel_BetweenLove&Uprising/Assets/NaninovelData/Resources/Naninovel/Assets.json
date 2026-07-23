@@ -1963,6 +1963,12 @@
             "group": "ChoiceHandlers/00656726-8044-4133-8067-8a2e0eaea900"
         },
         {
+            "guid": "c203e47c514c63b41838ee7df4ed72e0",
+            "prefix": "Scripts",
+            "path": "Male Doll Template/Scripts/Entry",
+            "group": ""
+        },
+        {
             "guid": "de8521f0aeb9104499037d68b4751440",
             "prefix": "Scripts",
             "path": "Male Doll Template/Scripts/rota_barbara",
@@ -2011,15 +2017,9 @@
             "group": ""
         },
         {
-            "guid": "c203e47c514c63b41838ee7df4ed72e0",
-            "prefix": "Scripts",
-            "path": "Scenario/Entry",
-            "group": ""
-        },
-        {
             "guid": "d899bf6df906e1d42b347a84a590a87a",
             "prefix": "Scripts",
-            "path": "Scenario/Title",
+            "path": "Male Doll Template/Scripts/Title",
             "group": ""
         },
         {

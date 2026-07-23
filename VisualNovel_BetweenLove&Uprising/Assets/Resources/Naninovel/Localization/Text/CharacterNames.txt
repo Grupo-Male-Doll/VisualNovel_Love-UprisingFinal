@@ -1,0 +1,45 @@
+??: ???
+ACTOR: Actor
+ACTOR2: Actor #2
+ACTOR3: Actor #3
+AL: Alvarenga
+ANDORINHA: Swallow
+BA: Bárbara
+BURRO: Donkey
+CAPTAIN: Captain
+CE: Célio
+CEL: Cel
+CELINA: Celina
+COELHO: Rabbit
+EM: Scribe
+FR: Francisca
+GUARD: Guard
+GUEST1: Guest #1
+GUEST2: Guest #2
+GUEST3: Guest #3
+HI: Hipólita
+JO: Joaquim
+LION: Lion
+MC: 
+MERCHANT: Merchant
+NA: 
+NO: Fiancé
+NR: 
+OFICIAL: Officer
+OTHERWOMAN: Other Woman
+PLAYER: { name }
+PLAYERF: { name }
+PLAYERF2: { name }
+PLAYERM: { name }
+PLAYERM2: { name }
+POORPUPPET: Poor Puppet
+RICHPUPPET: Rich Puppet
+SOLDIER: Soldier
+TAX: Tax Collector
+TI: Tiradentes
+VI: Viscount
+VOICE: Distant Voice
+VOICE1: Voice #1
+VOICE2: Voice #2
+VOICE3: Voice #3
+WOMAN: Woman

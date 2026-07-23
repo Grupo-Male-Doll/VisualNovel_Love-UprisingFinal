@@ -1,0 +1,133 @@
+; English <en> to Portuguese (Brazil) <pt-BR> localization document for 'CharacterNames' managed text document
+
+; ???
+??: 
+
+; Actor
+ACTOR: 
+
+; Actor #2
+ACTOR2: 
+
+; Actor #3
+ACTOR3: 
+
+; Alvarenga
+AL: 
+
+; Swallow
+ANDORINHA: 
+
+; Bárbara
+BA: 
+
+; Donkey
+BURRO: 
+
+; Captain
+CAPTAIN: 
+
+; Célio
+CE: 
+
+; Cel
+CEL: 
+
+; Celina
+CELINA: 
+
+; Rabbit
+COELHO: 
+
+; Scribe
+EM: 
+
+; Francisca
+FR: 
+
+; Guard
+GUARD: 
+
+; Guest #1
+GUEST1: 
+
+; Guest #2
+GUEST2: 
+
+; Guest #3
+GUEST3: 
+
+; Hipólita
+HI: 
+
+; Joaquim
+JO: 
+
+; Lion
+LION: 
+
+MC: 
+
+; Merchant
+MERCHANT: 
+
+NA: 
+
+; Fiancé
+NO: 
+
+NR: 
+
+; Officer
+OFICIAL: 
+
+; Other Woman
+OTHERWOMAN: 
+
+; { name }
+PLAYER: 
+
+; { name }
+PLAYERF: 
+
+; { name }
+PLAYERF2: 
+
+; { name }
+PLAYERM: 
+
+; { name }
+PLAYERM2: 
+
+; Poor Puppet
+POORPUPPET: 
+
+; Rich Puppet
+RICHPUPPET: 
+
+; Soldier
+SOLDIER: 
+
+; Tax Collector
+TAX: 
+
+; Tiradentes
+TI: 
+
+; Viscount
+VI: 
+
+; Distant Voice
+VOICE: 
+
+; Voice #1
+VOICE1: 
+
+; Voice #2
+VOICE2: 
+
+; Voice #3
+VOICE3: 
+
+; Woman
+WOMAN: 

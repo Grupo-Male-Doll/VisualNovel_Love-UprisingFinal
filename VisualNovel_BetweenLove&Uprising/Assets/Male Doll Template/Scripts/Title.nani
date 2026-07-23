@@ -10,6 +10,6 @@
 ; Naninovel renders it as a placeholder with abstract visuals.
 
 ; Show the title menu.
-@showUI TitleUI wait_false
+@showUI TitleUI wait:false
 
 ; Click "NEW GAME" to play the entry script.

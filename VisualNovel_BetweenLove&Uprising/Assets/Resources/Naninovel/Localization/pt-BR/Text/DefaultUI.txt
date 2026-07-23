@@ -1,0 +1,244 @@
+; English <en> to Portuguese (Brazil) <pt-BR> localization document for 'DefaultUI' managed text document
+
+; CG GALLERY
+CGGallery.Title: GALERIA
+
+; NO
+Confirmation.No: NÃO
+
+; YES
+Confirmation.Yes: SIM
+
+; AUTO
+ControlPanel.Auto: Auto
+
+; CONT.
+ControlPanel.Continue: Continuar
+
+; HIDE
+ControlPanel.Hide: Esconder
+
+; LOAD
+ControlPanel.Load: Carregar
+
+; LOG
+ControlPanel.Log: Log
+
+; MENU
+ControlPanel.Menu: Menu
+
+; Q.LOAD
+ControlPanel.QuickLoad: 
+
+; Q.SAVE
+ControlPanel.QuickSave: 
+
+; BACK
+ControlPanel.Rollback: 
+
+; SAVE
+ControlPanel.Save: Salvar
+
+; SETTINGS
+ControlPanel.Settings: Opções
+
+; SKIP
+ControlPanel.Skip: Pular
+
+; TIPS
+ControlPanel.Tips: 
+
+; TITLE
+ControlPanel.Title: 
+
+; Are you sure you want to quit to the title screen?<br>Any unsaved game progress will be lost.
+ControlPanelTitleButton.ConfirmationMessage: 
+
+; Select a script to play
+ExternalScriptsBrowser.Info: 
+
+; EXTERNAL SCRIPTS
+ExternalScriptsBrowser.Title: 
+
+; Default
+GameSettingsFontDropdown.DefaultFontName: Padrão
+
+; Default
+GameSettingsFontSizeDropdown.Default: Padrão
+
+; Extra Large
+GameSettingsFontSizeDropdown.ExtraLarge: Extra larga
+
+; Large
+GameSettingsFontSizeDropdown.Large: Larga
+
+; Small
+GameSettingsFontSizeDropdown.Small: Pequena
+
+; Very Low
+GameSettingsGraphicsDropdown.GraphicOption1: Muito baixa
+
+; Low
+GameSettingsGraphicsDropdown.GraphicOption2: Baixa
+
+; Medium
+GameSettingsGraphicsDropdown.GraphicOption3: Média
+
+; High
+GameSettingsGraphicsDropdown.GraphicOption4: Alta
+
+; Very High
+GameSettingsGraphicsDropdown.GraphicOption5: Muito Alta
+
+; Ultra
+GameSettingsGraphicsDropdown.GraphicOption6: Ultra
+
+; Full Screen
+GameSettingsScreenModeDropdown.ExclusiveFullScreen: 
+
+; Full Screen Window
+GameSettingsScreenModeDropdown.FullScreenWindow: Full Screen
+
+; Maximized Window
+GameSettingsScreenModeDropdown.MaximizedWindow: Janela Maximizada
+
+; Windowed
+GameSettingsScreenModeDropdown.Windowed: Janela
+
+; Everything
+GameSettingsSkipModeDropdown.Everything: Tudo
+
+; Read Only
+GameSettingsSkipModeDropdown.ReadOnly: Apenas lido
+
+; Empty
+GameStateSlot.EmptySlotLabel: Vazio
+
+; CLOSE
+General.Close: Fechar
+
+; DELETE
+General.Delete: Deletar
+
+; NAV.
+General.Navigate: Navegar
+
+; PAGE
+General.Page: Página
+
+; RETURN
+General.Return: Retornar
+
+; SCROLL
+General.Scroll: 
+
+; SELECT
+General.Select: Selecionar
+
+; TAB
+General.Tab: 
+
+; VIEW
+General.View: Visualizar
+
+; Are you sure you want to delete save slot?
+SaveLoadMenu.DeleteSaveSlotMessage: Tem certeza que quer deletar o slot salvo?
+
+; Are you sure you want to overwrite save slot?
+SaveLoadMenu.OverwriteSaveSlotMessage: Tem certeza que quer sobrescrever o slot salvo?
+
+; AUTO
+SaveLoadMenu.Tab.AutoLoad: Auto
+
+; LOAD
+SaveLoadMenu.Tab.Load: Carregar
+
+; QUICK
+SaveLoadMenu.Tab.QuickLoad: 
+
+; SAVE
+SaveLoadMenu.Tab.Save: Salvar
+
+; Auto delay
+SettingsMenu.AutoDelay: 
+
+; Font
+SettingsMenu.Font: Fonte
+
+; Font size
+SettingsMenu.FontSize: Tamanho
+
+; Graphics
+SettingsMenu.Graphics: Gráfico
+
+; Language
+SettingsMenu.Language: Idioma
+
+; Message speed
+SettingsMenu.MessageSpeed: Vel. da Msg
+
+; Preview
+SettingsMenu.Preview: Preview
+
+; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis vitae tellus a pharetra. Aenean vitae ipsum in est lobortis vulputate.
+SettingsMenu.PreviewText: 
+
+; Resolution
+SettingsMenu.Resolution: Resolução
+
+; Screen mode
+SettingsMenu.ScreenMode: Modo de Tela
+
+; Skip mode
+SettingsMenu.SkipMode: Modo de pulo
+
+; BASIC
+SettingsMenu.Tab.Basic: Básico
+
+; SOUND
+SettingsMenu.Tab.Sound: Som
+
+; TEXT
+SettingsMenu.Tab.Text: Texto
+
+; Voice language
+SettingsMenu.VoiceLanguage: 
+
+; Effects volume
+SettingsMenu.VolumeEffects: Volume Efeitos
+
+; Master volume
+SettingsMenu.VolumeMaster: Volume Mestre
+
+; Music volume
+SettingsMenu.VolumeMusic: Volume Música
+
+; Voice volume
+SettingsMenu.VolumeVoice: 
+
+; CG GALLERY
+TitleMenu.CGGallery: GALERIA
+
+; CONTINUE
+TitleMenu.Continue: CONTINUAR
+
+; CREDITS
+TitleMenu.Credits: CRÉDITOS
+
+; EXIT
+TitleMenu.Exit: SAIR
+
+; EXTERNAL SCRIPTS
+TitleMenu.ExternalScripts: 
+
+; NEW GAME
+TitleMenu.NewGame: NOVO JOGO
+
+; SETTINGS
+TitleMenu.Settings: OPÇÕES
+
+; TIPS
+TitleMenu.Tips: DICAS
+
+; SUBMIT
+VariableInput.Submit: ENVIAR
