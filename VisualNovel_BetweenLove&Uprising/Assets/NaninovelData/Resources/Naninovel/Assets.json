@@ -2011,12 +2011,6 @@
             "group": ""
         },
         {
-            "guid": "7649363caaa03494b89f951bd3619c93",
-            "prefix": "Scripts",
-            "path": "Male Doll Template/Scripts/script_title",
-            "group": ""
-        },
-        {
             "guid": "d899bf6df906e1d42b347a84a590a87a",
             "prefix": "Scripts",
             "path": "Male Doll Template/Scripts/Title",
@@ -2125,7 +2119,7 @@
             "group": ""
         },
         {
-            "guid": "6fca3dc5b2384d9419e1474bc8bf62ae",
+            "guid": "88d03f19bcbff914ba33a7c9895e2d7c",
             "prefix": "UI",
             "path": "ConfirmationUI",
             "group": ""
@@ -2155,7 +2149,7 @@
             "group": ""
         },
         {
-            "guid": "bccd13eb2b5e7a044bc99b831453c9ae",
+            "guid": "53aad00e5cf184e458adb001c550518a",
             "prefix": "UI",
             "path": "LoadingUI",
             "group": ""

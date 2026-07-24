@@ -106,7 +106,7 @@ namespace Naninovel
 
         public virtual void DestroyService ()
         {
-            if (engine != null)
+            if (engine != null && LookController != null)
                 engine.OnUpdate -= LookController.Update;
 
             ObjectUtils.DestroyOrImmediate(thumbnailRT);

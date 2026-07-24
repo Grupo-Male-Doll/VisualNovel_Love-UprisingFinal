@@ -44,10 +44,13 @@ namespace Naninovel
 
         public virtual void DestroyService ()
         {
-            textLoader.OnLoaded -= HandleTextLoaded;
-            textLoader.OnUnloaded -= HandleTextUnloaded;
-            textLoader.ReleaseAll(this);
-            communityL10n.TextLoader.ReleaseAll(this);
+            if (textLoader != null)
+            {
+                textLoader.OnLoaded -= HandleTextLoaded;
+                textLoader.OnUnloaded -= HandleTextUnloaded;
+                textLoader.ReleaseAll(this);
+            }
+            communityL10n.TextLoader?.ReleaseAll(this);
             l10n?.RemoveChangeLocaleTask(HandleLocaleChanged);
         }
 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0142252c53e169c43a4916355d7e0109, type: 3}
   m_Name: ResourceProviderConfiguration
   m_EditorClassIdentifier: Elringus.Naninovel.Runtime::Naninovel.ResourceProviderConfiguration
-  ResourcePolicy: 2
+  ResourcePolicy: 0
   LazyBuffer: 25
   LazyPriority: 1
   RemoveActors: 1

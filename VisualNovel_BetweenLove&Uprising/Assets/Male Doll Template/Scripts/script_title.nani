@@ -1,4 +1,5 @@
 @bgm forest_day_birds
+@showUI TitleUI
 ;@back bg_mainMenu
 @stop
 

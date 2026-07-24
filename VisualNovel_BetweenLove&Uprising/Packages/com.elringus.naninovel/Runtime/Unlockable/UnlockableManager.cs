@@ -57,7 +57,7 @@ namespace Naninovel
 
         public virtual void DestroyService ()
         {
-            docs.DocumentLoader.ReleaseAll(this);
+            docs.DocumentLoader?.ReleaseAll(this);
         }
 
         public virtual void SaveServiceState (GlobalStateMap stateMap)

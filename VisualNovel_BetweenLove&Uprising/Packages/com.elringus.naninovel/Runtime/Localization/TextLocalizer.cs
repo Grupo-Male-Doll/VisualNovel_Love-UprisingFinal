@@ -34,10 +34,13 @@ namespace Naninovel
 
         public virtual void DestroyService ()
         {
-            scripts.ScriptLoader.OnUnloaded -= HandleScriptUnloaded;
+            if (scripts.ScriptLoader is { } loader)
+            {
+                loader.OnUnloaded -= HandleScriptUnloaded;
+                loader.ReleaseAll(this);
+            }
             l10n.RemoveChangeLocaleTask(HandleLocaleChanged);
-            scripts.ScriptLoader.ReleaseAll(this);
-            docs.DocumentLoader.ReleaseAll(this);
+            docs.DocumentLoader?.ReleaseAll(this);
         }
 
         public virtual async Awaitable Load (LocalizableText text, [MaybeNull] object holder = null)

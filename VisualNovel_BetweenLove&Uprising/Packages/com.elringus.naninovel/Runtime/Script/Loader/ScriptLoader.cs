@@ -227,7 +227,7 @@ namespace Naninovel
                 foreach (var list in lists)
                     list.ReleaseResources();
             }
-            Scripts.ScriptLoader.ReleaseAll(this);
+            Scripts.ScriptLoader?.ReleaseAll(this);
             Registry.Clear();
             LazyLoadingSpots.Clear();
         }
