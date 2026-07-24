@@ -69,6 +69,7 @@ NA: Francisca notices your gaze.
 @char {PLAYER}2.thinking look:left pos:{leftmid}
 PLAYER: This looks great.
 NA: You sit, take a bite of the bread and pause.
+@unlock Tips/paodequeijo
 NA: It tastes like pão de queijo.
 NA: A soft, involuntary sound of pleasure slips past your lips.
 @char {PLAYER}2.smile look:left pos:{leftmid}
@@ -623,6 +624,7 @@ TI: The gold taken from here does not remain here. It is sent overseas, to susta
 TI: And when there is no longer enough gold…
 NA: He tightens his grip slightly on the paper.
 @char TI.angry look:left pos:{rightmid}
+@unlock Tips/Derrama
 TI: They devise new ways to drain us. Taxes, levies… the Derrama.
 NA: There is bitterness in his voice, but also something deeper.
 TI: We are not subjects. We are resources.

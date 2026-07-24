@@ -1102,6 +1102,7 @@ FR: You escaped that.
 PLAYER: That?
 @char FR.neutral
 FR: More clove.
+@unlock Tips/clove
 @char {PLAYER}2.surprise
 PLAYER: Oh, yes…
 
@@ -1309,7 +1310,7 @@ FR: Joaquim is usually the talk of the town.
 
 PLAYER: I imagine so.
 
-NA: You bit the guava, the sweet and slightly acidic taste breaks the emptiness in your stomach.
+NA: You bite the guava, the sweet and slightly acidic taste breaks the emptiness in your stomach.
 @stopBgm fade:2 !wait
 @gosub #BlackScreen
 @back bg_squareDay.Crossfade time:0 !wait scale:3.0 pos:-65,90
@@ -4869,6 +4870,7 @@ NA: They both fall silent for a rare moment.
 PLAYER: Because honestly…
 @char JO.surprise
 @char TI.surprise
+@unlock Tips/ball
 PLAYER: I'm not going to stand here watching two handsome men fight over who owns the ball.
 
 NA: Complete silence as they both look at you confused.
@@ -4962,7 +4964,7 @@ NA: A few days later, Vila Rica seems heavier.
 NA: There's tension in the streets, people whispering.
 
 NA: Merchants complaining, and a constant rumor of new taxes.
-
+@unlock Tips/Derrama
 NA: The crown seems to want to squeeze Vila Rica with more charges and debts, perhaps applying the Derrama.
 
 NA: You end up going to Joaquim's house.

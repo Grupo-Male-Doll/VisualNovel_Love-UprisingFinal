@@ -17,7 +17,7 @@
 @set liberaJoaquim=false
 @set liberaTiradentes=false
 @set demoVersion=false
-;@gosub #unlockFullGallery
+; @gosub #unlockFullGallery
 
 ; Rota Comum
 ; Cena Start - Escolha
@@ -54,17 +54,17 @@ NA: Choose your name.
 @input name summary:"Choose your name."
 @stop
 
-;@choice Tiradentes goto:rota_tiradentes
-;@choice Hipolita goto:rota_hipolita
-;@choice Joaquim goto:rota_joaquim
-;@choice Barbara goto:rota_barbara
-;@choice Cel goto:rota_cel
-;@choice Comum
-;@stop
+@choice Tiradentes goto:"Scenario/rota_tiradentes"
+; @choice Hipolita goto:rota_hipolita
+; @choice Joaquim goto:rota_joaquim
+; @choice Barbara goto:rota_barbara
+; @choice Cel goto:rota_cel
+; @choice Comum
+; @stop
 
 @bgm backInTime volume:0.7
 
-;NA: “They say the mountains of Minas keep secrets."
+; NA: “They say the mountains of Minas keep secrets."
 NA: “They say the mountains of Minas keep secrets."
 NA: "Secrets buried beneath gold, blood, and promises…"
 NA: "But some promises refuse to stay buried."
@@ -178,6 +178,7 @@ NA: With an amused smile on his lips, he says:
 @char AL.smile look:left pos:{leftmid}
 ??: That happens. But folk usually wake in a bed, not on a road.
 PLAYER: You’re right… where are we?
+@unlock Tips/vilarica
 ??: In Vila Rica — or at least on the road leading to it.
 @char {PLAYER}.surprise look:left pos:{rightmid}
 PLAYER: Vila Rica?
@@ -194,6 +195,7 @@ NA: He nudges the horse forward at a slow pace, still observing you.
 PLAYER: São Paulo.
 @char AL.thinking look:left pos:{leftmid}
 NA: The man furrows his brow, thoughtful.
+@unlock Tips/Captaincy
 ??: The Captaincy of São Paulo?
 @char {PLAYER}.thinking look:left pos:{rightmid}
 PLAYER: If you say so… then I suppose it is.
@@ -448,7 +450,7 @@ NA: A firm voice slices through the air.
 ??: It belongs to the people.
 NA: Silence spreads, heavy and sudden.
 NA: A man steps forward, parting the crowd as he moves.
-NA: Long hair, steady posture, a determined gaze. 
+NA: Long hair, steady posture, a determined gaze.
 NA: Even before stepping up, he commands attention.
 NA: Alvarenga recognizes him instantly.
 AL: What does he think he’s doing now…?
@@ -464,6 +466,7 @@ NA: The murmuring slowly fades.
 NA: Sunlight strikes his face as he speaks again.
 ??: If even puppets understand the weight placed upon our backs… perhaps it is time we start listening to one another.
 NA: The soldiers exchange looks.
+@unlock Tips/Alferes
 SOLDIER: Mind your words, alferes.
 NA: Another soldier lets out a short, dry laugh.
 SOLDIER: Alferes… a small rank for such boldness.
@@ -477,6 +480,7 @@ NA: The man smiles calmly, almost politely.
 ; @char TI.smile look:left pos:{mid}
 
 ??: The Viscount knows how to count.
+@unlock Tips/Fifth
 ??: And he also knows that flogging artists won’t grow the fifth… nor erase the shadow of the levy.
 NA: Laughter now rises more freely.
 NA: He continues, without raising his voice.
@@ -507,7 +511,7 @@ NA: Then he resumes speaking, as if nothing had interrupted his train of thought
 ??: I speak in favor of people.
 NA: The soldiers exchange glances but do not advance.
 NA: They retreat, frustrated, restrained by the weight of the crowded square.
-;@back cg_black.Crossfade id:CG !wait
+; @back cg_black.Crossfade id:CG !wait
 @hide CG
 @gosub #BlackScreen
 @back bg_squareDay.Crossfade time:1.5 wait!
@@ -657,7 +661,7 @@ TI: And silence brings them as well.
 NA: He gives a short nod.
 TI: Farewell.
 NA: Without waiting for a reply, he disappears into the crowd.
-;@goto #TESTE
+; @goto #TESTE
 @goto #scene1T-3end
 
 
@@ -771,7 +775,7 @@ NA: The captain watches him with a cold smile — almost satisfied.
 CAPTAIN: You never tire of standing where you shouldn’t… do you?
 NA: He circles Alvarenga slowly, assessing him.
 CAPTAIN: First… certain poorly explained dealings in your household.
-CAPTAIN: Then your persistent protection of the alferes. 
+CAPTAIN: Then your persistent protection of the alferes.
 CAPTAIN: Now this stranger who appears from nowhere… and listens too closely.
 NA: The captain’s gaze slides toward you.
 CAPTAIN: You do seem fond of collecting trouble, Mr. Alvarenga.
@@ -1186,7 +1190,7 @@ NA: You shake your head, trying — unsuccessfully — to push the thought away.
 NA: Then you climb the inn’s stairs, knowing that tomorrow Vila Rica won’t let you pass unnoticed.
 
 @gosub #BlackScreen
-;@goto "MD Template (Resources)/Scripts/rota_tiradentes"
+; @goto "MD Template (Resources)/Scripts/rota_tiradentes"
 @goto #End_RotaComum
 
 ; Cena 5H- 1-Rota da Hipolita
@@ -1475,7 +1479,7 @@ NA: She notices your hands still joined and gently lets go, a faint blush rising
 NA: She parts her lips as if to say something, but stops herself. Nothing comes out.
 NA: Still… you noticed.
 
-;@back cg_black.Crossfade id:CG !wait
+; @back cg_black.Crossfade id:CG !wait
 @hide CG
 @gosub #BlackScreen
 @back bg_gardenDay.Crossfade time:1.5 wait!
@@ -1657,7 +1661,7 @@ NA: Joaquim glances at you. For a heartbeat, his gaze softens.
 
 NA: He releases the collar abruptly and draws a measured breath.
 
-;@back cg_black.Crossfade id:CG !wait
+; @back cg_black.Crossfade id:CG !wait
 @hide CG
 @gosub #BlackScreen
 @back bg_marketDay.Crossfade time:1.5 wait!
@@ -1909,7 +1913,7 @@ NA: That’s when you see her.
 @back CG04_01.Crossfade id:CG time:0 wait!
 @unlock CG/CG04_1
 
-NA: Leaning against one of the columns stands a woman radiating confidence, dressed far too elegantly for a place like this. 
+NA: Leaning against one of the columns stands a woman radiating confidence, dressed far too elegantly for a place like this.
 NA: The corset shapes her silhouette, her long hair falling in deliberate disarray. She speaks with merchants like someone who owns the game.
 NA: She watches a negotiation unfold, fingers tapping impatiently.
 
@@ -1927,7 +1931,7 @@ NA: Her tone is light — but sharp.
 PLAYER: I didn’t expect this much activity out here.
 NA: A corner of her mouth lifts.
 
-;@back cg_black.Crossfade id:CG !wait
+; @back cg_black.Crossfade id:CG !wait
 @hide CG
 @gosub #BlackScreen
 @back bg_warehouseDay.Crossfade time:1.5 wait!
@@ -2209,7 +2213,7 @@ NA: Yet the letter in your pocket suddenly feels heavier.
 @gosub #BlackScreen
 @goto #choiceRota
 
-;Cena 1C-1 — Rota Célio
+; Cena 1C-1 — Rota Célio
 
 # Rota_Teatro
 @hide AL
@@ -2283,7 +2287,7 @@ NA: As if saying, “Yes, I see you there.” And you remember the small spark o
 ??: When the world grows too heavy… come to the theater. Laughter is still free there.
 NA: The memory fades.
 
-;@back cg_black.Crossfade id:CG !wait
+; @back cg_black.Crossfade id:CG !wait
 @hide CG
 @gosub #BlackScreen
 @back bg_theater.Crossfade time:1.5 wait!
@@ -2664,27 +2668,27 @@ NA: One that rarely ends well.
 # End_RotaComum
 @stopBgm fade:1
 @if demoVersion=true
-	@showUI DemoEndUI
+@showUI DemoEndUI
 @endif
 
 @if afetoHipolita=1
-	@goto rota_hipolita
+@goto rota_hipolita
 @endif
 @if afetoTiradentes=1
-	@goto rota_tiradentes
+@goto rota_tiradentes
 @endIf
 @if afetoJoaquim=1
-	@goto rota_joaquim
+@goto rota_joaquim
 @endIf
 @if afetoBarbara=1
-	@goto rota_barbara
+@goto rota_barbara
 @endIf
 @if afetoCel=1
-	@goto rota_cel
+@goto rota_cel
 @endIf
 
 ; @title
-;
+; 
 @stop
 
 ; @hideChars

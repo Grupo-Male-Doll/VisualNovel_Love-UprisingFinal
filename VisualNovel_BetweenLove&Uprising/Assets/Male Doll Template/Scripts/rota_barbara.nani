@@ -112,8 +112,8 @@ NA: The sweet smell coming from the kitchen overcomes your dignity.
 @char FR.neutral pos:{rightmid} !wait
 @char {PLAYER}2.neutral pos:{leftmid}
 NA: Francisca seems to have already set something aside for you.
-
-NA: A simple board on the table with still-warm cornbread, fresh cheese, and guava paste.
+@unlock Tips/Goiabada
+NA: A simple board on the table with still-warm cornbread, fresh cheese, and goiabada.
 
 PLAYER: Is this breakfast?
 
@@ -2173,8 +2173,8 @@ NA: You wash yourself with cold water, but at least your face and body are clean
 PLAYER: I miss shampoo, conditioner... hair cream...
 
 NA: And then you guys have breakfast, or something like that.
-
-NA: You swallow the bread, still warm, and taste the pão-de-queijo and then the cornbread.
+@unlock Tips/paodequeijo
+NA: You swallow the bread, still warm, and taste the pão de queijo and then the cornbread.
 
 PLAYER: (My God.)
 PLAYER: (This is dangerously delicious.)
@@ -5743,7 +5743,7 @@ NA: Silence.
 FR: Let's pray to heaven that the doctor never develops an inclination for pastoral life.
 @char {PLAYER}2.thinking
 PLAYER: I don't understand.
-
+@unlock Tips/Horns
 FR: With so many horns, he'd end up being mistaken for a goat.
 @char {PLAYER}2.neutral
 NA: Laughter settles in your throat, but you feel guilty too.

@@ -41,6 +41,7 @@ FR: Yes.
 FR: But it might not be how you hope.
 NA: She turns away and goes into the pantry.
 NA: Not long after, she lays some items on the counter.
+@unlock Tips/clove
 NA: Leaves, cloves, and a small amount of powder.
 NA: Your head tilts to the side as you consider the items.
 @char {PLAYER}2.thinking
@@ -78,6 +79,7 @@ NA: Its texture is soft on the inside, slightly gooey.
 @char {PLAYER}2.surprise
 NA: The taste surprises you.
 PLAYER: (...This...)
+@unlock Tips/paodequeijo
 PLAYER: (Almost tastes like pão de queijo.)
 @char {PLAYER}2.neutral
 NA: Coffee comes next, strong and bitter.
